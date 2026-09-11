@@ -1,0 +1,18 @@
+{
+  "query_manifest_sha256": "78a3842d036d1c8ad3215aff3e11671a4ff36fdc0c89bb387887611f253be973",
+  "source_manifest_sha256": "62dd8f6b71ac2d49814271dc96b84ac5a2dd0ae34b61ed0508344fa5db54b815",
+  "pilot_summary_sha256": "9add56575761fbea2e09d93aa78d90f0115e717f5325210b4c542af509ba5963",
+  "allele_audit_sha256": "7aeb84c257f1784eac6984d755be759199192cc49430ec6ffed9e05af65ff685",
+  "queries": 8,
+  "preserved_query_rows": 121,
+  "expression_comparisons": 4,
+  "ubash3a_splice_rows": 2,
+  "annotation_rows": 40,
+  "training_track_rows": 18,
+  "beta_units": "inverse-normalized molecular phenotype per ALT allele; not a percent or fold-change",
+  "confidence_intervals": "descriptive Wald beta +/- 1.96 SE; no cross-study meta-analysis",
+  "independence": "BLUEPRINT reuses a benchmark cohort; DICE conditions share donors; genome intervals were not held out; exact training donor overlap unresolved",
+  "junction_conversion": "regtools BED12 to LeafCutter: A=start+firstBlockSize; B=end-lastBlockSize+1. Convert to [A,B-1).",
+  "strand_policy": "Preserve cluster and annotated gene strands separately; no silent flip",
+  "no_new_alphagenome_requests": true
+}

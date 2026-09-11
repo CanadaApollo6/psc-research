@@ -1,0 +1,9 @@
+dataset_id,study,sample_group,quant_method,sample_size,queried_variant,chromosome_in_index,returned_rows_at_position,target_gene_variant_rows,absence_interpretation
+QTD000021,BLUEPRINT,monocyte,ge,191,chr19_46718300_C_G,True,35,1,all nominal gene-level rows queried
+QTD000479,Schmiedel_2018,CD4_T-cell_naive,ge,88,chr21_42434957_A_C,True,23,1,all nominal gene-level rows queried
+QTD000483,Schmiedel_2018,CD4_T-cell_naive,leafcutter,88,chr21_42434957_A_C,False,0,0,not a null result; cc files retain selected tag traits
+QTD000484,Schmiedel_2018,CD4_T-cell_anti-CD3-CD28,ge,89,chr21_42434957_A_C,True,18,1,all nominal gene-level rows queried
+QTD000488,Schmiedel_2018,CD4_T-cell_anti-CD3-CD28,leafcutter,89,chr21_42434957_A_C,False,0,0,not a null result; cc files retain selected tag traits
+QTD000504,Schmiedel_2018,monocyte_naive,ge,91,chr19_46718300_C_G,True,36,1,all nominal gene-level rows queried
+QTD000377,Lepik_2017,blood,leafcutter,471,chr21_42434957_A_C,True,7,1,not a null result; cc files retain selected tag traits
+QTD000553,TwinsUK,blood,leafcutter,195,chr21_42434957_A_C,True,2,1,not a null result; cc files retain selected tag traits

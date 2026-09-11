@@ -1,0 +1,381 @@
+{
+  "version": "0.1",
+  "notes": "Exact public metadata, tabix indexes and first compressed blocks for targeted extraction. Whole multi-gigabyte association files were not downloaded or hashed. Dataset metadata comes from catalogue release 7; current archive URLs are pinned through extracted subsets and index/header hashes.",
+  "sources": [
+    {
+      "id": "eqtl-r7-metadata",
+      "file": "qtl-eqtl-r7-metadata.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/data_tables/dataset_metadata_r7.tsv",
+      "max_bytes": 5000000,
+      "sha256": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+      "retrieved_at_utc": "2026-09-11T23:22:20.912218+00:00",
+      "bytes": 75969
+    },
+    {
+      "id": "eqtl-tabix-paths",
+      "file": "qtl-eqtl-tabix-paths.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/tabix/tabix_ftp_paths.tsv",
+      "max_bytes": 5000000,
+      "sha256": "20912adbeb700bb0224e73f1acba79921cb7afd4323955b00e4e9a73da49b7f4",
+      "retrieved_at_utc": "2026-09-11T23:22:21.394687+00:00",
+      "bytes": 287387
+    },
+    {
+      "id": "eqtl-columns",
+      "file": "qtl-eqtl-columns.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/tabix/Columns.md",
+      "max_bytes": 5000000,
+      "sha256": "4bff8a760616c57238ad00eb5ace76817cc367ab7c26449efdf96cbb067de994",
+      "retrieved_at_utc": "2026-09-11T23:23:23.348197+00:00",
+      "bytes": 5862
+    },
+    {
+      "id": "eqtl-data-access",
+      "file": "qtl-eqtl-data-access.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Data_access/",
+      "max_bytes": 5000000,
+      "sha256": "02be60ba6fa815bb7aaf58c5ab8ecf83128a67c550812ecf767e51a5c69d3861",
+      "retrieved_at_utc": "2026-09-11T23:30:43.452252+00:00",
+      "bytes": 16699
+    },
+    {
+      "id": "eqtl-methods",
+      "file": "qtl-eqtl-methods.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Methods/",
+      "max_bytes": 5000000,
+      "sha256": "93566c27f7748d87eaf041577b90e6937f3157b2fdfea5201f3ebc809bd7b273",
+      "retrieved_at_utc": "2026-09-11T23:26:30.120077+00:00",
+      "bytes": 17657
+    },
+    {
+      "id": "blueprint-paper",
+      "file": "qtl-blueprint-paper.data",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5119954/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "19ab35556c770fef6bcc9542898f2d97851251eb1393c28f57e5a66b32ee2238",
+      "retrieved_at_utc": "2026-09-11T23:20:13.527152+00:00",
+      "bytes": 309606
+    },
+    {
+      "id": "blueprint-original-qtl-readme",
+      "file": "qtl-blueprint-original-qtl-readme.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/blueprint/blueprint_Epivar/qtl_as/QTL_RESULTS/README.QTL",
+      "max_bytes": 5000000,
+      "sha256": "ffe47695f8332c54a6f032b3897d830ec2c34ba30c359f10fd3fb644b5872e0b",
+      "retrieved_at_utc": "2026-09-11T23:24:17.448212+00:00",
+      "bytes": 170
+    },
+    {
+      "id": "DICE-paper-html",
+      "file": "qtl-DICE-paper-html.data",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289654/",
+      "max_bytes": 5000000,
+      "sha256": "a52e234c0162f9fcd4f2c2c483f5ab1eefdd85da46114e718ad22e12e729d2c6",
+      "retrieved_at_utc": "2026-09-11T23:27:19.887772+00:00",
+      "bytes": 293551
+    },
+    {
+      "id": "eqtl-release6-xml",
+      "file": "qtl-eqtl-release6-xml.data",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10538656/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "2496f3014b3bd7301c756f2843e0fb04386a6bc1fec52dfd9f563f0b14a1224d",
+      "retrieved_at_utc": "2026-09-11T23:30:43.843152+00:00",
+      "bytes": 193717
+    },
+    {
+      "id": "Lepik-paper",
+      "file": "qtl-Lepik-paper.data",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5609773/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "da01f665cc6fb95fdce1bab2a11b83c2deb4be613bf67e8c0ebd2b19f78dfab9",
+      "retrieved_at_utc": "2026-09-11T23:33:06.332876+00:00",
+      "bytes": 179077
+    },
+    {
+      "id": "alphagenome-supplement-tables",
+      "file": "qtl-alphagenome-supplement-tables.data",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-10014-0/MediaObjects/41586_2025_10014_MOESM3_ESM.xlsx",
+      "max_bytes": 25000000,
+      "sha256": "833cb78b6ae6fe39415cfff296ac00c48d800326139f13eb307531a1cc133154",
+      "retrieved_at_utc": "2026-09-11T23:30:08.682697+00:00",
+      "bytes": 1475352
+    },
+    {
+      "id": "leafcutter-cluster-pinned",
+      "file": "qtl-leafcutter-cluster-pinned.data",
+      "url": "https://raw.githubusercontent.com/davidaknowles/leafcutter/2c9907ef66adf0bfb3092f0ceb6886ee5c046fbb/clustering/leafcutter_cluster_regtools.py",
+      "max_bytes": 5000000,
+      "sha256": "4228ef4ff41625a0bc3d004cff85bd7a6eb82e44b8f64c021e997077d587293f",
+      "retrieved_at_utc": "2026-09-11T23:33:05.403601+00:00",
+      "bytes": 17072
+    },
+    {
+      "id": "leafcutter-commit",
+      "file": "qtl-leafcutter-commit.data",
+      "url": "https://api.github.com/repos/davidaknowles/leafcutter/commits/master",
+      "max_bytes": 5000000,
+      "sha256": "e1602173f0ee778220be115fe51364eec34cd7b1bf19c2d6d70a1484ddc12540",
+      "retrieved_at_utc": "2026-09-11T23:31:30.975725+00:00",
+      "bytes": 5516
+    },
+    {
+      "id": "eqtl-rnaseq-release-tree",
+      "file": "qtl-eqtl-rnaseq-release-tree.data",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/rnaseq/git/trees/v22.04.1?recursive=1",
+      "max_bytes": 5000000,
+      "sha256": "04acf0cf28e9146cebbc4dcc248b3ef3b66c1cb9da22317b2c404bdcf32e397e",
+      "retrieved_at_utc": "2026-09-11T23:30:08.639903+00:00",
+      "bytes": 24493
+    },
+    {
+      "id": "eqtl-leafcutter-module",
+      "file": "qtl-eqtl-leafcutter-module.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/rnaseq/v22.04.1/modules/leafcutter.nf",
+      "max_bytes": 5000000,
+      "sha256": "5aae433b8b9310aaff35a3cdb0dcbab4dd713d92cba705a0b50d9f2d1cc98d56",
+      "retrieved_at_utc": "2026-09-11T23:31:30.831180+00:00",
+      "bytes": 1488
+    },
+    {
+      "id": "eqtl-study-design",
+      "file": "qtl-eqtl-study-design.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Studies/",
+      "max_bytes": 5000000,
+      "sha256": "5679ec9c9e801341078e0093f5702a7633328d10956ff182a968bf68e5b4a090",
+      "retrieved_at_utc": "2026-09-11T23:30:43.554318+00:00",
+      "bytes": 47869
+    },
+    {
+      "id": "zenodo-leafcutter-metadata",
+      "file": "qtl-zenodo-leafcutter-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746",
+      "max_bytes": 5000000,
+      "sha256": "8cb0b9106b2f43b707e95447c9bc9140714583f8844e17864958d9f83f01d069",
+      "retrieved_at_utc": "2026-09-11T23:31:31.827809+00:00",
+      "bytes": 39642
+    },
+    {
+      "id": "QTD000377-phenotype-metadata",
+      "file": "qtl-QTD000377-phenotype-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746/files/leafcutter_QTD000377_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 4000000,
+      "sha256": "fbaa7b2c6c2471d0ee9eca4805ead00fab6e818dd38503cad894344c66dff06e",
+      "retrieved_at_utc": "2026-09-11T23:33:05.239670+00:00",
+      "bytes": 2098807
+    },
+    {
+      "id": "QTD000483-phenotype-metadata",
+      "file": "qtl-QTD000483-phenotype-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746/files/leafcutter_QTD000483_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 4000000,
+      "sha256": "ddccfbc979e5504ebe7ac9bf4541cf32cf9975fc4acab7a95d0dc9a9a4cb99a5",
+      "retrieved_at_utc": "2026-09-11T23:33:05.211697+00:00",
+      "bytes": 1380149
+    },
+    {
+      "id": "QTD000488-phenotype-metadata",
+      "file": "qtl-QTD000488-phenotype-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746/files/leafcutter_QTD000488_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 4000000,
+      "sha256": "ddccfbc979e5504ebe7ac9bf4541cf32cf9975fc4acab7a95d0dc9a9a4cb99a5",
+      "retrieved_at_utc": "2026-09-11T23:33:05.343017+00:00",
+      "bytes": 1380149
+    },
+    {
+      "id": "QTD000553-phenotype-metadata",
+      "file": "qtl-QTD000553-phenotype-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746/files/leafcutter_QTD000553_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 4000000,
+      "sha256": "14321a27bfe4400e366f7b3673cb6de3dbcd101b24bbdd60f165e481ea39b10b",
+      "retrieved_at_utc": "2026-09-11T23:33:05.567903+00:00",
+      "bytes": 2856239
+    },
+    {
+      "id": "DICE-cd4-splice-permuted",
+      "file": "qtl-DICE-cd4-splice-permuted.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000483/QTD000483.permuted.tsv.gz",
+      "max_bytes": 3000000,
+      "sha256": "1304da5b15b41a20878bd1a80b708ff7aa3c4f38d8c2f8d6ffb0f62e76e393a1",
+      "retrieved_at_utc": "2026-09-11T23:27:20.803930+00:00",
+      "bytes": 839829
+    },
+    {
+      "id": "DICE-activated-splice-permuted",
+      "file": "qtl-DICE-activated-splice-permuted.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000488/QTD000488.permuted.tsv.gz",
+      "max_bytes": 3000000,
+      "sha256": "b00ff7a490cc70d04d62e5eb467596ad5c668764b0ac27aa4a4fb0fba593b03e",
+      "retrieved_at_utc": "2026-09-11T23:27:20.705839+00:00",
+      "bytes": 820796
+    },
+    {
+      "id": "QTD000021-index",
+      "file": "qtl-QTD000021-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "9e1da70c6e0c2a51459bcde4284a71f8a0cef040a3ec739ddcabeeece145cfcd",
+      "retrieved_at_utc": "2026-09-11T23:24:18.779348+00:00",
+      "bytes": 1935109
+    },
+    {
+      "id": "QTD000021-header",
+      "file": "qtl-QTD000021-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "9072a4e3c32a36f7deeabf676ad4cb59a19d449ebae066cc2b55b3c9bb3354e2",
+      "retrieved_at_utc": "2026-09-11T23:32:16.293218+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000479-index",
+      "file": "qtl-QTD000479-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000479/QTD000479.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "82c5d30c4a4dc65f0563d308bb25777cc09116b71b489ac9ab8162c85d3c42db",
+      "retrieved_at_utc": "2026-09-11T23:25:55.922794+00:00",
+      "bytes": 1894567
+    },
+    {
+      "id": "QTD000479-header",
+      "file": "qtl-QTD000479-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000479/QTD000479.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "1760686b68bd768d856eb3c5187efbaade26d41581601f8d76ce414d7325ccd0",
+      "retrieved_at_utc": "2026-09-11T23:25:59.222254+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000483-index",
+      "file": "qtl-QTD000483-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000483/QTD000483.cc.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "e05a139e73213e951654ac95b01259e8e1af7ec8325489016f3adbdab4ba055a",
+      "retrieved_at_utc": "2026-09-11T23:26:01.718648+00:00",
+      "bytes": 88214
+    },
+    {
+      "id": "QTD000483-header",
+      "file": "qtl-QTD000483-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000483/QTD000483.cc.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "a9b80c6c7ccfa0325484601a587c2898a67228defb4eb54ae67bf3786a193bf8",
+      "retrieved_at_utc": "2026-09-11T23:27:18.854649+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000484-index",
+      "file": "qtl-QTD000484-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000484/QTD000484.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "da6401b7c20e0090b6142376a25ef96098a511c47de00c4e66fdc7fb18da0c6f",
+      "retrieved_at_utc": "2026-09-11T23:27:22.482665+00:00",
+      "bytes": 1855136
+    },
+    {
+      "id": "QTD000484-header",
+      "file": "qtl-QTD000484-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000484/QTD000484.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "afa484dd3b0159ddd798fe7ece62abad037e8b708258a2901f5d05ec421cbbf0",
+      "retrieved_at_utc": "2026-09-11T23:27:25.883611+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000488-index",
+      "file": "qtl-QTD000488-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000488/QTD000488.cc.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "0b1b8b9c1a0c996d6373e6c4374a141e79ac8ab32fa316f320372c454d68304f",
+      "retrieved_at_utc": "2026-09-11T23:27:28.381017+00:00",
+      "bytes": 60498
+    },
+    {
+      "id": "QTD000488-header",
+      "file": "qtl-QTD000488-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000488/QTD000488.cc.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "ea7d1af421b24c6272e80e11b35a49267e9e20269580680a6b26e25177206776",
+      "retrieved_at_utc": "2026-09-11T23:27:31.675284+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000504-index",
+      "file": "qtl-QTD000504-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "87f5f844563eab624d46f5c52f9b3ccee5b1dc758ab4ea1c25b044d7324495d0",
+      "retrieved_at_utc": "2026-09-11T23:27:35.387584+00:00",
+      "bytes": 1840152
+    },
+    {
+      "id": "QTD000504-header",
+      "file": "qtl-QTD000504-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "f06ef784a2ca2b02f5bb1b21d22a5633958693871f2b9c0118f0848b6b4fa30b",
+      "retrieved_at_utc": "2026-09-11T23:27:38.690651+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000377-index",
+      "file": "qtl-QTD000377-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000019/QTD000377/QTD000377.cc.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "0d772e7a7cde0754ea59af8cac5d0429f0e4d9b4a703f9677fb62b6fb6bf2f8b",
+      "retrieved_at_utc": "2026-09-11T23:29:14.350935+00:00",
+      "bytes": 880354
+    },
+    {
+      "id": "QTD000377-header",
+      "file": "qtl-QTD000377-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000019/QTD000377/QTD000377.cc.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "a6a4c9148b3448172f50b7a2443df627d265aac0eb08e156a26535dc68eacdfc",
+      "retrieved_at_utc": "2026-09-11T23:29:17.643077+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000553-index",
+      "file": "qtl-QTD000553-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000029/QTD000553/QTD000553.cc.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "1a44e5ca49afe505a8eb91efd7228d5b9725ab8dc8fd5093dedd5a1adb78f0f6",
+      "retrieved_at_utc": "2026-09-11T23:29:20.326067+00:00",
+      "bytes": 279482
+    },
+    {
+      "id": "QTD000553-header",
+      "file": "qtl-QTD000553-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000029/QTD000553/QTD000553.cc.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "31514e337a79dd2e072fbe722506d7ae70277890fe1bee56b9145552ed63c550",
+      "retrieved_at_utc": "2026-09-11T23:29:23.615744+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    }
+  ]
+}

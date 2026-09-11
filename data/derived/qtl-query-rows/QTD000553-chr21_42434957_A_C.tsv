@@ -1,0 +1,3 @@
+molecular_trait_id	chromosome	position	ref	alt	variant	ma_samples	maf	pvalue	beta	se	type	ac	an	r2	molecular_trait_object_id	gene_id	median_tpm	rsid
+21:42432202:42437488:clu_11000_+	21	42434957	A	C	chr21_42434957_A_C	96	0.284615	4.87677e-09	0.671672	0.109212	SNP	111	390	0.9016	clu_11000_+	ENSG00000160185	25.654	rs1893592
+21:42904276:42908864:clu_11015_+	21	42434957	A	C	chr21_42434957_A_C	96	0.284615	0.833137	0.0255948	0.121311	SNP	111	390	0.9016	clu_11015_+	ENSG00000160194	15.409	rs1893592

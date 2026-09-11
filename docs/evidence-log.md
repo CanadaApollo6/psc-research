@@ -56,3 +56,16 @@ See the [full audit](../reports/mechanism-audit.md). The earlier model predictio
 - The targeted original GWAS rows are discovery-stage results, not the full meta-analysis or the later fine-mapping dataset. Their P-values and sample scope must not be silently substituted.
 
 No outreach, personal-genome analysis, intervention recommendation or clinical efficacy claim resulted from this work.
+
+## 2026-09-11 — Measured RNA and external cohort checks
+
+See the [full QTL follow-up](../reports/qtl-followup.md). Eight indexed archive queries preserve 121 association rows. Thirty-nine public source files pin metadata, headers, indexes and supporting documents. No further AlphaGenome request was made.
+
+- Direct PRKD2 rs313839 C>G coefficients are positive in reprocessed BLUEPRINT monocytes (beta 0.908576, P 1.7097e-23, n=191) and DICE classical monocytes (0.921304, P 2.28923e-10, n=91). ALT is explicitly the effect allele. With working risk C, this supports risk-associated lower RNA and agrees with the model. BLUEPRINT reuses the original cohort; DICE is separate. This does not retroactively turn the frozen pilot exclusion into a prespecified success.
+- UBASH3A rs1893592 A>C coefficients are positive in DICE resting CD4 (1.24972, P 1.21399e-23, n=88) and 4-hour CD3/CD28-activated CD4 (0.710505, P 3.66393e-06, n=89), opposite the model's negative gene-level score. The two DICE conditions share donors.
+- No UBASH3A splice trait is assigned in the retrieved DICE phenotype metadata. Its filtered splice indexes omit chromosome 21. Neither observation is a measured null effect. Catalogue connected-component files retain selected tag traits rather than every phenotype.
+- Lepik_2017 blood contains the exact +29 boundary after documented coordinate conversion, with beta 0.523483 per C (P 1.98464e-15, n=471). The source cluster is labeled minus while the assigned gene is plus. A genome-wide metadata check finds 115,561/116,015 unique single-gene phenotypes disagree in this dataset (99.61%). Preserve both labels; the result supports boundary/direction agreement provisionally, with unresolved strand provenance and mixed-cell context.
+- TwinsUK has a positive association for a different exon-spanning junction, not the +29 junction. Its sample count is not evidence of independent unrelated donors. Both the positive association and the missing +29 measurement remain reported.
+- Supplementary Table 2 of AlphaGenome supplies 18 relevant track metadata rows, with ENCODE accessions. Donor-level overlap with QTL cohorts remains unresolved, and ALL_FOLDS does not hold out these genomic regions.
+
+The original literature labels, initial wrong donor index, corrected model results and opposing prior splice measurements remain in the record. Researcher questions were updated but not sent.

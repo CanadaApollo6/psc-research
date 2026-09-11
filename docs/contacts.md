@@ -2,6 +2,14 @@
 
 Verified from the linked public sources on 2026-09-11. Contact details are professional and public. No outreach has been sent from this repository, and no collaboration has been agreed. Research can begin before anyone replies.
 
+## eQTL Catalogue team — immediate data-provenance contact
+
+The [measured-RNA follow-up](../reports/qtl-followup.md) found a systematic conflict between splice-cluster strand labels and gene annotations in the Lepik_2017 dataset. Ask for the correct orientation convention, any corrected release, and unfiltered canonical/+29 junction coefficients. Exact questions and dataset identifiers are in the [review brief](mechanism-review-questions.md).
+
+**Public email:** eqtlcatalogue@ebi.ac.uk
+
+[Source: project contact](https://www.ebi.ac.uk/eqtl/)
+
 ## Carl A. Anderson — first genetics-methods contact
 
 Corresponding author of the 2024 PSC fine-mapping paper. A useful question is how to obtain complete credible-set memberships and resolve the table/prose discrepancies documented in our evidence log.

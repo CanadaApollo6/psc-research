@@ -2,6 +2,10 @@
 
 Snapshot: 2026-09-11. The exact URLs, output filenames, byte limits and SHA-256 hashes are recorded in [config/sources.json](../config/sources.json).
 
+The later [QTL follow-up manifest](../config/qtl-followup-sources.json) adds 39 pinned public sources; [its query manifest](../config/qtl-followup-queries.json) records eight indexed extractions and all 121 retained rows. Source metadata uses eQTL Catalogue release 7 from resources commit `65995fe96c8c6da1e750b51bac3b4c2f5ba9260f`; the queried archive files are pinned through their headers, indexes and exact subsets, without claiming a hash of the full remote files. The [source report](../reports/qtl-followup.md) distinguishes reprocessed BLUEPRINT, DICE, Lepik and TwinsUK cohorts, their RNA endpoints and missing measurements. The Catalogue API is retired; its official [archive access page](https://www.ebi.ac.uk/eqtl/Data_access/) documents indexed queries and ALT effect-allele semantics.
+
+LeafCutter phenotype metadata comes from [Zenodo record 7850746](https://zenodo.org/records/7850746), Ensembl 105. The conversion to model junction intervals is explicit, and conflicting cluster/gene strands are preserved separately. The [AlphaGenome training-track extract](../data/derived/qtl-comparison-training-tracks.csv) comes from published Supplementary Table 2, not an inferred inventory of the live service. Raw papers, metadata workbooks and compressed indexes stay ignored; small derived tables retain source attribution.
+
 ## Imported inputs
 
 | Input | Source | Transformation |

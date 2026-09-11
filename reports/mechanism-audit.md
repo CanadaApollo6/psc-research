@@ -2,6 +2,8 @@
 
 Completed 2026-09-11. This follows the [four-variant AlphaGenome pilot](first-alphagenome-pilot.md). One additional variant request was made; the original four predictions and benchmark rules were not changed.
 
+Later the same day, the [measured-RNA follow-up](qtl-followup.md) aligned PRKD2 coefficients in two cohorts and checked external UBASH3A expression/splice evidence. The findings below are preserved as the earlier audit record.
+
 ## What we learned
 
 1. **UBASH3A has a concrete predicted splicing effect.** For rs1893592 A→C, AlphaGenome predicts reduced use of the annotated donor and increased use of an alternative donor 29 nucleotides downstream. Using that alternative donor would retain the first 29 nucleotides of this intron in RNA. This is a known splice form, not a newly discovered mechanism or treatment.

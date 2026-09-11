@@ -1,6 +1,6 @@
 # First computational project
 
-Updated 2026-09-11. Status: source import, four-variant normalization, the first AlphaGenome pilot and the [allele/transcript follow-up](../reports/mechanism-audit.md) are complete. The follow-up adds one splice prediction and exact original GWAS rows. A controlled or independent validation study remains future work.
+Updated 2026-09-11. Status: the pilot, allele/transcript audit and [measured-RNA follow-up](../reports/qtl-followup.md) are complete. PRKD2's molecular direction is aligned in two cohorts; UBASH3A has a persistent expression disagreement and provisional +29-boundary evidence with a strand-label discrepancy. A controlled model benchmark and direct donor-level splice validation remain future work.
 
 ## Question and finished result
 
@@ -36,8 +36,8 @@ If that benchmark supports further work, apply a frozen method to three less-res
 | 3 | Connect AlphaGenome and run the pilot | Completed: four successful requests with pinned client and run provenance. |
 | 4 | Produce pilot report | Completed for all three regions, including the UBASH3A direction disagreement and ETS2 variant-dependent ranking. |
 | 5 | Audit source alleles and transcripts | Completed: source-specific RNA endpoints, shared transcript boundary, one additional splice request, original GWAS rows and allele-frequency checks. C is the working PRKD2 risk allele; contradictory source labels and molecular-QTL alignment remain explicit. |
-| 6 | Align PRKD2 molecular-QTL coefficients | Next: obtain a direct rs313839 expression-QTL row with build, assessed allele, other allele and beta; compare it with the audited disease-risk allele. Do not turn the current conditional interpretation into a benchmark pass. |
-| 7 | Test UBASH3A splice hypothesis independently | Find accessible genotype-linked RNA measurements and evaluate the canonical and +29-nt junctions, intronic coverage and total abundance separately, with donors as replicates. Existing studies and model outputs do not establish independence. |
+| 6 | Align PRKD2 molecular-QTL coefficients | Completed for reprocessed BLUEPRINT and separate DICE monocytes: G increases expression in both, agreeing with risk C lowering expression and with the model. Exact original-paper labels remain an author clarification; historical exclusions remain unchanged. |
+| 7 | Test UBASH3A splice hypothesis independently | Public-summary check completed: DICE total RNA opposes the model; no target DICE splice measurement is available. Lepik blood matches the +29 boundary/direction but has systematic strand-label reversal; TwinsUK measures a different junction. Next resolve strand provenance and obtain unfiltered or donor-level canonical/+29 measurements. This is not yet independent model validation. |
 | 8 | Define a controlled extension | Add appropriate comparison variants, independent evidence and adequate cell-state coverage before making generalization claims. |
 
 ## What this could contribute

@@ -1,0 +1,40 @@
+{
+  "version": "0.1-blood-extension",
+  "design": "Exploratory extension selected after DICE gene-expression results and missing splice rows. Select both non-GTEx bulk-blood LeafCutter datasets in the pinned release-7 metadata: Lepik_2017 and TwinsUK. Mixed blood is not a CD4-specific test. Neither observed result is known before this query.",
+  "primary_variant": "chr21_42434957_A_C",
+  "gene": "ENSG00000160185",
+  "canonical_junction_0based_halfopen": [
+    42434954,
+    42437487
+  ],
+  "alternative_junction_0based_halfopen": [
+    42434983,
+    42437487
+  ],
+  "expected_model_alt_effect": {
+    "canonical_junction": "decrease",
+    "alternative_plus29_junction": "increase",
+    "total_gene_rna": "decrease"
+  },
+  "queries": [
+    {
+      "dataset_id": "QTD000377",
+      "variant": "chr21_42434957_A_C",
+      "purpose": "Lepik whole blood junction follow-up, 471 donors"
+    },
+    {
+      "dataset_id": "QTD000553",
+      "variant": "chr21_42434957_A_C",
+      "purpose": "TwinsUK whole blood junction follow-up, 195 participants; relatedness requires source audit"
+    }
+  ],
+  "rules": [
+    "Preserve all returned rows, including non-significant and missing results.",
+    "Do not treat missing from the filtered cc file as biological absence or a null result.",
+    "Verify junction coordinate definitions against source code before matching to model junctions.",
+    "Align beta to ALT explicitly; never resolve strand by allele labels alone for palindromic variants.",
+    "Resting and activated samples are overlapping donors, not independent replication cohorts.",
+    "Dataset independence from published cohorts and model training must be audited separately.",
+    "Report p values as nominal; these targeted checks are not a new genome-wide discovery study."
+  ]
+}
