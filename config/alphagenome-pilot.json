@@ -1,0 +1,37 @@
+{
+  "protocol_version": "0.1",
+  "purpose": "Four-variant feasibility and published-mechanism consistency check; not an independent accuracy benchmark",
+  "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+  "client_version": "0.9.0",
+  "model_version": "ALL_FOLDS",
+  "reference_genome": "GRCh38.p13",
+  "scorers": ["RNA_SEQ", "RNA_SEQ_ACTIVE", "SPLICE_SITES"],
+  "primary_ontology_by_gene": {
+    "UBASH3A": "CL:0000624",
+    "ETS2": "CL:0001054",
+    "PRKD2": "CL:0001054"
+  },
+  "supporting_ontologies_by_gene": {
+    "UBASH3A": ["CL:0000792", "CL:0000897", "UBERON:0013756", "UBERON:0001157"],
+    "ETS2": ["UBERON:0013756"],
+    "PRKD2": ["UBERON:0001157", "UBERON:0001159"]
+  },
+  "gene_universe": "Genes with an annotated TSS within the fixed 1048576-bp variant-centered interval, intersected with genes returned by the model",
+  "ranking": "Descending median absolute RNA_SEQ raw score across tracks for the primary ontology; tie-break by Ensembl gene ID",
+  "direction": "Sign of the median signed RNA_SEQ raw score in the primary ontology; score exactly zero is inconclusive",
+  "baseline": "Nearest annotated TSS among the same evaluable gene universe; report full-reference nearest TSS separately",
+  "supporting_scores": "RNA_SEQ_ACTIVE is descriptive expression context; SPLICE_SITES is a nonsigned molecular score, not intron-retention direction",
+  "known_coverage_limits": [
+    "No RNA-seq metadata track explicitly identified as IL-4-stimulated macrophages",
+    "Generic immune-cell tracks do not establish coverage of PSC-specific CCR9 subsets",
+    "Metadata do not establish that the same stimulation state, donor cohort, or assay matches the published eQTL study"
+  ],
+  "limitations": [
+    "Known gene examples selected from prior literature; no novelty claim",
+    "ALL_FOLDS predictions are not a held-out genomic test",
+    "No matched negative-control set or calibrated hypothesis test in this first pilot",
+    "Only two variants have source-supported directional comparisons",
+    "No minimum expression or effect threshold is selected after inspecting scores; small effects remain descriptive",
+    "Risk alleles are not transferred between correlated variants without phase evidence"
+  ]
+}

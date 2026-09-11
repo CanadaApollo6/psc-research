@@ -21,4 +21,10 @@ The GEO records originate from the [PSC liver-atlas study](https://pubmed.ncbi.n
 
 Individual-level genotype and expression files at EGA can require controlled access. They are not downloaded or required for this initial import. Large expression matrices, personal genomes and private medical records are not included.
 
-AlphaGenome access and outputs have [separate terms documented by the official project](https://github.com/google-deepmind/alphagenome#terms). No outputs are included in this snapshot. Do not assume a future code license would override source-data or model-output conditions.
+## Variant-reference and prediction provenance
+
+[config/reference-sources.json](../config/reference-sources.json) pins 27 additional responses. Ensembl release 116 provides variant mappings on both builds, individual reference bases, and genes overlapping fixed 1-Mb neighborhoods. Build-38 reference bases were also retrieved directly from AlphaGenome's GRCh38.p13 FASTA using its `.fai` index and exact HTTP byte ranges. Both the index and the one-base responses have recorded hashes. All alternative mappings remain in raw inputs; ambiguous primary mappings are rejected by the normalizer.
+
+The variant table distinguishes published risk labels from reference/alternate alleles. Candidate-gene tables are derived from the pinned gene annotations. The [run provenance](../reports/pilot-run-provenance.json) records client commit, selected model version, protocol/input hashes, metadata hash, request dates and prediction-file hashes. The [pilot report](../reports/first-alphagenome-pilot.md) includes compact model-derived results; full output tables remain in ignored local storage.
+
+AlphaGenome access and outputs have [separate terms documented by the official project](https://github.com/google-deepmind/alphagenome#terms). The current work is noncommercial research. Do not assume a future code license would override source-data or model-output conditions.

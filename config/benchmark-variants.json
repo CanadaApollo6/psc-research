@@ -1,0 +1,12 @@
+{
+  "protocol_version": "0.1",
+  "selected_before_inference": true,
+  "publication_url": "https://www.nature.com/articles/s41467-024-53602-w",
+  "interval_width": 1048576,
+  "variants": [
+    {"rsid": "rs1893592", "target_gene": "UBASH3A", "alternate_bases": "C", "role": "lead_and_highest_pp", "selection_note": "Study discusses the A/C comparison explicitly; the additional database G allele is outside this benchmark."},
+    {"rsid": "rs2836883", "target_gene": "ETS2", "alternate_bases": "A", "role": "lead_gwas", "selection_note": "The lead variant has directly tabulated risk-allele and expression-direction evidence."},
+    {"rsid": "rs4817988", "target_gene": "ETS2", "alternate_bases": "A", "role": "highest_pp", "selection_note": "Keep the highest-posterior variant distinct from the lead variant; do not transfer risk direction without phased evidence."},
+    {"rsid": "rs313839", "target_gene": "PRKD2", "alternate_bases": "G", "role": "lead_and_highest_pp", "selection_note": "The published A risk label conflicts with the database C/G alleles. Molecular predictions are possible; risk-direction testing is excluded pending resolution."}
+  ]
+}

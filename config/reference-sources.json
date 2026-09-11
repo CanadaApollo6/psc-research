@@ -1,0 +1,265 @@
+{
+  "snapshot_date": "2026-09-11",
+  "sources": [
+    {
+      "id": "GRCh38-rs1893592",
+      "file": "GRCh38-rs1893592.json",
+      "url": "https://rest.ensembl.org/variation/human/rs1893592?content-type=application/json",
+      "sha256": "76250249b4f45b7fe8b1782047a88ecb8fc15eafa8c7b6ab5e393ca941fd2d5d",
+      "retrieved_at_utc": "2026-09-11T22:18:57.663841+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 628
+    },
+    {
+      "id": "GRCh38-rs313839",
+      "file": "GRCh38-rs313839.json",
+      "url": "https://rest.ensembl.org/variation/human/rs313839?content-type=application/json",
+      "sha256": "198f3c8c577b5fc8308f3fd75e2640eb0c2c12282a6d88648bbadc05c1d2a9e5",
+      "retrieved_at_utc": "2026-09-11T22:18:56.889075+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 538
+    },
+    {
+      "id": "GRCh38-rs2836883",
+      "file": "GRCh38-rs2836883.json",
+      "url": "https://rest.ensembl.org/variation/human/rs2836883?content-type=application/json",
+      "sha256": "541672d4750f3c86f96019b8d49e0438e438747d0174cd702574d2aaece8792d",
+      "retrieved_at_utc": "2026-09-11T22:18:56.886547+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 902
+    },
+    {
+      "id": "GRCh38-rs4817988",
+      "file": "GRCh38-rs4817988.json",
+      "url": "https://rest.ensembl.org/variation/human/rs4817988?content-type=application/json",
+      "sha256": "c2573f0d39219e3e9ee6faa280bfe2e9e63907d4ca05512406d17bdf57a41e64",
+      "retrieved_at_utc": "2026-09-11T22:18:57.914019+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 525
+    },
+    {
+      "id": "GRCh37-rs1893592",
+      "file": "GRCh37-rs1893592.json",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs1893592?content-type=application/json",
+      "sha256": "01566e8c1e13e1ea75713c4258ab9242fcbd973dfd113cad9becaf0a2be0caf7",
+      "retrieved_at_utc": "2026-09-11T22:18:57.525353+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 631
+    },
+    {
+      "id": "GRCh37-rs313839",
+      "file": "GRCh37-rs313839.json",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs313839?content-type=application/json",
+      "sha256": "9b1e32fdd13114a7738b9c39c0dfd12baf79ad46625480ae3e5bb50b051ac044",
+      "retrieved_at_utc": "2026-09-11T22:18:57.528754+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 544
+    },
+    {
+      "id": "GRCh37-rs2836883",
+      "file": "GRCh37-rs2836883.json",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs2836883?content-type=application/json",
+      "sha256": "98452888baa97151885e83105661d56d1c70c2c08ffbe4ec781af23c6aa11591",
+      "retrieved_at_utc": "2026-09-11T22:18:57.999015+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 902
+    },
+    {
+      "id": "GRCh37-rs4817988",
+      "file": "GRCh37-rs4817988.json",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs4817988?content-type=application/json",
+      "sha256": "e3e87d45661ca2709bc8706fb6b5ed4c7324faf12fb0d89209359f65f8c8731e",
+      "retrieved_at_utc": "2026-09-11T22:18:58.007343+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 525
+    },
+    {
+      "id": "GRCh38-release",
+      "file": "GRCh38-release.json",
+      "url": "https://rest.ensembl.org/info/data?content-type=application/json",
+      "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+      "retrieved_at_utc": "2026-09-11T22:18:58.290433+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 18
+    },
+    {
+      "id": "GRCh37-release",
+      "file": "GRCh37-release.json",
+      "url": "https://grch37.rest.ensembl.org/info/data?content-type=application/json",
+      "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+      "retrieved_at_utc": "2026-09-11T22:18:58.382870+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 18
+    },
+    {
+      "id": "GRCh37-rs1893592-sequence",
+      "file": "GRCh37-rs1893592-sequence.json",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/21:43855067..43855067:1?content-type=application/json",
+      "sha256": "5bf60a3f88e72c055b5846847013d394c6e8cb61c417b18f7b2c5afc50d7b2e3",
+      "retrieved_at_utc": "2026-09-11T22:21:06.815962+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh37-rs2836883-sequence",
+      "file": "GRCh37-rs2836883-sequence.json",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/21:40466744..40466744:1?content-type=application/json",
+      "sha256": "3df47ed2f615224b31e2774abffd2b3b28de0953f5cf548fc3da6aab508fa404",
+      "retrieved_at_utc": "2026-09-11T22:21:06.797333+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh37-rs313839-sequence",
+      "file": "GRCh37-rs313839-sequence.json",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/19:47221557..47221557:1?content-type=application/json",
+      "sha256": "2bbb0ba871b5f1d74ea5d9be33475720e5c10e74d41ab2d5cb5aaa4f6b01ae3a",
+      "retrieved_at_utc": "2026-09-11T22:21:06.774571+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh37-rs4817988-sequence",
+      "file": "GRCh37-rs4817988-sequence.json",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/21:40468838..40468838:1?content-type=application/json",
+      "sha256": "7aaea436c42553cf2fb71ac764530320532aaf8ad3115097303acae52a3ceced",
+      "retrieved_at_utc": "2026-09-11T22:21:06.776293+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh38-rs1893592-sequence",
+      "file": "GRCh38-rs1893592-sequence.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:42434957..42434957:1?content-type=application/json",
+      "sha256": "278f02091428ab724629f2d68e8226123df8dc43cf054afd387ab86464f849dd",
+      "retrieved_at_utc": "2026-09-11T22:21:07.576832+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh38-rs2836883-sequence",
+      "file": "GRCh38-rs2836883-sequence.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:39094818..39094818:1?content-type=application/json",
+      "sha256": "f983d0d5b0e0c2159f8129d4141f5eb160703ff07c5784c0079b226cc8bf2f6f",
+      "retrieved_at_utc": "2026-09-11T22:21:07.575761+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh38-rs313839-sequence",
+      "file": "GRCh38-rs313839-sequence.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/19:46718300..46718300:1?content-type=application/json",
+      "sha256": "7bf9ea50706248f08dfa4a00b59c9ce8aa6cb3044643f6b46957bd00be9fa4da",
+      "retrieved_at_utc": "2026-09-11T22:21:07.357811+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh38-rs4817988-sequence",
+      "file": "GRCh38-rs4817988-sequence.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:39096912..39096912:1?content-type=application/json",
+      "sha256": "3a8a32b26faf988dc6691d0beaee411e98bad22b5a53157a391ed94fc77d2c75",
+      "retrieved_at_utc": "2026-09-11T22:21:07.303897+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 110
+    },
+    {
+      "id": "GRCh38.p13.genome.fa",
+      "file": "GRCh38.p13.genome.fa.fai",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa.fai",
+      "request_headers": {},
+      "sha256": "9293fb33f63b7f09d8fadc055d78e401d07c76de0211243fba778780ff836ff9",
+      "retrieved_at_utc": "2026-09-11T22:22:00.940878+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 22027
+    },
+    {
+      "id": "model-reference-rs1893592",
+      "file": "model-reference-rs1893592.txt",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa",
+      "request_headers": {
+        "Range": "bytes=2866906697-2866906697"
+      },
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+      "retrieved_at_utc": "2026-09-11T22:22:01.154894+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 1
+    },
+    {
+      "id": "GRCh38-rs1893592-genes",
+      "file": "GRCh38-rs1893592-genes.json",
+      "url": "https://rest.ensembl.org/overlap/region/human/21:41910669-42959244?feature=gene;content-type=application/json",
+      "request_headers": {},
+      "sha256": "f5e06e1cdcfca9d570dcb54b8d2b35c84bf973c9b04f389366cbd11e9ae3ef74",
+      "retrieved_at_utc": "2026-09-11T22:22:02.472715+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 15579
+    },
+    {
+      "id": "model-reference-rs2836883",
+      "file": "model-reference-rs2836883.txt",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa",
+      "request_headers": {
+        "Range": "bytes=2863510889-2863510889"
+      },
+      "sha256": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+      "retrieved_at_utc": "2026-09-11T22:22:02.676596+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 1
+    },
+    {
+      "id": "GRCh38-rs2836883-genes",
+      "file": "GRCh38-rs2836883-genes.json",
+      "url": "https://rest.ensembl.org/overlap/region/human/21:38570530-39619105?feature=gene;content-type=application/json",
+      "request_headers": {},
+      "sha256": "c0e693cd50121b18d58741a383773f53c314f17ecd4c06707f2e5bb3797bf859",
+      "retrieved_at_utc": "2026-09-11T22:22:03.650790+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 18909
+    },
+    {
+      "id": "model-reference-rs313839",
+      "file": "model-reference-rs313839.txt",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa",
+      "request_headers": {
+        "Range": "bytes=2746148595-2746148595"
+      },
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d",
+      "retrieved_at_utc": "2026-09-11T22:22:03.983804+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 1
+    },
+    {
+      "id": "GRCh38-rs313839-genes",
+      "file": "GRCh38-rs313839-genes.json",
+      "url": "https://rest.ensembl.org/overlap/region/human/19:46194012-47242587?feature=gene;content-type=application/json",
+      "request_headers": {},
+      "sha256": "746b6eb70c524d43da18b7c76ba5e254aeb305247de22a5890ce1cd1e62a6e08",
+      "retrieved_at_utc": "2026-09-11T22:22:05.060141+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 24723
+    },
+    {
+      "id": "model-reference-rs4817988",
+      "file": "model-reference-rs4817988.txt",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa",
+      "request_headers": {
+        "Range": "bytes=2863513018-2863513018"
+      },
+      "sha256": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+      "retrieved_at_utc": "2026-09-11T22:22:05.228816+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 1
+    },
+    {
+      "id": "GRCh38-rs4817988-genes",
+      "file": "GRCh38-rs4817988-genes.json",
+      "url": "https://rest.ensembl.org/overlap/region/human/21:38572624-39621199?feature=gene;content-type=application/json",
+      "request_headers": {},
+      "sha256": "170692f4a712fc6e86e40e9c65805c822b239f46fa58d2078660c2dfd8214b28",
+      "retrieved_at_utc": "2026-09-11T22:22:05.884452+00:00",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 18909
+    }
+  ]
+}

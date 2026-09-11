@@ -17,7 +17,7 @@
     "PSC": 10
   },
   "geo_records_with_cross_field_flags": 19,
-  "alphagenome_predictions_run": false,
-  "expression_matrices_analyzed": false,
+  "alphagenome_predictions_run_by_catalog": false,
+  "expression_matrices_analyzed_by_catalog": false,
   "limitations": "Source-derived metadata only. Gene names and contradictory values are preserved. See docs/evidence-log.md."
 }

@@ -1,0 +1,44 @@
+{
+  "started_at_utc": "2026-09-11T22:30:28.039960+00:00",
+  "client_version": "0.9.0",
+  "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+  "model_version_selection": "ALL_FOLDS",
+  "server_model_build_identifier": "Not exposed by this client response; selection and retrieval time recorded",
+  "protocol_sha256": "2633334843fc596346d88c676796c03b339402603ec6bcb57ffff4fb9c4b9aff",
+  "input_sha256": "ee83595b45c07f552a0ccdbc8a20aa396abe1cb2ee5aacbe9fce99696e31fb5f",
+  "reference_manifest_sha256": "00abf06e46288dea9eaef3c812dbdd3a3ed62fd73408bea711df94d8672d6b92",
+  "metadata_inventory_sha256": "697c3bc9b49bb5a79b33ea646aa628a878f23888f3f837ca48b8a22a15b607a2",
+  "requests": [
+    {
+      "rsid": "rs1893592",
+      "status": "complete",
+      "rows": 22262,
+      "file": "rs1893592-scores.csv.gz",
+      "sha256": "47a6b6cd2cf4e744fc4180da409879a38fce0a28bb6e8f90bb8e7786cc67f9ba"
+    },
+    {
+      "rsid": "rs2836883",
+      "status": "complete",
+      "rows": 28196,
+      "file": "rs2836883-scores.csv.gz",
+      "sha256": "d323a53ce33ca40736adb7d716d27c44a91b929fb820425327ea742fe713bbf7"
+    },
+    {
+      "rsid": "rs4817988",
+      "status": "complete",
+      "rows": 28196,
+      "file": "rs4817988-scores.csv.gz",
+      "sha256": "cbc7e2d58884a708ea02a1f4f590a82d233fe2035c37dd1aedfa1cc7a4aeadbd"
+    },
+    {
+      "rsid": "rs313839",
+      "status": "complete",
+      "rows": 38584,
+      "file": "rs313839-scores.csv.gz",
+      "sha256": "f2815a3bb77ff65b977a7df471e965d0f727446fe9947ee4bb789c7a29a67c27"
+    }
+  ],
+  "status": "complete",
+  "finished_at_utc": "2026-09-11T22:30:32.439464+00:00",
+  "snapshot_serialization_note": "Snapshot JSON whitespace was restored to the exact source bytes after verifying the recorded pre-run hashes and identical parsed values. No protocol or input values changed."
+}

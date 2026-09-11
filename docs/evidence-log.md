@@ -2,7 +2,7 @@
 
 ## 2026-09-11 — Scope and current results
 
-The primary independent project is regulatory variant interpretation. A liver-atlas metadata audit is available as a secondary resource. No model predictions, expression-matrix analyses, new gene discoveries, treatment effects, or personal risk estimates have been produced.
+The primary independent project is regulatory variant interpretation. A liver-atlas metadata audit is available as a secondary resource. The first four-variant AlphaGenome run is now complete; its results are below and in the [pilot report](../reports/first-alphagenome-pilot.md). No liver-atlas expression-matrix analyses, new gene discoveries, treatment effects, or personal risk estimates have been produced.
 
 The current import contains a signal summary table, molecular colocalisation rows and sequencing-library metadata. The machine-readable counts are in [data-audit.json](../reports/data-audit.json).
 
@@ -34,3 +34,11 @@ The automated check flags 19 records: ten title/description chemistry discrepanc
 - Cell-state coverage matters. Absence of a predicted effect in an unsuitable track is not evidence of no biological effect.
 - Genetic susceptibility, established-disease progression, drug efficacy and clinical safety are different claims.
 - Public professional contacts in the directory have not agreed to collaborate; no outreach was sent during repository setup.
+
+## 2026-09-11 — Verified variants and completed model pilot
+
+Twenty-seven pinned reference responses document build-37/build-38 variants, Ensembl release 116, nearby genes and AlphaGenome's own reference bases. Four selected substitutions passed coordinate and reference checks. rs1893592 is multiallelic; C was selected because the published comparison is A/C. rs313839 has C/G alleles, so the A risk label in Supplementary Data 2 cannot support a directional comparison. rs4817988 has no directly tabulated risk allele in the selected source, and the lead rs2836883's direction was not transferred.
+
+The fixed `ALL_FOLDS` feasibility run ranked UBASH3A 1/30 but predicted the opposite expression direction; ETS2 27/37 for rs2836883 and 4/37 for rs4817988; and PRKD2 1/50 with source direction excluded. Reported ranks use the same evaluable gene universe as the nearest-TSS baseline. This is not a held-out or matched-control validation. Missing immune stimulation states and model/source overlap limit interpretation.
+
+The next scientific priority is to trace allele conventions and transcript-level evidence for the disagreements, not to reinterpret the source to favor the model.

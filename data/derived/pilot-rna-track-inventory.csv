@@ -1,0 +1,22 @@
+name,strand,Assay title,ontology_curie,biosample_name,biosample_type,biosample_life_stage,gtex_tissue,data_source,endedness,genetically_modified,nonzero_mean
+CL:0000624 total RNA-seq,+,total RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.1696172654628753
+CL:0000792 total RNA-seq,+,total RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,adult,,encode,single,False,0.2166270911693573
+CL:0000897 total RNA-seq,+,total RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.1478063762187957
+CL:0001054 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,adult,,encode,paired,False,0.1360893249511718
+UBERON:0001157 total RNA-seq,+,total RNA-seq,UBERON:0001157,transverse colon,tissue,adult,,encode,paired,False,0.0972786992788314
+UBERON:0001159 polyA plus RNA-seq,+,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.3216996192932129
+UBERON:0001159 total RNA-seq,+,total RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.09938795119524
+CL:0000624 total RNA-seq,-,total RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,single,False,0.1696172654628753
+CL:0000792 total RNA-seq,-,total RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,adult,,encode,single,False,0.2166270911693573
+CL:0000897 total RNA-seq,-,total RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,adult,,encode,single,False,0.1478063762187957
+CL:0001054 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,adult,,encode,paired,False,0.1360893249511718
+UBERON:0001157 total RNA-seq,-,total RNA-seq,UBERON:0001157,transverse colon,tissue,adult,,encode,paired,False,0.0972786992788314
+UBERON:0001159 polyA plus RNA-seq,-,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.3216996192932129
+UBERON:0001159 total RNA-seq,-,total RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,,encode,paired,False,0.09938795119524
+CL:0000624 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000624,"CD4-positive, alpha-beta T cell",primary_cell,adult,,encode,paired,False,0.1302357912063598
+CL:0000792 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,unknown,,encode,paired,False,0.2904275953769684
+CL:0000897 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0000897,"CD4-positive, alpha-beta memory T cell",primary_cell,unknown,,encode,paired,False,0.3783103823661804
+CL:0001054 polyA plus RNA-seq,.,polyA plus RNA-seq,CL:0001054,CD14-positive monocyte,primary_cell,unknown,,encode,paired,False,0.6615868806838989
+UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001157,transverse colon,tissue,adult,Colon_Transverse,gtex,paired,False,0.0499347895383834
+UBERON:0001159 gtex Colon_Sigmoid polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0001159,sigmoid colon,tissue,adult,Colon_Sigmoid,gtex,paired,False,0.0509834922850132
+UBERON:0013756 gtex Whole_Blood polyA plus RNA-seq,.,polyA plus RNA-seq,UBERON:0013756,venous blood,tissue,adult,Whole_Blood,gtex,paired,False,0.0558834448456764

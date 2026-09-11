@@ -1,0 +1,5 @@
+rsid,target_gene,allele_change,primary_ontology,target_rank,evaluable_genes,annotated_candidates,candidates_not_scored,median_absolute_lfc,median_signed_lfc,primary_track_count,tracks_disagree_in_sign,expected_alt_minus_ref_sign,direction_comparison,nearest_tss_evaluable_gene,nearest_tss_full_reference_gene,target_median_active_score
+rs1893592,UBASH3A,A>C,CL:0000624,1,30,40,10,0.03457617,-0.03457617,2,False,1.0,opposes source sign,RNU6-1149P,ENSG00000307177,1.84957525
+rs2836883,ETS2,G>A,CL:0001054,27,37,49,12,0.00014835596,-0.00014835596,1,False,-1.0,matches source sign,LINC02940,LINC02940,1.8273065
+rs4817988,ETS2,G>A,CL:0001054,4,37,49,12,0.0026867986,-0.0026867986,1,False,,excluded: unresolved source direction,RPL23AP12,RPL23AP12,2.0404613
+rs313839,PRKD2,C>G,CL:0001054,1,50,61,11,0.020952225,0.020952225,1,False,,excluded: unresolved source direction,PRKD2,PRKD2,0.35151643

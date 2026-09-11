@@ -154,7 +154,7 @@ def main():
         'geo_library_records': len(libraries), 'geo_libraries_by_title_cohort': dict(counts),
         'geo_unique_donor_labels_from_titles': {cohort: len({row['donor_label_from_title'] for row in libraries if row['cohort_from_title'] == cohort}) for cohort in sorted(counts)},
         'geo_records_with_cross_field_flags': sum(bool(row['flags']) for row in libraries),
-        'alphagenome_predictions_run': False, 'expression_matrices_analyzed': False,
+        'alphagenome_predictions_run_by_catalog': False, 'expression_matrices_analyzed_by_catalog': False,
         'limitations': 'Source-derived metadata only. Gene names and contradictory values are preserved. See docs/evidence-log.md.',
     }
     derived = ROOT / 'data/derived'

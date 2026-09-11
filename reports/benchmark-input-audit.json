@@ -1,0 +1,16 @@
+{
+  "variants_verified": 4,
+  "loci": 3,
+  "direction_tests_supported_by_source": 2,
+  "unresolved": [
+    {
+      "rsid": "rs4817988",
+      "reason": "No direct risk-allele evidence for this rsID; proxy direction not transferred"
+    },
+    {
+      "rsid": "rs313839",
+      "reason": "Published risk allele absent from selected alleles; direction excluded"
+    }
+  ],
+  "model_predictions_run_by_this_script": false
+}

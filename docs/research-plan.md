@@ -1,6 +1,6 @@
 # First computational project
 
-Updated 2026-09-11. Status: source import completed; model-input preparation and inference remain to be done.
+Updated 2026-09-11. Status: source import, four-variant normalization and the first AlphaGenome feasibility pilot are complete. See [results and disagreements](../reports/first-alphagenome-pilot.md). A controlled or independent validation study remains future work.
 
 ## Question and finished result
 
@@ -31,11 +31,12 @@ If that benchmark supports further work, apply a frozen method to three less-res
 
 | Order | Work item | Finished when |
 |---|---|---|
-| 1 | Normalize the three benchmark inputs | Build, chromosome, position, reference/alternate alleles, risk-allele relationship and variant-database version are recorded; ambiguous mappings are excluded explicitly. |
-| 2 | Freeze benchmark and inspect track coverage | Candidate-gene rule, comparison variants, tracks, scoring method, baseline and expected evidence are written down before inference. Missing relevant contexts are visible. |
-| 3 | Connect AlphaGenome and run the pilot | A key is configured outside Git; exact client/model provenance and cached outputs reproduce a small run. No inference is claimed before it executes. |
-| 4 | Produce benchmark report | Results for all three loci include direction/rank comparisons, failures, uncertainty and independence checks. |
-| 5 | Select extension loci | Complete variant lists and adequate model/evidence coverage support a prespecified next experiment. |
+| 1 | Normalize the three regions' inputs | Completed for four selected variants. Coordinates and bases verified; two source-direction comparisons remain unresolved and were excluded. |
+| 2 | Freeze pilot and inspect track coverage | Completed for the feasibility run. A matched comparison-variant set remains necessary before a controlled benchmark. |
+| 3 | Connect AlphaGenome and run the pilot | Completed: four successful requests with pinned client and run provenance. |
+| 4 | Produce pilot report | Completed for all three regions, including the UBASH3A direction disagreement and ETS2 variant-dependent ranking. |
+| 5 | Audit source alleles and transcripts | Next: trace UBASH3A's expression/splicing definitions and obtain an authoritative PRKD2 association row. Keep model predictions unchanged while checking the source. |
+| 6 | Define a controlled extension | Add appropriate comparison variants, independent evidence and adequate cell-state coverage before making generalization claims. |
 
 ## What this could contribute
 

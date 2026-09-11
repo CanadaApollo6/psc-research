@@ -35,8 +35,11 @@ def fetch(source, directory, offline=False):
         return {'id': source['id'], 'status': 'verified-cache', 'bytes': len(content)}
     if offline:
         raise FileNotFoundError(f'Missing cached source: {name}')
-    request = urllib.request.Request(source['url'], headers={'User-Agent': 'PSC-public-research/0.1'})
+    headers = {'User-Agent': 'PSC-public-research/0.2', **source.get('request_headers', {})}
+    request = urllib.request.Request(source['url'], headers=headers)
     with urllib.request.urlopen(request, timeout=45) as response:
+        if 'Range' in headers and response.status != 206:
+            raise ValueError('Reference server did not honor the byte-range request')
         content = response.read(source['max_bytes'] + 1)
     if len(content) > source['max_bytes']:
         raise ValueError(f"Transfer limit exceeded for {source['id']}")
@@ -53,8 +56,9 @@ def fetch(source, directory, offline=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--offline', action='store_true', help='Only verify cached files')
+    parser.add_argument('--manifest', default='config/sources.json', help='Source manifest relative to repository root')
     args = parser.parse_args()
-    sources = json.loads((ROOT / 'config/sources.json').read_text())['sources']
+    sources = json.loads((ROOT / args.manifest).read_text())['sources']
     directory = ROOT / 'data/raw'
     directory.mkdir(parents=True, exist_ok=True)
     results = []
