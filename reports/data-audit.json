@@ -1,0 +1,23 @@
+{
+  "source_snapshot_date": "2026-09-11",
+  "table1_association_signals": 19,
+  "table1_distinct_loci": 15,
+  "table1_largest_credible_set_as_published": 122,
+  "table1_scope": "Top candidate per signal only; complete credible-set members are not imported",
+  "molecular_colocalisation_rows": 34,
+  "geo_library_records": 45,
+  "geo_libraries_by_title_cohort": {
+    "Control label": 26,
+    "PBC": 4,
+    "PSC": 15
+  },
+  "geo_unique_donor_labels_from_titles": {
+    "Control label": 21,
+    "PBC": 3,
+    "PSC": 10
+  },
+  "geo_records_with_cross_field_flags": 19,
+  "alphagenome_predictions_run": false,
+  "expression_matrices_analyzed": false,
+  "limitations": "Source-derived metadata only. Gene names and contradictory values are preserved. See docs/evidence-log.md."
+}

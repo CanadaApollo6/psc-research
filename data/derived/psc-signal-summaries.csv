@@ -1,0 +1,20 @@
+source_table_data_row,chromosome,candidate_gene_as_published,lead_gwas_snp,lead_position_b37,signal,highest_pp_snp,highest_pp_position_b37,posterior_probability_as_published,credible_set_size_as_published,source_url,model_input_status
+1,1,MMEL1,rs3748816,2526745,1,rs61763697,2810791,0.07,62,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+2,2,BCL211,rs72837826,111933001,1,rs72837826,111933001,0.18,12,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+3,2,CD28,rs7426056,204612058,1,rs5837875,204647878,0.19,6,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+4,2,CD28,rs7426056,204612058,2,rs231799,204707417,0.17,24,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+5,3,MST1,rs3197999,49721532,1,rs11716895,49762779,0.11,13,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+6,3,MST1,rs3197999,49721532,2,rs13083791,49721798,0.07,122,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+7,3,FOXP1,rs80060485,71153890,1,rs80060485,71153890,0.99,1,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+8,3,FOXP1,rs80060485,71153890,2,rs36023390,71523093,0.14,2,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+9,4,IL2-IL21,rs13140464,123499745,1,rs13119723,123218313,0.09,50,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+10,6,BACH2,rs56258221,91030441,1,rs7750271,91036225,0.20,12,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+11,10,IL2RA,rs4147359,6108439,1,rs4147359,6108439,0.46,5,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+12,11,CCDC88B,rs663743,64107735,1,rs35247680,63884747,0.61,2,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+13,11,CCDC88B,rs663743,64107735,2,rs663743,64107735,0.41,2,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+14,12,SH2B3,rs3184504,111884608,1,rs3184504,111884608,0.99,1,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+15,16,CLEC16A,rs725613,11169683,1,rs725613,11169683,0.16,12,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+16,18,CD226,rs1788097,67543688,1,rs1610555,67543147,0.08,44,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+17,19,PRKD2,rs313839,47221557,1,rs313839,47221557,0.23,14,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+18,21,ETS2,rs2836883,40466744,1,rs4817988,40468838,0.58,10,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification
+19,21,UBASH3A,rs1893592,43855067,1,rs1893592,43855067,0.62,5,https://www.nature.com/articles/s41467-024-53602-w#Tab1,Not normalized; build and alleles require verification

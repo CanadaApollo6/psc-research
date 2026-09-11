@@ -1,0 +1,56 @@
+{
+  "snapshot_date": "2026-09-11",
+  "hash_convention": "SHA-256 of stored file after any decompression",
+  "sources": [
+    {
+      "id": "goode2024_xml",
+      "file": "PMC11541731.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11541731/fullTextXML",
+      "sha256": "59640969228f6ac1f3c09c888378a71dee22247c6198bc6c360ce42008a58bfb",
+      "bytes_after_decompression": 219144,
+      "max_bytes": 3000000
+    },
+    {
+      "id": "goode2024_supplement_4",
+      "file": "41467_2024_53602_MOESM4_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-53602-w/MediaObjects/41467_2024_53602_MOESM4_ESM.xlsx",
+      "sha256": "3f77d5a34f44030070f94941e428a126ca988b27c4c9c01801ddd58ca0990266",
+      "bytes_after_decompression": 15092,
+      "max_bytes": 3000000
+    },
+    {
+      "id": "goode2024_supplement_5",
+      "file": "41467_2024_53602_MOESM5_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-53602-w/MediaObjects/41467_2024_53602_MOESM5_ESM.xlsx",
+      "sha256": "e8f4fb20a06f7204fc00fe7341219cb640121ec1f1d59a8f8e0066d420f31aca",
+      "bytes_after_decompression": 10969,
+      "max_bytes": 3000000
+    },
+    {
+      "id": "goode2024_supplement_6",
+      "file": "41467_2024_53602_MOESM6_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-53602-w/MediaObjects/41467_2024_53602_MOESM6_ESM.xlsx",
+      "sha256": "be4793065d4b41a95c99fdac19e13d480073b04d17a2345cee96c7fe3b63c2d8",
+      "bytes_after_decompression": 8038,
+      "max_bytes": 3000000
+    },
+    {
+      "id": "GSE243977",
+      "file": "GSE243977.soft",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243977/soft/GSE243977_family.soft.gz",
+      "sha256": "af95b0b9cb34da4f595bd36c430b9a7ce106913b861a0c1114ef1c826317d81d",
+      "bytes_after_decompression": 135977,
+      "max_bytes": 3000000,
+      "compression": "gzip"
+    },
+    {
+      "id": "GSE247128",
+      "file": "GSE247128.soft",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247128/soft/GSE247128_family.soft.gz",
+      "sha256": "1574357679a25f84d47131005f798cc5f6d5ed0a7c09a6707f1648f1fb0b7cf9",
+      "bytes_after_decompression": 101990,
+      "max_bytes": 3000000,
+      "compression": "gzip"
+    }
+  ]
+}
