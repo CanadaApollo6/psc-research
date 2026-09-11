@@ -42,3 +42,17 @@ Twenty-seven pinned reference responses document build-37/build-38 variants, Ens
 The fixed `ALL_FOLDS` feasibility run ranked UBASH3A 1/30 but predicted the opposite expression direction; ETS2 27/37 for rs2836883 and 4/37 for rs4817988; and PRKD2 1/50 with source direction excluded. Reported ranks use the same evaluable gene universe as the nearest-TSS baseline. This is not a held-out or matched-control validation. Missing immune stimulation states and model/source overlap limit interpretation.
 
 The next scientific priority is to trace allele conventions and transcript-level evidence for the disagreements, not to reinterpret the source to favor the model.
+
+## 2026-09-11 — Completed allele/transcript follow-up
+
+See the [full audit](../reports/mechanism-audit.md). The earlier model predictions and prespecified comparisons remain unchanged.
+
+- UBASH3A expression directions disagree in the primary literature. Newman 2017 reports elevated exon/junction coverage and intron retention; Ge and Concannon 2018 report reduced total mRNA with no significant absolute change in their assayed intron-9 transcript, increasing its ratio to total RNA. Todd 2018 explicitly discussed the conflicting results. Different endpoints and contexts must be kept separate.
+- Ensembl transcript annotation places rs1893592 at +3 of the same intron in five transcripts. Exon/intron numbering differs between transcript models; the physical donor boundary is shared.
+- Our additional prediction's v0.1 endpoint had a **one-base indexing error**. The original config is archived. Official model code labels the last exonic base for positive-strand donor tracks, whereas the client transcript helper reports the first intronic base. The corrected index and erroneous original reading are both published; no prediction was repeated. This is an exploratory, corrected analysis.
+- At that boundary A→C reduces predicted donor usage in both CD4 assay tracks and increases predicted usage of a donor 29 nt downstream. The original maximum donor score corresponds to that downstream gain. The 29-nt splice form was measured previously by Mucaki et al. 2020, but their one-individual-per-genotype lymphoblastoid comparison does not agree with the model's direction. Existence of a splice form is not validation of an allele effect.
+- The exact original GWAS row labels **rs313839-C** as PSC risk (OR 1.322; control frequency 0.84). Forward-strand C frequency is 0.837 in 1000 Genomes EUR, supporting C as the working risk allele for this palindromic C/G SNP. Goode's thesis explicitly labels G as risk, and the 2024 supplement labels A. Preserve both conflicts; direct molecular-QTL coefficient alignment remains outstanding.
+- The original PRKD2-region lead is rs60652743-A. Carryover of that A into the supplement is a possible explanation, not a demonstrated correction. rs313829, shown in the regional figure, maps to chromosome 7 and cannot substitute for rs313839 on chromosome 19.
+- The targeted original GWAS rows are discovery-stage results, not the full meta-analysis or the later fine-mapping dataset. Their P-values and sample scope must not be silently substituted.
+
+No outreach, personal-genome analysis, intervention recommendation or clinical efficacy claim resulted from this work.

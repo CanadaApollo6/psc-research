@@ -1,0 +1,313 @@
+{
+  "snapshot_date": "2026-09-11",
+  "sources": [
+    {
+      "id": "GCST004030-harmonised-files",
+      "file": "GCST004030-harmonised-files.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/harmonised/",
+      "max_bytes": 100000,
+      "sha256": "2da07296fa1c34f4f2dcf2e4130756e95a379b4fc906ce7618a2e8c436e5eeff",
+      "bytes_after_decompression": 1909,
+      "retrieved_at_utc": "2026-09-11T22:51:45.198244+00:00",
+      "content_range": null
+    },
+    {
+      "id": "GCST004030-original-header",
+      "file": "GCST004030-original-header.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=0-8191"
+      },
+      "max_bytes": 100000,
+      "sha256": "82fb5939a11d388780fac1d303fc83875ed5784e6f7490f50d21d78db3769888",
+      "bytes_after_decompression": 8192,
+      "retrieved_at_utc": "2026-09-11T22:51:45.197879+00:00",
+      "content_range": "bytes 0-8191/662022204"
+    },
+    {
+      "id": "GCST004030-bytes-330994718-331027485",
+      "file": "GCST004030-bytes-330994718-331027485.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=330994718-331027485"
+      },
+      "sha256": "0d7dabb74d60891946d3c771f0e37bf27a8c2d009eafad2f5d0dcf5205a75019",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:57.883171+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-496492077-496524844",
+      "file": "GCST004030-bytes-496492077-496524844.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=496492077-496524844"
+      },
+      "sha256": "51e87c2edbd192c5d339b12590846358c67a44773b37a109e2fea9d7dbfb405d",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:58.274142+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-579240756-579273523",
+      "file": "GCST004030-bytes-579240756-579273523.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=579240756-579273523"
+      },
+      "sha256": "a3574a9ee2069bc7f9ea6687b9d8e2b215f76d699ecf475e9faa7a0f40a035a0",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:58.666298+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-620615096-620647863",
+      "file": "GCST004030-bytes-620615096-620647863.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=620615096-620647863"
+      },
+      "sha256": "ed3d0fecb3bc0da31852832fe96ed859474982c2c5f0df4aa9adf9995931a423",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:59.059004+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-599927926-599960693",
+      "file": "GCST004030-bytes-599927926-599960693.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=599927926-599960693"
+      },
+      "sha256": "f62547abb9c75363cf1648719a8ef26756cd4c0d7b9451a3f19cc386de5750d9",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:59.453817+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-610271511-610304278",
+      "file": "GCST004030-bytes-610271511-610304278.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=610271511-610304278"
+      },
+      "sha256": "b7f18ba0758a2d07f139647bb90626999b31ed7ce76298af33827eb04407ca4c",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:53:59.847672+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-605099718-605132485",
+      "file": "GCST004030-bytes-605099718-605132485.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=605099718-605132485"
+      },
+      "sha256": "65d30d72abaddc827aa36fb510ce2e337e203c5f164e3d834bf4c58fb167f74c",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:00.237474+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-607685614-607718381",
+      "file": "GCST004030-bytes-607685614-607718381.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=607685614-607718381"
+      },
+      "sha256": "aaadc2b4314ffe2315a60e8544abb5bbe444f56ecdb5d57c3782c80151611563",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:00.632149+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-608978562-609011329",
+      "file": "GCST004030-bytes-608978562-609011329.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=608978562-609011329"
+      },
+      "sha256": "96c4c29beba9ac1a1669fa6c1bb2109f2e7ddb71fa87a6bda919373114e165db",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:01.022335+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-609625036-609657803",
+      "file": "GCST004030-bytes-609625036-609657803.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=609625036-609657803"
+      },
+      "sha256": "cf0cda3aefbafd53f2ec3998767597edc5d595984ad2736c374d358f988fc14c",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:01.414796+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-609948273-609981040",
+      "file": "GCST004030-bytes-609948273-609981040.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=609948273-609981040"
+      },
+      "sha256": "c00c5d7b867ed27a6710dafb9cc303e7bcdb29c0fac2400c519055668acee80a",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:01.806656+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-610109892-610142659",
+      "file": "GCST004030-bytes-610109892-610142659.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=610109892-610142659"
+      },
+      "sha256": "38cabca49aa7be0ac1bd1b10af24f6dd76441e0fda46debdee2e2d77b057cd1a",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:02.199164+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-610190701-610223468",
+      "file": "GCST004030-bytes-610190701-610223468.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=610190701-610223468"
+      },
+      "sha256": "0e80c5f058c6bb5c5d5967672fe397352df35ef24f85ddba0accec02ad2d9056",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:02.590963+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-610231106-610263873",
+      "file": "GCST004030-bytes-610231106-610263873.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=610231106-610263873"
+      },
+      "sha256": "67be95eba443caad0d6d3931eab7d1cfcab06bb387446a5f26562f220ed3fe40",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:02.981059+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-641302266-641335033",
+      "file": "GCST004030-bytes-641302266-641335033.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=641302266-641335033"
+      },
+      "sha256": "5000b643f15121830af35bf6abbc05a507fa1ccbcd70fcd16f5d26d615899401",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:03.373583+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-630958681-630991448",
+      "file": "GCST004030-bytes-630958681-630991448.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=630958681-630991448"
+      },
+      "sha256": "d41bdcad472fb9422afa52a1ed9d9e00e9a8bbb4f99df91286cae664085f8a6d",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:03.764105+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-636130473-636163240",
+      "file": "GCST004030-bytes-636130473-636163240.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=636130473-636163240"
+      },
+      "sha256": "035a5cc7da6007e56c4fa78558de64ed05bb7c4695e91862f95b23cb0f621787",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:04.155490+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-633544577-633577344",
+      "file": "GCST004030-bytes-633544577-633577344.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=633544577-633577344"
+      },
+      "sha256": "67114c60a1be4d73a0e28c75d95e801f060389fb524c4935f986e49374dad51c",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:04.547421+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-634837525-634870292",
+      "file": "GCST004030-bytes-634837525-634870292.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=634837525-634870292"
+      },
+      "sha256": "3d39237a4e611aa08cc304ad7d25f7f40c4fc0fda27f6e02e1841d77c833c126",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:05.082025+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-634191051-634223818",
+      "file": "GCST004030-bytes-634191051-634223818.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=634191051-634223818"
+      },
+      "sha256": "c2953e2668fbe4981b9bfac765c08b1e45beed7e10efac98209812e1268b89fb",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:05.474569+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-634514288-634547055",
+      "file": "GCST004030-bytes-634514288-634547055.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=634514288-634547055"
+      },
+      "sha256": "dabd9104ed6361c0f9db24a07a9ee85b3503fc870a882dedfe0bb7bba8ae512d",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:05.864886+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-634352669-634385436",
+      "file": "GCST004030-bytes-634352669-634385436.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=634352669-634385436"
+      },
+      "sha256": "41cf3652f8a69697d8d044205e9f1cb0b04181b7df6ea48214d8fbe9fc43555b",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:06.257976+00:00"
+    },
+    {
+      "id": "GCST004030-bytes-634433478-634466245",
+      "file": "GCST004030-bytes-634433478-634466245.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=634433478-634466245"
+      },
+      "sha256": "98399111caa4c2d3f13a2fcea38526d1479ad7dadb7fd2eaf394c22138e13384",
+      "max_bytes": 200000,
+      "bytes_after_decompression": 32768,
+      "retrieved_at_utc": "2026-09-11T22:54:06.652601+00:00"
+    },
+    {
+      "id": "GRCh38-rs313839-populations",
+      "file": "GRCh38-rs313839-populations.json",
+      "url": "https://rest.ensembl.org/variation/human/rs313839?pops=1;content-type=application/json",
+      "sha256": "8defea78e8c647a28cc46aa84cb61eda86ce5ed34701a0f6c440cabdbb5a007c",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 12098,
+      "retrieved_at_utc": "2026-09-11T22:56:29.248689+00:00"
+    }
+  ]
+}

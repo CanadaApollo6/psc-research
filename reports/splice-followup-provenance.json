@@ -1,0 +1,139 @@
+{
+  "run_directory": "data/predictions/20260911T225056Z-ubash3a-splice",
+  "run_manifest_sha256": "e1041e04ab255d0865d322c5e1a78a23e80e29d096a372303000f441d2304ed3",
+  "original_protocol_sha256": "bb620003182ac10a3d1e95db00d38207b356095e67a1f2b0eb4a8d856e32d1ef",
+  "corrected_protocol_sha256": "624fc35e26e12ae881d681742ddb82277239a3ea9ba4c0873d934a93c80cfba9",
+  "correction": "After the v0.1 request, diagnostic output exposed a one-base indexing error. Official model source confirms that positive-strand donor tracks label the last exonic base, while junctions start at the first intronic base. The original v0.1 config is archived unchanged. This correction changes interpretation only; the API request parameters are identical and no repeat request was made.",
+  "coordinate_source": "https://github.com/google-deepmind/alphagenome_research/blob/0db53bd4352c66d1e00a049a81da373a066e6670/src/alphagenome_research/io/splicing.py#L91-L96",
+  "positions_0based": {
+    "original_v0.1_index_error": 42434954,
+    "annotated_donor_corrected": 42434953,
+    "largest_donor_gain_in_fixed_window": 42434982
+  },
+  "alternative_donor_distance_nt": 29,
+  "selection_of_alternative_donor": "Largest positive donor-probability difference in the original fixed 101-base diagnostic window; exploratory endpoint",
+  "transcripts_at_boundary": 5,
+  "junction_track_comparisons": 534,
+  "source_manifests": {
+    "mechanism-sources.json": "a07aa38e5843f1e97daf9a796081f1952b4211ce838c5ebb5efa089a40bb36ba",
+    "splice-audit-sources.json": "c67f5b25f3f4cad56690e42bfbeada1c79458c7fbae06df700a264b5fd19dd37",
+    "association-sources.json": "56b577212e4efe6ccb31a1a68a2f51a13412f0de831e5cada4c0fb601749c968"
+  },
+  "request_provenance": {
+    "status": "complete",
+    "started_at_utc": "2026-09-11T22:50:56.535698+00:00",
+    "request_count": 1,
+    "client_version": "0.9.0",
+    "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+    "model_version_selection": "ALL_FOLDS",
+    "server_model_build_identifier": "Not exposed by client response",
+    "protocol_sha256": "bb620003182ac10a3d1e95db00d38207b356095e67a1f2b0eb4a8d856e32d1ef",
+    "runner_sha256": "e63b83301897295fc675ea418bfa9ade59d6ab93b050a9fcd87f833ce5e1cb61",
+    "mechanism_sources_sha256_at_request": "a07aa38e5843f1e97daf9a796081f1952b4211ce838c5ebb5efa089a40bb36ba",
+    "reference_sources_sha256": "00abf06e46288dea9eaef3c812dbdd3a3ed62fd73408bea711df94d8672d6b92",
+    "outputs": [
+      {
+        "allele": "REF",
+        "modality": "splice_sites",
+        "values_file": "REF-splice_sites.npz",
+        "metadata_file": "REF-splice_sites-metadata.csv",
+        "shape": [
+          1048576,
+          4
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "resolution": 1
+      },
+      {
+        "allele": "REF",
+        "modality": "splice_site_usage",
+        "values_file": "REF-splice_site_usage.npz",
+        "metadata_file": "REF-splice_site_usage-metadata.csv",
+        "shape": [
+          1048576,
+          4
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "resolution": 1
+      },
+      {
+        "allele": "REF",
+        "modality": "splice_junctions",
+        "values_file": "REF-splice_junctions.npz",
+        "metadata_file": "REF-splice_junctions-metadata.csv",
+        "shape": [
+          568,
+          2
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "coordinates_file": "REF-splice_junctions-coordinates.csv.gz"
+      },
+      {
+        "allele": "ALT",
+        "modality": "splice_sites",
+        "values_file": "ALT-splice_sites.npz",
+        "metadata_file": "ALT-splice_sites-metadata.csv",
+        "shape": [
+          1048576,
+          4
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "resolution": 1
+      },
+      {
+        "allele": "ALT",
+        "modality": "splice_site_usage",
+        "values_file": "ALT-splice_site_usage.npz",
+        "metadata_file": "ALT-splice_site_usage-metadata.csv",
+        "shape": [
+          1048576,
+          4
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "resolution": 1
+      },
+      {
+        "allele": "ALT",
+        "modality": "splice_junctions",
+        "values_file": "ALT-splice_junctions.npz",
+        "metadata_file": "ALT-splice_junctions-metadata.csv",
+        "shape": [
+          568,
+          2
+        ],
+        "chromosome": "chr21",
+        "start_0based": 41910668,
+        "end_0based_exclusive": 42959244,
+        "coordinates_file": "ALT-splice_junctions-coordinates.csv.gz"
+      }
+    ],
+    "output_hashes": {
+      "ALT-splice_junctions-coordinates.csv.gz": "1bcc45f9194786155f4e7bc6a57a9eea0893aeb436075c9e19bf0b15e281d4f8",
+      "ALT-splice_junctions-metadata.csv": "f49e62c537554861139b072d242201d06fbe729f638f1bc1c982ae385dff644c",
+      "ALT-splice_junctions.npz": "8c5d0d45de0d53aa4f5b9bfbfb49bd0909303c8dcea114141e2264a0803a99d6",
+      "ALT-splice_site_usage-metadata.csv": "b0c3d76d004512ef2a9a52f076799419f7abc63da6056ba1b8c2031a7dd1f3bc",
+      "ALT-splice_site_usage.npz": "a7c50406c027989b3b37710d9f97949b2ed84437d792b3a14df39d842354ba4c",
+      "ALT-splice_sites-metadata.csv": "7d18141b6a3c3948549b6d910bd5fbe84ef0b4b097e698f14ff5b8980e854d1a",
+      "ALT-splice_sites.npz": "ee93fcf02541589407eac4cac747cb23ee9326db1e13c08ec54315fa7512b5e3",
+      "REF-splice_junctions-coordinates.csv.gz": "4199ebc2de024e3d42b8ad9ff6bd448360fa41364421219efeb69651028fe6c1",
+      "REF-splice_junctions-metadata.csv": "f49e62c537554861139b072d242201d06fbe729f638f1bc1c982ae385dff644c",
+      "REF-splice_junctions.npz": "ab0f8189f51b5442686dcbffb1063df6c80c04511d639b08205e5721abe2f03b",
+      "REF-splice_site_usage-metadata.csv": "b0c3d76d004512ef2a9a52f076799419f7abc63da6056ba1b8c2031a7dd1f3bc",
+      "REF-splice_site_usage.npz": "24d2a6e2410080b5de95672af26ad3799ccb3c79d12537d3e4dbcdf971f72f3e",
+      "REF-splice_sites-metadata.csv": "7d18141b6a3c3948549b6d910bd5fbe84ef0b4b097e698f14ff5b8980e854d1a",
+      "REF-splice_sites.npz": "a8f08a0608963581332dd863cf862001542de802fc17105107f92cfd554a828c",
+      "protocol.json": "bb620003182ac10a3d1e95db00d38207b356095e67a1f2b0eb4a8d856e32d1ef"
+    },
+    "finished_at_utc": "2026-09-11T22:51:01.525026+00:00"
+  }
+}

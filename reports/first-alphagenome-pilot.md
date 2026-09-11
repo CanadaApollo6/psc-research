@@ -2,6 +2,8 @@
 
 Completed 2026-09-11. Four verified variants across three PSC-associated regions were scored with AlphaGenome 0.9.0 using the `ALL_FOLDS` model selection. The protocol, variant selection and comparison rules were fixed before prediction requests. This is a feasibility and consistency check on known examples, not a discovery or an independent accuracy benchmark.
 
+**Follow-up completed:** the [allele and transcript audit](mechanism-audit.md) documents conflicting published UBASH3A expression endpoints, a predicted 29-nt splice-donor shift, and original GWAS support for C as the working PRKD2 risk allele. This report preserves the initial comparison and exclusions; its “opposite direction” finding refers specifically to the original source comparison, not unanimous agreement across the literature.
+
 ## Main result
 
 The model ranked the published target gene first for **UBASH3A** and **PRKD2** in the prespecified cell contexts. However, the **UBASH3A expression prediction opposed the published allele-direction comparison**. The two ETS2 variants gave different rankings. Gene identification and the direction of a molecular effect must therefore be assessed separately.

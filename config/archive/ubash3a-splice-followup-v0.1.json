@@ -1,0 +1,33 @@
+{
+  "protocol_version": "0.1",
+  "purpose": "Exploratory follow-up to the completed four-variant pilot: test the signed effect of A>C at the annotated UBASH3A donor, and inspect CD4 splice usage and junctions",
+  "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+  "client_version": "0.9.0",
+  "model_version": "ALL_FOLDS",
+  "reference_genome": "GRCh38.p13",
+  "variant": {"rsid": "rs1893592", "chromosome": "chr21", "position_1based": 42434957, "reference": "A", "alternate": "C"},
+  "interval": {"start_0based": 41910668, "end_0based_exclusive": 42959244},
+  "requested_outputs": ["SPLICE_SITES", "SPLICE_SITE_USAGE", "SPLICE_JUNCTIONS"],
+  "ontology_terms": ["CL:0000624"],
+  "primary_endpoint": {
+    "output": "SPLICE_SITES", "track_name": "donor", "strand": "+",
+    "position_0based": 42434954,
+    "comparison": "ALT probability minus REF probability at the first intronic nucleotide; test whether the sign is negative"
+  },
+  "annotation": {
+    "source": "UBASH3A-transcripts-GRCh38.json", "gene_id": "ENSG00000160185",
+    "upstream_exon_end_1based": 42434954, "downstream_exon_start_1based": 42437488,
+    "interpretation": "Variant is at intron +3. The shared boundary is exon 9 in ENST00000291535.12 and exon 10 in ENST00000319294.11. Ensembl release 116 is an independent boundary annotation, not a claim of matching every GENCODE v46 model transcript."
+  },
+  "diagnostic_window": {"start_0based": 42434904, "end_0based_exclusive": 42435005},
+  "secondary_endpoints": [
+    "Signed SPLICE_SITE_USAGE change at the primary donor for each returned positive-strand CD4 track, with assay names retained",
+    "All returned positive-strand junctions touching either the annotated donor boundary or the downstream exon boundary, plus any junction crossing both boundaries; outer join REF and ALT, leaving absent predictions missing rather than zero"
+  ],
+  "limitations": [
+    "Selected after observing the first pilot and published splicing evidence; not an independent validation or a discovery",
+    "No negative-control set, statistical test, stimulation-matched assay, or held-out model in this follow-up",
+    "Splice-site probability is a model classification output, not a measured fraction of retained intron",
+    "Usage and junction signals are distinct endpoints; neither alone establishes a transcript isoform, protein effect, or clinical benefit"
+  ]
+}

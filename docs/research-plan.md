@@ -1,12 +1,12 @@
 # First computational project
 
-Updated 2026-09-11. Status: source import, four-variant normalization and the first AlphaGenome feasibility pilot are complete. See [results and disagreements](../reports/first-alphagenome-pilot.md). A controlled or independent validation study remains future work.
+Updated 2026-09-11. Status: source import, four-variant normalization, the first AlphaGenome pilot and the [allele/transcript follow-up](../reports/mechanism-audit.md) are complete. The follow-up adds one splice prediction and exact original GWAS rows. A controlled or independent validation study remains future work.
 
 ## Question and finished result
 
 Can regulatory-sequence predictions help prioritize **variant → gene → cell type → molecular effect** hypotheses at PSC-associated regions?
 
-The first finished result will be a reproducible benchmark on **UBASH3A, ETS2, and PRKD2**, including every selected variant, gene, track, parameter, and failure. Each locus gets a short report comparing the model with published molecular evidence. A negative or inconclusive result is an acceptable outcome.
+The first finished result is a reproducible feasibility pilot on **UBASH3A, ETS2, and PRKD2**, including selected variants, genes, tracks, parameters and disagreements. A follow-up resolves transcript numbering, documents a corrected donor-track index and defines a +29-nt UBASH3A splice hypothesis. Negative or inconclusive results are retained.
 
 If that benchmark supports further work, apply a frozen method to three less-resolved non-HLA regions. Choose those regions before viewing their prediction scores. A larger computer run alone is not evidence of a better biological result.
 
@@ -35,8 +35,10 @@ If that benchmark supports further work, apply a frozen method to three less-res
 | 2 | Freeze pilot and inspect track coverage | Completed for the feasibility run. A matched comparison-variant set remains necessary before a controlled benchmark. |
 | 3 | Connect AlphaGenome and run the pilot | Completed: four successful requests with pinned client and run provenance. |
 | 4 | Produce pilot report | Completed for all three regions, including the UBASH3A direction disagreement and ETS2 variant-dependent ranking. |
-| 5 | Audit source alleles and transcripts | Next: trace UBASH3A's expression/splicing definitions and obtain an authoritative PRKD2 association row. Keep model predictions unchanged while checking the source. |
-| 6 | Define a controlled extension | Add appropriate comparison variants, independent evidence and adequate cell-state coverage before making generalization claims. |
+| 5 | Audit source alleles and transcripts | Completed: source-specific RNA endpoints, shared transcript boundary, one additional splice request, original GWAS rows and allele-frequency checks. C is the working PRKD2 risk allele; contradictory source labels and molecular-QTL alignment remain explicit. |
+| 6 | Align PRKD2 molecular-QTL coefficients | Next: obtain a direct rs313839 expression-QTL row with build, assessed allele, other allele and beta; compare it with the audited disease-risk allele. Do not turn the current conditional interpretation into a benchmark pass. |
+| 7 | Test UBASH3A splice hypothesis independently | Find accessible genotype-linked RNA measurements and evaluate the canonical and +29-nt junctions, intronic coverage and total abundance separately, with donors as replicates. Existing studies and model outputs do not establish independence. |
+| 8 | Define a controlled extension | Add appropriate comparison variants, independent evidence and adequate cell-state coverage before making generalization claims. |
 
 ## What this could contribute
 

@@ -12,7 +12,7 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The [first AlphaGenome pilot is complete](reports/first-alphagenome-pilot.md): four variants across UBASH3A, ETS2 and PRKD2. The model ranked UBASH3A and PRKD2 first in the selected contexts, but UBASH3A's expression direction opposed the published comparison. ETS2 results differed between the lead and highest-posterior variants. These are mixed consistency results on known examples, not new treatment findings.
+The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) gave mixed results across four variants in UBASH3A, ETS2 and PRKD2. The completed [mechanism follow-up](reports/mechanism-audit.md) now adds a specific prediction: rs1893592 shifts UBASH3A splice-donor use toward a site 29 nucleotides downstream. Published expression and splice-form measurements still disagree in places. Original GWAS rows support **C as the working PRKD2 rs313839 risk allele**, while conflicting molecular-QTL labels remain under review. These are checks on known biology, not new treatment findings.
 
 ## What works now
 
@@ -21,8 +21,9 @@ The [first AlphaGenome pilot is complete](reports/first-alphagenome-pilot.md): f
 - A dated [study and company watchlist](docs/watchlist.md) and [research contact directory](docs/contacts.md).
 - A [research protocol and backlog](docs/research-plan.md), including the next AlphaGenome steps.
 - Four verified build-38 variant inputs, a fixed scoring protocol, completed model requests and a report of all outcomes.
+- A source-backed allele/transcript audit, one additional splice prediction, a documented coordinate correction, and [concrete researcher review questions](docs/mechanism-review-questions.md).
 
-The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Two variants still lack a usable source-based risk-direction comparison. No liver-atlas expression matrices have been analyzed.
+The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
 ## Reproduce the starting data
 
@@ -69,6 +70,23 @@ python scripts/summarize_pilot.py data/predictions/20260911T223028Z
 ```
 
 For a new run, replace the final path with the directory printed by the runner. Full predictions stay in ignored local storage; compact reports and provenance are versioned. The checked-in report describes the September 11 run. A changed server model can produce different future results.
+
+## Reproduce the mechanism follow-up
+
+After installing the model environment above, retrieve the additional pinned public sources and regenerate the allele audit:
+
+```bash
+python scripts/fetch_sources.py --manifest config/mechanism-sources.json
+python scripts/fetch_sources.py --manifest config/association-sources.json
+python scripts/fetch_sources.py --manifest config/splice-audit-sources.json
+python scripts/fetch_gwas_audit_rows.py  # uses cached ranges when present
+python scripts/build_allele_audit.py
+python scripts/run_splice_followup.py   # dry-run with corrected v0.2 coordinate
+python scripts/summarize_splice_followup.py data/predictions/20260911T225056Z-ubash3a-splice
+python -m unittest discover -s tests -v
+```
+
+The summary command requires the saved local prediction folder. To obtain new predictions, use `python scripts/run_splice_followup.py --run` and summarize the printed folder. The original run used v0.1; its one-base endpoint mistake is documented alongside the correction, with the original protocol archived. Version 0.2 changes the interpretation coordinate, not the DNA prediction request. The report distinguishes the recorded results from anything produced by a future model update.
 
 ## Interpretation
 

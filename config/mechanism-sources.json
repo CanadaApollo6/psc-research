@@ -1,0 +1,122 @@
+{
+  "snapshot_date": "2026-09-11",
+  "sources": [
+    {
+      "id": "GCST004030",
+      "file": "GCST004030.json",
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST004030",
+      "sha256": "26ce9435122ad7c435a86e38646d0dcd6a5b22466083c26bdbe96e20e765ccdc",
+      "bytes_after_decompression": 4118,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:48.485238+00:00"
+    },
+    {
+      "id": "GCST004030-associations",
+      "file": "GCST004030-associations.json",
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST004030/associations?size=100",
+      "sha256": "d1f57d0275187cf68146fd2e40c33d054b7e95036828032a1b6245c061e81130",
+      "bytes_after_decompression": 76032,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:50.935770+00:00"
+    },
+    {
+      "id": "GCST004030-files",
+      "file": "GCST004030-files.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/",
+      "sha256": "7c4d45e13617004a133817cce1ffd6f0e1758c56ec89baf2bd633ab8e29dcf0b",
+      "bytes_after_decompression": 1330,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:48.971177+00:00"
+    },
+    {
+      "id": "GRCh37-rs313829",
+      "file": "GRCh37-rs313829.json",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs313829?content-type=application/json",
+      "max_bytes": 2000000,
+      "sha256": "8fa21c4487a2bd7231eb355fa75326d210f6c1e8c91b6b716979b36092906876",
+      "bytes_after_decompression": 616,
+      "retrieved_at_utc": "2026-09-11T22:45:25.010360+00:00"
+    },
+    {
+      "id": "GRCh38-rs313829",
+      "file": "GRCh38-rs313829.json",
+      "url": "https://rest.ensembl.org/variation/human/rs313829?content-type=application/json",
+      "max_bytes": 2000000,
+      "sha256": "f1e5a4870ae909caaafee839e5e28fd1a2999a62ef3c0edfe1fa66afb442a50d",
+      "bytes_after_decompression": 616,
+      "retrieved_at_utc": "2026-09-11T22:45:25.319664+00:00"
+    },
+    {
+      "id": "Ge2018-PMC",
+      "file": "Ge2018.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6018660/",
+      "sha256": "d9defe51c4394078e70928259e1586718a8c3c436bbbd3ba436b53d5a15cd63c",
+      "bytes_after_decompression": 141926,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:47.771420+00:00"
+    },
+    {
+      "id": "Goode-thesis",
+      "file": "Goode-thesis.pdf",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/1eba2953-4a5e-455e-b243-3c163ee315fa/content",
+      "max_bytes": 50000000,
+      "sha256": "08a9ef09f07cf3d0934e7c76c02492b56c04cdeb11139985dc4936b5c405dfe3",
+      "bytes_after_decompression": 10320425,
+      "retrieved_at_utc": "2026-09-11T22:45:29.054886+00:00"
+    },
+    {
+      "id": "Ji2017-PMC",
+      "file": "Ji2017.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5540332/",
+      "sha256": "befb528e635906fd7aef37ebcfef4e33afbb134bf11b5cf735e37203b1e3ecfb",
+      "bytes_after_decompression": 277459,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:47.819229+00:00"
+    },
+    {
+      "id": "PMC10875759",
+      "file": "PMC10875759.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10875759/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "619d645524017fa1cac388a5d9f678ddf2044d5d5120d97b966f842945cb917d",
+      "bytes_after_decompression": 105854,
+      "retrieved_at_utc": "2026-09-11T22:45:24.865484+00:00"
+    },
+    {
+      "id": "PMC5668939",
+      "file": "PMC5668939.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5668939/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "cc86c1b6a8606e1c456741fd1b8997fcc529bd7bf00f6483ce172a9a76ebc854",
+      "bytes_after_decompression": 121319,
+      "retrieved_at_utc": "2026-09-11T22:45:24.215028+00:00"
+    },
+    {
+      "id": "Todd2018-PMC",
+      "file": "Todd2018.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6018710/",
+      "sha256": "9d70b58560f907713ba9feab0eb9e04f3df348437438486b00efa46a1e45d0d9",
+      "bytes_after_decompression": 118698,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:47.791679+00:00"
+    },
+    {
+      "id": "UBASH3A-splice-context-GRCh38",
+      "file": "UBASH3A-splice-context-GRCh38.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:42434944..42434974:1?content-type=application/json",
+      "max_bytes": 2000000,
+      "sha256": "b5cdde433008fd83b802694061fc22593f41cf435ed58196ee31b0471d8bdc54",
+      "bytes_after_decompression": 140,
+      "retrieved_at_utc": "2026-09-11T22:45:25.702042+00:00"
+    },
+    {
+      "id": "UBASH3A-transcripts-GRCh38",
+      "file": "UBASH3A-transcripts-GRCh38.json",
+      "url": "https://rest.ensembl.org/lookup/id/ENSG00000160185?expand=1;content-type=application/json",
+      "max_bytes": 5000000,
+      "sha256": "5f748a1bfb41ad1e25aeec9d1cc3eda2935e7e9f9f035b752bccfeabb46d8ab3",
+      "bytes_after_decompression": 25821,
+      "retrieved_at_utc": "2026-09-11T22:45:27.625357+00:00"
+    }
+  ]
+}

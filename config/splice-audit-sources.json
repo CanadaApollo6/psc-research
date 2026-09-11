@@ -1,0 +1,33 @@
+{
+  "snapshot_date": "2026-09-11",
+  "research_code_commit": "0db53bd4352c66d1e00a049a81da373a066e6670",
+  "sources": [
+    {
+      "id": "alphagenome-research-commit",
+      "file": "alphagenome-research-commit.json",
+      "url": "https://api.github.com/repos/google-deepmind/alphagenome_research/commits/main",
+      "sha256": "4761913b16ec8e896217d4ef03e0905a9c419f40fc7ce0b5dd89745771cbdd7f",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 7728,
+      "retrieved_at_utc": "2026-09-11T22:55:06.393797+00:00"
+    },
+    {
+      "id": "alphagenome-splice-coordinate-code",
+      "file": "alphagenome-splicing.py",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphagenome_research/0db53bd4352c66d1e00a049a81da373a066e6670/src/alphagenome_research/io/splicing.py",
+      "sha256": "47cd2ec60bf0c23cf76fc9b68c56c05e3a84c32b2ba1ea273e651cdc5946dba3",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 6131,
+      "retrieved_at_utc": "2026-09-11T22:55:06.548067+00:00"
+    },
+    {
+      "id": "UBASH3A-2020-splicing",
+      "file": "PMC7066660.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7066660/fullTextXML",
+      "sha256": "745fa2ea00875263a591b1c207d3c3eb646994b5fe85c461282f816aeeb1f5d6",
+      "max_bytes": 2000000,
+      "bytes_after_decompression": 249930,
+      "retrieved_at_utc": "2026-09-11T22:55:07.615107+00:00"
+    }
+  ]
+}

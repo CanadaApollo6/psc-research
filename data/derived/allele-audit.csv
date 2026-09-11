@@ -1,0 +1,3 @@
+rsid,assembly,chromosome,position_1based,risk_allele_original_gwas,other_allele_original_gwas,risk_frequency_cases,risk_frequency_controls,odds_ratio_original_gwas,standard_error_as_published,p_value_original_gwas,source_range_id,goode2024_supplement_risk_allele_as_published,goode2020_thesis_risk_allele_as_published,working_risk_allele,status
+rs313839,GRCh37,19,47221557,C,G,0.87,0.84,1.322,0.051,2.11865164971472e-08,GCST004030-bytes-610231106-610263873,A,G,C,Original GWAS and population frequencies support C; contradictory thesis and molecular-QTL labeling remain unresolved
+rs1893592,GRCh37,21,43855067,A,C,0.76,0.72,1.224,0.040,1.89696292216425e-07,GCST004030-bytes-634433478-634466245,A,A,A,A risk / C protective is consistent across these sources

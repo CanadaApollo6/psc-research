@@ -1,0 +1,6 @@
+transcript_id,transcript_version,biotype,is_canonical,upstream_exon_number,upstream_exon_id,upstream_exon_end_1based,junction_start_0based,model_donor_position_0based,intron_offset_1based,downstream_exon_start_1based,intron_length_bp
+ENST00000291535,12,protein_coding,0,9,ENSE00001259628,42434954,42434954,42434953,3,42437488,2533
+ENST00000635325,1,nonsense_mediated_decay,0,9,ENSE00001259628,42434954,42434954,42434953,3,42437488,2533
+ENST00000319294,11,protein_coding,1,10,ENSE00001259628,42434954,42434954,42434953,3,42437488,2533
+ENST00000398367,2,protein_coding,0,9,ENSE00001259628,42434954,42434954,42434953,3,42437488,2533
+ENST00001131803,1,protein_coding,0,10,ENSE00001259628,42434954,42434954,42434953,3,42437488,2533

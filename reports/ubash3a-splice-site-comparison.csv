@@ -1,0 +1,25 @@
+site,position_0based,position_1based,modality,track_name,strand,assay,ontology_curie,reference,alternate,prediction_availability,delta_alt_minus_ref
+annotated_donor_corrected,42434953,42434954,splice_sites,acceptor,+,,,0.000179290771484375,0.00019073486328125,both,1.1444091796875e-05
+annotated_donor_corrected,42434953,42434954,splice_sites,acceptor,-,,,6.580352783203125e-05,0.00011396408081054688,both,4.8160552978515625e-05
+annotated_donor_corrected,42434953,42434954,splice_sites,donor,+,,,0.96875,0.92578125,both,-0.04296875
+annotated_donor_corrected,42434953,42434954,splice_sites,donor,-,,,7.3909759521484375e-06,8.285045623779297e-06,both,8.940696716308594e-07
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_sites,acceptor,+,,,3.838539123535156e-05,0.00022125244140625,both,0.00018286705017089844
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_sites,acceptor,-,,,3.4809112548828125e-05,0.0001430511474609375,both,0.00010824203491210938
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_sites,donor,+,,,0.0123291015625,0.369140625,both,0.3568115234375
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_sites,donor,-,,,1.4126300811767578e-05,4.649162292480469e-05,both,3.236532211303711e-05
+original_v0.1_index_error,42434954,42434955,splice_sites,acceptor,+,,,0.0002498626708984375,0.000492095947265625,both,0.0002422332763671875
+original_v0.1_index_error,42434954,42434955,splice_sites,acceptor,-,,,4.731118679046631e-07,1.1324882507324219e-06,both,6.593763828277588e-07
+original_v0.1_index_error,42434954,42434955,splice_sites,donor,+,,,7.562339305877686e-07,1.817941665649414e-06,both,1.0617077350616455e-06
+original_v0.1_index_error,42434954,42434955,splice_sites,donor,-,,,1.4603137969970703e-06,1.5497207641601562e-06,both,8.940696716308594e-08
+annotated_donor_corrected,42434953,42434954,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000624,0.7109375,0.55078125,both,-0.16015625
+annotated_donor_corrected,42434953,42434954,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000624,0.00225830078125,0.00164794921875,both,-0.0006103515625
+annotated_donor_corrected,42434953,42434954,splice_site_usage,usage_CL:0000624 total RNA-seq,+,total RNA-seq,CL:0000624,0.482421875,0.333984375,both,-0.1484375
+annotated_donor_corrected,42434953,42434954,splice_site_usage,usage_CL:0000624 total RNA-seq,-,total RNA-seq,CL:0000624,0.0021820068359375,0.00154876708984375,both,-0.00063323974609375
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000624,2.014636993408203e-05,0.00555419921875,both,0.005534052848815918
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000624,2.2649765014648438e-06,9.012222290039062e-05,both,8.785724639892578e-05
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_site_usage,usage_CL:0000624 total RNA-seq,+,total RNA-seq,CL:0000624,1.7762184143066406e-05,0.0029754638671875,both,0.0029577016830444336
+largest_donor_gain_in_fixed_window,42434982,42434983,splice_site_usage,usage_CL:0000624 total RNA-seq,-,total RNA-seq,CL:0000624,2.2649765014648438e-06,7.486343383789062e-05,both,7.259845733642578e-05
+original_v0.1_index_error,42434954,42434955,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,+,polyA plus RNA-seq,CL:0000624,3.084540367126465e-06,1.150369644165039e-05,both,8.419156074523926e-06
+original_v0.1_index_error,42434954,42434955,splice_site_usage,usage_CL:0000624 polyA plus RNA-seq,-,polyA plus RNA-seq,CL:0000624,5.699694156646729e-07,1.2889504432678223e-06,both,7.189810276031494e-07
+original_v0.1_index_error,42434954,42434955,splice_site_usage,usage_CL:0000624 total RNA-seq,+,total RNA-seq,CL:0000624,3.293156623840332e-06,1.150369644165039e-05,both,8.210539817810059e-06
+original_v0.1_index_error,42434954,42434955,splice_site_usage,usage_CL:0000624 total RNA-seq,-,total RNA-seq,CL:0000624,6.48200511932373e-07,1.4603137969970703e-06,both,8.121132850646973e-07
