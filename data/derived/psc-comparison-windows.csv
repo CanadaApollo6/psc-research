@@ -1,0 +1,4 @@
+archive_region,chromosome,center_variant,interval_start_0based,interval_end_0based_exclusive,nominated_anchors
+IL2RA,chr10,rs7923054,5644835,6693411,1
+BACH2,chr6,rs7750271,89802217,90850793,2
+BCL2L11,chr2,rs72837826,110651135,111699711,2

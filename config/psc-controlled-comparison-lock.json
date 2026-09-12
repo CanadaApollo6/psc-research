@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "10b6cdf6875e3e4926a59c8fa0c183e74ec1d99cb41540cb0bddd01e054b66a1",
+  "source_manifest_sha256": "409875f121373abd895fe064633eadd10ea0c359201511ce689f1686707950aa",
+  "complete_variant_table_sha256": "4aaa85802d8b5c1274fa71206916a26c81450db332a2688cff5f7f7ebd9401f1",
+  "candidate_table_sha256": "eb257d56f7fcf625dd8899b3da49662cfa2453e96f70f20f2fdce8c8c328aaa2",
+  "recorded_at_utc": "2026-09-12T04:11:25.090807+00:00",
+  "protocol_version": "0.1",
+  "nominated_anchors": 5,
+  "model_predictions_made": 0,
+  "scope": "Locks selection rules, candidate references and archived data before new model scores. This is not the final comparator manifest or a registry preregistration.",
+  "next_phase": "Preserve this snapshot. Put new matching references in a separate manifest, then freeze the exact comparator/covariate/gene/track inputs before inference."
+}

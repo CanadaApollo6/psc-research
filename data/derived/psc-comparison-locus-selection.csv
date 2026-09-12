@@ -1,0 +1,16 @@
+table_label_as_published,published_signals,highest_published_pip,published_set_size_for_single_signal,eligibility,selection_rank,selected
+MMEL1,1,0.07,62,Published top probability outside fixed range,,False
+BCL211,1,0.18,12,Eligible,3,True
+CD28,2,0.19,,Multiple published signals,,False
+MST1,2,0.11,,Multiple published signals,,False
+FOXP1,2,0.99,,Multiple published signals,,False
+IL2-IL21,1,0.09,50,Published top probability outside fixed range,,False
+BACH2,1,0.20,12,Eligible,2,True
+IL2RA,1,0.46,5,Eligible,1,True
+CCDC88B,2,0.61,,Multiple published signals,,False
+SH2B3,1,0.99,1,Published top probability outside fixed range,,False
+CLEC16A,1,0.16,12,Eligible,4,False
+CD226,1,0.08,44,Published top probability outside fixed range,,False
+PRKD2,1,0.23,14,Prior pilot region; outcomes already inspected,,False
+ETS2,1,0.58,10,Prior pilot region; outcomes already inspected,,False
+UBASH3A,1,0.62,5,Prior pilot region; outcomes already inspected,,False

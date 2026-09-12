@@ -1,0 +1,28 @@
+{
+  "protocol_sha256": "10b6cdf6875e3e4926a59c8fa0c183e74ec1d99cb41540cb0bddd01e054b66a1",
+  "source_manifest_sha256": "409875f121373abd895fe064633eadd10ea0c359201511ce689f1686707950aa",
+  "complete_variant_table_sha256": "4aaa85802d8b5c1274fa71206916a26c81450db332a2688cff5f7f7ebd9401f1",
+  "candidate_table_sha256": "eb257d56f7fcf625dd8899b3da49662cfa2453e96f70f20f2fdce8c8c328aaa2",
+  "protocol_version": "0.1",
+  "protocol_recorded_at_utc": "2026-09-12T03:59:15+00:00",
+  "selected_archive_regions": [
+    "IL2RA",
+    "BACH2",
+    "BCL2L11"
+  ],
+  "high_pip_source_records": 12,
+  "reference_verified_biallelic_snvs": 6,
+  "nominated_anchors": 5,
+  "reserves": 1,
+  "excluded_source_records": 6,
+  "fully_matched_comparators": 0,
+  "model_requests_made": 0,
+  "ready_for_inference": false,
+  "remaining_preparation": [
+    "EUR frequencies and pairwise LD",
+    "Matched low-PIP comparator identities and covariates",
+    "Pinned common gene universe and exact current track metadata",
+    "Final matched input manifest before predictions"
+  ],
+  "interpretation": "Candidate inputs and comparison rules are fixed. This script does not perform matching or model inference. Source log discrepancies and incomplete high-PIP LD-screen coverage remain explicit."
+}

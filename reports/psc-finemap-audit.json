@@ -1,0 +1,2648 @@
+{
+  "analysis_version": "1.0",
+  "source_manifest": "config/finemap-sources.json",
+  "archive_sha256": "ce8b2adc57e3c9c68e60577a8f9fb86ea75bac608086699569733fa3bcd70dd0",
+  "archive_publisher_md5": "md5:35319e93d376e80958b3c78ae92c1fe5",
+  "source_table1_csv_sha256": "e13ae818d7f1228f1363651573bff8668ed5380fbca2bcf74c2d2e837ea71d3b",
+  "archive_members": 82,
+  "regular_files": 79,
+  "gwas_regions": 18,
+  "molecular_qtl_tables": 8,
+  "variant_rows_by_analysis_kind": {
+    "gwas": 46248,
+    "molecular_qtl": 24835
+  },
+  "nonempty_config_tables": 25,
+  "pip_config_concordant_tables": 25,
+  "log_max_causal_conflicts": 16,
+  "log_posterior_k_conflicts": 23,
+  "paper_method_finemap_version": "1.3",
+  "all_log_versions": [
+    "1.1"
+  ],
+  "explicit_credible_set_files": [],
+  "genetic_input_or_ld_files": [],
+  "extra_gwas_regions_not_in_table1": [
+    "GPR35",
+    "HDAC7",
+    "SIK2"
+  ],
+  "model_predictions_run": 0,
+  "interpretation": "Archived marginal probabilities are not complete per-signal credible-set memberships. Config-summed values are retained separately and never replace source PIPs. Missing build/alleles remain missing.",
+  "datasets": [
+    {
+      "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "11_63607735_64607735_gene_nor_combat_mono",
+      "archive_stem": "data_release/eqtl_fine_mapping/11_63607735_64607735_gene_nor_combat_mono",
+      "snp_rows": 1631,
+      "identifier_types": {
+        "other_unresolved_identifier": 1,
+        "rsid": 1630
+      },
+      "rounded_pip_sum": "1.3092",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 1631,
+        "number_of_individuals": 194,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.813307",
+          "2": "0.186693",
+          "3": "0",
+          "4": "0",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000110",
+      "config_k_counts": {
+        "1": 1631,
+        "2": 48369
+      },
+      "config_k_probability_mass": {
+        "1": "0.6853565407",
+        "2": "0.3146434703"
+      },
+      "config_max_causal_variants": 2,
+      "max_pip_config_difference": "0.0000499729",
+      "max_posterior_k_log_difference": "0.1279504703",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+          "source_row": 1,
+          "source_index": "853",
+          "variant_id_as_published": "rs663743",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0308",
+          "snp_log10bf_as_published": "1.5158",
+          "config_summed_marginal_probability": "0.0307684008"
+        },
+        {
+          "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+          "source_row": 2,
+          "source_index": "851",
+          "variant_id_as_published": "rs479777",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0289",
+          "snp_log10bf_as_published": "1.4882",
+          "config_summed_marginal_probability": "0.0289295589"
+        },
+        {
+          "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+          "source_row": 3,
+          "source_index": "822",
+          "variant_id_as_published": "rs627425",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0231",
+          "snp_log10bf_as_published": "1.3883",
+          "config_summed_marginal_probability": "0.0231256948"
+        },
+        {
+          "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+          "source_row": 4,
+          "source_index": "849",
+          "variant_id_as_published": "rs11231757",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0231",
+          "snp_log10bf_as_published": "1.3883",
+          "config_summed_marginal_probability": "0.0231256948"
+        },
+        {
+          "dataset_id": "molecular_qtl/11_63607735_64607735_gene_nor_combat_mono",
+          "source_row": 5,
+          "source_index": "848",
+          "variant_id_as_published": "rs1783521",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0231",
+          "snp_log10bf_as_published": "1.3883",
+          "config_summed_marginal_probability": "0.0231256948"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "19_46705707_47705707_gene_nor_combat_mono",
+      "archive_stem": "data_release/eqtl_fine_mapping/19_46705707_47705707_gene_nor_combat_mono",
+      "snp_rows": 2492,
+      "identifier_types": {
+        "other_unresolved_identifier": 2,
+        "rsid": 2490
+      },
+      "rounded_pip_sum": "2.7403",
+      "rounded_zero_pip_rows": 2305,
+      "negative_infinite_log_bayes_factors": 2182,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 2492,
+        "number_of_individuals": 194,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.0197536",
+          "2": "0.549494",
+          "3": "0.424508",
+          "4": "0.00624365",
+          "5": "0"
+        }
+      },
+      "config_rows": null,
+      "config_probability_mass": null,
+      "config_k_counts": null,
+      "config_k_probability_mass": null,
+      "config_max_causal_variants": null,
+      "max_pip_config_difference": null,
+      "max_posterior_k_log_difference": null,
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "empty_configuration_file"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+          "source_row": 1,
+          "source_index": "1650",
+          "variant_id_as_published": "rs112445263",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1373",
+          "snp_log10bf_as_published": "2.4002",
+          "config_summed_marginal_probability": ""
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+          "source_row": 2,
+          "source_index": "1699",
+          "variant_id_as_published": "rs313839",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1371",
+          "snp_log10bf_as_published": "2.3994",
+          "config_summed_marginal_probability": ""
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+          "source_row": 3,
+          "source_index": "1655",
+          "variant_id_as_published": "rs60652743",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1369",
+          "snp_log10bf_as_published": "2.3985",
+          "config_summed_marginal_probability": ""
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+          "source_row": 4,
+          "source_index": "1695",
+          "variant_id_as_published": "rs402072",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1366",
+          "snp_log10bf_as_published": "2.3974",
+          "config_summed_marginal_probability": ""
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono",
+          "source_row": 5,
+          "source_index": "1666",
+          "variant_id_as_published": "rs425105",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1360",
+          "snp_log10bf_as_published": "2.3952",
+          "config_summed_marginal_probability": ""
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "19_46705707_47705707_gene_nor_combat_mono_2CV",
+      "archive_stem": "data_release/eqtl_fine_mapping/19_46705707_47705707_gene_nor_combat_mono_2CV",
+      "snp_rows": 2492,
+      "identifier_types": {
+        "other_unresolved_identifier": 2,
+        "rsid": 2490
+      },
+      "rounded_pip_sum": "2.7340",
+      "rounded_zero_pip_rows": 2288,
+      "negative_infinite_log_bayes_factors": 2142,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 2492,
+        "number_of_individuals": 194,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.0197644",
+          "2": "0.549946",
+          "3": "0.424835",
+          "4": "0.00545549",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999023",
+      "config_k_counts": {
+        "1": 29,
+        "2": 2730,
+        "3": 34923,
+        "4": 12318
+      },
+      "config_k_probability_mass": {
+        "1": "0.0052000938",
+        "2": "0.2893858906",
+        "3": "0.6709237371",
+        "4": "0.0344901808"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000499660",
+      "max_posterior_k_log_difference": "0.2605601094",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+          "source_row": 1,
+          "source_index": "1655",
+          "variant_id_as_published": "rs60652743",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1375",
+          "snp_log10bf_as_published": "2.4008",
+          "config_summed_marginal_probability": "0.1374823641"
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+          "source_row": 2,
+          "source_index": "1695",
+          "variant_id_as_published": "rs402072",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1373",
+          "snp_log10bf_as_published": "2.4003",
+          "config_summed_marginal_probability": "0.1373466927"
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+          "source_row": 3,
+          "source_index": "1666",
+          "variant_id_as_published": "rs425105",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1372",
+          "snp_log10bf_as_published": "2.3997",
+          "config_summed_marginal_probability": "0.1371964828"
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+          "source_row": 4,
+          "source_index": "1765",
+          "variant_id_as_published": "rs113374757",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1372",
+          "snp_log10bf_as_published": "2.3996",
+          "config_summed_marginal_probability": "0.1371660082"
+        },
+        {
+          "dataset_id": "molecular_qtl/19_46705707_47705707_gene_nor_combat_mono_2CV",
+          "source_row": 5,
+          "source_index": "1650",
+          "variant_id_as_published": "rs112445263",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1364",
+          "snp_log10bf_as_published": "2.3967",
+          "config_summed_marginal_probability": "0.1363711176"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "21_39966744_40966744_K27AC_log2rpm_mono",
+      "archive_stem": "data_release/eqtl_fine_mapping/21_39966744_40966744_K27AC_log2rpm_mono",
+      "snp_rows": 3363,
+      "identifier_types": {
+        "other_unresolved_identifier": 1,
+        "rsid": 3362
+      },
+      "rounded_pip_sum": "1.7643",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 3363,
+        "number_of_individuals": 162,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.493679",
+          "2": "0.494182",
+          "3": "0.012139",
+          "4": "0",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999639",
+      "config_k_counts": {
+        "1": 30,
+        "2": 37489,
+        "3": 12481
+      },
+      "config_k_probability_mass": {
+        "1": "0.3174989340",
+        "2": "0.6356453110",
+        "3": "0.0468557189"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499952",
+      "max_posterior_k_log_difference": "0.1761800660",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+          "source_row": 1,
+          "source_index": "1533",
+          "variant_id_as_published": "rs2836878",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1304",
+          "snp_log10bf_as_published": "2.5043",
+          "config_summed_marginal_probability": "0.1303504836"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+          "source_row": 2,
+          "source_index": "1532",
+          "variant_id_as_published": "rs4817986",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1303",
+          "snp_log10bf_as_published": "2.5041",
+          "config_summed_marginal_probability": "0.1302956496"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+          "source_row": 3,
+          "source_index": "1543",
+          "variant_id_as_published": "rs2836884",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1030",
+          "snp_log10bf_as_published": "2.3884",
+          "config_summed_marginal_probability": "0.1029557236"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+          "source_row": 4,
+          "source_index": "1546",
+          "variant_id_as_published": "rs4817988",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0924",
+          "snp_log10bf_as_published": "2.3364",
+          "config_summed_marginal_probability": "0.0924187468"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_mono",
+          "source_row": 5,
+          "source_index": "1542",
+          "variant_id_as_published": "rs2242945",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0832",
+          "snp_log10bf_as_published": "2.2864",
+          "config_summed_marginal_probability": "0.0832001297"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "21_39966744_40966744_K27AC_log2rpm_neut",
+      "archive_stem": "data_release/eqtl_fine_mapping/21_39966744_40966744_K27AC_log2rpm_neut",
+      "snp_rows": 3362,
+      "identifier_types": {
+        "other_unresolved_identifier": 1,
+        "rsid": 3361
+      },
+      "rounded_pip_sum": "1.2673",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 3362,
+        "number_of_individuals": 162,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.89419",
+          "2": "0.10581",
+          "3": "0",
+          "4": "0",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000568",
+      "config_k_counts": {
+        "1": 3362,
+        "2": 46638
+      },
+      "config_k_probability_mass": {
+        "1": "0.8086285552",
+        "2": "0.1913715016"
+      },
+      "config_max_causal_variants": 2,
+      "max_pip_config_difference": "0.0000499331",
+      "max_posterior_k_log_difference": "0.0855615016",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+          "source_row": 1,
+          "source_index": "1544",
+          "variant_id_as_published": "rs2836884",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0371",
+          "snp_log10bf_as_published": "1.9137",
+          "config_summed_marginal_probability": "0.0370614713"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+          "source_row": 2,
+          "source_index": "1547",
+          "variant_id_as_published": "rs4817988",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0333",
+          "snp_log10bf_as_published": "1.8657",
+          "config_summed_marginal_probability": "0.0333096247"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+          "source_row": 3,
+          "source_index": "1530",
+          "variant_id_as_published": "rs4817983",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0255",
+          "snp_log10bf_as_published": "1.7460",
+          "config_summed_marginal_probability": "0.0254906453"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+          "source_row": 4,
+          "source_index": "1538",
+          "variant_id_as_published": "rs2836881",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0255",
+          "snp_log10bf_as_published": "1.7460",
+          "config_summed_marginal_probability": "0.0254906453"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_K27AC_log2rpm_neut",
+          "source_row": 5,
+          "source_index": "1539",
+          "variant_id_as_published": "rs9808651",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0255",
+          "snp_log10bf_as_published": "1.7460",
+          "config_summed_marginal_probability": "0.0254906453"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "21_39966744_40966744_gene_nor_combat_mono",
+      "archive_stem": "data_release/eqtl_fine_mapping/21_39966744_40966744_gene_nor_combat_mono",
+      "snp_rows": 3353,
+      "identifier_types": {
+        "other_unresolved_identifier": 1,
+        "rsid": 3352
+      },
+      "rounded_pip_sum": "1.4754",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 3353,
+        "number_of_individuals": 194,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.675714",
+          "2": "0.324286",
+          "3": "0",
+          "4": "0",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999673",
+      "config_k_counts": {
+        "1": 3353,
+        "2": 46647
+      },
+      "config_k_probability_mass": {
+        "1": "0.5102473291",
+        "2": "0.4897526382"
+      },
+      "config_max_causal_variants": 2,
+      "max_pip_config_difference": "0.0000497954",
+      "max_posterior_k_log_difference": "0.1654666709",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+          "source_row": 1,
+          "source_index": "1530",
+          "variant_id_as_published": "rs4817987",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0695",
+          "snp_log10bf_as_published": "2.2003",
+          "config_summed_marginal_probability": "0.0694712768"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+          "source_row": 2,
+          "source_index": "1534",
+          "variant_id_as_published": "rs9808651",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0695",
+          "snp_log10bf_as_published": "2.2003",
+          "config_summed_marginal_probability": "0.0694712768"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+          "source_row": 3,
+          "source_index": "1535",
+          "variant_id_as_published": "rs2836882",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0695",
+          "snp_log10bf_as_published": "2.2003",
+          "config_summed_marginal_probability": "0.0694712768"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+          "source_row": 4,
+          "source_index": "1536",
+          "variant_id_as_published": "rs2836883",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0695",
+          "snp_log10bf_as_published": "2.2003",
+          "config_summed_marginal_probability": "0.0694712768"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_39966744_40966744_gene_nor_combat_mono",
+          "source_row": 5,
+          "source_index": "1533",
+          "variant_id_as_published": "rs2836881",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0695",
+          "snp_log10bf_as_published": "2.2003",
+          "config_summed_marginal_probability": "0.0694712768"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "21_43355067_44355067_gene_nor_combat_tcel",
+      "archive_stem": "data_release/eqtl_fine_mapping/21_43355067_44355067_gene_nor_combat_tcel",
+      "snp_rows": 4071,
+      "identifier_types": {
+        "rsid": 4071
+      },
+      "rounded_pip_sum": "1.8237",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 4071,
+        "number_of_individuals": 171,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.529525",
+          "2": "0.438475",
+          "3": "0.0319942",
+          "4": "0.00000541588",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000389",
+      "config_k_counts": {
+        "1": 1,
+        "2": 4070,
+        "3": 45874,
+        "4": 55
+      },
+      "config_k_probability_mass": {
+        "1": "0.3312393903",
+        "2": "0.5485677809",
+        "3": "0.1201114989",
+        "4": "0.0000813688"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000499521",
+      "max_posterior_k_log_difference": "0.1982856097",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+          "source_row": 1,
+          "source_index": "1927",
+          "variant_id_as_published": "rs1893592",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "1.0000",
+          "snp_log10bf_as_published": "13.4117",
+          "config_summed_marginal_probability": "1.0000000389"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+          "source_row": 2,
+          "source_index": "1702",
+          "variant_id_as_published": "rs3814899",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0603",
+          "snp_log10bf_as_published": "2.2189",
+          "config_summed_marginal_probability": "0.0603001395"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+          "source_row": 3,
+          "source_index": "1938",
+          "variant_id_as_published": "rs1893593",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0395",
+          "snp_log10bf_as_published": "2.0258",
+          "config_summed_marginal_probability": "0.0395125605"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+          "source_row": 4,
+          "source_index": "1964",
+          "variant_id_as_published": "rs3827231",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0249",
+          "snp_log10bf_as_published": "1.8187",
+          "config_summed_marginal_probability": "0.0249025956"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_gene_nor_combat_tcel",
+          "source_row": 5,
+          "source_index": "1962",
+          "variant_id_as_published": "rs3788015",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0111",
+          "snp_log10bf_as_published": "1.4622",
+          "config_summed_marginal_probability": "0.0111125408"
+        }
+      ]
+    },
+    {
+      "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+      "analysis_kind": "molecular_qtl",
+      "archive_label": "21_43355067_44355067_psi_nor_tcel",
+      "archive_stem": "data_release/eqtl_fine_mapping/21_43355067_44355067_psi_nor_tcel",
+      "snp_rows": 4071,
+      "identifier_types": {
+        "rsid": 4071
+      },
+      "rounded_pip_sum": "1.5508",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 5,
+        "number_of_snps": 4071,
+        "number_of_individuals": 171,
+        "posterior_k": {
+          "0": "0",
+          "1": "0.638959",
+          "2": "0.350179",
+          "3": "0.010862",
+          "4": "0",
+          "5": "0"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000664",
+      "config_k_counts": {
+        "1": 1,
+        "2": 4070,
+        "3": 45929
+      },
+      "config_k_probability_mass": {
+        "1": "0.4549353845",
+        "2": "0.4986509088",
+        "3": "0.0464137731"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000498967",
+      "max_posterior_k_log_difference": "0.1840236155",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+          "source_row": 1,
+          "source_index": "1927",
+          "variant_id_as_published": "rs1893592",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "1.0000",
+          "snp_log10bf_as_published": "13.4117",
+          "config_summed_marginal_probability": "1.0000000664"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+          "source_row": 2,
+          "source_index": "1938",
+          "variant_id_as_published": "rs1893593",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0312",
+          "snp_log10bf_as_published": "1.9201",
+          "config_summed_marginal_probability": "0.0312436264"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+          "source_row": 3,
+          "source_index": "1957",
+          "variant_id_as_published": "rs4920104",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0102",
+          "snp_log10bf_as_published": "1.4234",
+          "config_summed_marginal_probability": "0.0101731149"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+          "source_row": 4,
+          "source_index": "1955",
+          "variant_id_as_published": "rs2065330",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0102",
+          "snp_log10bf_as_published": "1.4234",
+          "config_summed_marginal_probability": "0.0101731149"
+        },
+        {
+          "dataset_id": "molecular_qtl/21_43355067_44355067_psi_nor_tcel",
+          "source_row": 5,
+          "source_index": "1950",
+          "variant_id_as_published": "rs2254368",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0102",
+          "snp_log10bf_as_published": "1.4234",
+          "config_summed_marginal_probability": "0.0101731149"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/BACH2",
+      "analysis_kind": "gwas",
+      "archive_label": "BACH2",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/BACH2",
+      "snp_rows": 2582,
+      "identifier_types": {
+        "array_probe_identifier": 6,
+        "coordinate_without_build_or_alleles": 248,
+        "kgp_identifier": 151,
+        "rsid": 2131,
+        "semicolon_rsid_aliases": 46
+      },
+      "rounded_pip_sum": "1.3497",
+      "rounded_zero_pip_rows": 1012,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 2582,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000049",
+      "config_k_counts": {
+        "1": 2582,
+        "2": 38459,
+        "3": 8959
+      },
+      "config_k_probability_mass": {
+        "1": "0.6372017637",
+        "2": "0.3575302065",
+        "3": "0.0052680347"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499822",
+      "max_posterior_k_log_difference": "0.3627982363",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/BACH2",
+          "source_row": 1,
+          "source_index": "1040",
+          "variant_id_as_published": "rs7750271",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.2009",
+          "snp_log10bf_as_published": "2.6130",
+          "config_summed_marginal_probability": "0.2009455336"
+        },
+        {
+          "dataset_id": "gwas/BACH2",
+          "source_row": 2,
+          "source_index": "1020",
+          "variant_id_as_published": "rs72928086",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1964",
+          "snp_log10bf_as_published": "2.6006",
+          "config_summed_marginal_probability": "0.1964030638"
+        },
+        {
+          "dataset_id": "gwas/BACH2",
+          "source_row": 3,
+          "source_index": "1041",
+          "variant_id_as_published": "rs7750559",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1901",
+          "snp_log10bf_as_published": "2.5832",
+          "config_summed_marginal_probability": "0.1901249652"
+        },
+        {
+          "dataset_id": "gwas/BACH2",
+          "source_row": 4,
+          "source_index": "1021",
+          "variant_id_as_published": "kgp7329815",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.1059",
+          "snp_log10bf_as_published": "2.2863",
+          "config_summed_marginal_probability": "0.1059454515"
+        },
+        {
+          "dataset_id": "gwas/BACH2",
+          "source_row": 5,
+          "source_index": "1028",
+          "variant_id_as_published": "rs6937337",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0798",
+          "snp_log10bf_as_published": "2.1504",
+          "config_summed_marginal_probability": "0.0797582701"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/BCL2L11",
+      "analysis_kind": "gwas",
+      "archive_label": "BCL2L11",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/BCL2L11",
+      "snp_rows": 1692,
+      "identifier_types": {
+        "array_probe_identifier": 3,
+        "coordinate_without_build_or_alleles": 154,
+        "kgp_identifier": 86,
+        "rsid": 1418,
+        "semicolon_rsid_aliases": 31
+      },
+      "rounded_pip_sum": "1.6071",
+      "rounded_zero_pip_rows": 780,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1692,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000120",
+      "config_k_counts": {
+        "1": 174,
+        "2": 27637,
+        "3": 22189
+      },
+      "config_k_probability_mass": {
+        "1": "0.3915851617",
+        "2": "0.5861003170",
+        "3": "0.0223145333"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499940",
+      "max_posterior_k_log_difference": "0.6084148383",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/BCL2L11",
+          "source_row": 1,
+          "source_index": "1287",
+          "variant_id_as_published": "rs72837826",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1771",
+          "snp_log10bf_as_published": "2.3617",
+          "config_summed_marginal_probability": "0.1770937313"
+        },
+        {
+          "dataset_id": "gwas/BCL2L11",
+          "source_row": 2,
+          "source_index": "1262",
+          "variant_id_as_published": "rs68021656",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1707",
+          "snp_log10bf_as_published": "2.3424",
+          "config_summed_marginal_probability": "0.1706894453"
+        },
+        {
+          "dataset_id": "gwas/BCL2L11",
+          "source_row": 3,
+          "source_index": "1246",
+          "variant_id_as_published": "rs13405741",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1695",
+          "snp_log10bf_as_published": "2.3386",
+          "config_summed_marginal_probability": "0.1694709040"
+        },
+        {
+          "dataset_id": "gwas/BCL2L11",
+          "source_row": 4,
+          "source_index": "1254",
+          "variant_id_as_published": "rs72837816",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1367",
+          "snp_log10bf_as_published": "2.2286",
+          "config_summed_marginal_probability": "0.1367395594"
+        },
+        {
+          "dataset_id": "gwas/BCL2L11",
+          "source_row": 5,
+          "source_index": "1211",
+          "variant_id_as_published": "rs72836352",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0833",
+          "snp_log10bf_as_published": "1.9871",
+          "config_summed_marginal_probability": "0.0832690157"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/CCDC88B",
+      "analysis_kind": "gwas",
+      "archive_label": "CCDC88B",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/CCDC88B",
+      "snp_rows": 1635,
+      "identifier_types": {
+        "array_probe_identifier": 2,
+        "coordinate_without_build_or_alleles": 98,
+        "kgp_identifier": 67,
+        "rsid": 1438,
+        "semicolon_rsid_aliases": 30
+      },
+      "rounded_pip_sum": "2.1216",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1635,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000048",
+      "config_k_counts": {
+        "1": 106,
+        "2": 8850,
+        "3": 40558,
+        "4": 486
+      },
+      "config_k_probability_mass": {
+        "1": "0.1144897279",
+        "2": "0.6615965241",
+        "3": "0.2232125815",
+        "4": "0.0007011713"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000499069",
+      "max_posterior_k_log_difference": "0.8855102721",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/CCDC88B",
+          "source_row": 1,
+          "source_index": "457",
+          "variant_id_as_published": "rs35247680",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.6073",
+          "snp_log10bf_as_published": "3.2033",
+          "config_summed_marginal_probability": "0.6073151890"
+        },
+        {
+          "dataset_id": "gwas/CCDC88B",
+          "source_row": 2,
+          "source_index": "899",
+          "variant_id_as_published": "rs663743",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.4136",
+          "snp_log10bf_as_published": "2.8624",
+          "config_summed_marginal_probability": "0.4136042624"
+        },
+        {
+          "dataset_id": "gwas/CCDC88B",
+          "source_row": 3,
+          "source_index": "897",
+          "variant_id_as_published": "chr11:64107477",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.2983",
+          "snp_log10bf_as_published": "2.6425",
+          "config_summed_marginal_probability": "0.2983282527"
+        },
+        {
+          "dataset_id": "gwas/CCDC88B",
+          "source_row": 4,
+          "source_index": "470",
+          "variant_id_as_published": "rs78340266",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1498",
+          "snp_log10bf_as_published": "2.2600",
+          "config_summed_marginal_probability": "0.1498124801"
+        },
+        {
+          "dataset_id": "gwas/CCDC88B",
+          "source_row": 5,
+          "source_index": "540",
+          "variant_id_as_published": "rs75011819",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0440",
+          "snp_log10bf_as_published": "1.6769",
+          "config_summed_marginal_probability": "0.0439933394"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/CD226",
+      "analysis_kind": "gwas",
+      "archive_label": "CD226",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/CD226",
+      "snp_rows": 3264,
+      "identifier_types": {
+        "array_probe_identifier": 4,
+        "coordinate_without_build_or_alleles": 241,
+        "kgp_identifier": 178,
+        "other_unresolved_identifier": 1,
+        "rsid": 2753,
+        "semicolon_rsid_aliases": 87
+      },
+      "rounded_pip_sum": "1.2408",
+      "rounded_zero_pip_rows": 2219,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3264,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999919",
+      "config_k_counts": {
+        "1": 215,
+        "2": 49785
+      },
+      "config_k_probability_mass": {
+        "1": "0.7260734675",
+        "2": "0.2739265244"
+      },
+      "config_max_causal_variants": 2,
+      "max_pip_config_difference": "0.0000499270",
+      "max_posterior_k_log_difference": "0.2739265325",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/CD226",
+          "source_row": 1,
+          "source_index": "1841",
+          "variant_id_as_published": "kgp1455478",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.0768",
+          "snp_log10bf_as_published": "2.2346",
+          "config_summed_marginal_probability": "0.0768241816"
+        },
+        {
+          "dataset_id": "gwas/CD226",
+          "source_row": 2,
+          "source_index": "1820",
+          "variant_id_as_published": "rs12956324",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0661",
+          "snp_log10bf_as_published": "2.1644",
+          "config_summed_marginal_probability": "0.0661216730"
+        },
+        {
+          "dataset_id": "gwas/CD226",
+          "source_row": 3,
+          "source_index": "1846",
+          "variant_id_as_published": "rs2469434",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0647",
+          "snp_log10bf_as_published": "2.1542",
+          "config_summed_marginal_probability": "0.0646828868"
+        },
+        {
+          "dataset_id": "gwas/CD226",
+          "source_row": 4,
+          "source_index": "1828",
+          "variant_id_as_published": "rs12455361",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0637",
+          "snp_log10bf_as_published": "2.1472",
+          "config_summed_marginal_probability": "0.0637090808"
+        },
+        {
+          "dataset_id": "gwas/CD226",
+          "source_row": 5,
+          "source_index": "1804",
+          "variant_id_as_published": "rs763362",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0367",
+          "snp_log10bf_as_published": "1.8958",
+          "config_summed_marginal_probability": "0.0367451689"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/CD28",
+      "analysis_kind": "gwas",
+      "archive_label": "CD28",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/CD28",
+      "snp_rows": 2369,
+      "identifier_types": {
+        "array_probe_identifier": 2,
+        "coordinate_without_build_or_alleles": 217,
+        "kgp_identifier": 113,
+        "other_unresolved_identifier": 1,
+        "rsid": 1986,
+        "semicolon_rsid_aliases": 50
+      },
+      "rounded_pip_sum": "1.9210",
+      "rounded_zero_pip_rows": 1399,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 2369,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999945",
+      "config_k_counts": {
+        "1": 179,
+        "2": 21042,
+        "3": 28729,
+        "4": 50
+      },
+      "config_k_probability_mass": {
+        "1": "0.2306378206",
+        "2": "0.5958818549",
+        "3": "0.1733826162",
+        "4": "0.0000977028"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000499995",
+      "max_posterior_k_log_difference": "0.7693621794",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/CD28",
+          "source_row": 1,
+          "source_index": "1084",
+          "variant_id_as_published": "rs35677365;rs5837875",
+          "identifier_type": "semicolon_rsid_aliases",
+          "snp_prob_as_published": "0.1900",
+          "snp_log10bf_as_published": "2.5453",
+          "config_summed_marginal_probability": "0.1899510318"
+        },
+        {
+          "dataset_id": "gwas/CD28",
+          "source_row": 2,
+          "source_index": "1037",
+          "variant_id_as_published": "rs231389",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1709",
+          "snp_log10bf_as_published": "2.4894",
+          "config_summed_marginal_probability": "0.1709478438"
+        },
+        {
+          "dataset_id": "gwas/CD28",
+          "source_row": 3,
+          "source_index": "1317",
+          "variant_id_as_published": "rs231779",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1619",
+          "snp_log10bf_as_published": "2.4612",
+          "config_summed_marginal_probability": "0.1619490824"
+        },
+        {
+          "dataset_id": "gwas/CD28",
+          "source_row": 4,
+          "source_index": "1035",
+          "variant_id_as_published": "rs4673266",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1591",
+          "snp_log10bf_as_published": "2.4522",
+          "config_summed_marginal_probability": "0.1591434868"
+        },
+        {
+          "dataset_id": "gwas/CD28",
+          "source_row": 5,
+          "source_index": "1042",
+          "variant_id_as_published": "rs13429019",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1462",
+          "snp_log10bf_as_published": "2.4086",
+          "config_summed_marginal_probability": "0.1461572378"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/CLEC16A",
+      "analysis_kind": "gwas",
+      "archive_label": "CLEC16A",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/CLEC16A",
+      "snp_rows": 3581,
+      "identifier_types": {
+        "array_probe_identifier": 10,
+        "coordinate_without_build_or_alleles": 250,
+        "kgp_identifier": 234,
+        "other_unresolved_identifier": 1,
+        "rsid": 3035,
+        "semicolon_rsid_aliases": 51
+      },
+      "rounded_pip_sum": "1.4284",
+      "rounded_zero_pip_rows": 2376,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3581,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999944",
+      "config_k_counts": {
+        "1": 194,
+        "2": 44418,
+        "3": 5388
+      },
+      "config_k_probability_mass": {
+        "1": "0.5200973664",
+        "2": "0.4727489527",
+        "3": "0.0071536753"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499990",
+      "max_posterior_k_log_difference": "0.4799026336",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/CLEC16A",
+          "source_row": 1,
+          "source_index": "1492",
+          "variant_id_as_published": "rs725613",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1627",
+          "snp_log10bf_as_published": "2.6444",
+          "config_summed_marginal_probability": "0.1627306828"
+        },
+        {
+          "dataset_id": "gwas/CLEC16A",
+          "source_row": 2,
+          "source_index": "1524",
+          "variant_id_as_published": "rs7203793",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1417",
+          "snp_log10bf_as_published": "2.5737",
+          "config_summed_marginal_probability": "0.1417275631"
+        },
+        {
+          "dataset_id": "gwas/CLEC16A",
+          "source_row": 3,
+          "source_index": "1523",
+          "variant_id_as_published": "rs71388704",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1329",
+          "snp_log10bf_as_published": "2.5413",
+          "config_summed_marginal_probability": "0.1328937651"
+        },
+        {
+          "dataset_id": "gwas/CLEC16A",
+          "source_row": 4,
+          "source_index": "1519",
+          "variant_id_as_published": "chr16:11179873",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.1276",
+          "snp_log10bf_as_published": "2.5210",
+          "config_summed_marginal_probability": "0.1276051803"
+        },
+        {
+          "dataset_id": "gwas/CLEC16A",
+          "source_row": 5,
+          "source_index": "1517",
+          "variant_id_as_published": "rs9929994",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1264",
+          "snp_log10bf_as_published": "2.5163",
+          "config_summed_marginal_probability": "0.1264035230"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/FOXP1",
+      "analysis_kind": "gwas",
+      "archive_label": "FOXP1",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/FOXP1",
+      "snp_rows": 1850,
+      "identifier_types": {
+        "array_probe_identifier": 11,
+        "coordinate_without_build_or_alleles": 168,
+        "kgp_identifier": 132,
+        "rsid": 1503,
+        "semicolon_rsid_aliases": 36
+      },
+      "rounded_pip_sum": "2.3786",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1850,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999928",
+      "config_k_counts": {
+        "1": 61,
+        "2": 2746,
+        "3": 43864,
+        "4": 3329
+      },
+      "config_k_probability_mass": {
+        "1": "0.0100809286",
+        "2": "0.6432850646",
+        "3": "0.3429529669",
+        "4": "0.0036810327"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000498618",
+      "max_posterior_k_log_difference": "0.9899190714",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/FOXP1",
+          "source_row": 1,
+          "source_index": "759",
+          "variant_id_as_published": "kgp7192329",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.9895",
+          "snp_log10bf_as_published": "5.0413",
+          "config_summed_marginal_probability": "0.9894851195"
+        },
+        {
+          "dataset_id": "gwas/FOXP1",
+          "source_row": 2,
+          "source_index": "1609",
+          "variant_id_as_published": "rs36023390",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1412",
+          "snp_log10bf_as_published": "2.2837",
+          "config_summed_marginal_probability": "0.1412239578"
+        },
+        {
+          "dataset_id": "gwas/FOXP1",
+          "source_row": 3,
+          "source_index": "1610",
+          "variant_id_as_published": "rs9819066",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0599",
+          "snp_log10bf_as_published": "1.8717",
+          "config_summed_marginal_probability": "0.0598769060"
+        },
+        {
+          "dataset_id": "gwas/FOXP1",
+          "source_row": 4,
+          "source_index": "1617",
+          "variant_id_as_published": "rs111607227",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0593",
+          "snp_log10bf_as_published": "1.8676",
+          "config_summed_marginal_probability": "0.0593391451"
+        },
+        {
+          "dataset_id": "gwas/FOXP1",
+          "source_row": 5,
+          "source_index": "1624",
+          "variant_id_as_published": "rs9854068",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0581",
+          "snp_log10bf_as_published": "1.8576",
+          "config_summed_marginal_probability": "0.0580648257"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/GPR35",
+      "analysis_kind": "gwas",
+      "archive_label": "GPR35",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/GPR35",
+      "snp_rows": 3352,
+      "identifier_types": {
+        "array_probe_identifier": 6,
+        "coordinate_without_build_or_alleles": 2827,
+        "kgp_identifier": 208,
+        "rsid": 311
+      },
+      "rounded_pip_sum": "1.4632",
+      "rounded_zero_pip_rows": 2239,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3352,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000113",
+      "config_k_counts": {
+        "1": 3352,
+        "2": 43533,
+        "3": 3115
+      },
+      "config_k_probability_mass": {
+        "1": "0.5311923435",
+        "2": "0.4550108151",
+        "3": "0.0137968527"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499751",
+      "max_posterior_k_log_difference": "0.4688076565",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/GPR35",
+          "source_row": 1,
+          "source_index": "1220",
+          "variant_id_as_published": "chr2:241364815",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0971",
+          "snp_log10bf_as_published": "2.3577",
+          "config_summed_marginal_probability": "0.0971459700"
+        },
+        {
+          "dataset_id": "gwas/GPR35",
+          "source_row": 2,
+          "source_index": "1134",
+          "variant_id_as_published": "chr2:241346579",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0593",
+          "snp_log10bf_as_published": "2.1258",
+          "config_summed_marginal_probability": "0.0593383617"
+        },
+        {
+          "dataset_id": "gwas/GPR35",
+          "source_row": 3,
+          "source_index": "1180",
+          "variant_id_as_published": "chr2:241356940",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0499",
+          "snp_log10bf_as_published": "2.0467",
+          "config_summed_marginal_probability": "0.0499483967"
+        },
+        {
+          "dataset_id": "gwas/GPR35",
+          "source_row": 4,
+          "source_index": "1236",
+          "variant_id_as_published": "chr2:241367384",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0466",
+          "snp_log10bf_as_published": "2.0154",
+          "config_summed_marginal_probability": "0.0466375321"
+        },
+        {
+          "dataset_id": "gwas/GPR35",
+          "source_row": 5,
+          "source_index": "1194",
+          "variant_id_as_published": "chr2:241360449",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0452",
+          "snp_log10bf_as_published": "2.0016",
+          "config_summed_marginal_probability": "0.0452481529"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/HDAC7",
+      "analysis_kind": "gwas",
+      "archive_label": "HDAC7",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/HDAC7",
+      "snp_rows": 3411,
+      "identifier_types": {
+        "array_probe_identifier": 6,
+        "coordinate_without_build_or_alleles": 300,
+        "kgp_identifier": 89,
+        "rsid": 2941,
+        "semicolon_rsid_aliases": 75
+      },
+      "rounded_pip_sum": "1.2142",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3411,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999954",
+      "config_k_counts": {
+        "1": 3411,
+        "2": 46542,
+        "3": 47
+      },
+      "config_k_probability_mass": {
+        "1": "0.8373076456",
+        "2": "0.1626396426",
+        "3": "0.0000527072"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499667",
+      "max_posterior_k_log_difference": "0.1626923544",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/HDAC7",
+          "source_row": 1,
+          "source_index": "1822",
+          "variant_id_as_published": "rs2544030",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1023",
+          "snp_log10bf_as_published": "2.3902",
+          "config_summed_marginal_probability": "0.1022764917"
+        },
+        {
+          "dataset_id": "gwas/HDAC7",
+          "source_row": 2,
+          "source_index": "1818",
+          "variant_id_as_published": "kgp7241984",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.0942",
+          "snp_log10bf_as_published": "2.3507",
+          "config_summed_marginal_probability": "0.0942255804"
+        },
+        {
+          "dataset_id": "gwas/HDAC7",
+          "source_row": 3,
+          "source_index": "1820",
+          "variant_id_as_published": "rs2525053",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0752",
+          "snp_log10bf_as_published": "2.2439",
+          "config_summed_marginal_probability": "0.0752384347"
+        },
+        {
+          "dataset_id": "gwas/HDAC7",
+          "source_row": 4,
+          "source_index": "1821",
+          "variant_id_as_published": "chr12:48195424",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0742",
+          "snp_log10bf_as_published": "2.2377",
+          "config_summed_marginal_probability": "0.0742395641"
+        },
+        {
+          "dataset_id": "gwas/HDAC7",
+          "source_row": 5,
+          "source_index": "1811",
+          "variant_id_as_published": "rs34922454",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0280",
+          "snp_log10bf_as_published": "1.7932",
+          "config_summed_marginal_probability": "0.0280127696"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/IL21",
+      "analysis_kind": "gwas",
+      "archive_label": "IL21",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/IL21",
+      "snp_rows": 2392,
+      "identifier_types": {
+        "coordinate_without_build_or_alleles": 209,
+        "kgp_identifier": 42,
+        "rsid": 2077,
+        "semicolon_rsid_aliases": 64
+      },
+      "rounded_pip_sum": "1.4183",
+      "rounded_zero_pip_rows": 1366,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 2392,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000012",
+      "config_k_counts": {
+        "1": 112,
+        "2": 49871,
+        "3": 17
+      },
+      "config_k_probability_mass": {
+        "1": "0.5609353324",
+        "2": "0.4390319168",
+        "3": "0.0000327520"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499827",
+      "max_posterior_k_log_difference": "0.4390646676",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/IL21",
+          "source_row": 1,
+          "source_index": "388",
+          "variant_id_as_published": "rs13119723",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0908",
+          "snp_log10bf_as_published": "2.1786",
+          "config_summed_marginal_probability": "0.0907651109"
+        },
+        {
+          "dataset_id": "gwas/IL21",
+          "source_row": 2,
+          "source_index": "469",
+          "variant_id_as_published": "rs76855303;rs34791626",
+          "identifier_type": "semicolon_rsid_aliases",
+          "snp_prob_as_published": "0.0808",
+          "snp_log10bf_as_published": "2.1235",
+          "config_summed_marginal_probability": "0.0808266741"
+        },
+        {
+          "dataset_id": "gwas/IL21",
+          "source_row": 3,
+          "source_index": "481",
+          "variant_id_as_published": "rs34135604",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0749",
+          "snp_log10bf_as_published": "2.0878",
+          "config_summed_marginal_probability": "0.0749269036"
+        },
+        {
+          "dataset_id": "gwas/IL21",
+          "source_row": 4,
+          "source_index": "401",
+          "variant_id_as_published": "rs11734090",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0408",
+          "snp_log10bf_as_published": "1.8081",
+          "config_summed_marginal_probability": "0.0408021584"
+        },
+        {
+          "dataset_id": "gwas/IL21",
+          "source_row": 5,
+          "source_index": "448",
+          "variant_id_as_published": "rs6851362",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0352",
+          "snp_log10bf_as_published": "1.7415",
+          "config_summed_marginal_probability": "0.0352050109"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/IL2RA",
+      "analysis_kind": "gwas",
+      "archive_label": "IL2RA",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/IL2RA",
+      "snp_rows": 3425,
+      "identifier_types": {
+        "array_probe_identifier": 12,
+        "coordinate_without_build_or_alleles": 291,
+        "kgp_identifier": 217,
+        "other_unresolved_identifier": 1,
+        "rsid": 2832,
+        "semicolon_rsid_aliases": 72
+      },
+      "rounded_pip_sum": "2.0295",
+      "rounded_zero_pip_rows": 2433,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3425,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000001",
+      "config_k_counts": {
+        "1": 20,
+        "2": 18628,
+        "3": 31352
+      },
+      "config_k_probability_mass": {
+        "1": "0.2300571172",
+        "2": "0.4627849261",
+        "3": "0.3071579568"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499865",
+      "max_posterior_k_log_difference": "0.7699428828",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/IL2RA",
+          "source_row": 1,
+          "source_index": "2000",
+          "variant_id_as_published": "rs4147359",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.4575",
+          "snp_log10bf_as_published": "3.2844",
+          "config_summed_marginal_probability": "0.4575120720"
+        },
+        {
+          "dataset_id": "gwas/IL2RA",
+          "source_row": 2,
+          "source_index": "1999",
+          "variant_id_as_published": "chr10:6108340",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.1885",
+          "snp_log10bf_as_published": "2.7246",
+          "config_summed_marginal_probability": "0.1885479043"
+        },
+        {
+          "dataset_id": "gwas/IL2RA",
+          "source_row": 3,
+          "source_index": "1964",
+          "variant_id_as_published": "chr10:6098949",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.1208",
+          "snp_log10bf_as_published": "2.4963",
+          "config_summed_marginal_probability": "0.1207771711"
+        },
+        {
+          "dataset_id": "gwas/IL2RA",
+          "source_row": 4,
+          "source_index": "2444",
+          "variant_id_as_published": "rs7923054",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1084",
+          "snp_log10bf_as_published": "2.4432",
+          "config_summed_marginal_probability": "0.1083816417"
+        },
+        {
+          "dataset_id": "gwas/IL2RA",
+          "source_row": 5,
+          "source_index": "1989",
+          "variant_id_as_published": "rs7072793",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0975",
+          "snp_log10bf_as_published": "2.3917",
+          "config_summed_marginal_probability": "0.0974570821"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/MMEL1",
+      "analysis_kind": "gwas",
+      "archive_label": "MMEL1",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/MMEL1",
+      "snp_rows": 1940,
+      "identifier_types": {
+        "array_probe_identifier": 1,
+        "coordinate_without_build_or_alleles": 83,
+        "kgp_identifier": 135,
+        "other_unresolved_identifier": 1,
+        "rsid": 1696,
+        "semicolon_rsid_aliases": 24
+      },
+      "rounded_pip_sum": "1.2138",
+      "rounded_zero_pip_rows": 1231,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1940,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "1.0000000040",
+      "config_k_counts": {
+        "1": 178,
+        "2": 48960,
+        "3": 862
+      },
+      "config_k_probability_mass": {
+        "1": "0.7621354072",
+        "2": "0.2354370558",
+        "3": "0.0024275410"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499351",
+      "max_posterior_k_log_difference": "0.2378645928",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/MMEL1",
+          "source_row": 1,
+          "source_index": "1386",
+          "variant_id_as_published": "kgp10206591",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.0742",
+          "snp_log10bf_as_published": "1.9920",
+          "config_summed_marginal_probability": "0.0741762255"
+        },
+        {
+          "dataset_id": "gwas/MMEL1",
+          "source_row": 2,
+          "source_index": "1152",
+          "variant_id_as_published": "rs6657596",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0469",
+          "snp_log10bf_as_published": "1.7808",
+          "config_summed_marginal_probability": "0.0469437707"
+        },
+        {
+          "dataset_id": "gwas/MMEL1",
+          "source_row": 3,
+          "source_index": "1123",
+          "variant_id_as_published": "rs76055539",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0422",
+          "snp_log10bf_as_published": "1.7318",
+          "config_summed_marginal_probability": "0.0421512511"
+        },
+        {
+          "dataset_id": "gwas/MMEL1",
+          "source_row": 4,
+          "source_index": "1169",
+          "variant_id_as_published": "rs10909839",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0405",
+          "snp_log10bf_as_published": "1.7135",
+          "config_summed_marginal_probability": "0.0404835630"
+        },
+        {
+          "dataset_id": "gwas/MMEL1",
+          "source_row": 5,
+          "source_index": "1173",
+          "variant_id_as_published": "rs4648356",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0388",
+          "snp_log10bf_as_published": "1.6945",
+          "config_summed_marginal_probability": "0.0388153461"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/MST1",
+      "analysis_kind": "gwas",
+      "archive_label": "MST1",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/MST1",
+      "snp_rows": 1513,
+      "identifier_types": {
+        "array_probe_identifier": 1,
+        "coordinate_without_build_or_alleles": 124,
+        "kgp_identifier": 29,
+        "other_unresolved_identifier": 1,
+        "rsid": 1318,
+        "semicolon_rsid_aliases": 40
+      },
+      "rounded_pip_sum": "2.7111",
+      "rounded_zero_pip_rows": 1232,
+      "negative_infinite_log_bayes_factors": 1141,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1513,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999957",
+      "config_k_counts": {
+        "1": 30,
+        "2": 2125,
+        "3": 43812,
+        "4": 4031,
+        "5": 2
+      },
+      "config_k_probability_mass": {
+        "1": "0.0018115757",
+        "2": "0.2929526692",
+        "3": "0.6966080158",
+        "4": "0.0086249825",
+        "5": "0.0000027525"
+      },
+      "config_max_causal_variants": 5,
+      "max_pip_config_difference": "0.0000498500",
+      "max_posterior_k_log_difference": "0.9981884243",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/MST1",
+          "source_row": 1,
+          "source_index": "806",
+          "variant_id_as_published": "chr3:49762779",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.1081",
+          "snp_log10bf_as_published": "2.0638",
+          "config_summed_marginal_probability": "0.1081159027"
+        },
+        {
+          "dataset_id": "gwas/MST1",
+          "source_row": 2,
+          "source_index": "757",
+          "variant_id_as_published": "rs142656174",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0875",
+          "snp_log10bf_as_published": "1.9620",
+          "config_summed_marginal_probability": "0.0874930263"
+        },
+        {
+          "dataset_id": "gwas/MST1",
+          "source_row": 3,
+          "source_index": "657",
+          "variant_id_as_published": "rs116046827",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0759",
+          "snp_log10bf_as_published": "1.8950",
+          "config_summed_marginal_probability": "0.0759301475"
+        },
+        {
+          "dataset_id": "gwas/MST1",
+          "source_row": 4,
+          "source_index": "702",
+          "variant_id_as_published": "rs149010539",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0751",
+          "snp_log10bf_as_published": "1.8899",
+          "config_summed_marginal_probability": "0.0751198353"
+        },
+        {
+          "dataset_id": "gwas/MST1",
+          "source_row": 5,
+          "source_index": "748",
+          "variant_id_as_published": "rs142690032",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0745",
+          "snp_log10bf_as_published": "1.8861",
+          "config_summed_marginal_probability": "0.0745126179"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/PRKD2",
+      "analysis_kind": "gwas",
+      "archive_label": "PRKD2",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/PRKD2",
+      "snp_rows": 2322,
+      "identifier_types": {
+        "array_probe_identifier": 2,
+        "coordinate_without_build_or_alleles": 81,
+        "kgp_identifier": 190,
+        "other_unresolved_identifier": 1,
+        "rsid": 1997,
+        "semicolon_rsid_aliases": 51
+      },
+      "rounded_pip_sum": "1.4590",
+      "rounded_zero_pip_rows": 816,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 2322,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999968",
+      "config_k_counts": {
+        "1": 163,
+        "2": 38051,
+        "3": 11781,
+        "4": 5
+      },
+      "config_k_probability_mass": {
+        "1": "0.5540985774",
+        "2": "0.4244280935",
+        "3": "0.0214693154",
+        "4": "0.0000040105"
+      },
+      "config_max_causal_variants": 4,
+      "max_pip_config_difference": "0.0000499988",
+      "max_posterior_k_log_difference": "0.4459014226",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/PRKD2",
+          "source_row": 1,
+          "source_index": "1778",
+          "variant_id_as_published": "rs313839",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.2347",
+          "snp_log10bf_as_published": "2.6532",
+          "config_summed_marginal_probability": "0.2347352775"
+        },
+        {
+          "dataset_id": "gwas/PRKD2",
+          "source_row": 2,
+          "source_index": "1730",
+          "variant_id_as_published": "rs112445263",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1964",
+          "snp_log10bf_as_published": "2.5545",
+          "config_summed_marginal_probability": "0.1964061459"
+        },
+        {
+          "dataset_id": "gwas/PRKD2",
+          "source_row": 3,
+          "source_index": "1774",
+          "variant_id_as_published": "rs402072",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1591",
+          "snp_log10bf_as_published": "2.4435",
+          "config_summed_marginal_probability": "0.1591432749"
+        },
+        {
+          "dataset_id": "gwas/PRKD2",
+          "source_row": 4,
+          "source_index": "1746",
+          "variant_id_as_published": "kgp5156231",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.0698",
+          "snp_log10bf_as_published": "2.0415",
+          "config_summed_marginal_probability": "0.0697668629"
+        },
+        {
+          "dataset_id": "gwas/PRKD2",
+          "source_row": 5,
+          "source_index": "1739",
+          "variant_id_as_published": "rs201090562;rs201752875",
+          "identifier_type": "semicolon_rsid_aliases",
+          "snp_prob_as_published": "0.0588",
+          "snp_log10bf_as_published": "1.9620",
+          "config_summed_marginal_probability": "0.0587840134"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/PSMG1",
+      "analysis_kind": "gwas",
+      "archive_label": "PSMG1",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/PSMG1",
+      "snp_rows": 3423,
+      "identifier_types": {
+        "array_probe_identifier": 10,
+        "coordinate_without_build_or_alleles": 311,
+        "kgp_identifier": 120,
+        "other_unresolved_identifier": 1,
+        "rsid": 2904,
+        "semicolon_rsid_aliases": 77
+      },
+      "rounded_pip_sum": "1.2953",
+      "rounded_zero_pip_rows": 1807,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 3423,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999994",
+      "config_k_counts": {
+        "1": 12,
+        "2": 40977,
+        "3": 9011
+      },
+      "config_k_probability_mass": {
+        "1": "0.6641801373",
+        "2": "0.3310288133",
+        "3": "0.0047910488"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000500000",
+      "max_posterior_k_log_difference": "0.3358198627",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/PSMG1",
+          "source_row": 1,
+          "source_index": "1604",
+          "variant_id_as_published": "rs4817988",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.5831",
+          "snp_log10bf_as_published": "3.4807",
+          "config_summed_marginal_probability": "0.5830682619"
+        },
+        {
+          "dataset_id": "gwas/PSMG1",
+          "source_row": 2,
+          "source_index": "1601",
+          "variant_id_as_published": "kgp1024505",
+          "identifier_type": "kgp_identifier",
+          "snp_prob_as_published": "0.0829",
+          "snp_log10bf_as_published": "2.2909",
+          "config_summed_marginal_probability": "0.0828508014"
+        },
+        {
+          "dataset_id": "gwas/PSMG1",
+          "source_row": 3,
+          "source_index": "1599",
+          "variant_id_as_published": "rs2836883",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0532",
+          "snp_log10bf_as_published": "2.0843",
+          "config_summed_marginal_probability": "0.0531534014"
+        },
+        {
+          "dataset_id": "gwas/PSMG1",
+          "source_row": 4,
+          "source_index": "1596",
+          "variant_id_as_published": "rs2836881",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0505",
+          "snp_log10bf_as_published": "2.0608",
+          "config_summed_marginal_probability": "0.0504992150"
+        },
+        {
+          "dataset_id": "gwas/PSMG1",
+          "source_row": 5,
+          "source_index": "1598",
+          "variant_id_as_published": "rs2836882",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0377",
+          "snp_log10bf_as_published": "1.9275",
+          "config_summed_marginal_probability": "0.0376557899"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/SH2B3",
+      "analysis_kind": "gwas",
+      "archive_label": "SH2B3",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/SH2B3",
+      "snp_rows": 1220,
+      "identifier_types": {
+        "array_probe_identifier": 2,
+        "coordinate_without_build_or_alleles": 106,
+        "kgp_identifier": 33,
+        "rsid": 1049,
+        "semicolon_rsid_aliases": 30
+      },
+      "rounded_pip_sum": "1.5918",
+      "rounded_zero_pip_rows": 0,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 1220,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 50000,
+      "config_probability_mass": "0.9999999962",
+      "config_k_counts": {
+        "1": 39,
+        "2": 2384,
+        "3": 47577
+      },
+      "config_k_probability_mass": {
+        "1": "0.4824652369",
+        "2": "0.4330013146",
+        "3": "0.0845334447"
+      },
+      "config_max_causal_variants": 3,
+      "max_pip_config_difference": "0.0000499532",
+      "max_posterior_k_log_difference": "0.5175347631",
+      "single_causal_reconstructed_sets": [],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3",
+        "configuration_exceeds_log_max_causal_variants",
+        "configuration_posterior_k_disagrees_with_log"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/SH2B3",
+          "source_row": 1,
+          "source_index": "622",
+          "variant_id_as_published": "rs3184504",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.9898",
+          "snp_log10bf_as_published": "4.8739",
+          "config_summed_marginal_probability": "0.9898050351"
+        },
+        {
+          "dataset_id": "gwas/SH2B3",
+          "source_row": 2,
+          "source_index": "297",
+          "variant_id_as_published": "rs7976891",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0136",
+          "snp_log10bf_as_published": "1.0260",
+          "config_summed_marginal_probability": "0.0135927657"
+        },
+        {
+          "dataset_id": "gwas/SH2B3",
+          "source_row": 3,
+          "source_index": "16",
+          "variant_id_as_published": "rs73406339",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0126",
+          "snp_log10bf_as_published": "0.9910",
+          "config_summed_marginal_probability": "0.0125539796"
+        },
+        {
+          "dataset_id": "gwas/SH2B3",
+          "source_row": 4,
+          "source_index": "303",
+          "variant_id_as_published": "rs118011385",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0118",
+          "snp_log10bf_as_published": "0.9640",
+          "config_summed_marginal_probability": "0.0118083680"
+        },
+        {
+          "dataset_id": "gwas/SH2B3",
+          "source_row": 5,
+          "source_index": "13",
+          "variant_id_as_published": "rs73406336",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0117",
+          "snp_log10bf_as_published": "0.9613",
+          "config_summed_marginal_probability": "0.0117340987"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/SIK2",
+      "analysis_kind": "gwas",
+      "archive_label": "SIK2",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/SIK2",
+      "snp_rows": 2176,
+      "identifier_types": {
+        "array_probe_identifier": 8,
+        "coordinate_without_build_or_alleles": 194,
+        "kgp_identifier": 83,
+        "rsid": 1841,
+        "semicolon_rsid_aliases": 50
+      },
+      "rounded_pip_sum": "0.9765",
+      "rounded_zero_pip_rows": 1195,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 2176,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 2176,
+      "config_probability_mass": "0.9999999993",
+      "config_k_counts": {
+        "1": 2176
+      },
+      "config_k_probability_mass": {
+        "1": "0.9999999993"
+      },
+      "config_max_causal_variants": 1,
+      "max_pip_config_difference": "0.0000499330",
+      "max_posterior_k_log_difference": "7E-10",
+      "single_causal_reconstructed_sets": [
+        {
+          "threshold": "0.95",
+          "size": 790,
+          "mass": "0.9500477350"
+        },
+        {
+          "threshold": "0.99",
+          "size": 1803,
+          "mass": "0.9900214314"
+        }
+      ],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/SIK2",
+          "source_row": 1,
+          "source_index": "1396",
+          "variant_id_as_published": "SNP_A-4299355",
+          "identifier_type": "array_probe_identifier",
+          "snp_prob_as_published": "0.1542",
+          "snp_log10bf_as_published": "2.5983",
+          "config_summed_marginal_probability": "0.1541937435"
+        },
+        {
+          "dataset_id": "gwas/SIK2",
+          "source_row": 2,
+          "source_index": "1286",
+          "variant_id_as_published": "rs12363179",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0312",
+          "snp_log10bf_as_published": "1.8458",
+          "config_summed_marginal_probability": "0.0312273610"
+        },
+        {
+          "dataset_id": "gwas/SIK2",
+          "source_row": 3,
+          "source_index": "1215",
+          "variant_id_as_published": "rs11213970",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0309",
+          "snp_log10bf_as_published": "1.8411",
+          "config_summed_marginal_probability": "0.0309034940"
+        },
+        {
+          "dataset_id": "gwas/SIK2",
+          "source_row": 4,
+          "source_index": "1295",
+          "variant_id_as_published": "chr11:111576158",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0259",
+          "snp_log10bf_as_published": "1.7615",
+          "config_summed_marginal_probability": "0.0258625503"
+        },
+        {
+          "dataset_id": "gwas/SIK2",
+          "source_row": 5,
+          "source_index": "1290",
+          "variant_id_as_published": "rs10502147",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.0234",
+          "snp_log10bf_as_published": "1.7178",
+          "config_summed_marginal_probability": "0.0234443007"
+        }
+      ]
+    },
+    {
+      "dataset_id": "gwas/UBASH3A",
+      "analysis_kind": "gwas",
+      "archive_label": "UBASH3A",
+      "archive_stem": "data_release/psc_gwas_fine_mapping/UBASH3A",
+      "snp_rows": 4101,
+      "identifier_types": {
+        "array_probe_identifier": 9,
+        "coordinate_without_build_or_alleles": 3393,
+        "kgp_identifier": 222,
+        "other_unresolved_identifier": 1,
+        "rsid": 476
+      },
+      "rounded_pip_sum": "0.9891",
+      "rounded_zero_pip_rows": 4044,
+      "negative_infinite_log_bayes_factors": 0,
+      "log": {
+        "finemap_version": "1.1",
+        "max_causal_variants": 1,
+        "number_of_snps": 4101,
+        "number_of_individuals": 11386,
+        "posterior_k": {
+          "0": "0",
+          "1": "1"
+        }
+      },
+      "config_rows": 4101,
+      "config_probability_mass": "1.0000000004",
+      "config_k_counts": {
+        "1": 4101
+      },
+      "config_k_probability_mass": {
+        "1": "1.0000000004"
+      },
+      "config_max_causal_variants": 1,
+      "max_pip_config_difference": "0.0000495816",
+      "max_posterior_k_log_difference": "4E-10",
+      "single_causal_reconstructed_sets": [
+        {
+          "threshold": "0.95",
+          "size": 7,
+          "mass": "0.9615628537"
+        },
+        {
+          "threshold": "0.99",
+          "size": 103,
+          "mass": "0.9900126117"
+        }
+      ],
+      "issues": [
+        "log_version_differs_from_paper_methods_v1.3"
+      ],
+      "top_variants": [
+        {
+          "dataset_id": "gwas/UBASH3A",
+          "source_row": 1,
+          "source_index": "2096",
+          "variant_id_as_published": "rs1893592",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.6104",
+          "snp_log10bf_as_published": "3.8077",
+          "config_summed_marginal_probability": "0.6103565958"
+        },
+        {
+          "dataset_id": "gwas/UBASH3A",
+          "source_row": 2,
+          "source_index": "1999",
+          "variant_id_as_published": "rs11203203",
+          "identifier_type": "rsid",
+          "snp_prob_as_published": "0.1627",
+          "snp_log10bf_as_published": "2.9014",
+          "config_summed_marginal_probability": "0.1627342531"
+        },
+        {
+          "dataset_id": "gwas/UBASH3A",
+          "source_row": 3,
+          "source_index": "2025",
+          "variant_id_as_published": "chr21:43841328",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0481",
+          "snp_log10bf_as_published": "2.3164",
+          "config_summed_marginal_probability": "0.0481105640"
+        },
+        {
+          "dataset_id": "gwas/UBASH3A",
+          "source_row": 4,
+          "source_index": "1997",
+          "variant_id_as_published": "chr21:43836010",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0454",
+          "snp_log10bf_as_published": "2.2897",
+          "config_summed_marginal_probability": "0.0453649342"
+        },
+        {
+          "dataset_id": "gwas/UBASH3A",
+          "source_row": 5,
+          "source_index": "2010",
+          "variant_id_as_published": "chr21:43838054",
+          "identifier_type": "coordinate_without_build_or_alleles",
+          "snp_prob_as_published": "0.0331",
+          "snp_log10bf_as_published": "2.1474",
+          "config_summed_marginal_probability": "0.0331141910"
+        }
+      ]
+    }
+  ]
+}

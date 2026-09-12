@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [direct-junction follow-up](reports/ubash3a-junction-followup.md) checks the UBASH3A strand discrepancy and measures public GEUVADIS junction reads. **The positive-strand boundaries are supported, and a published workflow-setting mismatch could explain the reversed labels. The actual historical run settings remain unconfirmed.** The public-data comparison was too sparse: only 18 of 360 genotyped European donors met the fixed coverage threshold, with no CC donors retained. An exact [data request](docs/ubash3a-data-request-draft.md) is drafted and unsent.
+The latest [fine-mapping archive audit and comparison plan](reports/psc-finemap-and-comparison.md) imports **71,083 variant rows across 18 GWAS regions and eight molecular-QTL datasets**. SNP probabilities agree with saved configurations, but accompanying logs have substantial provenance discrepancies. Exact published signal-specific credible sets remain unavailable. **Five reference-verified candidate substitutions** across IL2RA, BACH2 and BCL2L11 are nominated under a fixed protocol; matched comparison variants are the next preparation step. No model calls were made for this phase.
+
+The [direct-junction follow-up](reports/ubash3a-junction-followup.md) checks the UBASH3A strand discrepancy and measures public GEUVADIS junction reads. **The positive-strand boundaries are supported, and a published workflow-setting mismatch could explain the reversed labels. The actual historical run settings remain unconfirmed.** The public-data comparison was too sparse: only 18 of 360 genotyped European donors met the fixed coverage threshold, with no CC donors retained. An exact [data request](docs/ubash3a-data-request-draft.md) is drafted and unsent.
 
 The earlier [measured-RNA follow-up](reports/qtl-followup.md) compares the model with public genotype–RNA associations. **PRKD2's expression direction agrees in BLUEPRINT and a separate DICE cohort. UBASH3A's total-RNA direction disagrees in both resting and activated DICE CD4 cells.** A 471-sample blood dataset contains the predicted +29-nucleotide splice boundary and direction, subject to the strand-provenance question above.
 
@@ -28,6 +30,7 @@ The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism
 - A source-backed allele/transcript audit, one additional splice prediction, a documented coordinate correction, and [concrete researcher review questions](docs/mechanism-review-questions.md).
 - Eight reproducible public QTL queries, four expression comparisons, two splice associations, a dataset-wide strand audit and explicit accounting of missing measurements.
 - A reference-motif and workflow-strand check, public single-variant genotype matching, and a donor-level two-junction analysis that preserves its inconclusive coverage result.
+- A full fine-mapping archive import, log/configuration audit, explicitly labeled singleton-set reconstructions, and a fixed prospective comparison protocol with candidate references and exclusions.
 
 The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
@@ -121,6 +124,19 @@ python -m unittest discover -s tests -v
 ```
 
 The [plan](config/ubash3a-public-junction-plan.json) was saved before count/genotype-group inspection; its checksum and timestamp are preserved in [run metadata](config/ubash3a-junction-run.json). The source manifest pins 35 files, including a 53 MB coverage-plot archive. Use `--offline` with the two fetch scripts to verify the existing cache; the genotype reader also supports `--refresh`. Sample-level public data stay ignored, and the aggregate report includes missing measurements and unestimable models.
+
+## Reproduce the fine-mapping audit and comparison preparation
+
+```bash
+python scripts/fetch_sources.py --manifest config/finemap-sources.json
+python scripts/audit_finemap_archive.py
+python scripts/prepare_controlled_comparison.py
+python -m unittest discover -s tests -v
+```
+
+The 43 pinned sources include the 16.7 MB study archive and small reference/documentation files. The new scripts use the standard library. `--offline` on the download command verifies the cache. The complete compact [variant table](data/derived/psc-finemap-variants.csv.gz) preserves original identifiers and probabilities; it is not a normalized VCF or a per-signal credible-set manifest. The [candidate table](data/derived/psc-comparison-candidates.csv) includes every high-PIP inclusion, exclusion and reserve in the selected regions.
+
+The [protocol](config/psc-controlled-comparison.json) fixes matching, model and reporting rules before scores. The [freeze record](config/psc-controlled-comparison-lock.json) pins that protocol and its current inputs. Comparator identities, EUR frequency/LD covariates and the common gene/track universe remain to be prepared; the status is explicitly not ready for inference. The original pilot predictions are unchanged.
 
 ## Interpretation
 

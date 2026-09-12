@@ -1,0 +1,20 @@
+source_table_data_row,published_region_label,archive_region_label,signal_as_published,highest_pp_snp_as_published,highest_pp_position_b37_as_published,posterior_probability_as_published,credible_set_size_as_published,archive_variant_identifier,match_method,archive_marginal_pip,complete_published_signal_membership_available,region_link_note
+1,MMEL1,MMEL1,1,rs61763697,2810791,0.07,62,,not_resolved,,False,Literal region-label agreement
+2,BCL211,BCL2L11,1,rs72837826,111933001,0.18,12,rs72837826,exact_rsid,0.1771,False,Region association only; gene labels are not declared equivalent
+3,CD28,CD28,1,rs5837875,204647878,0.19,6,rs35677365;rs5837875,rsid_in_published_alias_list,0.1900,False,Literal region-label agreement
+4,CD28,CD28,2,rs231799,204707417,0.17,24,rs231799,exact_rsid,0.0004,False,Literal region-label agreement
+5,MST1,MST1,1,rs11716895,49762779,0.11,13,chr3:49762779,coordinate_string_candidate_build_and_alleles_unverified,0.1081,False,Literal region-label agreement
+6,MST1,MST1,2,rs13083791,49721798,0.07,122,,not_resolved,,False,Literal region-label agreement
+7,FOXP1,FOXP1,1,rs80060485,71153890,0.99,1,,not_resolved,,False,Literal region-label agreement
+8,FOXP1,FOXP1,2,rs36023390,71523093,0.14,2,rs36023390,exact_rsid,0.1412,False,Literal region-label agreement
+9,IL2-IL21,IL21,1,rs13119723,123218313,0.09,50,rs13119723,exact_rsid,0.0908,False,Region association only; gene labels are not declared equivalent
+10,BACH2,BACH2,1,rs7750271,91036225,0.20,12,rs7750271,exact_rsid,0.2009,False,Literal region-label agreement
+11,IL2RA,IL2RA,1,rs4147359,6108439,0.46,5,rs4147359,exact_rsid,0.4575,False,Literal region-label agreement
+12,CCDC88B,CCDC88B,1,rs35247680,63884747,0.61,2,rs35247680,exact_rsid,0.6073,False,Literal region-label agreement
+13,CCDC88B,CCDC88B,2,rs663743,64107735,0.41,2,rs663743,exact_rsid,0.4136,False,Literal region-label agreement
+14,SH2B3,SH2B3,1,rs3184504,111884608,0.99,1,rs3184504,exact_rsid,0.9898,False,Literal region-label agreement
+15,CLEC16A,CLEC16A,1,rs725613,11169683,0.16,12,rs725613,exact_rsid,0.1627,False,Literal region-label agreement
+16,CD226,CD226,1,rs1610555,67543147,0.08,44,,not_resolved,,False,Literal region-label agreement
+17,PRKD2,PRKD2,1,rs313839,47221557,0.23,14,rs313839,exact_rsid,0.2347,False,Literal region-label agreement
+18,ETS2,PSMG1,1,rs4817988,40468838,0.58,10,rs4817988,exact_rsid,0.5831,False,Region association only; gene labels are not declared equivalent
+19,UBASH3A,UBASH3A,1,rs1893592,43855067,0.62,5,rs1893592,exact_rsid,0.6104,False,Literal region-label agreement
