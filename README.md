@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [measured-RNA follow-up](reports/qtl-followup.md) compares the model with public genotype–RNA associations. **PRKD2's expression direction agrees in BLUEPRINT and a separate DICE cohort. UBASH3A's total-RNA direction disagrees in both resting and activated DICE CD4 cells.** A 471-sample blood dataset contains the predicted +29-nucleotide splice boundary and direction, with a systematic strand-label discrepancy still unresolved.
+The latest [direct-junction follow-up](reports/ubash3a-junction-followup.md) checks the UBASH3A strand discrepancy and measures public GEUVADIS junction reads. **The positive-strand boundaries are supported, and a published workflow-setting mismatch could explain the reversed labels. The actual historical run settings remain unconfirmed.** The public-data comparison was too sparse: only 18 of 360 genotyped European donors met the fixed coverage threshold, with no CC donors retained. An exact [data request](docs/ubash3a-data-request-draft.md) is drafted and unsent.
+
+The earlier [measured-RNA follow-up](reports/qtl-followup.md) compares the model with public genotype–RNA associations. **PRKD2's expression direction agrees in BLUEPRINT and a separate DICE cohort. UBASH3A's total-RNA direction disagrees in both resting and activated DICE CD4 cells.** A 471-sample blood dataset contains the predicted +29-nucleotide splice boundary and direction, subject to the strand-provenance question above.
 
 The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism audit](reports/mechanism-audit.md) remain available unchanged apart from forward links. Original GWAS rows support **C as the working PRKD2 rs313839 risk allele**. The subsequent measured coefficients clarify the molecular direction without silently correcting conflicting labels in the original literature. These are molecular research checks, not treatment findings.
 
@@ -25,6 +27,7 @@ The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism
 - Four verified build-38 variant inputs, a fixed scoring protocol, completed model requests and a report of all outcomes.
 - A source-backed allele/transcript audit, one additional splice prediction, a documented coordinate correction, and [concrete researcher review questions](docs/mechanism-review-questions.md).
 - Eight reproducible public QTL queries, four expression comparisons, two splice associations, a dataset-wide strand audit and explicit accounting of missing measurements.
+- A reference-motif and workflow-strand check, public single-variant genotype matching, and a donor-level two-junction analysis that preserves its inconclusive coverage result.
 
 The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
@@ -105,8 +108,22 @@ python -m unittest discover -s tests -v
 
 The eight small, recorded association subsets are versioned. `--offline` verifies their hashes; the summary command also needs the pinned raw metadata downloaded in the preceding step. To repeat the remote indexed queries, run `python scripts/fetch_qtl_followup.py --refresh`. It requires exact agreement and preserves the recorded result if the archive changes. The raw multi-gigabyte association files are never downloaded in full. The Catalogue REST API has been retired; this reader uses its documented indexed archive.
 
+## Reproduce the direct-junction follow-up
+
+After installing `requirements-qtl.txt`, run:
+
+```bash
+python scripts/fetch_sources.py --manifest config/ubash3a-junction-sources.json
+python scripts/fetch_ubash3a_junction_genotypes.py
+python scripts/audit_ubash3a_strand.py
+python scripts/summarize_ubash3a_junctions.py
+python -m unittest discover -s tests -v
+```
+
+The [plan](config/ubash3a-public-junction-plan.json) was saved before count/genotype-group inspection; its checksum and timestamp are preserved in [run metadata](config/ubash3a-junction-run.json). The source manifest pins 35 files, including a 53 MB coverage-plot archive. Use `--offline` with the two fetch scripts to verify the existing cache; the genotype reader also supports `--refresh`. Sample-level public data stay ignored, and the aggregate report includes missing measurements and unestimable models.
+
 ## Interpretation
 
 PSC susceptibility is different from progression of established PSC. A regulatory prediction can support a mechanism worth testing; it does not show that altering that gene will safely treat disease. Experimental and clinical validation would still be needed.
 
-This repository contains public-source research material. Personal health records and correspondence are kept outside it. The watchlist is a dated snapshot and does not refresh automatically.
+This repository contains public-source research material and unsent draft questions. Personal health records and actual private correspondence are kept outside it. The watchlist is a dated snapshot and does not refresh automatically.

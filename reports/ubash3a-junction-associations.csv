@@ -1,0 +1,3 @@
+minimum_pair_reads,cohort,donors,unit,outcome,status,reason,coefficient_per_C,hc3_se,wald_95_lower,wald_95_upper,covariates,inference
+10,CEU/FIN/GBR/TSI,18,donor,plus29/(canonical+plus29),not_estimable,HC3 is undefined for unit leverage (a population group has only one retained donor),,,,,intercept; C dosage; population indicators,No allele-effect estimate or confidence interval reported
+20,CEU/FIN/GBR/TSI,5,donor,plus29/(canonical+plus29),not_estimable,HC3 is undefined for unit leverage (a population group has only one retained donor),,,,,intercept; C dosage; population indicators,No allele-effect estimate or confidence interval reported

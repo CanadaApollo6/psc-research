@@ -1,12 +1,14 @@
 # Questions arising from the completed mechanism audit
 
-Updated 2026-09-11 after the [measured-RNA follow-up](../reports/qtl-followup.md). These are draft questions for review, not sent correspondence. Public professional contacts remain in [contacts.md](contacts.md). The report and exact association rows can accompany a future message without personal health details.
+Updated 2026-09-11 after the [direct-junction follow-up](../reports/ubash3a-junction-followup.md). These are draft questions for review, not sent correspondence. A [short, ready-to-review email](ubash3a-data-request-draft.md) and [six-row endpoint specification](../data/derived/ubash3a-data-request-endpoints.csv) now make the immediate request concrete. Public professional contacts remain in [contacts.md](contacts.md).
 
 ## eQTL Catalogue / Lepik cohort — most immediate data question
 
 1. In QTD000377, phenotype `21:42434983:42437488:clu_31404_-` is assigned to UBASH3A with `strand=1`. The cluster suffix and annotated gene strand disagree for 115,561 of 116,015 unique single-gene-assigned phenotypes in the linked metadata. Is this an expected library-orientation convention, an old processing issue, or an annotation problem? Which archived workflow parameters or corrected release should we use? We have preserved both original labels.
 2. Can we access the unfiltered rs1893592-C coefficients and uncertainty for the canonical `21:42434954:42437488` and alternative `21:42434983:42437488` junctions, with their cluster denominator definitions? The selected alternative row has beta 0.523483, SE 0.063608 and nominal P 1.98464e-15. We need both endpoints rather than a single selected tag trait.
 3. Are de-identified per-genotype junction summaries, overhang/mapping-quality summaries or a public donor-level release available for a direct check? In DICE QTD000483/QTD000488 we found no UBASH3A-assigned phenotype in the published metadata; is fuller quantification available for these coordinates?
+
+New evidence for question 1: both reference boundaries and Snaptron junctions are positive-strand GT–AG. In the published workflow, the reverse-stranded branch selects RF for HISAT2 but `-s 2` for regtools; the declared regtools 0.6.0 recipe defines RF as `-s 1`. This can explain reversal if those parameters were used, but actual historical run settings remain unverified. For questions 2–3, our GEUVADIS reanalysis has only 18 adequately covered European donors and no retained CC donors; it cannot supply a reliable effect estimate. A 2023 maintainer discussion confirms that full splicing files were too large to publish routinely and describes arranging a targeted transfer.
 
 ## PSC genetics / molecular-QTL investigators
 

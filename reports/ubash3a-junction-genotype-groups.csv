@@ -1,0 +1,13 @@
+cohort,minimum_pair_reads,genotype,dosage_c,donors,canonical_reads,plus29_reads,donors_with_plus29,mean_donor_ratio,median_donor_ratio,q25_donor_ratio,q75_donor_ratio
+European,10,AA,0,12,206,0,0,0.0,0.0,0.0,0.0
+European,10,AC,1,6,84,1,1,0.008333333333333333,0.0,0.0,0.0
+European,10,CC,2,0,0,0,0,,,,
+YRI,10,AA,0,1,16,0,0,0.0,0.0,0.0,0.0
+YRI,10,AC,1,0,0,0,0,,,,
+YRI,10,CC,2,0,0,0,0,,,,
+European,20,AA,0,3,96,0,0,0.0,0.0,0.0,0.0
+European,20,AC,1,2,39,1,1,0.025,0.025,0.0125,0.037500000000000006
+European,20,CC,2,0,0,0,0,,,,
+YRI,20,AA,0,0,0,0,0,,,,
+YRI,20,AC,1,0,0,0,0,,,,
+YRI,20,CC,2,0,0,0,0,,,,

@@ -1,0 +1,131 @@
+{
+  "analysis": "exploratory reanalysis of a previously studied public cohort",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pysam": "0.23.3"
+  },
+  "genome_build_junctions": "GRCh38",
+  "genotype_build_source": "GRCh37",
+  "flow": {
+    "processed_rna_runs": 667,
+    "unique_rna_donors": 464,
+    "donors_with_multiple_runs": 173,
+    "donors_with_public_genotype": 447,
+    "donors_without_public_genotype": 17,
+    "European_genotyped_donors": 360,
+    "European_donors_at_10_pair_reads": 18,
+    "YRI_genotyped_donors": 87,
+    "YRI_donors_at_10_pair_reads": 1,
+    "European_donors_at_20_pair_reads": 5,
+    "YRI_donors_at_20_pair_reads": 0
+  },
+  "excluded_runs": [],
+  "source_junction_totals": {
+    "canonical": {
+      "snaptron_id": "138533532",
+      "start": "42434955",
+      "end": "42437487",
+      "strand": "+",
+      "left_motif": "GT",
+      "right_motif": "AG",
+      "samples_count": "46217",
+      "coverage_sum": "646804"
+    },
+    "plus29": {
+      "snaptron_id": "138533554",
+      "start": "42434984",
+      "end": "42437487",
+      "strand": "+",
+      "left_motif": "GT",
+      "right_motif": "AG",
+      "samples_count": "2496",
+      "coverage_sum": "5345"
+    }
+  },
+  "plan_before_counts": {
+    "file": "config/ubash3a-public-junction-plan.json",
+    "sha256": "7440285be25f870d59be2da769fa4400fda05b4c4aa6afba08d8bc2f236741de",
+    "recorded_at_utc": "2026-09-12T00:18:37.577994+00:00"
+  },
+  "genotype_subset_sha256": "4f0bd59af4db6675d2d60b779cfb96143a6280f69bae68cf6d58fa4971385713",
+  "donor_table_sha256": "0617403edec432458b6e2da325bf672fcda2d75f3aba57b488d260c06d747ab0",
+  "source_hashes": {
+    "eqtl-issue35-comments": "cc634fadc64c5856d8ae362917e619d861d8513f84639424f2e41df34c9c09c4",
+    "eqtl-issue16-comments": "99c898bc94d20e926b1e564c885e905b9331e39662a6106ce036ecd35d9614af",
+    "eqtl-counts-zenodo": "8f68e5906e1decffa6ccde89e9f48a84335c6c87524a0f279e3f64971ec39b59",
+    "eqtl-counts-latest": "8f68e5906e1decffa6ccde89e9f48a84335c6c87524a0f279e3f64971ec39b59",
+    "lepik-coverage-directory": "371770faee8592d7d9b9863fca3ea86cd43dc2e28942761722dbab0b2ed9e909",
+    "lepik-splice-coverage": "5fef2d2cf68c0c3ddc88474f2430ddf38cec2039c9c819710e5744c56b31f725",
+    "rnaseq-leafcutter-env": "37eed61c09e4fd262b4fe04a7dc041c20bb85177547e1db06b51eae4481f0ba6",
+    "rnaseq-leafcutter-docker": "e4305c481ce8d63643b25edba30260769ec78a702b471074ececa3e7844bc17a",
+    "rnaseq-align-module": "983e075005724c86b51abdd8a11b5219cb13783c179a02b85eb1a3ca6db0010d",
+    "regtools-v06-tree": "bb837f243e467c43e6a066f6ab37b212280bd06e719c9a742e715dc7dc45145c",
+    "regtools-v06-junction-cc": "070279b77fb1c9b1561420b8e25e6e9da2a022376e3090c33bd68aef0957acae",
+    "regtools-v06-junction-h": "34a7bd0bb0d8e508491a2cabdf710a169e84d2e6b0aac5b549e8107ea62f8087",
+    "ubash-intron-GRCh38": "85f9b52ac238bd64d58624e8a0c3888df772ab8286ca4773c55bad6b5d36e3df",
+    "illumina-strand-guide": "bc6b121f3e4b009c55413f57ae75804cb43f5ffb10821010df806c0d6b1280f1",
+    "snaptron-data-doc": "4c9efbe4b469b1b472461ca135c4ddb4814ea8eb504e81b1482d0cf2441ce7a1",
+    "snaptron-ref-doc": "f7ae0a5d498cda99025275be98e4d2fda7fc439f5643aa16d7773894e3657145",
+    "snaptron-registry": "a09408286a0c44552483bb40ba50ccb4eaeeac340e2aac922ea22b4def8eb52b",
+    "snaptron-canonical-unfiltered": "37c19fb1f363cb363842a10d02b24e4a2032e356cdcb29b3b13941f1b7223763",
+    "snaptron-plus29-unfiltered": "054a54a83d95afc99c021c4e1b9bf94a8149314d0acaeb2067b9070362b7b9ae",
+    "recount3-doc": "c8ee3ca907fb9ed43dd0d855fbff4485adcbbfbf9a9fb9feafe712e6a77a18f5",
+    "recount-geuvadis-sra": "c0f8931f9b91f28737436fb602bebd3170ee9f016a534896efb3073f753a11dc",
+    "recount-geuvadis-project": "7d47e37e277c0bd80590bc30c88ffac85589b94ec5491b3f6fe7c14c41424e0c",
+    "recount-geuvadis-qc": "fc58dfcf5656b32ad3e53f6432d42992b0eb17c3e5227222cc5750a5b4ee2377",
+    "ena-geuvadis-runs": "f82e7a436c4cd6f8bd2222be1ff62e0795147fa8a0bfd5375da7a96b9f4af485",
+    "kgp-phase3-panel": "b4023dc6ee2d62ee89c8d4d347db4d348e65518d66d346574cdae7a4bbd76858",
+    "kgp-chr21-index": "e87a55de3db734add587258c23f228bdc042323e2daf09ac4b7d18480b8de3a0",
+    "kgp-phase3-directory": "f50ce158c7ea3d71c4265534dae1f96072c48f25a4b91d590c3899a73f4e1605",
+    "lepik-splice-permuted": "b451e65b5d9d372d0754f8ff0bc21f2d92bc8cdfe16e1d517826e34206f46860",
+    "snaptron-geuvadis-samples-batch1": "ccff85ee4551b02c62792dfa065ebefb64268eb43800b8d9d8efe259bcc1e0d9",
+    "snaptron-geuvadis-samples-batch2": "942a3cce2dab4643be074a90b400ccfcae24519e3f8294bf25aa2e494aeeb100",
+    "snaptron-geuvadis-samples-batch3": "918703eeb7de06add205a12eda76226835182afdf874038657300b9a59b70eb8",
+    "snaptron-geuvadis-samples-batch4": "c894d8421e70523795386de13026ada26283b25050d23273ecb58036e77fa69e",
+    "QTD000377-phenotype-metadata": "fbaa7b2c6c2471d0ee9eca4805ead00fab6e818dd38503cad894344c66dff06e",
+    "eqtl-leafcutter-module": "5aae433b8b9310aaff35a3cdb0dcbab4dd713d92cba705a0b50d9f2d1cc98d56",
+    "snaptron-junction-index": "25d1b24ce579bbb6817e24d136d1875d6ed33f689af326dab6749a0ac14ed601"
+  },
+  "fits": [
+    {
+      "minimum_pair_reads": 10,
+      "cohort": "CEU/FIN/GBR/TSI",
+      "donors": 18,
+      "unit": "donor",
+      "outcome": "plus29/(canonical+plus29)",
+      "status": "not_estimable",
+      "reason": "HC3 is undefined for unit leverage (a population group has only one retained donor)",
+      "coefficient_per_C": "",
+      "hc3_se": "",
+      "wald_95_lower": "",
+      "wald_95_upper": "",
+      "covariates": "intercept; C dosage; population indicators",
+      "inference": "No allele-effect estimate or confidence interval reported"
+    },
+    {
+      "minimum_pair_reads": 20,
+      "cohort": "CEU/FIN/GBR/TSI",
+      "donors": 5,
+      "unit": "donor",
+      "outcome": "plus29/(canonical+plus29)",
+      "status": "not_estimable",
+      "reason": "HC3 is undefined for unit leverage (a population group has only one retained donor)",
+      "coefficient_per_C": "",
+      "hc3_se": "",
+      "wald_95_lower": "",
+      "wald_95_upper": "",
+      "covariates": "intercept; C dosage; population indicators",
+      "inference": "No allele-effect estimate or confidence interval reported"
+    }
+  ],
+  "limitations": [
+    "ALL_FOLDS model; not a held-out benchmark",
+    "GEUVADIS was used previously by Ji et al. 2017",
+    "Lymphoblastoid cells, not CD4 or PSC tissue",
+    "All-read junction counts; mapping/overhang details not resolved per supporting read",
+    "Two-junction composition, not all transcripts or full intron retention",
+    "Population-adjusted exploratory model; library/batch effects and relatedness not fully modeled"
+  ]
+}

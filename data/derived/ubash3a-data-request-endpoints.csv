@@ -1,0 +1,7 @@
+dataset_id,context,genome_build,variant,allele_of_interest,endpoint,intron_start_0based,intron_end_0based_exclusive,biological_strand,published_molecular_trait_id,requested_output
+QTD000377,Lepik_2017 blood,GRCh38,chr21_42434957_A_C,C,canonical,42434954,42437487,+,21:42434954:42437488:clu_31404_-,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted
+QTD000377,Lepik_2017 blood,GRCh38,chr21_42434957_A_C,C,plus29,42434983,42437487,+,21:42434983:42437488:clu_31404_-,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted
+QTD000483,DICE naive CD4,GRCh38,chr21_42434957_A_C,C,canonical,42434954,42437487,+,,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted
+QTD000483,DICE naive CD4,GRCh38,chr21_42434957_A_C,C,plus29,42434983,42437487,+,,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted
+QTD000488,DICE CD3/CD28 activated CD4 4h,GRCh38,chr21_42434957_A_C,C,canonical,42434954,42437487,+,,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted
+QTD000488,DICE CD3/CD28 activated CD4 4h,GRCh38,chr21_42434957_A_C,C,plus29,42434983,42437487,+,,unfiltered beta; standard error; nominal P; donor N; cluster denominator; normalization; per-genotype count summaries if permitted

@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "purpose": "Exploratory reanalysis of an existing public cohort to measure the canonical and +29-nt UBASH3A junctions directly. This is not a novel cohort or a held-out AlphaGenome benchmark.",
+  "recorded_before": "Retrieval or inspection of Snaptron target-junction counts and GEUVADIS rs1893592 genotype groups in this follow-up",
+  "prior_selection": "Targets selected from the earlier AlphaGenome prediction, literature and Lepik summary-statistic result. GEUVADIS was previously used in Ji et al. 2017.",
+  "genome_build": "GRCh38",
+  "gene": "UBASH3A",
+  "variant": {"rsid": "rs1893592", "chromosome": "chr21", "position_1based": 42434957, "reference": "A", "alternate": "C"},
+  "junctions": [
+    {"name": "canonical", "chromosome": "chr21", "start_0based": 42434954, "end_0based_exclusive": 42437487, "biological_strand": "+"},
+    {"name": "plus29", "chromosome": "chr21", "start_0based": 42434983, "end_0based_exclusive": 42437487, "biological_strand": "+"}
+  ],
+  "data_source": "Snaptron srav3h / recount3 public RNA-seq junction counts; GEUVADIS ERP001942 sample metadata; public 1000 Genomes genotypes",
+  "sample_rules": [
+    "Restrict RNA-seq libraries to verified ERP001942 study membership.",
+    "Match public pseudonymous donor IDs to public genotypes explicitly; exclude ambiguous or missing mappings.",
+    "Aggregate technical libraries by donor before any inference; libraries are not independent biological samples.",
+    "Do not infer genotypes from the RNA endpoint itself.",
+    "Primary descriptive cohort uses European populations CEU, FIN, GBR and TSI; report other populations separately if available.",
+    "Require canonical plus plus29 junction read count >=10 per donor for the primary ratio. Report retention and genotype-group sizes. A prespecified >=20 sensitivity check may be reported separately.",
+    "Keep zero plus29 counts when canonical coverage is sufficient. A missing query or unverified sample coverage must not be converted into zero."
+  ],
+  "endpoint": "plus29 / (canonical + plus29) junction-supporting read ratio. This is a two-junction composition, not the fraction of all UBASH3A transcripts or a full intron-retention measurement.",
+  "analysis": [
+    "Report per-genotype donor counts and distributions of both junction counts and the ratio.",
+    "If metadata and sample coverage support inference, estimate the ratio change per C allele with population fixed effects and heteroskedasticity-robust uncertainty, using donors as units.",
+    "Keep all outcomes including disagreements, sparse coverage, failed access and insufficient metadata.",
+    "No disease-risk, protein-effect, therapeutic or causal inference from this comparison. No new AlphaGenome calls are needed."
+  ]
+}

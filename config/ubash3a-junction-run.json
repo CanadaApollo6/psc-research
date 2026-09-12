@@ -1,0 +1,30 @@
+{
+  "plan_before_counts": {
+    "file": "config/ubash3a-public-junction-plan.json",
+    "sha256": "7440285be25f870d59be2da769fa4400fda05b4c4aa6afba08d8bc2f236741de",
+    "recorded_at_utc": "2026-09-12T00:18:37.577994+00:00"
+  },
+  "genotype_query": {
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+    "retrieved_at_utc": "2026-09-12T00:22:40.492248+00:00",
+    "query_build": "GRCh37",
+    "query_interval0": [
+      43855066,
+      43855067
+    ],
+    "source_variant_id": ".",
+    "rsid_alignment": "rs1893592 from independently verified Ensembl GRCh37 position and A/C alleles; source VCF ID is missing (.)",
+    "rows": 1,
+    "sha256": "4f0bd59af4db6675d2d60b779cfb96143a6280f69bae68cf6d58fa4971385713",
+    "bytes": 46087,
+    "pysam_version": "0.23.3",
+    "index_sha256": "e87a55de3db734add587258c23f228bdc042323e2daf09ac4b7d18480b8de3a0",
+    "file": "data/raw/junction-kgp-rs1893592.vcf",
+    "index_source_id": "kgp-chr21-index",
+    "chromosome": "21",
+    "expected_ref": "A",
+    "expected_alt": "C",
+    "header_included": true
+  },
+  "analysis_date": "2026-09-11 America/New_York (retrieval extends into 2026-09-12 UTC)"
+}

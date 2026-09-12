@@ -2,6 +2,8 @@
 
 Completed 2026-09-11. Eight targeted public-data queries, 121 preserved association rows, and no additional AlphaGenome requests. This extends the [mechanism audit](mechanism-audit.md); it does not change the frozen pilot or its original exclusions.
 
+Subsequent work: the [direct-junction follow-up](ubash3a-junction-followup.md) supports the positive-strand boundaries and identifies a provisional workflow-setting explanation for the reversed labels. Its GEUVADIS donor-level comparison is inconclusive because of sparse coverage. The original results below remain preserved.
+
 **PRKD2 now has an allele-aligned expression association in two cohorts that agrees with the model. UBASH3A's total-RNA prediction disagrees with a separate CD4 cohort. A blood dataset contains the predicted +29-nucleotide splice boundary and direction, but a systematic strand-label discrepancy limits its interpretation.** These results refine molecular hypotheses; they do not identify a treatment for established PSC.
 
 ![Measured gene-expression effects](qtl-expression-comparison.png)

@@ -1,0 +1,19 @@
+{
+  "status": "exact-match",
+  "url": "https://snaptron.cs.jhu.edu/data/srav3h/junctions.bgz",
+  "genome_build": "GRCh38",
+  "query_chromosome": "chr21",
+  "query_interval0": [
+    42434954,
+    42434984
+  ],
+  "index_sha256": "25d1b24ce579bbb6817e24d136d1875d6ed33f689af326dab6749a0ac14ed601",
+  "pysam_version": "0.23.3",
+  "regional_rows": 1739,
+  "matched_target_rows": 2,
+  "target_row_sha256": {
+    "canonical": "50be9d108c453eae11214eafc3035b68ffa627e7a0b0f080e92ae803c61a04ab",
+    "plus29": "c22d3b024503cfa338521189be54fa9aca5896e4feede89fd36421a98c93b45d"
+  },
+  "scope": "Exact target rows and local index verified; no full remote archive hash claimed"
+}

@@ -1,0 +1,321 @@
+{
+  "version": "0.1",
+  "notes": "Pinned public sources for the strand and direct-junction follow-up. Whole 1000 Genomes VCF was not downloaded; target query is separately pinned. Snaptron junction queries are genome-wide sample lists for two exact junctions; cohort restriction is performed locally using independent study/run metadata.",
+  "sources": [
+    {
+      "id": "eqtl-issue35-comments",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/eQTL-Catalogue-resources/issues/35/comments",
+      "max_bytes": 5000000,
+      "sha256": "cc634fadc64c5856d8ae362917e619d861d8513f84639424f2e41df34c9c09c4",
+      "retrieved_at_utc": "2026-09-12T00:13:34.232680+00:00",
+      "bytes": 9345,
+      "file": "junction-eqtl-issue35-comments.data"
+    },
+    {
+      "id": "eqtl-issue16-comments",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/eQTL-Catalogue-resources/issues/16/comments",
+      "max_bytes": 5000000,
+      "sha256": "99c898bc94d20e926b1e564c885e905b9331e39662a6106ce036ecd35d9614af",
+      "retrieved_at_utc": "2026-09-12T00:13:34.240867+00:00",
+      "bytes": 3637,
+      "file": "junction-eqtl-issue16-comments.data"
+    },
+    {
+      "id": "eqtl-counts-zenodo",
+      "url": "https://zenodo.org/api/records/4678936",
+      "max_bytes": 5000000,
+      "sha256": "8f68e5906e1decffa6ccde89e9f48a84335c6c87524a0f279e3f64971ec39b59",
+      "retrieved_at_utc": "2026-09-12T00:13:34.846850+00:00",
+      "bytes": 11867,
+      "file": "junction-eqtl-counts-zenodo.data"
+    },
+    {
+      "id": "eqtl-counts-latest",
+      "url": "https://zenodo.org/api/records/4678936/versions/latest",
+      "max_bytes": 5000000,
+      "sha256": "8f68e5906e1decffa6ccde89e9f48a84335c6c87524a0f279e3f64971ec39b59",
+      "retrieved_at_utc": "2026-09-12T00:14:27.041356+00:00",
+      "bytes": 11867,
+      "file": "junction-eqtl-counts-latest.data"
+    },
+    {
+      "id": "lepik-coverage-directory",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots/QTS000019/",
+      "max_bytes": 5000000,
+      "sha256": "371770faee8592d7d9b9863fca3ea86cd43dc2e28942761722dbab0b2ed9e909",
+      "retrieved_at_utc": "2026-09-12T00:13:34.553673+00:00",
+      "bytes": 1871,
+      "file": "junction-lepik-coverage-directory.data"
+    },
+    {
+      "id": "lepik-splice-coverage",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/coverage_plots/QTS000019/QTD000377.tar.gz",
+      "max_bytes": 60000000,
+      "sha256": "5fef2d2cf68c0c3ddc88474f2430ddf38cec2039c9c819710e5744c56b31f725",
+      "retrieved_at_utc": "2026-09-12T00:15:52.048123+00:00",
+      "bytes": 53121227,
+      "file": "junction-lepik-splice-coverage.data"
+    },
+    {
+      "id": "rnaseq-leafcutter-env",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/rnaseq/7ba2a4d5efc9f4754bd32d3288d025f884d760e4/containers/leafcutter/environment_leafcutter.yml",
+      "max_bytes": 5000000,
+      "sha256": "37eed61c09e4fd262b4fe04a7dc041c20bb85177547e1db06b51eae4481f0ba6",
+      "retrieved_at_utc": "2026-09-12T00:14:26.057920+00:00",
+      "bytes": 179,
+      "file": "junction-rnaseq-leafcutter-env.data"
+    },
+    {
+      "id": "rnaseq-leafcutter-docker",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/rnaseq/7ba2a4d5efc9f4754bd32d3288d025f884d760e4/containers/leafcutter/Dockerfile",
+      "max_bytes": 5000000,
+      "sha256": "e4305c481ce8d63643b25edba30260769ec78a702b471074ececa3e7844bc17a",
+      "retrieved_at_utc": "2026-09-12T00:14:26.238242+00:00",
+      "bytes": 549,
+      "file": "junction-rnaseq-leafcutter-docker.data"
+    },
+    {
+      "id": "rnaseq-align-module",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/rnaseq/7ba2a4d5efc9f4754bd32d3288d025f884d760e4/modules/align.nf",
+      "max_bytes": 5000000,
+      "sha256": "983e075005724c86b51abdd8a11b5219cb13783c179a02b85eb1a3ca6db0010d",
+      "retrieved_at_utc": "2026-09-12T00:20:19.077502+00:00",
+      "bytes": 6707,
+      "file": "junction-rnaseq-align-module.data"
+    },
+    {
+      "id": "regtools-v06-tree",
+      "url": "https://api.github.com/repos/griffithlab/regtools/git/trees/0.6.0?recursive=1",
+      "max_bytes": 5000000,
+      "sha256": "bb837f243e467c43e6a066f6ab37b212280bd06e719c9a742e715dc7dc45145c",
+      "retrieved_at_utc": "2026-09-12T00:15:11.928449+00:00",
+      "bytes": 183756,
+      "file": "junction-regtools-v06-tree.data"
+    },
+    {
+      "id": "regtools-v06-junction-cc",
+      "url": "https://raw.githubusercontent.com/griffithlab/regtools/0.6.0/src/junctions/junctions_extractor.cc",
+      "max_bytes": 5000000,
+      "sha256": "070279b77fb1c9b1561420b8e25e6e9da2a022376e3090c33bd68aef0957acae",
+      "retrieved_at_utc": "2026-09-12T00:15:54.484756+00:00",
+      "bytes": 14852,
+      "file": "junction-regtools-v06-junction-cc.data"
+    },
+    {
+      "id": "regtools-v06-junction-h",
+      "url": "https://raw.githubusercontent.com/griffithlab/regtools/0.6.0/src/junctions/junctions_extractor.h",
+      "max_bytes": 5000000,
+      "sha256": "34a7bd0bb0d8e508491a2cabdf710a169e84d2e6b0aac5b549e8107ea62f8087",
+      "retrieved_at_utc": "2026-09-12T00:15:54.484462+00:00",
+      "bytes": 7827,
+      "file": "junction-regtools-v06-junction-h.data"
+    },
+    {
+      "id": "ubash-intron-GRCh38",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:42434944..42437504:1?content-type=application/json",
+      "max_bytes": 5000000,
+      "sha256": "85f9b52ac238bd64d58624e8a0c3888df772ab8286ca4773c55bad6b5d36e3df",
+      "retrieved_at_utc": "2026-09-12T00:15:54.835198+00:00",
+      "bytes": 2670,
+      "file": "junction-ubash-intron-GRCh38.data"
+    },
+    {
+      "id": "illumina-strand-guide",
+      "url": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_truseq/truseq-stranded-mrna-workflow/truseq-stranded-mrna-workflow-reference-1000000040498-00.pdf",
+      "max_bytes": 5000000,
+      "sha256": "bc6b121f3e4b009c55413f57ae75804cb43f5ffb10821010df806c0d6b1280f1",
+      "retrieved_at_utc": "2026-09-12T00:19:10.517511+00:00",
+      "bytes": 1022064,
+      "file": "junction-illumina-strand-guide.data"
+    },
+    {
+      "id": "snaptron-data-doc",
+      "url": "https://snaptron.cs.jhu.edu/data.html",
+      "max_bytes": 5000000,
+      "sha256": "4c9efbe4b469b1b472461ca135c4ddb4814ea8eb504e81b1482d0cf2441ce7a1",
+      "retrieved_at_utc": "2026-09-12T00:15:13.997910+00:00",
+      "bytes": 8882,
+      "file": "junction-snaptron-data-doc.data"
+    },
+    {
+      "id": "snaptron-ref-doc",
+      "url": "https://snaptron.cs.jhu.edu/reftables.html",
+      "max_bytes": 5000000,
+      "sha256": "f7ae0a5d498cda99025275be98e4d2fda7fc439f5643aa16d7773894e3657145",
+      "retrieved_at_utc": "2026-09-12T00:15:14.080474+00:00",
+      "bytes": 21571,
+      "file": "junction-snaptron-ref-doc.data"
+    },
+    {
+      "id": "snaptron-registry",
+      "url": "https://snaptron.cs.jhu.edu/snaptron/registry",
+      "max_bytes": 5000000,
+      "sha256": "a09408286a0c44552483bb40ba50ccb4eaeeac340e2aac922ea22b4def8eb52b",
+      "retrieved_at_utc": "2026-09-12T00:16:52.574351+00:00",
+      "bytes": 121632,
+      "file": "junction-snaptron-registry.data"
+    },
+    {
+      "id": "snaptron-canonical-unfiltered",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/snaptron?regions=chr21:42434955-42437487&exact=1",
+      "max_bytes": 5000000,
+      "sha256": "37c19fb1f363cb363842a10d02b24e4a2032e356cdcb29b3b13941f1b7223763",
+      "retrieved_at_utc": "2026-09-12T00:20:49.365375+00:00",
+      "bytes": 460658,
+      "file": "junction-snaptron-canonical-unfiltered.data"
+    },
+    {
+      "id": "snaptron-plus29-unfiltered",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/snaptron?regions=chr21:42434984-42437487&exact=1",
+      "max_bytes": 5000000,
+      "sha256": "054a54a83d95afc99c021c4e1b9bf94a8149314d0acaeb2067b9070362b7b9ae",
+      "retrieved_at_utc": "2026-09-12T00:20:48.980588+00:00",
+      "bytes": 24488,
+      "file": "junction-snaptron-plus29-unfiltered.data"
+    },
+    {
+      "id": "recount3-doc",
+      "url": "https://research.libd.org/recount3/reference/locate_url.html",
+      "max_bytes": 5000000,
+      "sha256": "c8ee3ca907fb9ed43dd0d855fbff4485adcbbfbf9a9fb9feafe712e6a77a18f5",
+      "retrieved_at_utc": "2026-09-12T00:19:51.352102+00:00",
+      "bytes": 25666,
+      "file": "junction-recount3-doc.data"
+    },
+    {
+      "id": "recount-geuvadis-sra",
+      "url": "https://recount-opendata.s3.amazonaws.com/recount3/release/human/data_sources/sra/metadata/42/ERP001942/sra.sra.ERP001942.MD.gz",
+      "max_bytes": 5000000,
+      "sha256": "c0f8931f9b91f28737436fb602bebd3170ee9f016a534896efb3073f753a11dc",
+      "retrieved_at_utc": "2026-09-12T00:21:28.614745+00:00",
+      "bytes": 89139,
+      "file": "junction-recount-geuvadis-sra.data"
+    },
+    {
+      "id": "recount-geuvadis-project",
+      "url": "https://recount-opendata.s3.amazonaws.com/recount3/release/human/data_sources/sra/metadata/42/ERP001942/sra.recount_project.ERP001942.MD.gz",
+      "max_bytes": 5000000,
+      "sha256": "7d47e37e277c0bd80590bc30c88ffac85589b94ec5491b3f6fe7c14c41424e0c",
+      "retrieved_at_utc": "2026-09-12T00:21:28.531626+00:00",
+      "bytes": 4237,
+      "file": "junction-recount-geuvadis-project.data"
+    },
+    {
+      "id": "recount-geuvadis-qc",
+      "url": "https://recount-opendata.s3.amazonaws.com/recount3/release/human/data_sources/sra/metadata/42/ERP001942/sra.recount_qc.ERP001942.MD.gz",
+      "max_bytes": 5000000,
+      "sha256": "fc58dfcf5656b32ad3e53f6432d42992b0eb17c3e5227222cc5750a5b4ee2377",
+      "retrieved_at_utc": "2026-09-12T00:21:28.566230+00:00",
+      "bytes": 162075,
+      "file": "junction-recount-geuvadis-qc.data"
+    },
+    {
+      "id": "ena-geuvadis-runs",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP001942&result=read_run&fields=run_accession,study_accession,sample_accession,sample_alias,experiment_accession,library_name&format=tsv",
+      "max_bytes": 5000000,
+      "sha256": "f82e7a436c4cd6f8bd2222be1ff62e0795147fa8a0bfd5375da7a96b9f4af485",
+      "retrieved_at_utc": "2026-09-12T00:16:51.705077+00:00",
+      "bytes": 56789,
+      "file": "junction-ena-geuvadis-runs.data"
+    },
+    {
+      "id": "kgp-phase3-panel",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_call_samples_v3.20130502.ALL.panel",
+      "max_bytes": 5000000,
+      "sha256": "b4023dc6ee2d62ee89c8d4d347db4d348e65518d66d346574cdae7a4bbd76858",
+      "retrieved_at_utc": "2026-09-12T00:19:11.348025+00:00",
+      "bytes": 55156,
+      "file": "junction-kgp-phase3-panel.data"
+    },
+    {
+      "id": "kgp-chr21-index",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+      "max_bytes": 5000000,
+      "sha256": "e87a55de3db734add587258c23f228bdc042323e2daf09ac4b7d18480b8de3a0",
+      "retrieved_at_utc": "2026-09-12T00:19:11.232978+00:00",
+      "bytes": 35609,
+      "file": "junction-kgp-chr21-index.data"
+    },
+    {
+      "id": "kgp-phase3-directory",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/",
+      "max_bytes": 5000000,
+      "sha256": "f50ce158c7ea3d71c4265534dae1f96072c48f25a4b91d590c3899a73f4e1605",
+      "retrieved_at_utc": "2026-09-12T00:19:11.419684+00:00",
+      "bytes": 20922,
+      "file": "junction-kgp-phase3-directory.data"
+    },
+    {
+      "id": "lepik-splice-permuted",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000019/QTD000377/QTD000377.permuted.tsv.gz",
+      "max_bytes": 10000000,
+      "sha256": "b451e65b5d9d372d0754f8ff0bc21f2d92bc8cdfe16e1d517826e34206f46860",
+      "retrieved_at_utc": "2026-09-12T00:28:42.770671+00:00",
+      "bytes": 1353716,
+      "file": "junction-lepik-splice-permuted.data"
+    },
+    {
+      "id": "snaptron-geuvadis-samples-batch1",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/samples?ids=98371,98373,98375,98377,98379,98381,98383,98385,98387,98401,98403,98405,98407,98409,98411,98413,98415,98417,98419,98433,98435,98437,98439,98441,98443,98445,196894,98449,98451,98465,98467,98469,98471,98473,98475,98477,98479,98481,98483,98497,98499,98501,98503,98505,98507,197018,98511,98513,98515,98529,98531,98533,98535,98537,98539,98541,98543,98545,98547,98561,98563,98565,98567,98569,98571,98573,98575,98577,98579,98593,197190,98597,197198,197202,197206,197210,197215,197218,197222,98817,197638,98821,98823,197651,197654,98829,98831,98833,98835,98849,98851,98853,98855,98857,98859,98861,98863,197730,98867,98881,98883,98885,197774,197778,197782,197786,197791,197794,98899,98913,98915,98917,98919,98921,98923,98925,98927,98929,98931,98945,98947,197898,98951,98953,98955,98957,197919,98961,197926,98977,98979,98981,98983,98985,98987,98989,98991,197986,98995,99009,99011,99013,99015,99017,99019,99021,99023,99025,99027,198082,99043,99045,99047,99049,99051,99053,99055,99057,99059,99073,99075,99077,99079,99081,99083,198170,99087,99089,99091,99105,99107,99109,99111,99113,99115,99117,99119,99121,99123,99329,99331,99333,99335,99337,198678,99341,99343,198690,198694,198722,198726,198731,198734,198738,198742,198746,198750,198754,198758,198786",
+      "max_bytes": 5000000,
+      "sha256": "ccff85ee4551b02c62792dfa065ebefb64268eb43800b8d9d8efe259bcc1e0d9",
+      "retrieved_at_utc": "2026-09-12T00:30:40.107727+00:00",
+      "bytes": 998921,
+      "file": "junction-snaptron-geuvadis-samples-batch1.data"
+    },
+    {
+      "id": "snaptron-geuvadis-samples-batch2",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/samples?ids=198790,198794,198799,198802,198806,198811,198814,198818,198822,198850,198854,198858,198862,198866,198870,198874,198878,198882,198887,198914,198918,198922,198926,198930,198934,198938,198942,198946,198950,198978,198982,198986,198990,198995,198998,199002,199006,199010,199014,199043,199046,199051,199054,199058,199062,199066,199071,199074,99539,99553,199110,199114,199118,199122,199126,99565,99567,99569,99571,99585,99587,99589,99591,199186,99595,99597,99599,99601,99603,99617,99619,199242,99623,99625,199254,99629,99631,99633,99635,99841,99843,99845,99847,99849,99851,99853,99855,99857,99859,199746,99875,99877,99879,99881,199766,99885,99887,99889,99891,99905,99907,99909,99911,99913,99915,99917,99919,99921,99923,99937,199878,99941,99943,99945,99947,99949,99951,99953,99955,99969,99971,99973,99975,99977,99979,99981,99983,99985,99987,100001,100003,100005,100007,100009,100011,100013,100015,100017,100019,100033,100035,100037,200078,100041,100043,100045,100047,100049,100051,100065,100067,100069,100071,100073,100075,100077,100079,100081,100083,100097,200198,100101,100103,100105,100107,100109,100111,100113,100115,100129,100131,100133,100135,100137,100139,100141,100143,100145,100147,100353,100355,100357,200718,200722,200726,200730,200734,200738,200742,200770,200774,200778,200782,200786,200790,200794,200798,200802,200806,200834",
+      "max_bytes": 5000000,
+      "sha256": "942a3cce2dab4643be074a90b400ccfcae24519e3f8294bf25aa2e494aeeb100",
+      "retrieved_at_utc": "2026-09-12T00:30:40.156679+00:00",
+      "bytes": 998992,
+      "file": "junction-snaptron-geuvadis-samples-batch2.data"
+    },
+    {
+      "id": "snaptron-geuvadis-samples-batch3",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/samples?ids=200838,200842,200847,200850,200855,200858,200862,200866,200870,200898,200902,200906,200910,200914,200918,200922,200926,200930,200934,200963,200967,200971,200975,401956,401964,401972,401981,401988,401996,402052,402060,201035,201039,201043,201047,201051,402108,402116,402124,402180,402188,402197,402204,402212,402220,402228,402236,402244,201127,201154,201158,201163,201166,201170,201174,201178,201182,201186,201190,201218,201222,201226,204902,204930,204934,204938,204942,204946,204950,204954,204958,204962,204966,204994,204999,205002,205006,205010,205014,205018,205022,205026,205030,205058,205062,205067,205070,205074,205078,205082,205086,205090,205094,205122,205126,205130,205134,205138,205142,205146,205150,205154,205158,205186,205190,205194,205199,205202,205206,205210,205214,205218,205222,205250,205254,102629,102631,102633,102635,102637,102639,102641,102643,102657,102659,102661,102663,102665,102667,102669,102671,102673,102675,102689,205382,102693,102695,102697,102699,102701,205406,102705,205414,102913,102915,102917,102919,102921,102923,102925,102927,102929,102931,102945,102947,205898,102951,102953,102955,102957,102959,102961,102963,102977,102979,102981,102983,102985,102987,102989,102991,102993,102995,103009,103011,103013,103015,103017,103019,103021,103023,103025,103027,103041,206086,206090,206094,206098,206102,206107,206110,206114,206118,206147,206150,206154,206159,206162,206166,206170",
+      "max_bytes": 5000000,
+      "sha256": "918703eeb7de06add205a12eda76226835182afdf874038657300b9a59b70eb8",
+      "retrieved_at_utc": "2026-09-12T00:30:44.875155+00:00",
+      "bytes": 947069,
+      "file": "junction-snaptron-geuvadis-samples-batch3.data"
+    },
+    {
+      "id": "snaptron-geuvadis-samples-batch4",
+      "url": "https://snaptron.cs.jhu.edu/srav3h/samples?ids=206174,206178,103091,103105,103107,103109,206222,103113,103115,103117,103119,103121,103123,103137,103139,103141,103143,103145,103147,103149,103151,103153,103155,103169,103171,103173,103175,103177,103179,103181,103183,103185,103187,103201,103203,103205,103207,103209,103211,103213,103215,103217,103219,98305,98307,98309,98311,98313,196630,98317,196639,196643,196646,196674,196678,196682,98343,98345,196695,196698,98351,98353,98355,98369,196742,196746,196750",
+      "max_bytes": 5000000,
+      "sha256": "c894d8421e70523795386de13026ada26283b25050d23273ecb58036e77fa69e",
+      "retrieved_at_utc": "2026-09-12T00:30:43.131554+00:00",
+      "bytes": 312264,
+      "file": "junction-snaptron-geuvadis-samples-batch4.data"
+    },
+    {
+      "id": "QTD000377-phenotype-metadata",
+      "file": "qtl-QTD000377-phenotype-metadata.data",
+      "url": "https://zenodo.org/api/records/7850746/files/leafcutter_QTD000377_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 4000000,
+      "sha256": "fbaa7b2c6c2471d0ee9eca4805ead00fab6e818dd38503cad894344c66dff06e",
+      "retrieved_at_utc": "2026-09-11T23:33:05.239670+00:00",
+      "bytes": 2098807
+    },
+    {
+      "id": "eqtl-leafcutter-module",
+      "file": "qtl-eqtl-leafcutter-module.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/rnaseq/v22.04.1/modules/leafcutter.nf",
+      "max_bytes": 5000000,
+      "sha256": "5aae433b8b9310aaff35a3cdb0dcbab4dd713d92cba705a0b50d9f2d1cc98d56",
+      "retrieved_at_utc": "2026-09-11T23:31:30.831180+00:00",
+      "bytes": 1488
+    },
+    {
+      "id": "snaptron-junction-index",
+      "url": "https://snaptron.cs.jhu.edu/data/srav3h/junctions.bgz.tbi",
+      "max_bytes": 20000000,
+      "sha256": "25d1b24ce579bbb6817e24d136d1875d6ed33f689af326dab6749a0ac14ed601",
+      "retrieved_at_utc": "2026-09-12T00:21:29.475038+00:00",
+      "bytes": 15642084,
+      "file": "junction-snaptron-junction-index.data"
+    }
+  ]
+}

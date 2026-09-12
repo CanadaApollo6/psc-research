@@ -6,6 +6,8 @@ The later [QTL follow-up manifest](../config/qtl-followup-sources.json) adds 39 
 
 LeafCutter phenotype metadata comes from [Zenodo record 7850746](https://zenodo.org/records/7850746), Ensembl 105. The conversion to model junction intervals is explicit, and conflicting cluster/gene strands are preserved separately. The [AlphaGenome training-track extract](../data/derived/qtl-comparison-training-tracks.csv) comes from published Supplementary Table 2, not an inferred inventory of the live service. Raw papers, metadata workbooks and compressed indexes stay ignored; small derived tables retain source attribution.
 
+The [direct-junction manifest](../config/ubash3a-junction-sources.json) pins 35 sources for the next analysis: two exact Snaptron junction responses, recount3/ENA study metadata, direct sample-ID responses, public 1000 Genomes metadata/index, reference DNA, workflow code and data-access evidence. The [run manifest](../config/ubash3a-junction-run.json) separately pins the one-variant VCF subset and the plan saved before target counts were inspected. The VCF's missing rsID is preserved; exact GRCh37 coordinates and A/C alleles match the previously verified mapping. All 667 RNA runs are matched explicitly and combined into 464 donor records, of which 447 have public genotypes. Public sample-level joins remain ignored; only aggregate results are versioned. [Full methods and limitations](../reports/ubash3a-junction-followup.md).
+
 ## Imported inputs
 
 | Input | Source | Transformation |

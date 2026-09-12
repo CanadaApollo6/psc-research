@@ -1,0 +1,2 @@
+molecular_trait_object_id,molecular_trait_id,n_traits,n_variants,variant,chromosome,position,pvalue,beta,p_perm,p_beta
+clu_31404_-,21:42432202:42437488:clu_31404_-,7,9092,chr21_42434957_A_C,21,42434957,1.0898e-17,0.550024,0.000999001,4.47804e-13

@@ -6,6 +6,8 @@ Verified from the linked public sources on 2026-09-11. Contact details are profe
 
 The [measured-RNA follow-up](../reports/qtl-followup.md) found a systematic conflict between splice-cluster strand labels and gene annotations in the Lepik_2017 dataset. Ask for the correct orientation convention, any corrected release, and unfiltered canonical/+29 junction coefficients. Exact questions and dataset identifiers are in the [review brief](mechanism-review-questions.md).
 
+The [new audit](../reports/ubash3a-junction-followup.md) identifies a plausible workflow-setting explanation and documents insufficient GEUVADIS read coverage. A [short email](ubash3a-data-request-draft.md) and [six-row extraction specification](../data/derived/ubash3a-data-request-endpoints.csv) are ready for review. Kaur Alasoo's [2023 maintainer response](https://github.com/eQTL-Catalogue/eQTL-Catalogue-resources/issues/35) explains the missing unfiltered files and offers a targeted transfer in that earlier case; current availability is unconfirmed.
+
 **Public email:** eqtlcatalogue@ebi.ac.uk
 
 [Source: project contact](https://www.ebi.ac.uk/eqtl/)

@@ -1,0 +1,5 @@
+assumed_library,true_RNA_strand,read_in_pair,SAM_flag,regtools_s1_RF,regtools_s2_FR,catalogue_reverse_stranded_branch_selects,scope
+first-strand/RF,+,1,83,+,-,2,synthetic source-code truth table; actual historical flags unavailable
+first-strand/RF,+,2,163,+,-,2,synthetic source-code truth table; actual historical flags unavailable
+first-strand/RF,-,1,99,-,+,2,synthetic source-code truth table; actual historical flags unavailable
+first-strand/RF,-,2,147,-,+,2,synthetic source-code truth table; actual historical flags unavailable

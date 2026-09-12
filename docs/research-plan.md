@@ -1,6 +1,6 @@
 # First computational project
 
-Updated 2026-09-11. Status: the pilot, allele/transcript audit and [measured-RNA follow-up](../reports/qtl-followup.md) are complete. PRKD2's molecular direction is aligned in two cohorts; UBASH3A has a persistent expression disagreement and provisional +29-boundary evidence with a strand-label discrepancy. A controlled model benchmark and direct donor-level splice validation remain future work.
+Updated 2026-09-11. Status: the pilot, allele/transcript audit, measured-RNA follow-up and [direct public-junction analysis](../reports/ubash3a-junction-followup.md) are complete. PRKD2's molecular direction is aligned in two cohorts. UBASH3A has a persistent expression disagreement; reference motifs support the +29 boundary's positive strand, and a workflow-setting mismatch is a provisional explanation for the source labels. The direct GEUVADIS analysis was too sparse for the fixed comparison. A controlled model benchmark and adequately powered splice validation remain future work.
 
 ## Question and finished result
 
@@ -37,8 +37,8 @@ If that benchmark supports further work, apply a frozen method to three less-res
 | 4 | Produce pilot report | Completed for all three regions, including the UBASH3A direction disagreement and ETS2 variant-dependent ranking. |
 | 5 | Audit source alleles and transcripts | Completed: source-specific RNA endpoints, shared transcript boundary, one additional splice request, original GWAS rows and allele-frequency checks. C is the working PRKD2 risk allele; contradictory source labels and molecular-QTL alignment remain explicit. |
 | 6 | Align PRKD2 molecular-QTL coefficients | Completed for reprocessed BLUEPRINT and separate DICE monocytes: G increases expression in both, agreeing with risk C lowering expression and with the model. Exact original-paper labels remain an author clarification; historical exclusions remain unchanged. |
-| 7 | Test UBASH3A splice hypothesis independently | Public-summary check completed: DICE total RNA opposes the model; no target DICE splice measurement is available. Lepik blood matches the +29 boundary/direction but has systematic strand-label reversal; TwinsUK measures a different junction. Next resolve strand provenance and obtain unfiltered or donor-level canonical/+29 measurements. This is not yet independent model validation. |
-| 8 | Define a controlled extension | Add appropriate comparison variants, independent evidence and adequate cell-state coverage before making generalization claims. |
+| 7 | Test UBASH3A splice hypothesis independently | Public summaries and direct GEUVADIS reanalysis completed. Only 18/360 genotyped European donors meet the fixed junction-read threshold; no CC donor is retained. Record the comparison as inconclusive. Motifs establish compatible positive-strand boundaries; historical workflow settings still need confirmation. A six-endpoint blood/CD4 data request and short email are drafted, not sent. This is not independent model validation. |
+| 8 | Define a controlled extension | Next independent compute task: inspect the ~16.7 MB published PSC fine-mapping archive, validate full credible-set membership/build/alleles, and freeze locus/variant selection and matched comparison rules before new model calls. Keep the UBASH3A data gap separate; add suitable cell-state coverage and assess evidence independence before generalization claims. |
 
 ## What this could contribute
 
