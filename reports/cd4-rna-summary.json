@@ -1,0 +1,41 @@
+{
+  "plan_sha256": "77e21e581b40c7335b2a2a22ef3f862e909a96fe949ef3bf8d44e7993323ecd3",
+  "input_lock_sha256": "536a8e16dfc76b6eff7d6bf550227869db2755a77e041756d444bea4bacc0f46",
+  "query_manifest_sha256": "bba27ed512b5507dc6a0713f98ccba4dfe10bfd7d7e5d35fc68337391bfc4c49",
+  "summary_script_sha256": "7d20afed35cdccadb5ad997d93602e936ab3a8b51235bde95e56e64b6f3f3dd2",
+  "datasets": 10,
+  "variants": 9,
+  "planned_variant_gene_pairs": 228,
+  "planned_dataset_variant_gene_tests": 2280,
+  "complete_queries": 90,
+  "preserved_nominal_rows": 1047,
+  "status_counts": {
+    "measured": 693,
+    "gene_variant_pair_absent": 1227,
+    "gene_annotation_absent": 130,
+    "exact_variant_absent": 230
+  },
+  "bonferroni_threshold": 2.192982456140351e-05,
+  "bonferroni_passes": 5,
+  "passing_unique_variant_gene_pairs": 2,
+  "passing_genes": [
+    "BCL2L11",
+    "PFKFB3"
+  ],
+  "passing_primary_sign_agrees": 0,
+  "passing_primary_sign_opposes": 0,
+  "passing_mixed_model_direction": 5,
+  "model_maximum_gene_statuses": {
+    "measured": 36,
+    "gene_variant_pair_absent": 44,
+    "exact_variant_absent": 10
+  },
+  "no_new_alphagenome_requests": true,
+  "limits": [
+    "Both DICE and BLUEPRINT appear in the original PSC study; this is not wholly independent evidence",
+    "DICE cell subsets and conditions share donors; region/cohort are reporting units",
+    "ALL_FOLDS and unresolved exact training-donor overlap preclude a held-out accuracy claim",
+    "Missing annotation or filtered associations are not measured nulls",
+    "Normalized QTL coefficients are not model log changes, disease-risk directions or treatment effects"
+  ]
+}

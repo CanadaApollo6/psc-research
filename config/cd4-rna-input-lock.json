@@ -1,0 +1,9 @@
+{
+  "frozen_file_sha256": {
+    "config/cd4-rna-plan.json": "77e21e581b40c7335b2a2a22ef3f862e909a96fe949ef3bf8d44e7993323ecd3",
+    "config/cd4-rna-sources.json": "08ffe509c1ae112c2a7b8254add80d9baceff85f3021cf42c49ec6f152c982b7",
+    "data/derived/cd4-rna-planned-pairs.csv": "bd575aeb677f2816f682633f00b4d1d4b33220c47e5171d6ac49743bf084bbef"
+  },
+  "pysam_version": "0.23.3",
+  "frozen_at_utc": "2026-09-12T10:34:48.112268+00:00"
+}

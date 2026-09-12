@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [fixed matched comparison](reports/matched-comparison.md) completed **nine predictions across three matched groups**. One prioritized variant scored above its comparison pair and two below it; there is no consistent separation in this small sample. Both BACH2 candidates lacked an eligible pair under the unchanged matching rules and were excluded before scoring. All nine variants have complete outputs across their fixed gene and CD4-track universes. The next step is measured RNA evidence for the full tested set, including comparison variants.
+The latest [CD4 RNA evidence report](reports/cd4-rna-evidence.md) checks **all nine variants across ten datasets and 228 fixed gene pairs**. Of 2,280 planned dataset-level comparisons, 693 are measured. Five associations pass the fixed multiple-testing correction, representing **rs7923054–PFKFB3** and **rs72837826–BCL2L11**. Model RNA tracks disagree on direction for both pairs. DICE subsets share donors, and both DICE and BLUEPRINT appear in the original PSC study, so this is not wholly independent validation. The next task is testing whether the RNA and PSC associations share the same underlying genetic signals.
+
+The preceding [fixed matched comparison](reports/matched-comparison.md) completed **nine predictions across three matched groups**. One prioritized variant scored above its comparison pair and two below it; there is no consistent separation in this small sample. Both BACH2 candidates lacked an eligible pair under the unchanged matching rules and were excluded before scoring. All nine variants have complete model outputs across their fixed gene and CD4-track universes.
 
 The preceding [fine-mapping archive audit](reports/psc-finemap-and-comparison.md) imports **71,083 variant rows across 18 GWAS regions and eight molecular-QTL datasets**. SNP probabilities agree with saved configurations, but accompanying logs have substantial provenance discrepancies. Exact published signal-specific credible sets remain unavailable. These limits carry forward into the model comparison.
 
@@ -34,6 +36,7 @@ The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism
 - A reference-motif and workflow-strand check, public single-variant genotype matching, and a donor-level two-junction analysis that preserves its inconclusive coverage result.
 - A full fine-mapping archive import, log/configuration audit, explicitly labeled singleton-set reconstructions, and a fixed prospective comparison protocol with candidate references and exclusions.
 - Complete matching audits for 6,117 low-PIP rsIDs, frequencies and LD from 503 public EUR donors, nine successful predictions, and all 228 variant–gene rankings with 456 primary track scores.
+- Ninety bounded public CD4 eQTL queries, a complete 2,280-row coverage/effect table, corrected-threshold associations, and explicit model-direction, cell-label and donor-sharing limitations.
 
 The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
@@ -160,6 +163,22 @@ python -m unittest discover -s tests -v
 The 85 matching-source pins include a 333 MB model gene annotation; genotype queries are bounded indexed regional extractions, with donor-level subsets kept ignored. Each fetch command accepts `--offline` to verify cached inputs. The metadata helper requests only track metadata if its cache is missing; it needs the locally configured API key in that case and rejects any change from the pinned snapshot. `freeze_comparison_inputs.py` verifies the existing freeze without replacing its timestamp. The runner defaults to a dry run and requests no predictions without `--run`.
 
 The summary command requires the saved local September 12 prediction folder. It is not included in Git. A new API run with `python scripts/run_matched_comparison.py --run` creates a new dated folder; pass that printed path to the summary command. Preserve the historical reports before summarizing a later run, since the summary filenames are fixed. A later server model or live metadata change may prevent exact historical replay; the recorded inputs, compact outputs and hashes remain the original result. Public APIs may also return changed or differently serialized responses; the downloader stops on a pinned-hash mismatch rather than silently updating the inputs.
+
+## Reproduce the CD4 RNA evidence
+
+Use the pinned Python 3.12 environment above. The repository includes the frozen plan and all 90 small aggregate association subsets; it contains no individual-level CD4 data. Retrieve the 36 pinned supporting sources and reproduce the analysis:
+
+```bash
+python scripts/fetch_cd4_rna_sources.py
+python scripts/prepare_cd4_rna.py
+python scripts/fetch_cd4_rna.py --offline
+python scripts/summarize_cd4_rna.py
+python -m unittest discover -s tests -v
+```
+
+`prepare_cd4_rna.py` verifies the existing plan, timestamp and complete 228-pair registry. `fetch_cd4_rna_sources.py --offline` checks the source cache. `fetch_cd4_rna.py --refresh` repeats all 90 rate-limited indexed queries and requires exact agreement with the saved responses; cached results are never silently replaced. No AlphaGenome key or prediction call is required for this phase.
+
+The [full report](reports/cd4-rna-evidence.md) includes all ten datasets, every missing-measurement category, the two inconsistent Treg metadata labels, source allele/carrier counts, and all screened associations. RNA coefficients are normalized-expression effects per ALT allele; their signs do not determine PSC risk or treatment direction. Prior model results and their fixed matching protocol remain unchanged.
 
 ## Interpretation
 

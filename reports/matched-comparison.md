@@ -1,5 +1,7 @@
 # Fixed matched comparison at PSC-associated regions
 
+Follow-up: [measured CD4 RNA evidence for the complete tested set](cd4-rna-evidence.md) is now available. This report preserves the original model comparison.
+
 Completed September 12, 2026 (UTC). **Nine AlphaGenome requests completed across three matched groups. One prioritized variant had a larger model effect than its comparison pair; two had smaller effects. This small comparison does not show consistent separation between the two groups.** Both planned BACH2 candidates lacked a valid pair and were excluded before predictions, with the original rules unchanged.
 
 These are descriptive molecular model results. The archived fine-mapping probabilities are uncertain statistical labels, and low-probability variants are not proven biological negatives. Nothing in this result establishes a treatment or a disease-risk direction.

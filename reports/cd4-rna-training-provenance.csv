@@ -1,0 +1,5 @@
+experiment,assay,lab,biosample,donor,public_donor_crossrefs,qtl_donor_overlap
+ENCSR033XWU,total RNA-seq,barbara-wold,ENCBS075SKQ,ENCDO394DKX,GEO:SAMN18514449,unresolved; accessions alone do not establish non-overlap
+ENCSR411MUF,total RNA-seq,barbara-wold,ENCBS984FMU,ENCDO394DKX,GEO:SAMN18514449,unresolved; accessions alone do not establish non-overlap
+ENCSR463JBR,polyA plus RNA-seq,john-stamatoyannopoulos,ENCBS473JVM,ENCDO028NGF,GEO:SAMN54930101,unresolved; accessions alone do not establish non-overlap
+ENCSR545MEZ,polyA plus RNA-seq,john-stamatoyannopoulos,ENCBS424MFE,ENCDO190HXC,,unresolved; accessions alone do not establish non-overlap
