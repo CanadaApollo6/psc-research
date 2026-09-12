@@ -1,0 +1,906 @@
+{
+  "preparation_id": "ets2-gse84161-array-preparation-v1",
+  "created_at_utc": "2026-09-12T17:15:22.282085+00:00",
+  "status": "prospective_array_framework_prepared_not_execution_frozen",
+  "ready_for_inference": false,
+  "evidence_tier": "B",
+  "direct_ETS2_validation": false,
+  "question": "Does the fixed ETS2-dependent program respond to source-labeled MEK inhibition in LPS-stimulated primary human monocytes, alongside broader comparator programs?",
+  "scope_at_preparation": {
+    "published_narrative_and_methods_known": true,
+    "sample_metadata_and_probe_identifiers_read": true,
+    "raw_bytes_decompressed_for_crc_hashes_and_headers": true,
+    "probe_intensity_values_interpreted": false,
+    "new_program_scores_computed": 0,
+    "new_donor_effects_computed": 0
+  },
+  "input_sha256": {
+    "config/ets2-validation-rules.json": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "config/ets2-validation-amended-rules.json": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+    "data/derived/ets2-source-gene-sets.csv": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524",
+    "docs/gse84161-array-protocol.md": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f",
+    "data/derived/gse84161-samples.csv": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+    "data/derived/gse84161-raw-arrays.csv": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "reports/gse84161-metadata-audit.json": "821e4edf80e86ca1545559c02ab0975069f993a32a8077b5437a3d7609b468d2",
+    "config/gse84161-study-sources.json": "3471a8434d6fae775d53d585cc56f2934b529f7900a9a3e589f258100efb3e9f",
+    "config/gse84161-literature-sources.json": "493f1aa8e5d727aceabd830322cc85e8298d2d2df612b00982b632b7c8a444d1",
+    "config/gse84161-raw-capture.json": "68212fa9e8d6164ff527bb5d796b4048ed0df0889bb7761b4592bfadef929613"
+  },
+  "study": {
+    "GEO": "GSE84161",
+    "superseries": "GSE84162",
+    "publication_doi": "10.1126/scisignal.aah4273",
+    "assay": "Affymetrix HG-U133_Plus_2; GPL570",
+    "sample_count": 30,
+    "stated_donor_count": 5,
+    "candidate_block_count": 5,
+    "confirmed_donor_blocks": 0,
+    "donor_key_status": "Source supports five donors and donor-adjusted design; replicate-to-donor correspondence is not explicit. Anonymous correspondence only is needed."
+  },
+  "samples": [
+    {
+      "gsm": "GSM2228386",
+      "source_title": "Untreated 1",
+      "condition_key": "untreated_unstim",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228386/suppl/GSM2228386_34810_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228387",
+      "source_title": "Tpl-2 SMI 1",
+      "condition_key": "tpl2i_unstim",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228387/suppl/GSM2228387_34811_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228388",
+      "source_title": "MEK SMI 1",
+      "condition_key": "meki_unstim",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228388/suppl/GSM2228388_34812_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228389",
+      "source_title": "LPS 1",
+      "condition_key": "vehicle_lps",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228389/suppl/GSM2228389_34813_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228390",
+      "source_title": "Tpl-2 SMI + LPS 1",
+      "condition_key": "tpl2i_lps",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228390/suppl/GSM2228390_34814_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228391",
+      "source_title": "MEK SMI + LPS 1",
+      "condition_key": "meki_lps",
+      "candidate_block": "replicate_1",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228391/suppl/GSM2228391_34815_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228392",
+      "source_title": "Untreated 2",
+      "condition_key": "untreated_unstim",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228392/suppl/GSM2228392_34816_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228393",
+      "source_title": "Tpl-2 SMI 2",
+      "condition_key": "tpl2i_unstim",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228393/suppl/GSM2228393_34817_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228394",
+      "source_title": "MEK SMI 2",
+      "condition_key": "meki_unstim",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228394/suppl/GSM2228394_34818_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228395",
+      "source_title": "LPS 2",
+      "condition_key": "vehicle_lps",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228395/suppl/GSM2228395_34819_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228396",
+      "source_title": "Tpl-2 SMI + LPS 2",
+      "condition_key": "tpl2i_lps",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228396/suppl/GSM2228396_34820_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228397",
+      "source_title": "MEK SMI + LPS 2",
+      "condition_key": "meki_lps",
+      "candidate_block": "replicate_2",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228397/suppl/GSM2228397_34821_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228398",
+      "source_title": "Untreated 3",
+      "condition_key": "untreated_unstim",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228398/suppl/GSM2228398_34822_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228399",
+      "source_title": "Tpl-2 SMI 3",
+      "condition_key": "tpl2i_unstim",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228399/suppl/GSM2228399_34823_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228400",
+      "source_title": "MEK SMI 3",
+      "condition_key": "meki_unstim",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228400/suppl/GSM2228400_34824_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228401",
+      "source_title": "LPS 3",
+      "condition_key": "vehicle_lps",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228401/suppl/GSM2228401_34825_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228402",
+      "source_title": "Tpl-2 SMI + LPS 3",
+      "condition_key": "tpl2i_lps",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228402/suppl/GSM2228402_34826_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228403",
+      "source_title": "MEK SMI + LPS 3",
+      "condition_key": "meki_lps",
+      "candidate_block": "replicate_3",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228403/suppl/GSM2228403_34827_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228404",
+      "source_title": "Untreated 4",
+      "condition_key": "untreated_unstim",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228404/suppl/GSM2228404_34828_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228405",
+      "source_title": "Tpl-2 SMI 4",
+      "condition_key": "tpl2i_unstim",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228405/suppl/GSM2228405_34829_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228406",
+      "source_title": "MEK SMI 4",
+      "condition_key": "meki_unstim",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228406/suppl/GSM2228406_34830_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228407",
+      "source_title": "LPS 4",
+      "condition_key": "vehicle_lps",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228407/suppl/GSM2228407_34831_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228408",
+      "source_title": "Tpl-2 SMI + LPS 4",
+      "condition_key": "tpl2i_lps",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228408/suppl/GSM2228408_34832_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228409",
+      "source_title": "MEK SMI + LPS 4",
+      "condition_key": "meki_lps",
+      "candidate_block": "replicate_4",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228409/suppl/GSM2228409_34833_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228410",
+      "source_title": "Untreated 5",
+      "condition_key": "untreated_unstim",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228410/suppl/GSM2228410_34834_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228411",
+      "source_title": "Tpl-2 SMI 5",
+      "condition_key": "tpl2i_unstim",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228411/suppl/GSM2228411_34835_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228412",
+      "source_title": "MEK SMI 5",
+      "condition_key": "meki_unstim",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228412/suppl/GSM2228412_34836_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228413",
+      "source_title": "LPS 5",
+      "condition_key": "vehicle_lps",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "Vehicle",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228413/suppl/GSM2228413_34837_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228414",
+      "source_title": "Tpl-2 SMI + LPS 5",
+      "condition_key": "tpl2i_lps",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "TPL2i",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228414/suppl/GSM2228414_34838_SPR938_HGU133P.CEL.gz"
+    },
+    {
+      "gsm": "GSM2228415",
+      "source_title": "MEK SMI + LPS 5",
+      "condition_key": "meki_lps",
+      "candidate_block": "replicate_5",
+      "donor": null,
+      "source_compound_label": "MEKi",
+      "cel_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2228nnn/GSM2228415/suppl/GSM2228415_34839_SPR938_HGU133P.CEL.gz"
+    }
+  ],
+  "compound_evidence": {
+    "exact_meki": null,
+    "exact_tpl2i": null,
+    "geo_design_doses": {
+      "tpl2i_uM": 2.8,
+      "meki_uM": 0.31
+    },
+    "paper_figure_2D_doses": {
+      "tpl2i_nM": 926,
+      "meki_nM": 103
+    },
+    "discrepancy_resolution": null,
+    "published_engagement": "Monocyte pERK pathway modulation reported in main article narrative; supporting supplement not independently obtained",
+    "limit": "Do not substitute a named molecule from cited comparator literature or infer dose-response/clinical efficacy."
+  },
+  "normalization": {
+    "method": "affy::rma on all 30 original CEL files",
+    "background": true,
+    "normalize": true,
+    "bgversion": 2,
+    "output_quantity": "log2 RMA probe-set expression",
+    "full_chip_definition_required": true,
+    "subset_by_source_variance": false,
+    "donor_residualization": false,
+    "software_run_lock_pending": true
+  },
+  "mapping": {
+    "platform_snapshot": "GPL570 in pinned SOFT",
+    "probe_rule": "exactly one unique nonblank Entrez Gene ID",
+    "gene_aggregation": "per-array median of all eligible probe-set log2 RMA values",
+    "ensembl_entrez_rule": "versioned reciprocal one-to-one crosswalk, pinned before target effects",
+    "crosswalk_source": null,
+    "program_coverage_computed": false,
+    "primary_intended_member_count_after_ETS2_exclusion": 927,
+    "minimum_mapped_fraction": 0.8,
+    "minimum_mapped_genes": 10
+  },
+  "programs": [
+    {
+      "id": "ets2_g1_dn",
+      "role": "primary",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_DN",
+      "meaning": "Genes downregulated by ETS2 gRNA1 editing; source-defined ETS2-dependent program"
+    },
+    {
+      "id": "ets2_g1_up",
+      "role": "opposite-direction companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_UP"
+    },
+    {
+      "id": "ets2_g2_dn",
+      "role": "related-guide companion, not independent validation",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g2_DN"
+    },
+    {
+      "id": "chr21_dn",
+      "role": "enhancer-deletion companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "CHR21_DN"
+    },
+    {
+      "id": "inflammation",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_INFLAMMATORY_RESPONSE"
+    },
+    {
+      "id": "interferon_gamma",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_INTERFERON_GAMMA"
+    },
+    {
+      "id": "oxidative_stress",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_OXIDATIVE_STRESS"
+    },
+    {
+      "id": "apoptotic_signaling",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_APOPTOTIC_SIGNALING_PATHWAY"
+    },
+    {
+      "id": "ets2_g1_dn_without_comparators",
+      "role": "specificity sensitivity",
+      "derived_from": "ets2_g1_dn",
+      "subtract_union": [
+        "inflammation",
+        "interferon_gamma",
+        "oxidative_stress",
+        "apoptotic_signaling"
+      ],
+      "derivation": "Subtract after exact dataset feature mapping; mapping coverage gate uses the parent source set. Report source and mapped overlap explicitly."
+    }
+  ],
+  "exclude_gene_ids": [
+    "ENSG00000157557"
+  ],
+  "exclude_gene_symbols": [
+    "ETS2"
+  ],
+  "contrasts": [
+    {
+      "id": "meki_lps_minus_vehicle_lps",
+      "role": "primary",
+      "left_condition": "meki_lps",
+      "right_condition": "vehicle_lps",
+      "reference_for_both_sides": "monocyte_array_lps_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "tpl2i_lps_minus_vehicle_lps",
+      "role": "upstream_comparator",
+      "left_condition": "tpl2i_lps",
+      "right_condition": "vehicle_lps",
+      "reference_for_both_sides": "monocyte_array_lps_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "meki_basal_minus_vehicle_basal",
+      "role": "basal_pharmacology",
+      "left_condition": "meki_unstim",
+      "right_condition": "untreated_unstim",
+      "reference_for_both_sides": "monocyte_array_basal_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "tpl2i_basal_minus_vehicle_basal",
+      "role": "basal_upstream_comparator",
+      "left_condition": "tpl2i_unstim",
+      "right_condition": "untreated_unstim",
+      "reference_for_both_sides": "monocyte_array_basal_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "lps_minus_basal",
+      "role": "stimulation_context",
+      "left_condition": "vehicle_lps",
+      "right_condition": "untreated_unstim",
+      "reference_for_both_sides": "monocyte_array_basal_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "tpl2i_minus_meki_lps",
+      "role": "comparative_pharmacology",
+      "left_condition": "tpl2i_lps",
+      "right_condition": "meki_lps",
+      "reference_for_both_sides": "monocyte_array_lps_vehicle",
+      "candidate_pair_count": 5
+    },
+    {
+      "id": "tpl2i_minus_meki_basal",
+      "role": "comparative_pharmacology",
+      "left_condition": "tpl2i_unstim",
+      "right_condition": "meki_unstim",
+      "reference_for_both_sides": "monocyte_array_basal_vehicle",
+      "candidate_pair_count": 5
+    }
+  ],
+  "candidate_pairs": [
+    {
+      "contrast_id": "meki_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228391",
+      "right_sample": "GSM2228389",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228397",
+      "right_sample": "GSM2228395",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228403",
+      "right_sample": "GSM2228401",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228409",
+      "right_sample": "GSM2228407",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228415",
+      "right_sample": "GSM2228413",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228390",
+      "right_sample": "GSM2228389",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228396",
+      "right_sample": "GSM2228395",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228402",
+      "right_sample": "GSM2228401",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228408",
+      "right_sample": "GSM2228407",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_lps_minus_vehicle_lps",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228414",
+      "right_sample": "GSM2228413",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228388",
+      "right_sample": "GSM2228386",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228394",
+      "right_sample": "GSM2228392",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228400",
+      "right_sample": "GSM2228398",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228406",
+      "right_sample": "GSM2228404",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "meki_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228412",
+      "right_sample": "GSM2228410",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228387",
+      "right_sample": "GSM2228386",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228393",
+      "right_sample": "GSM2228392",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228399",
+      "right_sample": "GSM2228398",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228405",
+      "right_sample": "GSM2228404",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_basal_minus_vehicle_basal",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228411",
+      "right_sample": "GSM2228410",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "lps_minus_basal",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228389",
+      "right_sample": "GSM2228386",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "lps_minus_basal",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228395",
+      "right_sample": "GSM2228392",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "lps_minus_basal",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228401",
+      "right_sample": "GSM2228398",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "lps_minus_basal",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228407",
+      "right_sample": "GSM2228404",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "lps_minus_basal",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228413",
+      "right_sample": "GSM2228410",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_lps",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228390",
+      "right_sample": "GSM2228391",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_lps",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228396",
+      "right_sample": "GSM2228397",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_lps",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228402",
+      "right_sample": "GSM2228403",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_lps",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228408",
+      "right_sample": "GSM2228409",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_lps",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228414",
+      "right_sample": "GSM2228415",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_lps_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_basal",
+      "candidate_block": "replicate_1",
+      "left_sample": "GSM2228387",
+      "right_sample": "GSM2228388",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_basal",
+      "candidate_block": "replicate_2",
+      "left_sample": "GSM2228393",
+      "right_sample": "GSM2228394",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_basal",
+      "candidate_block": "replicate_3",
+      "left_sample": "GSM2228399",
+      "right_sample": "GSM2228400",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_basal",
+      "candidate_block": "replicate_4",
+      "left_sample": "GSM2228405",
+      "right_sample": "GSM2228406",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    },
+    {
+      "contrast_id": "tpl2i_minus_meki_basal",
+      "candidate_block": "replicate_5",
+      "left_sample": "GSM2228411",
+      "right_sample": "GSM2228412",
+      "direction": "left minus right",
+      "matching_reference": "monocyte_array_basal_vehicle",
+      "donor": null,
+      "status": "candidate_unscored_donor_correspondence_unconfirmed"
+    }
+  ],
+  "candidate_pair_count": 35,
+  "paired_endpoints_computed": false,
+  "matching": {
+    "bins": 20,
+    "replicates": 1000,
+    "base_seed": 20260912,
+    "reference": "Equal mean of confirmed biological control donors only. Each control enters once. Array quantity is log2 RMA, not CPM.",
+    "ordering": "Ascending reference abundance, stable feature ID breaks ties; numpy.array_split equal-count bins; candidates retain this order.",
+    "seed_rule": "int(sha256(f\"20260912:{dataset_key}:{stratum_key}:{program_id}\".encode()).hexdigest()[:16],16); numpy default_rng PCG64. Exact dataset/stratum strings frozen with sample map.",
+    "pool_exclusion": "Union of eight original mapped programs plus ETS2.",
+    "sampling": "1000 draws, bins ascending per draw, without replacement within set; same draws across donors and related contrasts.",
+    "failure": "No bin widening; unavailable matched score with raw mean retained.",
+    "reference_pair_accounting": "Freeze strata/control IDs; report reference donors and contrast-specific complete pairs separately. Related contrasts in one stratum reuse reference bins and matched gene sets.",
+    "reference_limit": "Controls match untreated/background expression only, not variance, gene length, co-regulation or biological specificity.",
+    "dataset_key": "GSE84161",
+    "stratum_keys": [
+      "monocyte_array_basal_vehicle",
+      "monocyte_array_lps_vehicle"
+    ],
+    "seed_keys_status": "prepared strings; confirm unchanged in execution freeze",
+    "stable_identifier_tiebreak": "lexicographic Entrez Gene ID"
+  },
+  "reference_control_samples": {
+    "monocyte_array_basal_vehicle": [
+      "GSM2228386",
+      "GSM2228392",
+      "GSM2228398",
+      "GSM2228404",
+      "GSM2228410"
+    ],
+    "monocyte_array_lps_vehicle": [
+      "GSM2228389",
+      "GSM2228395",
+      "GSM2228401",
+      "GSM2228407",
+      "GSM2228413"
+    ]
+  },
+  "minimum_paired_biological_donors": 3,
+  "minimum_remaining_pairs_for_leave_one_out": 3,
+  "runtime_check": {
+    "rscript_path": "work/coloc-runtime/r/bin/Rscript",
+    "rscript_sha256": "7c6eb670da46bd6455bb19d09b3b5922e1ee913bbc16b59a7f9fcb57fcc7baa6",
+    "R_version": "4.4.3",
+    "functional_version_probe_passed": true,
+    "array_packages_absent": [
+      "affy",
+      "affyio",
+      "preprocessCore",
+      "hgu133plus2cdf",
+      "hgu133plus2.db"
+    ],
+    "biocmanager_absent": true,
+    "new_software_installed_this_phase": false,
+    "note": "Existing coloc runtime checked without modification. Prepare compatible array dependencies and pin a separate execution environment."
+  },
+  "readiness": {
+    "raw_archive_and_30_headers": "passed",
+    "sample_condition_and_file_identity": "passed",
+    "anonymous_donor_correspondence": "pending_source_confirmation",
+    "exact_compounds_and_array_doses": "pending_source_resolution; attribution limit",
+    "array_runtime_lock": "pending",
+    "annotation_crosswalk_and_program_coverage": "pending",
+    "RMA_signal_quality_checks": "not_run",
+    "execution_freeze": "not_created",
+    "pre_effect_array_qc_diagnostics_and_criteria": "pending; name implementations, reference criteria and any exclusion rules before program effects"
+  },
+  "independent_work_available": [
+    "Prepare compatible array runtime without changing existing coloc environment",
+    "Acquire and pin Ensembl-Entrez crosswalk; enumerate mapping losses before effects",
+    "Freeze executable array inputs and method; prepare normalized matrix and predeclared QC"
+  ],
+  "paired_inference_dependency": "No donor-paired endpoints under the current rules until anonymous donor-block correspondence is source-backed.",
+  "source_questions": "docs/gse84161-source-questions.md",
+  "researcher_contact_made": false,
+  "prior_protocols_and_results_preserved": true,
+  "updated_at_utc": "2026-09-12T17:27:27.246032+00:00",
+  "preparation_update_note": "Completed metadata audit and LF-only CSV serialization; pinned versioned raw capture and explicit QC-planning requirement. This remains preparation before expression effects, not an execution freeze."
+}

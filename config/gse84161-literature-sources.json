@@ -1,0 +1,179 @@
+{
+  "manifest_id": "gse84161-publication-literature-source-manifest-v1",
+  "generated_at_utc": "2026-09-12T17:02:30Z",
+  "search_date": "2026-09-12",
+  "scope": "Focused publication and compound-provenance audit for GSE84161/GSE84162. Public metadata, published methods and qualitative engagement narrative only; no expression values, gene effects, signatures, or scores inspected.",
+  "stopping_rule": "Stop after the associated primary paper, its GEO family records, cited inhibitor papers, one author-hosted primary-paper copy, and the relevant publisher retrieval attempts. This is not an exhaustive literature or compound-identity census.",
+  "entries": [
+    {
+      "source_id": "geo-gse84161-soft",
+      "source_role": "primary_repository_metadata",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161&targ=all&form=text&view=quick",
+      "local_cache_path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "captured_at_utc": "2026-09-12T16:06:18Z",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "status": "usable",
+      "notes": "Full GSE84161 SOFT metadata. Series design states five buffy-coat donors; sample metadata contains six conditions for replicate numbers 1-5; compound names remain TPL2i and MEKi."
+    },
+    {
+      "source_id": "geo-gse84162-soft",
+      "source_role": "primary_repository_metadata",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84162&targ=all&form=text&view=quick",
+      "local_cache_path": "work/ets2-independent-search/GSE84162-family-soft.txt",
+      "captured_at_utc": "2026-09-12T16:06:14Z",
+      "bytes": 113260887,
+      "sha256": "d22b804584f1ce5dc21728ffd896cb0ef5ea2b0e00d98d16c039e738dcd4ac9a",
+      "status": "usable",
+      "notes": "Full GSE84162 SuperSeries metadata. It explicitly lists GSE84161 as a SubSeries and GSE84153 as the related neutrophil RNA-seq subseries."
+    },
+    {
+      "source_id": "geo-gse84161-raw-array-archive",
+      "source_role": "primary_repository_raw_array_archive",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+      "local_cache_path": "data/raw/gse84161/GSE84161_RAW.tar",
+      "captured_at_utc": "2026-09-12T16:54:32Z",
+      "bytes": 146739200,
+      "sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+      "status": "usable_metadata_only",
+      "notes": "Public CEL archive for 30 GPL570 array samples. Archive integrity was checked by the parent workflow; no probe intensity or gene expression values were interpreted in this provenance pass."
+    },
+    {
+      "source_id": "pubmed-28420753-xml",
+      "source_role": "primary_bibliographic_metadata",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28420753&retmode=xml",
+      "local_cache_path": "work/gse84161-publication/pubmed-28420753.xml",
+      "captured_at_utc": "2026-09-12T16:52:39Z",
+      "bytes": 18104,
+      "sha256": "fdd5b62c3b7c5635d6aacc96f9eb8ae65a771463bf08c70bdfc2553b13e885bf",
+      "status": "usable",
+      "notes": "PubMed XML for Senger et al.; title, publication date, DOI, author list, affiliations, abstract, and cited subject metadata."
+    },
+    {
+      "source_id": "crossref-senger-aah4273",
+      "source_role": "publisher_registry_bibliographic_metadata",
+      "source_url": "https://api.crossref.org/works/10.1126%2Fscisignal.aah4273",
+      "local_cache_path": "work/gse84161-publication/crossref-aah4273.json",
+      "captured_at_utc": "2026-09-12T16:52:40Z",
+      "bytes": 20257,
+      "sha256": "20d4fddec2bc964a14ab3be3faafff847e59dcc5af677af37c6dea63cb47d9c4",
+      "status": "usable",
+      "notes": "Crossref DOI record corroborating title, journal, date, authors, DOI, and publisher metadata."
+    }
+  ],
+  "attempted_sources": [
+    {
+      "source_id": "science-article-pdf",
+      "source_role": "publisher_primary_article_fulltext",
+      "source_url": "https://www.science.org/doi/pdf/10.1126/scisignal.aah4273",
+      "local_cache_path": "work/gse84161-publication/senger2017-aah4273.pdf",
+      "captured_at_utc": "2026-09-12T16:52:40Z",
+      "bytes": 5526,
+      "sha256": "8d2a8bb6b5b3f461719af8bfdb39076d2ed703913b574a29fae22fb2a41fa665",
+      "status": "blocked_cloudflare_html",
+      "notes": "Response begins with a Cloudflare challenge and is not a PDF; it was not parsed as article content."
+    },
+    {
+      "source_id": "science-supplement-pdf",
+      "source_role": "publisher_primary_supplement",
+      "source_url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_SM.pdf",
+      "local_cache_path": "work/gse84161-publication/senger2017-aah4273-supplement.pdf",
+      "captured_at_utc": "2026-09-12T16:52:40Z",
+      "bytes": 5653,
+      "sha256": "7e9e0d7ab7ce083789ff8c53eb65a5155d78b53551d068464eee89fe6cd0add6",
+      "status": "blocked_cloudflare_html",
+      "notes": "Response begins with a Cloudflare challenge and is not the supplement; the missing supplement leaves exact chemical provenance unresolved."
+    },
+    {
+      "source_id": "researchgate-download-attempt",
+      "source_role": "author_hosted_primary_copy_download_attempt",
+      "source_url": "https://www.researchgate.net/publication/316231923_The_kinase_TPL2_activates_ERK_and_p38_signaling_to_promote_neutrophilic_inflammation",
+      "local_cache_path": "work/gse84161-publication/senger2017-author-upload.pdf",
+      "captured_at_utc": "2026-09-12T16:53:33Z",
+      "bytes": 20178,
+      "sha256": "398ce4bf2768395567d8a8a0f45c5f7f8f5081f0e0c8794811ab8dacdcdf0190",
+      "status": "html_not_pdf",
+      "notes": "The attempted local download is HTML. Indexed page text was consulted through the web interface for Methods and figure-caption provenance; this local file is not treated as a full-text PDF cache."
+    }
+  ],
+  "web_only_sources": [
+    {
+      "source_id": "senger-author-hosted-copy",
+      "source_url": "https://www.researchgate.net/publication/316231923_The_kinase_TPL2_activates_ERK_and_p38_signaling_to_promote_neutrophilic_inflammation",
+      "accessed_date": "2026-09-12",
+      "status": "indexed_primary_text_on_secondary_host",
+      "notes": "Used for qualitative Methods, inhibitor labels/concentrations, donor-caption, target-engagement, and code-description checks. No local article PDF was obtained."
+    },
+    {
+      "source_id": "hall-2007-tpl2-paper",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17848581/",
+      "accessed_date": "2026-09-12",
+      "status": "cited_primary_comparator",
+      "notes": "Cited by Senger et al. for pharmacological TPL2 work. Its named historical compounds were not transferred to GSE84161."
+    },
+    {
+      "source_id": "hatzivassiliou-2013-mek-paper",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23934108/",
+      "accessed_date": "2026-09-12",
+      "status": "cited_primary_comparator",
+      "notes": "Cited by Senger et al. for MEK-inhibitor mechanism. PD0325901 appears in the cited paper's inhibitor discussion, but this does not identify the GSE84161 MEKi."
+    },
+    {
+      "source_id": "genentech-publication-listing",
+      "source_url": "https://www.gene.com/scientists/publications?page=117",
+      "accessed_date": "2026-09-12",
+      "status": "official_author_affiliation_crosscheck",
+      "notes": "Official Genentech publication listing independently displays the Senger et al. title, date, journal, and author group."
+    }
+  ],
+  "queries": [
+    {
+      "route": "GEO direct accession",
+      "query": "GSE84161",
+      "page_or_result_limit": "one accession; full SOFT text captured",
+      "result": "GSE84161 primary monocyte array metadata; five stated donors; six conditions x replicate numbers 1-5; TPL2i/MEKi labels only"
+    },
+    {
+      "route": "GEO related accession",
+      "query": "GSE84162",
+      "page_or_result_limit": "one accession; full SOFT text captured",
+      "result": "SuperSeries relation to GSE84161 and GSE84153"
+    },
+    {
+      "route": "PubMed EFetch",
+      "query": "PMID 28420753",
+      "page_or_result_limit": "one record",
+      "result": "Primary-paper bibliography, abstract, authors, affiliations, DOI"
+    },
+    {
+      "route": "Crossref DOI API",
+      "query": "10.1126/scisignal.aah4273",
+      "page_or_result_limit": "one DOI record",
+      "result": "Publisher registry bibliographic metadata"
+    },
+    {
+      "route": "Author-hosted primary-copy page",
+      "query": "TPL2i; MEKi; PD0325901; GDC-0973; GDC-0623; compound; Table S1; Reagents",
+      "page_or_result_limit": "one article page; no pagination",
+      "result": "Methods and figure-caption provenance; exact TPL2i/MEKi chemical names not present in indexed text"
+    },
+    {
+      "route": "Cited MEK-paper cross-check",
+      "query": "10.1038/nature12441 PD0325901 Hatzivassiliou MEK inhibitor",
+      "page_or_result_limit": "one search-result page",
+      "result": "Primary cited Nature paper identified; PD0325901 is discussed there among MEK inhibitors, but identity transfer to GSE84161 remains unproven"
+    }
+  ],
+  "conclusions": {
+    "associated_primary_study": "Senger et al., Science Signaling 2017, PMID 28420753, DOI 10.1126/scisignal.aah4273",
+    "gse84161_role": "Primary human monocyte array subseries of GSE84162",
+    "tier_for_psc": "Tier B biological candidate; separate array-calibration lead; not frozen raw-count eligible; no ETS2-program response computed",
+    "donor_design": "Five stated buffy-coat donors; five complete replicate-number groups; explicit donor identifiers unavailable",
+    "tpl2i_identity": "Unresolved in inspected public records; proprietary status not established",
+    "meki_identity": "Unresolved; cited multi-inhibitor literature does not identify the study compound",
+    "concentration_discrepancy": "GEO design 2.8 uM TPL2i and 0.31 uM MEKi versus article Fig. 2D 926 nM TPL2i and 103 nM MEKi",
+    "engagement": "Published qualitative pERK1/2 engagement in primary monocytes; no GEO ELISA result file inspected",
+    "code": "Custom R/Bioconductor methods described; no public original code repository located",
+    "remaining_source_check": "Publisher supplement/Table S1 and any explicit Genentech compound disclosure would be needed to resolve chemical identity and concentration mapping"
+  }
+}

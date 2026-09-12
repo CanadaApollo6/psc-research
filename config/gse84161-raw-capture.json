@@ -1,0 +1,40 @@
+{
+  "raw_download_receipt": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+    "local_cache_path": "data/raw/gse84161/GSE84161_RAW.tar",
+    "request_started_at_utc": "2026-09-12T16:54:29.324614+00:00",
+    "retrieved_at_utc": "2026-09-12T16:54:32.295542+00:00",
+    "status": 200,
+    "bytes": 146739200,
+    "sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+    "content_length_header": "146739200",
+    "last_modified_header": "Mon, 01 Jul 2019 14:48:44 GMT",
+    "etag_header": null,
+    "publisher_checksum": null,
+    "note": "Public raw array archive; no gene expression effects inspected."
+  },
+  "initial_integrity_audit": {
+    "created_at_utc": "2026-09-12T16:58:27.305362+00:00",
+    "archive_path": "data/raw/gse84161/GSE84161_RAW.tar",
+    "archive_bytes": 146739200,
+    "archive_sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+    "source_expected_members": 30,
+    "archive_regular_members": 30,
+    "all_names_match_SOFT_CEL_urls": true,
+    "all_gzip_CRC_checks_pass": true,
+    "all_CEL_v4_headers_match_expected_array": true,
+    "dimensions": [
+      [
+        1164,
+        1164,
+        1354896
+      ]
+    ],
+    "total_decompressed_bytes": 406536031,
+    "inventory_path": "data/derived/gse84161-raw-arrays.csv",
+    "inventory_sha256": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "assay_values_interpreted": false,
+    "gene_expression_values_computed": false,
+    "note": "Binary files decompressed for CRC/header and byte hashes only; no probe intensity or gene expression values interpreted."
+  }
+}

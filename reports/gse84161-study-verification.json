@@ -1,0 +1,92 @@
+{
+  "verification_id": "gse84161-study-investigation-verification-v1",
+  "verified_at_utc": "2026-09-12T17:27:27.246032+00:00",
+  "status": "passed_for_study_investigation_not_expression_inference",
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "passed": 136,
+    "elapsed_seconds": 14.491,
+    "log_path": "work/gse84161-study/full-test-suite.log",
+    "log_sha256": "87eab99b47ffb079a35516119b78c3ed600172d55f6e83e38f1bb4c43b40d7f5"
+  },
+  "metadata_replay": {
+    "outputs_reproduced_byte_identically": 3,
+    "paths": [
+      "data/derived/gse84161-samples.csv",
+      "data/derived/gse84161-processing-evidence.csv",
+      "reports/gse84161-metadata-audit.json"
+    ],
+    "SOFT_source_hashes_checked_before_parsing": true,
+    "no_mapping_errors": true,
+    "source_feature_ids_shared_across_30_arrays": true,
+    "superseries_monocyte_records_match": true
+  },
+  "raw_array_replay": {
+    "archive_members": 30,
+    "exact_inventory_field_and_order_agreement": true,
+    "gzip_eof_crc_passed": 30,
+    "CEL_header_checks_passed": 30,
+    "total_decompressed_bytes": 406536031,
+    "versioned_capture_matches_original_local_objects": true,
+    "interpretation_limit": "Byte integrity and header identity only; array signal QC and RMA not run."
+  },
+  "preparation_checks": {
+    "samples": 30,
+    "contrasts": 7,
+    "candidate_pairs": 35,
+    "unchanged_programs": 9,
+    "control_only_reference_samples": 10,
+    "all_candidate_pairs_match_arm_and_block": true,
+    "donors_confirmed_from_numbered_block_labels": false,
+    "ready_for_inference": false,
+    "new_program_scores": 0
+  },
+  "source_caches_checked": 5,
+  "artifact_sha256": {
+    "config/gse84161-array-preparation.json": "4c737a700c53ae11927c520c2fd8d39771af776ac731f52764e3860fc8fc241d",
+    "config/gse84161-literature-sources.json": "493f1aa8e5d727aceabd830322cc85e8298d2d2df612b00982b632b7c8a444d1",
+    "config/gse84161-study-sources.json": "3471a8434d6fae775d53d585cc56f2934b529f7900a9a3e589f258100efb3e9f",
+    "config/gse84161-raw-capture.json": "68212fa9e8d6164ff527bb5d796b4048ed0df0889bb7761b4592bfadef929613",
+    "data/derived/gse84161-samples.csv": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+    "data/derived/gse84161-processing-evidence.csv": "6ee7c1dfe95b78da36f361aaaf46ee21688f204bbff71142c3eeaa5b6bb55de9",
+    "data/derived/gse84161-raw-arrays.csv": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "docs/gse84161-array-protocol.md": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f",
+    "docs/gse84161-publication-evidence.md": "a3ec8498a0b839c70f8cdbe9683f6f0f9ed49f23ac47085a19161a5bbcb04be8",
+    "docs/gse84161-source-questions.md": "a747e7f52d216d84724cd517ac9bad253f8b2ffc56935e68cebf40d2dbbc1b36",
+    "reports/gse84161-metadata-audit.json": "821e4edf80e86ca1545559c02ab0975069f993a32a8077b5437a3d7609b468d2",
+    "reports/gse84161-raw-integrity.json": "b98b4be758d2929c0207748f35f79a2158c8caa57e65ca0fe5c65a563a731433",
+    "reports/gse84161-study-investigation.md": "ffdf19218fe3de780d61689d40c3bf9104f97a8ddd960b7914089c25c67d24ab",
+    "scripts/audit_gse84161.py": "c42d8ee2f232ce5dda57826d0e0e8fc1eae5d9cf0fa22c78c738b3a3ac9d5b14",
+    "scripts/audit_gse84161_raw.py": "3490cc039222e98d5a036d16a51de376ec4c781d936c736ce03b96ae7445cb8f",
+    "tests/test_gse84161_metadata.py": "e2a064fa964b113d770b1cac26b71b0fb10438040a133246ec4d7a87491b055d",
+    "tests/test_gse84161_raw.py": "59c9d81c4fab678ac682a8dc7e64d6ba80d3f2202b9fe28b90b85bc7aaecf256"
+  },
+  "historical_artifacts_verified_unchanged": {
+    "config/ets2-validation-rules.json": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "docs/ets2-validation-protocol.md": "65a0818db93964c3029a1d22321e4faba5402a2cb1eb827b4c72f734e58e75f7",
+    "config/ets2-validation-amended-rules.json": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+    "docs/ets2-validation-amendment.md": "b4bbc1ba759c6b7982756ed23827ac2a00ededf15cf273b70cf47c45d1f4608b",
+    "config/ets2-validation-context-sources.json": "a37468146145f9c6d9e4efc24c52717f26943e0a4b8c607cd53a124ac13bb75f",
+    "config/ets2-validation-perturbation-sources.json": "9ef520464d2a465aa0aec4a0a33f8b2ada8981d8663c977c6460da7a9e8c2ab2",
+    "config/ets2-validation-gse255234-preparation.json": "fedba49a704aee5ba42b2d7a5df7deee62871550e60125547ca7e049aa23a948",
+    "data/derived/ets2-validation-context-candidates.csv": "7f436db96d00eeaa26a40bb48886811d86ee00fe55f1dec7920769fb57cd61a5",
+    "data/derived/ets2-validation-perturbation-candidates.csv": "6383959ea7e5b79ad0731dc259bdd04d90c8d9da549de7b84147ec0d006b2d59",
+    "docs/ets2-validation-context-search.md": "1651efe0ee58509cac51f017be73d028e2247a3cfcfa325e2d14a7582e9d60e8",
+    "docs/ets2-validation-perturbation-search.md": "c067a9c289d45fec0ae00e65924e451301c1ad650f5b8dffa7d2cdbb9b39b46f",
+    "docs/ets2-lee-request-draft.md": "48c882694abcf954a41df508eba9e8883bf138db6be50a492adc8baaa5a31189",
+    "docs/ets2-lee-reproducibility-brief.md": "60e2d07e7210036bbd11062853b2d81f2981a4671425ea294f84e351ce51b1ed",
+    "reports/ets2-validation-readiness.md": "da32daf49940becf34661e1368683eac2950c4ecf3ee901d4a571c5f5bc5fc7f",
+    "reports/ets2-validation-verification.json": "e1b9d0dcf4a4e8c899c3914b9dc5b2956466e5e65c8dbd9fdc5c3a531cfa0e94",
+    "config/ets2-program-plan.json": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9",
+    "config/ets2-benchmark-sources.json": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+    "config/ets2-program-sources.json": "2942a10caeb4ba9159eb19fe61c0616c3223e904971c6ed25f7078c995c2185f",
+    "data/derived/ets2-source-gene-sets.csv": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524",
+    "scripts/analyze_ets2_program.py": "7e7c73fab9f4bef31f535f4a3fb8bfbff2d9642b473542533a42aa15c2be6092",
+    "reports/ets2-program-benchmark.md": "af6265411a90b21bda19e48f61942e8ad0393a2ae4869a389451b9b78230b0e6"
+  },
+  "method_review": "No blocking contradiction identified in framework. Explicit QC diagnostics and criteria remain an execution requirement, alongside software, crosswalk and donor correspondence. Chemical and dose provenance limits are separate from descriptive preparation.",
+  "CSV_serialization": "LF; parser field values preserved during serialization correction before final preparation pins.",
+  "outreach_sent": false,
+  "model_requests": 0,
+  "new_software_installed": false
+}

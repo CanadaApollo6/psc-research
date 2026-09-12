@@ -1,0 +1,1059 @@
+{
+  "audit_id": "gse84161-metadata-audit-v1",
+  "created_at_utc": "2026-09-12",
+  "status": "metadata_and_identifier_audit_only",
+  "scope": {
+    "expression_values_read": false,
+    "program_scores_computed": false,
+    "target_values_or_differences_read": false,
+    "raw_cel_downloaded_by_this_audit": false,
+    "raw_cel_contents_inspected_by_this_audit": false,
+    "purpose": "provenance and array-method preparation; no effect estimation"
+  },
+  "source_files": [
+    {
+      "path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161&targ=all&form=text&view=quick",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "cached": true,
+      "values_read": false
+    },
+    {
+      "path": "work/ets2-independent-search/GSE84162-family-soft.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84162&targ=all&form=text&view=quick",
+      "bytes": 113260887,
+      "sha256": "d22b804584f1ce5dc21728ffd896cb0ef5ea2b0e00d98d16c039e738dcd4ac9a",
+      "cached": true,
+      "values_read": false
+    }
+  ],
+  "series": {
+    "gse84161": {
+      "accession": "GSE84161",
+      "Series_title": "MEK-dependent and -independent signaling events downstream of Tpl-2",
+      "Series_status": "Public on Jul 01 2019",
+      "Series_submission_date": "Jul 07 2016",
+      "Series_last_update_date": "Jul 02 2019",
+      "Series_overall_design": "Human monocytes will be purified from buffy coats (total of 5 donors) using a negative selection kit (Miltenyi 130-091-153) and plated at 1 x 10^6/ml in RPMI + 10% FBS + 100 ng/ml rhM-CSF. The next day, media will be aspirated and substituted with low-serum media (RPMI + 0.5% FBS). Tpl-2 and MEK inhibitors will be added to a subset of the plates at concentrations of 2.8 uM and 0.31 uM, respectively (the amounts required to fully inhibit the expression of several cytokines based on our cell-based assays), and allowed to be taken up by the cells for 1 hr. Then, 10 ng/ml of LPS will be added to a subset of the plates to activate the cells. After 6 hrs, RNA will be harvested from all of the plates. Supernatants will be saved and analyzed by ELISA to confirm cell activity/cytokine expression.",
+      "Series_type": "Expression profiling by array",
+      "Series_supplementary_file": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+      "Series_relation": [
+        "SubSeries of: GSE84162",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA328170"
+      ],
+      "Series_platform_id": "GPL570",
+      "Series_sample_taxid": "9606",
+      "series_sample_id_count": 30
+    },
+    "gse84162": {
+      "accession": "GSE84162",
+      "Series_title": "Tpl-2 and MEK small molecule inhibitors",
+      "Series_status": "Public on Jul 01 2019",
+      "Series_submission_date": "Jul 07 2016",
+      "Series_last_update_date": "Jul 02 2019",
+      "Series_overall_design": "Refer to individual Series",
+      "Series_type": [
+        "Expression profiling by high throughput sequencing",
+        "Expression profiling by array"
+      ],
+      "Series_supplementary_file": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84162/suppl/GSE84162_RAW.tar",
+      "Series_relation": [
+        "SuperSeries of: GSE84153",
+        "SuperSeries of: GSE84161",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA328166"
+      ],
+      "Series_platform_id": [
+        "GPL570",
+        "GPL16791"
+      ],
+      "Series_sample_taxid": "9606",
+      "series_sample_id_count": 50
+    }
+  },
+  "gse84161": {
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161",
+    "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/matrix/GSE84161_series_matrix.txt.gz",
+    "raw_archive_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+    "sample_count": 30,
+    "cell_context": "primary human peripheral-blood monocytes from buffy coats",
+    "explicit_series_donor_count": 5,
+    "sample_level_donor_field_present": false,
+    "sample_level_donor_field_values": [],
+    "donor_pairing_status": "series-level five-donor statement; sample-level replicate number 1-5 only; donor identity not auditable from these records",
+    "replicate_groups": [
+      {
+        "replicate_number": 1,
+        "replicate_group_label": "replicate_1",
+        "sample_level_donor_id": null,
+        "donor_identity_status": "replicate number only; no sample-level donor identifier",
+        "arm_count": 6,
+        "arms": [
+          {
+            "condition_key": "untreated_unstim",
+            "sample_accession": "GSM2228386",
+            "source_title": "Untreated 1",
+            "treatment_name": "Untreated",
+            "stimulation": "Unstimulated",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_unstim and meki_unstim"
+          },
+          {
+            "condition_key": "tpl2i_unstim",
+            "sample_accession": "GSM2228387",
+            "source_title": "Tpl-2 SMI 1",
+            "treatment_name": "Tpl-2 SMI",
+            "stimulation": "Unstimulated",
+            "compound": "TPL2i",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "meki_unstim",
+            "sample_accession": "GSM2228388",
+            "source_title": "MEK SMI 1",
+            "treatment_name": "MEK SMI",
+            "stimulation": "Unstimulated",
+            "compound": "MEKi",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "vehicle_lps",
+            "sample_accession": "GSM2228389",
+            "source_title": "LPS 1",
+            "treatment_name": "LPS",
+            "stimulation": "LPS",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_lps and meki_lps"
+          },
+          {
+            "condition_key": "tpl2i_lps",
+            "sample_accession": "GSM2228390",
+            "source_title": "Tpl-2 SMI + LPS 1",
+            "treatment_name": "Tpl-2 SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "TPL2i",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          },
+          {
+            "condition_key": "meki_lps",
+            "sample_accession": "GSM2228391",
+            "source_title": "MEK SMI + LPS 1",
+            "treatment_name": "MEK SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "MEKi",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          }
+        ]
+      },
+      {
+        "replicate_number": 2,
+        "replicate_group_label": "replicate_2",
+        "sample_level_donor_id": null,
+        "donor_identity_status": "replicate number only; no sample-level donor identifier",
+        "arm_count": 6,
+        "arms": [
+          {
+            "condition_key": "untreated_unstim",
+            "sample_accession": "GSM2228392",
+            "source_title": "Untreated 2",
+            "treatment_name": "Untreated",
+            "stimulation": "Unstimulated",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_unstim and meki_unstim"
+          },
+          {
+            "condition_key": "tpl2i_unstim",
+            "sample_accession": "GSM2228393",
+            "source_title": "Tpl-2 SMI 2",
+            "treatment_name": "Tpl-2 SMI",
+            "stimulation": "Unstimulated",
+            "compound": "TPL2i",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "meki_unstim",
+            "sample_accession": "GSM2228394",
+            "source_title": "MEK SMI 2",
+            "treatment_name": "MEK SMI",
+            "stimulation": "Unstimulated",
+            "compound": "MEKi",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "vehicle_lps",
+            "sample_accession": "GSM2228395",
+            "source_title": "LPS 2",
+            "treatment_name": "LPS",
+            "stimulation": "LPS",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_lps and meki_lps"
+          },
+          {
+            "condition_key": "tpl2i_lps",
+            "sample_accession": "GSM2228396",
+            "source_title": "Tpl-2 SMI + LPS 2",
+            "treatment_name": "Tpl-2 SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "TPL2i",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          },
+          {
+            "condition_key": "meki_lps",
+            "sample_accession": "GSM2228397",
+            "source_title": "MEK SMI + LPS 2",
+            "treatment_name": "MEK SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "MEKi",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          }
+        ]
+      },
+      {
+        "replicate_number": 3,
+        "replicate_group_label": "replicate_3",
+        "sample_level_donor_id": null,
+        "donor_identity_status": "replicate number only; no sample-level donor identifier",
+        "arm_count": 6,
+        "arms": [
+          {
+            "condition_key": "untreated_unstim",
+            "sample_accession": "GSM2228398",
+            "source_title": "Untreated 3",
+            "treatment_name": "Untreated",
+            "stimulation": "Unstimulated",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_unstim and meki_unstim"
+          },
+          {
+            "condition_key": "tpl2i_unstim",
+            "sample_accession": "GSM2228399",
+            "source_title": "Tpl-2 SMI 3",
+            "treatment_name": "Tpl-2 SMI",
+            "stimulation": "Unstimulated",
+            "compound": "TPL2i",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "meki_unstim",
+            "sample_accession": "GSM2228400",
+            "source_title": "MEK SMI 3",
+            "treatment_name": "MEK SMI",
+            "stimulation": "Unstimulated",
+            "compound": "MEKi",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "vehicle_lps",
+            "sample_accession": "GSM2228401",
+            "source_title": "LPS 3",
+            "treatment_name": "LPS",
+            "stimulation": "LPS",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_lps and meki_lps"
+          },
+          {
+            "condition_key": "tpl2i_lps",
+            "sample_accession": "GSM2228402",
+            "source_title": "Tpl-2 SMI + LPS 3",
+            "treatment_name": "Tpl-2 SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "TPL2i",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          },
+          {
+            "condition_key": "meki_lps",
+            "sample_accession": "GSM2228403",
+            "source_title": "MEK SMI + LPS 3",
+            "treatment_name": "MEK SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "MEKi",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          }
+        ]
+      },
+      {
+        "replicate_number": 4,
+        "replicate_group_label": "replicate_4",
+        "sample_level_donor_id": null,
+        "donor_identity_status": "replicate number only; no sample-level donor identifier",
+        "arm_count": 6,
+        "arms": [
+          {
+            "condition_key": "untreated_unstim",
+            "sample_accession": "GSM2228404",
+            "source_title": "Untreated 4",
+            "treatment_name": "Untreated",
+            "stimulation": "Unstimulated",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_unstim and meki_unstim"
+          },
+          {
+            "condition_key": "tpl2i_unstim",
+            "sample_accession": "GSM2228405",
+            "source_title": "Tpl-2 SMI 4",
+            "treatment_name": "Tpl-2 SMI",
+            "stimulation": "Unstimulated",
+            "compound": "TPL2i",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "meki_unstim",
+            "sample_accession": "GSM2228406",
+            "source_title": "MEK SMI 4",
+            "treatment_name": "MEK SMI",
+            "stimulation": "Unstimulated",
+            "compound": "MEKi",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "vehicle_lps",
+            "sample_accession": "GSM2228407",
+            "source_title": "LPS 4",
+            "treatment_name": "LPS",
+            "stimulation": "LPS",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_lps and meki_lps"
+          },
+          {
+            "condition_key": "tpl2i_lps",
+            "sample_accession": "GSM2228408",
+            "source_title": "Tpl-2 SMI + LPS 4",
+            "treatment_name": "Tpl-2 SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "TPL2i",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          },
+          {
+            "condition_key": "meki_lps",
+            "sample_accession": "GSM2228409",
+            "source_title": "MEK SMI + LPS 4",
+            "treatment_name": "MEK SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "MEKi",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          }
+        ]
+      },
+      {
+        "replicate_number": 5,
+        "replicate_group_label": "replicate_5",
+        "sample_level_donor_id": null,
+        "donor_identity_status": "replicate number only; no sample-level donor identifier",
+        "arm_count": 6,
+        "arms": [
+          {
+            "condition_key": "untreated_unstim",
+            "sample_accession": "GSM2228410",
+            "source_title": "Untreated 5",
+            "treatment_name": "Untreated",
+            "stimulation": "Unstimulated",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_unstim and meki_unstim"
+          },
+          {
+            "condition_key": "tpl2i_unstim",
+            "sample_accession": "GSM2228411",
+            "source_title": "Tpl-2 SMI 5",
+            "treatment_name": "Tpl-2 SMI",
+            "stimulation": "Unstimulated",
+            "compound": "TPL2i",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "meki_unstim",
+            "sample_accession": "GSM2228412",
+            "source_title": "MEK SMI 5",
+            "treatment_name": "MEK SMI",
+            "stimulation": "Unstimulated",
+            "compound": "MEKi",
+            "control_condition_key": "untreated_unstim",
+            "control_role": "treated arm matched to untreated_unstim"
+          },
+          {
+            "condition_key": "vehicle_lps",
+            "sample_accession": "GSM2228413",
+            "source_title": "LPS 5",
+            "treatment_name": "LPS",
+            "stimulation": "LPS",
+            "compound": "Vehicle",
+            "control_condition_key": "",
+            "control_role": "vehicle control for tpl2i_lps and meki_lps"
+          },
+          {
+            "condition_key": "tpl2i_lps",
+            "sample_accession": "GSM2228414",
+            "source_title": "Tpl-2 SMI + LPS 5",
+            "treatment_name": "Tpl-2 SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "TPL2i",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          },
+          {
+            "condition_key": "meki_lps",
+            "sample_accession": "GSM2228415",
+            "source_title": "MEK SMI + LPS 5",
+            "treatment_name": "MEK SMI + LPS",
+            "stimulation": "LPS",
+            "compound": "MEKi",
+            "control_condition_key": "vehicle_lps",
+            "control_role": "treated arm matched to vehicle_lps"
+          }
+        ]
+      }
+    ],
+    "planned_control_pairs": [
+      {
+        "replicate_number": 1,
+        "replicate_group_label": "replicate_1",
+        "treated_condition_key": "tpl2i_unstim",
+        "treated_sample_accession": "GSM2228387",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228386",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 1,
+        "replicate_group_label": "replicate_1",
+        "treated_condition_key": "meki_unstim",
+        "treated_sample_accession": "GSM2228388",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228386",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 1,
+        "replicate_group_label": "replicate_1",
+        "treated_condition_key": "tpl2i_lps",
+        "treated_sample_accession": "GSM2228390",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228389",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 1,
+        "replicate_group_label": "replicate_1",
+        "treated_condition_key": "meki_lps",
+        "treated_sample_accession": "GSM2228391",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228389",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 2,
+        "replicate_group_label": "replicate_2",
+        "treated_condition_key": "tpl2i_unstim",
+        "treated_sample_accession": "GSM2228393",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228392",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 2,
+        "replicate_group_label": "replicate_2",
+        "treated_condition_key": "meki_unstim",
+        "treated_sample_accession": "GSM2228394",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228392",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 2,
+        "replicate_group_label": "replicate_2",
+        "treated_condition_key": "tpl2i_lps",
+        "treated_sample_accession": "GSM2228396",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228395",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 2,
+        "replicate_group_label": "replicate_2",
+        "treated_condition_key": "meki_lps",
+        "treated_sample_accession": "GSM2228397",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228395",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 3,
+        "replicate_group_label": "replicate_3",
+        "treated_condition_key": "tpl2i_unstim",
+        "treated_sample_accession": "GSM2228399",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228398",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 3,
+        "replicate_group_label": "replicate_3",
+        "treated_condition_key": "meki_unstim",
+        "treated_sample_accession": "GSM2228400",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228398",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 3,
+        "replicate_group_label": "replicate_3",
+        "treated_condition_key": "tpl2i_lps",
+        "treated_sample_accession": "GSM2228402",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228401",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 3,
+        "replicate_group_label": "replicate_3",
+        "treated_condition_key": "meki_lps",
+        "treated_sample_accession": "GSM2228403",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228401",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 4,
+        "replicate_group_label": "replicate_4",
+        "treated_condition_key": "tpl2i_unstim",
+        "treated_sample_accession": "GSM2228405",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228404",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 4,
+        "replicate_group_label": "replicate_4",
+        "treated_condition_key": "meki_unstim",
+        "treated_sample_accession": "GSM2228406",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228404",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 4,
+        "replicate_group_label": "replicate_4",
+        "treated_condition_key": "tpl2i_lps",
+        "treated_sample_accession": "GSM2228408",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228407",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 4,
+        "replicate_group_label": "replicate_4",
+        "treated_condition_key": "meki_lps",
+        "treated_sample_accession": "GSM2228409",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228407",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 5,
+        "replicate_group_label": "replicate_5",
+        "treated_condition_key": "tpl2i_unstim",
+        "treated_sample_accession": "GSM2228411",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228410",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 5,
+        "replicate_group_label": "replicate_5",
+        "treated_condition_key": "meki_unstim",
+        "treated_sample_accession": "GSM2228412",
+        "control_condition_key": "untreated_unstim",
+        "control_sample_accession": "GSM2228410",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 5,
+        "replicate_group_label": "replicate_5",
+        "treated_condition_key": "tpl2i_lps",
+        "treated_sample_accession": "GSM2228414",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228413",
+        "status": "planned_unscored"
+      },
+      {
+        "replicate_number": 5,
+        "replicate_group_label": "replicate_5",
+        "treated_condition_key": "meki_lps",
+        "treated_sample_accession": "GSM2228415",
+        "control_condition_key": "vehicle_lps",
+        "control_sample_accession": "GSM2228413",
+        "status": "planned_unscored"
+      }
+    ],
+    "planned_control_pair_count": 20,
+    "mapping_errors": [],
+    "six_arm_condition_keys": [
+      "untreated_unstim",
+      "tpl2i_unstim",
+      "meki_unstim",
+      "vehicle_lps",
+      "tpl2i_lps",
+      "meki_lps"
+    ],
+    "processed_table": {
+      "sample_count": 30,
+      "table_presence_count": 30,
+      "processed_table_header": [
+        "ID_REF",
+        "VALUE"
+      ],
+      "idref_namespace": "Affymetrix probe-set ID_REF",
+      "value_label": "RMA normalized signal intensity",
+      "processed_row_count": 19944,
+      "processed_unique_id_count": 19944,
+      "processed_duplicate_id_count": 0,
+      "processed_duplicate_ids": [],
+      "processed_id_digest": "0d858fbba6c1dd6819cac2efe6834fb422c18fe0a2a534e396570228044bf9c4",
+      "all_samples_same_ordered_ids": true,
+      "all_samples_same_digest": true,
+      "all_sample_metadata_row_counts": [
+        "19944"
+      ],
+      "all_sample_table_row_counts": [
+        19944
+      ],
+      "first_ids": [
+        "229819_at",
+        "206797_at",
+        "216705_s_at"
+      ],
+      "last_ids": [
+        "214198_s_at",
+        "222201_s_at",
+        "205241_at"
+      ]
+    },
+    "platform_gpl570": {
+      "accession": "GPL570",
+      "title": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array",
+      "status": "Public on Nov 07 2003",
+      "submission_date": "Nov 07 2003",
+      "last_update_date": "Dec 14 2020",
+      "technology": "in situ oligonucleotide",
+      "organism": "Homo sapiens",
+      "table_present": true,
+      "table_header": [
+        "ID",
+        "GB_ACC",
+        "SPOT_ID",
+        "Species Scientific Name",
+        "Annotation Date",
+        "Sequence Type",
+        "Sequence Source",
+        "Target Description",
+        "Representative Public ID",
+        "Gene Title",
+        "Gene Symbol",
+        "ENTREZ_GENE_ID",
+        "RefSeq Transcript ID",
+        "Gene Ontology Biological Process",
+        "Gene Ontology Cellular Component",
+        "Gene Ontology Molecular Function"
+      ],
+      "table_row_count": 54675,
+      "table_unique_id_count": 54675,
+      "table_duplicate_id_count": 0,
+      "table_first_ids": [
+        "1007_s_at",
+        "1053_at",
+        "117_at"
+      ],
+      "table_last_ids": [
+        "AFFX-TrpnX-3_at",
+        "AFFX-TrpnX-5_at",
+        "AFFX-TrpnX-M_at"
+      ],
+      "annotation_date_counts": {
+        "Oct 6, 2014": 54675
+      },
+      "annotation_columns": [
+        "Annotation Date",
+        "Representative Public ID",
+        "Gene Symbol",
+        "ENTREZ_GENE_ID",
+        "RefSeq Transcript ID"
+      ]
+    },
+    "processed_annotation_via_current_gpl570": {
+      "probe_rows_considered": 19944,
+      "blank_or_unresolved_entrez_fields": 267,
+      "single_entrez_fields": 19263,
+      "multiple_entrez_fields": 414,
+      "unique_genes_from_single_id_probes": 19228,
+      "genes_with_multiple_single_id_probes": 35,
+      "total_entrez_assignments": 20174,
+      "unique_entrez_assignments": 20001,
+      "entrez_ids_assigned_to_more_than_one_probe": 167,
+      "probe_assignments_in_multi_probe_entrez_groups": 340,
+      "max_probe_assignments_per_entrez": 4
+    },
+    "full_gpl570_annotation": {
+      "probe_rows_considered": 54675,
+      "blank_or_unresolved_entrez_fields": 10541,
+      "single_entrez_fields": 41834,
+      "multiple_entrez_fields": 2300,
+      "unique_genes_from_single_id_probes": 20486,
+      "genes_with_multiple_single_id_probes": 10694,
+      "total_entrez_assignments": 48052,
+      "unique_entrez_assignments": 22600,
+      "entrez_ids_assigned_to_more_than_one_probe": 12259,
+      "probe_assignments_in_multi_probe_entrez_groups": 37711,
+      "max_probe_assignments_per_entrez": 37
+    },
+    "cel_availability": {
+      "series_raw_archive_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+      "sample_cel_url_count": 30,
+      "sample_count": 30,
+      "all_sample_cel_routes_advertised": true,
+      "downloaded_by_this_audit": false,
+      "availability_limit": "route advertised in SOFT; raw-array archive and CEL contents are outside this metadata-only audit"
+    },
+    "processing_evidence_ids": [
+      "series_overall_design",
+      "sample_processing_rma",
+      "sample_processing_heatmap",
+      "processed_header",
+      "processed_subset_dimensions",
+      "processed_annotation_snapshot",
+      "full_gpl_dimensions",
+      "full_gpl_annotation_columns",
+      "cel_availability",
+      "timing_specificity_difference",
+      "donor_mapping_ambiguity"
+    ],
+    "timing_evidence": {
+      "series_design_pretreatment": "1 hr",
+      "sample_protocol_pretreatment": "at least 30 min"
+    }
+  },
+  "gse84162": {
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84162",
+    "raw_archive_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84162/suppl/GSE84162_RAW.tar",
+    "sample_count": 50,
+    "cell_contexts": [
+      "Blood",
+      "Purified neutrophils"
+    ],
+    "superseries_only_neutrophil_context": {
+      "accession": "GSE84153",
+      "superseries_accession": "GSE84162",
+      "cell_context": "purified human neutrophils",
+      "sample_count": 20,
+      "explicit_donor_tags": [
+        "Donor 1",
+        "Donor 2",
+        "Donor 3",
+        "Donor 4",
+        "Donor 5"
+      ],
+      "explicit_donor_count": 5,
+      "pseudonymous_inventory_patient_ids": {
+        "Donor 1": "8046",
+        "Donor 2": "8047",
+        "Donor 3": "8048",
+        "Donor 4": "8049",
+        "Donor 5": "8050"
+      },
+      "samples_per_donor": {
+        "Donor 1": 4,
+        "Donor 2": 4,
+        "Donor 3": 4,
+        "Donor 4": 4,
+        "Donor 5": 4
+      },
+      "arms_per_donor": {
+        "Donor 1": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 2": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 3": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 4": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 5": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ]
+      },
+      "assay_platforms": [
+        "GPL16791"
+      ],
+      "sample_table_rows": [
+        null
+      ],
+      "processed_file_format": "per-sample tab-delimited files with Entrez Gene IDs, gene exonic counts, gene length and RPKM columns",
+      "source_treatment_labels_preserved": true,
+      "substitution_for_monocytes": false,
+      "interpretation": "inventory context only; neutrophil records are not monocyte donor evidence"
+    }
+  },
+  "series_comparison": {
+    "subseries_accession": "GSE84161",
+    "superseries_accession": "GSE84162",
+    "subseries_sample_count": 30,
+    "superseries_sample_count": 50,
+    "common_monocyte_sample_count": 30,
+    "subseries_only_sample_count": 0,
+    "superseries_only_sample_count": 20,
+    "common_sample_ids_unique": true,
+    "common_sample_ids": [
+      "GSM2228386",
+      "GSM2228387",
+      "GSM2228388",
+      "GSM2228389",
+      "GSM2228390",
+      "GSM2228391",
+      "GSM2228392",
+      "GSM2228393",
+      "GSM2228394",
+      "GSM2228395",
+      "GSM2228396",
+      "GSM2228397",
+      "GSM2228398",
+      "GSM2228399",
+      "GSM2228400",
+      "GSM2228401",
+      "GSM2228402",
+      "GSM2228403",
+      "GSM2228404",
+      "GSM2228405",
+      "GSM2228406",
+      "GSM2228407",
+      "GSM2228408",
+      "GSM2228409",
+      "GSM2228410",
+      "GSM2228411",
+      "GSM2228412",
+      "GSM2228413",
+      "GSM2228414",
+      "GSM2228415"
+    ],
+    "monocyte_metadata_exact_match": true,
+    "monocyte_metadata_difference_fields": [],
+    "superseries_only_neutrophil_context": {
+      "accession": "GSE84153",
+      "superseries_accession": "GSE84162",
+      "cell_context": "purified human neutrophils",
+      "sample_count": 20,
+      "explicit_donor_tags": [
+        "Donor 1",
+        "Donor 2",
+        "Donor 3",
+        "Donor 4",
+        "Donor 5"
+      ],
+      "explicit_donor_count": 5,
+      "pseudonymous_inventory_patient_ids": {
+        "Donor 1": "8046",
+        "Donor 2": "8047",
+        "Donor 3": "8048",
+        "Donor 4": "8049",
+        "Donor 5": "8050"
+      },
+      "samples_per_donor": {
+        "Donor 1": 4,
+        "Donor 2": 4,
+        "Donor 3": 4,
+        "Donor 4": 4,
+        "Donor 5": 4
+      },
+      "arms_per_donor": {
+        "Donor 1": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 2": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 3": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 4": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ],
+        "Donor 5": [
+          "MEKi, Plus LPS 6 hrs",
+          "TPLi, Plus LPS 6 hrs",
+          "Vehicle, No LPS 6 hrs",
+          "Vehicle, Plus LPS 6 hrs"
+        ]
+      },
+      "assay_platforms": [
+        "GPL16791"
+      ],
+      "sample_table_rows": [
+        null
+      ],
+      "processed_file_format": "per-sample tab-delimited files with Entrez Gene IDs, gene exonic counts, gene length and RPKM columns",
+      "source_treatment_labels_preserved": true,
+      "substitution_for_monocytes": false,
+      "interpretation": "inventory context only; neutrophil records are not monocyte donor evidence"
+    },
+    "superseries_sample_order": [
+      "GSM2228263",
+      "GSM2228264",
+      "GSM2228265",
+      "GSM2228266",
+      "GSM2228267",
+      "GSM2228268",
+      "GSM2228269",
+      "GSM2228270",
+      "GSM2228271",
+      "GSM2228272",
+      "GSM2228273",
+      "GSM2228274",
+      "GSM2228275",
+      "GSM2228276",
+      "GSM2228277",
+      "GSM2228278",
+      "GSM2228279",
+      "GSM2228280",
+      "GSM2228281",
+      "GSM2228282",
+      "GSM2228386",
+      "GSM2228387",
+      "GSM2228388",
+      "GSM2228389",
+      "GSM2228390",
+      "GSM2228391",
+      "GSM2228392",
+      "GSM2228393",
+      "GSM2228394",
+      "GSM2228395",
+      "GSM2228396",
+      "GSM2228397",
+      "GSM2228398",
+      "GSM2228399",
+      "GSM2228400",
+      "GSM2228401",
+      "GSM2228402",
+      "GSM2228403",
+      "GSM2228404",
+      "GSM2228405",
+      "GSM2228406",
+      "GSM2228407",
+      "GSM2228408",
+      "GSM2228409",
+      "GSM2228410",
+      "GSM2228411",
+      "GSM2228412",
+      "GSM2228413",
+      "GSM2228414",
+      "GSM2228415"
+    ],
+    "superseries_numeric_gsm_step_values": [
+      1,
+      104
+    ],
+    "superseries_contains_nonsequential_gsm_block": true,
+    "superseries_relation": [
+      "SuperSeries of: GSE84153",
+      "SuperSeries of: GSE84161",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA328166"
+    ]
+  },
+  "contradictions_and_ambiguities": [
+    {
+      "id": "pretreatment_duration",
+      "kind": "differing_specificity",
+      "series_statement": "1 hr inhibitor uptake in Series_overall_design",
+      "sample_statement": "at least 30 min pretreatment in Sample_treatment_protocol_ch1",
+      "resolution": "preserve both; treat the one-hour design statement and at-least-30-minute sample statement as compatible descriptions with different specificity, then freeze the operational duration before analysis"
+    },
+    {
+      "id": "donor_vs_replicate",
+      "kind": "ambiguity",
+      "statement": "Series says five total donors; sample records provide replicate number 1-5 and no donor identifier",
+      "resolution": "use replicate_N as a public grouping label only; do not call it a donor ID"
+    },
+    {
+      "id": "variance_scope",
+      "kind": "ambiguity",
+      "statement": "Source says highest variance probe per Entrez but does not define the sample set or filtering scope used for variance",
+      "resolution": "do not treat the processed 19,944 rows as an independent reprocessing rule; raw-CEL method must freeze a deterministic mapping"
+    },
+    {
+      "id": "heatmap_residual_quantity",
+      "kind": "ambiguity",
+      "statement": "Source describes donor-residual normalization for heat-map visualization after RMA, while the deposited VALUE quantity is labeled RMA normalized signal intensity",
+      "resolution": "retain the narrative; do not assume the heat-map residual operation generated the deposited table"
+    },
+    {
+      "id": "historical_gpl_annotation",
+      "kind": "availability_limit",
+      "statement": "Current GPL570 annotation snapshot is separate from the historical probe-selection snapshot",
+      "resolution": "report full 54,675-probe GPL and processed 19,944-probe subset separately; current mapping does not prove an author violation"
+    }
+  ],
+  "maximum_claim": "GSE84161 can support source-provenance and descriptive array-specific calibration for primary human monocyte MEK/TPL2/LPS context using source-labeled arms and public replicate groups. It cannot support unchanged raw-integer-count analysis or independent direct ETS2 causality; missing sample-level donor keys limit donor-level inference, and unresolved compound identity limits compound-specific causal or clinical claims.",
+  "processing_rule_boundary": {
+    "source_described_selection": "RMA; remove probes without Entrez; retain highest-variance probe set per Entrez",
+    "processed_table": "19,944 Affymetrix probe-set rows per sample",
+    "full_gpl570_table": "54,675 probe rows in current SOFT platform snapshot",
+    "future_array_plan_required": "raw CEL RMA from all probes, current/pinned GPL annotation, deterministic Entrez mapping and duplicate policy before effects"
+  },
+  "output_paths": {
+    "samples_csv": "data/derived/gse84161-samples.csv",
+    "processing_csv": "data/derived/gse84161-processing-evidence.csv",
+    "report_json": "reports/gse84161-metadata-audit.json"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "manifest_id": "gse84161-study-source-manifest-v1",
+  "created_at_utc": "2026-09-12T17:15:22.282085+00:00",
+  "sources": [
+    {
+      "source_id": "geo-gse84161-soft",
+      "source_role": "primary_repository_metadata",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161&targ=all&form=text&view=quick",
+      "local_cache_path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "retrieved_at_utc": "2026-09-12T16:06:18Z",
+      "timestamp_precision": "seconds; reused from prior source record",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository."
+    },
+    {
+      "source_id": "geo-gse84162-soft",
+      "source_role": "primary_repository_metadata",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84162&targ=all&form=text&view=quick",
+      "local_cache_path": "work/ets2-independent-search/GSE84162-family-soft.txt",
+      "bytes": 113260887,
+      "sha256": "d22b804584f1ce5dc21728ffd896cb0ef5ea2b0e00d98d16c039e738dcd4ac9a",
+      "retrieved_at_utc": "2026-09-12T16:06:14Z",
+      "timestamp_precision": "seconds; reused from prior source record",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository."
+    },
+    {
+      "source_id": "geo-gse84161-raw-array-archive",
+      "source_role": "primary_repository_raw_array_archive",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+      "local_cache_path": "data/raw/gse84161/GSE84161_RAW.tar",
+      "bytes": 146739200,
+      "sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+      "retrieved_at_utc": "2026-09-12T16:54:32.295542+00:00",
+      "timestamp_precision": "milliseconds in original receipt",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "http_response": {
+        "status": 200,
+        "content_length_header": "146739200",
+        "last_modified_header": "Mon, 01 Jul 2019 14:48:44 GMT",
+        "etag_header": null
+      },
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository."
+    },
+    {
+      "source_id": "pubmed-28420753-xml",
+      "source_role": "primary_bibliographic_metadata",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28420753&retmode=xml",
+      "local_cache_path": "work/gse84161-publication/pubmed-28420753.xml",
+      "bytes": 18104,
+      "sha256": "fdd5b62c3b7c5635d6aacc96f9eb8ae65a771463bf08c70bdfc2553b13e885bf",
+      "retrieved_at_utc": "2026-09-12T16:52:39Z",
+      "timestamp_precision": "seconds from publication source record",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository."
+    },
+    {
+      "source_id": "crossref-senger-aah4273",
+      "source_role": "publisher_registry_bibliographic_metadata",
+      "source_url": "https://api.crossref.org/works/10.1126%2Fscisignal.aah4273",
+      "local_cache_path": "work/gse84161-publication/crossref-aah4273.json",
+      "bytes": 20257,
+      "sha256": "20d4fddec2bc964a14ab3be3faafff847e59dcc5af677af37c6dea63cb47d9c4",
+      "retrieved_at_utc": "2026-09-12T16:52:40Z",
+      "timestamp_precision": "seconds from publication source record",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository."
+    }
+  ],
+  "supporting_literature_manifest": "config/gse84161-literature-sources.json",
+  "raw_data_retention": "Large CEL archive and full SOFT files stay in ignored local storage. Full article/supplement content is not republished.",
+  "annotation_snapshot": {
+    "accession": "GPL570",
+    "contained_in": "work/ets2-independent-search/GSE84161-family-soft.txt",
+    "source_last_update": "2020-12-14",
+    "all_row_annotation_date": "2014-10-06",
+    "historical_author_annotation_version": null
+  },
+  "checksum_boundary": "No publisher SHA-256 was advertised; local pins detect changes to captured bytes, not their scientific correctness.",
+  "normalization_reference": {
+    "url": "https://www.bioconductor.org/packages/release/bioc/manuals/affy/man/affy.pdf",
+    "accessed_date": "2026-09-12",
+    "role": "Official RMA method documentation; no execution version pinned yet"
+  },
+  "retrieval_instructions": "Retrieve each source_url into its exact local_cache_path; compare full byte count and SHA-256 before use. A changed response must be reviewed as a new snapshot; never update pins only to make a check pass."
+}
