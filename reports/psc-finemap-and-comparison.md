@@ -1,5 +1,7 @@
 # PSC fine-mapping archive audit and prospective comparison
 
+Follow-up: [the fixed matched comparison is now complete](matched-comparison.md). This report preserves the earlier preparation state and source audit.
+
 Completed September 12, 2026. Source retrieval began September 11 in America/New_York. **The complete released fine-mapping tables are imported, five candidate substitutions are reference-verified, and the comparison rules are fixed. Comparator matching and model inference have not been performed.**
 
 The archive supports a limited comparison of AlphaGenome with statistical prioritization. It does **not** provide enough consistent run metadata to reproduce the published signal-specific credible sets. We retain the discrepancies instead of treating an inferred set as the authors' result.

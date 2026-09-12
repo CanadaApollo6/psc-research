@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [fine-mapping archive audit and comparison plan](reports/psc-finemap-and-comparison.md) imports **71,083 variant rows across 18 GWAS regions and eight molecular-QTL datasets**. SNP probabilities agree with saved configurations, but accompanying logs have substantial provenance discrepancies. Exact published signal-specific credible sets remain unavailable. **Five reference-verified candidate substitutions** across IL2RA, BACH2 and BCL2L11 are nominated under a fixed protocol; matched comparison variants are the next preparation step. No model calls were made for this phase.
+The latest [fixed matched comparison](reports/matched-comparison.md) completed **nine predictions across three matched groups**. One prioritized variant scored above its comparison pair and two below it; there is no consistent separation in this small sample. Both BACH2 candidates lacked an eligible pair under the unchanged matching rules and were excluded before scoring. All nine variants have complete outputs across their fixed gene and CD4-track universes. The next step is measured RNA evidence for the full tested set, including comparison variants.
+
+The preceding [fine-mapping archive audit](reports/psc-finemap-and-comparison.md) imports **71,083 variant rows across 18 GWAS regions and eight molecular-QTL datasets**. SNP probabilities agree with saved configurations, but accompanying logs have substantial provenance discrepancies. Exact published signal-specific credible sets remain unavailable. These limits carry forward into the model comparison.
 
 The [direct-junction follow-up](reports/ubash3a-junction-followup.md) checks the UBASH3A strand discrepancy and measures public GEUVADIS junction reads. **The positive-strand boundaries are supported, and a published workflow-setting mismatch could explain the reversed labels. The actual historical run settings remain unconfirmed.** The public-data comparison was too sparse: only 18 of 360 genotyped European donors met the fixed coverage threshold, with no CC donors retained. An exact [data request](docs/ubash3a-data-request-draft.md) is drafted and unsent.
 
@@ -31,6 +33,7 @@ The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism
 - Eight reproducible public QTL queries, four expression comparisons, two splice associations, a dataset-wide strand audit and explicit accounting of missing measurements.
 - A reference-motif and workflow-strand check, public single-variant genotype matching, and a donor-level two-junction analysis that preserves its inconclusive coverage result.
 - A full fine-mapping archive import, log/configuration audit, explicitly labeled singleton-set reconstructions, and a fixed prospective comparison protocol with candidate references and exclusions.
+- Complete matching audits for 6,117 low-PIP rsIDs, frequencies and LD from 503 public EUR donors, nine successful predictions, and all 228 variant–gene rankings with 456 primary track scores.
 
 The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
@@ -136,7 +139,27 @@ python -m unittest discover -s tests -v
 
 The 43 pinned sources include the 16.7 MB study archive and small reference/documentation files. The new scripts use the standard library. `--offline` on the download command verifies the cache. The complete compact [variant table](data/derived/psc-finemap-variants.csv.gz) preserves original identifiers and probabilities; it is not a normalized VCF or a per-signal credible-set manifest. The [candidate table](data/derived/psc-comparison-candidates.csv) includes every high-PIP inclusion, exclusion and reserve in the selected regions.
 
-The [protocol](config/psc-controlled-comparison.json) fixes matching, model and reporting rules before scores. The [freeze record](config/psc-controlled-comparison-lock.json) pins that protocol and its current inputs. Comparator identities, EUR frequency/LD covariates and the common gene/track universe remain to be prepared; the status is explicitly not ready for inference. The original pilot predictions are unchanged.
+The [protocol](config/psc-controlled-comparison.json) fixes matching, model and reporting rules before scores. The [original freeze record](config/psc-controlled-comparison-lock.json) preserves that preparation phase and its then-incomplete status. The later [final input manifest](config/psc-matched-comparison-inputs.json) locks the eligible matched groups and common gene/track universes before the nine new predictions. The original pilot predictions are unchanged.
+
+## Reproduce the fixed matched comparison
+
+Use Python 3.12 with both `requirements-alphagenome.lock` and `requirements-qtl.txt` installed. After the fine-mapping preparation above:
+
+```bash
+python scripts/fetch_comparison_sources.py
+python scripts/prepare_matching_covariates.py
+python scripts/fetch_comparison_genotypes.py
+python scripts/match_comparison_variants.py
+python scripts/fetch_comparison_metadata.py
+python scripts/freeze_comparison_inputs.py
+python scripts/run_matched_comparison.py
+python scripts/summarize_matched_comparison.py data/predictions/20260912T043400Z-matched-comparison
+python -m unittest discover -s tests -v
+```
+
+The 85 matching-source pins include a 333 MB model gene annotation; genotype queries are bounded indexed regional extractions, with donor-level subsets kept ignored. Each fetch command accepts `--offline` to verify cached inputs. The metadata helper requests only track metadata if its cache is missing; it needs the locally configured API key in that case and rejects any change from the pinned snapshot. `freeze_comparison_inputs.py` verifies the existing freeze without replacing its timestamp. The runner defaults to a dry run and requests no predictions without `--run`.
+
+The summary command requires the saved local September 12 prediction folder. It is not included in Git. A new API run with `python scripts/run_matched_comparison.py --run` creates a new dated folder; pass that printed path to the summary command. Preserve the historical reports before summarizing a later run, since the summary filenames are fixed. A later server model or live metadata change may prevent exact historical replay; the recorded inputs, compact outputs and hashes remain the original result. Public APIs may also return changed or differently serialized responses; the downloader stops on a pinned-hash mismatch rather than silently updating the inputs.
 
 ## Interpretation
 

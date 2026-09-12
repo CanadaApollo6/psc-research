@@ -1,0 +1,95 @@
+{
+  "started_at_utc": "2026-09-12T04:34:00.021414+00:00",
+  "status": "complete",
+  "input_sha256": "100dafeda4f96b9d0927d5e250ede1c9d3adea4febcfd96340e5cf0cfbc6701d",
+  "protocol_sha256": "10b6cdf6875e3e4926a59c8fa0c183e74ec1d99cb41540cb0bddd01e054b66a1",
+  "client_version": "0.9.0",
+  "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+  "model_version_selection": "ALL_FOLDS",
+  "server_model_build_identifier": "Not exposed by this client; selection and request times recorded",
+  "runner_sha256": "848eea9bd6e4883bb60c6799e7d6768d7e28cc03928d28395d844d80bae64ecb",
+  "requests": [
+    {
+      "rsid": "rs7923054",
+      "archive_region": "IL2RA",
+      "role": "anchor",
+      "status": "complete",
+      "rows": 11501,
+      "file": "rs7923054-scores.csv.gz",
+      "sha256": "03325c48fec013c0251b9ecb86ee72ead06d54255f8c37b7e60fff7800047956"
+    },
+    {
+      "rsid": "rs7919234",
+      "archive_region": "IL2RA",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 11501,
+      "file": "rs7919234-scores.csv.gz",
+      "sha256": "a4e742a6154b151e2001c1843bca7a62ef3c28b53c4b105abc0489e483eb1ae7"
+    },
+    {
+      "rsid": "rs111845808",
+      "archive_region": "IL2RA",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 11501,
+      "file": "rs111845808-scores.csv.gz",
+      "sha256": "bc36b05b24cf364812c55ad48fe5cc1d07cadf2308e250a36b86a095eac0d006"
+    },
+    {
+      "rsid": "rs72837826",
+      "archive_region": "BCL2L11",
+      "role": "anchor",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs72837826-scores.csv.gz",
+      "sha256": "dd95e4f4a04426547dddd6d2bd41915b51657260dd5143b6872fe94d0eaf7b71"
+    },
+    {
+      "rsid": "rs56366063",
+      "archive_region": "BCL2L11",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs56366063-scores.csv.gz",
+      "sha256": "5481c0043f29b120f33fb136c4cb4330180f9bcba0bf351ed24f5710d7b373f5"
+    },
+    {
+      "rsid": "rs35718992",
+      "archive_region": "BCL2L11",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs35718992-scores.csv.gz",
+      "sha256": "dde8e912f8bdd26ccac5d89acf9f90454087063b0bc5ecb5b8d285231a3eb826"
+    },
+    {
+      "rsid": "rs13405741",
+      "archive_region": "BCL2L11",
+      "role": "anchor",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs13405741-scores.csv.gz",
+      "sha256": "7e7d8ffc4f7fe01405f470d884c372ec13be4f51cdc92af356a32ed57bbe0f46"
+    },
+    {
+      "rsid": "rs4848397",
+      "archive_region": "BCL2L11",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs4848397-scores.csv.gz",
+      "sha256": "94c6b2ed75487938870287d4d1eac6f46a05f079374926ad47bbedead72c8e75"
+    },
+    {
+      "rsid": "rs10176092",
+      "archive_region": "BCL2L11",
+      "role": "comparator",
+      "status": "complete",
+      "rows": 8904,
+      "file": "rs10176092-scores.csv.gz",
+      "sha256": "449b328397a09d155deef22b7ba82c157e2c56b4030cf018fffe795aeb2cdb3d"
+    }
+  ],
+  "finished_at_utc": "2026-09-12T04:34:07.636122+00:00"
+}

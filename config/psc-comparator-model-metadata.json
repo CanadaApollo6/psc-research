@@ -1,0 +1,11 @@
+{
+  "retrieved_at_utc": "2026-09-12T04:18:49.019483+00:00",
+  "kind": "AlphaGenome output_metadata RPC",
+  "client_version": "0.9.0",
+  "model_selection": "ALL_FOLDS",
+  "organism": "HOMO_SAPIENS",
+  "file": "match-alphagenome-rna-seq-metadata.csv",
+  "sha256": "1098ccca476dc0a65490535a99cf42e81ec23d41f87430c208aa731ef811c828",
+  "tracks": 667,
+  "variant_predictions_requested": 0
+}

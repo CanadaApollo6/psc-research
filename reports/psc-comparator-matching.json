@@ -1,0 +1,74 @@
+{
+  "eur_reference_donors": 503,
+  "genotype_targets": 541,
+  "exact_genotypes_found": 540,
+  "reference_verified_targets": 541,
+  "anchors_matched": 3,
+  "anchors_total": 5,
+  "comparators_assigned": 6,
+  "maximum_model_requests_if_complete": 9,
+  "model_predictions_requested": 0,
+  "anchor_results": [
+    {
+      "archive_region": "IL2RA",
+      "anchor": "rs7923054",
+      "status": "matched",
+      "eur_maf": 0.14314115308151093,
+      "eur_called_donors": 503,
+      "eligible_comparators_at_assignment": 7,
+      "comparator_1": "rs7919234",
+      "comparator_2": "rs111845808",
+      "comparator_pair_r2": 0.0022530706622271406,
+      "joint_donors": 503
+    },
+    {
+      "archive_region": "BACH2",
+      "anchor": "rs7750271",
+      "status": "unmatched: no mutually eligible comparator pair",
+      "eur_maf": 0.15904572564612326,
+      "eur_called_donors": 503,
+      "eligible_comparators_at_assignment": 1,
+      "comparator_1": "",
+      "comparator_2": "",
+      "comparator_pair_r2": "",
+      "joint_donors": ""
+    },
+    {
+      "archive_region": "BACH2",
+      "anchor": "rs72928086",
+      "status": "unmatched: no mutually eligible comparator pair",
+      "eur_maf": 0.16003976143141152,
+      "eur_called_donors": 503,
+      "eligible_comparators_at_assignment": 0,
+      "comparator_1": "",
+      "comparator_2": "",
+      "comparator_pair_r2": "",
+      "joint_donors": ""
+    },
+    {
+      "archive_region": "BCL2L11",
+      "anchor": "rs72837826",
+      "status": "matched",
+      "eur_maf": 0.11332007952286283,
+      "eur_called_donors": 503,
+      "eligible_comparators_at_assignment": 11,
+      "comparator_1": "rs56366063",
+      "comparator_2": "rs35718992",
+      "comparator_pair_r2": 0.014271215755567185,
+      "joint_donors": 503
+    },
+    {
+      "archive_region": "BCL2L11",
+      "anchor": "rs13405741",
+      "status": "matched",
+      "eur_maf": 0.110337972166998,
+      "eur_called_donors": 503,
+      "eligible_comparators_at_assignment": 28,
+      "comparator_1": "rs4848397",
+      "comparator_2": "rs10176092",
+      "comparator_pair_r2": 0.0026109553814033055,
+      "joint_donors": 503
+    }
+  ],
+  "ld_screen_limit": "Excluded high-PIP anonymous identifiers, indels and multiallelic records remain outside this screen."
+}

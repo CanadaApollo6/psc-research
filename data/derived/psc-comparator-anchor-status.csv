@@ -1,0 +1,6 @@
+archive_region,anchor,status,eur_maf,eur_called_donors,eligible_comparators_at_assignment,comparator_1,comparator_2,comparator_pair_r2,joint_donors
+IL2RA,rs7923054,matched,0.14314115308151093,503,7,rs7919234,rs111845808,0.0022530706622271406,503
+BACH2,rs7750271,unmatched: no mutually eligible comparator pair,0.15904572564612326,503,1,,,,
+BACH2,rs72928086,unmatched: no mutually eligible comparator pair,0.16003976143141152,503,0,,,,
+BCL2L11,rs72837826,matched,0.11332007952286283,503,11,rs56366063,rs35718992,0.014271215755567185,503
+BCL2L11,rs13405741,matched,0.110337972166998,503,28,rs4848397,rs10176092,0.0026109553814033055,503

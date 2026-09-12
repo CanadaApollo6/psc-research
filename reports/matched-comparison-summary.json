@@ -1,0 +1,38 @@
+{
+  "run_directory": "data/predictions/20260912T043400Z-matched-comparison",
+  "model_requests": 9,
+  "complete_requests": 9,
+  "evaluable_variants": 9,
+  "evaluable_regions": 2,
+  "equal_weight_cross_region_median_contrast": -0.0002464055562500006,
+  "input_sha256": "100dafeda4f96b9d0927d5e250ede1c9d3adea4febcfd96340e5cf0cfbc6701d",
+  "primary_gene_effect": "For each variant and fixed gene, median across the pinned primary tracks of the absolute RNA_SEQ raw score",
+  "variant_effect": "Maximum gene_effect over the fixed region gene universe; keep the maximizing gene and every gene score",
+  "regions": [
+    {
+      "archive_region": "IL2RA",
+      "planned_anchors": 1,
+      "evaluable_anchors": 1,
+      "region_median_contrast": -0.0007176100750000006,
+      "status": "complete"
+    },
+    {
+      "archive_region": "BACH2",
+      "planned_anchors": 2,
+      "evaluable_anchors": 0,
+      "region_median_contrast": null,
+      "status": "unavailable"
+    },
+    {
+      "archive_region": "BCL2L11",
+      "planned_anchors": 2,
+      "evaluable_anchors": 2,
+      "region_median_contrast": 0.00022479896249999942,
+      "status": "complete"
+    }
+  ],
+  "summary_script_sha256": "a4eef92b845fb54f4b30108dd36af4a9c86361086bee47325bfb49eb1d44fced",
+  "evaluated_variant_gene_pairs": 228,
+  "evaluated_primary_track_scores": 456,
+  "interpretation_limit": "Descriptive model-score contrasts against uncertain statistical-priority labels. No independent accuracy, disease-risk direction or treatment-effect inference."
+}
