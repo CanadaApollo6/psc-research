@@ -1,0 +1,37 @@
+"gene_name","dataset_id","n_approximation","p12","status","nsnps","hit1","hit2","PP.H0.abf","PP.H1.abf","PP.H2.abf","PP.H3.abf","PP.H4.abf","idx1","idx2","gwas_component","qtl_component","reason"
+"PFKFB3","QTD000031",11386,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.79831010800211e-18,7.91190892604603e-11,4.80075031141956e-08,0.999999951570225,3.43153015396895e-10,1,2,1,2,
+"PFKFB3","QTD000031",11386,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.79831010917517e-18,7.91190892848953e-11,4.80075031290221e-08,0.999999951879063,3.43153015502874e-11,1,2,1,2,
+"PFKFB3","QTD000031",11386,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.79831009627148e-18,7.91190890161104e-11,4.80075029659301e-08,0.999999948481844,3.43153014337107e-09,1,2,1,2,
+"PFKFB3","QTD000031",3504,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",5.06219771842017e-18,7.91190879874832e-11,6.39819987893403e-08,0.999999935479695,4.59185076396899e-10,1,2,1,2,
+"PFKFB3","QTD000031",3504,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",5.0621977205122e-18,7.91190880201805e-11,6.39819988157819e-08,0.999999935892961,4.59185076586664e-11,1,2,1,2,
+"PFKFB3","QTD000031",3504,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",5.06219769749979e-18,7.91190876605105e-11,6.39819985249241e-08,0.999999931347029,4.59185074499239e-09,1,2,1,2,
+"PFKFB3","QTD000031",14890,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.68443211108239e-18,7.91190893751536e-11,4.65681792737739e-08,0.999999953019974,3.32724128432722e-10,1,2,1,2,
+"PFKFB3","QTD000031",14890,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.68443211218572e-18,7.91190893988465e-11,4.65681792877192e-08,0.999999953319432,3.32724128532358e-11,1,2,1,2,
+"PFKFB3","QTD000031",14890,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",6320,"chr10:6066377:A:G","chr10:6348230:C:G",3.68443210004931e-18,7.91190891382306e-11,4.6568179134325e-08,0.999999950025463,3.32724127436375e-09,1,2,1,2,
+"PFKFB3","QTD000439",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000444",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000449",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000454",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000459",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000464",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000469",11386,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.11022302462516e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",11386,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.11022302462516e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",11386,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.11022302462516e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",3504,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.33226762955019e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",3504,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.33226762955019e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",3504,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",-1.33226762955019e-15,,,,,1,1,1,1,
+"PFKFB3","QTD000469",14890,1e-06,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",8.88178419700125e-16,,,,,1,1,1,1,
+"PFKFB3","QTD000469",14890,1e-07,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",8.88178419700125e-16,,,,,1,1,1,1,
+"PFKFB3","QTD000469",14890,1e-05,"reference_LD_and_sample_heterogeneity_sensitivity",5857,"chr10:6066377:A:G","unmatched_nonSNV:chr10_6161575_TAC_T",8.88178419700125e-16,,,,,1,1,1,1,
+"PFKFB3","QTD000479",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"PFKFB3","QTD000484",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000031",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000439",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000444",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000449",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000454",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000459",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000464",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000469",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000479",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"
+"BCL2L11","QTD000484",,,"no_published_QTL_credible_set",,,,,,,,,,,,,"No published 95% SuSiE credible set for this gene/context; not a null RNA effect"

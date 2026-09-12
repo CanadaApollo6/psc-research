@@ -1,0 +1,412 @@
+{
+  "analysis": "PSC/CD4 regional colocalisation, original pass plus explicit platform-count amendment",
+  "date": "2026-09-12",
+  "planned_gene_context_pairs": 20,
+  "completed_original_baseline_rows": 120,
+  "completed_amended_baseline_rows": 120,
+  "signal_rows_with_complete_hypothesis_probabilities": 9,
+  "primary_snv_coverage_passes": 3,
+  "published_signal_audits": [
+    {
+      "dataset_id": "QTD000031",
+      "qtl_component": 1,
+      "complete_gene_variants": 10552,
+      "published_distinct_cs_variants": 5,
+      "published_source_cs_rows_including_aliases": 6,
+      "maximum_pip_reconstruction_difference": 1.459943277382081e-14,
+      "non_snv_signal_bf_mass": 0.4943689109565563,
+      "top_signal_variants": [
+        {
+          "source_variant": "chr10_6161637_TAGAG_T",
+          "component_bf_weight": 0.4754502380956058
+        },
+        {
+          "source_variant": "chr10_6163959_A_T",
+          "component_bf_weight": 0.14620505848090662
+        },
+        {
+          "source_variant": "chr10_6163803_C_T",
+          "component_bf_weight": 0.11475171549466924
+        },
+        {
+          "source_variant": "chr10_6163864_C_G",
+          "component_bf_weight": 0.1141640075156423
+        },
+        {
+          "source_variant": "chr10_6163912_A_G",
+          "component_bf_weight": 0.11394482293403789
+        },
+        {
+          "source_variant": "chr10_6170685_AGTATGGAGGTGGGGACAGG_A",
+          "component_bf_weight": 0.01737948137469099
+        },
+        {
+          "source_variant": "chr10_6168692_A_G",
+          "component_bf_weight": 0.012696406006331594
+        },
+        {
+          "source_variant": "chr10_6160921_T_A",
+          "component_bf_weight": 0.0011510405173954686
+        },
+        {
+          "source_variant": "chr10_6160010_G_C",
+          "component_bf_weight": 0.0009327980419841687
+        },
+        {
+          "source_variant": "chr10_6161189_T_G",
+          "component_bf_weight": 0.0008945944590508406
+        }
+      ]
+    },
+    {
+      "dataset_id": "QTD000031",
+      "qtl_component": 2,
+      "complete_gene_variants": 10552,
+      "published_distinct_cs_variants": 1,
+      "published_source_cs_rows_including_aliases": 1,
+      "maximum_pip_reconstruction_difference": 1.2212453270876722e-15,
+      "non_snv_signal_bf_mass": 0.00013081939190350304,
+      "top_signal_variants": [
+        {
+          "source_variant": "chr10_6348230_G_C",
+          "component_bf_weight": 0.993792006705492
+        },
+        {
+          "source_variant": "chr10_6349529_C_T",
+          "component_bf_weight": 0.0004535706270567755
+        },
+        {
+          "source_variant": "chr10_6356982_C_T",
+          "component_bf_weight": 0.0004512097513553752
+        },
+        {
+          "source_variant": "chr10_6360717_C_G",
+          "component_bf_weight": 0.00045039291780948643
+        },
+        {
+          "source_variant": "chr10_6357395_G_A",
+          "component_bf_weight": 0.00044995180612544084
+        },
+        {
+          "source_variant": "chr10_6351298_C_G",
+          "component_bf_weight": 0.0004494685873770826
+        },
+        {
+          "source_variant": "chr10_6354661_G_A",
+          "component_bf_weight": 0.00044937519358714643
+        },
+        {
+          "source_variant": "chr10_6356002_A_G",
+          "component_bf_weight": 0.00044909376973873875
+        },
+        {
+          "source_variant": "chr10_6360779_G_T",
+          "component_bf_weight": 0.0004488465929133672
+        },
+        {
+          "source_variant": "chr10_6359663_C_T",
+          "component_bf_weight": 0.0004488433071651412
+        }
+      ]
+    },
+    {
+      "dataset_id": "QTD000469",
+      "qtl_component": 1,
+      "complete_gene_variants": 10264,
+      "published_distinct_cs_variants": 10,
+      "published_source_cs_rows_including_aliases": 15,
+      "maximum_pip_reconstruction_difference": 1.1379786002407855e-14,
+      "non_snv_signal_bf_mass": 0.41758957308214517,
+      "top_signal_variants": [
+        {
+          "source_variant": "chr10_6161575_TAC_T",
+          "component_bf_weight": 0.2758254510775418
+        },
+        {
+          "source_variant": "chr10_6160921_T_A",
+          "component_bf_weight": 0.26989143453127884
+        },
+        {
+          "source_variant": "chr10_6163959_A_T",
+          "component_bf_weight": 0.08114310376350417
+        },
+        {
+          "source_variant": "chr10_6161637_TAGAG_T",
+          "component_bf_weight": 0.07202746759978233
+        },
+        {
+          "source_variant": "chr10_6170685_AGTATGGAGGTGGGGACAGG_A",
+          "component_bf_weight": 0.06908443890343174
+        },
+        {
+          "source_variant": "chr10_6160010_G_C",
+          "component_bf_weight": 0.05149964268729145
+        },
+        {
+          "source_variant": "chr10_6161664_A_G",
+          "component_bf_weight": 0.041745803776480066
+        },
+        {
+          "source_variant": "chr10_6161189_T_G",
+          "component_bf_weight": 0.041729222000774044
+        },
+        {
+          "source_variant": "chr10_6168692_A_G",
+          "component_bf_weight": 0.04012300951377934
+        },
+        {
+          "source_variant": "chr10_6163803_C_T",
+          "component_bf_weight": 0.019188987898786643
+        }
+      ]
+    }
+  ],
+  "published_signal_overlap": [
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 11386,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997779813,
+      "qtl_signal_mass_retained": 0.504740443451565,
+      "coverage_gate": false
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 11386,
+      "gwas_component": 1,
+      "qtl_component": 2,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997779813,
+      "qtl_signal_mass_retained": 0.999422548810607,
+      "coverage_gate": true
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 3504,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997069565,
+      "qtl_signal_mass_retained": 0.504740443451565,
+      "coverage_gate": false
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 3504,
+      "gwas_component": 1,
+      "qtl_component": 2,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997069565,
+      "qtl_signal_mass_retained": 0.999422548810607,
+      "coverage_gate": true
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 14890,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997844156,
+      "qtl_signal_mass_retained": 0.504740443451565,
+      "coverage_gate": false
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "n_approximation": 14890,
+      "gwas_component": 1,
+      "qtl_component": 2,
+      "common_variants": 6320,
+      "gwas_signal_mass_retained": 0.999999997844156,
+      "qtl_signal_mass_retained": 0.999422548810607,
+      "coverage_gate": true
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000469",
+      "n_approximation": 11386,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 5857,
+      "gwas_signal_mass_retained": 0.999999983841651,
+      "qtl_signal_mass_retained": 0.540627541898967,
+      "coverage_gate": false
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000469",
+      "n_approximation": 3504,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 5857,
+      "gwas_signal_mass_retained": 0.999999978763594,
+      "qtl_signal_mass_retained": 0.540627541898967,
+      "coverage_gate": false
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000469",
+      "n_approximation": 14890,
+      "gwas_component": 1,
+      "qtl_component": 1,
+      "common_variants": 5857,
+      "gwas_signal_mass_retained": 0.99999998430301,
+      "qtl_signal_mass_retained": 0.540627541898967,
+      "coverage_gate": false
+    }
+  ],
+  "signal_status_counts": {
+    "no_published_QTL_credible_set": 18,
+    "insufficient_signal_overlap": 18,
+    "distinct_signals_under_reference_LD_sensitivity": 9
+  },
+  "raw_signal_output_note": "The frozen coloc output omits BLUEPRINT component 1 after its coverage filter and returns incomplete NA vectors for DICE Treg. The separately derived signal-status table enumerates all 27 signal/prior/N combinations plus 18 gene-contexts without published credible sets; failed coverage has no posterior.",
+  "gwas_fits": {
+    "PFKFB3-N11386": {
+      "status": "converged",
+      "scalar_n_approximation": 11386,
+      "variants": 6815,
+      "estimated_ld_mismatch_s": 0.180438038196157,
+      "n_credible_sets": 1
+    },
+    "PFKFB3-N3504": {
+      "status": "converged",
+      "scalar_n_approximation": 3504,
+      "variants": 6815,
+      "estimated_ld_mismatch_s": 0.180274122715862,
+      "n_credible_sets": 1
+    },
+    "PFKFB3-N14890": {
+      "status": "converged",
+      "scalar_n_approximation": 14890,
+      "variants": 6815,
+      "estimated_ld_mismatch_s": 0.180455337910109,
+      "n_credible_sets": 1
+    },
+    "BCL2L11-N11386": {
+      "status": "converged",
+      "scalar_n_approximation": 11386,
+      "variants": 2709,
+      "estimated_ld_mismatch_s": 0.0544866465148027,
+      "n_credible_sets": 1
+    },
+    "BCL2L11-N3504": {
+      "status": "converged",
+      "scalar_n_approximation": 3504,
+      "variants": 2709,
+      "estimated_ld_mismatch_s": 0.0544553682694024,
+      "n_credible_sets": 1
+    },
+    "BCL2L11-N14890": {
+      "status": "converged",
+      "scalar_n_approximation": 14890,
+      "variants": 2709,
+      "estimated_ld_mismatch_s": 0.0544899691582046,
+      "n_credible_sets": 1
+    }
+  },
+  "maximum_python_vs_R_logbf_difference": 7.389644451905042e-13,
+  "missing_variant_weight_definition": "Normalized single-signal ABF weight among eligible GWAS SNPs; not a clinical or model-free causal probability. Table retains top 20 absent SNPs per gene/context.",
+  "interpretation": {
+    "PFKFB3": "Eligible-SNP baseline favors distinct PSC/RNA signals in both earlier positive contexts. The strongest published RNA components fail full signal coverage because indels carry substantial evidence. Any interpretable secondary-signal result is restricted to that component and to approximate external-LD GWAS fits.",
+    "BCL2L11": "Unresolved: all contexts fail the joint baseline evidence-coverage gate and no published 95% QTL credible set was found in the selected contexts.",
+    "clinical": "No validated mechanism, treatment target, PSC progression inference or clinical recommendation."
+  },
+  "source_sha256": {
+    "config/cd4-rna-plan.json": "77e21e581b40c7335b2a2a22ef3f862e909a96fe949ef3bf8d44e7993323ecd3",
+    "config/cd4-rna-sources.json": "08ffe509c1ae112c2a7b8254add80d9baceff85f3021cf42c49ec6f152c982b7",
+    "config/coloc-analysis-inputs.json": "2d117a295e0a08662204dbda9d67516f44c9054b506cdd4467d5cf4994e595ac",
+    "config/coloc-gwas-queries.json": "e1fa2406b123ef58b40bb0cc62b84c3954fc1980b31850a380e30c1e268d3dfd",
+    "config/coloc-plan.json": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+    "config/coloc-platform-analysis-inputs.json": "268236fd84cb4287762c9b39d2582b144a764f3a52d2d1ff18bc545474a9a1da",
+    "config/coloc-platform-plan.json": "a54e676c5272a52f45b469286ae5b3eebbfbebcaa9f2c5c0c05254645f3d6407",
+    "config/coloc-platform-sources.json": "517379e5d46d07ca483d6cabdc2a427e5ab556fdfb4208a65b3d5db32e13fbe2",
+    "config/coloc-published-bf-queries.json": "0f59de7a43c196a6cfdca594fc6440cae6e197438b79671754a5232eba674249",
+    "config/coloc-qtl-queries.json": "2d325d9912052d206a00308a093a34f8ac021f18fc57195c4bc2cf4c8f43911f",
+    "config/coloc-reference-queries.json": "719ea30b606ecf11f2bb056bdd36da2fba40bff003c75a2295f523f719b7967b",
+    "config/coloc-runtime.json": "8a0a71c0d23601d1182b0e847685609fd49f7925c8023f6a3a18abcc39e1a999",
+    "config/coloc-sources.json": "d093286478dee9e7e975f50a9bbaf0b1e5f97cf5991823f4e3c57dc5e72e860a",
+    "data/derived/coloc-inputs/GWAS-BCL2L11-ld.csv.gz": "10a0bd70bd93c68bc5cbf093921ff51786d190688e9eaf22e41dce0b69c3c6fa",
+    "data/derived/coloc-inputs/GWAS-BCL2L11.csv.gz": "427b703c665eed33f6b884cb0d11e95cea03c1c0cbcf666baf7dee4d7e044e2b",
+    "data/derived/coloc-inputs/GWAS-PFKFB3-ld.csv.gz": "5c4fd09ef9b32eeb6dcd839fc4f5ac5f4910267935da45237112d419488cc09e",
+    "data/derived/coloc-inputs/GWAS-PFKFB3.csv.gz": "0c21bd2f2f1db40f7b10302e2d3cb1750565c21cc10dfc40053cae12a0fcd12c",
+    "data/derived/coloc-inputs/QTD000031-BCL2L11-ld.csv.gz": "349cbfc8d0d27d85321c8265b8047f66a3a01fb0a4ac6c8ed9adaea7aa667914",
+    "data/derived/coloc-inputs/QTD000031-BCL2L11.csv.gz": "942a027500cfca951d9e5fdf232cff7e74846f26b2df631b2d89aebfeef9378c",
+    "data/derived/coloc-inputs/QTD000031-PFKFB3-ld.csv.gz": "9c83800a3fff13568760317c96faa7996d4907d851bf442041902fdae9816cce",
+    "data/derived/coloc-inputs/QTD000031-PFKFB3.csv.gz": "a6c3e5892f8ca647eb879bf0d4eddc050ea2ec4a82a9fa7241f45e9eb4a11d7e",
+    "data/derived/coloc-inputs/QTD000439-BCL2L11.csv.gz": "e638a4b51e6b6989992ad257c4bc5d019b8a2372bf7f47ee55359a63518a7066",
+    "data/derived/coloc-inputs/QTD000439-PFKFB3.csv.gz": "23cadc2e5d89e38f8836a4d8dc01f3504091d0c2d8c600977987c84e4f37bd1a",
+    "data/derived/coloc-inputs/QTD000444-BCL2L11.csv.gz": "6844918b16c4bb16779f53356037b0078fb4d7e0a089d88cf3abea9de6063f13",
+    "data/derived/coloc-inputs/QTD000444-PFKFB3.csv.gz": "7a07eb3e4218ec309233db07bbc0bd4d996f47667a351e9201522ac27f6fe38c",
+    "data/derived/coloc-inputs/QTD000449-BCL2L11.csv.gz": "c89d51305b602b8ebf298b723635bbdbe30bead4070c74d8602c555f84742de9",
+    "data/derived/coloc-inputs/QTD000449-PFKFB3.csv.gz": "809b6468c4a13af3019cbd302d83502e888c69a57333efb4345ed3891a70ec14",
+    "data/derived/coloc-inputs/QTD000454-BCL2L11.csv.gz": "90a95f51816e4a72cc0de9888817083d5265ead7b3533f528ca291c0b3c9e6a8",
+    "data/derived/coloc-inputs/QTD000454-PFKFB3.csv.gz": "a3d848dd7e03b9688c6405fbcb2752eba333aa95b38e914819466a9262aa8a69",
+    "data/derived/coloc-inputs/QTD000459-BCL2L11.csv.gz": "9809f150ac0bb3ca343b713a98293043fa514afe3f5bc18a57210a28847db334",
+    "data/derived/coloc-inputs/QTD000459-PFKFB3.csv.gz": "c22128ecbee64d215e6a9e99af5ff8925fabde3c71fd061879e3f43850f18a55",
+    "data/derived/coloc-inputs/QTD000464-BCL2L11.csv.gz": "146909f70b513f763f6d1f9b99cb1d3398bd418759a2ea6a001526d72e574d8d",
+    "data/derived/coloc-inputs/QTD000464-PFKFB3.csv.gz": "6638f37cf71f2b2abfaf90cbc525a52a5c2a8580289432932e29160569c8aa56",
+    "data/derived/coloc-inputs/QTD000469-BCL2L11.csv.gz": "7f6068c88673ff5e746ddac019bae1f6005a503005ee464043dd426087c1998a",
+    "data/derived/coloc-inputs/QTD000469-PFKFB3.csv.gz": "11af34fa66d1185f1d8f55b81478233b220becfb64392ec66e02831ae9d80ea5",
+    "data/derived/coloc-inputs/QTD000479-BCL2L11.csv.gz": "73b7d20b77553f8ec504187b5df0fcaba99b6df2ca2f8d5b240a400985f4902d",
+    "data/derived/coloc-inputs/QTD000479-PFKFB3.csv.gz": "82fa47329c60f3fa5ec2af2bf63d17ff923ec09ea32dab834097e72432131236",
+    "data/derived/coloc-inputs/QTD000484-BCL2L11.csv.gz": "d8c3f02baa03b114764e05e1278ca84f516b7d2c13aa1c7e84e3aa334f6d00dc",
+    "data/derived/coloc-inputs/QTD000484-PFKFB3.csv.gz": "fdc91f4c0d1162c499be759ec25a28e421ae2d1448709e41c4f2d32905d8cbb3",
+    "data/derived/coloc-platform-inputs/GWAS-BCL2L11-ld.csv.gz": "ef3600a8a8e2b9e76efeeb5d5eb3edae068cd7972690c5a9b9002bf5c3385fb9",
+    "data/derived/coloc-platform-inputs/GWAS-BCL2L11.csv.gz": "c9d18f3acc27b747ec6ad9662ad0767045afeddd06c3fd3ef135388d6c8a4ff5",
+    "data/derived/coloc-platform-inputs/GWAS-PFKFB3-ld.csv.gz": "e148866cb5065fd4ce5180a59321ccde3254a9ef54533fe7b3272c6aa5b13e7a",
+    "data/derived/coloc-platform-inputs/GWAS-PFKFB3.csv.gz": "a4480ca28f1cc6710532cc0f28536a39882723dc73b573cef2372c69b1386010",
+    "data/derived/coloc-published-credible-sets.csv.gz": "53b3e7ccef99955c926aad0decd9627c54d124002ee44062371fae2ddab78f40",
+    "data/derived/coloc-query-rows/QTD000031-PFKFB3-published-bfs.tsv.gz": "a1d394447278b315869d3c365c44d6914701af8bbc68e7b2c1ed0139a5b25a5e",
+    "data/derived/coloc-query-rows/QTD000469-PFKFB3-published-bfs.tsv.gz": "bd79354a4170d1f115396b96f2dcff5e1977a339fc4a6b854a61e5e7af01e803",
+    "data/raw/GCST004030-original-header.txt": "82fb5939a11d388780fac1d303fc83875ed5784e6f7490f50d21d78db3769888",
+    "data/raw/GCST004030.json": "26ce9435122ad7c435a86e38646d0dcd6a5b22466083c26bdbe96e20e765ccdc",
+    "data/raw/Ji2017.html": "befb528e635906fd7aef37ebcfef4e33afbb134bf11b5cf735e37203b1e3ecfb",
+    "data/raw/cd4-gene-phenotypes.tsv.gz": "c2f3647901119fc211db8e8a157dd567f70e0716d7e2a2d9baf263aa1405ea15",
+    "data/raw/coloc-hg19-to-hg38-chain.gz": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+    "data/raw/coloc-hg38-to-hg19-chain.gz": "14a712e8e147d9fc8e9d87d51977b46f6f8ddb93efbe5d0843d86b6205f587b1",
+    "data/raw/coloc-ld/GWAS-BCL2L11.json": "93492026ebfc57b4e8191b0a16ccd705850007a80b63e641966f079655707b10",
+    "data/raw/coloc-ld/GWAS-PFKFB3.json": "dee38d8b1a00bcc1eda554bed2834148df0cc88564676cef8266edb32da1aad7",
+    "data/raw/coloc-ld/QTD000031-BCL2L11.json": "47d21d5a3ea8c283928272ffded095733a7837391f171bc99769d353f066ba16",
+    "data/raw/coloc-ld/QTD000031-PFKFB3.json": "f2148bef3a1feb4fef8fe84173f06c07964f92601902fbe152052b4b2a7160b1",
+    "reports/cd4-rna-evidence.csv": "c039119dfe9d9cbbdcef1d56e81d11bd5bc30452b3e15a9934697b1efdbb8873",
+    "reports/cd4-rna-summary.json": "25268ae67f5965b0e944974d5e8bd9c38e7cd7b27abad96f03fc0a4cb59bced6",
+    "reports/coloc-baseline.csv": "5152eeef099f43e912a798fd302e2ce760f161b2c3e14ac22ba3fdee10a0a3cb",
+    "reports/coloc-input-audit.json": "d4b74f51368f871333786bcdfeb75a6bcc0aa284651ed1dc23df37cd161c58f7",
+    "reports/coloc-platform-baseline.csv": "bd90528fc0a36a5a336e85dc26463123cdd581b31a8a46477e2b2f26bd10eac9",
+    "reports/coloc-platform-input-audit.json": "27890ca6b11ef23410931194ae1ef7c5b29a0b9bc6d88d0fdd5017334c2f0509",
+    "reports/coloc-platform-run-provenance.json": "f303cdbeb9cdd42b94989d93a83e5b16ea192edaa5fad6e842d1c1d9d35f73a5",
+    "reports/coloc-platform-variant-posteriors.csv.gz": "83c9b2f8762dd5191bf4892d63484fd4768eb8282694450d13d51631acc5155a",
+    "reports/coloc-published-signal-comparison.csv": "7b585848673d1d6d150b27570c99f4771bf7e85fc769e2725c91bad0364eee46",
+    "reports/coloc-published-signal-overlap.csv": "fa0fae0158e0b47a97b144084563301d6c4dd93efd818a41acdb464ce26376a5",
+    "reports/coloc-run-provenance.json": "6ca2ea40e81ef5eee08f61d8a24290110010461bad27f7eee3f1212ed6e0469a",
+    "requirements-coloc-linux-64.lock": "d000826d5ecba9aa716d4fbe45af57976f67f7f13d0e2aa721d12330d0d21094",
+    "requirements-coloc-python.txt": "78b145737a7397b938628696525f2e4155a6ada39742a268eb979dfaae02c9e6",
+    "scripts/coloc_common.py": "f5bf68c806b4082024e82bd0ef209dfdbc8744c234d9adacd804338f2b6a1141",
+    "scripts/prepare_coloc_inputs.py": "b28533e570f89f1ffce345008bed2424165aae0d313a565324e8bf5c9f8f69c6",
+    "scripts/prepare_coloc_platform_inputs.py": "4bb3852229b57acbf6e025aca7d5b70e12a3beceb328428318e4672132cb450f",
+    "scripts/replay_coloc_baseline.py": "541a2f4a84a55e391e9b89aaeb59a69c23c443dbfae9b6638aa143785573101e",
+    "scripts/run_coloc.R": "12f1bfe1d05a394f4d3ca04ad5e6364110210eb5749a2b49d165ccdd2ef63bfc",
+    "scripts/run_coloc_platform.R": "b554bec8bb5e87968bc3aae31f3248385111ebc38e12e0a3326c30f955e40e78",
+    "scripts/summarize_coloc.py": "a8ca7c82c44121d0e57ef2dd8668a9363a9313f978e7e57cca9654973518eb6e",
+    "scripts/verify_coloc_artifacts.py": "38c53aef890bc1cdd058f7d0754fd08b7b2e60c3e6a2c446e810c3a76b6b77ef"
+  },
+  "generated_sha256": {
+    "reports/coloc-context-summary.csv": "947ac7db3ea8cdeab254191ebc63166fb0099c5fac15ab754ea93dd8966f6ddb",
+    "reports/coloc-missing-gwas-variants.csv": "41bc880fc8738376d1087e23ee5c6e4f89295d47602f6f2822ad4e8b97fe4e7c",
+    "reports/coloc-signal-status.csv": "f1255314a779778d92ea894eb76c74470860388e1b9e6fbc6374da830022620e",
+    "reports/figures/coloc-bcl2l11-regions.png": "3eaf87277d4870cb8ad511d7988720015e06034cde417abf118ef05228bc49ad",
+    "reports/figures/coloc-bcl2l11-regions.svg": "a78727d6d989850226b00dd0f668a66799274353a0d8d79d250f18f1fc12b649",
+    "reports/figures/coloc-coverage.png": "7512978def00cfceb624e5481a39b1e068c3f74e7f14dcaee8113632a77d65b8",
+    "reports/figures/coloc-coverage.svg": "38b9bf6b909b56f7409b15713382df2a60303f4c18ef9a05db7b09cf434ebeac",
+    "reports/figures/coloc-pfkfb3-regions.png": "48b50a9714d522f5d259e09164f445e80bba11082be9a3716b271fccf6dffb7b",
+    "reports/figures/coloc-pfkfb3-regions.svg": "43e5a5c52e612e1b7b0dcd17b7e147ee88bc74961b002418bf629bbb637d28e7"
+  }
+}

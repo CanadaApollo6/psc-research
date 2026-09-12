@@ -1,0 +1,30 @@
+{
+  "dataset_id": "GWAS",
+  "gene_name": "BCL2L11",
+  "status": "converged",
+  "n_variants": 2067,
+  "n": 14890,
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "estimated_ld_mismatch_s": 0.00550528319633754,
+  "min_eigenvalue": -1.70484257667075e-13,
+  "reference_rank": 432,
+  "warnings": "`aes_string()` was deprecated in ggplot2 3.0.0.\nℹ Please use tidy evaluation idioms with `aes()`.\nℹ See also `vignette(\"ggplot2-in-packages\")` for more information.\nℹ The deprecated feature was likely used in the susieR package.\n  Please report the issue at <https://github.com/stephenslab/susieR/issues>.",
+  "error": null,
+  "diagnostic_flagged_variants": 0,
+  "n_credible_sets": 1,
+  "iterations": 4,
+  "credible_sets": [
+    {
+      "component": 1,
+      "snps": ["chr2:111050598:C:G", "chr2:111052260:C:T", "chr2:111052443:C:G", "chr2:111053056:A:G", "chr2:111053267:G:T", "chr2:111053529:C:G", "chr2:111057740:A:G", "chr2:111058015:A:T", "chr2:111059463:C:T", "chr2:111060228:C:T", "chr2:111060806:C:T", "chr2:111063952:A:C", "chr2:111064023:A:G", "chr2:111065460:A:G", "chr2:111066072:C:T", "chr2:111066085:A:G", "chr2:111066258:C:T", "chr2:111066376:A:G", "chr2:111067015:A:G", "chr2:111068709:C:T", "chr2:111068715:C:G", "chr2:111068812:C:T", "chr2:111071615:A:G", "chr2:111073031:C:T", "chr2:111073328:A:G", "chr2:111073601:A:C", "chr2:111074144:A:G", "chr2:111074178:C:T", "chr2:111077730:A:C", "chr2:111078489:C:G", "chr2:111079421:C:T", "chr2:111079539:A:G", "chr2:111081756:C:T", "chr2:111082141:A:C", "chr2:111082270:A:G", "chr2:111082282:G:T", "chr2:111082637:A:G", "chr2:111083188:A:C", "chr2:111083885:A:T", "chr2:111084056:A:G", "chr2:111084442:C:T", "chr2:111085171:C:T", "chr2:111085373:A:G", "chr2:111088087:A:G", "chr2:111092227:C:T", "chr2:111093621:A:T", "chr2:111093820:C:T", "chr2:111094039:A:G", "chr2:111094789:A:G"],
+      "size": 49,
+      "purity": {
+        "min.abs.corr": 0.562755689637853,
+        "mean.abs.corr": 0.94336790477208,
+        "median.abs.corr": 0.984872647102767
+      },
+      "log_bf": 4.12508922737
+    }
+  ]
+}

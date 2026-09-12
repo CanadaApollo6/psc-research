@@ -1,0 +1,28 @@
+{
+  "gene_name": "PFKFB3",
+  "status": "converged",
+  "scalar_n_approximation": 3504,
+  "actual_variant_N_range": [3504, 14890],
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "variants": 6815,
+  "min_eigenvalue": -2.84104773853446e-13,
+  "estimated_ld_mismatch_s": 0.180274122715862,
+  "warnings": [],
+  "error": null,
+  "n_credible_sets": 1,
+  "iterations": 4,
+  "credible_sets": [
+    {
+      "component": 1,
+      "size": 6,
+      "snps": ["chr10:6056986:C:T", "chr10:6064303:C:T", "chr10:6064589:C:T", "chr10:6064675:C:T", "chr10:6066377:A:G", "chr10:6066476:A:G"],
+      "purity": {
+        "min.abs.corr": 0.783816999274108,
+        "mean.abs.corr": 0.927397890217051,
+        "median.abs.corr": 0.957337315066992
+      },
+      "log_bf": 16.9482245745846
+    }
+  ]
+}

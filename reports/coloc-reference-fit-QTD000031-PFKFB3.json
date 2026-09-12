@@ -1,0 +1,63 @@
+{
+  "dataset_id": "QTD000031",
+  "gene_name": "PFKFB3",
+  "status": "converged",
+  "n_variants": 8167,
+  "n": 167,
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "estimated_ld_mismatch_s": 0.199815742302441,
+  "min_eigenvalue": -3.10210965152368e-13,
+  "reference_rank": 502,
+  "warnings": "`aes_string()` was deprecated in ggplot2 3.0.0.\nℹ Please use tidy evaluation idioms with `aes()`.\nℹ See also `vignette(\"ggplot2-in-packages\")` for more information.\nℹ The deprecated feature was likely used in the susieR package.\n  Please report the issue at <https://github.com/stephenslab/susieR/issues>.",
+  "error": null,
+  "diagnostic_flagged_variants": 3,
+  "n_credible_sets": 4,
+  "iterations": 13,
+  "credible_sets": [
+    {
+      "component": 2,
+      "snps": "chr10:6161639:G:T",
+      "size": 1,
+      "purity": {
+        "min.abs.corr": 1,
+        "mean.abs.corr": 1,
+        "median.abs.corr": 1
+      },
+      "log_bf": 155.120430285604
+    },
+    {
+      "component": 3,
+      "snps": ["chr10:6167311:C:G", "chr10:6169124:A:T", "chr10:6170465:C:G"],
+      "size": 3,
+      "purity": {
+        "min.abs.corr": 0.98859129214639,
+        "mean.abs.corr": 0.992382327840471,
+        "median.abs.corr": 0.992363930439063
+      },
+      "log_bf": 125.426622579094
+    },
+    {
+      "component": 1,
+      "snps": ["chr10:6160010:C:G", "chr10:6160921:A:T", "chr10:6161189:G:T", "chr10:6161664:A:G", "chr10:6163803:C:T", "chr10:6163864:C:G", "chr10:6163912:A:G", "chr10:6163959:A:T", "chr10:6168692:A:G"],
+      "size": 9,
+      "purity": {
+        "min.abs.corr": 0.924127941740662,
+        "mean.abs.corr": 0.965033719781246,
+        "median.abs.corr": 0.952932206271959
+      },
+      "log_bf": 8.02443503307309
+    },
+    {
+      "component": 4,
+      "snps": ["chr10:6348230:C:G", "chr10:6348488:A:G", "chr10:6349099:A:G", "chr10:6349529:C:T", "chr10:6350886:A:G", "chr10:6351047:A:G", "chr10:6351298:C:G", "chr10:6356002:A:G", "chr10:6356982:C:T", "chr10:6357395:A:G", "chr10:6357549:C:T", "chr10:6359617:A:G", "chr10:6359653:A:G", "chr10:6359663:C:T", "chr10:6360717:C:G", "chr10:6360779:G:T", "chr10:6363572:A:C", "chr10:6365498:C:T"],
+      "size": 18,
+      "purity": {
+        "min.abs.corr": 0.643780718104883,
+        "mean.abs.corr": 0.857348834891261,
+        "median.abs.corr": 0.871911890496465
+      },
+      "log_bf": 4.63411712376215
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "plan_sha256": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+  "source_manifest_sha256": "d093286478dee9e7e975f50a9bbaf0b1e5f97cf5991823f4e3c57dc5e72e860a",
+  "reader_sha256": "cdf250a6a25cd92254492a0fbe2d293b9d86d589559e91dda70b21e42fc84c99",
+  "pysam_version": "0.23.3",
+  "started_at_utc": "2026-09-12T11:28:28.948985+00:00",
+  "queries": [
+    {
+      "id": "EUR-PFKFB3",
+      "file": "data/raw/coloc-EUR-PFKFB3-dosages.tsv.gz",
+      "sha256": "344e65256ec718e7c0f0dfa5daee4108cc375cec460e40164b0e673dc12d5e54",
+      "uncompressed_sha256": "538662ec9caa951caad6bbc290471a917622deeeed06b4f4629d88282a1e1765",
+      "bytes": 1180310,
+      "finished_at_utc": "2026-09-12T11:28:50.094581+00:00",
+      "rows": 64709,
+      "region": {
+        "gene_id": "ENSG00000170525",
+        "gene_name": "PFKFB3",
+        "anchor": "rs7923054",
+        "chromosome": "chr10",
+        "tss_grch38_1based": 6144934,
+        "start_grch38_0based": 5144933,
+        "end_grch38_exclusive": 7144934,
+        "start_grch37_0based": 5186125,
+        "end_grch37_exclusive": 7187896
+      },
+      "source_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "donors": 503,
+      "all_reference_rows_scanned": 67804,
+      "all_reference_bytes_scanned": 688868232,
+      "source_build": "GRCh37"
+    },
+    {
+      "id": "EUR-BCL2L11",
+      "file": "data/raw/coloc-EUR-BCL2L11-dosages.tsv.gz",
+      "sha256": "5ee9d1f84833dcb8b52e007ff3789f80e4a07fea70eec70758dbb9dd53cfca86",
+      "uncompressed_sha256": "5e2ba622207f9d496620438abc57cc5e6bc12f639fe8f7c6bca5151ad4c627d0",
+      "bytes": 637532,
+      "finished_at_utc": "2026-09-12T11:29:05.998185+00:00",
+      "rows": 40570,
+      "region": {
+        "gene_id": "ENSG00000153094",
+        "gene_name": "BCL2L11",
+        "anchor": "rs72837826",
+        "chromosome": "chr2",
+        "tss_grch38_1based": 111119378,
+        "start_grch38_0based": 110119377,
+        "end_grch38_exclusive": 112119378,
+        "start_grch37_0based": 110875954,
+        "end_grch37_exclusive": 112877955
+      },
+      "source_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "donors": 503,
+      "all_reference_rows_scanned": 42299,
+      "all_reference_bytes_scanned": 429745224,
+      "source_build": "GRCh37"
+    }
+  ],
+  "ranges": [],
+  "finished_at_utc": "2026-09-12T11:29:07.998553+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "amendment_sha256": "a54e676c5272a52f45b469286ae5b3eebbfbebcaa9f2c5c0c05254645f3d6407",
+  "datasets": [
+    {
+      "gene_name": "PFKFB3",
+      "raw_gwas_rows": 7639,
+      "eligible_unique_snvs": 6919,
+      "reference_LD_variants": 6815,
+      "status_counts": {
+        "outside_fixed_grch38_region": 5,
+        "eligible": 6919,
+        "palindromic_reference_frequency_unavailable": 27,
+        "not_biallelic_snv": 680,
+        "nonunique_or_nonreciprocal_mapping": 8
+      },
+      "platform_counts_in_input": {
+        "both": 4415,
+        "omni": 2422,
+        "affy": 82
+      },
+      "matrix_file": "data/raw/coloc-platform-ld/GWAS-PFKFB3.f64",
+      "matrix_sha256": "426226fd24f10bdc5f30282ca63bc34b14b24f3d79312adbfce1af10d699ce72",
+      "reference_donors": 503
+    },
+    {
+      "gene_name": "BCL2L11",
+      "raw_gwas_rows": 3014,
+      "eligible_unique_snvs": 2742,
+      "reference_LD_variants": 2709,
+      "status_counts": {
+        "outside_fixed_grch38_region": 5,
+        "eligible": 2742,
+        "not_biallelic_snv": 260,
+        "palindromic_reference_frequency_unavailable": 7
+      },
+      "platform_counts_in_input": {
+        "both": 2079,
+        "omni": 634,
+        "affy": 29
+      },
+      "matrix_file": "data/raw/coloc-platform-ld/GWAS-BCL2L11.f64",
+      "matrix_sha256": "0d0c2287a4175eff3e1468c1b77deddd19dc46a62a046dcaf156f7ab599d2aea",
+      "reference_donors": 503
+    }
+  ],
+  "input_sha256": {
+    "data/derived/coloc-platform-inputs/GWAS-BCL2L11-ld.csv.gz": "ef3600a8a8e2b9e76efeeb5d5eb3edae068cd7972690c5a9b9002bf5c3385fb9",
+    "data/derived/coloc-platform-inputs/GWAS-BCL2L11.csv.gz": "c9d18f3acc27b747ec6ad9662ad0767045afeddd06c3fd3ef135388d6c8a4ff5",
+    "data/derived/coloc-platform-inputs/GWAS-PFKFB3-ld.csv.gz": "e148866cb5065fd4ce5180a59321ccde3254a9ef54533fe7b3272c6aa5b13e7a",
+    "data/derived/coloc-platform-inputs/GWAS-PFKFB3.csv.gz": "a4480ca28f1cc6710532cc0f28536a39882723dc73b573cef2372c69b1386010"
+  },
+  "preparation_script_sha256": "4bb3852229b57acbf6e025aca7d5b70e12a3beceb328428318e4672132cb450f"
+}

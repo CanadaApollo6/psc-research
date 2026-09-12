@@ -1,0 +1,46 @@
+gene_name,dataset_id,status,reason,n_approximation,gwas_component,qtl_component,common_variants,gwas_signal_mass_retained,qtl_signal_mass_retained,p12,coverage_gate,PP.H0.abf,PP.H1.abf,PP.H2.abf,PP.H3.abf,PP.H4.abf
+PFKFB3,QTD000439,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000444,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000449,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000454,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000459,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000464,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000479,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000484,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000031,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000439,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000444,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000449,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000454,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000459,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000464,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000469,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000479,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+BCL2L11,QTD000484,no_published_QTL_credible_set,No published 95% SuSiE credible set for this gene/context; not a null RNA effect,,,,,,,,,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,6320.0,0.999999997779813,0.504740443451565,1e-06,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,6320.0,0.999999997779813,0.504740443451565,1e-07,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,6320.0,0.999999997779813,0.504740443451565,1e-05,False,,,,,
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,11386.0,1.0,2.0,6320.0,0.999999997779813,0.999422548810607,1e-06,True,3.79831010800211e-18,7.91190892604603e-11,4.80075031141956e-08,0.999999951570225,3.43153015396895e-10
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,11386.0,1.0,2.0,6320.0,0.999999997779813,0.999422548810607,1e-07,True,3.79831010917517e-18,7.911908928489529e-11,4.80075031290221e-08,0.999999951879063,3.4315301550287395e-11
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,11386.0,1.0,2.0,6320.0,0.999999997779813,0.999422548810607,1e-05,True,3.79831009627148e-18,7.91190890161104e-11,4.80075029659301e-08,0.999999948481844,3.43153014337107e-09
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,6320.0,0.999999997069565,0.504740443451565,1e-06,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,6320.0,0.999999997069565,0.504740443451565,1e-07,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,6320.0,0.999999997069565,0.504740443451565,1e-05,False,,,,,
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,3504.0,1.0,2.0,6320.0,0.999999997069565,0.999422548810607,1e-06,True,5.06219771842017e-18,7.911908798748319e-11,6.39819987893403e-08,0.999999935479695,4.59185076396899e-10
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,3504.0,1.0,2.0,6320.0,0.999999997069565,0.999422548810607,1e-07,True,5.0621977205122005e-18,7.911908802018049e-11,6.39819988157819e-08,0.999999935892961,4.5918507658666395e-11
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,3504.0,1.0,2.0,6320.0,0.999999997069565,0.999422548810607,1e-05,True,5.06219769749979e-18,7.91190876605105e-11,6.39819985249241e-08,0.999999931347029,4.59185074499239e-09
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,6320.0,0.999999997844156,0.504740443451565,1e-06,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,6320.0,0.999999997844156,0.504740443451565,1e-07,False,,,,,
+PFKFB3,QTD000031,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,6320.0,0.999999997844156,0.504740443451565,1e-05,False,,,,,
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,14890.0,1.0,2.0,6320.0,0.999999997844156,0.999422548810607,1e-06,True,3.68443211108239e-18,7.911908937515359e-11,4.65681792737739e-08,0.999999953019974,3.32724128432722e-10
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,14890.0,1.0,2.0,6320.0,0.999999997844156,0.999422548810607,1e-07,True,3.68443211218572e-18,7.911908939884649e-11,4.65681792877192e-08,0.999999953319432,3.3272412853235795e-11
+PFKFB3,QTD000031,distinct_signals_under_reference_LD_sensitivity,,14890.0,1.0,2.0,6320.0,0.999999997844156,0.999422548810607,1e-05,True,3.6844321000493096e-18,7.91190891382306e-11,4.6568179134325e-08,0.999999950025463,3.3272412743637502e-09
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,5857.0,0.999999983841651,0.540627541898967,1e-06,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,5857.0,0.999999983841651,0.540627541898967,1e-07,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,11386.0,1.0,1.0,5857.0,0.999999983841651,0.540627541898967,1e-05,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,5857.0,0.999999978763594,0.540627541898967,1e-06,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,5857.0,0.999999978763594,0.540627541898967,1e-07,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,3504.0,1.0,1.0,5857.0,0.999999978763594,0.540627541898967,1e-05,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,5857.0,0.99999998430301,0.540627541898967,1e-06,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,5857.0,0.99999998430301,0.540627541898967,1e-07,False,,,,,
+PFKFB3,QTD000469,insufficient_signal_overlap,Below fixed 90% signal-weight coverage; no hypothesis posterior is interpretable,14890.0,1.0,1.0,5857.0,0.99999998430301,0.540627541898967,1e-05,False,,,,,

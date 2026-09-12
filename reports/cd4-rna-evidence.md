@@ -1,5 +1,7 @@
 # CD4 RNA evidence: two supported associations, mixed model directions
 
+Subsequent result: the [regional colocalisation assessment](colocalisation.md) is complete for PFKFB3 and BCL2L11 across all ten contexts. It finds no supported shared PSC–RNA signal, with explicit variant-coverage limits. The original RNA associations and this report's frozen analysis remain unchanged.
+
 Completed September 12, 2026. **Measured RNA data support two variant–gene associations worth investigating: rs7923054 with PFKFB3, and rs72837826 with BCL2L11.** Five dataset-level associations pass the fixed statistical screen, representing these two pairs. Both involve higher RNA per alternate allele. AlphaGenome's two CD4 RNA tracks disagree on direction for both pairs, so this is not a clear validation of the model's predicted direction.
 
 We queried all nine variants from the [completed matched comparison](matched-comparison.md) in ten public CD4 datasets. All 90 queries succeeded. Of **2,280 planned dataset–variant–gene comparisons**, **693 have usable measurements** and 1,587 remain unavailable. Every prioritized variant, comparison variant, gene and missing measurement is retained. No new AlphaGenome request was needed.

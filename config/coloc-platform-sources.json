@@ -1,0 +1,62 @@
+{
+  "purpose": "Resolve genotyping-platform sample sizes after the frozen primary coverage gap was observed",
+  "sources": [
+    {
+      "id": "coloc-Ji2017-supplement-xlsx",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5540332/bin/NIHMS831185-supplement-2.xlsx",
+      "file": "coloc-Ji2017-supplement.xlsx",
+      "max_bytes": 10000000,
+      "sha256": "6ba5eb1aa614a35ce154ea84c86f8c3a5bca730d3fcec2a5349a6f403d5836ee",
+      "bytes": 1816,
+      "retrieved_at_utc": "2026-09-12T11:41:00.414728+00:00",
+      "format_validation": "HTML challenge, not the requested document; excluded from evidence"
+    },
+    {
+      "id": "coloc-Ji2017-supplement-docx",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5540332/bin/NIHMS831185-supplement-1.docx",
+      "file": "coloc-Ji2017-supplement.docx",
+      "max_bytes": 20000000,
+      "sha256": "39bbdab1a8a19fb110648b2795ca6f0b6fe8bb9d21a907e9da63310567427d4f",
+      "bytes": 1817,
+      "retrieved_at_utc": "2026-09-12T11:41:00.510117+00:00",
+      "format_validation": "HTML challenge, not the requested document; excluded from evidence"
+    },
+    {
+      "id": "coloc-Ji2017-publisher-page",
+      "url": "https://www.nature.com/articles/ng.3745",
+      "file": "coloc-Ji2017-publisher-page.data",
+      "max_bytes": 1000000,
+      "sha256": "79bfd41fe5bbe037ea287b32017887a086bae9536658d0183eac73c6bf8a6f54",
+      "bytes": 562217,
+      "retrieved_at_utc": "2026-09-12T11:42:13.295631+00:00"
+    },
+    {
+      "id": "coloc-Ji2017-MOESM245_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3745/MediaObjects/41588_2017_BFng3745_MOESM245_ESM.xlsx",
+      "file": "coloc-Ji2017-MOESM245_ESM.xlsx",
+      "max_bytes": 10000000,
+      "sha256": "0725206aa2af2427495edd623145bd92db4ab48cba77439de958230a50efbac8",
+      "bytes": 9676,
+      "retrieved_at_utc": "2026-09-12T11:43:13.296310+00:00"
+    },
+    {
+      "id": "coloc-Ji2017-MOESM246_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3745/MediaObjects/41588_2017_BFng3745_MOESM246_ESM.xlsx",
+      "file": "coloc-Ji2017-MOESM246_ESM.xlsx",
+      "max_bytes": 10000000,
+      "sha256": "14d75af26250171479fdeeea152937416b0240a8538a301660ae34292157c591",
+      "bytes": 8963,
+      "retrieved_at_utc": "2026-09-12T11:43:13.423331+00:00"
+    }
+  ],
+  "unavailable_requests": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5540332",
+      "http_status": 404
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC5540332/bin/NIHMS831185-supplement-2.xlsx",
+      "http_status": 520
+    }
+  ]
+}

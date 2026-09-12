@@ -1,0 +1,105 @@
+{
+  "analysis_input_lock_sha256": "2d117a295e0a08662204dbda9d67516f44c9054b506cdd4467d5cf4994e595ac",
+  "executor_sha256": "55d9f4fd9aa8a4e6323b18f1cda10b58ef7e57bc0d33dd60744f8fd8af050d05",
+  "jobs": [
+    {
+      "id": "baseline",
+      "started_at_utc": "2026-09-12T11:39:04.477196+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:39:08.939740+00:00",
+      "log_file": "data/raw/coloc-baseline.log",
+      "log_sha256": "2a4de8a3fc3a6373b6bdf48c5304932b16b23e59a261520ea81451feff3563d9",
+      "output_sha256": {
+        "reports/coloc-baseline.csv": "5152eeef099f43e912a798fd302e2ce760f161b2c3e14ac22ba3fdee10a0a3cb",
+        "reports/coloc-baseline-variant-posteriors.csv.gz": "30feb73c20e6a87975cc4718785a5e805bbfb8a57624a741c5dc81e403569fbc",
+        "reports/coloc-baseline-warnings.json": "8b5cff367e6422589bdbfb8728adb4dd83e89eade9db28fd6de2090c050004d1"
+      }
+    },
+    {
+      "id": "fit-GWAS-PFKFB3",
+      "started_at_utc": "2026-09-12T11:40:14.898135+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:40:23.477274+00:00",
+      "log_file": "data/raw/coloc-fit-GWAS-PFKFB3.log",
+      "log_sha256": "7912219cf6b643afb33af756fd21a2c3b0f30a5eb2f28bd094a0db8227038a63",
+      "output_sha256": {
+        "reports/coloc-LD-diagnostics-GWAS-PFKFB3.csv": "732887455f46bf1cc00d3952eae742788f21128a49f164893b6746364cfa799b",
+        "reports/coloc-reference-pips-GWAS-PFKFB3.csv": "2d19586acbba96f87a399f35087599f16d3aca99f123d8f6d7cfabd1c2e1ab81",
+        "reports/coloc-reference-fit-GWAS-PFKFB3.json": "0a4a2a9f78af63563cc5338d54ce8bd5efe2ab1a1ec9fc8078e223c19decba0b",
+        "data/raw/coloc-ld/GWAS-PFKFB3.rds": "4ef04773d798dd76bf7962e9449ba3eef3f5a45fb336c6f9094a3f155fccb919"
+      }
+    },
+    {
+      "id": "fit-QTD000031-PFKFB3",
+      "started_at_utc": "2026-09-12T11:42:27.001556+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:43:21.502966+00:00",
+      "log_file": "data/raw/coloc-fit-QTD000031-PFKFB3.log",
+      "log_sha256": "c79275319ebf9cd15be3b2bab8b13079a2618d175fd74afb70ce5244e48e879b",
+      "output_sha256": {
+        "reports/coloc-LD-diagnostics-QTD000031-PFKFB3.csv": "faa315338b05e3b599b2defa87044c77d265435cbcdce865483624a58fc0a7b9",
+        "reports/coloc-reference-pips-QTD000031-PFKFB3.csv": "d0cecba28a0163ee9ab1e2b01faf8a8d98a07169ecbe19d66c8953cddc5e2278",
+        "reports/coloc-reference-fit-QTD000031-PFKFB3.json": "93111b8989dfe09ae37615d64f90c7bef179fd5f9c3860f705f76d9c1150d0e9",
+        "data/raw/coloc-ld/QTD000031-PFKFB3.rds": "97f1dbb3d85fbdc51225746d97034a11e8865955ae0c3c682f74bdef410a1a16"
+      }
+    },
+    {
+      "id": "fit-GWAS-BCL2L11",
+      "started_at_utc": "2026-09-12T11:47:36.141154+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:47:38.958977+00:00",
+      "log_file": "data/raw/coloc-fit-GWAS-BCL2L11.log",
+      "log_sha256": "66f9dc0360db418486478ba5eb1a25b56a3005c758499783e48f5f60fdab6a0e",
+      "output_sha256": {
+        "reports/coloc-LD-diagnostics-GWAS-BCL2L11.csv": "d146bb7d4017a4bb89c372b59ec4a2a18d9c0c42458f6a954564f862859d86a3",
+        "reports/coloc-reference-pips-GWAS-BCL2L11.csv": "4c3b02f8310222a7938ab0064f79fec0889cafd12bd1c672d306bf217395ff2e",
+        "reports/coloc-reference-fit-GWAS-BCL2L11.json": "9ef06212eb74497c5883a99e75191b8668d0a29676780d21cb1a6a6d865adcf7",
+        "data/raw/coloc-ld/GWAS-BCL2L11.rds": "2d556276344eef578d61b3c2d48812e7a6e301e603acbb5aa0f12f97397e99ba"
+      }
+    },
+    {
+      "id": "fit-QTD000031-BCL2L11",
+      "started_at_utc": "2026-09-12T11:47:39.460792+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:47:48.104888+00:00",
+      "log_file": "data/raw/coloc-fit-QTD000031-BCL2L11.log",
+      "log_sha256": "f42d0a9f47a0b9abcb2feb5f82f4155e1c2d6458d1f349d7f8df4c83759037cc",
+      "output_sha256": {
+        "reports/coloc-LD-diagnostics-QTD000031-BCL2L11.csv": "f43f6c53eab589c319c8744aa0860f77194be3dd7558c9f21ab5e52dcabefd9f",
+        "reports/coloc-reference-pips-QTD000031-BCL2L11.csv": "5d0d7f6bdb3fe817a17b7b1dae0f6994d66035e6c796aaee5a3127c42121c23f",
+        "reports/coloc-reference-fit-QTD000031-BCL2L11.json": "aca10d518c34a7ed4295145fcb3dbd5dfbcdf9f85320533db7eaacd4f5a0f395",
+        "data/raw/coloc-ld/QTD000031-BCL2L11.rds": "bcce2d2f8a261220fda97e7db3bbe98001faf86a2a9d213059333f4c7719effa"
+      }
+    },
+    {
+      "id": "compare",
+      "started_at_utc": "2026-09-12T11:47:48.607284+00:00",
+      "R": "4.4.3",
+      "coloc": "5.2.3",
+      "susieR": "0.14.2",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:47:49.465396+00:00",
+      "log_file": "data/raw/coloc-compare.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": {
+        "reports/coloc-reference-comparison.csv": "3152f32e8ff99a77d6c96791701b0a8a74aa8214d209eafb259df0ab56086435",
+        "reports/coloc-reference-variant-posteriors.csv.gz": "81f2692d5844f76b241b01285ab6eb629d07e002195e19f1c4f29ea9e2d71b81"
+      }
+    }
+  ]
+}

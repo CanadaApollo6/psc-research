@@ -1,0 +1,422 @@
+[
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  }
+]

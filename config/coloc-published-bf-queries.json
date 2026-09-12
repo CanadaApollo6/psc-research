@@ -1,0 +1,48 @@
+{
+  "plan_sha256": "a54e676c5272a52f45b469286ae5b3eebbfbebcaa9f2c5c0c05254645f3d6407",
+  "reader_sha256": "3325ba4368c12086d17b9075ae95740db87696f69f5fedc29d2e6f107fa45744",
+  "started_at_utc": "2026-09-12T11:48:48.133261+00:00",
+  "queries": [
+    {
+      "dataset_id": "QTD000031",
+      "gene_id": "ENSG00000170525",
+      "cs_indices": [
+        1,
+        2
+      ],
+      "maximum_compressed_bytes": 3000000000,
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000031/QTD000031.lbf_variable.txt.gz",
+      "queried_at_utc": "2026-09-12T11:48:48.133284+00:00",
+      "finished_at_utc": "2026-09-12T12:07:18.547438+00:00",
+      "compressed_archive_bytes": 2431437676,
+      "compressed_archive_sha256": "0df5e32a091981d0a69ce856ea176d95376cc1b9e986ffd6d6b298029ac5a250",
+      "archive_eof_verified": true,
+      "all_archive_rows_scanned": 41453400,
+      "retained_gene_rows": 10552,
+      "file": "data/derived/coloc-query-rows/QTD000031-PFKFB3-published-bfs.tsv.gz",
+      "sha256": "a1d394447278b315869d3c365c44d6914701af8bbc68e7b2c1ed0139a5b25a5e",
+      "uncompressed_sha256": "ce7c1bc97809424cdca06559b102d6d383df5c068abb6fbb7345a1bc82e84ffc",
+      "bytes": 955519
+    },
+    {
+      "dataset_id": "QTD000469",
+      "gene_id": "ENSG00000170525",
+      "cs_indices": [
+        1
+      ],
+      "maximum_compressed_bytes": 1200000000,
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000469/QTD000469.lbf_variable.txt.gz",
+      "queried_at_utc": "2026-09-12T12:07:20.549209+00:00",
+      "finished_at_utc": "2026-09-12T12:13:55.242040+00:00",
+      "compressed_archive_bytes": 824792197,
+      "compressed_archive_sha256": "ffcc9c31469e17fc041d03c710d184d7a084cda130ac013433c99afbec5cc7ce",
+      "archive_eof_verified": true,
+      "all_archive_rows_scanned": 14063519,
+      "retained_gene_rows": 10264,
+      "file": "data/derived/coloc-query-rows/QTD000469-PFKFB3-published-bfs.tsv.gz",
+      "sha256": "bd79354a4170d1f115396b96f2dcff5e1977a339fc4a6b854a61e5e7af01e803",
+      "uncompressed_sha256": "f0e33f7cadfd23e60556fa52a4f57a1a4760d6998d7c78969bd1a40ab291afeb",
+      "bytes": 857387
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "amendment": "Resolve platform counts and use complete published PFKFB3 SuSiE evidence",
+  "frozen_at_utc": "2026-09-12T11:47:36.871389+00:00",
+  "status": "Exploratory amendment after the original baseline revealed strong variants excluded by unknown platform sample counts. Original plan and outputs are preserved.",
+  "platform_counts": {
+    "both": {
+      "cases": 2871,
+      "controls": 12019,
+      "N": 14890
+    },
+    "omni": {
+      "cases": 2170,
+      "controls": 9216,
+      "N": 11386
+    },
+    "affy": {
+      "cases": 701,
+      "controls": 2803,
+      "N": 3504
+    }
+  },
+  "count_provenance": {
+    "file": "coloc-Ji2017-MOESM245_ESM.xlsx",
+    "sheet": "Table 1",
+    "omni_cases_cells": [
+      "B13",
+      "C13"
+    ],
+    "omni_controls_cell": "D13",
+    "affy_total_cells": [
+      "E13",
+      "F13",
+      "G13"
+    ],
+    "affy_case_control_derivation": "Published overall discovery case/control counts minus the explicitly labelled Omni columns; sum checked against Affy totals"
+  },
+  "frozen_file_sha256": {
+    "config/coloc-plan.json": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+    "reports/coloc-baseline.csv": "5152eeef099f43e912a798fd302e2ce760f161b2c3e14ac22ba3fdee10a0a3cb",
+    "config/coloc-platform-sources.json": "517379e5d46d07ca483d6cabdc2a427e5ab556fdfb4208a65b3d5db32e13fbe2",
+    "data/derived/coloc-published-credible-sets.csv.gz": "53b3e7ccef99955c926aad0decd9627c54d124002ee44062371fae2ddab78f40"
+  },
+  "gene_dataset_pairs": 20,
+  "priors_unchanged": {
+    "p1": 0.0001,
+    "p2": 0.0001,
+    "p12_primary": 1e-06,
+    "p12_sensitivity": [
+      1e-07,
+      1e-05
+    ]
+  },
+  "baseline": "Official approx.bf.p with per-variant N, control MAF and case fraction; official combine.abf for all variants on common support. Unit and estimated QTL sdY sensitivities unchanged.",
+  "published_qtl_signal_sources": [
+    {
+      "dataset_id": "QTD000031",
+      "gene_id": "ENSG00000170525",
+      "cs_indices": [
+        1,
+        2
+      ],
+      "maximum_compressed_bytes": 3000000000
+    },
+    {
+      "dataset_id": "QTD000469",
+      "gene_id": "ENSG00000170525",
+      "cs_indices": [
+        1
+      ],
+      "maximum_compressed_bytes": 1200000000
+    }
+  ],
+  "other_qtl_contexts": "Retain all comparisons as no_published_credible_set; do not manufacture signals from marginal P values or truncated PIPs",
+  "bf_acquisition": "Stream each entire ordinary-gzip file within its fixed cap, retain exact rows only for PFKFB3, record compressed stream SHA and EOF, check original pinned header bytes; no full archive saved",
+  "gwas_signal_analysis": "Approximate reference-LD SuSiE using all eligible platform variants, signed Z from source P, main n=11386 and n=3504/14890 sensitivity. No claim of a homogeneous sample: these scalar-N fits bracket known batch sizes and cannot reconstruct exact overlapping-sample score covariance.",
+  "same_susie_options_as_original": true,
+  "qtl_multi": "Use complete published per-component BF vectors with source credible-set indices, no newly fitted EUR-LD model for DICE",
+  "coverage": "Report BF-mass overlap and require 90% per signal before reporting interpretable signal-level posterior; report original-region exclusions separately",
+  "interpretation": "This addition repairs missing platform-count metadata. It does not repair external reference LD, overlapping genotyping-subset heterogeneity or unmeasured variants. Retain all sample-size and prior sensitivities; high H4 alone is not a validated causal or treatment claim."
+}

@@ -1,0 +1,737 @@
+[
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.179e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00039615\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020147\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.0567e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00015959\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.1204e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "PFKFB3",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0001852\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000031",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.0214e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000439",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000444",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 1.3728e-06\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000449",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 3.7058e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000454",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000459",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 2.5614e-05\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000464",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00020314\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000469",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00019049\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000479",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.0022321\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-06,
+    "messages": "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-07,
+    "messages": "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "unit",
+    "p12": 1e-05,
+    "messages": "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-06,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-07,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  },
+  {
+    "gene_name": "BCL2L11",
+    "dataset_id": "QTD000484",
+    "sd_mode": "estimated",
+    "p12": 1e-05,
+    "messages": ["estimating sdY from maf and varbeta, please directly supply sdY if known", "minimum p value is: 0.00011188\nIf this is what you expected, this is not a problem.\nIf this is not as small as you expected, please check you supplied var(beta) and not sd(beta) for the varbeta argument. If that's not the explanation, please check the 02_data vignette."]
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "input_lock_sha256": "268236fd84cb4287762c9b39d2582b144a764f3a52d2d1ff18bc545474a9a1da",
+  "executor_sha256": "0e5a9a57cd91ce0a099aec2d5a88fa5dbb48a461bbdbf68d803e056cd51a5ec2",
+  "jobs": [
+    {
+      "id": "baseline",
+      "started_at_utc": "2026-09-12T11:56:34.309730+00:00",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:56:37.324704+00:00",
+      "log_file": "data/raw/coloc-platform-baseline.log",
+      "log_sha256": "724a531a938140f555b080f3de6856e39393e1b58c365b20c6e4f83c8d24fad9",
+      "output_sha256": {
+        "reports/coloc-platform-baseline.csv": "bd90528fc0a36a5a336e85dc26463123cdd581b31a8a46477e2b2f26bd10eac9",
+        "reports/coloc-platform-variant-posteriors.csv.gz": "83c9b2f8762dd5191bf4892d63484fd4768eb8282694450d13d51631acc5155a",
+        "reports/coloc-platform-warnings.json": "8106fdb7ca7a12595c6e3db114338d6630b589fb590122ef4f9c6f8e20d544a0"
+      }
+    },
+    {
+      "id": "fit-PFKFB3",
+      "started_at_utc": "2026-09-12T11:56:37.582562+00:00",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:57:15.310857+00:00",
+      "log_file": "data/raw/coloc-platform-fit-PFKFB3.log",
+      "log_sha256": "22e7689a2e9d257e002516ada069ec8120dd6508c9bf9795a204c588387a8407",
+      "output_sha256": {
+        "reports/coloc-platform-LD-diagnostics-PFKFB3.csv": "367ead023398b8077e9517951ea89170ce4a8b9074a6b43367ad1aa9fffca93d",
+        "reports/coloc-platform-fit-PFKFB3-N11386.json": "cf1964eaa72014df229fbafb241f317c0fef56641ac4d2230d27b750e390d988",
+        "reports/coloc-platform-pips-PFKFB3-N11386.csv": "6e1f8a3d10f415ed3ddc651192c76522281f6c6205649f6f44e08dabbd493daa",
+        "data/raw/coloc-platform-ld/GWAS-PFKFB3-N11386.rds": "6443265e77fcf5c05022e6b2b4a4ff8e0afd46ac5370cf537bb2f3c2b34b0433",
+        "reports/coloc-platform-fit-PFKFB3-N3504.json": "be0b8def7c84c8600066658e2401381397effdde45fd5d5ddb268985adf2840c",
+        "reports/coloc-platform-pips-PFKFB3-N3504.csv": "bdef92433b5b0d1ec59a245a62cb2ee1ec34a0f590293f8558ebd6d632b021ff",
+        "data/raw/coloc-platform-ld/GWAS-PFKFB3-N3504.rds": "c3d949112f14f384f598e54ae13ee6aaa965cbefd985a84380042ad4fa99564a",
+        "reports/coloc-platform-fit-PFKFB3-N14890.json": "d4d13cf1648ed60dbc2fd399e1ce7c3736cc84be8a440dc761ae6dadea4a8833",
+        "reports/coloc-platform-pips-PFKFB3-N14890.csv": "3a544b99c2a7996b95a44e0e42f7cb5176841fa8e6b057843ec1d4b81fc35131",
+        "data/raw/coloc-platform-ld/GWAS-PFKFB3-N14890.rds": "54ff91ef118c11bfee949cfec08079aa24eebfde6be0b5d263f6bb19f6c66bc4"
+      }
+    },
+    {
+      "id": "fit-BCL2L11",
+      "started_at_utc": "2026-09-12T11:57:15.581296+00:00",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T11:57:23.403212+00:00",
+      "log_file": "data/raw/coloc-platform-fit-BCL2L11.log",
+      "log_sha256": "59a4fecf0cd9b8dd4f7bc0978e9b970b07693afe4d8ee9118f1c83eb31fbf182",
+      "output_sha256": {
+        "reports/coloc-platform-LD-diagnostics-BCL2L11.csv": "6fc97dcb9972f384d0957ded74eadc3980ba8979ead3387f41534962e8520030",
+        "reports/coloc-platform-fit-BCL2L11-N11386.json": "99776bc4bbc21e34dfe6f38c57b997c66e6a8db6d4ecb082031a414e15fb057e",
+        "reports/coloc-platform-pips-BCL2L11-N11386.csv": "fd63363a7ba6f7b7228615f4c82a1681dec2c8d67ba03aff3d2fcfe3ca40bb89",
+        "data/raw/coloc-platform-ld/GWAS-BCL2L11-N11386.rds": "540166fd75f9e9887a0e7ee8e9aa80af91b4507b4ed28c2671cceca3ab41ee44",
+        "reports/coloc-platform-fit-BCL2L11-N3504.json": "a50107d39f2dac1ddb268d5c151d5bc0057e3f64bd172ed7bea1dbdd1429b14f",
+        "reports/coloc-platform-pips-BCL2L11-N3504.csv": "400da8bf208aaff3a59e8cd29ddab8556f8e32bbd3efae481612ba1b763d3aca",
+        "data/raw/coloc-platform-ld/GWAS-BCL2L11-N3504.rds": "f528f1cead1e6443817bea012f94d814c22b3cd8121022bd9b547e84d0303d5b",
+        "reports/coloc-platform-fit-BCL2L11-N14890.json": "2f00973aa8cac06dba75afdcb8ad641feec9ce677079a3a5d804234fd548d789",
+        "reports/coloc-platform-pips-BCL2L11-N14890.csv": "c065f0beb6156a955f96ba57b49a8eaa7008562249afb9d6ed1f81b6a80b7a70",
+        "data/raw/coloc-platform-ld/GWAS-BCL2L11-N14890.rds": "1d91238cca4556e1adb71f106276087c27856cd17e8eb1153339e02c9b14047f"
+      }
+    },
+    {
+      "id": "compare",
+      "started_at_utc": "2026-09-12T12:14:10.924991+00:00",
+      "published_bf_manifest_sha256": "0f59de7a43c196a6cfdca594fc6440cae6e197438b79671754a5232eba674249",
+      "status": "complete",
+      "finished_at_utc": "2026-09-12T12:14:12.354896+00:00",
+      "log_file": "data/raw/coloc-platform-compare.log",
+      "log_sha256": "1a4aac27018f0f883820c2a4f88eda649e32f79a4be06ca53a0b3924f9d9a274",
+      "output_sha256": {
+        "reports/coloc-published-signal-comparison.csv": "7b585848673d1d6d150b27570c99f4771bf7e85fc769e2725c91bad0364eee46",
+        "reports/coloc-published-signal-overlap.csv": "fa0fae0158e0b47a97b144084563301d6c4dd93efd818a41acdb464ce26376a5",
+        "reports/coloc-published-signal-variant-posteriors.csv.gz": "2fcf811b52aed26819151effde41f20d2eb95c1096031ae9d40a768f6fae3c89"
+      }
+    }
+  ]
+}

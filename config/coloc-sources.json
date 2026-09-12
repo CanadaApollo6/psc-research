@@ -1,0 +1,817 @@
+{
+  "snapshot_date": "2026-09-12",
+  "sources": [
+    {
+      "id": "eqtl-r7-metadata",
+      "file": "qtl-eqtl-r7-metadata.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/data_tables/dataset_metadata_r7.tsv",
+      "max_bytes": 5000000,
+      "sha256": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+      "retrieved_at_utc": "2026-09-11T23:22:20.912218+00:00",
+      "bytes": 75969
+    },
+    {
+      "id": "eqtl-tabix-paths",
+      "file": "qtl-eqtl-tabix-paths.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/tabix/tabix_ftp_paths.tsv",
+      "max_bytes": 5000000,
+      "sha256": "20912adbeb700bb0224e73f1acba79921cb7afd4323955b00e4e9a73da49b7f4",
+      "retrieved_at_utc": "2026-09-11T23:22:21.394687+00:00",
+      "bytes": 287387
+    },
+    {
+      "id": "eqtl-columns",
+      "file": "qtl-eqtl-columns.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/tabix/Columns.md",
+      "max_bytes": 5000000,
+      "sha256": "4bff8a760616c57238ad00eb5ace76817cc367ab7c26449efdf96cbb067de994",
+      "retrieved_at_utc": "2026-09-11T23:23:23.348197+00:00",
+      "bytes": 5862
+    },
+    {
+      "id": "eqtl-data-access",
+      "file": "qtl-eqtl-data-access.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Data_access/",
+      "max_bytes": 5000000,
+      "sha256": "02be60ba6fa815bb7aaf58c5ab8ecf83128a67c550812ecf767e51a5c69d3861",
+      "retrieved_at_utc": "2026-09-11T23:30:43.452252+00:00",
+      "bytes": 16699
+    },
+    {
+      "id": "eqtl-methods",
+      "file": "qtl-eqtl-methods.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Methods/",
+      "max_bytes": 5000000,
+      "sha256": "93566c27f7748d87eaf041577b90e6937f3157b2fdfea5201f3ebc809bd7b273",
+      "retrieved_at_utc": "2026-09-11T23:26:30.120077+00:00",
+      "bytes": 17657
+    },
+    {
+      "id": "eqtl-study-design",
+      "file": "qtl-eqtl-study-design.data",
+      "url": "https://www.ebi.ac.uk/eqtl/Studies/",
+      "max_bytes": 5000000,
+      "sha256": "5679ec9c9e801341078e0093f5702a7633328d10956ff182a968bf68e5b4a090",
+      "retrieved_at_utc": "2026-09-11T23:30:43.554318+00:00",
+      "bytes": 47869
+    },
+    {
+      "id": "DICE-paper-html",
+      "file": "qtl-DICE-paper-html.data",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289654/",
+      "max_bytes": 5000000,
+      "sha256": "a52e234c0162f9fcd4f2c2c483f5ab1eefdd85da46114e718ad22e12e729d2c6",
+      "retrieved_at_utc": "2026-09-11T23:27:19.887772+00:00",
+      "bytes": 293551
+    },
+    {
+      "id": "blueprint-paper",
+      "file": "qtl-blueprint-paper.data",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5119954/fullTextXML",
+      "max_bytes": 5000000,
+      "sha256": "19ab35556c770fef6bcc9542898f2d97851251eb1393c28f57e5a66b32ee2238",
+      "retrieved_at_utc": "2026-09-11T23:20:13.527152+00:00",
+      "bytes": 309606
+    },
+    {
+      "id": "alphagenome-supplement-tables",
+      "file": "qtl-alphagenome-supplement-tables.data",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-10014-0/MediaObjects/41586_2025_10014_MOESM3_ESM.xlsx",
+      "max_bytes": 25000000,
+      "sha256": "833cb78b6ae6fe39415cfff296ac00c48d800326139f13eb307531a1cc133154",
+      "retrieved_at_utc": "2026-09-11T23:30:08.682697+00:00",
+      "bytes": 1475352
+    },
+    {
+      "id": "QTD000031-index",
+      "file": "cd4-QTD000031-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000031/QTD000031.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "74ce22c6e4de3cf3e027a83702069809f465226d6210b544407564bbe6c0f4ac",
+      "bytes": 1952819,
+      "retrieved_at_utc": "2026-09-12T10:30:59.159612+00:00"
+    },
+    {
+      "id": "QTD000031-header",
+      "file": "cd4-QTD000031-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000031/QTD000031.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "5267ac74cecfb97bbdcf186dca172f9eeb3f692fd375ffc7c963ea3ee382210c",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:30:59.652043+00:00"
+    },
+    {
+      "id": "QTD000439-index",
+      "file": "cd4-QTD000439-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000439/QTD000439.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "97f08daa0b9c68533e102bae035e9e873a9e7c58f45d11c7cd5572d92e75e4d7",
+      "bytes": 1884331,
+      "retrieved_at_utc": "2026-09-12T10:31:01.744816+00:00"
+    },
+    {
+      "id": "QTD000439-header",
+      "file": "cd4-QTD000439-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000439/QTD000439.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "086d5c2d8b24a968b7efc4957f6dcb56308e53dc6fe6b1fa93f381bcd10b5e4c",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:02.235206+00:00"
+    },
+    {
+      "id": "QTD000444-index",
+      "file": "cd4-QTD000444-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000444/QTD000444.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "244f343f378ef3959625bc7702f66b6a9a3aa6577bf32fcd010e030c532a1248",
+      "bytes": 1875827,
+      "retrieved_at_utc": "2026-09-12T10:31:03.758572+00:00"
+    },
+    {
+      "id": "QTD000444-header",
+      "file": "cd4-QTD000444-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000444/QTD000444.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "c6acc7fa7e396d6167385bba214db0010e94a76996365b3787483bbc1cdd10c5",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:04.251186+00:00"
+    },
+    {
+      "id": "QTD000449-index",
+      "file": "cd4-QTD000449-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000449/QTD000449.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "10a324eecd96383f72c25155b8f45909e6bc3f4aeab411db5dfef99e87f99538",
+      "bytes": 1856700,
+      "retrieved_at_utc": "2026-09-12T10:31:05.875001+00:00"
+    },
+    {
+      "id": "QTD000449-header",
+      "file": "cd4-QTD000449-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000449/QTD000449.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "2555ecd4b25af2f3e300470c090e0cb64c1437fa06082c219adf86938d761676",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:06.369049+00:00"
+    },
+    {
+      "id": "QTD000454-index",
+      "file": "cd4-QTD000454-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000454/QTD000454.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "9b2a3c3e6f63f35c1245a3dcb30780075bf51c4a5bc3168d788ea55c86adeb2d",
+      "bytes": 1888042,
+      "retrieved_at_utc": "2026-09-12T10:31:09.686164+00:00"
+    },
+    {
+      "id": "QTD000454-header",
+      "file": "cd4-QTD000454-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000454/QTD000454.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "84d8c54ddfdf868d10952bd3288071da556dbe4808af85bf360a4f5b1b540441",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:10.174887+00:00"
+    },
+    {
+      "id": "QTD000459-index",
+      "file": "cd4-QTD000459-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000459/QTD000459.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "f9cf0cc4fc35d9c45c7d848f0d10680db0ae9c554ae3e7b22b748633b8f4e293",
+      "bytes": 1871120,
+      "retrieved_at_utc": "2026-09-12T10:31:12.080283+00:00"
+    },
+    {
+      "id": "QTD000459-header",
+      "file": "cd4-QTD000459-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000459/QTD000459.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "bc0b175860d3d92675cdc3b555dd8d12dc1ce7933640367cf1d759479fb53029",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:12.568306+00:00"
+    },
+    {
+      "id": "QTD000464-index",
+      "file": "cd4-QTD000464-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000464/QTD000464.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "36f30d2f54a5b6d2dc483ff64180341a096679d41edf1434ce6c9ff09a4969bb",
+      "bytes": 1884385,
+      "retrieved_at_utc": "2026-09-12T10:31:14.381023+00:00"
+    },
+    {
+      "id": "QTD000464-header",
+      "file": "cd4-QTD000464-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000464/QTD000464.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "cb381177eeb0add18f5c6598918c274237a78d6beb3ab820493b22c416c9a771",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:14.867401+00:00"
+    },
+    {
+      "id": "QTD000469-index",
+      "file": "cd4-QTD000469-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000469/QTD000469.all.tsv.gz.tbi",
+      "max_bytes": 12000000,
+      "sha256": "12cb2e6a49cc7263831fce5148d12e6a6b46272364b6d65fa4bd83aa1b3b0076",
+      "bytes": 1889277,
+      "retrieved_at_utc": "2026-09-12T10:31:16.867755+00:00"
+    },
+    {
+      "id": "QTD000469-header",
+      "file": "cd4-QTD000469-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000469/QTD000469.all.tsv.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "sha256": "24565937a2b0cee9ab3a08cf12b5d532a12a57d47bb8913843961461881e83ae",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T10:31:17.362119+00:00"
+    },
+    {
+      "id": "QTD000479-index",
+      "file": "qtl-QTD000479-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000479/QTD000479.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "82c5d30c4a4dc65f0563d308bb25777cc09116b71b489ac9ab8162c85d3c42db",
+      "retrieved_at_utc": "2026-09-11T23:25:55.922794+00:00",
+      "bytes": 1894567
+    },
+    {
+      "id": "QTD000479-header",
+      "file": "qtl-QTD000479-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000479/QTD000479.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "1760686b68bd768d856eb3c5187efbaade26d41581601f8d76ce414d7325ccd0",
+      "retrieved_at_utc": "2026-09-11T23:25:59.222254+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "QTD000484-index",
+      "file": "qtl-QTD000484-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000484/QTD000484.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "da6401b7c20e0090b6142376a25ef96098a511c47de00c4e66fdc7fb18da0c6f",
+      "retrieved_at_utc": "2026-09-11T23:27:22.482665+00:00",
+      "bytes": 1855136
+    },
+    {
+      "id": "QTD000484-header",
+      "file": "qtl-QTD000484-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000484/QTD000484.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "afa484dd3b0159ddd798fe7ece62abad037e8b708258a2901f5d05ec421cbbf0",
+      "retrieved_at_utc": "2026-09-11T23:27:25.883611+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      }
+    },
+    {
+      "id": "cd4-phenotype-record",
+      "file": "cd4-phenotype-record.json",
+      "url": "https://zenodo.org/api/records/7808390",
+      "max_bytes": 5000000,
+      "sha256": "ba7d9db3ebc8a58887a51faf467e12648dfcdc994eb0d52f8b1419d90c4bf299",
+      "bytes": 8046,
+      "retrieved_at_utc": "2026-09-12T10:31:17.973559+00:00"
+    },
+    {
+      "id": "ENCSR033XWU",
+      "file": "cd4-ENCSR033XWU.json",
+      "url": "https://www.encodeproject.org/experiments/ENCSR033XWU/?format=json",
+      "max_bytes": 5000000,
+      "sha256": "258d260a5123cf94d47e9b8cb6c9baeb937c6cd36712bfbc23ecf8011065eb94",
+      "bytes": 102559,
+      "retrieved_at_utc": "2026-09-12T10:31:18.754499+00:00"
+    },
+    {
+      "id": "ENCSR411MUF",
+      "file": "cd4-ENCSR411MUF.json",
+      "url": "https://www.encodeproject.org/experiments/ENCSR411MUF/?format=json",
+      "max_bytes": 5000000,
+      "sha256": "b52db0c50d18e858be5b82f95d3da5ceb4a01e5b681eb0306dc3877c0159be5a",
+      "bytes": 102567,
+      "retrieved_at_utc": "2026-09-12T10:31:19.250768+00:00"
+    },
+    {
+      "id": "ENCSR463JBR",
+      "file": "cd4-ENCSR463JBR.json",
+      "url": "https://www.encodeproject.org/experiments/ENCSR463JBR/?format=json",
+      "max_bytes": 5000000,
+      "sha256": "63446adaaa2d0e36755154cb185a96d67cbd05e686034ae17f58951859e7e7ce",
+      "bytes": 208177,
+      "retrieved_at_utc": "2026-09-12T10:31:19.746699+00:00"
+    },
+    {
+      "id": "ENCSR545MEZ",
+      "file": "cd4-ENCSR545MEZ.json",
+      "url": "https://www.encodeproject.org/experiments/ENCSR545MEZ/?format=json",
+      "max_bytes": 5000000,
+      "sha256": "d068626464b0c0ad1646bd66835b66a69149f03af54325e02d48f4aacbc0d7af",
+      "bytes": 208270,
+      "retrieved_at_utc": "2026-09-12T10:31:20.234895+00:00"
+    },
+    {
+      "id": "cd4-gene-phenotypes",
+      "file": "cd4-gene-phenotypes.tsv.gz",
+      "url": "https://zenodo.org/api/records/7808390/files/gene_counts_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 3000000,
+      "publisher_checksum": "md5:b999b21dcffeecbfe0bf886a5a91997b",
+      "sha256": "c2f3647901119fc211db8e8a157dd567f70e0716d7e2a2d9baf263aa1405ea15",
+      "bytes": 1905386,
+      "retrieved_at_utc": "2026-09-12T10:33:55.317960+00:00"
+    },
+    {
+      "id": "goode2024_xml",
+      "file": "PMC11541731.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11541731/fullTextXML",
+      "sha256": "59640969228f6ac1f3c09c888378a71dee22247c6198bc6c360ce42008a58bfb",
+      "bytes_after_decompression": 219144,
+      "max_bytes": 3000000
+    },
+    {
+      "id": "GCST004030-original-header",
+      "file": "GCST004030-original-header.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=0-8191"
+      },
+      "max_bytes": 100000,
+      "sha256": "82fb5939a11d388780fac1d303fc83875ed5784e6f7490f50d21d78db3769888",
+      "bytes_after_decompression": 8192,
+      "retrieved_at_utc": "2026-09-11T22:51:45.197879+00:00",
+      "content_range": "bytes 0-8191/662022204"
+    },
+    {
+      "id": "kgp-phase3-panel",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_call_samples_v3.20130502.ALL.panel",
+      "max_bytes": 5000000,
+      "sha256": "b4023dc6ee2d62ee89c8d4d347db4d348e65518d66d346574cdae7a4bbd76858",
+      "retrieved_at_utc": "2026-09-12T00:19:11.348025+00:00",
+      "bytes": 55156,
+      "file": "junction-kgp-phase3-panel.data"
+    },
+    {
+      "id": "match-kgp-chr10-index",
+      "file": "match-kgp-chr10-index.tbi",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+      "max_bytes": 6000000,
+      "sha256": "3ef8aa430d5552c2a43cffaa47a1d33f3542dafa41c281c9ee5cdbf416821d96",
+      "bytes": 132932,
+      "retrieved_at_utc": "2026-09-12T04:22:15.850245+00:00"
+    },
+    {
+      "id": "match-kgp-chr2-index",
+      "file": "match-kgp-chr2-index.tbi",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi",
+      "max_bytes": 6000000,
+      "sha256": "de9cbe172468d433ecbf6f451d9eec256c1291274f61f6f51443a57cc906e8e7",
+      "bytes": 237394,
+      "retrieved_at_utc": "2026-09-12T04:22:14.654726+00:00"
+    },
+    {
+      "id": "GCST004030",
+      "file": "GCST004030.json",
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST004030",
+      "sha256": "26ce9435122ad7c435a86e38646d0dcd6a5b22466083c26bdbe96e20e765ccdc",
+      "bytes_after_decompression": 4118,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:48.485238+00:00"
+    },
+    {
+      "id": "Ji2017-PMC",
+      "file": "Ji2017.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5540332/",
+      "sha256": "befb528e635906fd7aef37ebcfef4e33afbb134bf11b5cf735e37203b1e3ecfb",
+      "bytes_after_decompression": 277459,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:47.819229+00:00"
+    },
+    {
+      "id": "coloc-susie-method",
+      "url": "https://chr1swallace.github.io/coloc/articles/a06_SuSiE.html",
+      "file": "coloc-susie-method.data",
+      "max_bytes": 500000,
+      "sha256": "73843ccce714f7a41fa2239fb768616473e3e904d16992cfc1228a22633fd01c",
+      "bytes": 29431,
+      "retrieved_at_utc": "2026-09-12T11:16:51.134891+00:00"
+    },
+    {
+      "id": "coloc-prior-method",
+      "url": "https://chr1swallace.github.io/coloc/articles/a04_sensitivity.html",
+      "file": "coloc-prior-method.data",
+      "max_bytes": 500000,
+      "sha256": "5e4728ab20a768160612c86eb36a5cf71b4541b39c9ba73fba97fe8eac8e7ea4",
+      "bytes": 17796,
+      "retrieved_at_utc": "2026-09-12T11:16:51.247177+00:00"
+    },
+    {
+      "id": "susie-rss-method",
+      "url": "https://stephenslab.github.io/susieR/articles/finemapping_summary_statistics.html",
+      "file": "susie-rss-method.data",
+      "max_bytes": 500000,
+      "sha256": "c95dde7dbe702691290ba4b239b02e4c7b88973aa76fd7468306cdbeafbeb43a",
+      "bytes": 41889,
+      "retrieved_at_utc": "2026-09-12T11:16:51.431382+00:00"
+    },
+    {
+      "id": "susie-diagnostic-method",
+      "url": "https://stephenslab.github.io/susieR/articles/susierss_diagnostic.html",
+      "file": "susie-diagnostic-method.data",
+      "max_bytes": 500000,
+      "sha256": "7e068d9c5ac63f571a2b5c2c91b633d53c837c232a58287b7f66c850b90a3996",
+      "bytes": 29965,
+      "retrieved_at_utc": "2026-09-12T11:16:51.563297+00:00"
+    },
+    {
+      "id": "coloc-QTS000002-list",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/",
+      "file": "coloc-QTS000002-list.data",
+      "max_bytes": 200000,
+      "sha256": "e13c586739b391beb6cfaf7f1fc9e17693797b272bd03fe5cb1c8b9e539c6cdc",
+      "bytes": 3764,
+      "retrieved_at_utc": "2026-09-12T11:16:51.870517+00:00"
+    },
+    {
+      "id": "coloc-QTS000026-list",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/",
+      "file": "coloc-QTS000026-list.data",
+      "max_bytes": 200000,
+      "sha256": "c3d4818a89b4f69ea2cce4b0dccd5eb88e4e7694e562e8f66801731088443fa1",
+      "bytes": 15764,
+      "retrieved_at_utc": "2026-09-12T11:16:52.260358+00:00"
+    },
+    {
+      "id": "coloc-hg19-to-hg38-chain",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz",
+      "file": "coloc-hg19-to-hg38-chain.gz",
+      "max_bytes": 2000000,
+      "sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+      "bytes": 227698,
+      "retrieved_at_utc": "2026-09-12T11:16:53.125720+00:00"
+    },
+    {
+      "id": "coloc-hg38-to-hg19-chain",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz",
+      "file": "coloc-hg38-to-hg19-chain.gz",
+      "max_bytes": 2000000,
+      "sha256": "14a712e8e147d9fc8e9d87d51977b46f6f8ddb93efbe5d0843d86b6205f587b1",
+      "bytes": 1246411,
+      "retrieved_at_utc": "2026-09-12T11:16:53.676128+00:00"
+    },
+    {
+      "id": "coloc-r-source",
+      "url": "https://raw.githubusercontent.com/chr1swallace/coloc/v5.2.3/R/claudia.R",
+      "file": "coloc-r-source.data",
+      "max_bytes": 200000,
+      "sha256": "cf6af3620cef7d2599757a2b04f7677ca8a4a5211de9367cab8e9961db72c0ee",
+      "bytes": 14619,
+      "retrieved_at_utc": "2026-09-12T11:16:53.827816+00:00"
+    },
+    {
+      "id": "coloc-susie-source",
+      "url": "https://raw.githubusercontent.com/chr1swallace/coloc/v5.2.3/R/susie.R",
+      "file": "coloc-susie-source.data",
+      "max_bytes": 200000,
+      "sha256": "9d99681b939ad0b49e720a80ca4bb030a88eb78515e452f5ca64253f5e31d23d",
+      "bytes": 19781,
+      "retrieved_at_utc": "2026-09-12T11:16:53.973846+00:00"
+    },
+    {
+      "id": "coloc-QTD000031-list",
+      "file": "coloc-QTD000031-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000031/",
+      "max_bytes": 200000,
+      "sha256": "ceb4f2feedd720cd2b39a2023ddb1f1ff13234ecab568a6ae33f3e6559e32ef7",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:31.417157+00:00"
+    },
+    {
+      "id": "coloc-QTD000439-list",
+      "file": "coloc-QTD000439-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000439/",
+      "max_bytes": 200000,
+      "sha256": "497ab3b07db3934f142d59ca0d1b4dce27820f5ac2169f024ec26ea1689c6a0d",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:31.718098+00:00"
+    },
+    {
+      "id": "coloc-QTD000444-list",
+      "file": "coloc-QTD000444-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000444/",
+      "max_bytes": 200000,
+      "sha256": "714291db6e918d4eed804eddfa5548ef0412ebc1c2d4fb93be6363642a40a151",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:32.019749+00:00"
+    },
+    {
+      "id": "coloc-QTD000449-list",
+      "file": "coloc-QTD000449-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000449/",
+      "max_bytes": 200000,
+      "sha256": "45299063af744c95c6d07dfda2981f12ec653a2ab61d750e5f8f0a71f8fc3763",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:32.316904+00:00"
+    },
+    {
+      "id": "coloc-QTD000454-list",
+      "file": "coloc-QTD000454-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000454/",
+      "max_bytes": 200000,
+      "sha256": "42c87d56105439710daf061800ff5c8492a54788d560fbccb994871b5e516fdf",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:32.614159+00:00"
+    },
+    {
+      "id": "coloc-QTD000459-list",
+      "file": "coloc-QTD000459-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000459/",
+      "max_bytes": 200000,
+      "sha256": "a130d3a62c299544c661197582d1c28634a38ab5633b6943e8fddc4babdc35b5",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:32.913775+00:00"
+    },
+    {
+      "id": "coloc-QTD000464-list",
+      "file": "coloc-QTD000464-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000464/",
+      "max_bytes": 200000,
+      "sha256": "84b52f7a74e5951f3629c16f863dff11479fcfd5c31e34443d4d78d23ab7e3d1",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:33.212768+00:00"
+    },
+    {
+      "id": "coloc-QTD000469-list",
+      "file": "coloc-QTD000469-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000469/",
+      "max_bytes": 200000,
+      "sha256": "52527accef7a63ce442c24cd9ef2000b35e6d6c624dd350ac1298dd12650abaf",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:33.510338+00:00"
+    },
+    {
+      "id": "coloc-QTD000479-list",
+      "file": "coloc-QTD000479-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000479/",
+      "max_bytes": 200000,
+      "sha256": "301269db530729bac722fd2669b529d10935754d779c0b263cb35e07481bf631",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:33.806820+00:00"
+    },
+    {
+      "id": "coloc-QTD000484-list",
+      "file": "coloc-QTD000484-list.data",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000484/",
+      "max_bytes": 200000,
+      "sha256": "b298c12973a841829fe35d66aa9b8d7b14ca72e9016ba42a66f8728679bbf510",
+      "bytes": 1280,
+      "retrieved_at_utc": "2026-09-12T11:17:34.105033+00:00"
+    },
+    {
+      "id": "coloc-QTD000031-credible-sets",
+      "file": "coloc-QTD000031.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000031/QTD000031.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "44503cf1a0f2d229c43265d39adf3c9dae0fa500db34b6300dfa9647ad2abe5b",
+      "bytes": 9355429,
+      "retrieved_at_utc": "2026-09-12T11:23:00.357289+00:00"
+    },
+    {
+      "id": "coloc-QTD000031-lbf-header",
+      "file": "coloc-QTD000031.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000031/QTD000031.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "c7a8bbe808baa07695aebbdfb89d33d58284a180411f526db194f3d24633c655",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:00.856832+00:00"
+    },
+    {
+      "id": "coloc-QTD000439-credible-sets",
+      "file": "coloc-QTD000439.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000439/QTD000439.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "981fb8501b141364ea94b5af8903a9cbbf7070c6cc25d938e78185812a6e390d",
+      "bytes": 2445125,
+      "retrieved_at_utc": "2026-09-12T11:23:01.917392+00:00"
+    },
+    {
+      "id": "coloc-QTD000439-lbf-header",
+      "file": "coloc-QTD000439.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000439/QTD000439.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "c58acb25ab6af6295d8924e22f9cae966953417b16a71de3125a9d5c898d4999",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:02.885879+00:00"
+    },
+    {
+      "id": "coloc-QTD000444-credible-sets",
+      "file": "coloc-QTD000444.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000444/QTD000444.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "8539d881415cabab768849547bbe0d865f421c6b8d3746d649ddae0c3d7dd406",
+      "bytes": 2675106,
+      "retrieved_at_utc": "2026-09-12T11:23:05.756671+00:00"
+    },
+    {
+      "id": "coloc-QTD000444-lbf-header",
+      "file": "coloc-QTD000444.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000444/QTD000444.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "25406a1b3470d8b855d88826b8b381ccd36858912a04b351a7f1574b7924dbb4",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:06.265595+00:00"
+    },
+    {
+      "id": "coloc-QTD000449-credible-sets",
+      "file": "coloc-QTD000449.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000449/QTD000449.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "caab85c0586684d7a7c5001e90c54c514c0714927bb6de0e7a3f45e0b37a6560",
+      "bytes": 2055336,
+      "retrieved_at_utc": "2026-09-12T11:23:08.071160+00:00"
+    },
+    {
+      "id": "coloc-QTD000449-lbf-header",
+      "file": "coloc-QTD000449.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000449/QTD000449.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "38dc59f8e7122ca580cf331c353cb06d4f675703ec43c5404726cc860888265b",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:08.577341+00:00"
+    },
+    {
+      "id": "coloc-QTD000454-credible-sets",
+      "file": "coloc-QTD000454.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000454/QTD000454.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "a991090261035ee246983808b972b5d4c0e17cdc9084671d1a9a5ffe6e478fd1",
+      "bytes": 2416947,
+      "retrieved_at_utc": "2026-09-12T11:23:10.761440+00:00"
+    },
+    {
+      "id": "coloc-QTD000454-lbf-header",
+      "file": "coloc-QTD000454.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000454/QTD000454.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "22463681004851180538046cf3c6f834b527e3e56aa94c0395a7f258dd1dd058",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:11.262545+00:00"
+    },
+    {
+      "id": "coloc-QTD000459-credible-sets",
+      "file": "coloc-QTD000459.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000459/QTD000459.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "53900bcfd23cc25d79f84b7383e3df44494741440aa2a350c172fb9a2860ae2b",
+      "bytes": 2476118,
+      "retrieved_at_utc": "2026-09-12T11:23:13.446395+00:00"
+    },
+    {
+      "id": "coloc-QTD000459-lbf-header",
+      "file": "coloc-QTD000459.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000459/QTD000459.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "ddf6eb4f69a6a5b8a8832736e2ada76333110f1d0b9e0a8828e7cf83a94b2e7d",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:13.970323+00:00"
+    },
+    {
+      "id": "coloc-QTD000464-credible-sets",
+      "file": "coloc-QTD000464.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000464/QTD000464.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "4bbc54bf3afaf824b75acb66d1291917713dbf0ab1cf92fb111c15861b97c22f",
+      "bytes": 2226330,
+      "retrieved_at_utc": "2026-09-12T11:23:15.592424+00:00"
+    },
+    {
+      "id": "coloc-QTD000464-lbf-header",
+      "file": "coloc-QTD000464.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000464/QTD000464.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "d6a53e9f0e2c5ea779dfe45371aeaa1b894d80ed7df4debba84df742778eddf6",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:16.112369+00:00"
+    },
+    {
+      "id": "coloc-QTD000469-credible-sets",
+      "file": "coloc-QTD000469.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000469/QTD000469.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "8e9eead976eee9d8f27ccd3b204b58651374eab55a3d736788e1d85c804de0cf",
+      "bytes": 2463825,
+      "retrieved_at_utc": "2026-09-12T11:23:18.018055+00:00"
+    },
+    {
+      "id": "coloc-QTD000469-lbf-header",
+      "file": "coloc-QTD000469.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000469/QTD000469.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "640f08c4e6155138415420a1bc9ae30c1cd9adbdfb5a6259dc95433f915fd902",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:18.534076+00:00"
+    },
+    {
+      "id": "coloc-QTD000479-credible-sets",
+      "file": "coloc-QTD000479.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000479/QTD000479.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "21db211fe1d05592ebee9ec6bae91205b4afedb133edf74df7d7a41a8646f0a7",
+      "bytes": 2530063,
+      "retrieved_at_utc": "2026-09-12T11:23:20.997524+00:00"
+    },
+    {
+      "id": "coloc-QTD000479-lbf-header",
+      "file": "coloc-QTD000479.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000479/QTD000479.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "4b15f4837dbf151078e86d6d40192c33ff9819198ae0efea27a69233d5215807",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:21.499935+00:00"
+    },
+    {
+      "id": "coloc-QTD000484-credible-sets",
+      "file": "coloc-QTD000484.credible_sets.tsv.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000484/QTD000484.credible_sets.tsv.gz",
+      "max_bytes": 25000000,
+      "sha256": "67c485b3e23483d7633bf87cb9ac0d55755d8c6da0fb891fdf8c04f00384a16d",
+      "bytes": 2062458,
+      "retrieved_at_utc": "2026-09-12T11:23:23.408850+00:00"
+    },
+    {
+      "id": "coloc-QTD000484-lbf-header",
+      "file": "coloc-QTD000484.lbf_variable.txt.gz.head",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000484/QTD000484.lbf_variable.txt.gz",
+      "max_bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "expected_content_range": "bytes 0-65535/",
+      "sha256": "b25371fde2eb127d3b1c74c2b2d6606b201ed34660a9c98881da1b04d98520bc",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:23:23.913620+00:00"
+    }
+  ]
+}

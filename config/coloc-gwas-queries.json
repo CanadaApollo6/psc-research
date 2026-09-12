@@ -1,0 +1,326 @@
+{
+  "plan_sha256": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+  "source_manifest_sha256": "d093286478dee9e7e975f50a9bbaf0b1e5f97cf5991823f4e3c57dc5e72e860a",
+  "reader_sha256": "cdf250a6a25cd92254492a0fbe2d293b9d86d589559e91dda70b21e42fc84c99",
+  "pysam_version": "0.23.3",
+  "started_at_utc": "2026-09-12T11:26:24.874190+00:00",
+  "queries": [
+    {
+      "id": "GWAS-PFKFB3",
+      "file": "data/derived/coloc-query-rows/GWAS-PFKFB3.txt.gz",
+      "sha256": "6a549979acef67fa76f47efaee1e1eede4562845af88be8707e692852c806035",
+      "uncompressed_sha256": "f92216d01b2ce83e4c01043f86ee258d1d36984de76c6f50cfd781887449f98e",
+      "bytes": 196904,
+      "finished_at_utc": "2026-09-12T11:26:35.785059+00:00",
+      "rows": 7639,
+      "region": {
+        "gene_id": "ENSG00000170525",
+        "gene_name": "PFKFB3",
+        "anchor": "rs7923054",
+        "chromosome": "chr10",
+        "tss_grch38_1based": 6144934,
+        "start_grch38_0based": 5144933,
+        "end_grch38_exclusive": 7144934,
+        "start_grch37_0based": 5186125,
+        "end_grch37_exclusive": 7187896
+      },
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "bracketing_first_coordinate": [
+        10,
+        5026017
+      ],
+      "bracketing_last_coordinate": [
+        10,
+        7423960
+      ]
+    },
+    {
+      "id": "GWAS-BCL2L11",
+      "file": "data/derived/coloc-query-rows/GWAS-BCL2L11.txt.gz",
+      "sha256": "f843c5d723d6276fc9fc6e004eb5fe80afc9347391c395291fb7e0c250838f5c",
+      "uncompressed_sha256": "65c60a34e68820963a8436b26e1b46999c5c3647d1cb6578881a391f34b54783",
+      "bytes": 76337,
+      "finished_at_utc": "2026-09-12T11:26:42.930144+00:00",
+      "rows": 3014,
+      "region": {
+        "gene_id": "ENSG00000153094",
+        "gene_name": "BCL2L11",
+        "anchor": "rs72837826",
+        "chromosome": "chr2",
+        "tss_grch38_1based": 111119378,
+        "start_grch38_0based": 110119377,
+        "end_grch38_exclusive": 112119378,
+        "start_grch37_0based": 110875954,
+        "end_grch37_exclusive": 112877955
+      },
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "bracketing_first_coordinate": [
+        2,
+        110030728
+      ],
+      "bracketing_last_coordinate": [
+        2,
+        113308855
+      ]
+    }
+  ],
+  "ranges": [
+    {
+      "file": "coloc-gwas-bytes-330978334-331043869.txt",
+      "start": 330978334,
+      "end": 331043869,
+      "sha256": "2382f6216e61003f915862c0138e3d0fc19326f67b2990b84144a9a5acfb7cc5",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:25.368628+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-496467501-496533036.txt",
+      "start": 496467501,
+      "end": 496533036,
+      "sha256": "ae61e1e7a8b09a78c4eccf0a12ba267d2f4a09ad1d22d261f1d183e71f244626",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:25.854699+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-413722917-413788452.txt",
+      "start": 413722917,
+      "end": 413788452,
+      "sha256": "7471eb9e653dafb5311fc6c4814458533c8bc61c6392587bf97712f35e6af5f0",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:26.339007+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-372350625-372416160.txt",
+      "start": 372350625,
+      "end": 372416160,
+      "sha256": "4b3e3d0fd406c5a5763067084ce37cd4d29facc6d70a9ff446039166944eee42",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:26.825238+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-393036771-393102306.txt",
+      "start": 393036771,
+      "end": 393102306,
+      "sha256": "87841820d702d57ed636fcc57c7de8d25fa2cb7439ad385b3a9fe5c227e76eef",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:27.309976+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-382693698-382759233.txt",
+      "start": 382693698,
+      "end": 382759233,
+      "sha256": "d90ec5df49b0c0d9c02deddac5e1b385562ba9820d021e32a588071dda662cb9",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:27.936959+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-387865234-387930769.txt",
+      "start": 387865234,
+      "end": 387930769,
+      "sha256": "b1215b7fcf07f55d801b010b2a881940d16feadabe5e02b43eda39ee3836fe93",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:28.421241+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-385279466-385345001.txt",
+      "start": 385279466,
+      "end": 385345001,
+      "sha256": "5c0a42861cad2ddea754ecc67743f539252950d777216355ae1498707e4e0204",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:29.465662+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-386572350-386637885.txt",
+      "start": 386572350,
+      "end": 386637885,
+      "sha256": "685e9d73858a0c06d9a3098d612ebd93320115fa8b4d6491e440ac1eeaf33258",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:30.645985+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-387218792-387284327.txt",
+      "start": 387218792,
+      "end": 387284327,
+      "sha256": "342831173df78def9038ee57db9703e17252de2e0648ad618519f8c71871efe6",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:31.133794+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-387542013-387607548.txt",
+      "start": 387542013,
+      "end": 387607548,
+      "sha256": "813f99bebb8ad5ca1951b385fb25b09d3bfe9725c82f9c114bf25542d7784404",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:31.643692+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-387703623-387769158.txt",
+      "start": 387703623,
+      "end": 387769158,
+      "sha256": "b915c5ff3a8246f798352c59bd9d8c23cca7790e64893f18daccf2524e4b382d",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:32.127067+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-390451002-390516537.txt",
+      "start": 390451002,
+      "end": 390516537,
+      "sha256": "b8a6bf5ef0e9979eb8d9dca26afeb80308a45b1a6d18eaa850b92480bb0e3fe9",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:32.617952+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-389158118-389223653.txt",
+      "start": 389158118,
+      "end": 389223653,
+      "sha256": "f7cecde1268bbba44e1a88f1570ff81664cbd80496511a7632a9828e0de1253f",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:33.234881+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-388511676-388577211.txt",
+      "start": 388511676,
+      "end": 388577211,
+      "sha256": "137f1dc9e42034c085546b85f290dee6c22c9d2eb96a6c8483f3f001f48ebdfc",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:33.774973+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-388188455-388253990.txt",
+      "start": 388188455,
+      "end": 388253990,
+      "sha256": "378f3ddbb45c203568cdb25c85c61a935be82a949db86bc4aa80af33eafe9dee",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:34.261062+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-388350065-388415600.txt",
+      "start": 388350065,
+      "end": 388415600,
+      "sha256": "c687edcfc68eb3fab715092a478fa681e211bff5a829154b811e8b350ef50172",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:34.748861+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-387693145-388459795.txt",
+      "start": 387693145,
+      "end": 388459795,
+      "sha256": "19eef354a712df85d33310acd6458bd53751fc9183e2c347f70e92163eb902f5",
+      "bytes": 766651,
+      "retrieved_at_utc": "2026-09-12T11:26:35.701287+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-165489167-165554702.txt",
+      "start": 165489167,
+      "end": 165554702,
+      "sha256": "e5b072cdec6344768f2c6c24f63455840750f5c0ad66491d75596920cd1f9d16",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:36.269359+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-82744583-82810118.txt",
+      "start": 82744583,
+      "end": 82810118,
+      "sha256": "33715efc411ee76689da0f0b5dea6ba2bdb43e8b361b77ef4f8764db87ec444b",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:36.758303+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-41372291-41437826.txt",
+      "start": 41372291,
+      "end": 41437826,
+      "sha256": "899ad2288a7c52a8c6187b818df3f87ded3b0d05b92007747a17e24906a8a16e",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:37.244364+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-62058437-62123972.txt",
+      "start": 62058437,
+      "end": 62123972,
+      "sha256": "bc731a223dd96870fad3dc3eb74dc2d496754b477244c0cde158804b06e10871",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:37.731760+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-72401510-72467045.txt",
+      "start": 72401510,
+      "end": 72467045,
+      "sha256": "8f08208536c9eddab6ec235f460df2aa839d053ab4d8e01d58a933390ea805ed",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:38.222145+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-77573046-77638581.txt",
+      "start": 77573046,
+      "end": 77638581,
+      "sha256": "b07463965e75c5a40060c0f8bb0bda8ccb9a7e27a25a6f703d130fde84df3e21",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:38.704891+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74987278-75052813.txt",
+      "start": 74987278,
+      "end": 75052813,
+      "sha256": "493fe707b462418b7facb399e939e1ac34c7c25d6b10dbbb0e9d404f053d4ca1",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:39.189655+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-73694394-73759929.txt",
+      "start": 73694394,
+      "end": 73759929,
+      "sha256": "1aeef839fb0d19109062522adb89a464f0d6fa1090efa569b350cea71b6b554d",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:39.676958+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74340836-74406371.txt",
+      "start": 74340836,
+      "end": 74406371,
+      "sha256": "cdcb47c4a9b9c567e3539bb79bdfb48465c980e5e2ef6c52f4562d3d058c9606",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:40.165880+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74664057-74729592.txt",
+      "start": 74664057,
+      "end": 74729592,
+      "sha256": "d6db476bf5d5b7b1798780fff8da22dab70a2f3c1cf43e309dbe1e4ead30d9c4",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:40.655782+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74502446-74567981.txt",
+      "start": 74502446,
+      "end": 74567981,
+      "sha256": "42ea098eaba3a124604a99b2f579f27e30f2563fcbff0a016dc252e0d1f4d214",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:41.143514+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74583251-74648786.txt",
+      "start": 74583251,
+      "end": 74648786,
+      "sha256": "f6ec1807b2d75f63504904853018dc34736d7f6688c1016fa1eeafaf3ed79c86",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:41.633386+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74825667-74891202.txt",
+      "start": 74825667,
+      "end": 74891202,
+      "sha256": "806aa8c353b126c78f2cf8a29175c41a59894240fce425a8b73ef4e93d05e8bc",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T11:26:42.126336+00:00"
+    },
+    {
+      "file": "coloc-gwas-bytes-74567280-74951266.txt",
+      "start": 74567280,
+      "end": 74951266,
+      "sha256": "d5fe49bd07eed60f6e622327db95513d75a63effd6b7768618173f8434e2e68f",
+      "bytes": 383987,
+      "retrieved_at_utc": "2026-09-12T11:26:42.896087+00:00"
+    }
+  ],
+  "finished_at_utc": "2026-09-12T11:26:42.930471+00:00"
+}

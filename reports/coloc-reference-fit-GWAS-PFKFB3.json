@@ -1,0 +1,30 @@
+{
+  "dataset_id": "GWAS",
+  "gene_name": "PFKFB3",
+  "status": "converged",
+  "n_variants": 4358,
+  "n": 14890,
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "estimated_ld_mismatch_s": 0.0455195166532389,
+  "min_eigenvalue": -2.31793736515023e-13,
+  "reference_rank": 502,
+  "warnings": "`aes_string()` was deprecated in ggplot2 3.0.0.\nℹ Please use tidy evaluation idioms with `aes()`.\nℹ See also `vignette(\"ggplot2-in-packages\")` for more information.\nℹ The deprecated feature was likely used in the susieR package.\n  Please report the issue at <https://github.com/stephenslab/susieR/issues>.",
+  "error": null,
+  "diagnostic_flagged_variants": 0,
+  "n_credible_sets": 1,
+  "iterations": 4,
+  "credible_sets": [
+    {
+      "component": 1,
+      "snps": ["chr10:6056986:C:T", "chr10:6064303:C:T", "chr10:6064589:C:T", "chr10:6066377:A:G", "chr10:6066476:A:G"],
+      "size": 5,
+      "purity": {
+        "min.abs.corr": 0.783816999274108,
+        "mean.abs.corr": 0.91310981289141,
+        "median.abs.corr": 0.954265916051017
+      },
+      "log_bf": 17.152823931727
+    }
+  ]
+}

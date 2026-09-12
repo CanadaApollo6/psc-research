@@ -1,0 +1,323 @@
+{
+  "datasets": [
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "GWAS",
+      "source_rows": 7639,
+      "eligible_unique_snvs": 4415,
+      "statuses": {
+        "outside_fixed_grch38_region": 5,
+        "eligible": 4415,
+        "palindromic_reference_frequency_unavailable": 19,
+        "not_biallelic_snv": 680,
+        "platform_sample_size_unavailable": 2512,
+        "nonunique_or_nonreciprocal_mapping": 8
+      }
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031",
+      "source_rows": 11625,
+      "source_unique_variants": 10552,
+      "eligible_unique_snvs": 8571,
+      "gwas_overlap": 4169,
+      "sample_sizes": [
+        167
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000439",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000444",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000449",
+      "source_rows": 10725,
+      "source_unique_variants": 9525,
+      "eligible_unique_snvs": 7492,
+      "gwas_overlap": 3780,
+      "sample_sizes": [
+        82
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000454",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000459",
+      "source_rows": 11485,
+      "source_unique_variants": 10244,
+      "eligible_unique_snvs": 8058,
+      "gwas_overlap": 3939,
+      "sample_sizes": [
+        88
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000464",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000469",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000479",
+      "source_rows": 11462,
+      "source_unique_variants": 10223,
+      "eligible_unique_snvs": 8036,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        88
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000484",
+      "source_rows": 11505,
+      "source_unique_variants": 10264,
+      "eligible_unique_snvs": 8072,
+      "gwas_overlap": 3944,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "GWAS-LD",
+      "eligible_unique_snvs": 4358,
+      "reference_donors": 503
+    },
+    {
+      "gene_name": "PFKFB3",
+      "dataset_id": "QTD000031-LD",
+      "eligible_unique_snvs": 8167,
+      "reference_donors": 503
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "GWAS",
+      "source_rows": 3014,
+      "eligible_unique_snvs": 2079,
+      "statuses": {
+        "outside_fixed_grch38_region": 5,
+        "eligible": 2079,
+        "platform_sample_size_unavailable": 664,
+        "not_biallelic_snv": 260,
+        "palindromic_reference_frequency_unavailable": 6
+      }
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000031",
+      "source_rows": 5733,
+      "source_unique_variants": 5335,
+      "eligible_unique_snvs": 4393,
+      "gwas_overlap": 1963,
+      "sample_sizes": [
+        167
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000439",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000444",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000449",
+      "source_rows": 4715,
+      "source_unique_variants": 4281,
+      "eligible_unique_snvs": 3421,
+      "gwas_overlap": 1748,
+      "sample_sizes": [
+        82
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000454",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000459",
+      "source_rows": 5061,
+      "source_unique_variants": 4614,
+      "eligible_unique_snvs": 3695,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        88
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000464",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000469",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000479",
+      "source_rows": 5062,
+      "source_unique_variants": 4615,
+      "eligible_unique_snvs": 3696,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        88
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000484",
+      "source_rows": 5065,
+      "source_unique_variants": 4618,
+      "eligible_unique_snvs": 3699,
+      "gwas_overlap": 1862,
+      "sample_sizes": [
+        89
+      ]
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "GWAS-LD",
+      "eligible_unique_snvs": 2067,
+      "reference_donors": 503
+    },
+    {
+      "gene_name": "BCL2L11",
+      "dataset_id": "QTD000031-LD",
+      "eligible_unique_snvs": 3840,
+      "reference_donors": 503
+    }
+  ],
+  "gwas_status_counts": {
+    "outside_fixed_grch38_region": 10,
+    "eligible": 6494,
+    "palindromic_reference_frequency_unavailable": 25,
+    "not_biallelic_snv": 940,
+    "platform_sample_size_unavailable": 3176,
+    "nonunique_or_nonreciprocal_mapping": 8
+  },
+  "qtl_status_counts": {
+    "eligible": 117988,
+    "unavailable": 30693
+  },
+  "reference_status_counts": {
+    "outside_fixed_grch38_region": 115,
+    "nonunique_or_nonreciprocal_mapping": 11,
+    "mapped": 105153
+  },
+  "published_target_credible_set_rows": 22,
+  "plan_sha256": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+  "preparation_script_sha256": "b28533e570f89f1ffce345008bed2424165aae0d313a565324e8bf5c9f8f69c6",
+  "inputs": {
+    "data/derived/coloc-inputs/GWAS-BCL2L11-ld.csv.gz": "10a0bd70bd93c68bc5cbf093921ff51786d190688e9eaf22e41dce0b69c3c6fa",
+    "data/derived/coloc-inputs/GWAS-BCL2L11.csv.gz": "427b703c665eed33f6b884cb0d11e95cea03c1c0cbcf666baf7dee4d7e044e2b",
+    "data/derived/coloc-inputs/GWAS-PFKFB3-ld.csv.gz": "5c4fd09ef9b32eeb6dcd839fc4f5ac5f4910267935da45237112d419488cc09e",
+    "data/derived/coloc-inputs/GWAS-PFKFB3.csv.gz": "0c21bd2f2f1db40f7b10302e2d3cb1750565c21cc10dfc40053cae12a0fcd12c",
+    "data/derived/coloc-inputs/QTD000031-BCL2L11-ld.csv.gz": "349cbfc8d0d27d85321c8265b8047f66a3a01fb0a4ac6c8ed9adaea7aa667914",
+    "data/derived/coloc-inputs/QTD000031-BCL2L11.csv.gz": "942a027500cfca951d9e5fdf232cff7e74846f26b2df631b2d89aebfeef9378c",
+    "data/derived/coloc-inputs/QTD000031-PFKFB3-ld.csv.gz": "9c83800a3fff13568760317c96faa7996d4907d851bf442041902fdae9816cce",
+    "data/derived/coloc-inputs/QTD000031-PFKFB3.csv.gz": "a6c3e5892f8ca647eb879bf0d4eddc050ea2ec4a82a9fa7241f45e9eb4a11d7e",
+    "data/derived/coloc-inputs/QTD000439-BCL2L11.csv.gz": "e638a4b51e6b6989992ad257c4bc5d019b8a2372bf7f47ee55359a63518a7066",
+    "data/derived/coloc-inputs/QTD000439-PFKFB3.csv.gz": "23cadc2e5d89e38f8836a4d8dc01f3504091d0c2d8c600977987c84e4f37bd1a",
+    "data/derived/coloc-inputs/QTD000444-BCL2L11.csv.gz": "6844918b16c4bb16779f53356037b0078fb4d7e0a089d88cf3abea9de6063f13",
+    "data/derived/coloc-inputs/QTD000444-PFKFB3.csv.gz": "7a07eb3e4218ec309233db07bbc0bd4d996f47667a351e9201522ac27f6fe38c",
+    "data/derived/coloc-inputs/QTD000449-BCL2L11.csv.gz": "c89d51305b602b8ebf298b723635bbdbe30bead4070c74d8602c555f84742de9",
+    "data/derived/coloc-inputs/QTD000449-PFKFB3.csv.gz": "809b6468c4a13af3019cbd302d83502e888c69a57333efb4345ed3891a70ec14",
+    "data/derived/coloc-inputs/QTD000454-BCL2L11.csv.gz": "90a95f51816e4a72cc0de9888817083d5265ead7b3533f528ca291c0b3c9e6a8",
+    "data/derived/coloc-inputs/QTD000454-PFKFB3.csv.gz": "a3d848dd7e03b9688c6405fbcb2752eba333aa95b38e914819466a9262aa8a69",
+    "data/derived/coloc-inputs/QTD000459-BCL2L11.csv.gz": "9809f150ac0bb3ca343b713a98293043fa514afe3f5bc18a57210a28847db334",
+    "data/derived/coloc-inputs/QTD000459-PFKFB3.csv.gz": "c22128ecbee64d215e6a9e99af5ff8925fabde3c71fd061879e3f43850f18a55",
+    "data/derived/coloc-inputs/QTD000464-BCL2L11.csv.gz": "146909f70b513f763f6d1f9b99cb1d3398bd418759a2ea6a001526d72e574d8d",
+    "data/derived/coloc-inputs/QTD000464-PFKFB3.csv.gz": "6638f37cf71f2b2abfaf90cbc525a52a5c2a8580289432932e29160569c8aa56",
+    "data/derived/coloc-inputs/QTD000469-BCL2L11.csv.gz": "7f6068c88673ff5e746ddac019bae1f6005a503005ee464043dd426087c1998a",
+    "data/derived/coloc-inputs/QTD000469-PFKFB3.csv.gz": "11af34fa66d1185f1d8f55b81478233b220becfb64392ec66e02831ae9d80ea5",
+    "data/derived/coloc-inputs/QTD000479-BCL2L11.csv.gz": "73b7d20b77553f8ec504187b5df0fcaba99b6df2ca2f8d5b240a400985f4902d",
+    "data/derived/coloc-inputs/QTD000479-PFKFB3.csv.gz": "82fa47329c60f3fa5ec2af2bf63d17ff923ec09ea32dab834097e72432131236",
+    "data/derived/coloc-inputs/QTD000484-BCL2L11.csv.gz": "d8c3f02baa03b114764e05e1278ca84f516b7d2c13aa1c7e84e3aa334f6d00dc",
+    "data/derived/coloc-inputs/QTD000484-PFKFB3.csv.gz": "fdc91f4c0d1162c499be759ec25a28e421ae2d1448709e41c4f2d32905d8cbb3"
+  }
+}

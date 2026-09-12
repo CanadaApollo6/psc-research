@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [CD4 RNA evidence report](reports/cd4-rna-evidence.md) checks **all nine variants across ten datasets and 228 fixed gene pairs**. Of 2,280 planned dataset-level comparisons, 693 are measured. Five associations pass the fixed multiple-testing correction, representing **rs7923054–PFKFB3** and **rs72837826–BCL2L11**. Model RNA tracks disagree on direction for both pairs. DICE subsets share donors, and both DICE and BLUEPRINT appear in the original PSC study, so this is not wholly independent validation. The next task is testing whether the RNA and PSC associations share the same underlying genetic signals.
+The latest [colocalisation assessment](reports/colocalisation.md) checks **PFKFB3 and BCL2L11 across all ten CD4 contexts**. Neither currently has supported evidence of a shared PSC–RNA signal. PFKFB3's eligible-SNP results favor different signals, as does its secondary published RNA component; its dominant components remain unresolved because omitted indels carry substantial evidence. BCL2L11 remains unresolved because the relevant DICE comparisons retain only one-third of the eligible PSC evidence. The next work is [exact indel matching and missing-variant source review](docs/coloc-next-inputs.md). Original coverage failures and the source-supported platform-count amendment remain separate.
+
+The preceding [CD4 RNA evidence report](reports/cd4-rna-evidence.md) checks **all nine variants across ten datasets and 228 fixed gene pairs**. Of 2,280 planned dataset-level comparisons, 693 are measured. Five associations pass the fixed multiple-testing correction, representing **rs7923054–PFKFB3** and **rs72837826–BCL2L11**. Model RNA tracks disagree on direction for both pairs. DICE subsets share donors, and both DICE and BLUEPRINT appear in the original PSC study, so this is not wholly independent validation. These observed RNA associations are preserved alongside the subsequent shared-signal assessment.
 
 The preceding [fixed matched comparison](reports/matched-comparison.md) completed **nine predictions across three matched groups**. One prioritized variant scored above its comparison pair and two below it; there is no consistent separation in this small sample. Both BACH2 candidates lacked an eligible pair under the unchanged matching rules and were excluded before scoring. All nine variants have complete model outputs across their fixed gene and CD4-track universes.
 
@@ -37,6 +39,7 @@ The [first AlphaGenome pilot](reports/first-alphagenome-pilot.md) and [mechanism
 - A full fine-mapping archive import, log/configuration audit, explicitly labeled singleton-set reconstructions, and a fixed prospective comparison protocol with candidate references and exclusions.
 - Complete matching audits for 6,117 low-PIP rsIDs, frequencies and LD from 503 public EUR donors, nine successful predictions, and all 228 variant–gene rankings with 456 primary track scores.
 - Ninety bounded public CD4 eQTL queries, a complete 2,280-row coverage/effect table, corrected-threshold associations, and explicit model-direction, cell-label and donor-sharing limitations.
+- Twenty complete regional PSC/RNA comparisons, audited genotyping-platform sample counts, original and amended ABF baselines, multiple-signal sensitivity analyses, full published target-gene BF vectors and explicit signal-weight coverage failures.
 
 The full signal-summary table contains the most probable variant per signal, not every credible-set member. Its original coordinates remain in build 37. The separate [four-variant pilot input](data/derived/benchmark-variants.csv) has verified build-38 coordinates and reference/alternate alleles. Its two original direction exclusions remain unchanged; the later [allele audit](data/derived/allele-audit.csv) is separate. No liver-atlas expression matrices have been analyzed.
 
@@ -181,6 +184,8 @@ python -m unittest discover -s tests -v
 The [full report](reports/cd4-rna-evidence.md) includes all ten datasets, every missing-measurement category, the two inconsistent Treg metadata labels, source allele/carrier counts, and all screened associations. RNA coefficients are normalized-expression effects per ALT allele; their signs do not determine PSC risk or treatment direction. Prior model results and their fixed matching protocol remain unchanged.
 
 ## Interpretation
+
+The [colocalisation reproduction guide](docs/coloc-reproduction.md) provides portable hash checks, figure/table regeneration, isolated numerical replay of both baselines, and the additional requirements and current cache-restoration limit for full LD refitting. The [complete report](reports/colocalisation.md) and [next input specification](docs/coloc-next-inputs.md) explain the findings and the bounded follow-up.
 
 PSC susceptibility is different from progression of established PSC. A regulatory prediction can support a mechanism worth testing; it does not show that altering that gene will safely treat disease. Experimental and clinical validation would still be needed.
 
