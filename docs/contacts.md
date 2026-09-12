@@ -2,6 +2,14 @@
 
 Verified from the linked public sources on 2026-09-11. Contact details are professional and public. No outreach has been sent from this repository, and no collaboration has been agreed. Research can begin before anyone replies.
 
+## James Lee and the ETS2 study team — focused reproducibility request
+
+Added and verified September 12, 2026 from the [paper's corresponding-author section](https://www.nature.com/articles/s41586-024-07501-1). Our [inhibitor-method reconstruction](ets2-inhibitor-reconstruction.md) recomputes all nine raw ES values from the released 500-nM vector and compares archived NES with the publisher's source data. The historical null, NES normalization and P values were not refitted, and the exact per-gene table-to-rank export remains unverified.
+
+**Public email:** james.lee@crick.ac.uk
+
+An [unsent email](ets2-lee-request-draft.md) and [reproducibility brief](ets2-lee-reproducibility-brief.md) request the two original inhibitor differential tables, contrast directions, gene-symbol mapping/collapse and export code/package versions. This focused request does not ask for participant-level data. Independent dataset discovery continues separately.
+
 ## eQTL Catalogue team — immediate data-provenance contact
 
 The [measured-RNA follow-up](../reports/qtl-followup.md) found a systematic conflict between splice-cluster strand labels and gene annotations in the Lepik_2017 dataset. Ask for the correct orientation convention, any corrected release, and unfiltered canonical/+29 junction coefficients. Exact questions and dataset identifiers are in the [review brief](mechanism-review-questions.md).

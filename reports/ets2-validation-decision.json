@@ -1,0 +1,76 @@
+{
+  "decision_id": "ets2-independent-validation-readiness-v1",
+  "frozen_at_utc": "2026-09-12T16:36:53.370431+00:00",
+  "preparation_complete": true,
+  "selected_numerical_study": null,
+  "ready_for_inference": false,
+  "candidate_entries": 15,
+  "fully_eligible_tier_A_in_this_search": 0,
+  "negative_search_inference": "No eligible study found within recorded finite/page-limited coverage; no claim of absence elsewhere. Initial exploratory context queries/discarded hits were incompletely archived.",
+  "input_sha256": {
+    "config/ets2-validation-rules.json": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "docs/ets2-validation-protocol.md": "65a0818db93964c3029a1d22321e4faba5402a2cb1eb827b4c72f734e58e75f7",
+    "config/ets2-validation-amended-rules.json": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+    "docs/ets2-validation-amendment.md": "b4bbc1ba759c6b7982756ed23827ac2a00ededf15cf273b70cf47c45d1f4608b",
+    "config/ets2-validation-context-sources.json": "a37468146145f9c6d9e4efc24c52717f26943e0a4b8c607cd53a124ac13bb75f",
+    "config/ets2-validation-perturbation-sources.json": "9ef520464d2a465aa0aec4a0a33f8b2ada8981d8663c977c6460da7a9e8c2ab2",
+    "config/ets2-validation-gse255234-preparation.json": "fedba49a704aee5ba42b2d7a5df7deee62871550e60125547ca7e049aa23a948",
+    "data/derived/ets2-validation-context-candidates.csv": "7f436db96d00eeaa26a40bb48886811d86ee00fe55f1dec7920769fb57cd61a5",
+    "data/derived/ets2-validation-perturbation-candidates.csv": "6383959ea7e5b79ad0731dc259bdd04d90c8d9da549de7b84147ec0d006b2d59",
+    "docs/ets2-validation-context-search.md": "1651efe0ee58509cac51f017be73d028e2247a3cfcfa325e2d14a7582e9d60e8",
+    "docs/ets2-validation-perturbation-search.md": "c067a9c289d45fec0ae00e65924e451301c1ad650f5b8dffa7d2cdbb9b39b46f",
+    "docs/ets2-lee-request-draft.md": "48c882694abcf954a41df508eba9e8883bf138db6be50a492adc8baaa5a31189",
+    "docs/ets2-lee-reproducibility-brief.md": "60e2d07e7210036bbd11062853b2d81f2981a4671425ea294f84e351ce51b1ed",
+    "reports/ets2-validation-readiness.md": "da32daf49940becf34661e1368683eac2950c4ecf3ee901d4a571c5f5bc5fc7f",
+    "reports/ets2-validation-verification.json": "e1b9d0dcf4a4e8c899c3914b9dc5b2956466e5e65c8dbd9fdc5c3a531cfa0e94"
+  },
+  "next_source_preparation_priority": [
+    "GSE84161",
+    "GSE255234"
+  ],
+  "priority_not_effect_selected": true,
+  "candidates": {
+    "GSE84161": {
+      "evidence_tier": "B",
+      "assay_readiness": "array-specific procedure not yet frozen",
+      "donor_design_status": "five donors stated; numbered replicate groups need explicit donor-key confirmation",
+      "independence_status": "separate study; no reuse identified; individual donor overlap unknown",
+      "target_engagement_status": "compound called MEK SMI; exact identity and source engagement evidence unresolved",
+      "feature_universe_status": "processed probe universe may be filtered; full raw-array mapping/normalization pending"
+    },
+    "GSE255234": {
+      "evidence_tier": "C",
+      "assay_readiness": "integer-file structural checks pass; provenance gates pending",
+      "donor_design_status": "4 explicit donors x4 conditions;16 sample records and12 planned pairs preserved",
+      "independence_status": "separate study; no reuse identified; individual donor overlap unknown",
+      "target_engagement_status": "generic stimulation; no direct ETS2 or MEK perturbation",
+      "feature_universe_status": "64253 unique Ensembl IDs; source describes RefSeq; full original export provenance unresolved"
+    },
+    "GSE175685": {
+      "evidence_tier": "D",
+      "assay_readiness": "public FPKM; separate model/assay procedure pending",
+      "donor_design_status": "cell-line cultures;3 ETS2-ORF and11 empty-vector; culture-duration/batch confounding",
+      "independence_status": "separate study; donor-validation claim inapplicable",
+      "target_engagement_status": "ETS2 construct explicitly named in metadata; independent engagement evidence not audited",
+      "feature_universe_status": "FPKM gene universe and mapping pending"
+    }
+  },
+  "first_future_numerical_run_study_limit": 1,
+  "new_program_scores": 0,
+  "outreach": {
+    "draft": "docs/ets2-lee-request-draft.md",
+    "brief": "docs/ets2-lee-reproducibility-brief.md",
+    "sent": false
+  },
+  "next_branch_ubash3a_transcript_consequence": "preserved; not started in this turn",
+  "serialization_corrections": [
+    {
+      "recorded_at_utc": "2026-09-12T16:38:24.961622+00:00",
+      "path": "data/derived/ets2-validation-context-candidates.csv",
+      "prior_sha256": "2745e25ad5b9b85fbc9e050c826a25b4948d709153b17c88505034a7494ad872",
+      "current_sha256": "7f436db96d00eeaa26a40bb48886811d86ee00fe55f1dec7920769fb57cd61a5",
+      "prior_bytes_preserved_at": "work/ets2-validation-context-candidates-before-lf.csv",
+      "reason": "Normalize CSV CRLF to LF for repository whitespace checks; parsed headers, rows and field values verified identical. No analytical rule, source value or readiness decision changed."
+    }
+  ]
+}

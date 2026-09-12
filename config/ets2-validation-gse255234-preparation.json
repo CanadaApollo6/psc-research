@@ -1,0 +1,400 @@
+{
+  "preparation_id": "ets2-gse255234-context-v1",
+  "created_at_utc": "2026-09-12T16:25:08.247930+00:00",
+  "status": "metadata_preparation_frozen_not_analysis_ready",
+  "evidence_tier": "C",
+  "question": "How broadly does the fixed ETS2 program respond to LPS/heme stimulation in this four-donor human macrophage experiment?",
+  "direct_ETS2_validation": false,
+  "ready_for_inference": false,
+  "status_at_freeze": "Source narrative, matrix header/identifiers and whole-file structural QC already inspected; no candidate program scores or new donor target effects inspected. Value-level structural checks are explicitly disclosed as broader than the original header-only selection wording. No effect-driven selection or exclusion occurred.",
+  "selection_status": "Priority for completion of raw-count context preparation; not a substitute for unavailable tier A or an assertion that this file satisfies all assay gates. The final cross-tier search decision is recorded separately.",
+  "input_sha256": {
+    "config/ets2-validation-rules.json": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "docs/ets2-validation-protocol.md": "65a0818db93964c3029a1d22321e4faba5402a2cb1eb827b4c72f734e58e75f7",
+    "config/ets2-validation-amended-rules.json": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+    "docs/ets2-validation-amendment.md": "b4bbc1ba759c6b7982756ed23827ac2a00ededf15cf273b70cf47c45d1f4608b",
+    "data/derived/ets2-source-gene-sets.csv": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524",
+    "work/ets2-context-search/GSE255234_family.soft.gz": "9cdf727be9c0d82edecf38fbb36aa970c48e9dd55b0b6a4eae75005636002e8b",
+    "work/ets2-context-search/Pradhan2024_GSE255234_methods.xml": "110dbd4d098ddcb055201aa987b4b7e0c50fbbc5e2b18c63bd1d6fe98c379cd5",
+    "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx": "61d23d009b9b9a70a6127e0ae024df18f83fa3ed1a8079b7cbe86854ac5aac18"
+  },
+  "matrix": {
+    "file": "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx",
+    "sheet": "raw_counts_for_rna_seq",
+    "identifier_column": "A",
+    "header_row": 1,
+    "source_feature_identifier": "unversioned Ensembl gene ID",
+    "source_processing_annotation_claim": "hg38 RefSeq; unresolved discrepancy with distributed Ensembl IDs",
+    "expected_gene_rows": 64253,
+    "expected_sample_columns": 16
+  },
+  "samples": [
+    {
+      "gsm": "GSM8067098",
+      "source_title": "D1CON [1_S1]",
+      "donor": "D1",
+      "condition_key": "CON",
+      "source_treatment": "control",
+      "matrix_column_key": 1,
+      "biological_sample_id": "GSM8067098",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067099",
+      "source_title": "D1LPS [2_S2]",
+      "donor": "D1",
+      "condition_key": "LPS",
+      "source_treatment": "LPS",
+      "matrix_column_key": 2,
+      "biological_sample_id": "GSM8067099",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067100",
+      "source_title": "D1H10 [3_S3]",
+      "donor": "D1",
+      "condition_key": "H10",
+      "source_treatment": "Heme",
+      "matrix_column_key": 3,
+      "biological_sample_id": "GSM8067100",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067101",
+      "source_title": "D1H5 [5_S5]",
+      "donor": "D1",
+      "condition_key": "H5",
+      "source_treatment": "Heme (lower concertration)",
+      "matrix_column_key": 5,
+      "biological_sample_id": "GSM8067101",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067102",
+      "source_title": "D2CON [6_S6]",
+      "donor": "D2",
+      "condition_key": "CON",
+      "source_treatment": "control",
+      "matrix_column_key": 6,
+      "biological_sample_id": "GSM8067102",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067103",
+      "source_title": "D2LPS [7_S7]",
+      "donor": "D2",
+      "condition_key": "LPS",
+      "source_treatment": "LPS",
+      "matrix_column_key": 7,
+      "biological_sample_id": "GSM8067103",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067104",
+      "source_title": "D2H10 [8_S8]",
+      "donor": "D2",
+      "condition_key": "H10",
+      "source_treatment": "Heme",
+      "matrix_column_key": 8,
+      "biological_sample_id": "GSM8067104",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067105",
+      "source_title": "D2H5 [10_S10]",
+      "donor": "D2",
+      "condition_key": "H5",
+      "source_treatment": "Heme (lower concertration)",
+      "matrix_column_key": 10,
+      "biological_sample_id": "GSM8067105",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067106",
+      "source_title": "D3CON [11_S11]",
+      "donor": "D3",
+      "condition_key": "CON",
+      "source_treatment": "control",
+      "matrix_column_key": 11,
+      "biological_sample_id": "GSM8067106",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067107",
+      "source_title": "D3LPS [12_S12]",
+      "donor": "D3",
+      "condition_key": "LPS",
+      "source_treatment": "LPS",
+      "matrix_column_key": 12,
+      "biological_sample_id": "GSM8067107",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067108",
+      "source_title": "D3H10 [13_S13]",
+      "donor": "D3",
+      "condition_key": "H10",
+      "source_treatment": "Heme",
+      "matrix_column_key": 13,
+      "biological_sample_id": "GSM8067108",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067109",
+      "source_title": "D3H5 [15_S15]",
+      "donor": "D3",
+      "condition_key": "H5",
+      "source_treatment": "Heme (lower concertration)",
+      "matrix_column_key": 15,
+      "biological_sample_id": "GSM8067109",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067110",
+      "source_title": "D4CON [16_S16]",
+      "donor": "D4",
+      "condition_key": "CON",
+      "source_treatment": "control",
+      "matrix_column_key": 16,
+      "biological_sample_id": "GSM8067110",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067111",
+      "source_title": "D4LPS [17_S17]",
+      "donor": "D4",
+      "condition_key": "LPS",
+      "source_treatment": "LPS",
+      "matrix_column_key": 17,
+      "biological_sample_id": "GSM8067111",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067112",
+      "source_title": "D4H10 [18_S18]",
+      "donor": "D4",
+      "condition_key": "H10",
+      "source_treatment": "Heme",
+      "matrix_column_key": 18,
+      "biological_sample_id": "GSM8067112",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    },
+    {
+      "gsm": "GSM8067113",
+      "source_title": "D4H5 [20_S20]",
+      "donor": "D4",
+      "condition_key": "H5",
+      "source_treatment": "Heme (lower concertration)",
+      "matrix_column_key": 20,
+      "biological_sample_id": "GSM8067113",
+      "assay": "bulk_rna_seq",
+      "population": "hMDM",
+      "documented_technical_splits": [],
+      "documented_extra_cultures": []
+    }
+  ],
+  "all_planned_pairs": [
+    {
+      "contrast_key": "LPS_minus_CON",
+      "donor": "D1",
+      "control_gsm": "GSM8067098",
+      "treated_gsm": "GSM8067099",
+      "control_matrix_column": 1,
+      "treated_matrix_column": 2,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "LPS_minus_CON",
+      "donor": "D2",
+      "control_gsm": "GSM8067102",
+      "treated_gsm": "GSM8067103",
+      "control_matrix_column": 6,
+      "treated_matrix_column": 7,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "LPS_minus_CON",
+      "donor": "D3",
+      "control_gsm": "GSM8067106",
+      "treated_gsm": "GSM8067107",
+      "control_matrix_column": 11,
+      "treated_matrix_column": 12,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "LPS_minus_CON",
+      "donor": "D4",
+      "control_gsm": "GSM8067110",
+      "treated_gsm": "GSM8067111",
+      "control_matrix_column": 16,
+      "treated_matrix_column": 17,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H10_minus_CON",
+      "donor": "D1",
+      "control_gsm": "GSM8067098",
+      "treated_gsm": "GSM8067100",
+      "control_matrix_column": 1,
+      "treated_matrix_column": 3,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H10_minus_CON",
+      "donor": "D2",
+      "control_gsm": "GSM8067102",
+      "treated_gsm": "GSM8067104",
+      "control_matrix_column": 6,
+      "treated_matrix_column": 8,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H10_minus_CON",
+      "donor": "D3",
+      "control_gsm": "GSM8067106",
+      "treated_gsm": "GSM8067108",
+      "control_matrix_column": 11,
+      "treated_matrix_column": 13,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H10_minus_CON",
+      "donor": "D4",
+      "control_gsm": "GSM8067110",
+      "treated_gsm": "GSM8067112",
+      "control_matrix_column": 16,
+      "treated_matrix_column": 18,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H5_minus_CON",
+      "donor": "D1",
+      "control_gsm": "GSM8067098",
+      "treated_gsm": "GSM8067101",
+      "control_matrix_column": 1,
+      "treated_matrix_column": 5,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H5_minus_CON",
+      "donor": "D2",
+      "control_gsm": "GSM8067102",
+      "treated_gsm": "GSM8067105",
+      "control_matrix_column": 6,
+      "treated_matrix_column": 10,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H5_minus_CON",
+      "donor": "D3",
+      "control_gsm": "GSM8067106",
+      "treated_gsm": "GSM8067109",
+      "control_matrix_column": 11,
+      "treated_matrix_column": 15,
+      "status": "planned_unscored"
+    },
+    {
+      "contrast_key": "H5_minus_CON",
+      "donor": "D4",
+      "control_gsm": "GSM8067110",
+      "treated_gsm": "GSM8067113",
+      "control_matrix_column": 16,
+      "treated_matrix_column": 20,
+      "status": "planned_unscored"
+    }
+  ],
+  "dose_time_evidence": {
+    "LPS": {
+      "source_label": "LPS",
+      "paper_dose": "1 microgram/ml",
+      "paper_time_hours": 6,
+      "basis": "Publication bulk hMDM experiment; GEO specimen field gives LPS only."
+    },
+    "H10": {
+      "source_label": "Heme / H10",
+      "paper_dose": "10 micromolar",
+      "paper_time_hours": 6,
+      "basis": "Publication bulk hMDM experiment; GEO specimen field gives Heme."
+    },
+    "H5": {
+      "source_label": "Heme (lower concertration) / H5",
+      "dose_value": null,
+      "dose_unit": null,
+      "time_hours": null,
+      "basis": "Do not infer dose or time from H5 label alone; unresolved in this preparation."
+    }
+  },
+  "matching_plan": {
+    "controls": [
+      "GSM8067098",
+      "GSM8067102",
+      "GSM8067106",
+      "GSM8067110"
+    ],
+    "control_weight": "each of four distinct donor controls once, if the eventual matched time/background design is verified",
+    "reference": "control_only_per_effective_amendment",
+    "final_stratum_key": null,
+    "seed_strings_frozen": false,
+    "reason_pending": "Finalize matched background/time strata and assay readiness before the executable run manifest."
+  },
+  "unresolved_before_run": [
+    "Reconcile stated RefSeq quantification with distributed Ensembl gene IDs and establish the source gene-count denominator/filtering history.",
+    "Record source sample QC and resolve whether any culture/batch metadata affect paired comparisons.",
+    "Verify H5 dose/time and matched-control context, or retain it as an explicitly unavailable planned arm without inferring its condition.",
+    "Audit source/data lineage; separate donor cohorts are plausible but individual-level cross-study donor linkage is unavailable.",
+    "Finalize exact feature mapping/coverage and deterministic stratum/seed strings in a new dataset-specific execution freeze.",
+    "Pin finalized candidate search manifests and the cross-tier selection decision before choosing a numerical run."
+  ],
+  "unperformed": [
+    "Program scoring",
+    "Differential-expression fitting",
+    "Target-gene treatment-effect inspection",
+    "Raw-read processing",
+    "Researcher contact"
+  ]
+}

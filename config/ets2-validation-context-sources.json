@@ -1,0 +1,470 @@
+{
+  "protocol_id": "psc-ets2-independent-validation-v1-amendment1",
+  "protocol_config_sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+  "effective_rules_path": "config/ets2-validation-amended-rules.json",
+  "effective_rules_sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+  "original_rules_path": "config/ets2-validation-rules.json",
+  "original_rules_sha256": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+  "inventory_status": "curated_metadata_and_structural_readiness_audit_complete; no candidate effects or program scores inspected",
+  "inventory_retrieved_at_utc": "2026-09-12T16:32:00Z",
+  "scope": {
+    "organism": "Homo sapiens",
+    "cell_context": "primary human monocyte-derived macrophages or iPSC-derived macrophages",
+    "design_need": "donor-annotated stimulation/control expression with at least three complete biological pairs",
+    "unchanged_primary_gate": "public gene-by-sample raw integer counts, explicit donor map, appropriate matched controls",
+    "calibration_boundary": "generic stimulation and stress responses calibrate transfer only; they do not test ETS2 causality"
+  },
+  "shortlist": [
+    {
+      "candidate_id": "gse255234",
+      "accession": "GSE255234",
+      "tier": "C",
+      "shortlist_role": "recommended Tier-C fallback if no Tier-A/B study is available",
+      "study_title": "Distinct metabolic responses to heme in inflammatory human and mouse macrophages - Role of nitric oxide",
+      "primary_sources": {
+        "geo_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255234",
+        "geo_soft": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255234/soft/GSE255234_family.soft.gz",
+        "processed_matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255234/suppl/GSE255234_raw_counts_for_rna_seq_submission.xlsx",
+        "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11130737/",
+        "doi": "https://doi.org/10.1016/j.redox.2024.103191"
+      },
+      "organism": "Homo sapiens",
+      "cell_type": "primary human monocyte-derived macrophages (hMDMs)",
+      "donor_count": 4,
+      "sample_count": 16,
+      "complete_control_pairs": 4,
+      "pairing": "D1-D4 each have control, LPS, H10 and H5; control-to-LPS, control-to-H10 and control-to-H5 are four complete donor-paired contrasts per arm",
+      "condition_labels_as_published": [
+        "control",
+        "LPS",
+        "Heme",
+        "Heme (lower concertration)"
+      ],
+      "dose_time": "The paper's bulk hMDM RNA-seq comparison uses heme 10 micromolar or LPS 1 microgram/ml alone for 6 hours. GEO labels the second heme arm only as a lower concentration; retain H5 as a label and confirm its exact unit before the dataset-specific freeze.",
+      "growth_context": "Human monocytes differentiated with 25 ng/ml M-CSF in RPMI with 5% AB serum; source methods retain the human culture context.",
+      "assay": "bulk RNA-seq; Illumina NextSeq 500; 75 bp paired-end; STAR 2.4.0.1 to hg38; HT-seq 0.11.1 with hg38 RefSeq reference genes",
+      "measurement": "raw integer count matrix verified from the supplied workbook at file level; full annotation/count-universe provenance remains unresolved",
+      "file_integrity": {
+        "asset": "GSE255234_raw_counts_for_rna_seq_submission.xlsx",
+        "remote_bytes": 3938694,
+        "remote_size_display": "3.8 Mb",
+        "local_cache": "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx",
+        "local_bytes": 3938694,
+        "local_sha256": "61d23d009b9b9a70a6127e0ae024df18f83fa3ed1a8079b7cbe86854ac5aac18",
+        "publisher_sha256": null,
+        "publisher_checksum_note": "GEO does not advertise SHA-256 for this asset; HTTP Content-Length and local size agree."
+      },
+      "matrix_schema": {
+        "sheet": "raw_counts_for_rna_seq",
+        "dimension": "A1:Q64254",
+        "feature_identifier": "64,253 unique Ensembl gene IDs without version suffix in column A; A1 is blank",
+        "sample_headers": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          20
+        ],
+        "numeric_cells": 1028048,
+        "all_cells_present": true,
+        "all_nonnegative_integer_tokens": true,
+        "all_library_totals_positive": true
+      },
+      "sample_map": [
+        {
+          "donor": "D1",
+          "control": {
+            "matrix_key": 1,
+            "gsm": "GSM8067098",
+            "title": "D1CON [1_S1]"
+          },
+          "LPS": {
+            "matrix_key": 2,
+            "gsm": "GSM8067099",
+            "title": "D1LPS [2_S2]"
+          },
+          "H10": {
+            "matrix_key": 3,
+            "gsm": "GSM8067100",
+            "title": "D1H10 [3_S3]"
+          },
+          "H5": {
+            "matrix_key": 5,
+            "gsm": "GSM8067101",
+            "title": "D1H5 [5_S5]"
+          }
+        },
+        {
+          "donor": "D2",
+          "control": {
+            "matrix_key": 6,
+            "gsm": "GSM8067102",
+            "title": "D2CON [6_S6]"
+          },
+          "LPS": {
+            "matrix_key": 7,
+            "gsm": "GSM8067103",
+            "title": "D2LPS [7_S7]"
+          },
+          "H10": {
+            "matrix_key": 8,
+            "gsm": "GSM8067104",
+            "title": "D2H10 [8_S8]"
+          },
+          "H5": {
+            "matrix_key": 10,
+            "gsm": "GSM8067105",
+            "title": "D2H5 [10_S10]"
+          }
+        },
+        {
+          "donor": "D3",
+          "control": {
+            "matrix_key": 11,
+            "gsm": "GSM8067106",
+            "title": "D3CON [11_S11]"
+          },
+          "LPS": {
+            "matrix_key": 12,
+            "gsm": "GSM8067107",
+            "title": "D3LPS [12_S12]"
+          },
+          "H10": {
+            "matrix_key": 13,
+            "gsm": "GSM8067108",
+            "title": "D3H10 [13_S13]"
+          },
+          "H5": {
+            "matrix_key": 15,
+            "gsm": "GSM8067109",
+            "title": "D3H5 [15_S15]"
+          }
+        },
+        {
+          "donor": "D4",
+          "control": {
+            "matrix_key": 16,
+            "gsm": "GSM8067110",
+            "title": "D4CON [16_S16]"
+          },
+          "LPS": {
+            "matrix_key": 17,
+            "gsm": "GSM8067111",
+            "title": "D4LPS [17_S17]"
+          },
+          "H10": {
+            "matrix_key": 18,
+            "gsm": "GSM8067112",
+            "title": "D4H10 [18_S18]"
+          },
+          "H5": {
+            "matrix_key": 20,
+            "gsm": "GSM8067113",
+            "title": "D4H5 [20_S20]"
+          }
+        }
+      ],
+      "source_independence": "Separate Hannover Medical School/ISCIII study; no selection reuse identified in the inspected Stankey narrative. Individual cross-study donor linkage is unavailable.",
+      "selection_reuse_status": "no reuse identified in inspected narrative; final donor/data-lineage audit remains pending",
+      "feature_universe_status": "64,253 unique Ensembl IDs without version suffix; source methods cite hg38 RefSeq while supplied IDs are Ensembl; full count-universe annotation provenance unresolved",
+      "target_engagement_status": "not applicable to generic stimulation; no direct ETS2 perturbation",
+      "assay_readiness": "file and donor metadata ready; dataset-specific freeze pending",
+      "availability_limit": "Public processed counts and SRA raw reads; no donor demographic detail in the GEO series; one bulk RNA-seq time point; exact H5 unit is source-label-only pending freeze.",
+      "maximum_claim": "Donor-paired generic LPS/heme context calibration for the fixed program. A response cannot establish ETS2 dependence, a disease activity score or treatment response.",
+      "readiness": "structural_and_donor_map_checks_passed; annotation_count_universe_and_H5_metadata_pending",
+      "retrieved_at_utc": "2026-09-12T16:09:09Z",
+      "ready_for_inference": false
+    },
+    {
+      "candidate_id": "gse193336",
+      "accession": "GSE193336",
+      "tier": "C",
+      "shortlist_role": "paired-donor reserve; separate noninteger calibration only",
+      "study_title": "Bulk RNA-seq on unstimulated and LPS-stimulated human macrophages",
+      "primary_sources": {
+        "geo_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193336",
+        "geo_soft": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193336/soft/GSE193336_family.soft.gz",
+        "processed_matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193336/suppl/GSE193336_GEO_Processed_Data_Raw_Count_Macrophage.csv.gz",
+        "preprint": "https://doi.org/10.1101/2022.03.09.483621"
+      },
+      "organism": "Homo sapiens",
+      "cell_type": "primary human macrophages differentiated from CD14-positive blood monocytes",
+      "donor_count": 4,
+      "sample_count": 8,
+      "complete_control_pairs": 4,
+      "pairing": "donor 1-4 each have unstimulated and LPS samples, with titles and SOFT donor characteristics explicit",
+      "condition_labels_as_published": [
+        "Unstimulated",
+        "50 ng/ml LPS for 24 hours"
+      ],
+      "dose_time": "50 ng/ml E. coli O111:B4 LPS for 24 hours after 5 days of 50 ng/ml M-CSF differentiation",
+      "assay": "bulk RNA-seq; Illumina NovaSeq 6000; paired-end 2 x 75 bp; OSA v4 to human B38; Ensembl.R96 gene model",
+      "measurement": "supplied file is nonnegative and finite but contains 66,295 numerically fractional cells (65,146 decimal plus 1,149 scientific) despite its Raw_Count filename; this does not prove normalization; do not feed it to the unchanged raw-count procedure",
+      "file_integrity": {
+        "asset": "GSE193336_GEO_Processed_Data_Raw_Count_Macrophage.csv.gz",
+        "remote_bytes": 757738,
+        "remote_size_display": "740.0 Kb",
+        "local_cache": "data/raw/ets2-validation/context/GSE193336_GEO_Processed_Data_Raw_Count_Macrophage.csv.gz",
+        "local_bytes": 757738,
+        "local_sha256": "2fe82f9b39abd3e4826c74b9280d20fbd3a175d0110b875a35cb84210c7bb98d",
+        "publisher_sha256": null,
+        "publisher_checksum_note": "GEO does not advertise SHA-256 for this asset; HTTP Content-Length and local size agree."
+      },
+      "matrix_schema": {
+        "format": "gzip CSV",
+        "header": [
+          "geneid",
+          "donor 1_unstim",
+          "donor 1_LPS",
+          "donor 2_unstim",
+          "donor 2_LPS",
+          "donor 3_unstim",
+          "donor 3_LPS",
+          "donor 4_unstim",
+          "donor 4_LPS"
+        ],
+        "feature_identifier": "58,825 unique Ensembl gene IDs without version suffix",
+        "numeric_cells": 470600,
+        "integer_token_cells": 404305,
+        "decimal_token_cells": 65146,
+        "scientific_token_cells": 1149,
+        "all_nonnegative_finite": true,
+        "integer_only": false
+      },
+      "sample_map": [
+        {
+          "donor": "donor 1",
+          "control": {
+            "header": "donor 1_unstim",
+            "gsm": "GSM5792562",
+            "title": "donor 1_unstim"
+          },
+          "LPS": {
+            "header": "donor 1_LPS",
+            "gsm": "GSM5792563",
+            "title": "donor 1_LPS"
+          }
+        },
+        {
+          "donor": "donor 2",
+          "control": {
+            "header": "donor 2_unstim",
+            "gsm": "GSM5792564",
+            "title": "donor 2_unstim"
+          },
+          "LPS": {
+            "header": "donor 2_LPS",
+            "gsm": "GSM5792565",
+            "title": "donor 2_LPS"
+          }
+        },
+        {
+          "donor": "donor 3",
+          "control": {
+            "header": "donor 3_unstim",
+            "gsm": "GSM5792566",
+            "title": "donor 3_unstim"
+          },
+          "LPS": {
+            "header": "donor 3_LPS",
+            "gsm": "GSM5792567",
+            "title": "donor 3_LPS"
+          }
+        },
+        {
+          "donor": "donor 4",
+          "control": {
+            "header": "donor 4_unstim",
+            "gsm": "GSM5792568",
+            "title": "donor 4_unstim"
+          },
+          "LPS": {
+            "header": "donor 4_LPS",
+            "gsm": "GSM5792569",
+            "title": "donor 4_LPS"
+          }
+        }
+      ],
+      "source_independence": "Separate Sanofi study; no selection reuse identified in the inspected Stankey narrative. Individual cross-study donor linkage is unavailable.",
+      "selection_reuse_status": "no reuse identified in inspected narrative; measurement gate fails as supplied",
+      "feature_universe_status": "58,825 unique Ensembl IDs without version suffix; Ensembl.R96 stated; supplied measurement type conflicts with Raw_Count filename",
+      "target_engagement_status": "not applicable to generic stimulation; no direct ETS2 perturbation",
+      "assay_readiness": "donor metadata ready; raw integer gate failed; separate expression protocol required",
+      "availability_limit": "Public processed matrix and SRA raw reads; anonymous donor source; verified fractional/scientific values prevent unchanged raw-count normalization without a separate calibration protocol.",
+      "maximum_claim": "Only a separately prespecified noninteger-expression calibration of a donor-paired LPS context; no claim about ETS2 causality or raw-count reproducibility.",
+      "readiness": "donor_metadata_ready; raw_integer_gate_failed",
+      "retrieved_at_utc": "2026-09-12T16:08:56Z",
+      "ready_for_inference": false
+    },
+    {
+      "candidate_id": "macromap_zenodo_11563707",
+      "accession": "Zenodo 11563707",
+      "tier": "C",
+      "shortlist_role": "large iPSC-derived context candidate; metadata only pending matrix-type check",
+      "study_title": "Gene expression QTL mapping in stimulated iPSC-derived macrophages provides insights into common complex diseases",
+      "primary_sources": {
+        "zenodo": "https://zenodo.org/records/11563707",
+        "analysis_repository": "https://github.com/andersonlab/macromap_eqtl",
+        "study_context": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12391537/"
+      },
+      "organism": "Homo sapiens",
+      "cell_type": "iPSC-derived macrophages from 209 healthy unrelated HipSci donor lines",
+      "donor_count": 209,
+      "sample_count": 4698,
+      "complete_control_pairs": "condition-specific donor counts reported as 177-202 per stimulation condition; exact paired-control completeness needs the expression metadata map",
+      "condition_count": 24,
+      "condition_design": "D0 precursor, D2 precursor, Ctrl_6, Ctrl_24, and IFNB, IFNG, IL4, R848, PIC, P3C, sLPS, CIL, LIL10 and MBP at 6 and 24 hours",
+      "assay": "RNA-seq; 75 bp paired-end; two library protocols; GRCh38/Gencode v27; STAR 2.5.3a and featureCounts 1.5.3",
+      "measurement": "Zenodo exposes a file named MacroMap_raw_expression.txt.gz, but integer storage and the exact donor/condition columns have not been checked in this metadata-only pass",
+      "file_integrity": {
+        "asset": "MacroMap_raw_expression.txt.gz",
+        "remote_bytes": null,
+        "remote_size_display": "174.1 MB",
+        "remote_md5": "3e585dfeb097368db7eaab9889f76f58",
+        "local_cache": null,
+        "publisher_sha256": null,
+        "publisher_checksum_note": "Zenodo advertises MD5 and rounded display size; the 174.1 MB matrix was not downloaded under the bounded metadata pass."
+      },
+      "source_independence": "Separate Wellcome Sanger/HipSci donor lines and publication from the Stankey ETS2 source experiment; iPSC model and differentiation are distinct from primary blood macrophages.",
+      "selection_reuse_status": "no reuse found in inspected Stankey source narrative; final donor/data-lineage audit still required; individual cross-study donor linkage is unavailable",
+      "feature_universe_status": "14,060 genes after QC reported in article; raw expression full-universe identifiers and annotation still need verification",
+      "target_engagement_status": "not applicable to generic stimulation; no direct ETS2 perturbation",
+      "assay_readiness": "metadata only; matrix/header verification pending",
+      "availability_limit": "Public Zenodo expression files total about 1.7 GB; no direct primary-blood macrophage equivalence; multiple library protocols and condition-specific donor counts require explicit batch/donor handling.",
+      "maximum_claim": "Large iPSC-derived stimulation-context calibration after matrix/header and donor-map verification; no direct ETS2 perturbation or primary-blood generalization.",
+      "readiness": "metadata_shortlist_only",
+      "retrieved_at_utc": "2026-09-12T16:05:00Z",
+      "ready_for_inference": false
+    },
+    {
+      "candidate_id": "gse61298",
+      "accession": "GSE61298",
+      "tier": "C",
+      "shortlist_role": "normalized-array reserve for a separate calibration procedure",
+      "study_title": "Transcriptional profiling of human monocyte-derived macrophages",
+      "primary_sources": {
+        "geo_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61298",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/23029029/"
+      },
+      "organism": "Homo sapiens",
+      "cell_type": "primary human monocyte-derived macrophages",
+      "donor_count": null,
+      "sample_count": 21,
+      "complete_control_pairs": "three biological replicate labels per GM-CSF and M-CSF lineage; explicit donor identity must be verified before treating rep1-3 as donor pairs",
+      "condition_design": "GM-CSF control, LPS+IFN-gamma and IL-4; M-CSF control, LPS+IFN-gamma, IL-4 and IL-10; 48 hours after activation",
+      "assay": "PrimeView Affymetrix Human Gene Expression Array",
+      "measurement": "processed/normalized microarray and public CEL files; no raw integer count matrix",
+      "source_independence": "Separate study from Stankey and from the two RNA-seq candidates; no selection reuse found in the inspected metadata.",
+      "selection_reuse_status": "no reuse found in inspected metadata; individual cross-study donor linkage is unavailable",
+      "feature_universe_status": "array probe feature universe; count-universe requirement does not apply to a separate normalized-array protocol",
+      "target_engagement_status": "not applicable to generic stimulation; no direct ETS2 perturbation",
+      "assay_readiness": "requires separate normalized-array protocol",
+      "availability_limit": "Array intensity is not interchangeable with raw counts; donor labels are rep1-3 in the visible sample titles and require explicit identity confirmation.",
+      "maximum_claim": "Within-study normalized-array calibration of CSF lineage and generic stimulation; no ETS2-specific or count-procedure claim.",
+      "readiness": "separate_normalized_array_protocol_required",
+      "retrieved_at_utc": "2026-09-12T15:55:00Z",
+      "ready_for_inference": false,
+      "visible_replicate_labels": 3
+    },
+    {
+      "candidate_id": "gse46903_gse47189",
+      "accession": "GSE46903 / GSE47189",
+      "tier": "R",
+      "shortlist_role": "required source-overlap audit; excluded from independent fallback",
+      "study_title": "Transcriptome-based network analysis reveals a spectrum model of human macrophage activation",
+      "primary_sources": {
+        "geo_subseries": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46903",
+        "geo_superseries": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE47189",
+        "paper": "https://doi.org/10.1016/j.immuni.2014.01.006",
+        "stankey_paper": "https://www.nature.com/articles/s41586-024-07501-1"
+      },
+      "organism": "Homo sapiens",
+      "cell_type": "primary human macrophages and related immune-cell samples",
+      "donor_count": "not resolved for the complete superseries in this pass",
+      "sample_count": 384,
+      "macrophage_transcriptome_count": 299,
+      "condition_count": 28,
+      "condition_design": "diverse activation stimuli and multiple durations; Xue study reports GM-CSF or M-CSF macrophage differentiation and 28 in-vitro conditions",
+      "assay": "Illumina HumanHT-12 V3 expression array in GSE46903; GSE47189 also contains ChIP-seq and miRNA-seq subseries",
+      "measurement": "public processed log2/quantile-normalized and non-normalized array text; no raw integer counts",
+      "source_independence": "not independent: GSE46903 is explicitly the expression SubSeries of GSE47189",
+      "selection_reuse_status": "definite reuse. Stankey Methods identify GSE47189 as the 314-file/67-condition source for TPP model selection and ETS2 co-expression.",
+      "feature_universe_status": "array probe feature universe; no raw integer count universe",
+      "target_engagement_status": "not applicable to context source; no direct ETS2 perturbation",
+      "assay_readiness": "excluded from independent raw-count validation; separate reproduction protocol only",
+      "availability_limit": "Public processed array files are suitable for reproduction/context only; use of this source would repeat the source-study selection context and cannot serve as independent validation.",
+      "maximum_claim": "Reproduction or reuse calibration of the published macrophage-state context, explicitly labeled as Tier R; no independent ETS2 validation.",
+      "readiness": "excluded_from_independent_selection",
+      "retrieved_at_utc": "2026-09-12T15:50:00Z",
+      "ready_for_inference": false
+    }
+  ],
+  "selection_decision": {
+    "current_best": "gse255234",
+    "reason": "Only shortlisted candidate with explicit four-donor paired metadata and a public processed matrix that passes the file-level raw-integer check; full annotation/count-universe provenance is unresolved, and it remains generic Tier-C context calibration.",
+    "reserve": "gse193336",
+    "reserve_reason": "Four explicitly paired donors, but 66,295 numerically fractional values require quantification provenance and a separate procedure under the current integer-count rule.",
+    "not_selected": [
+      "macromap_zenodo_11563707",
+      "gse61298",
+      "gse46903_gse47189"
+    ],
+    "not_selected_reasons": {
+      "macromap_zenodo_11563707": "matrix type and donor-condition completeness still need verification; iPSC model",
+      "gse61298": "normalized array and visible replicate labels require a separate calibration procedure",
+      "gse46903_gse47189": "definite source reuse and array measurement"
+    },
+    "effects_inspected": false,
+    "program_scores_computed": false,
+    "raw_reads_downloaded": false,
+    "next_gate": "Freeze the GSE255234 sample/contrast map, exact H5 dose label, Ensembl/RefSeq annotation reconciliation, full source-count universe and duplicate policy before any fixed-program values are read.",
+    "ready_for_inference": false
+  },
+  "finalized_at_utc": "2026-09-12T16:34:47.394851+00:00",
+  "search_coverage_limit": "Five retained entries plus named exploratory exclusions; exact initial keyword queries, pagination and discarded-hit records were not fully archived. See versioned search report for retained accession/file lookup routes. Not exhaustive.",
+  "cached_supporting_sources": [
+    {
+      "local_cache_path": "work/ets2-context-search/GSE193336_family.soft.gz",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193336/soft/GSE193336_family.soft.gz",
+      "recorded_retrieved_at_utc": "2026-09-12T16:13:33Z",
+      "bytes": 2770,
+      "sha256": "f5ff63adebf17e2319741479c0fbb22e1a332407515371936e4ee4220f127441",
+      "status": "metadata"
+    },
+    {
+      "local_cache_path": "work/ets2-context-search/GSE255234_family.soft.gz",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255234/soft/GSE255234_family.soft.gz",
+      "recorded_retrieved_at_utc": "2026-09-12T16:13:33Z",
+      "bytes": 3518,
+      "sha256": "9cdf727be9c0d82edecf38fbb36aa970c48e9dd55b0b6a4eae75005636002e8b",
+      "status": "metadata"
+    },
+    {
+      "local_cache_path": "work/ets2-context-search/Pradhan2024_GSE255234_methods.xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11130737/fullTextXML",
+      "recorded_retrieved_at_utc": "2026-09-12T16:14:57Z",
+      "bytes": 138676,
+      "sha256": "110dbd4d098ddcb055201aa987b4b7e0c50fbbc5e2b18c63bd1d6fe98c379cd5",
+      "status": "usable_primary_article_xml"
+    },
+    {
+      "local_cache_path": "work/ets2-context-search/Pradhan2024_GSE255234_methods.pdf",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11130737/pdf/main.pdf",
+      "recorded_retrieved_at_utc": "2026-09-12T16:14:57Z",
+      "bytes": 1817,
+      "sha256": "e7ebea61478bb8ac6d9afc370074a39b75bc5995628b7f81aa81d39a0be6a982",
+      "status": "failed_html_response_not_evidence"
+    }
+  ]
+}

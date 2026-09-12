@@ -1,0 +1,302 @@
+{
+  "verification_id": "ets2-validation-preparation-v1",
+  "verified_at_utc": "2026-09-12T16:36:52.878304+00:00",
+  "scope": "Readiness, source integrity, sample accounting and independent structural count checks. No program/effect calculation.",
+  "preserved_freeze_input_checks": {
+    "config/ets2-validation-rules.json": {
+      "config/ets2-program-plan.json": true,
+      "config/ets2-benchmark-sources.json": true,
+      "config/ets2-program-sources.json": true,
+      "data/derived/ets2-source-gene-sets.csv": true,
+      "docs/ets2-validation-protocol.md": true,
+      "scripts/analyze_ets2_program.py": true,
+      "reports/ets2-program-benchmark.md": true
+    },
+    "config/ets2-validation-amended-rules.json": {
+      "config/ets2-program-plan.json": true,
+      "config/ets2-benchmark-sources.json": true,
+      "config/ets2-program-sources.json": true,
+      "data/derived/ets2-source-gene-sets.csv": true,
+      "docs/ets2-validation-protocol.md": true,
+      "scripts/analyze_ets2_program.py": true,
+      "reports/ets2-program-benchmark.md": true,
+      "config/ets2-validation-rules.json": true,
+      "docs/ets2-validation-amendment.md": true
+    },
+    "config/ets2-validation-gse255234-preparation.json": {
+      "config/ets2-validation-rules.json": true,
+      "docs/ets2-validation-protocol.md": true,
+      "config/ets2-validation-amended-rules.json": true,
+      "docs/ets2-validation-amendment.md": true,
+      "data/derived/ets2-source-gene-sets.csv": true,
+      "work/ets2-context-search/GSE255234_family.soft.gz": true,
+      "work/ets2-context-search/Pradhan2024_GSE255234_methods.xml": true,
+      "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx": true
+    }
+  },
+  "cached_source_checks": [
+    {
+      "path": "work/ets2-independent-search/geo-ets2-perturbation-esearch.json",
+      "bytes": 3673,
+      "sha256": "cf1852f78487ca6a029d1ebeae724ae0bdcf77ffb57eab40831ff6b6be6c77a8",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/geo-ets2-perturbation-esummary.json",
+      "bytes": 1068085,
+      "sha256": "927a8b431cbf04d98dd2652139d46f62cbef9ac212235cd34b3536a377b8ffb1",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/geo-mek-myeloid-esearch.json",
+      "bytes": 10670,
+      "sha256": "1a79e45b6d633dfdd5a9d097af2649f68f911f92f36a959f54d68fbb30df35f6",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/geo-query-snapshots.jsonl",
+      "bytes": 2168,
+      "sha256": "ca35ecf2d688545be7ea2c86244f97b678a33a7599b7231607170a0478e5769f",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE175685-family-soft.txt",
+      "bytes": 7714701,
+      "sha256": "ba80303b788621985e8bb4865d5426d01c723a6548187ca8c9ba9160ab3650c4",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE123573-family-soft.txt",
+      "bytes": 13308854,
+      "sha256": "761472706ee2f22fb167b0147f1c06c44fdd884b375b1f1514b7aabd34ffada2",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE123574-family-soft.txt",
+      "bytes": 21387227,
+      "sha256": "b988c632551e1ef81fe4d274bb5c5af771f44fed3580e30903c60a6592a7c233",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE39745-family-soft.txt",
+      "bytes": 50304037,
+      "sha256": "dfdbb751798626c4b482f9f4b18213ddcb8409bf09da28614ae3898197012d3f",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE84162-family-soft.txt",
+      "bytes": 113260887,
+      "sha256": "d22b804584f1ce5dc21728ffd896cb0ef5ea2b0e00d98d16c039e738dcd4ac9a",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE123512-family-soft.txt",
+      "bytes": 530695327,
+      "sha256": "56034f364dd0bf8c04f8ec20734ff251b8162086fa0af7b5bf9a3f7f9317ac10",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE134486-family-soft.txt",
+      "bytes": 524032,
+      "sha256": "47e817111f16b6d987aa16db0cca6ca0739f12338bda598bff3977dc3c1f9f26",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE12863-geo-full.txt",
+      "bytes": 3264,
+      "sha256": "d33e7668b0f4eb53f0e34328bed76ecb625c4a6dfda26fbe3204b6e81449d85e",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE229472-geo-full.txt",
+      "bytes": 3401,
+      "sha256": "31b36604fb2758f6fd2317b582c915766caa7d2d5dd2d7329a06495072c098bb",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE263046-geo-quick.txt",
+      "bytes": 4821,
+      "sha256": "42dee68c55f0abb53111d1a5eb69b49f609057ff54d0285b265997bf22984d91",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE264420-geo-quick.txt",
+      "bytes": 4351,
+      "sha256": "7a58aa7bcdd98fe48f7e828e9133e8c840420e1e08cd22ffed5c49254fc4ab52",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/GSE264544-geo-quick.txt",
+      "bytes": 4102,
+      "sha256": "157c66a925192061330015b97884423cfa13dff7e4d9d2b4371aae86dabf1332",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/pubmed-ets2-myeloid-transcriptome-esearch.json",
+      "bytes": 2934,
+      "sha256": "02f1d779e56ff1c0a7f8ae4c50d1534637eb8f8cbee9af0b029b8a2c8076945c",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/pubmed-ets2-myeloid-perturbation-esearch.json",
+      "bytes": 3184,
+      "sha256": "4070388ba5919ee38c747dea5b1ffb4c1afe36e2c7da3872b0659dde2a435172",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/pubmed-ets2-myeloid-perturbation-esummary.json",
+      "bytes": 68166,
+      "sha256": "9f08c2299257200d3f7e54869d2626f401c4d07e35c6c4780b1e0f83b6b8edea",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/pubmed-ets2-recent-abstracts.xml",
+      "bytes": 230855,
+      "sha256": "a3e4a4e17b3b0a4ecd669ebab850f7a5dcc76ef9693d6b92c707887071dfa695",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/biostudies-ets2-exact-search.json",
+      "bytes": 12820,
+      "sha256": "bdd5997ade75a8c4588c8c76fe995c35742b38467b5ab4a9287e7bc3b37fdc59",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/biostudies-ets2-macrophage-search.json",
+      "bytes": 15236,
+      "sha256": "dc903bf1d0078855099e483aceaa24b96c7b6569e1feba78a914b5a24e629701",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/biostudies-trametinib-monocyte-search.json",
+      "bytes": 13688,
+      "sha256": "a418681af50cdde99181e9f3502808d2ae8587e585636cc0818ae83ca4a6c244",
+      "match": true
+    },
+    {
+      "path": "work/ets2-independent-search/biostudies-mek-monocyte-search.json",
+      "bytes": 12947,
+      "sha256": "201c9789c1a56657d20bf5ca92f713701ad28868457992e060d54826c6927021",
+      "match": true
+    },
+    {
+      "path": "data/raw/ets2-validation/perturbation/public-file-listings.tsv",
+      "bytes": 4879,
+      "sha256": "a7a14fcf04fd1d96ae477d9ddc5da4e92e633455f3981c809f9a9b7ace4b2b40",
+      "match": true
+    },
+    {
+      "path": "work/ets2-context-search/GSE193336_family.soft.gz",
+      "bytes": 2770,
+      "sha256": "f5ff63adebf17e2319741479c0fbb22e1a332407515371936e4ee4220f127441",
+      "match": true
+    },
+    {
+      "path": "work/ets2-context-search/GSE255234_family.soft.gz",
+      "bytes": 3518,
+      "sha256": "9cdf727be9c0d82edecf38fbb36aa970c48e9dd55b0b6a4eae75005636002e8b",
+      "match": true
+    },
+    {
+      "path": "work/ets2-context-search/Pradhan2024_GSE255234_methods.xml",
+      "bytes": 138676,
+      "sha256": "110dbd4d098ddcb055201aa987b4b7e0c50fbbc5e2b18c63bd1d6fe98c379cd5",
+      "match": true
+    },
+    {
+      "path": "work/ets2-context-search/Pradhan2024_GSE255234_methods.pdf",
+      "bytes": 1817,
+      "sha256": "e7ebea61478bb8ac6d9afc370074a39b75bc5995628b7f81aa81d39a0be6a982",
+      "match": true
+    },
+    {
+      "path": "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx",
+      "bytes": 3938694,
+      "sha256": "61d23d009b9b9a70a6127e0ae024df18f83fa3ed1a8079b7cbe86854ac5aac18",
+      "match": true
+    },
+    {
+      "path": "data/raw/ets2-validation/context/GSE193336_GEO_Processed_Data_Raw_Count_Macrophage.csv.gz",
+      "bytes": 757738,
+      "sha256": "2fe82f9b39abd3e4826c74b9280d20fbd3a175d0110b875a35cb84210c7bb98d",
+      "match": true
+    }
+  ],
+  "csv_checks": {
+    "data/derived/ets2-validation-context-candidates.csv": {
+      "rows": 5,
+      "columns": 32,
+      "all_rows_same_width": true,
+      "unique_candidate_ids": true
+    },
+    "data/derived/ets2-validation-perturbation-candidates.csv": {
+      "rows": 10,
+      "columns": 21,
+      "all_rows_same_width": true,
+      "unique_candidate_ids": true
+    }
+  },
+  "planned_sample_pair_check": {
+    "samples": 16,
+    "donors": 4,
+    "contrasts": 3,
+    "pairs": 12,
+    "all_pair_mappings_consistent": true
+  },
+  "independent_structural_record": {
+    "path": "work/ets2-validation-structural-check.json",
+    "sha256": "ba117b26d68122d88856ddec2b7bfb446115e5e276d5a8099978d9ca3784cc89",
+    "results": {
+      "verified_at_utc": "2026-09-12T16:27:11.051690+00:00",
+      "scope": "Independent structural-only check; no gene program scores, differential expression or donor target effects computed or printed.",
+      "preparation_hashes": {
+        "config/ets2-validation-rules.json": true,
+        "docs/ets2-validation-protocol.md": true,
+        "config/ets2-validation-amended-rules.json": true,
+        "docs/ets2-validation-amendment.md": true,
+        "data/derived/ets2-source-gene-sets.csv": true,
+        "work/ets2-context-search/GSE255234_family.soft.gz": true,
+        "work/ets2-context-search/Pradhan2024_GSE255234_methods.xml": true,
+        "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx": true
+      },
+      "gse255234": {
+        "features": 64253,
+        "samples": 16,
+        "numeric_values": 1028048,
+        "unique_ensembl_ids": true,
+        "header_matches_preparation": true,
+        "all_finite_nonnegative_integers": true,
+        "positive_full_distributed_universe_library_totals": true,
+        "all_zero_feature_rows": 31285,
+        "full_original_annotation_universe_proven": false
+      },
+      "gse193336": {
+        "features": 58825,
+        "samples": 8,
+        "numeric_values": 470600,
+        "unique_ids": true,
+        "finite_nonnegative": true,
+        "numerically_fractional_values": 66295,
+        "scientific_tokens": 1149,
+        "numerically_fractional_scientific_tokens": 1149,
+        "fractional_is_not_proof_of_normalization": true
+      },
+      "input_sha256": {
+        "data/raw/ets2-validation/context/GSE255234_raw_counts_for_rna_seq_submission.xlsx": "61d23d009b9b9a70a6127e0ae024df18f83fa3ed1a8079b7cbe86854ac5aac18",
+        "data/raw/ets2-validation/context/GSE193336_GEO_Processed_Data_Raw_Count_Macrophage.csv.gz": "2fe82f9b39abd3e4826c74b9280d20fbd3a175d0110b875a35cb84210c7bb98d"
+      },
+      "no_effects_inspected": true
+    }
+  },
+  "analysis_code_changed": false,
+  "new_tests_run": false,
+  "test_note": "This phase changed documentation and metadata manifests only; no import or scoring implementation changed. The preceding benchmark test result is retained in its original verification record, not claimed as a rerun.",
+  "new_program_scores": 0,
+  "researcher_messages_sent": 0
+}

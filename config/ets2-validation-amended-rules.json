@@ -1,0 +1,176 @@
+{
+  "protocol_id": "psc-ets2-independent-validation-v1-amendment1",
+  "frozen_at_utc": "2026-09-12T16:20:43.169207+00:00",
+  "status_at_freeze": "Candidate metadata, study narratives and two public count-file routes known. No new candidate program scores, differential-expression results or donor target effects inspected. Method review prompted this prospective amendment; no dataset-specific numerical run selected or started.",
+  "input_sha256": {
+    "config/ets2-program-plan.json": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9",
+    "config/ets2-benchmark-sources.json": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+    "config/ets2-program-sources.json": "2942a10caeb4ba9159eb19fe61c0616c3223e904971c6ed25f7078c995c2185f",
+    "data/derived/ets2-source-gene-sets.csv": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524",
+    "docs/ets2-validation-protocol.md": "65a0818db93964c3029a1d22321e4faba5402a2cb1eb827b4c72f734e58e75f7",
+    "scripts/analyze_ets2_program.py": "7e7c73fab9f4bef31f535f4a3fb8bfbff2d9642b473542533a42aa15c2be6092",
+    "reports/ets2-program-benchmark.md": "af6265411a90b21bda19e48f61942e8ad0393a2ae4869a389451b9b78230b0e6",
+    "config/ets2-validation-rules.json": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "docs/ets2-validation-amendment.md": "b4bbc1ba759c6b7982756ed23827ac2a00ededf15cf273b70cf47c45d1f4608b"
+  },
+  "programs": [
+    {
+      "id": "ets2_g1_dn",
+      "role": "primary",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_DN",
+      "meaning": "Genes downregulated by ETS2 gRNA1 editing; source-defined ETS2-dependent program"
+    },
+    {
+      "id": "ets2_g1_up",
+      "role": "opposite-direction companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_UP"
+    },
+    {
+      "id": "ets2_g2_dn",
+      "role": "related-guide companion, not independent validation",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g2_DN"
+    },
+    {
+      "id": "chr21_dn",
+      "role": "enhancer-deletion companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "CHR21_DN"
+    },
+    {
+      "id": "inflammation",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_INFLAMMATORY_RESPONSE"
+    },
+    {
+      "id": "interferon_gamma",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_INTERFERON_GAMMA"
+    },
+    {
+      "id": "oxidative_stress",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_OXIDATIVE_STRESS"
+    },
+    {
+      "id": "apoptotic_signaling",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_APOPTOTIC_SIGNALING_PATHWAY"
+    },
+    {
+      "id": "ets2_g1_dn_without_comparators",
+      "role": "specificity sensitivity",
+      "derived_from": "ets2_g1_dn",
+      "subtract_union": [
+        "inflammation",
+        "interferon_gamma",
+        "oxidative_stress",
+        "apoptotic_signaling"
+      ],
+      "derivation": "Subtract after exact dataset feature mapping; mapping coverage gate uses the parent source set. Report source and mapped overlap explicitly."
+    }
+  ],
+  "exclude_gene_ids": [
+    "ENSG00000157557"
+  ],
+  "exclude_gene_symbols": [
+    "ETS2"
+  ],
+  "minimum_mapped_fraction": 0.8,
+  "minimum_mapped_genes": 10,
+  "minimum_paired_biological_donors": 3,
+  "minimum_remaining_pairs_for_leave_one_out": 3,
+  "evidence_tiers": {
+    "A": "Independent direct ETS2 loss/gain in primary human myeloid cells; original biological donors and appropriate controls auditable.",
+    "B": "MEK pharmacology in primary human myeloid cells; no assertion of ETS2 mediation.",
+    "C": "Human primary or iPSC macrophage stimulation; context calibration only.",
+    "D": "Cell line, mouse, mixed tissue or observational context; not primary human perturbation validation.",
+    "R": "Original/reused/derivation or selection data; reproduction or calibration with reuse disclosed."
+  },
+  "selection_order": [
+    "Direct A before pharmacological B; C/D/R cannot replace A as direct validation.",
+    "Within the raw-count procedure, require public full-universe raw integer gene counts, an explicit biological donor map, appropriate controls and at least 3 complete pairs. A different assay retains its biological tier but requires a separate assay protocol before readiness.",
+    "Within eligible tier, more complete biological donor pairs, then documented freedom from batch/assay confounding, then newer publication, then lexical accession."
+  ],
+  "discovery_scope": "Finite primary-source metadata search completed at the boundary recorded in the candidate search reports; actual queries, caps/pagination and candidate exclusions retained. The boundary was not fully prespecified in the original freeze and is not an exhaustive or blinded review. No raw-read processing or access application in this phase.",
+  "first_run_study_limit": 1,
+  "contrasts": "All relevant guides, constructs, controls, doses and times in the selected study are enumerated and locked before scoring. Only complete pairs enter each contrast. Related conditions are not independent replication; no target-response-based arm selection.",
+  "measurement": "Full source gene-count universe -> log2(CPM+1). Sum documented technical sequencing splits of one biological sample only. Normalize each distinct culture independently, then average transformed expression equally within donor/condition. Other quantities require a separate prospectively frozen assay procedure.",
+  "single_cell_gates": [
+    20,
+    50
+  ],
+  "matching": {
+    "bins": 20,
+    "replicates": 1000,
+    "base_seed": 20260912,
+    "reference": "Within dataset/assay/population/control-background/time stratum, equal mean of distinct matched-control cultures within donor, then equal donor mean over donors contributing at least one eligible planned pair. Each shared control enters once; no treated sample enters matching reference.",
+    "ordering": "Ascending reference abundance, stable feature ID breaks ties; numpy.array_split equal-count bins; candidates retain this order.",
+    "seed_rule": "int(sha256(f\"20260912:{dataset_key}:{stratum_key}:{program_id}\".encode()).hexdigest()[:16],16); numpy default_rng PCG64. Exact dataset/stratum strings frozen with sample map.",
+    "pool_exclusion": "Union of eight original mapped programs plus ETS2.",
+    "sampling": "1000 draws, bins ascending per draw, without replacement within set; same draws across donors and related contrasts.",
+    "failure": "No bin widening; unavailable matched score with raw mean retained.",
+    "reference_pair_accounting": "Freeze strata/control IDs; report reference donors and contrast-specific complete pairs separately. Related contrasts in one stratum reuse reference bins and matched gene sets.",
+    "reference_limit": "Controls match untreated/background expression only, not variance, gene length, co-regulation or biological specificity."
+  },
+  "summary_outputs": [
+    "mapping/missing/ambiguous IDs",
+    "sample/donor/technical replicate accounting",
+    "all planned contrasts and unavailable statuses",
+    "per-program raw and matched means and matching errors",
+    "donor-median treated-minus-control difference, full range, positive/negative/zero counts",
+    "leave-one-donor-out medians when at least3 remain",
+    "source sample QC and feature-universe provenance",
+    "all planned guide/construct/control/dose/time arms and target-engagement evidence",
+    "reference-control sample/donor accounting separate from contrast pairs"
+  ],
+  "expected_primary_direction": {
+    "direct_ETS2_loss": "negative",
+    "direct_ETS2_gain": "positive",
+    "MEK_inhibition": "negative is mechanism-compatible but does not prove ETS2 specificity",
+    "generic_stimulation": "No universal ETS2-specific direction assumed; calibration only."
+  },
+  "inference_limits": [
+    "No gene-as-donor or cell-as-donor test.",
+    "No binary clinical efficacy or universal activity-score validation from directional agreement.",
+    "Study/donor/selection reuse evaluated separately.",
+    "Healthy donor experimental transfer does not establish PSC clinical response."
+  ],
+  "dataset_specific_freeze_required": true,
+  "ready_for_inference": false,
+  "next_artifacts": [
+    "candidate inventory with primary-source evidence and exclusions",
+    "readiness/selection decision",
+    "dataset-specific source and sample/contrast lock if eligible",
+    "unsent original-study provenance request"
+  ],
+  "supersedes_for_future_runs": {
+    "path": "config/ets2-validation-rules.json",
+    "sha256": "a46c1378a186127bcc784cc5fea4dff48d963e4f693692bb7a4a43637429a6e7",
+    "preserved": true
+  },
+  "readiness_dimensions": [
+    "evidence_tier",
+    "assay_readiness",
+    "donor_design_status",
+    "independence_status",
+    "target_engagement_status",
+    "feature_universe_status"
+  ],
+  "target_engagement": "Record source evidence and assay for genetic perturbation fidelity or pharmacological pathway engagement, along with matched controls and author exclusions. Missing evidence remains an interpretation limit; no selection by same-RNA ETS2 change or program response.",
+  "feature_universe": "Document the full exported gene-count universe and source quantification/annotation. Retain measured zeros and all source-counted gene features in totals. Prior abundance/DE/signature filtering or unresolved denominator provenance makes the unchanged CPM procedure pending. Document handling of any non-gene summary rows before readiness.",
+  "feature_duplicates": "Unresolved duplicate source gene identifiers or collisions after numeric version removal stop the affected analysis; no expression-selected collapse. Distinct stable genes sharing symbols remain separate in the denominator and ambiguous for symbol-only program mapping.",
+  "structural_qc": [
+    "Unique source sample columns with exact donor/condition/assay mapping; account for missing and extra columns.",
+    "Finite nonnegative integer gene counts, no missing-as-zero conversion, positive full-universe library totals.",
+    "Source QC exclusions and technical-versus-biological replicate provenance recorded before effects.",
+    "No additional outcome-dependent or arbitrary library-size exclusion; new QC thresholds require a prospective amendment."
+  ],
+  "single_cell_aggregation": "Raw pseudobulk per distinct biological culture/sample, donor, condition, assay and author population; combine documented technical splits only. Apply 20/50-cell gates separately to each culture in each condition, normalize eligible cultures independently, then average transformed expression equally within donor/condition. Each paired condition passes independently. Freeze culture mapping before run."
+}

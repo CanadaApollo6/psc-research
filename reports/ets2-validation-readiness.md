@@ -1,0 +1,52 @@
+# Independent ETS2 validation: dataset readiness
+
+September 12, 2026. **The preparation round is complete: candidate datasets, a prospective analysis protocol and a focused unsent author request are ready. No new dataset has yet passed every gate for an independent primary-human ETS2 perturbation analysis, and no new program scores have been calculated.**
+
+The search separates the biological experiment from whether its deposited data can support our chosen analysis. A useful MEK-inhibitor study does not become direct ETS2 validation, and a public expression file does not automatically establish its measurement or replicate design.
+
+## The useful routes
+
+| Candidate | Verified experimental context | What it could test | Remaining preparation |
+|---|---|---|---|
+| [GSE84161](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161) | Primary human monocytes cultured with M-CSF; five donors stated; six conditions across five replicate groups, including MEK inhibitor with and without LPS | **Tier B:** pharmacological transfer in primary human myeloid cells | Affymetrix microarray procedure required. Confirm that replicate numbers are strict donor keys, identify the compound called “MEK SMI”, and audit source filtering/QC. Five complete donor pairs are suggested by the design, not yet independently confirmed. |
+| [GSE255234](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255234) | Four explicit donors, each with control, LPS, H10 and H5 samples; 16-column integer count workbook | **Tier C:** compare the fixed ETS2 program with broader inflammatory/stress responses | Resolve the source's RefSeq description versus the deposited Ensembl IDs and establish count-universe/filtering provenance. Preserve H5 as the source label until its dose/time is supported. |
+| [GSE175685](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175685) | Metadata explicitly identify three ETS2-ORF THP-1 cultures within a larger screen; eleven empty-vector cultures | **Tier D:** direct ETS2 perturbation in a cell-line model, potentially with other gene perturbations as comparisons | Public processed measurements are FPKM. Cultures are not independent human donors; control batches and culture durations differ. Needs target-engagement evidence and a separate assay and design protocol. |
+| [GSE39745](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39745) | Three explicitly labeled donors, monocyte-derived dendritic cells, U0126 and vehicle at several times | **Tier B:** MEK-response context in a different myeloid cell model | Agilent array procedure and duplicate-array accounting required. Dendritic-cell responses cannot be assumed to transfer to macrophages. |
+| [MacroMap, Zenodo 11563707](https://zenodo.org/records/11563707) | Study reports 209 iPSC donor lines across 24 conditions | **Tier C:** a larger stimulation-context calibration | The advertised expression matrix was not downloaded in this bounded pass. Exact count type, paired donor map, differentiation and library-protocol effects remain to be checked. |
+
+These are metadata and readiness findings, not observed responses of our gene programs. Distinct publications or research groups support separate study provenance but do not prove that no individual donor was shared. No reuse was identified for these candidates in the inspected source narrative; individual cross-study donor linkage is unavailable.
+
+## What the small-file checks established
+
+For GSE255234, the downloaded workbook is **3,938,694 bytes**, with SHA-256 `61d23d009b9b9a70a6127e0ae024df18f83fa3ed1a8079b7cbe86854ac5aac18`. It contains **64,253 unique unversioned Ensembl IDs × 16 samples**. All 1,028,048 measured cells pass the finite, nonnegative integer check. The numeric column labels match the donor/condition keys in the GEO sample titles. File structure and donor pairing are auditable; these checks do not resolve the stated annotation discrepancy or prove that the export retains the entire original count universe. The paper describes low-expression filtering for its differential-expression analysis without explicitly tying that filtering stage to the deposited workbook. [Publication and methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC11130737/).
+
+The [GSE255234 preparation manifest](../config/ets2-validation-gse255234-preparation.json) preserves all 16 public sample records and **12 planned donor pairs across three contrasts**: LPS−control, H10−control and H5−control. The four controls would each enter the matching reference once, after their matched background/time is verified. H5's numeric dose, unit and time are left unresolved. This is a frozen metadata preparation, with `ready_for_inference: false`; final strata, gene mapping and execution seeds remain to be locked after the source gates are resolved.
+
+The second small dataset, [GSE193336](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE193336), has four explicit unstimulated/LPS donor pairs. Its downloaded `Raw_Count` file is **757,738 bytes**, SHA-256 `2fe82f9b39abd3e4826c74b9280d20fbd3a175d0110b875a35cb84210c7bb98d`. It contains **66,295 numerically fractional values among 470,600 entries**. This is a numerical check, not a judgment based on decimal or scientific notation. Fractional values can arise from read-assignment methods and are not proof that the file is normalized. They nevertheless fail the unchanged integer-count rule; the exact quantity needs clarification before choosing a separate procedure.
+
+## Exclusions that matter
+
+- **GSE46903/GSE47189 is source reuse.** GSE46903 is the expression subseries of GSE47189. The Stankey paper explicitly used GSE47189 for macrophage-state selection and ETS2 co-expression. It can support reproduction, not fresh validation of those choices. [GEO relationship](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE47189), [Stankey methods](https://www.nature.com/articles/s41586-024-07501-1).
+- **GSE229472 is the original study's MPRA experiment.** Barcode/construct measurements are not a donor-level transcriptome perturbation matrix. It remains tier R. [GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229472).
+- **GSE123573 retains only one trametinib RNA pair.** The second treatment replicate was excluded for RNA quality. It cannot meet the three-donor paired-summary gate. [GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123573).
+- Mouse studies, mixed-tissue treatment studies and observational disease comparisons remain separate context candidates. A tissue dataset containing myeloid cells does not automatically supply a clean macrophage intervention experiment.
+
+The full [perturbation inventory](../data/derived/ets2-validation-perturbation-candidates.csv) and [context inventory](../data/derived/ets2-validation-context-candidates.csv) retain 15 candidate entries, accessions, uncertainties and exclusions. The [perturbation search record](../docs/ets2-validation-perturbation-search.md) and [context search record](../docs/ets2-validation-context-search.md) define actual query coverage and stopping boundaries. Some search responses were page-limited, and initial exploratory context queries/discarded hits were not fully archived. This is a curated finite shortlist, not an exhaustive review or evidence that no suitable study exists elsewhere.
+
+## Protocol and author request
+
+The original protocol was frozen at **16:03:02 UTC**. A methodological review led to a preserved [amendment](../docs/ets2-validation-amendment.md), frozen at **16:20:43 UTC**, before any new candidate scores or donor effects. The [effective rules](../config/ets2-validation-amended-rules.json) keep the nine programs and source membership unchanged, exclude ETS2 itself, require donor-level summaries, and use expression-matched comparison genes selected from **control samples only**. They also specify culture handling, feature-universe and duplicate checks, target-engagement evidence, all-arm accounting and separate assay readiness.
+
+Selection included whole-file structural checks of identifiers, dimensions and numeric validity. That goes beyond the original metadata/header-only wording and is explicitly disclosed in the preparation manifest. It did not include gene-specific treatment effects or program scores. The search boundary itself was documented during the search, not retrospectively described as preregistered. Earlier benchmark results and both original freezes remain preserved.
+
+The [email to James Lee's team](../docs/ets2-lee-request-draft.md) and [reproducibility brief](../docs/ets2-lee-reproducibility-brief.md) ask for the complete pre-symbol-collapse inhibitor statistics and the exact filtering, mapping, duplicate/tie handling and export environment. They distinguish recomputed raw ES from compared archived NES. **The email is unsent; no data or private repository access has been shared.**
+
+The [decision record](ets2-validation-decision.json) pins the completed inventories, search records, protocols and preparation manifest before selecting any numerical study. The separate [verification record](ets2-validation-verification.json) preserves the independent structural checks and source-hash validation. The original preparation freeze is not rewritten to incorporate later checks.
+
+## Next bounded work
+
+1. Complete source/assay preparation for **GSE84161**, the strongest primary-human pharmacology lead: resolve donor keys and inhibitor identity, then freeze an array-specific probe-mapping, normalization, background and contrast protocol. Keep its conclusion limited to MEK response.
+2. Complete the **GSE255234** annotation/count-universe audit using the pinned public source files and available processing records. The sample comparisons are already preserved. If the source gap cannot be closed, retain this file as pending under the current procedure or prospectively define a separately labeled available-universe calibration; do not silently relax the rule.
+3. Run one eligible, fully specified study first, retaining every planned contrast and broad comparator. A direct primary-human ETS2 perturbation still remains a separate evidence need. The larger MacroMap and cell-line routes are reserves with their own methods requirements.
+
+The UBASH3A transcript-consequence audit remains a separate next branch of the project. No AlphaGenome/AlphaFold call, personal sequencing, clinical recommendation or new treatment-response result was needed for this preparation.
