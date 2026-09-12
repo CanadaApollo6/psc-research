@@ -1,0 +1,218 @@
+dataset_key,dataset_id,modality,suspension_type,assay,cohort,author_cell_type,ontology_cell_type,exclusion_reason,cell_count,retained_cell_count,excluded_cell_count,donor_count_observed,library_count_observed
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,ActMac,macrophage,,60,60,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,AntiB,plasma cell,,106,106,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Arterial,endothelial cell of artery,,52,52,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,C-Hepato,centrilobular region hepatocyte,,1818,1818,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,C-Hepato2,centrilobular region hepatocyte,,82,82,0,3,3
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CD3T-lrNK,hepatic pit cell,,46,46,0,3,3
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CD4T,"CD4-positive, alpha-beta T cell",,141,141,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CD4T--RBC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,1,0,1,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CD8T,"CD8-positive, alpha-beta T cell",,249,249,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CD8T-cNK,natural killer cell,,48,48,0,4,4
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Chol,intrahepatic cholangiocyte,,316,316,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,CholMucus,intrahepatic cholangiocyte,,10,10,0,4,4
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Fibroblast,fibroblast,,258,258,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Hepato,hepatocyte,,430,430,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Hepato--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,49,0,49,3,3
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,I-Hepato,midzonal region hepatocyte,,1199,1199,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Kupffer,Kupffer cell,,857,857,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Kupffer--LSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,52,0,52,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,LAM-like,macrophage,,206,206,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,MHCII,macrophage,,109,109,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Mac--B-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,1,0,1,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Mac--Fibro-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,2,0,2,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,MatB,mature B cell,,201,201,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Monocyte,monocyte,,324,324,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,NKT--Mac-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,56,0,56,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Neutrophil,neutrophil,,15,15,0,4,4
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,P-Hepato,periportal region hepatocyte,,9325,9325,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,P-Hepato2,periportal region hepatocyte,,3944,3944,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Prolif,unknown,cell_type_unknown,84,0,84,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,RBC,erythrocyte,,1,1,0,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Stellate,hepatic stellate cell,,636,636,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,Tcell,T cell,,846,846,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,cDC,conventional dendritic cell,,22,22,0,3,3
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,cNK,natural killer cell,,168,168,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,cvEndo,vein endothelial cell,,76,76,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,1643,1643,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,cvLSEC--T-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,122,0,122,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,lrNK,hepatic pit cell,,190,190,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,pDC,plasmacytoid dendritic cell,,324,324,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v1,Control,ppLSEC,endothelial cell of periportal hepatic sinusoid,,172,172,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,ActMac,macrophage,,391,391,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,AntiB,plasma cell,,158,158,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Arterial,endothelial cell of artery,,457,457,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,C-Hepato,centrilobular region hepatocyte,,47,47,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,C-Hepato2,centrilobular region hepatocyte,,30,30,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,CD3T-lrNK,hepatic pit cell,,331,331,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,CD4T,"CD4-positive, alpha-beta T cell",,1596,1596,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,CD8T,"CD8-positive, alpha-beta T cell",,1386,1386,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,CD8T-cNK,natural killer cell,,634,634,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Chol,intrahepatic cholangiocyte,,774,774,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,CholMucus,intrahepatic cholangiocyte,,223,223,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Fibroblast,fibroblast,,262,262,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Hepato,hepatocyte,,41,41,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Hepato--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,51,0,51,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,I-Hepato,midzonal region hepatocyte,,25,25,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Kupffer,Kupffer cell,,1061,1061,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Kupffer--LSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,139,0,139,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,LAM-like,macrophage,,660,660,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,MAST,mast cell,,62,62,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,MHCII,macrophage,,875,875,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Mac--B-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,26,0,26,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Mac--Fibro-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,33,0,33,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,MatB,mature B cell,,659,659,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,MatB--CD4T-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,117,0,117,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,MatB--RBC,unknown,cell_type_unknown;author_cell_type_double_hyphen,5,0,5,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Monocyte,monocyte,,1239,1239,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,NKT--Mac-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,521,0,521,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Neutrophil,neutrophil,,224,224,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,P-Hepato,periportal region hepatocyte,,217,217,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,P-Hepato2,periportal region hepatocyte,,8,8,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Prolif,unknown,cell_type_unknown,296,0,296,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,RBC,erythrocyte,,189,189,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Stellate,hepatic stellate cell,,172,172,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,Tcell,T cell,,286,286,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,cDC,conventional dendritic cell,,58,58,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,cNK,natural killer cell,,2051,2051,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,cvEndo,vein endothelial cell,,209,209,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,367,367,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,cvLSEC--T-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,174,0,174,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,lrNK,hepatic pit cell,,1700,1700,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,pDC,plasmacytoid dendritic cell,,36,36,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PBC,ppLSEC,endothelial cell of periportal hepatic sinusoid,,450,450,0,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,ActMac,macrophage,,633,633,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,AntiB,plasma cell,,507,507,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Arterial,endothelial cell of artery,,715,715,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,C-Hepato,centrilobular region hepatocyte,,469,469,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,C-Hepato2,centrilobular region hepatocyte,,497,497,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CD3T-lrNK,hepatic pit cell,,1542,1542,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CD4T,"CD4-positive, alpha-beta T cell",,3764,3764,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CD4T--RBC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,56,0,56,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CD8T,"CD8-positive, alpha-beta T cell",,4601,4601,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CD8T-cNK,natural killer cell,,1337,1337,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Chol,intrahepatic cholangiocyte,,426,426,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,CholMucus,intrahepatic cholangiocyte,,84,84,0,4,4
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Fibroblast,fibroblast,,943,943,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Hepato,hepatocyte,,281,281,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Hepato--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,162,0,162,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,I-Hepato,midzonal region hepatocyte,,626,626,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Kupffer,Kupffer cell,,3425,3425,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Kupffer--LSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,557,0,557,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,LAM-like,macrophage,,1578,1578,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,MAST,mast cell,,54,54,0,6,6
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,MHCII,macrophage,,1226,1226,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Mac--B-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,205,0,205,4,4
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Mac--Fibro-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,152,0,152,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,MatB,mature B cell,,3498,3498,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,MatB--CD4T-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,268,0,268,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,MatB--RBC,unknown,cell_type_unknown;author_cell_type_double_hyphen,106,0,106,2,2
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Monocyte,monocyte,,5166,5166,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,NKT,natural killer cell,,23,23,0,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,NKT--Mac-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,1308,0,1308,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Neutrophil,neutrophil,,1002,1002,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,P-Hepato,periportal region hepatocyte,,721,721,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,P-Hepato2,periportal region hepatocyte,,262,262,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Prolif,unknown,cell_type_unknown,524,0,524,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,RBC,erythrocyte,,283,283,0,5,5
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Stellate,hepatic stellate cell,,546,546,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,Tcell,T cell,,1357,1357,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cDC,conventional dendritic cell,,274,274,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cNK,natural killer cell,,2933,2933,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cNK--RBC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,49,0,49,1,1
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cvEndo,vein endothelial cell,,493,493,0,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,1497,1497,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,cvLSEC--T-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,411,0,411,7,7
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,lrNK,hepatic pit cell,,1934,1934,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,pDC,plasmacytoid dendritic cell,,86,86,0,8,8
+sc,02792605-4760-4023-82ad-40fc4458a5db,sc,cell,10x 5' v2,PSC,ppLSEC,endothelial cell of periportal hepatic sinusoid,,575,575,0,8,8
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,AntiB,plasma cell,,33,33,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,C-Hepato,centrilobular region hepatocyte,,5568,5568,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,C-Hepato2,centrilobular region hepatocyte,,1665,1665,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,CD4T,"CD4-positive, alpha-beta T cell",,141,141,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Chol,intrahepatic cholangiocyte,,754,754,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Chol--Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,2,0,2,1,1
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Chol--Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,6,0,6,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Chol-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,137,0,137,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,CholMucus,intrahepatic cholangiocyte,,41,41,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Fibroblast,fibroblast,,48,48,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Hepato-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,1037,0,1037,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,I-Hepato,midzonal region hepatocyte,,237,237,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Kupffer,Kupffer cell,,233,233,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,157,0,157,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Monocyte,monocyte,,249,249,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,P-Hepato,periportal region hepatocyte,,10201,10201,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,P-Hepato2,periportal region hepatocyte,,2582,2582,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Prolif,unknown,cell_type_unknown,268,0,268,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Prolif-Mac,macrophage,,4,4,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Stellate,hepatic stellate cell,,507,507,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,282,0,282,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,Tcell-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,64,0,64,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,VSMC,vascular associated smooth muscle cell,,34,34,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,aStellate,hepatic stellate cell,,257,257,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,cvEndo,vein endothelial cell,,78,78,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,1228,1228,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,cvLSEC--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,10,0,10,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,cvLSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,319,0,319,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,lrNK,hepatic pit cell,,84,84,0,3,3
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,Control,ppLSEC,endothelial cell of periportal hepatic sinusoid,,289,289,0,4,4
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,AntiB,plasma cell,,99,99,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,C-Hepato,centrilobular region hepatocyte,,4053,4053,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,C-Hepato2,centrilobular region hepatocyte,,786,786,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,CD4T,"CD4-positive, alpha-beta T cell",,291,291,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Chol,intrahepatic cholangiocyte,,2296,2296,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Chol--Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,30,0,30,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Chol--Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,37,0,37,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Chol-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,312,0,312,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,CholMucus,intrahepatic cholangiocyte,,35,35,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Fibroblast,fibroblast,,84,84,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Hepato-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,365,0,365,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,I-Hepato,midzonal region hepatocyte,,358,358,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Kupffer,Kupffer cell,,402,402,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,266,0,266,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Monocyte,monocyte,,323,323,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,P-Hepato,periportal region hepatocyte,,8660,8660,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,P-Hepato2,periportal region hepatocyte,,766,766,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Prolif,unknown,cell_type_unknown,57,0,57,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Prolif-Mac,macrophage,,58,58,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Stellate,hepatic stellate cell,,334,334,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,184,0,184,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,Tcell-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,116,0,116,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,VSMC,vascular associated smooth muscle cell,,61,61,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,aStellate,hepatic stellate cell,,413,413,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,cvEndo,vein endothelial cell,,36,36,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,430,430,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,cvLSEC--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,32,0,32,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,cvLSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,242,0,242,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,lrNK,hepatic pit cell,,208,208,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PBC,ppLSEC,endothelial cell of periportal hepatic sinusoid,,420,420,0,2,2
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,AntiB,plasma cell,,239,239,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,C-Hepato,centrilobular region hepatocyte,,9833,9833,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,C-Hepato2,centrilobular region hepatocyte,,2808,2808,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,CD4T,"CD4-positive, alpha-beta T cell",,1138,1138,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Chol,intrahepatic cholangiocyte,,3643,3643,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Chol--Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,75,0,75,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Chol--Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen,78,0,78,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Chol-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,378,0,378,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,CholMucus,intrahepatic cholangiocyte,,118,118,0,5,5
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Fibroblast,fibroblast,,408,408,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Hepato-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,1408,0,1408,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,I-Hepato,midzonal region hepatocyte,,886,886,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Kupffer,Kupffer cell,,2018,2018,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Kupffer-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,741,0,741,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Monocyte,monocyte,,1331,1331,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,P-Hepato,periportal region hepatocyte,,20113,20113,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,P-Hepato2,periportal region hepatocyte,,1748,1748,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Prolif,unknown,cell_type_unknown,513,0,513,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Prolif-Mac,macrophage,,197,197,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Stellate,hepatic stellate cell,,1073,1073,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Stellate-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,429,0,429,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,Tcell-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,416,0,416,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,VSMC,vascular associated smooth muscle cell,,462,462,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,aStellate,hepatic stellate cell,,1634,1634,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,cvEndo,vein endothelial cell,,138,138,0,6,6
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,cvLSEC,endothelial cell of pericentral hepatic sinusoid,,2534,2534,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,cvLSEC--Mac,unknown,cell_type_unknown;author_cell_type_double_hyphen,102,0,102,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,cvLSEC-Doublet,unknown,cell_type_unknown;author_cell_type_doublet,702,0,702,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,lrNK,hepatic pit cell,,820,820,0,7,7
+sn,1873a18a-66fd-4a4d-8277-a872c93f5b59,sn,nucleus,10x 3' v3,PSC,ppLSEC,endothelial cell of periportal hepatic sinusoid,,1528,1528,0,7,7

@@ -1,0 +1,87 @@
+{
+  "analysis_id": "psc-liver-atlas-five-gene-descriptive-v1",
+  "frozen_at_utc": "2026-09-12T14:15:24.857808+00:00",
+  "status_at_freeze": "Downloaded sources and inspected metadata/structure only; candidate expression values not inspected.",
+  "purpose": "Map five existing genetic candidates to author-annotated liver cell contexts; quantify descriptive donor-level expression and evaluability, without genetic-causality or treatment claims.",
+  "source_manifest": "config/liver-atlas-sources.json",
+  "source_manifest_sha256": "45665304f57ff439dc8624b2af122c95b301f24cabcbf19f6986430f1ec8cbbf",
+  "genes": [
+    "ETS2",
+    "PRKD2",
+    "UBASH3A",
+    "PFKFB3",
+    "BCL2L11"
+  ],
+  "datasets": [
+    {
+      "key": "sc",
+      "file": "psc-sc-ff713455.h5ad",
+      "dataset_id": "02792605-4760-4023-82ad-40fc4458a5db",
+      "version_id": "ff713455-e6b7-45b3-b2dd-1c9dd26251f6",
+      "expected_observations": 89637
+    },
+    {
+      "key": "sn",
+      "file": "psc-sn-34702b40.h5ad",
+      "dataset_id": "1873a18a-66fd-4a4d-8277-a872c93f5b59",
+      "version_id": "34702b40-d0ac-4ec2-8871-776ca012efd0",
+      "expected_observations": 105780
+    }
+  ],
+  "count_matrix": "raw/X",
+  "gene_mapping": "Unique exact feature_name in raw/var; record its feature identifier and missing/ambiguous/filtered status. Do not replace missing genes with aliases without amendment.",
+  "count_qc": "Verify every stored raw count finite, nonnegative and integer; CSR dimensions and indices valid, no duplicate cell IDs, feature IDs unique, obs/raw/X dimensions agree. Fail counts analysis on violations. Retain source normalized X without using it as UMI counts.",
+  "annotation_fields": {
+    "donor": "donor_id",
+    "author_cell_type": "author_cell_type",
+    "ontology_cell_type": "cell_type",
+    "disease": "disease",
+    "assay": "assay",
+    "library": "library_uuid",
+    "suspension": "suspension_type"
+  },
+  "cohorts": {
+    "PSC": "primary sclerosing cholangitis",
+    "Control": "normal",
+    "PBC": "primary biliary cholangitis"
+  },
+  "cell_exclusion_rules": [
+    "author_cell_type contains Doublet, case insensitive",
+    "author_cell_type contains --",
+    "cell_type is unknown or missing",
+    "Required donor, assay, author_cell_type or disease label is missing"
+  ],
+  "annotation_policy": "Use original author labels; do not infer or merge cell subtypes using candidate expression. Preserve hybrid-looking labels without -- literally and flag interpretation; no de novo clustering.",
+  "unit": "donor within dataset, assay and author cell type; repeated libraries from a donor combined; sc/sn reported separately and never counted as independent replications.",
+  "raw_aggregation": "Sum candidate UMIs and all-feature UMIs across retained cells of each donor/stratum. Detection fraction is count>0 cells divided by retained cells of that donor/stratum. Excluded cells do not enter denominator.",
+  "primary_min_cells_per_donor_cell_type": 20,
+  "sensitivity_min_cells_per_donor_cell_type": 50,
+  "minimum_donors_per_cohort_for_contrast": 3,
+  "normalization": "CPM=1e6*candidate_UMIs/all_feature_UMIs for each donor/stratum; log2(CPM+1). No pooling donor denominators for primary summaries.",
+  "summaries": [
+    "Retained cells and total/evaluable donors per cohort, assay and author cell type",
+    "Median donor log2(CPM+1), median CPM, median donor detection fraction and observed ranges",
+    "Counts of donors with gene UMIs>0; gene non-detection distinguished from missing annotation"
+  ],
+  "contrast": "For each gene and author cell type within a dataset and shared assay, median PSC log2(CPM+1) minus median Control log2(CPM+1); descriptive only; no cell-level tests, significance labels, causal or treatment inference.",
+  "contrast_gates": [
+    "At least3 eligible donors from each cohort in the exact same assay",
+    "Gene annotated uniquely and count QC passed",
+    "Every donor has positive all-feature count denominator"
+  ],
+  "sensitivity": "Repeat at50cells; leave-one-donor-out range for evaluable contrast without treating leave-outs as independent samples; report how many post-deletion contrasts still satisfy3-per-cohort gate.",
+  "missingness_policy": "Enumerate every planned gene and observed author cell-type/assay combination, including exclusions, sparse groups, zeros and non-evaluable contrasts. No cross-chemistry fallback.",
+  "metadata_findings_before_counts": [
+    "SC: all control cells annotated10x5primev1, allPSC/PBC annotated10x5primev2; complete condition/chemistry confounding blocks SC PSC-Control contrast.",
+    "SN: all cells annotated10x3primev3; tissue preparation differs bycohort, donor covariates are incomplete and source nuclei counts differ from paper abstract.",
+    "Cell/nucleus data share some donor labels; measure overlap exactly and report separately.",
+    "Authors retain doublet/hybrid/unknown groups in distributed objects; exclude byfixedmetadata rules."
+  ],
+  "not_in_this_phase": [
+    "No additional AlphaGenome/AlphaFold calls",
+    "No spatial proximity or ETS2 program score inferred from single gene expression",
+    "No genotype, eQTL, splice-junction, protein or intervention effect estimated",
+    "No new clinical samples or researcher contact"
+  ],
+  "deliverable": "Complete five-gene descriptive tables, source/coverage audit, one plot and a report prioritizing only supported cell-context follow-ups; retain inconclusive candidates without forcingpositive results."
+}

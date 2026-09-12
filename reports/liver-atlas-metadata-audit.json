@@ -1,0 +1,2453 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-12T14:39:54.727852+00:00",
+  "analysis_scope": {
+    "metadata_only": true,
+    "candidate_expression_values_inspected": false,
+    "matrix_values_loaded": false,
+    "purpose": "Audit public cell annotations and donor/assay provenance before the bounded descriptive expression analysis."
+  },
+  "inputs": {
+    "integrity_verification": {
+      "status": "passed",
+      "method": "Exact local byte count and SHA-256 compared with the pinned declaration before parsing any collection, H5AD obs, or GEO metadata.",
+      "verified_files": [
+        {
+          "id": "collection-metadata",
+          "file": "data/raw/liver-atlas/cellxgene-collection.json",
+          "bytes": 54467,
+          "sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+          "declared_bytes": 54467,
+          "declared_sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+          "status": "verified_exact_bytes_and_sha256"
+        },
+        {
+          "id": "sc",
+          "file": "data/raw/liver-atlas/psc-sc-ff713455.h5ad",
+          "bytes": 1118963144,
+          "sha256": "38d6272613d9ad85657c947988b34313c31010e9e512320e0ad0669917cfef26",
+          "declared_bytes": 1118963144,
+          "declared_sha256": "38d6272613d9ad85657c947988b34313c31010e9e512320e0ad0669917cfef26",
+          "status": "verified_exact_bytes_and_sha256"
+        },
+        {
+          "id": "sn",
+          "file": "data/raw/liver-atlas/psc-sn-34702b40.h5ad",
+          "bytes": 1543810661,
+          "sha256": "48f4af0a91c60b22e5ba306bb61e5aee53df9ecf8e08fa4f36992cfb9386fe1a",
+          "declared_bytes": 1543810661,
+          "declared_sha256": "48f4af0a91c60b22e5ba306bb61e5aee53df9ecf8e08fa4f36992cfb9386fe1a",
+          "status": "verified_exact_bytes_and_sha256"
+        },
+        {
+          "id": "geo-library-metadata",
+          "file": "data/derived/geo-library-metadata.csv",
+          "bytes": 8973,
+          "sha256": "1fd508cc22bcf40ef2e3ac665bf06d736533b65ec77e33dfbe917db00190bcdf",
+          "declared_bytes": 8973,
+          "declared_sha256": "1fd508cc22bcf40ef2e3ac665bf06d736533b65ec77e33dfbe917db00190bcdf",
+          "status": "verified_exact_bytes_and_sha256"
+        }
+      ]
+    },
+    "source_manifest": {
+      "file": "config/liver-atlas-sources.json",
+      "sha256": "45665304f57ff439dc8624b2af122c95b301f24cabcbf19f6986430f1ec8cbbf",
+      "declared_sources": [
+        {
+          "id": "collection-metadata",
+          "file": "cellxgene-collection.json",
+          "url": "https://api.cellxgene.cziscience.com/curation/v1/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+          "bytes": 54467,
+          "max_bytes": 2000000,
+          "sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+          "retrieved_at_utc": "2026-09-12T14:10:29.193288+00:00"
+        },
+        {
+          "id": "02792605-4760-4023-82ad-40fc4458a5db",
+          "dataset_version_id": "ff713455-e6b7-45b3-b2dd-1c9dd26251f6",
+          "file": "psc-sc-ff713455.h5ad",
+          "url": "https://datasets.cellxgene.cziscience.com/ff713455-e6b7-45b3-b2dd-1c9dd26251f6.h5ad",
+          "bytes": 1118963144,
+          "max_bytes": 1118963144,
+          "sha256": "38d6272613d9ad85657c947988b34313c31010e9e512320e0ad0669917cfef26",
+          "retrieved_at_utc": "2026-09-12T14:11:06.568173+00:00",
+          "expected_observations": 89637,
+          "schema_version": "7.1.0"
+        },
+        {
+          "id": "1873a18a-66fd-4a4d-8277-a872c93f5b59",
+          "dataset_version_id": "34702b40-d0ac-4ec2-8871-776ca012efd0",
+          "file": "psc-sn-34702b40.h5ad",
+          "url": "https://datasets.cellxgene.cziscience.com/34702b40-d0ac-4ec2-8871-776ca012efd0.h5ad",
+          "bytes": 1543810661,
+          "max_bytes": 1543810661,
+          "sha256": "48f4af0a91c60b22e5ba306bb61e5aee53df9ecf8e08fa4f36992cfb9386fe1a",
+          "retrieved_at_utc": "2026-09-12T14:11:08.552167+00:00",
+          "expected_observations": 105780,
+          "schema_version": "7.1.0"
+        }
+      ]
+    },
+    "metadata_config": {
+      "file": "config/liver-atlas-metadata.json",
+      "sha256": "67016e688acdb3788ccacb6f542c7c5311935c167ef0d3a549054022e3109ce9",
+      "role": "Curated provenance and comparison facts consumed by the script; not an external source byte-verification record."
+    },
+    "geo_metadata": {
+      "file": "data/derived/geo-library-metadata.csv",
+      "sha256": "1fd508cc22bcf40ef2e3ac665bf06d736533b65ec77e33dfbe917db00190bcdf",
+      "series_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243981"
+      ],
+      "snapshots": [
+        {
+          "accession": "GSE243981",
+          "kind": "series_metadata",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243981&targ=self&form=text&view=quick",
+          "local_snapshot": "work/atlas-source/GSE243981.txt",
+          "sha256": "b3001e13376478e1ff4a1212d55fbdb5ec91ae9fdaeda689d8e42b575a03ff15",
+          "retrieved_at_utc": "2026-09-12T14:10:30.143285Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+        },
+        {
+          "accession": "GSE243977",
+          "kind": "series_metadata",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977&targ=self&form=text&view=quick",
+          "local_snapshot": "work/atlas-source/GSE243977.txt",
+          "sha256": "512090b692e14b39bc2cf433b5f89a1be4994d01663eec887339a0d91e30dd61",
+          "retrieved_at_utc": "2026-09-12T14:10:29.787286Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+        },
+        {
+          "accession": "GSE247128",
+          "kind": "series_metadata",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128&targ=self&form=text&view=quick",
+          "local_snapshot": "work/atlas-source/GSE247128.txt",
+          "sha256": "33f413f00720bbc0b071e822328132c9a43f9f4af6ea9f3f611c12e52adabf51",
+          "retrieved_at_utc": "2026-09-12T14:10:29.958285Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+        },
+        {
+          "accession": "GSE243977",
+          "kind": "sample_metadata",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977&targ=gsm&form=text&view=quick",
+          "local_snapshot": "work/atlas-source/GSE243977-gsm.txt",
+          "sha256": "4824a03b1cf281ccce40b28f850a318d0b1d59001a6c8fe0d31e381c32eee315",
+          "retrieved_at_utc": "2026-09-12T14:10:41.372250Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+        },
+        {
+          "accession": "GSE247128",
+          "kind": "sample_metadata",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128&targ=gsm&form=text&view=quick",
+          "local_snapshot": "work/atlas-source/GSE247128-gsm.txt",
+          "sha256": "05993f5d93f9f4d5cb9d5d67fe25a901174c04187ebe236f3e9a640613f02ecf",
+          "retrieved_at_utc": "2026-09-12T14:10:42.200248Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+        }
+      ]
+    },
+    "paper": {
+      "citation": "Andrews et al. Single-cell, single-nucleus, and spatial transcriptomics characterization of the immunological landscape in the healthy and PSC human liver.",
+      "pmid": "38199298",
+      "doi": "10.1016/j.jhep.2023.12.023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38199298/",
+      "retrieved_date": "2026-09-12",
+      "abstract_counts": {
+        "sc": {
+          "normal_cells": 107542,
+          "psc_cells": 47156,
+          "pbc_cells": 18240,
+          "normal_donors": 24,
+          "psc_donors": 10,
+          "pbc_donors": 3
+        },
+        "sn": {
+          "psc_nuclei": 23000,
+          "pbc_nuclei": 20202
+        }
+      }
+    },
+    "preprint": {
+      "title": "Multi-omic profiling reveals the immunological landscape of the healthy and PSC human liver",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.07.28.550550v1",
+      "retrieved_date": "2026-09-12",
+      "note": "Used only for provenance of the preprint supplementary workbook; it is not substituted for the final paper citation."
+    },
+    "cellxgene_collection": {
+      "collection_id": "0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+      "url": "https://cellxgene.cziscience.com/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+      "api_url": "https://api.cellxgene.cziscience.com/curation/v1/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+      "metadata_file": "data/raw/liver-atlas/cellxgene-collection.json",
+      "metadata_sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+      "retrieved_at_utc": "2026-09-12T14:10:29.193288Z"
+    },
+    "author_code": {
+      "repository_url": "https://github.com/tallulandrews/LiverMap2.0",
+      "commit": "cee1e0103eab182f81a676805a53812a7bde9dcf",
+      "commit_date": "2023-12-18T19:10:34Z",
+      "tree_url": "https://github.com/tallulandrews/LiverMap2.0/tree/cee1e0103eab182f81a676805a53812a7bde9dcf",
+      "tree_snapshot_sha256": "d6df5727ec7fcce66ae5c6a22e664e2194e2c83a263fbd834136c4ae9010d538",
+      "retrieved_date": "2026-09-12",
+      "files": [
+        {
+          "path": "Cholangitis_Analysis/SC_Detailed_Analysis.R",
+          "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Cholangitis_Analysis/SC_Detailed_Analysis.R",
+          "local_snapshot": "work/atlas-source/LiverMap2.0-Cholangitis_Analysis_SC_Detailed_Analysis.R",
+          "sha256": "4bb18aa6e09b99d670a93bbf200be85e1c153ebe28c3c76d4ca5411d5b08bc71",
+          "retrieved_at_utc": "2026-09-12T14:14:45.030527Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+          "evidence": "The disease analysis input vectors declare 8 PSC donors, 2 PBC donors, and 6 healthy donors for SC."
+        },
+        {
+          "path": "Cholangitis_Analysis/SN_Detailed_Analysis.R",
+          "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Cholangitis_Analysis/SN_Detailed_Analysis.R",
+          "local_snapshot": "work/atlas-source/LiverMap2.0-Cholangitis_Analysis_SN_Detailed_Analysis.R",
+          "sha256": "6352e6eb82d1e52eb5d8487b08ae8a0c21bb37cd032579a6594ad82eb59ce746",
+          "retrieved_at_utc": "2026-09-12T14:14:45.186526Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+          "evidence": "The disease analysis consumes SN_Integrated_Map_Annotated.rds and uses the author cell_type labels for nuclei summaries."
+        },
+        {
+          "path": "Map2.2_Full_Manual_Annotation.R",
+          "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_Full_Manual_Annotation.R",
+          "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_Full_Manual_Annotation.R",
+          "sha256": "034b22e7342469a017ff0fdf6436b0374f881f30bc5354a61cb2ca5e37383662",
+          "retrieved_at_utc": "2026-09-12T14:14:44.905930Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+          "evidence": "Manual annotation is built from coarse cluster and subcluster metadata and written as cell_type metadata."
+        },
+        {
+          "path": "Map2.2_MySeuratPipeline.R",
+          "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_MySeuratPipeline.R",
+          "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_MySeuratPipeline.R",
+          "sha256": "df4722dd23c5e5d33ba2ee4ec902c439c5a8495436c96a1c58f4f9e928932b92",
+          "retrieved_at_utc": "2026-09-12T14:14:45.317526Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+          "evidence": "The pipeline runs scmap and marker-based annotation, derives donor from the sample name, and performs clustering/integration."
+        },
+        {
+          "path": "Map2.2_add_metadata.R",
+          "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_add_metadata.R",
+          "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_add_metadata.R",
+          "sha256": "53f3c5a3feda41ba5d21c2bf8af81a1f0f2e3eb11b3d9fb1df98ea10ab8c248c",
+          "retrieved_at_utc": "2026-09-12T14:14:44.783372Z",
+          "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+          "evidence": "The metadata helper joins donor names to age, sex, BMI, and binned covariates from the author's metadata table."
+        }
+      ],
+      "annotation_evidence": [
+        "CELLxGENE obs author_cell_type is treated as the original author label and cell_type/cell_type_ontology_term_id as supplied ontology annotations.",
+        "The inspected repository contains manual, scmap, and marker-based annotation code, but no explicit GEO sample-to-CELLxGENE library UUID crosswalk.",
+        "The author SC analysis donor vectors cover the same apparent donor inventory as the SC CELLxGENE release, but the source name PSC014X differs from CELLxGENE donor_id PSC014 and is retained as a naming discrepancy rather than silently normalized."
+      ],
+      "sc_declared_donors": [
+        "PSC018",
+        "PSC014X",
+        "PSC019",
+        "PSC024",
+        "PSC012",
+        "PSC016",
+        "PSC033",
+        "PSC005",
+        "PBC005",
+        "PBC001",
+        "C58",
+        "C59",
+        "C61",
+        "C63",
+        "C64",
+        "C70"
+      ],
+      "exact_geo_library_crosswalk_found": false
+    },
+    "supplementary_evidence": {
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/01/2023.07.28.550550/DC1/embed/media-1.xlsx?download=true",
+      "local_snapshot": "work/atlas-source/biorxiv-media-1.xlsx",
+      "sha256": "efdacaddef448e8c1316b3c15dc9d53c732c6e0f7a6aaa8f129cf5f7901bd190",
+      "retrieved_at_utc": "2026-09-12T14:13:02.042827Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+      "source_type": "Preprint supplementary workbook; not the final-paper supplementary file.",
+      "preprint_url": "https://www.biorxiv.org/content/10.1101/2023.07.28.550550v1",
+      "evidence": "Summary and assay sheets list 24 control donor labels and the PSC single-cell/single-nucleus donor samples, including duplicate/poor-quality notes."
+    }
+  },
+  "reproduction": {
+    "script_reads": [
+      "config/liver-atlas-sources.json: source file paths, declared H5AD hashes, retrieval metadata, and expected observation counts; collection and both H5AD files are byte/hash verified before metadata reads.",
+      "config/liver-atlas-plan.json: selected SC/SN dataset IDs, versions, and expected observation counts.",
+      "data/raw/liver-atlas/cellxgene-collection.json: public collection inventory, dataset assets, modalities, donor IDs, and ontology cell-type labels; curator contact fields are omitted from the report.",
+      "data/raw/liver-atlas/psc-sc-ff713455.h5ad and psc-sn-34702b40.h5ad: backed obs plus shape/raw-shape metadata only; matrix values are never materialized.",
+      "data/derived/geo-library-metadata.csv: exact pinned bytes/SHA-256 are verified before parsing; all original GEO columns are retained and title/description conflict counts are parsed mechanically."
+    ],
+    "author_and_paper_evidence_pinned_in_config": [
+      "Author repository file contents, commit metadata, local snapshot hashes, declared SC donor vector, and annotation-process descriptions are pinned in config/liver-atlas-metadata.json; the script does not re-execute the R code.",
+      "The final-paper citation and abstract counts are pinned in config/liver-atlas-metadata.json; the script does not derive paper counts from H5AD metadata.",
+      "The 24 control donor labels and duplicate/quality notes come from a preprint supplementary workbook pinned in config/liver-atlas-metadata.json; they are not treated as final-paper supplementary values."
+    ]
+  },
+  "cellxgene_collection_inventory": {
+    "collection_id": "0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+    "collection_version_id": "1290163f-ccfe-40e4-9965-d78c94ac7c90",
+    "name": "Single-cell and spatial transcriptomics characterisation of the immunological landscape in the healthy and PSC human liver",
+    "published_at": "2024-02-23T19:49:59+00:00",
+    "revised_at": "2026-06-11T16:53:49+00:00",
+    "dataset_count": 18,
+    "selected_dataset_ids": [
+      "02792605-4760-4023-82ad-40fc4458a5db",
+      "1873a18a-66fd-4a4d-8277-a872c93f5b59"
+    ],
+    "datasets": [
+      {
+        "dataset_id": "02792605-4760-4023-82ad-40fc4458a5db",
+        "dataset_version_id": "ff713455-e6b7-45b3-b2dd-1c9dd26251f6",
+        "title": "All cells types from scRNA-seq of human primary sclerosing cholangitis patients and healthy controls",
+        "cell_count": 89637,
+        "primary_cell_count": 65396,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 5' v1",
+          "10x 5' v2"
+        ],
+        "disease": [
+          "normal",
+          "primary biliary cholangitis",
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C70",
+          "PBC001",
+          "PBC005",
+          "PSC005",
+          "PSC012",
+          "PSC014",
+          "PSC016",
+          "PSC018",
+          "PSC019",
+          "PSC024",
+          "PSC033"
+        ],
+        "cell_type_labels": [
+          "CD4-positive, alpha-beta T cell",
+          "CD8-positive, alpha-beta T cell",
+          "Kupffer cell",
+          "T cell",
+          "centrilobular region hepatocyte",
+          "conventional dendritic cell",
+          "endothelial cell of artery",
+          "endothelial cell of pericentral hepatic sinusoid",
+          "endothelial cell of periportal hepatic sinusoid",
+          "erythrocyte",
+          "fibroblast",
+          "hepatic pit cell",
+          "hepatic stellate cell",
+          "hepatocyte",
+          "intrahepatic cholangiocyte",
+          "macrophage",
+          "mast cell",
+          "mature B cell",
+          "midzonal region hepatocyte",
+          "monocyte",
+          "natural killer cell",
+          "neutrophil",
+          "periportal region hepatocyte",
+          "plasma cell",
+          "plasmacytoid dendritic cell",
+          "unknown",
+          "vein endothelial cell"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/ff713455-e6b7-45b3-b2dd-1c9dd26251f6.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "1873a18a-66fd-4a4d-8277-a872c93f5b59",
+        "dataset_version_id": "34702b40-d0ac-4ec2-8871-776ca012efd0",
+        "title": "All cells types from snRNA-seq of human primary sclerosing cholangitis patients and healthy controls",
+        "cell_count": 105780,
+        "primary_cell_count": 79265,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "nucleus"
+        ],
+        "assay": [
+          "10x 3' v3"
+        ],
+        "disease": [
+          "normal",
+          "primary biliary cholangitis",
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "C41",
+          "C58",
+          "C70",
+          "C72",
+          "PBC001",
+          "PBC004",
+          "PSC005",
+          "PSC010",
+          "PSC011",
+          "PSC012",
+          "PSC014",
+          "PSC018",
+          "PSC019"
+        ],
+        "cell_type_labels": [
+          "CD4-positive, alpha-beta T cell",
+          "Kupffer cell",
+          "centrilobular region hepatocyte",
+          "endothelial cell of pericentral hepatic sinusoid",
+          "endothelial cell of periportal hepatic sinusoid",
+          "fibroblast",
+          "hepatic pit cell",
+          "hepatic stellate cell",
+          "intrahepatic cholangiocyte",
+          "macrophage",
+          "midzonal region hepatocyte",
+          "monocyte",
+          "periportal region hepatocyte",
+          "plasma cell",
+          "unknown",
+          "vascular associated smooth muscle cell",
+          "vein endothelial cell"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/34702b40-d0ac-4ec2-8871-776ca012efd0.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "4993d61c-1d04-4630-9c61-8d9431f39adc",
+        "dataset_version_id": "0ce2d669-da27-48dc-bb73-22e822188cd2",
+        "title": "B cells from human healthy donor liver samples",
+        "cell_count": 1250,
+        "primary_cell_count": 1167,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "B cell",
+          "naive B cell",
+          "plasmablast",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/0ce2d669-da27-48dc-bb73-22e822188cd2.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "0c9a8cfb-6649-4d52-b418-6d8e56bd7afe",
+        "dataset_version_id": "58821f45-6468-4766-af0b-8cb164ae71d7",
+        "title": "Cholangiocytes from human healthy donor liver samples",
+        "cell_count": 1011,
+        "primary_cell_count": 832,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "intrahepatic cholangiocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/58821f45-6468-4766-af0b-8cb164ae71d7.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "4ce8d8ec-b94c-4b79-afcb-b094336d8a78",
+        "dataset_version_id": "95dbfcf7-a456-4fa6-aef0-f66786d59bc5",
+        "title": "Endothelial cells from human healthy donor liver samples",
+        "cell_count": 9422,
+        "primary_cell_count": 8219,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "endothelial cell of artery",
+          "endothelial cell of hepatic sinusoid",
+          "endothelial cell of pericentral hepatic sinusoid",
+          "endothelial cell of periportal hepatic sinusoid",
+          "hepatocyte",
+          "vein endothelial cell"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/95dbfcf7-a456-4fa6-aef0-f66786d59bc5.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "234c23d0-d6cd-4612-a40d-e5811727564b",
+        "dataset_version_id": "4ac4ef10-fa02-452c-a6b6-cbfb0c6159c8",
+        "title": "Hepatocyte-1 cells from human healthy donor liver samples",
+        "cell_count": 53015,
+        "primary_cell_count": 45186,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "centrilobular region hepatocyte",
+          "midzonal region hepatocyte",
+          "periportal region hepatocyte"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/4ac4ef10-fa02-452c-a6b6-cbfb0c6159c8.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "76af615b-12fe-4ebb-b8c6-239ad29e26e3",
+        "dataset_version_id": "02eda8d2-bd30-4046-9fa3-24755cb8dd24",
+        "title": "Hepatocyte-2 cells from human healthy donor liver samples",
+        "cell_count": 13635,
+        "primary_cell_count": 11982,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "centrilobular region hepatocyte",
+          "erythroblast",
+          "erythroid lineage cell",
+          "hepatocyte",
+          "midzonal region hepatocyte",
+          "periportal region hepatocyte"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/02eda8d2-bd30-4046-9fa3-24755cb8dd24.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "b550fd94-97e0-42e2-90f7-7434781ea2f8",
+        "dataset_version_id": "4c67a799-0db0-4ddd-ae9d-7ddf54b41935",
+        "title": "Macrophage cells from human healthy donor liver samples",
+        "cell_count": 11127,
+        "primary_cell_count": 9515,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "Kupffer cell",
+          "classical monocyte",
+          "liver dendritic cell",
+          "macrophage",
+          "monocyte",
+          "myeloid cell",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/4c67a799-0db0-4ddd-ae9d-7ddf54b41935.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "43560d7c-acd6-4ede-830d-c9ffc6cd0862",
+        "dataset_version_id": "2188e7ff-cc0b-451b-8e3a-dbd337338134",
+        "title": "Natural killer T cells from human healthy donor liver samples",
+        "cell_count": 16665,
+        "primary_cell_count": 15216,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "CD4-positive, alpha-beta T cell",
+          "CD8-positive, alpha-beta T cell",
+          "erythroblast",
+          "hepatic pit cell",
+          "lymphocyte",
+          "mature B cell",
+          "myeloid cell",
+          "natural killer cell",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/2188e7ff-cc0b-451b-8e3a-dbd337338134.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "e347396c-a7ff-4691-9f7a-99a43555ca18",
+        "dataset_version_id": "119777da-ed00-4c76-a20b-4d6c804427e9",
+        "title": "Stellate cells from human healthy donor liver samples",
+        "cell_count": 1417,
+        "primary_cell_count": 1241,
+        "feature_count": 32596,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "cell"
+        ],
+        "assay": [
+          "10x 3' v2",
+          "10x 5' v1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C37",
+          "C39",
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70",
+          "C72"
+        ],
+        "cell_type_labels": [
+          "hepatic stellate cell",
+          "unknown",
+          "vascular associated smooth muscle cell",
+          "vein endothelial cell"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/119777da-ed00-4c76-a20b-4d6c804427e9.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "7f7e36ee-7432-4b70-b894-25d9989d43e8",
+        "dataset_version_id": "36122151-f8f8-43a6-8dd5-acd0746586b2",
+        "title": "Visium spatial data from human healthy liver donor; sample C73_A1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C73"
+        ],
+        "cell_type_labels": [
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "endothelial cell",
+          "hepatocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/36122151-f8f8-43a6-8dd5-acd0746586b2.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "7b814d77-810f-49e5-ae73-c3b644ea197f",
+        "dataset_version_id": "c12dd8cc-56a6-4b60-812a-8816c415b235",
+        "title": "Visium spatial data from human healthy liver donor; sample C73_B1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C73"
+        ],
+        "cell_type_labels": [
+          "B cell",
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "endothelial cell",
+          "hepatocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/c12dd8cc-56a6-4b60-812a-8816c415b235.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "6d222287-cf5b-4eb5-86e3-c4e71adab844",
+        "dataset_version_id": "adbebdbd-d935-4d49-8d42-a5f42b36e2b0",
+        "title": "Visium spatial data from human healthy liver donor; sample C73_C1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C73"
+        ],
+        "cell_type_labels": [
+          "B cell",
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "endothelial cell",
+          "hepatocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/adbebdbd-d935-4d49-8d42-a5f42b36e2b0.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "7ca2e329-d91b-4e36-b4cc-663447ae437e",
+        "dataset_version_id": "878d13cd-2769-45c6-bba9-25bd5b651aa0",
+        "title": "Visium spatial data from human healthy liver donor; sample C73_D1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "normal"
+        ],
+        "donor_ids": [
+          "C73"
+        ],
+        "cell_type_labels": [
+          "B cell",
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "endothelial cell",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/878d13cd-2769-45c6-bba9-25bd5b651aa0.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "43cd0dbc-4e6c-433f-b143-8e6367e17fed",
+        "dataset_version_id": "c8c7681f-8575-48cd-8f8b-a3c44c81572b",
+        "title": "Visium spatial data from liver of primary sclerosing cholangitis patient; sample PSC011_A1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "PSC011"
+        ],
+        "cell_type_labels": [
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "hepatocyte",
+          "intrahepatic cholangiocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/c8c7681f-8575-48cd-8f8b-a3c44c81572b.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "7a90a1ce-4e66-44d0-b273-7c672de53b17",
+        "dataset_version_id": "085648af-883b-4969-851a-046d9dcedf49",
+        "title": "Visium spatial data from liver of primary sclerosing cholangitis patient; sample PSC011_B1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "PSC011"
+        ],
+        "cell_type_labels": [
+          "centrilobular region hepatocyte",
+          "hepatocyte",
+          "intrahepatic cholangiocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/085648af-883b-4969-851a-046d9dcedf49.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "fca00c4c-0b8a-4836-ab7b-6620123d2d4e",
+        "dataset_version_id": "975d4575-5e70-497e-b609-182a1e21ac8e",
+        "title": "Visium spatial data from liver of primary sclerosing cholangitis patient; sample PSC011_C1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "PSC011"
+        ],
+        "cell_type_labels": [
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "hepatocyte",
+          "intrahepatic cholangiocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/975d4575-5e70-497e-b609-182a1e21ac8e.h5ad"
+        ]
+      },
+      {
+        "dataset_id": "a0805e92-3d1f-4866-af5c-5b903c6d910b",
+        "dataset_version_id": "1d929cac-aba7-4346-a95c-f7c32f148221",
+        "title": "Visium spatial data from liver of primary sclerosing cholangitis patient; sample PSC011_D1",
+        "cell_count": 4992,
+        "primary_cell_count": 4992,
+        "feature_count": 35477,
+        "raw_data_location": "raw.X",
+        "schema_version": "7.1.0",
+        "suspension_type": [
+          "na"
+        ],
+        "assay": [
+          "Visium Spatial Gene Expression V1"
+        ],
+        "disease": [
+          "primary sclerosing cholangitis"
+        ],
+        "donor_ids": [
+          "PSC011"
+        ],
+        "cell_type_labels": [
+          "blood cell",
+          "centrilobular region hepatocyte",
+          "hepatocyte",
+          "intrahepatic cholangiocyte",
+          "periportal region hepatocyte",
+          "unknown"
+        ],
+        "asset_urls": [
+          "https://datasets.cellxgene.cziscience.com/1d929cac-aba7-4346-a95c-f7c32f148221.h5ad"
+        ]
+      }
+    ]
+  },
+  "dataset_profiles": [
+    {
+      "dataset_key": "sc",
+      "observations": 89637,
+      "features": 32596,
+      "raw_shape": [
+        89637,
+        32596
+      ],
+      "expected_observations": 89637,
+      "observation_count_matches_manifest": true,
+      "obs_columns": [
+        "mapped_reference_assembly",
+        "mapped_reference_annotation",
+        "alignment_software",
+        "donor_id",
+        "donor_age",
+        "self_reported_ethnicity_ontology_term_id",
+        "donor_cause_of_death",
+        "donor_living_at_sample_collection",
+        "sample_uuid",
+        "sample_preservation_method",
+        "tissue_ontology_term_id",
+        "development_stage_ontology_term_id",
+        "sample_derivation_process",
+        "tissue_type",
+        "suspension_derivation_process",
+        "suspension_dissociation_reagent",
+        "suspension_dissociation_time",
+        "suspension_uuid",
+        "suspension_type",
+        "tissue_handling_interval",
+        "library_uuid",
+        "assay_ontology_term_id",
+        "sequencing_platform",
+        "is_primary_data",
+        "cell_type_ontology_term_id",
+        "author_cell_type",
+        "disease_ontology_term_id",
+        "reported_diseases",
+        "sex_ontology_term_id",
+        "percent.mt",
+        "clusters_res_0.5",
+        "cell_type",
+        "assay",
+        "disease",
+        "sex",
+        "tissue",
+        "self_reported_ethnicity",
+        "development_stage",
+        "observation_joinid"
+      ],
+      "missing_required_columns": [],
+      "duplicate_observation_ids": 0,
+      "field_value_counts": {
+        "donor_id": {
+          "C58": 1444,
+          "C59": 8135,
+          "C61": 1741,
+          "C63": 11705,
+          "C64": 514,
+          "C70": 702,
+          "PBC001": 8508,
+          "PBC005": 9732,
+          "PSC005": 7115,
+          "PSC012": 14860,
+          "PSC014": 1165,
+          "PSC016": 11693,
+          "PSC018": 2910,
+          "PSC019": 7751,
+          "PSC024": 469,
+          "PSC033": 1193
+        },
+        "disease": {
+          "normal": 24241,
+          "primary biliary cholangitis": 18240,
+          "primary sclerosing cholangitis": 47156
+        },
+        "assay": {
+          "10x 5' v1": 24241,
+          "10x 5' v2": 65396
+        },
+        "assay_ontology_term_id": {
+          "EFO:0009900": 65396,
+          "EFO:0011025": 24241
+        },
+        "suspension_type": {
+          "cell": 89637
+        },
+        "is_primary_data": {
+          "False": 24241,
+          "True": 65396
+        },
+        "mapped_reference_annotation": {
+          "GENCODE 24": 11834,
+          "GENCODE 28": 77803
+        },
+        "alignment_software": {
+          "Cell Ranger count v2.2.0": 9579,
+          "Cell Ranger count v3.0.1": 1741,
+          "Cell Ranger count v3.1.0": 68102,
+          "unknown": 10215
+        },
+        "suspension_dissociation_reagent": {
+          "Collagenase MA, BP Protease": 89637
+        },
+        "author_cell_type": {
+          "ActMac": 1084,
+          "AntiB": 771,
+          "Arterial": 1224,
+          "C-Hepato": 2334,
+          "C-Hepato2": 609,
+          "CD3T-lrNK": 1919,
+          "CD4T": 5501,
+          "CD4T--RBC-Doublet": 57,
+          "CD8T": 6236,
+          "CD8T-cNK": 2019,
+          "Chol": 1516,
+          "CholMucus": 317,
+          "Fibroblast": 1463,
+          "Hepato": 752,
+          "Hepato--Mac": 262,
+          "I-Hepato": 1850,
+          "Kupffer": 5343,
+          "Kupffer--LSEC-Doublet": 748,
+          "LAM-like": 2444,
+          "MAST": 116,
+          "MHCII": 2210,
+          "Mac--B-Doublet": 232,
+          "Mac--Fibro-Doublet": 187,
+          "MatB": 4358,
+          "MatB--CD4T-Doublet": 385,
+          "MatB--RBC": 111,
+          "Monocyte": 6729,
+          "NKT": 23,
+          "NKT--Mac-Doublet": 1885,
+          "Neutrophil": 1241,
+          "P-Hepato": 10263,
+          "P-Hepato2": 4214,
+          "Prolif": 904,
+          "RBC": 473,
+          "Stellate": 1354,
+          "Tcell": 2489,
+          "cDC": 354,
+          "cNK": 5152,
+          "cNK--RBC-Doublet": 49,
+          "cvEndo": 778,
+          "cvLSEC": 3507,
+          "cvLSEC--T-Doublet": 707,
+          "lrNK": 3824,
+          "pDC": 446,
+          "ppLSEC": 1197
+        },
+        "cell_type": {
+          "CD4-positive, alpha-beta T cell": 5501,
+          "CD8-positive, alpha-beta T cell": 6236,
+          "Kupffer cell": 5343,
+          "T cell": 2489,
+          "centrilobular region hepatocyte": 2943,
+          "conventional dendritic cell": 354,
+          "endothelial cell of artery": 1224,
+          "endothelial cell of pericentral hepatic sinusoid": 3507,
+          "endothelial cell of periportal hepatic sinusoid": 1197,
+          "erythrocyte": 473,
+          "fibroblast": 1463,
+          "hepatic pit cell": 5743,
+          "hepatic stellate cell": 1354,
+          "hepatocyte": 752,
+          "intrahepatic cholangiocyte": 1833,
+          "macrophage": 5738,
+          "mast cell": 116,
+          "mature B cell": 4358,
+          "midzonal region hepatocyte": 1850,
+          "monocyte": 6729,
+          "natural killer cell": 7194,
+          "neutrophil": 1241,
+          "periportal region hepatocyte": 14477,
+          "plasma cell": 771,
+          "plasmacytoid dendritic cell": 446,
+          "unknown": 5527,
+          "vein endothelial cell": 778
+        },
+        "cell_type_ontology_term_id": {
+          "CL:0000057": 1463,
+          "CL:0000084": 2489,
+          "CL:0000091": 5343,
+          "CL:0000097": 116,
+          "CL:0000182": 752,
+          "CL:0000232": 473,
+          "CL:0000235": 5738,
+          "CL:0000576": 6729,
+          "CL:0000623": 7194,
+          "CL:0000624": 5501,
+          "CL:0000625": 6236,
+          "CL:0000632": 1354,
+          "CL:0000775": 1241,
+          "CL:0000784": 446,
+          "CL:0000785": 4358,
+          "CL:0000786": 771,
+          "CL:0000990": 354,
+          "CL:0002538": 1833,
+          "CL:0002543": 778,
+          "CL:0019021": 1197,
+          "CL:0019022": 3507,
+          "CL:0019026": 14477,
+          "CL:0019028": 1850,
+          "CL:0019029": 2943,
+          "CL:1000413": 1224,
+          "CL:2000054": 5743,
+          "unknown": 5527
+        }
+      },
+      "donor_count": 16,
+      "donors": [
+        "C58",
+        "C59",
+        "C61",
+        "C63",
+        "C64",
+        "C70",
+        "PBC001",
+        "PBC005",
+        "PSC005",
+        "PSC012",
+        "PSC014",
+        "PSC016",
+        "PSC018",
+        "PSC019",
+        "PSC024",
+        "PSC033"
+      ],
+      "annotation_catalog": [
+        {
+          "author_cell_type": "ActMac",
+          "cell_type": "macrophage",
+          "cell_type_ontology_term_id": "CL:0000235",
+          "cells": 1084
+        },
+        {
+          "author_cell_type": "AntiB",
+          "cell_type": "plasma cell",
+          "cell_type_ontology_term_id": "CL:0000786",
+          "cells": 771
+        },
+        {
+          "author_cell_type": "Arterial",
+          "cell_type": "endothelial cell of artery",
+          "cell_type_ontology_term_id": "CL:1000413",
+          "cells": 1224
+        },
+        {
+          "author_cell_type": "C-Hepato",
+          "cell_type": "centrilobular region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019029",
+          "cells": 2334
+        },
+        {
+          "author_cell_type": "C-Hepato2",
+          "cell_type": "centrilobular region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019029",
+          "cells": 609
+        },
+        {
+          "author_cell_type": "CD3T-lrNK",
+          "cell_type": "hepatic pit cell",
+          "cell_type_ontology_term_id": "CL:2000054",
+          "cells": 1919
+        },
+        {
+          "author_cell_type": "CD4T",
+          "cell_type": "CD4-positive, alpha-beta T cell",
+          "cell_type_ontology_term_id": "CL:0000624",
+          "cells": 5501
+        },
+        {
+          "author_cell_type": "CD4T--RBC-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 57
+        },
+        {
+          "author_cell_type": "CD8T",
+          "cell_type": "CD8-positive, alpha-beta T cell",
+          "cell_type_ontology_term_id": "CL:0000625",
+          "cells": 6236
+        },
+        {
+          "author_cell_type": "CD8T-cNK",
+          "cell_type": "natural killer cell",
+          "cell_type_ontology_term_id": "CL:0000623",
+          "cells": 2019
+        },
+        {
+          "author_cell_type": "Chol",
+          "cell_type": "intrahepatic cholangiocyte",
+          "cell_type_ontology_term_id": "CL:0002538",
+          "cells": 1516
+        },
+        {
+          "author_cell_type": "CholMucus",
+          "cell_type": "intrahepatic cholangiocyte",
+          "cell_type_ontology_term_id": "CL:0002538",
+          "cells": 317
+        },
+        {
+          "author_cell_type": "Fibroblast",
+          "cell_type": "fibroblast",
+          "cell_type_ontology_term_id": "CL:0000057",
+          "cells": 1463
+        },
+        {
+          "author_cell_type": "Hepato",
+          "cell_type": "hepatocyte",
+          "cell_type_ontology_term_id": "CL:0000182",
+          "cells": 752
+        },
+        {
+          "author_cell_type": "Hepato--Mac",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 262
+        },
+        {
+          "author_cell_type": "I-Hepato",
+          "cell_type": "midzonal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019028",
+          "cells": 1850
+        },
+        {
+          "author_cell_type": "Kupffer",
+          "cell_type": "Kupffer cell",
+          "cell_type_ontology_term_id": "CL:0000091",
+          "cells": 5343
+        },
+        {
+          "author_cell_type": "Kupffer--LSEC-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 748
+        },
+        {
+          "author_cell_type": "LAM-like",
+          "cell_type": "macrophage",
+          "cell_type_ontology_term_id": "CL:0000235",
+          "cells": 2444
+        },
+        {
+          "author_cell_type": "MAST",
+          "cell_type": "mast cell",
+          "cell_type_ontology_term_id": "CL:0000097",
+          "cells": 116
+        },
+        {
+          "author_cell_type": "MHCII",
+          "cell_type": "macrophage",
+          "cell_type_ontology_term_id": "CL:0000235",
+          "cells": 2210
+        },
+        {
+          "author_cell_type": "Mac--B-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 232
+        },
+        {
+          "author_cell_type": "Mac--Fibro-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 187
+        },
+        {
+          "author_cell_type": "MatB",
+          "cell_type": "mature B cell",
+          "cell_type_ontology_term_id": "CL:0000785",
+          "cells": 4358
+        },
+        {
+          "author_cell_type": "MatB--CD4T-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 385
+        },
+        {
+          "author_cell_type": "MatB--RBC",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 111
+        },
+        {
+          "author_cell_type": "Monocyte",
+          "cell_type": "monocyte",
+          "cell_type_ontology_term_id": "CL:0000576",
+          "cells": 6729
+        },
+        {
+          "author_cell_type": "NKT",
+          "cell_type": "natural killer cell",
+          "cell_type_ontology_term_id": "CL:0000623",
+          "cells": 23
+        },
+        {
+          "author_cell_type": "NKT--Mac-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 1885
+        },
+        {
+          "author_cell_type": "Neutrophil",
+          "cell_type": "neutrophil",
+          "cell_type_ontology_term_id": "CL:0000775",
+          "cells": 1241
+        },
+        {
+          "author_cell_type": "P-Hepato",
+          "cell_type": "periportal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019026",
+          "cells": 10263
+        },
+        {
+          "author_cell_type": "P-Hepato2",
+          "cell_type": "periportal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019026",
+          "cells": 4214
+        },
+        {
+          "author_cell_type": "Prolif",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 904
+        },
+        {
+          "author_cell_type": "RBC",
+          "cell_type": "erythrocyte",
+          "cell_type_ontology_term_id": "CL:0000232",
+          "cells": 473
+        },
+        {
+          "author_cell_type": "Stellate",
+          "cell_type": "hepatic stellate cell",
+          "cell_type_ontology_term_id": "CL:0000632",
+          "cells": 1354
+        },
+        {
+          "author_cell_type": "Tcell",
+          "cell_type": "T cell",
+          "cell_type_ontology_term_id": "CL:0000084",
+          "cells": 2489
+        },
+        {
+          "author_cell_type": "cDC",
+          "cell_type": "conventional dendritic cell",
+          "cell_type_ontology_term_id": "CL:0000990",
+          "cells": 354
+        },
+        {
+          "author_cell_type": "cNK",
+          "cell_type": "natural killer cell",
+          "cell_type_ontology_term_id": "CL:0000623",
+          "cells": 5152
+        },
+        {
+          "author_cell_type": "cNK--RBC-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 49
+        },
+        {
+          "author_cell_type": "cvEndo",
+          "cell_type": "vein endothelial cell",
+          "cell_type_ontology_term_id": "CL:0002543",
+          "cells": 778
+        },
+        {
+          "author_cell_type": "cvLSEC",
+          "cell_type": "endothelial cell of pericentral hepatic sinusoid",
+          "cell_type_ontology_term_id": "CL:0019022",
+          "cells": 3507
+        },
+        {
+          "author_cell_type": "cvLSEC--T-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 707
+        },
+        {
+          "author_cell_type": "lrNK",
+          "cell_type": "hepatic pit cell",
+          "cell_type_ontology_term_id": "CL:2000054",
+          "cells": 3824
+        },
+        {
+          "author_cell_type": "pDC",
+          "cell_type": "plasmacytoid dendritic cell",
+          "cell_type_ontology_term_id": "CL:0000784",
+          "cells": 446
+        },
+        {
+          "author_cell_type": "ppLSEC",
+          "cell_type": "endothelial cell of periportal hepatic sinusoid",
+          "cell_type_ontology_term_id": "CL:0019021",
+          "cells": 1197
+        }
+      ],
+      "annotation_fields_available": [
+        "author_cell_type",
+        "cell_type",
+        "cell_type_ontology_term_id"
+      ],
+      "exclusion_summary": {
+        "cells": 89637,
+        "doublet_or_hybrid_cells": 4623,
+        "unknown_or_missing_ontology_cells": 5527,
+        "required_metadata_missing_cells": 0,
+        "any_exclusion_cells": 5527,
+        "retained_by_fixed_metadata_rules": 84110
+      },
+      "disease_by_assay": {
+        "10x 5' v1": {
+          "normal": 24241,
+          "primary biliary cholangitis": 0,
+          "primary sclerosing cholangitis": 0
+        },
+        "10x 5' v2": {
+          "normal": 0,
+          "primary biliary cholangitis": 18240,
+          "primary sclerosing cholangitis": 47156
+        }
+      },
+      "disease_by_dissociation_reagent": {
+        "Collagenase MA, BP Protease": {
+          "normal": 24241,
+          "primary biliary cholangitis": 18240,
+          "primary sclerosing cholangitis": 47156
+        }
+      }
+    },
+    {
+      "dataset_key": "sn",
+      "observations": 105780,
+      "features": 32596,
+      "raw_shape": [
+        105780,
+        32596
+      ],
+      "expected_observations": 105780,
+      "observation_count_matches_manifest": true,
+      "obs_columns": [
+        "mapped_reference_assembly",
+        "mapped_reference_annotation",
+        "alignment_software",
+        "donor_id",
+        "donor_age",
+        "self_reported_ethnicity_ontology_term_id",
+        "donor_cause_of_death",
+        "donor_living_at_sample_collection",
+        "sample_uuid",
+        "sample_preservation_method",
+        "tissue_ontology_term_id",
+        "development_stage_ontology_term_id",
+        "sample_derivation_process",
+        "tissue_type",
+        "suspension_derivation_process",
+        "suspension_dissociation_reagent",
+        "suspension_uuid",
+        "suspension_type",
+        "tissue_handling_interval",
+        "library_uuid",
+        "assay_ontology_term_id",
+        "is_primary_data",
+        "cell_type_ontology_term_id",
+        "author_cell_type",
+        "disease_ontology_term_id",
+        "reported_diseases",
+        "sex_ontology_term_id",
+        "percent.mt",
+        "clusters_res_0.5",
+        "cell_type",
+        "assay",
+        "disease",
+        "sex",
+        "tissue",
+        "self_reported_ethnicity",
+        "development_stage",
+        "observation_joinid"
+      ],
+      "missing_required_columns": [],
+      "duplicate_observation_ids": 0,
+      "field_value_counts": {
+        "donor_id": {
+          "C41": 7605,
+          "C58": 682,
+          "C70": 9174,
+          "C72": 9054,
+          "PBC001": 13318,
+          "PBC004": 8436,
+          "PSC005": 9749,
+          "PSC010": 3148,
+          "PSC011": 10219,
+          "PSC012": 7524,
+          "PSC014": 3212,
+          "PSC018": 12205,
+          "PSC019": 11454
+        },
+        "disease": {
+          "normal": 26515,
+          "primary biliary cholangitis": 21754,
+          "primary sclerosing cholangitis": 57511
+        },
+        "assay": {
+          "10x 3' v3": 105780
+        },
+        "assay_ontology_term_id": {
+          "EFO:0009922": 105780
+        },
+        "suspension_type": {
+          "nucleus": 105780
+        },
+        "is_primary_data": {
+          "False": 26515,
+          "True": 79265
+        },
+        "mapped_reference_annotation": {
+          "GENCODE 24": 97493,
+          "GENCODE 28": 8287
+        },
+        "alignment_software": {
+          "Cell Ranger count v3.1.0": 79265,
+          "unknown": 26515
+        },
+        "suspension_dissociation_reagent": {
+          "1% TWEEN 20": 79265,
+          "1% Tween-20": 7605,
+          "nonidet P40 substitute": 18910
+        },
+        "author_cell_type": {
+          "AntiB": 371,
+          "C-Hepato": 19454,
+          "C-Hepato2": 5259,
+          "CD4T": 1570,
+          "Chol": 6693,
+          "Chol--Kupffer-Doublet": 107,
+          "Chol--Stellate-Doublet": 121,
+          "Chol-Doublet": 827,
+          "CholMucus": 194,
+          "Fibroblast": 540,
+          "Hepato-Doublet": 2810,
+          "I-Hepato": 1481,
+          "Kupffer": 2653,
+          "Kupffer-Doublet": 1164,
+          "Monocyte": 1903,
+          "P-Hepato": 38974,
+          "P-Hepato2": 5096,
+          "Prolif": 838,
+          "Prolif-Mac": 259,
+          "Stellate": 1914,
+          "Stellate-Doublet": 895,
+          "Tcell-Doublet": 596,
+          "VSMC": 557,
+          "aStellate": 2304,
+          "cvEndo": 252,
+          "cvLSEC": 4192,
+          "cvLSEC--Mac": 144,
+          "cvLSEC-Doublet": 1263,
+          "lrNK": 1112,
+          "ppLSEC": 2237
+        },
+        "cell_type": {
+          "CD4-positive, alpha-beta T cell": 1570,
+          "Kupffer cell": 2653,
+          "centrilobular region hepatocyte": 24713,
+          "endothelial cell of pericentral hepatic sinusoid": 4192,
+          "endothelial cell of periportal hepatic sinusoid": 2237,
+          "fibroblast": 540,
+          "hepatic pit cell": 1112,
+          "hepatic stellate cell": 4218,
+          "intrahepatic cholangiocyte": 6887,
+          "macrophage": 259,
+          "midzonal region hepatocyte": 1481,
+          "monocyte": 1903,
+          "periportal region hepatocyte": 44070,
+          "plasma cell": 371,
+          "unknown": 8765,
+          "vascular associated smooth muscle cell": 557,
+          "vein endothelial cell": 252
+        },
+        "cell_type_ontology_term_id": {
+          "CL:0000057": 540,
+          "CL:0000091": 2653,
+          "CL:0000235": 259,
+          "CL:0000359": 557,
+          "CL:0000576": 1903,
+          "CL:0000624": 1570,
+          "CL:0000632": 4218,
+          "CL:0000786": 371,
+          "CL:0002538": 6887,
+          "CL:0002543": 252,
+          "CL:0019021": 2237,
+          "CL:0019022": 4192,
+          "CL:0019026": 44070,
+          "CL:0019028": 1481,
+          "CL:0019029": 24713,
+          "CL:2000054": 1112,
+          "unknown": 8765
+        }
+      },
+      "donor_count": 13,
+      "donors": [
+        "C41",
+        "C58",
+        "C70",
+        "C72",
+        "PBC001",
+        "PBC004",
+        "PSC005",
+        "PSC010",
+        "PSC011",
+        "PSC012",
+        "PSC014",
+        "PSC018",
+        "PSC019"
+      ],
+      "annotation_catalog": [
+        {
+          "author_cell_type": "AntiB",
+          "cell_type": "plasma cell",
+          "cell_type_ontology_term_id": "CL:0000786",
+          "cells": 371
+        },
+        {
+          "author_cell_type": "C-Hepato",
+          "cell_type": "centrilobular region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019029",
+          "cells": 19454
+        },
+        {
+          "author_cell_type": "C-Hepato2",
+          "cell_type": "centrilobular region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019029",
+          "cells": 5259
+        },
+        {
+          "author_cell_type": "CD4T",
+          "cell_type": "CD4-positive, alpha-beta T cell",
+          "cell_type_ontology_term_id": "CL:0000624",
+          "cells": 1570
+        },
+        {
+          "author_cell_type": "Chol",
+          "cell_type": "intrahepatic cholangiocyte",
+          "cell_type_ontology_term_id": "CL:0002538",
+          "cells": 6693
+        },
+        {
+          "author_cell_type": "Chol--Kupffer-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 107
+        },
+        {
+          "author_cell_type": "Chol--Stellate-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 121
+        },
+        {
+          "author_cell_type": "Chol-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 827
+        },
+        {
+          "author_cell_type": "CholMucus",
+          "cell_type": "intrahepatic cholangiocyte",
+          "cell_type_ontology_term_id": "CL:0002538",
+          "cells": 194
+        },
+        {
+          "author_cell_type": "Fibroblast",
+          "cell_type": "fibroblast",
+          "cell_type_ontology_term_id": "CL:0000057",
+          "cells": 540
+        },
+        {
+          "author_cell_type": "Hepato-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 2810
+        },
+        {
+          "author_cell_type": "I-Hepato",
+          "cell_type": "midzonal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019028",
+          "cells": 1481
+        },
+        {
+          "author_cell_type": "Kupffer",
+          "cell_type": "Kupffer cell",
+          "cell_type_ontology_term_id": "CL:0000091",
+          "cells": 2653
+        },
+        {
+          "author_cell_type": "Kupffer-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 1164
+        },
+        {
+          "author_cell_type": "Monocyte",
+          "cell_type": "monocyte",
+          "cell_type_ontology_term_id": "CL:0000576",
+          "cells": 1903
+        },
+        {
+          "author_cell_type": "P-Hepato",
+          "cell_type": "periportal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019026",
+          "cells": 38974
+        },
+        {
+          "author_cell_type": "P-Hepato2",
+          "cell_type": "periportal region hepatocyte",
+          "cell_type_ontology_term_id": "CL:0019026",
+          "cells": 5096
+        },
+        {
+          "author_cell_type": "Prolif",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 838
+        },
+        {
+          "author_cell_type": "Prolif-Mac",
+          "cell_type": "macrophage",
+          "cell_type_ontology_term_id": "CL:0000235",
+          "cells": 259
+        },
+        {
+          "author_cell_type": "Stellate",
+          "cell_type": "hepatic stellate cell",
+          "cell_type_ontology_term_id": "CL:0000632",
+          "cells": 1914
+        },
+        {
+          "author_cell_type": "Stellate-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 895
+        },
+        {
+          "author_cell_type": "Tcell-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 596
+        },
+        {
+          "author_cell_type": "VSMC",
+          "cell_type": "vascular associated smooth muscle cell",
+          "cell_type_ontology_term_id": "CL:0000359",
+          "cells": 557
+        },
+        {
+          "author_cell_type": "aStellate",
+          "cell_type": "hepatic stellate cell",
+          "cell_type_ontology_term_id": "CL:0000632",
+          "cells": 2304
+        },
+        {
+          "author_cell_type": "cvEndo",
+          "cell_type": "vein endothelial cell",
+          "cell_type_ontology_term_id": "CL:0002543",
+          "cells": 252
+        },
+        {
+          "author_cell_type": "cvLSEC",
+          "cell_type": "endothelial cell of pericentral hepatic sinusoid",
+          "cell_type_ontology_term_id": "CL:0019022",
+          "cells": 4192
+        },
+        {
+          "author_cell_type": "cvLSEC--Mac",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 144
+        },
+        {
+          "author_cell_type": "cvLSEC-Doublet",
+          "cell_type": "unknown",
+          "cell_type_ontology_term_id": "unknown",
+          "cells": 1263
+        },
+        {
+          "author_cell_type": "lrNK",
+          "cell_type": "hepatic pit cell",
+          "cell_type_ontology_term_id": "CL:2000054",
+          "cells": 1112
+        },
+        {
+          "author_cell_type": "ppLSEC",
+          "cell_type": "endothelial cell of periportal hepatic sinusoid",
+          "cell_type_ontology_term_id": "CL:0019021",
+          "cells": 2237
+        }
+      ],
+      "annotation_fields_available": [
+        "author_cell_type",
+        "cell_type",
+        "cell_type_ontology_term_id"
+      ],
+      "exclusion_summary": {
+        "cells": 105780,
+        "doublet_or_hybrid_cells": 7927,
+        "unknown_or_missing_ontology_cells": 8765,
+        "required_metadata_missing_cells": 0,
+        "any_exclusion_cells": 8765,
+        "retained_by_fixed_metadata_rules": 97015
+      },
+      "disease_by_assay": {
+        "10x 3' v3": {
+          "normal": 26515,
+          "primary biliary cholangitis": 21754,
+          "primary sclerosing cholangitis": 57511
+        }
+      },
+      "disease_by_dissociation_reagent": {
+        "1% TWEEN 20": {
+          "normal": 0,
+          "primary biliary cholangitis": 21754,
+          "primary sclerosing cholangitis": 57511
+        },
+        "1% Tween-20": {
+          "normal": 7605,
+          "primary biliary cholangitis": 0,
+          "primary sclerosing cholangitis": 0
+        },
+        "nonidet P40 substitute": {
+          "normal": 18910,
+          "primary biliary cholangitis": 0,
+          "primary sclerosing cholangitis": 0
+        }
+      }
+    }
+  ],
+  "library_table": {
+    "file": "data/derived/liver-atlas-libraries.csv",
+    "row_grain": "one row per CELLxGENE dataset and donor; repeated library/sample UUIDs are listed and combined for donor summaries",
+    "rows": 29,
+    "columns": [
+      "dataset_key",
+      "dataset_id",
+      "dataset_version_id",
+      "source_file",
+      "donor_id",
+      "disease",
+      "assay",
+      "assay_ontology_term_id",
+      "suspension_type",
+      "library_uuid_values",
+      "sample_uuid_values",
+      "library_count",
+      "sample_count",
+      "cell_count",
+      "primary_data_cells",
+      "nonprimary_data_cells",
+      "mapped_reference_annotation",
+      "alignment_software",
+      "suspension_dissociation_reagent",
+      "author_cell_type_count",
+      "ontology_cell_type_count",
+      "unknown_or_missing_ontology_cells",
+      "doublet_or_hybrid_cells",
+      "required_metadata_missing_cells",
+      "metadata_conflict_fields",
+      "author_cell_type_counts_json",
+      "cell_type_counts_json",
+      "geo_donor_label_match",
+      "geo_source_record_count",
+      "geo_sample_ids",
+      "geo_series_ids",
+      "geo_assay_title_values",
+      "geo_chemistry_title_values",
+      "geo_suspension_title_values",
+      "geo_source_name_values",
+      "geo_description_values",
+      "geo_flags_values",
+      "geo_source_records_json",
+      "geo_library_identity_established"
+    ],
+    "geo_identity_policy": "GEO links use matching donor labels only. Exact GEO sample-to-CELLxGENE library identity is not established."
+  },
+  "cross_dataset_donor_overlap": {
+    "donors_by_dataset": {
+      "sc": [
+        "C58",
+        "C59",
+        "C61",
+        "C63",
+        "C64",
+        "C70",
+        "PBC001",
+        "PBC005",
+        "PSC005",
+        "PSC012",
+        "PSC014",
+        "PSC016",
+        "PSC018",
+        "PSC019",
+        "PSC024",
+        "PSC033"
+      ],
+      "sn": [
+        "C41",
+        "C58",
+        "C70",
+        "C72",
+        "PBC001",
+        "PBC004",
+        "PSC005",
+        "PSC010",
+        "PSC011",
+        "PSC012",
+        "PSC014",
+        "PSC018",
+        "PSC019"
+      ]
+    },
+    "shared_donors": [
+      "C58",
+      "C70",
+      "PBC001",
+      "PSC005",
+      "PSC012",
+      "PSC014",
+      "PSC018",
+      "PSC019"
+    ],
+    "shared_donor_count": 8,
+    "shared_donors_by_disease": {
+      "normal": [
+        "C58",
+        "C70"
+      ],
+      "primary biliary cholangitis": [
+        "PBC001"
+      ],
+      "primary sclerosing cholangitis": [
+        "PSC005",
+        "PSC012",
+        "PSC014",
+        "PSC018",
+        "PSC019"
+      ]
+    },
+    "shared_observation_ids": [],
+    "shared_observation_id_count": 0,
+    "independence_note": "Shared donor labels are not independent sc/sn biological replicates; cell IDs are release-specific."
+  },
+  "paper_vs_release_counts": [
+    {
+      "dataset_key": "sc",
+      "release_disease_counts": {
+        "normal": 24241,
+        "primary biliary cholangitis": 18240,
+        "primary sclerosing cholangitis": 47156
+      },
+      "paper_reference": {
+        "normal_cells": 107542,
+        "psc_cells": 47156,
+        "pbc_cells": 18240,
+        "normal_donors": 24,
+        "psc_donors": 10,
+        "pbc_donors": 3
+      },
+      "scope_interpretation": "PSC/PBC counts agree with the paper abstract; distributed normal-cell scope is a six-donor atlas release and is smaller than the paper's 24-donor healthy comparison."
+    },
+    {
+      "dataset_key": "sn",
+      "release_disease_counts": {
+        "normal": 26515,
+        "primary biliary cholangitis": 21754,
+        "primary sclerosing cholangitis": 57511
+      },
+      "paper_reference": {
+        "psc_nuclei": 23000,
+        "pbc_nuclei": 20202
+      },
+      "scope_interpretation": "Distributed nuclei counts exceed the paper abstract counts; the release and paper subset/QC scope cannot be reconciled from labels alone."
+    }
+  ],
+  "geo_reconciliation": {
+    "input_file": "data/derived/geo-library-metadata.csv",
+    "parent_series": "GSE243981",
+    "subseries": [
+      "GSE243977",
+      "GSE247128"
+    ],
+    "input_rows": 45,
+    "input_unique_donor_labels": 34,
+    "series": [
+      {
+        "series": "GSE243977",
+        "rows": 26,
+        "donor_labels": [
+          "C41",
+          "C42",
+          "C43",
+          "C46",
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C53",
+          "C54",
+          "C56",
+          "C58",
+          "C59",
+          "C61",
+          "C63",
+          "C64",
+          "C66",
+          "C68",
+          "C69",
+          "C70"
+        ],
+        "cohort_labels": {
+          "Control label": 26
+        },
+        "flags_rows": 0,
+        "flag_values": {},
+        "title_description_chemistry_conflict_rows": 1,
+        "title_description_suspension_conflict_rows": 0
+      },
+      {
+        "series": "GSE247128",
+        "rows": 19,
+        "donor_labels": [
+          "PBC001",
+          "PBC004",
+          "PBC005",
+          "PSC005",
+          "PSC010",
+          "PSC011",
+          "PSC012",
+          "PSC014",
+          "PSC016",
+          "PSC018",
+          "PSC019",
+          "PSC024",
+          "PSC033"
+        ],
+        "cohort_labels": {
+          "PBC": 4,
+          "PSC": 15
+        },
+        "flags_rows": 19,
+        "flag_values": {
+          "Title indicates nuclei; description says scRNA-seq": 9,
+          "Title says 5pr; description says 3pr": 10
+        },
+        "title_description_chemistry_conflict_rows": 10,
+        "title_description_suspension_conflict_rows": 9
+      }
+    ],
+    "author_supplement_control_donors": [
+      "C37",
+      "C39",
+      "C41",
+      "C42",
+      "C43",
+      "C46",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C56",
+      "C58",
+      "C59",
+      "C61",
+      "C63",
+      "C64",
+      "C66",
+      "C68",
+      "C69",
+      "C70",
+      "C72"
+    ],
+    "geo_control_donor_labels": [
+      "C41",
+      "C42",
+      "C43",
+      "C46",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C56",
+      "C58",
+      "C59",
+      "C61",
+      "C63",
+      "C64",
+      "C66",
+      "C68",
+      "C69",
+      "C70"
+    ],
+    "author_control_donors_missing_from_geo_title_labels": [
+      "C37",
+      "C39",
+      "C72"
+    ],
+    "geo_control_labels_not_in_author_supplement": [],
+    "crosswalk_rule": "A matching donor string is a label-level link only; no exact GEO library identity is asserted.",
+    "raw_values_preserved": true
+  },
+  "author_annotation_provenance": {
+    "annotation_fields": {
+      "author_cell_type": "CELLxGENE obs author_cell_type, retained verbatim",
+      "cell_type": "CELLxGENE ontology-normalized cell type, retained verbatim",
+      "cell_type_ontology_term_id": "CELLxGENE ontology term, retained verbatim"
+    },
+    "catalog_policy": "No cell labels are inferred from candidate expression; label/ontology pairs are reported as supplied.",
+    "code_evidence": [
+      "CELLxGENE obs author_cell_type is treated as the original author label and cell_type/cell_type_ontology_term_id as supplied ontology annotations.",
+      "The inspected repository contains manual, scmap, and marker-based annotation code, but no explicit GEO sample-to-CELLxGENE library UUID crosswalk.",
+      "The author SC analysis donor vectors cover the same apparent donor inventory as the SC CELLxGENE release, but the source name PSC014X differs from CELLxGENE donor_id PSC014 and is retained as a naming discrepancy rather than silently normalized."
+    ]
+  },
+  "quality_findings": [
+    {
+      "id": "sc-assay-condition-confounding",
+      "severity": "high",
+      "confidence": "high",
+      "claim": "SC disease and assay are completely confounded in the distributed object.",
+      "evidence": "The SC disease-by-assay table has all normal cells in 10x 5' v1 and all PSC/PBC cells in 10x 5' v2.",
+      "impact": "A PSC-versus-normal SC expression contrast cannot separate disease from the captured chemistry in this release.",
+      "action": "Retain SC for within-assay descriptive summaries and block cross-assay PSC-normal contrasts."
+    },
+    {
+      "id": "sn-release-paper-scope",
+      "severity": "high",
+      "confidence": "high",
+      "claim": "Distributed SN counts exceed the paper abstract counts for PSC and PBC.",
+      "evidence": "The release has 57,511 PSC and 21,754 PBC nuclei; the paper reports approximately 23,000 PSC and 20,202 PBC nuclei.",
+      "impact": "Release-level cells cannot be silently treated as the paper's reported QC subset.",
+      "action": "Use pinned release counts, retain the paper comparison, and label scope/QC reconciliation unresolved."
+    },
+    {
+      "id": "primary-and-processing-provenance-confounding",
+      "severity": "high",
+      "confidence": "high",
+      "claim": "Several CELLxGENE processing fields differ systematically between normal controls and disease donors.",
+      "evidence": "Normal cells/nuclei are is_primary_data=False while disease cells/nuclei are True; SN normal nuclei use NP40 or Tween-20 while cases use Tween-20, and normal alignment software is unknown while cases are Cell Ranger count v3.1.0. The CELLxGENE is_primary_data field is treated as reuse/provenance metadata, not as a quality label.",
+      "impact": "Reference, pipeline, and preparation effects remain coupled to cohort labels in release metadata.",
+      "action": "Keep these fields visible in donor tables and avoid attributing uncontrolled differences to PSC biology."
+    },
+    {
+      "id": "author-label-exclusions",
+      "severity": "medium",
+      "confidence": "high",
+      "claim": "The public objects retain author doublet/hybrid and unknown ontology groups.",
+      "evidence": "The fixed metadata rules identify 4,623 SC and 7,927 SN doublet/hybrid-labelled observations, plus 5,527 SC and 8,765 SN unknown ontology observations.",
+      "impact": "Cell-type denominators depend on the frozen metadata exclusions.",
+      "action": "Use original labels and apply the frozen exclusions before candidate aggregation; report excluded counts."
+    },
+    {
+      "id": "geo-library-identity-unresolved",
+      "severity": "high",
+      "confidence": "high",
+      "claim": "GEO title donor labels can be linked to CELLxGENE donor_id, but exact library identity is unresolved.",
+      "evidence": "The author code declares the SC donor set used for disease analysis, while GEO exposes sample titles and generic source descriptions; no shared GEO accession or CELLxGENE library UUID mapping is present in the inspected code/metadata.",
+      "impact": "GEO chemistry/description conflicts must remain source-specific and cannot be used to overwrite CELLxGENE assay fields.",
+      "action": "Preserve GEO raw fields, report donor-label matches separately, and do not claim GEO-identical libraries."
+    },
+    {
+      "id": "author-donor-name-variation",
+      "severity": "medium",
+      "confidence": "high",
+      "claim": "The author SC code and CELLxGENE release contain a donor-name variation for the PSC014 sample.",
+      "evidence": "The pinned author SC input vector uses PSC014X while CELLxGENE donor_id uses PSC014; the source strings are retained independently.",
+      "impact": "A donor-level provenance comparison must distinguish source naming from an asserted identity mapping.",
+      "action": "Do not rewrite either source value; treat PSC014X/PSC014 as an unresolved naming variation unless an explicit primary-source crosswalk is found."
+    },
+    {
+      "id": "shared-donor-sc-sn",
+      "severity": "medium",
+      "confidence": "high",
+      "claim": "Eight donor labels occur in both SC and SN releases.",
+      "evidence": "The exact overlap is reported in cross_dataset_donor_overlap; no observation IDs are shared.",
+      "impact": "SC and SN should be reported as separate modalities and not counted as independent donor replication.",
+      "action": "Use donor-within-dataset units and disclose the overlap in downstream summaries."
+    }
+  ],
+  "next_evidence_needed": [
+    "An explicit public sample/library crosswalk would be required to claim GEO-identical CELLxGENE libraries.",
+    "The paper's QC/subset definition would be required to reconcile distributed SN counts with abstract counts."
+  ]
+}

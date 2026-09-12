@@ -1,0 +1,41 @@
+{
+  "snapshot_date": "2026-09-12",
+  "collection_version_id": "1290163f-ccfe-40e4-9965-d78c94ac7c90",
+  "collection_revised_at": "2026-06-11T16:53:49+00:00",
+  "source_directory": "data/raw/liver-atlas",
+  "sources": [
+    {
+      "id": "collection-metadata",
+      "file": "cellxgene-collection.json",
+      "url": "https://api.cellxgene.cziscience.com/curation/v1/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+      "bytes": 54467,
+      "max_bytes": 2000000,
+      "sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+      "retrieved_at_utc": "2026-09-12T14:10:29.193288+00:00"
+    },
+    {
+      "id": "02792605-4760-4023-82ad-40fc4458a5db",
+      "dataset_version_id": "ff713455-e6b7-45b3-b2dd-1c9dd26251f6",
+      "file": "psc-sc-ff713455.h5ad",
+      "url": "https://datasets.cellxgene.cziscience.com/ff713455-e6b7-45b3-b2dd-1c9dd26251f6.h5ad",
+      "bytes": 1118963144,
+      "max_bytes": 1118963144,
+      "sha256": "38d6272613d9ad85657c947988b34313c31010e9e512320e0ad0669917cfef26",
+      "retrieved_at_utc": "2026-09-12T14:11:06.568173+00:00",
+      "expected_observations": 89637,
+      "schema_version": "7.1.0"
+    },
+    {
+      "id": "1873a18a-66fd-4a4d-8277-a872c93f5b59",
+      "dataset_version_id": "34702b40-d0ac-4ec2-8871-776ca012efd0",
+      "file": "psc-sn-34702b40.h5ad",
+      "url": "https://datasets.cellxgene.cziscience.com/34702b40-d0ac-4ec2-8871-776ca012efd0.h5ad",
+      "bytes": 1543810661,
+      "max_bytes": 1543810661,
+      "sha256": "48f4af0a91c60b22e5ba306bb61e5aee53df9ecf8e08fa4f36992cfb9386fe1a",
+      "retrieved_at_utc": "2026-09-12T14:11:08.552167+00:00",
+      "expected_observations": 105780,
+      "schema_version": "7.1.0"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "snapshot_date": "2026-09-12",
+  "source_directory": "data/raw/ets2-benchmark",
+  "purpose": "Input availability and provenance only; no perturbation score or treatment prediction computed.",
+  "sources": [
+    {
+      "id": "ets2-primary-article.xml",
+      "file": "ets2-primary-article.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168933/fullTextXML",
+      "bytes": 285979,
+      "max_bytes": 2000000,
+      "sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+      "retrieved_at_utc": "2026-09-12T14:20:39.428537+00:00"
+    },
+    {
+      "id": "ets2-zenodo-metadata.json",
+      "file": "ets2-zenodo-metadata.json",
+      "url": "https://zenodo.org/api/records/10707942",
+      "bytes": 3968,
+      "max_bytes": 2000000,
+      "sha256": "5673b3198c72631966560e760f71052811389e9f30c261e0a6d08eb2856c94a1",
+      "retrieved_at_utc": "2026-09-12T14:21:08.533316+00:00"
+    },
+    {
+      "id": "ets2-public-release.zip",
+      "file": "ets2-public-release.zip",
+      "url": "https://zenodo.org/api/records/10707942/files/JamesLeeLab/ETS2manuscript_Stankey_CT_et_al_2024-v1.0.zip/content",
+      "bytes": 34636310,
+      "max_bytes": 40000000,
+      "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+      "retrieved_at_utc": "2026-09-12T14:21:34.543387+00:00"
+    }
+  ],
+  "published_zip_md5": "9d6b7ddcf377cb194bc72732d807ae80"
+}

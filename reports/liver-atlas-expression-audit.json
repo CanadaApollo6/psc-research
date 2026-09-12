@@ -1,0 +1,117 @@
+{
+  "analysis_id": "psc-liver-atlas-five-gene-descriptive-v1",
+  "analysis_script_sha256": "a683c4a003d7524f25910e54dd52610655c0cd2221b9f31aa7286143ed3460d2",
+  "cell_accounting": {
+    "excluded_by_reason": {
+      "cell_type_unknown": 1742,
+      "cell_type_unknown;author_cell_type_double_hyphen": 517,
+      "cell_type_unknown;author_cell_type_doublet": 7555,
+      "cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen": 4478
+    },
+    "excluded_cells": 14292,
+    "ledger_cells": 195417,
+    "retained_cells": 181125,
+    "total_cells": 195417
+  },
+  "contrast_status_counts": {
+    "blocked_cross_chemistry": 400,
+    "evaluable_descriptive_residual_processing_confounded": 95,
+    "insufficient_donors": 205,
+    "missing_cohort": 50
+  },
+  "count_source": "raw.X",
+  "datasets": [
+    {
+      "chunks": 11,
+      "count_source": "raw.X",
+      "dataset_key": "sc",
+      "dtype": "float32",
+      "excluded_by_reason": {
+        "cell_type_unknown": 904,
+        "cell_type_unknown;author_cell_type_double_hyphen": 373,
+        "cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen": 4250
+      },
+      "excluded_cells": 5527,
+      "features": 32596,
+      "format": "csr",
+      "maximum_stored_value": 30694.0,
+      "minimum_stored_value": 1.0,
+      "normalized_matrix": "AnnData.X (validated as a separate source; never aggregated)",
+      "normalized_matrix_shape": [
+        89637,
+        32596
+      ],
+      "retained_cells": 84110,
+      "retained_donor_groups": 477,
+      "rows": 89637,
+      "source_bytes": 1118963144,
+      "source_file": "psc-sc-ff713455.h5ad",
+      "source_sha256": "38d6272613d9ad85657c947988b34313c31010e9e512320e0ad0669917cfef26",
+      "stored_nonzero_values": 185315872,
+      "total_cells": 89637
+    },
+    {
+      "chunks": 13,
+      "count_source": "raw.X",
+      "dataset_key": "sn",
+      "dtype": "float32",
+      "excluded_by_reason": {
+        "cell_type_unknown": 838,
+        "cell_type_unknown;author_cell_type_double_hyphen": 144,
+        "cell_type_unknown;author_cell_type_doublet": 7555,
+        "cell_type_unknown;author_cell_type_doublet;author_cell_type_double_hyphen": 228
+      },
+      "excluded_cells": 8765,
+      "features": 32596,
+      "format": "csr",
+      "maximum_stored_value": 3564.0,
+      "minimum_stored_value": 1.0,
+      "normalized_matrix": "AnnData.X (validated as a separate source; never aggregated)",
+      "normalized_matrix_shape": [
+        105780,
+        32596
+      ],
+      "retained_cells": 97015,
+      "retained_donor_groups": 247,
+      "rows": 105780,
+      "source_bytes": 1543810661,
+      "source_file": "psc-sn-34702b40.h5ad",
+      "source_sha256": "48f4af0a91c60b22e5ba306bb61e5aee53df9ecf8e08fa4f36992cfb9386fe1a",
+      "stored_nonzero_values": 262831525,
+      "total_cells": 105780
+    }
+  ],
+  "donor_overlap": {
+    "dataset_donor_counts": {
+      "sc": 16,
+      "sn": 13
+    },
+    "shared_donor_counts": {
+      "sc_vs_sn": 8
+    }
+  },
+  "genes": [
+    "ETS2",
+    "PRKD2",
+    "UBASH3A",
+    "PFKFB3",
+    "BCL2L11"
+  ],
+  "limitations": "Donor-level descriptive expression only; no cell-level p-values, causal interpretation or treatment inference. SC cross-chemistry PSC-Control contrasts are blocked. SN contrasts retain residual processing-confounding flags.",
+  "normalized_matrix_policy": "AnnData.X was checked as a separate matrix and never used as UMI counts",
+  "outputs_sha256": {
+    "data/derived/liver-atlas-expression-cell-accounting.csv": "56c0640214aa9ede14f56e590fc651fe0272d9c37afa330460f6d12b37330db8",
+    "data/derived/liver-atlas-expression-contrasts.csv": "2933c3d060039548ded19d0dd8edc035ec834c50533e336df88779b0aeb0ffb0",
+    "data/derived/liver-atlas-expression-gene-audit.csv": "6baa0f1314f004e241602aa4d0afef19f95cdc250767ae87166da72b9f613a55",
+    "data/derived/liver-atlas-expression-summary.csv": "bec62200236dee1ff961f758457bd17edff009b729e986981b348c772fdc524f",
+    "work/liver-atlas-expression-donor-pseudobulk.csv": "cc08d89f9fd69cec5e8cf7b88e662838338c566b48046f9043e39252e9eb3027"
+  },
+  "plan_sha256": "961ad6eec38c25b352e32e5af51f9af9a663da138286ba8815f44ea2049b4a6b",
+  "requirements_sha256": "56fe147663ec9d3bff722dd7c0bb80554e6a1fc6813b1130b381641f3b5f8e9c",
+  "source_manifest_sha256": "45665304f57ff439dc8624b2af122c95b301f24cabcbf19f6986430f1ec8cbbf",
+  "thresholds": {
+    "minimum_donors_for_contrast": 3,
+    "primary_min_cells": 20,
+    "sensitivity_min_cells": 50
+  }
+}

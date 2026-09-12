@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Pin public provenance and metadata-only reconciliation rules for the Andrews et al. PSC liver atlas.",
+  "retrieved_date": "2026-09-12",
+  "script": "scripts/prepare_liver_atlas_metadata.py",
+  "source_manifest": "config/liver-atlas-sources.json",
+  "geo_input": "data/derived/geo-library-metadata.csv",
+  "geo_input_bytes": 8973,
+  "geo_input_sha256": "1fd508cc22bcf40ef2e3ac665bf06d736533b65ec77e33dfbe917db00190bcdf",
+  "geo_series_urls": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243981"
+  ],
+  "geo_snapshots": [
+    {
+      "accession": "GSE243981",
+      "kind": "series_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243981&targ=self&form=text&view=quick",
+      "local_snapshot": "work/atlas-source/GSE243981.txt",
+      "sha256": "b3001e13376478e1ff4a1212d55fbdb5ec91ae9fdaeda689d8e42b575a03ff15",
+      "retrieved_at_utc": "2026-09-12T14:10:30.143285Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+    },
+    {
+      "accession": "GSE243977",
+      "kind": "series_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977&targ=self&form=text&view=quick",
+      "local_snapshot": "work/atlas-source/GSE243977.txt",
+      "sha256": "512090b692e14b39bc2cf433b5f89a1be4994d01663eec887339a0d91e30dd61",
+      "retrieved_at_utc": "2026-09-12T14:10:29.787286Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+    },
+    {
+      "accession": "GSE247128",
+      "kind": "series_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128&targ=self&form=text&view=quick",
+      "local_snapshot": "work/atlas-source/GSE247128.txt",
+      "sha256": "33f413f00720bbc0b071e822328132c9a43f9f4af6ea9f3f611c12e52adabf51",
+      "retrieved_at_utc": "2026-09-12T14:10:29.958285Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+    },
+    {
+      "accession": "GSE243977",
+      "kind": "sample_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243977&targ=gsm&form=text&view=quick",
+      "local_snapshot": "work/atlas-source/GSE243977-gsm.txt",
+      "sha256": "4824a03b1cf281ccce40b28f850a318d0b1d59001a6c8fe0d31e381c32eee315",
+      "retrieved_at_utc": "2026-09-12T14:10:41.372250Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+    },
+    {
+      "accession": "GSE247128",
+      "kind": "sample_metadata",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247128&targ=gsm&form=text&view=quick",
+      "local_snapshot": "work/atlas-source/GSE247128-gsm.txt",
+      "sha256": "05993f5d93f9f4d5cb9d5d67fe25a901174c04187ebe236f3e9a640613f02ecf",
+      "retrieved_at_utc": "2026-09-12T14:10:42.200248Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp."
+    }
+  ],
+  "cellxgene_collection": {
+    "collection_id": "0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+    "url": "https://cellxgene.cziscience.com/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+    "api_url": "https://api.cellxgene.cziscience.com/curation/v1/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5",
+    "metadata_file": "data/raw/liver-atlas/cellxgene-collection.json",
+    "metadata_sha256": "586aa3930c3f71a114293473e9234daa4c42d473d763a9da75e659682ec2c5a7",
+    "retrieved_at_utc": "2026-09-12T14:10:29.193288Z"
+  },
+  "preprint_source": {
+    "title": "Multi-omic profiling reveals the immunological landscape of the healthy and PSC human liver",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.07.28.550550v1",
+    "retrieved_date": "2026-09-12",
+    "note": "Used only for provenance of the preprint supplementary workbook; it is not substituted for the final paper citation."
+  },
+  "paper_source": {
+    "citation": "Andrews et al. Single-cell, single-nucleus, and spatial transcriptomics characterization of the immunological landscape in the healthy and PSC human liver.",
+    "pmid": "38199298",
+    "doi": "10.1016/j.jhep.2023.12.023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38199298/",
+    "retrieved_date": "2026-09-12",
+    "abstract_counts": {
+      "sc": {
+        "normal_cells": 107542,
+        "psc_cells": 47156,
+        "pbc_cells": 18240,
+        "normal_donors": 24,
+        "psc_donors": 10,
+        "pbc_donors": 3
+      },
+      "sn": {
+        "psc_nuclei": 23000,
+        "pbc_nuclei": 20202
+      }
+    }
+  },
+  "author_code": {
+    "repository_url": "https://github.com/tallulandrews/LiverMap2.0",
+    "commit": "cee1e0103eab182f81a676805a53812a7bde9dcf",
+    "commit_date": "2023-12-18T19:10:34Z",
+    "tree_url": "https://github.com/tallulandrews/LiverMap2.0/tree/cee1e0103eab182f81a676805a53812a7bde9dcf",
+    "tree_snapshot_sha256": "d6df5727ec7fcce66ae5c6a22e664e2194e2c83a263fbd834136c4ae9010d538",
+    "retrieved_date": "2026-09-12",
+    "files": [
+      {
+        "path": "Cholangitis_Analysis/SC_Detailed_Analysis.R",
+        "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Cholangitis_Analysis/SC_Detailed_Analysis.R",
+        "local_snapshot": "work/atlas-source/LiverMap2.0-Cholangitis_Analysis_SC_Detailed_Analysis.R",
+        "sha256": "4bb18aa6e09b99d670a93bbf200be85e1c153ebe28c3c76d4ca5411d5b08bc71",
+        "retrieved_at_utc": "2026-09-12T14:14:45.030527Z",
+        "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+        "evidence": "The disease analysis input vectors declare 8 PSC donors, 2 PBC donors, and 6 healthy donors for SC."
+      },
+      {
+        "path": "Cholangitis_Analysis/SN_Detailed_Analysis.R",
+        "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Cholangitis_Analysis/SN_Detailed_Analysis.R",
+        "local_snapshot": "work/atlas-source/LiverMap2.0-Cholangitis_Analysis_SN_Detailed_Analysis.R",
+        "sha256": "6352e6eb82d1e52eb5d8487b08ae8a0c21bb37cd032579a6594ad82eb59ce746",
+        "retrieved_at_utc": "2026-09-12T14:14:45.186526Z",
+        "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+        "evidence": "The disease analysis consumes SN_Integrated_Map_Annotated.rds and uses the author cell_type labels for nuclei summaries."
+      },
+      {
+        "path": "Map2.2_Full_Manual_Annotation.R",
+        "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_Full_Manual_Annotation.R",
+        "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_Full_Manual_Annotation.R",
+        "sha256": "034b22e7342469a017ff0fdf6436b0374f881f30bc5354a61cb2ca5e37383662",
+        "retrieved_at_utc": "2026-09-12T14:14:44.905930Z",
+        "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+        "evidence": "Manual annotation is built from coarse cluster and subcluster metadata and written as cell_type metadata."
+      },
+      {
+        "path": "Map2.2_MySeuratPipeline.R",
+        "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_MySeuratPipeline.R",
+        "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_MySeuratPipeline.R",
+        "sha256": "df4722dd23c5e5d33ba2ee4ec902c439c5a8495436c96a1c58f4f9e928932b92",
+        "retrieved_at_utc": "2026-09-12T14:14:45.317526Z",
+        "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+        "evidence": "The pipeline runs scmap and marker-based annotation, derives donor from the sample name, and performs clustering/integration."
+      },
+      {
+        "path": "Map2.2_add_metadata.R",
+        "url": "https://raw.githubusercontent.com/tallulandrews/LiverMap2.0/cee1e0103eab182f81a676805a53812a7bde9dcf/Map2.2_add_metadata.R",
+        "local_snapshot": "work/atlas-source/LiverMap2.0-Map2.2_add_metadata.R",
+        "sha256": "53f3c5a3feda41ba5d21c2bf8af81a1f0f2e3eb11b3d9fb1df98ea10ab8c248c",
+        "retrieved_at_utc": "2026-09-12T14:14:44.783372Z",
+        "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+        "evidence": "The metadata helper joins donor names to age, sex, BMI, and binned covariates from the author's metadata table."
+      }
+    ],
+    "annotation_evidence": [
+      "CELLxGENE obs author_cell_type is treated as the original author label and cell_type/cell_type_ontology_term_id as supplied ontology annotations.",
+      "The inspected repository contains manual, scmap, and marker-based annotation code, but no explicit GEO sample-to-CELLxGENE library UUID crosswalk.",
+      "The author SC analysis donor vectors cover the same apparent donor inventory as the SC CELLxGENE release, but the source name PSC014X differs from CELLxGENE donor_id PSC014 and is retained as a naming discrepancy rather than silently normalized."
+    ],
+    "sc_declared_donors": [
+      "PSC018", "PSC014X", "PSC019", "PSC024", "PSC012", "PSC016", "PSC033", "PSC005",
+      "PBC005", "PBC001", "C58", "C59", "C61", "C63", "C64", "C70"
+    ],
+    "exact_geo_library_crosswalk_found": false
+  },
+  "author_supplement": {
+    "source": {
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/01/2023.07.28.550550/DC1/embed/media-1.xlsx?download=true",
+      "local_snapshot": "work/atlas-source/biorxiv-media-1.xlsx",
+      "sha256": "efdacaddef448e8c1316b3c15dc9d53c732c6e0f7a6aaa8f129cf5f7901bd190",
+      "retrieved_at_utc": "2026-09-12T14:13:02.042827Z",
+      "capture_semantics": "Local file mtime after public fetch; not a server response timestamp.",
+      "source_type": "Preprint supplementary workbook; not the final-paper supplementary file.",
+      "preprint_url": "https://www.biorxiv.org/content/10.1101/2023.07.28.550550v1",
+      "evidence": "Summary and assay sheets list 24 control donor labels and the PSC single-cell/single-nucleus donor samples, including duplicate/poor-quality notes."
+    },
+    "control_donors": [
+      "C37", "C39", "C41", "C42", "C43", "C46", "C48", "C49", "C50", "C51", "C52", "C53",
+      "C54", "C56", "C58", "C59", "C61", "C63", "C64", "C66", "C68", "C69", "C70", "C72"
+    ]
+  },
+  "crosswalk_policy": {
+    "donor_match_key": "Exact donor string in CELLxGENE donor_id and GEO donor_label_from_title.",
+    "identity_claim": "A donor-label match is not an exact sample/library match.",
+    "preserve_geo_fields": ["title", "source_name", "description", "flags", "source_url", "assay_from_title", "chemistry_from_title"],
+    "preserve_cellxgene_fields": ["donor_id", "sample_uuid", "library_uuid", "author_cell_type", "cell_type", "cell_type_ontology_term_id", "assay", "disease", "suspension_type", "is_primary_data"],
+    "no_inferred_labels": true
+  },
+  "outputs": {
+    "library_table": "data/derived/liver-atlas-libraries.csv",
+    "audit": "reports/liver-atlas-metadata-audit.json"
+  }
+}
