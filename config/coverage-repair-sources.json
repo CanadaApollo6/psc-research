@@ -1,0 +1,517 @@
+{
+  "snapshot_date": "2026-09-12",
+  "sources": [
+    {
+      "id": "repair-DICE-QC",
+      "url": "https://www.ebi.ac.uk/eqtl/static/QC_reports/Schmiedel_2018_QC_report.html",
+      "file": "repair-DICE-QC.data",
+      "max_bytes": 30000000,
+      "sha256": "b71076c4cf424a6d8051455a5246381d1cd7f0d3f47efd1feda6523ccfe74b39",
+      "bytes": 1472220,
+      "retrieved_at_utc": "2026-09-12T12:56:42.789540+00:00"
+    },
+    {
+      "id": "repair-DICE-downloads",
+      "url": "https://dice-database.org/downloads",
+      "file": "repair-DICE-downloads.html",
+      "max_bytes": 3000000,
+      "sha256": "a1137e979f3473199562801f2ccb8f08039217ee24ec16a6696bb1b1e408c88f",
+      "bytes": 21079,
+      "retrieved_at_utc": "2026-09-12T12:57:58.547855+00:00"
+    },
+    {
+      "id": "repair-current-r7-metadata",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/master/data_tables/dataset_metadata_r7.tsv",
+      "file": "repair-current-r7-metadata.tsv",
+      "max_bytes": 2000000,
+      "sha256": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+      "bytes": 75969,
+      "retrieved_at_utc": "2026-09-12T13:01:04.680983+00:00"
+    },
+    {
+      "id": "repair-current-tabix-paths",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/master/tabix/tabix_ftp_paths.tsv",
+      "file": "repair-current-tabix-paths.tsv",
+      "max_bytes": 2000000,
+      "sha256": "20912adbeb700bb0224e73f1acba79921cb7afd4323955b00e4e9a73da49b7f4",
+      "bytes": 287387,
+      "retrieved_at_utc": "2026-09-12T13:01:04.706657+00:00"
+    },
+    {
+      "id": "repair-genimpute-config",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/master/nextflow.config",
+      "file": "repair-genimpute-config.data",
+      "max_bytes": 30000000,
+      "sha256": "c6c91cdaa0bc8155cb67f8f13b2c7cd41fe44822b211c4689f983438c236823c",
+      "bytes": 3690,
+      "retrieved_at_utc": "2026-09-12T12:56:41.962650+00:00"
+    },
+    {
+      "id": "repair-genimpute-git-tree",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/genimpute/git/trees/master?recursive=1",
+      "file": "repair-genimpute-tree.json",
+      "max_bytes": 1000000,
+      "sha256": "b3b92a5b8377e7c91eaaee88109f074bb6bd656b14d198a2334043b3052ab787",
+      "bytes": 7589,
+      "retrieved_at_utc": "2026-09-12T12:57:58.283136+00:00"
+    },
+    {
+      "id": "repair-genimpute-main",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/master/main.nf",
+      "file": "repair-genimpute-main.data",
+      "max_bytes": 30000000,
+      "sha256": "65346843e6a038caea2df31a1166fa65dd6afd6ecd85ccc155aa0efc84e3681c",
+      "bytes": 10641,
+      "retrieved_at_utc": "2026-09-12T12:56:42.011615+00:00"
+    },
+    {
+      "id": "repair-genimpute-postimpute_QC",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/f6e77ac8991474f19b1b6c6e0f395cf2ff0d0105/modules/postimpute_QC.nf",
+      "file": "repair-genimpute-postimpute_QC.nf",
+      "max_bytes": 200000,
+      "sha256": "675443e8675dafcdb7f0fb21f01f24b1dc248fa70518059fc8f01960bf23f883",
+      "bytes": 1216,
+      "retrieved_at_utc": "2026-09-12T13:01:04.629241+00:00"
+    },
+    {
+      "id": "repair-genimpute-preimpute_QC",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/f6e77ac8991474f19b1b6c6e0f395cf2ff0d0105/modules/preimpute_QC.nf",
+      "file": "repair-genimpute-preimpute_QC.nf",
+      "max_bytes": 200000,
+      "sha256": "4fb3be840dafcfc9fc032cd4e02360b54233d135239b049a001d5abed5adcadb",
+      "bytes": 2781,
+      "retrieved_at_utc": "2026-09-12T13:01:04.742595+00:00"
+    },
+    {
+      "id": "repair-genimpute-readme",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/master/README.md",
+      "file": "repair-genimpute-readme.data",
+      "max_bytes": 30000000,
+      "sha256": "6534c99ad3f67c36985a5026b767f9f903dbd1d8890a9127003b47ed527cc87b",
+      "bytes": 2164,
+      "retrieved_at_utc": "2026-09-12T12:56:42.081619+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-base",
+      "file": "repair-genimpute-v22011-base.config",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/conf/base.config",
+      "max_bytes": 30000000,
+      "sha256": "fda7a3d4d96ccbb09b5eca763b14afd18283e3528f9fb0391e201bf1fea70cef",
+      "bytes": 2911,
+      "retrieved_at_utc": "2026-09-12T13:26:39.320692+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-eqtl_catalogue",
+      "file": "repair-genimpute-v22011-eqtl_catalogue.config",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/conf/eqtl_catalogue.config",
+      "max_bytes": 30000000,
+      "sha256": "b6f7fe6fabd2ac014f1e339fb2d7cb74fbf14d20e5d2d17eb4806f6be81fe83c",
+      "bytes": 1266,
+      "retrieved_at_utc": "2026-09-12T13:26:39.310383+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-main",
+      "file": "repair-genimpute-v22011-main.nf",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/main.nf",
+      "max_bytes": 30000000,
+      "sha256": "717fb7c088fedd8162d3fc6767234e5fc4d8ede0161827775623b56d3df17d11",
+      "bytes": 10279,
+      "retrieved_at_utc": "2026-09-12T13:25:34.661335+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-nextflow",
+      "file": "repair-genimpute-v22011-nextflow.config",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/nextflow.config",
+      "max_bytes": 30000000,
+      "sha256": "21013364b95d439da0a4da8b83140e4bbfccefa7d2f16f1a1a3835ad06ed7649",
+      "bytes": 2714,
+      "retrieved_at_utc": "2026-09-12T13:21:52.272603+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-postimpute_QC",
+      "file": "repair-genimpute-v22011-postimpute_QC.nf",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/modules/postimpute_QC.nf",
+      "max_bytes": 30000000,
+      "sha256": "675443e8675dafcdb7f0fb21f01f24b1dc248fa70518059fc8f01960bf23f883",
+      "bytes": 1216,
+      "retrieved_at_utc": "2026-09-12T13:21:52.263048+00:00"
+    },
+    {
+      "id": "repair-genimpute-v22011-preimpute_QC",
+      "file": "repair-genimpute-v22011-preimpute_QC.nf",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/genimpute/v22.01.1/modules/preimpute_QC.nf",
+      "max_bytes": 30000000,
+      "sha256": "4fb3be840dafcfc9fc032cd4e02360b54233d135239b049a001d5abed5adcadb",
+      "bytes": 2781,
+      "retrieved_at_utc": "2026-09-12T13:21:52.271391+00:00"
+    },
+    {
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TFH.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TFH-header.data",
+      "sha256": "09e981ea30a493bee819a5e851d9380e8a5854a5a1ebcddfaf19d0a410449f2d",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:15.537280+00:00",
+      "id": "repair-original-DICE-TFH-header",
+      "max_bytes": 65536,
+      "expected_content_range": "bytes 0-65535/",
+      "source_scope": "Header only; original full nominal archive not extracted"
+    },
+    {
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH17.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TH17-header.data",
+      "sha256": "0cd7aedc90f41ff1bcc89d9d8ada825bab993a504fb90653c05a9ab01a777a79",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:16.221665+00:00",
+      "id": "repair-original-DICE-TH17-header",
+      "max_bytes": 65536,
+      "expected_content_range": "bytes 0-65535/",
+      "source_scope": "Header only; original full nominal archive not extracted"
+    },
+    {
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH2.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TH2-header.data",
+      "sha256": "4a6e141b85ebd778f6a0b8691b603bf512e908c6dedc92a3d983418a1facc7f2",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:16.907890+00:00",
+      "id": "repair-original-DICE-TH2-header",
+      "max_bytes": 65536,
+      "expected_content_range": "bytes 0-65535/",
+      "source_scope": "Header only; original full nominal archive not extracted"
+    },
+    {
+      "id": "repair-qtlmap-config",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/qtlmap/master/nextflow.config",
+      "file": "repair-qtlmap-config.data",
+      "max_bytes": 30000000,
+      "sha256": "502e747c73c34af726dd46f47d2c1a679c0fd1b1bafeaf28caacc88481ba2382",
+      "bytes": 4312,
+      "retrieved_at_utc": "2026-09-12T12:56:42.220180+00:00"
+    },
+    {
+      "id": "repair-qtlmap-main",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/qtlmap/master/main.nf",
+      "file": "repair-qtlmap-main.data",
+      "max_bytes": 30000000,
+      "sha256": "a8e8691f2696a93cd74c95a122b977614a37ad2b6873acb21aac88a3f2f0062e",
+      "bytes": 20671,
+      "retrieved_at_utc": "2026-09-12T12:56:42.222473+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000889-cs",
+      "file": "repair-r8-QTD000889-cs.parquet",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000889/QTD000889.credible_sets.parquet",
+      "max_bytes": 30000000,
+      "sha256": "e001d293e8e80102fed495445b34d8ba1887bd036a2ebe823bf01e739e2323ca",
+      "bytes": 1327410,
+      "retrieved_at_utc": "2026-09-12T13:14:40.434628+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000889-sumstats-listing",
+      "file": "repair-r8-QTD000889-sumstats-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000889/",
+      "max_bytes": 1000000,
+      "sha256": "c35d054a7766de979734e6378d09b3a30ea90692fad4b4ee56596b92c5a941fa",
+      "bytes": 1501,
+      "retrieved_at_utc": "2026-09-12T13:12:35.074906+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000889-susie-listing",
+      "file": "repair-r8-QTD000889-susie-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000889/",
+      "max_bytes": 1000000,
+      "sha256": "15fda1efa08292dd172cd3cde33413845d47ba43a5c8499193dc159586360068",
+      "bytes": 1302,
+      "retrieved_at_utc": "2026-09-12T13:12:35.072133+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000891-cs",
+      "file": "repair-r8-QTD000891-cs.parquet",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000891/QTD000891.credible_sets.parquet",
+      "max_bytes": 30000000,
+      "sha256": "37bfdd5966295fa95acd11fb8df0f8b30c8e9f23c5c510ecc182dff95847c996",
+      "bytes": 17281658,
+      "retrieved_at_utc": "2026-09-12T13:14:54.329014+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000891-sumstats-listing",
+      "file": "repair-r8-QTD000891-sumstats-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000891/",
+      "max_bytes": 1000000,
+      "sha256": "71a5c332fd219499c37255217f9dc4f53565b0b2a2515c34f48e7e71d16536ac",
+      "bytes": 1501,
+      "retrieved_at_utc": "2026-09-12T13:12:35.073128+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000891-susie-listing",
+      "file": "repair-r8-QTD000891-susie-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000891/",
+      "max_bytes": 1000000,
+      "sha256": "bff749eb72d31975decc2d6318ff93aee78a9fa68ee625178ef837d865ed6b2f",
+      "bytes": 1302,
+      "retrieved_at_utc": "2026-09-12T13:12:35.389895+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000892-cs",
+      "file": "repair-r8-QTD000892-cs.parquet",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000892/QTD000892.credible_sets.parquet",
+      "max_bytes": 30000000,
+      "sha256": "87e231b1d1379d3d59615ba19c2969347bf4fbd887292f33faa6636dcae76772",
+      "bytes": 2569043,
+      "retrieved_at_utc": "2026-09-12T13:14:41.292542+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000892-sumstats-listing",
+      "file": "repair-r8-QTD000892-sumstats-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000892/",
+      "max_bytes": 1000000,
+      "sha256": "bc1eedf149d1879f5ab4920537ef5450faf9613a59d2cadd502811e844ac52d5",
+      "bytes": 1501,
+      "retrieved_at_utc": "2026-09-12T13:12:35.390152+00:00"
+    },
+    {
+      "id": "repair-r8-QTD000892-susie-listing",
+      "file": "repair-r8-QTD000892-susie-listing.html",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/susie/QTS000048/QTD000892/",
+      "max_bytes": 1000000,
+      "sha256": "40c19c3737baa1edb4270825c084c43b73f30d307de78832815cdc4e0adc1110",
+      "bytes": 1302,
+      "retrieved_at_utc": "2026-09-12T13:12:35.377143+00:00"
+    },
+    {
+      "id": "repair-r8-metadata",
+      "file": "repair-r8-metadata.tsv",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/data_tables/dataset_metadata_r8.tsv",
+      "max_bytes": 30000000,
+      "sha256": "2a469b25e08a36605a0e6a65b411be53ec1ff11bf1b49ce020bad1216fa955df",
+      "bytes": 123426,
+      "retrieved_at_utc": "2026-09-12T13:08:43.020704+00:00"
+    },
+    {
+      "id": "repair-r8-metadata-code",
+      "file": "repair-r8-metadata-code.R",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/code/r8_manuscript/prepare_r8_metadata.R",
+      "max_bytes": 30000000,
+      "sha256": "3da959dbd2c270aa020238061bbe64aaa8a8b941011b36df829a5217f9de9689",
+      "bytes": 1367,
+      "retrieved_at_utc": "2026-09-12T13:08:43.017937+00:00"
+    },
+    {
+      "id": "repair-reference-BCL2L11-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/2:111893874..111917868:1?content-type=text/plain",
+      "file": "repair-reference-BCL2L11-GRCh37.txt",
+      "max_bytes": 1000000,
+      "gene": "BCL2L11",
+      "build": "GRCh37",
+      "chromosome": "chr2",
+      "start_1based": 111893874,
+      "end_1based": 111917868,
+      "sha256": "a6cd5b6cff62c8b8c38853a69d32b470c7a458ad4cd59d1e826201019b61c7a1",
+      "bytes": 23995,
+      "retrieved_at_utc": "2026-09-12T12:56:38.100564+00:00"
+    },
+    {
+      "id": "repair-reference-BCL2L11-GRCh38",
+      "url": "https://rest.ensembl.org/sequence/region/human/2:111136297..111160291:1?content-type=text/plain",
+      "file": "repair-reference-BCL2L11-GRCh38.txt",
+      "max_bytes": 1000000,
+      "gene": "BCL2L11",
+      "build": "GRCh38",
+      "chromosome": "chr2",
+      "start_1based": 111136297,
+      "end_1based": 111160291,
+      "sha256": "a6cd5b6cff62c8b8c38853a69d32b470c7a458ad4cd59d1e826201019b61c7a1",
+      "bytes": 23995,
+      "retrieved_at_utc": "2026-09-12T12:56:37.928883+00:00"
+    },
+    {
+      "id": "repair-reference-PFKFB3-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/sequence/region/human/10:6202538..6213667:1?content-type=text/plain",
+      "file": "repair-reference-PFKFB3-GRCh37.txt",
+      "max_bytes": 1000000,
+      "gene": "PFKFB3",
+      "build": "GRCh37",
+      "chromosome": "chr10",
+      "start_1based": 6202538,
+      "end_1based": 6213667,
+      "sha256": "d8b015bd77047a3b84a2a012bfbd4d571cdd94865924823365fe54d30ea823c9",
+      "bytes": 11130,
+      "retrieved_at_utc": "2026-09-12T12:56:37.598932+00:00"
+    },
+    {
+      "id": "repair-reference-PFKFB3-GRCh38",
+      "url": "https://rest.ensembl.org/sequence/region/human/10:6160575..6171704:1?content-type=text/plain",
+      "file": "repair-reference-PFKFB3-GRCh38.txt",
+      "max_bytes": 1000000,
+      "gene": "PFKFB3",
+      "build": "GRCh38",
+      "chromosome": "chr10",
+      "start_1based": 6160575,
+      "end_1based": 6171704,
+      "sha256": "d8b015bd77047a3b84a2a012bfbd4d571cdd94865924823365fe54d30ea823c9",
+      "bytes": 11130,
+      "retrieved_at_utc": "2026-09-12T12:56:37.576504+00:00"
+    },
+    {
+      "id": "repair-release-notes",
+      "file": "repair-release-notes.html",
+      "url": "https://www.ebi.ac.uk/eqtl/Release_notes/",
+      "max_bytes": 30000000,
+      "sha256": "27ee0fcd22d32218d0a40cfb15a1e549c550359fd39a473d2bd10495660f0e65",
+      "bytes": 28195,
+      "retrieved_at_utc": "2026-09-12T13:08:43.614665+00:00"
+    },
+    {
+      "id": "repair-resource-readme",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/README.md",
+      "file": "repair-resource-readme.data",
+      "max_bytes": 30000000,
+      "sha256": "ed942b964a07a737fa8eb473288e66ca9d01721d3c955810bb7cb3dd14bbe98c",
+      "bytes": 940,
+      "retrieved_at_utc": "2026-09-12T12:56:42.365195+00:00"
+    },
+    {
+      "id": "repair-resources-git-tree",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/eQTL-Catalogue-resources/git/trees/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f?recursive=1",
+      "file": "repair-resources-tree.json",
+      "max_bytes": 2000000,
+      "sha256": "c84cbaac04b2fabceb4e01c091d36dffa6ef5cf1c3684af2befd6243b8be7956",
+      "bytes": 52050,
+      "retrieved_at_utc": "2026-09-12T12:57:58.295205+00:00"
+    },
+    {
+      "id": "repair-variant-rs13405741-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs13405741?content-type=application/json",
+      "file": "repair-variant-rs13405741-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "169273a422db51907f8fd810a7ce17e8059dffa05ab2302b29ff34002e272d69",
+      "bytes": 529,
+      "retrieved_at_utc": "2026-09-12T12:56:40.947378+00:00"
+    },
+    {
+      "id": "repair-variant-rs13405741-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs13405741?content-type=application/json",
+      "file": "repair-variant-rs13405741-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "c7a12957d1a7065233d52a3bce0b72976ea1fe03a74fe7b6f7712a0b906ae695",
+      "bytes": 530,
+      "retrieved_at_utc": "2026-09-12T12:56:41.000329+00:00"
+    },
+    {
+      "id": "repair-variant-rs138248884-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs138248884?content-type=application/json",
+      "file": "repair-variant-rs138248884-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "6176c3c188b83e45682e46da734e91d6fe645005484065039224ff420d8c61e1",
+      "bytes": 598,
+      "retrieved_at_utc": "2026-09-12T12:56:39.678843+00:00"
+    },
+    {
+      "id": "repair-variant-rs138248884-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs138248884?content-type=application/json",
+      "file": "repair-variant-rs138248884-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "aed581c47980de627b6b9e935e6a3852096e1da4a1fc713d2bb365e46b3122ff",
+      "bytes": 589,
+      "retrieved_at_utc": "2026-09-12T12:56:40.486547+00:00"
+    },
+    {
+      "id": "repair-variant-rs140499372-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs140499372?content-type=application/json",
+      "file": "repair-variant-rs140499372-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "bfa0ffeb194b2e87fe2a089eeea94500cbb8fb1eede85e5eb2c65c7d467ab8aa",
+      "bytes": 647,
+      "retrieved_at_utc": "2026-09-12T12:56:40.771542+00:00"
+    },
+    {
+      "id": "repair-variant-rs140499372-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs140499372?content-type=application/json",
+      "file": "repair-variant-rs140499372-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "3f355b907b2e02838cd1a6f0e58115307ec86e6ae223de6908a8f98ec0cc3f89",
+      "bytes": 661,
+      "retrieved_at_utc": "2026-09-12T12:56:40.112288+00:00"
+    },
+    {
+      "id": "repair-variant-rs144569746-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs144569746?content-type=application/json",
+      "file": "repair-variant-rs144569746-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "16d6dd7f2a9f061b86360d31b224ab0b85dea1e6e7a567fc97307b3c3de668c6",
+      "bytes": 487,
+      "retrieved_at_utc": "2026-09-12T12:56:41.875612+00:00"
+    },
+    {
+      "id": "repair-variant-rs144569746-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs144569746?content-type=application/json",
+      "file": "repair-variant-rs144569746-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "f1dab8729d6d8843e686c6cb53eae079fd95a980a3860763c90b40a49a05e7bf",
+      "bytes": 518,
+      "retrieved_at_utc": "2026-09-12T12:56:41.808590+00:00"
+    },
+    {
+      "id": "repair-variant-rs149556258-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs149556258?content-type=application/json",
+      "file": "repair-variant-rs149556258-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "89f58bd4312ac5414d0307a8cc3e42c9cf5d28a676f714dc27a0c78e06dfab22",
+      "bytes": 654,
+      "retrieved_at_utc": "2026-09-12T12:56:38.672276+00:00"
+    },
+    {
+      "id": "repair-variant-rs149556258-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs149556258?content-type=application/json",
+      "file": "repair-variant-rs149556258-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "634038b35e328a7f1953b4eefa11e2d20a0d2a3f592e6573fdb8e15f38851cd7",
+      "bytes": 677,
+      "retrieved_at_utc": "2026-09-12T12:56:38.683737+00:00"
+    },
+    {
+      "id": "repair-variant-rs72836352-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs72836352?content-type=application/json",
+      "file": "repair-variant-rs72836352-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "4d7a77ec17917c7db35fa1d1e02a0bb14bcf2512810c2af4abe8863d1c9bb5da",
+      "bytes": 486,
+      "retrieved_at_utc": "2026-09-12T12:56:41.601058+00:00"
+    },
+    {
+      "id": "repair-variant-rs72836352-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs72836352?content-type=application/json",
+      "file": "repair-variant-rs72836352-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "fcf9ff4c22635caf8154615aa8c7a3ba5954c082c0ca60daa9210fb2b94507bf",
+      "bytes": 517,
+      "retrieved_at_utc": "2026-09-12T12:56:41.427792+00:00"
+    },
+    {
+      "id": "repair-variant-rs72837816-GRCh37",
+      "url": "https://grch37.rest.ensembl.org/variation/human/rs72837816?content-type=application/json",
+      "file": "repair-variant-rs72837816-GRCh37.json",
+      "max_bytes": 2000000,
+      "sha256": "48c1e251a9d1d4e389f21863bd0571f071c657483ec3c3e03d1cba59d1fbef7d",
+      "bytes": 519,
+      "retrieved_at_utc": "2026-09-12T12:56:41.388291+00:00"
+    },
+    {
+      "id": "repair-variant-rs72837816-GRCh38",
+      "url": "https://rest.ensembl.org/variation/human/rs72837816?content-type=application/json",
+      "file": "repair-variant-rs72837816-GRCh38.json",
+      "max_bytes": 2000000,
+      "sha256": "f9107900e4cbf3ad9c5cab414e739edf80987d94161c14a3c32be49937ca0963",
+      "bytes": 520,
+      "retrieved_at_utc": "2026-09-12T12:56:41.181777+00:00"
+    }
+  ]
+}

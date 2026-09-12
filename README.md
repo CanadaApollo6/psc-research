@@ -12,7 +12,9 @@ The starting reference is [Goode et al., Nature Communications (2024)](https://w
 
 ## First results
 
-The latest [colocalisation assessment](reports/colocalisation.md) checks **PFKFB3 and BCL2L11 across all ten CD4 contexts**. Neither currently has supported evidence of a shared PSC–RNA signal. PFKFB3's eligible-SNP results favor different signals, as does its secondary published RNA component; its dominant components remain unresolved because omitted indels carry substantial evidence. BCL2L11 remains unresolved because the relevant DICE comparisons retain only one-third of the eligible PSC evidence. The next work is [exact indel matching and missing-variant source review](docs/coloc-next-inputs.md). Original coverage failures and the source-supported platform-count amendment remain separate.
+The latest [variant-coverage follow-up](reports/variant-coverage-repair.md) recovers **two exact PFKFB3 deletions** and finds **all four missing BCL2L11 variants in three larger OneK1K CD4 groups**. PFKFB3's strongest RNA components still fail the fixed coverage gate (52.23% and 88.55%). The four BCL2L11 positions are absent across all genes in all nine selected DICE archives; they were already measured in BLUEPRINT. In OneK1K, all twelve target associations are weak (P=0.117–0.952), and regional RNA coverage remains inadequate. Neither gene has supported evidence of a shared PSC–RNA mechanism. Exact source gaps, filtering limits, sample-count discrepancies and [unsent source questions](docs/coverage-repair-source-questions.md) are recorded.
+
+The preceding [colocalisation assessment](reports/colocalisation.md) checks **PFKFB3 and BCL2L11 across all ten original CD4 contexts**. PFKFB3's eligible-SNP and secondary RNA-signal results favor different signals. Its original coverage failures and the source-supported platform-count amendment remain preserved; the new coverage audit does not overwrite them or report a new colocalisation posterior.
 
 The preceding [CD4 RNA evidence report](reports/cd4-rna-evidence.md) checks **all nine variants across ten datasets and 228 fixed gene pairs**. Of 2,280 planned dataset-level comparisons, 693 are measured. Five associations pass the fixed multiple-testing correction, representing **rs7923054–PFKFB3** and **rs72837826–BCL2L11**. Model RNA tracks disagree on direction for both pairs. DICE subsets share donors, and both DICE and BLUEPRINT appear in the original PSC study, so this is not wholly independent validation. These observed RNA associations are preserved alongside the subsequent shared-signal assessment.
 
@@ -186,6 +188,8 @@ The [full report](reports/cd4-rna-evidence.md) includes all ten datasets, every 
 ## Interpretation
 
 The [colocalisation reproduction guide](docs/coloc-reproduction.md) provides portable hash checks, figure/table regeneration, isolated numerical replay of both baselines, and the additional requirements and current cache-restoration limit for full LD refitting. The [complete report](reports/colocalisation.md) and [next input specification](docs/coloc-next-inputs.md) explain the findings and the bounded follow-up.
+
+The completed [variant-coverage follow-up](reports/variant-coverage-repair.md) adds exact sequence normalization and bounded reannotated OneK1K queries. Its [reproduction guide](docs/coverage-repair-reproduction.md) and [Python dependency pins](requirements-coverage-repair.txt) explain cache verification, source limits and the separate coverage-only analysis. Run `python scripts/verify_coverage_repair.py` to check versioned results without requiring ignored source caches.
 
 PSC susceptibility is different from progression of established PSC. A regulatory prediction can support a mechanism worth testing; it does not show that altering that gene will safely treat disease. Experimental and clinical validation would still be needed.
 

@@ -1,0 +1,257 @@
+[
+  {
+    "chr": "10",
+    "SNP": "rs138248884",
+    "pos": "6203538",
+    "allele_0": "T",
+    "allele_1": "TAC",
+    "freq_1": "0.22",
+    "freq_1_cases": "0.24",
+    "freq_1_controls": "0.22",
+    "mmm_var_info_nonmissing": "0.993",
+    "or": "1.126",
+    "se": "0.041",
+    "p": "0.00282324564870757",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6203538,
+        "T",
+        "TAC"
+      ],
+      [
+        6203538,
+        "TAC",
+        "T"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs141566339",
+    "pos": "6204095",
+    "allele_0": "TACA",
+    "allele_1": "T",
+    "freq_1": "0.08",
+    "freq_1_cases": "0.08",
+    "freq_1_controls": "0.08",
+    "mmm_var_info_nonmissing": "0.992",
+    "or": "1.020",
+    "se": "0.063",
+    "p": "0.750057182301771",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6204095,
+        "T",
+        "TACA"
+      ],
+      [
+        6204095,
+        "TACA",
+        "T"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs145248506",
+    "pos": "6205643",
+    "allele_0": "ACGGGGGCGTGGCGGGACCGG",
+    "allele_1": "A",
+    "freq_1": "0.14",
+    "freq_1_cases": "0.16",
+    "freq_1_controls": "0.14",
+    "mmm_var_info_nonmissing": "0.989",
+    "or": "1.171",
+    "se": "0.041",
+    "p": "0.000104726553809575",
+    "platform": "both",
+    "possible_reference_edits": [
+      [
+        6205643,
+        "A",
+        "ACGGGGGCGTGGCGGGACCGG"
+      ],
+      [
+        6205643,
+        "ACGGGGGCGTGGCGGGACCGG",
+        "A"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs202052082",
+    "pos": "6206190",
+    "allele_0": "GC",
+    "allele_1": "G",
+    "freq_1": "0.24",
+    "freq_1_cases": "0.25",
+    "freq_1_controls": "0.24",
+    "mmm_var_info_nonmissing": "0.987",
+    "or": "1.086",
+    "se": "0.040",
+    "p": "0.0345495057177833",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6206190,
+        "G",
+        "GC"
+      ],
+      [
+        6206190,
+        "GC",
+        "G"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs76722687",
+    "pos": "6206194",
+    "allele_0": "GCTCTC",
+    "allele_1": "G",
+    "freq_1": "0.24",
+    "freq_1_cases": "0.25",
+    "freq_1_controls": "0.24",
+    "mmm_var_info_nonmissing": "0.987",
+    "or": "1.086",
+    "se": "0.040",
+    "p": "0.0343625779579702",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6206194,
+        "G",
+        "GCTCTC"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs201535873",
+    "pos": "6208774",
+    "allele_0": "CCTT",
+    "allele_1": "C",
+    "freq_1": "0.28",
+    "freq_1_cases": "0.29",
+    "freq_1_controls": "0.28",
+    "mmm_var_info_nonmissing": "0.997",
+    "or": "1.058",
+    "se": "0.038",
+    "p": "0.130544799385776",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6208774,
+        "C",
+        "CCTT"
+      ],
+      [
+        6208774,
+        "CCTT",
+        "C"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs199974323",
+    "pos": "6208786",
+    "allele_0": "TC",
+    "allele_1": "T",
+    "freq_1": "0.99",
+    "freq_1_cases": "0.99",
+    "freq_1_controls": "0.98",
+    "mmm_var_info_nonmissing": "0.986",
+    "or": "1.263",
+    "se": "0.160",
+    "p": "0.116118942641951",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6208786,
+        "T",
+        "TC"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs138961557",
+    "pos": "6209917",
+    "allele_0": "TC",
+    "allele_1": "T",
+    "freq_1": "0.28",
+    "freq_1_cases": "0.30",
+    "freq_1_controls": "0.28",
+    "mmm_var_info_nonmissing": "0.999",
+    "or": "1.061",
+    "se": "0.038",
+    "p": "0.106249568792162",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6209917,
+        "T",
+        "TC"
+      ],
+      [
+        6209917,
+        "TC",
+        "T"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs143686262",
+    "pos": "6210979",
+    "allele_0": "GCACGATCTCAGC",
+    "allele_1": "G",
+    "freq_1": "0.45",
+    "freq_1_cases": "0.45",
+    "freq_1_controls": "0.45",
+    "mmm_var_info_nonmissing": "0.998",
+    "or": "1.002",
+    "se": "0.035",
+    "p": "0.965140712008842",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6210979,
+        "G",
+        "GCACGATCTCAGC"
+      ]
+    ]
+  },
+  {
+    "chr": "10",
+    "SNP": "rs140499372",
+    "pos": "6212648",
+    "allele_0": "A",
+    "allele_1": "AGTATGGAGGTGGGGACAGG",
+    "freq_1": "0.23",
+    "freq_1_cases": "0.24",
+    "freq_1_controls": "0.23",
+    "mmm_var_info_nonmissing": "0.998",
+    "or": "1.077",
+    "se": "0.040",
+    "p": "0.0614214358566135",
+    "platform": "omni",
+    "possible_reference_edits": [
+      [
+        6212648,
+        "A",
+        "AGTATGGAGGTGGGGACAGG"
+      ],
+      [
+        6212648,
+        "AGTATGGAGGTGGGGACAGG",
+        "A"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "requests": [
+    {
+      "context": "TFH",
+      "kind": "header",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TFH.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TFH-header.data",
+      "sha256": "09e981ea30a493bee819a5e851d9380e8a5854a5a1ebcddfaf19d0a410449f2d",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:15.537280+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Sat, 12 Sep 2026 12:59:15 GMT",
+        "Server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "Last-Modified": "Mon, 01 Jul 2019 05:44:21 GMT",
+        "ETag": "\"c9d361b4-58c981eab1740\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/3386073524",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      },
+      "gzip_bgzf": false
+    },
+    {
+      "context": "TFH",
+      "kind": "index",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TFH.vcf.gz.tbi",
+      "http_status": 404,
+      "status": "unavailable",
+      "retrieved_at_utc": "2026-09-12T12:59:15.811914+00:00"
+    },
+    {
+      "context": "TH17",
+      "kind": "header",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH17.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TH17-header.data",
+      "sha256": "0cd7aedc90f41ff1bcc89d9d8ada825bab993a504fb90653c05a9ab01a777a79",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:16.221665+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Sat, 12 Sep 2026 12:59:16 GMT",
+        "Server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "Last-Modified": "Mon, 01 Jul 2019 05:44:21 GMT",
+        "ETag": "\"ca0ba76d-58c981eab1740\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/3389761389",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      },
+      "gzip_bgzf": false
+    },
+    {
+      "context": "TH17",
+      "kind": "index",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH17.vcf.gz.tbi",
+      "http_status": 404,
+      "status": "unavailable",
+      "retrieved_at_utc": "2026-09-12T12:59:16.496233+00:00"
+    },
+    {
+      "context": "TH2",
+      "kind": "header",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH2.vcf.gz",
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "file": "repair-original-DICE-TH2-header.data",
+      "sha256": "4a6e141b85ebd778f6a0b8691b603bf512e908c6dedc92a3d983418a1facc7f2",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-12T12:59:16.907890+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Sat, 12 Sep 2026 12:59:16 GMT",
+        "Server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "Last-Modified": "Mon, 01 Jul 2019 05:44:21 GMT",
+        "ETag": "\"ca6cb72e-58c981eab1740\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/3396122414",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      },
+      "gzip_bgzf": false
+    },
+    {
+      "context": "TH2",
+      "kind": "index",
+      "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/TH2.vcf.gz.tbi",
+      "http_status": 404,
+      "status": "unavailable",
+      "retrieved_at_utc": "2026-09-12T12:59:17.184684+00:00"
+    }
+  ]
+}

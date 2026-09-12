@@ -1,0 +1,228 @@
+[
+  {
+    "dataset_id": "QTD000889",
+    "sample_group": "Regulatory_T_cells",
+    "source_metadata_sample_size": 528,
+    "source_row_an": [
+      1056
+    ],
+    "source_nominal_rows": 5457,
+    "source_unique_variants": 5009,
+    "eligible_qtl_snps": 3790,
+    "excluded_unique_variants": {
+      "not_biallelic_SNV": 995,
+      "nonshared_palindromic_frequency_unverified": 224
+    },
+    "full_eligible_gwas_snps": 2742,
+    "shared_snps": 2586,
+    "gwas_bf_coverage": 0.9999899282474408,
+    "qtl_bf_coverage": 0.7274328777550602,
+    "joint_coverage_gate": false,
+    "published_target_gene_cs_rows": 0,
+    "minimum_nominal_p": 0.00114045,
+    "missing_gwas_top10": [
+      {
+        "snp": "chr2:111177492:A:G",
+        "source_id": "kgp12437141",
+        "weight": 5.286066211942653e-06
+      },
+      {
+        "snp": "chr2:111127016:A:G",
+        "source_id": "kgp3559743",
+        "weight": 4.917987130354323e-07
+      },
+      {
+        "snp": "chr2:111888295:C:G",
+        "source_id": "rs182257653",
+        "weight": 3.054739848626456e-07
+      },
+      {
+        "snp": "chr2:111663653:A:G",
+        "source_id": "rs189418251",
+        "weight": 2.4351697415805485e-07
+      },
+      {
+        "snp": "chr2:110711499:C:T",
+        "source_id": "rs72828841",
+        "weight": 1.1739396803496036e-07
+      },
+      {
+        "snp": "chr2:111190643:C:G",
+        "source_id": "rs114810067",
+        "weight": 1.065164146314361e-07
+      },
+      {
+        "snp": "chr2:110736327:C:T",
+        "source_id": "rs72828853",
+        "weight": 1.0502996816163812e-07
+      },
+      {
+        "snp": "chr2:111138002:G:T",
+        "source_id": "rs115130151",
+        "weight": 1.0179964007192136e-07
+      },
+      {
+        "snp": "chr2:110719201:A:G",
+        "source_id": "rs4260250",
+        "weight": 6.830312745111225e-08
+      },
+      {
+        "snp": "chr2:110749911:A:G",
+        "source_id": "rs137893682",
+        "weight": 5.7259303353099995e-08
+      }
+    ],
+    "status": "coverage_and_direct_effects_only_no_colocalisation_posterior"
+  },
+  {
+    "dataset_id": "QTD000891",
+    "sample_group": "Tcm_Naive_helper_T_cells",
+    "source_metadata_sample_size": 997,
+    "source_row_an": [
+      1994
+    ],
+    "source_nominal_rows": 5493,
+    "source_unique_variants": 5044,
+    "eligible_qtl_snps": 3815,
+    "excluded_unique_variants": {
+      "not_biallelic_SNV": 1000,
+      "nonshared_palindromic_frequency_unverified": 229
+    },
+    "full_eligible_gwas_snps": 2742,
+    "shared_snps": 2594,
+    "gwas_bf_coverage": 0.9999901827147561,
+    "qtl_bf_coverage": 0.6534397189101049,
+    "joint_coverage_gate": false,
+    "published_target_gene_cs_rows": 0,
+    "minimum_nominal_p": 0.00039464,
+    "missing_gwas_top10": [
+      {
+        "snp": "chr2:111177492:A:G",
+        "source_id": "kgp12437141",
+        "weight": 5.286066211942653e-06
+      },
+      {
+        "snp": "chr2:111127016:A:G",
+        "source_id": "kgp3559743",
+        "weight": 4.917987130354323e-07
+      },
+      {
+        "snp": "chr2:111888295:C:G",
+        "source_id": "rs182257653",
+        "weight": 3.054739848626456e-07
+      },
+      {
+        "snp": "chr2:111663653:A:G",
+        "source_id": "rs189418251",
+        "weight": 2.4351697415805485e-07
+      },
+      {
+        "snp": "chr2:110711499:C:T",
+        "source_id": "rs72828841",
+        "weight": 1.1739396803496036e-07
+      },
+      {
+        "snp": "chr2:111190643:C:G",
+        "source_id": "rs114810067",
+        "weight": 1.065164146314361e-07
+      },
+      {
+        "snp": "chr2:110736327:C:T",
+        "source_id": "rs72828853",
+        "weight": 1.0502996816163812e-07
+      },
+      {
+        "snp": "chr2:110719201:A:G",
+        "source_id": "rs4260250",
+        "weight": 6.830312745111225e-08
+      },
+      {
+        "snp": "chr2:110749911:A:G",
+        "source_id": "rs137893682",
+        "weight": 5.7259303353099995e-08
+      },
+      {
+        "snp": "chr2:110870044:A:C",
+        "source_id": "rs72832879",
+        "weight": 5.007432819082508e-08
+      }
+    ],
+    "status": "coverage_and_direct_effects_only_no_colocalisation_posterior"
+  },
+  {
+    "dataset_id": "QTD000892",
+    "sample_group": "Tem_Effector_helper_T_cells",
+    "source_metadata_sample_size": 653,
+    "source_row_an": [
+      1306
+    ],
+    "source_nominal_rows": 5451,
+    "source_unique_variants": 5003,
+    "eligible_qtl_snps": 3786,
+    "excluded_unique_variants": {
+      "not_biallelic_SNV": 993,
+      "nonshared_palindromic_frequency_unverified": 223,
+      "invalid_statistics_or_MAF_below_0.01": 1
+    },
+    "full_eligible_gwas_snps": 2742,
+    "shared_snps": 2578,
+    "gwas_bf_coverage": 0.9999897490343057,
+    "qtl_bf_coverage": 0.7063271737124632,
+    "joint_coverage_gate": false,
+    "published_target_gene_cs_rows": 0,
+    "minimum_nominal_p": 0.00129423,
+    "missing_gwas_top10": [
+      {
+        "snp": "chr2:111177492:A:G",
+        "source_id": "kgp12437141",
+        "weight": 5.286066211942653e-06
+      },
+      {
+        "snp": "chr2:111127016:A:G",
+        "source_id": "kgp3559743",
+        "weight": 4.917987130354323e-07
+      },
+      {
+        "snp": "chr2:111888295:C:G",
+        "source_id": "rs182257653",
+        "weight": 3.054739848626456e-07
+      },
+      {
+        "snp": "chr2:111663653:A:G",
+        "source_id": "rs189418251",
+        "weight": 2.4351697415805485e-07
+      },
+      {
+        "snp": "chr2:110711499:C:T",
+        "source_id": "rs72828841",
+        "weight": 1.1739396803496036e-07
+      },
+      {
+        "snp": "chr2:111190643:C:G",
+        "source_id": "rs114810067",
+        "weight": 1.065164146314361e-07
+      },
+      {
+        "snp": "chr2:110736327:C:T",
+        "source_id": "rs72828853",
+        "weight": 1.0502996816163812e-07
+      },
+      {
+        "snp": "chr2:111138002:G:T",
+        "source_id": "rs115130151",
+        "weight": 1.0179964007192136e-07
+      },
+      {
+        "snp": "chr2:110719201:A:G",
+        "source_id": "rs4260250",
+        "weight": 6.830312745111225e-08
+      },
+      {
+        "snp": "chr2:110749911:A:G",
+        "source_id": "rs137893682",
+        "weight": 5.7259303353099995e-08
+      }
+    ],
+    "status": "coverage_and_direct_effects_only_no_colocalisation_posterior"
+  }
+]

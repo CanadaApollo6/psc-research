@@ -1,0 +1,29 @@
+{
+  "frozen_at_utc": "2026-09-12T13:14:33.303805+00:00",
+  "status": "Access-only amendment before reading metadata footers or effects. Same three datasets, target gene, region and coverage rules as initial freeze. Correct official r8_beta paths and Parquet format discovered from release notes and six pinned directory listings.",
+  "sources": [
+    {
+      "id": "QTD000889",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000889/QTD000889.all.parquet"
+    },
+    {
+      "id": "QTD000891",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000891/QTD000891.all.parquet"
+    },
+    {
+      "id": "QTD000892",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000892/QTD000892.all.parquet"
+    }
+  ],
+  "reader": "HTTP range reads, require byte-range status and size/ETag/Last-Modified stability; SHA each range. Select row groups by complete gene min/max bounds and filter exact gene/region; fail without row-group statistics; cap 300 MB and 1 million candidate rows per archive.",
+  "credible_sets": "Retrieve complete published Parquet credible-set files within 30 MB each, preserve all BCL2L11 rows.",
+  "source_file_sha256": {
+    "data/raw/repair-r8-QTD000889-sumstats-listing.html": "c35d054a7766de979734e6378d09b3a30ea90692fad4b4ee56596b92c5a941fa",
+    "data/raw/repair-r8-QTD000889-susie-listing.html": "15fda1efa08292dd172cd3cde33413845d47ba43a5c8499193dc159586360068",
+    "data/raw/repair-r8-QTD000891-sumstats-listing.html": "71a5c332fd219499c37255217f9dc4f53565b0b2a2515c34f48e7e71d16536ac",
+    "data/raw/repair-r8-QTD000891-susie-listing.html": "bff749eb72d31975decc2d6318ff93aee78a9fa68ee625178ef837d865ed6b2f",
+    "data/raw/repair-r8-QTD000892-sumstats-listing.html": "bc1eedf149d1879f5ab4920537ef5450faf9613a59d2cadd502811e844ac52d5",
+    "data/raw/repair-r8-QTD000892-susie-listing.html": "40c19c3737baa1edb4270825c084c43b73f30d307de78832815cdc4e0adc1110"
+  },
+  "initial_plan_sha256": "bae29186b7bb6a2763ab6bcf71cd1df2cfe284a76ec4ae80ec12d06d03fc0c7f"
+}

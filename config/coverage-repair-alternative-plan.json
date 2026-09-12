@@ -1,0 +1,76 @@
+{
+  "frozen_at_utc": "2026-09-12T13:09:45.574325+00:00",
+  "status": "Metadata selected before any target effects or regional results in this cohort",
+  "selection": "All CD4 helper and regulatory ge contexts in the preferred reannotated OneK1K release; metadata sample size at least 200. Original QTS000038 not treated as independent replication or also tested.",
+  "datasets": [
+    {
+      "study_id": "QTS000048",
+      "dataset_id": "QTD000889",
+      "study_label": "OneK1K_reannotated",
+      "sample_group": "Regulatory_T_cells",
+      "tissue_id": "CL_0000815",
+      "tissue_label": "regulatory T cell",
+      "condition_label": "naive",
+      "sample_size": "528",
+      "quant_method": "ge",
+      "pmid": "35389779",
+      "study_type": "single-cell",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000889/QTD000889.all.tsv.gz",
+      "cs_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000889/QTD000889.credible_sets.tsv.gz"
+    },
+    {
+      "study_id": "QTS000048",
+      "dataset_id": "QTD000891",
+      "study_label": "OneK1K_reannotated",
+      "sample_group": "Tcm_Naive_helper_T_cells",
+      "tissue_id": "CL_0000904",
+      "tissue_label": "CD4+ TCM cell",
+      "condition_label": "naive",
+      "sample_size": "997",
+      "quant_method": "ge",
+      "pmid": "35389779",
+      "study_type": "single-cell",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000891/QTD000891.all.tsv.gz",
+      "cs_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000891/QTD000891.credible_sets.tsv.gz"
+    },
+    {
+      "study_id": "QTS000048",
+      "dataset_id": "QTD000892",
+      "study_label": "OneK1K_reannotated",
+      "sample_group": "Tem_Effector_helper_T_cells",
+      "tissue_id": "CL_0000905",
+      "tissue_label": "CD4+ TEM cell",
+      "condition_label": "naive",
+      "sample_size": "653",
+      "quant_method": "ge",
+      "pmid": "35389779",
+      "study_type": "single-cell",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000892/QTD000892.all.tsv.gz",
+      "cs_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000892/QTD000892.credible_sets.tsv.gz"
+    }
+  ],
+  "gene_id": "ENSG00000153094",
+  "chromosome": "chr2",
+  "start_grch38_0based": 110119377,
+  "end_grch38_exclusive": 112119378,
+  "scope": "Full fixed regional nominal statistics, four exact missing variants, and all published BCL2L11 credible-set rows. Coverage and direct RNA effects only; no new colocalisation posterior in this follow-up.",
+  "coverage": {
+    "minimum_shared_snps": 100,
+    "minimum_bf_mass_each_trait": 0.9,
+    "gwas": "Frozen all-platform eligible SNPs and official per-SNP N/P-value Bayes factors from previous analysis",
+    "qtl": "ALT-effect beta/SE, gene-level unique SNP rows; MAF >= 0.01; finite beta/SE/P; R2 >= 0.8 if supplied; preserve missing R2, reject low reported R2. Unit expression SD as previous primary analysis. Compute full eligible QTL weight before intersection. Report indel and all other exclusions. No imputation of missing effects.",
+    "palindromic": "Require shared frozen GWAS key already frequency checked, or mark nonshared palindromic SNP ineligible pending broader reference frequency audit. Report excluded count.",
+    "numerical": "Wakefield logBF with quantitative-effect prior SD 0.15; no new hypothesis posterior. Published credible-set absence is not evidence of no RNA effect."
+  },
+  "sample_count_note": "r8 metadata lists 528,997,653 for these contexts while Studies lists 981 OneK1K donors. Preserve conflict. These values select a larger cohort only; no exact N-dependent posterior or estimated-sdY model is run. Inspect row AN/2 as a called-genotype count, not proof of independent donors.",
+  "independence": "Separate named source cohort from BLUEPRINT/DICE; three cell groups share donors. Do not count correlated variants or cell types as independent replications.",
+  "frozen_file_sha256": {
+    "config/coverage-repair-plan.json": "251d7a83d0c7472ff529e366f3fa21fd7fd40b24a76ad5cc4603fe448fc4cded",
+    "data/raw/repair-r8-metadata.tsv": "2a469b25e08a36605a0e6a65b411be53ec1ff11bf1b49ce020bad1216fa955df",
+    "data/raw/repair-current-r7-metadata.tsv": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+    "data/raw/repair-current-tabix-paths.tsv": "20912adbeb700bb0224e73f1acba79921cb7afd4323955b00e4e9a73da49b7f4",
+    "data/raw/repair-release-notes.html": "27ee0fcd22d32218d0a40cfb15a1e549c550359fd39a473d2bd10495660f0e65",
+    "data/derived/coloc-platform-inputs/GWAS-BCL2L11.csv.gz": "c9d18f3acc27b747ec6ad9662ad0767045afeddd06c3fd3ef135388d6c8a4ff5",
+    "reports/coloc-platform-variant-posteriors.csv.gz": "83c9b2f8762dd5191bf4892d63484fd4768eb8282694450d13d51631acc5155a"
+  }
+}

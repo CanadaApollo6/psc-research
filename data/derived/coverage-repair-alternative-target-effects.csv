@@ -1,0 +1,13 @@
+dataset_id,sample_group,source_id,position_grch38,ref,alt,status,beta_per_alt,se,nominal_pvalue,maf,minor_allele_carriers,source_an,r2,source_metadata_sample_size,risk_allele,beta_per_source_risk_allele,eligible_for_coverage,alias_rows
+QTD000889,Regulatory_T_cells,rs13405741,111155479,T,C,exact_allele_measured_for_target_gene,-0.163362,0.104078,0.117153,0.0852273,85,1056,NA,528,C,-0.163362,True,1
+QTD000889,Regulatory_T_cells,rs72837816,111159291,A,C,exact_allele_measured_for_target_gene,-0.143414,0.0980879,0.144355,0.0833333,82,1056,NA,528,C,-0.143414,True,1
+QTD000889,Regulatory_T_cells,rs72836352,111137297,C,T,exact_allele_measured_for_target_gene,-0.148852,0.0986275,0.131884,0.0842803,83,1056,NA,528,T,-0.148852,True,1
+QTD000889,Regulatory_T_cells,rs144569746,111150990,C,T,exact_allele_measured_for_target_gene,-0.144276,0.0982079,0.142451,0.0833333,82,1056,NA,528,T,-0.144276,True,1
+QTD000891,Tcm_Naive_helper_T_cells,rs13405741,111155479,T,C,exact_allele_measured_for_target_gene,0.00990014,0.0706745,0.888625,0.0922768,176,1994,NA,997,C,0.00990014,True,1
+QTD000891,Tcm_Naive_helper_T_cells,rs72837816,111159291,A,C,exact_allele_measured_for_target_gene,-0.0175032,0.0663569,0.792011,0.0922768,175,1994,NA,997,C,-0.0175032,True,1
+QTD000891,Tcm_Naive_helper_T_cells,rs72836352,111137297,C,T,exact_allele_measured_for_target_gene,-0.015631,0.0667805,0.814984,0.0927783,176,1994,NA,997,T,-0.015631,True,1
+QTD000891,Tcm_Naive_helper_T_cells,rs144569746,111150990,C,T,exact_allele_measured_for_target_gene,-0.0175536,0.0663965,0.791547,0.0932798,177,1994,NA,997,T,-0.0175536,True,1
+QTD000892,Tem_Effector_helper_T_cells,rs13405741,111155479,T,C,exact_allele_measured_for_target_gene,0.0354312,0.0968376,0.714578,0.085758,106,1306,NA,653,C,0.0354312,True,1
+QTD000892,Tem_Effector_helper_T_cells,rs72837816,111159291,A,C,exact_allele_measured_for_target_gene,0.0133251,0.0924278,0.885415,0.0849923,105,1306,NA,653,C,0.0133251,True,1
+QTD000892,Tem_Effector_helper_T_cells,rs72836352,111137297,C,T,exact_allele_measured_for_target_gene,0.00563026,0.092974,0.951731,0.085758,106,1306,NA,653,T,0.00563026,True,1
+QTD000892,Tem_Effector_helper_T_cells,rs144569746,111150990,C,T,exact_allele_measured_for_target_gene,0.0130177,0.0924286,0.888042,0.085758,106,1306,NA,653,T,0.0130177,True,1

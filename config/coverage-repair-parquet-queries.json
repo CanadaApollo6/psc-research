@@ -1,0 +1,1712 @@
+{
+  "plan_sha256": "bae29186b7bb6a2763ab6bcf71cd1df2cfe284a76ec4ae80ec12d06d03fc0c7f",
+  "access_plan_sha256": "81197f40cc9312e03f781003ea78180ca772b355de3bd31867279ec693483fbb",
+  "reader_sha256": "4fe47460abc271fc57c34a2aae79b0b6e53b68dda9c43b358056235e34363a07",
+  "pyarrow_version": "25.0.1",
+  "queries": [
+    {
+      "id": "QTD000889",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000889/QTD000889.all.parquet",
+      "ranges": [
+        {
+          "range": "0-7",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-0-7.data",
+          "bytes": 8,
+          "sha256": "cd61c6498a54fcf8c67371328dda6562ed32dd6243a28e3c012e2cae3ecee810",
+          "retrieved_at_utc": "2026-09-12T13:14:39.260041+00:00"
+        },
+        {
+          "range": "2553540782-2553606317",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2553540782-2553606317.data",
+          "bytes": 65536,
+          "sha256": "3fb9c2333b29df91a031149a21fed5612a7b26f7ccf92fc36b15bb447f9e774e",
+          "retrieved_at_utc": "2026-09-12T13:14:41.771055+00:00"
+        },
+        {
+          "range": "2552455235-2553606309",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2552455235-2553606309.data",
+          "bytes": 1151075,
+          "sha256": "15b7adc2ec4915e73caab21cdfd7a5e91418d227325d252083e80000953972ee",
+          "retrieved_at_utc": "2026-09-12T13:14:45.012066+00:00"
+        },
+        {
+          "range": "114256124-114256177",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-114256124-114256177.data",
+          "bytes": 54,
+          "sha256": "c895ad3458ec274421662b31c97fd6d17eaf2a6c924ea7d2130410a4464fdb7f",
+          "retrieved_at_utc": "2026-09-12T13:16:49.947639+00:00"
+        },
+        {
+          "range": "117495189-117517112",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-117495189-117517112.data",
+          "bytes": 21924,
+          "sha256": "9892288af81b7dc67850630ee40b068bf8ad92cf67a7613b5f4cba4c7d07fead",
+          "retrieved_at_utc": "2026-09-12T13:16:52.367800+00:00"
+        },
+        {
+          "range": "117596560-117596613",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-117596560-117596613.data",
+          "bytes": 54,
+          "sha256": "bbd1cbb6f9897e9f3692d75fdaf1df03f3d11149d54b18a85347d2c0c5175550",
+          "retrieved_at_utc": "2026-09-12T13:16:54.846617+00:00"
+        },
+        {
+          "range": "120889028-120908339",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-120889028-120908339.data",
+          "bytes": 19312,
+          "sha256": "12fea3b13b128cb52a2c2b4105a12095fc9b6725b2bcb9e2d66989b3bb8d76a2",
+          "retrieved_at_utc": "2026-09-12T13:16:57.237101+00:00"
+        },
+        {
+          "range": "228552624-228552687",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-228552624-228552687.data",
+          "bytes": 64,
+          "sha256": "19c69d372571891f7bb174446d7b68a1308aefbfa044759397256b2e14ba9d4a",
+          "retrieved_at_utc": "2026-09-12T13:16:59.588990+00:00"
+        },
+        {
+          "range": "232412085-232434243",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-232412085-232434243.data",
+          "bytes": 22159,
+          "sha256": "5e49aa622911984b4ec2dc8a75312f9b93dd13493afb2fd5f1f7ceaf4c1272a3",
+          "retrieved_at_utc": "2026-09-12T13:17:01.994416+00:00"
+        },
+        {
+          "range": "311036933-311036987",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-311036933-311036987.data",
+          "bytes": 55,
+          "sha256": "6063714e7412e086c711f7e9f43e2d16da90da6d680f4442c0b0752d974780f1",
+          "retrieved_at_utc": "2026-09-12T13:17:04.362413+00:00"
+        },
+        {
+          "range": "314590411-314611196",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-314590411-314611196.data",
+          "bytes": 20786,
+          "sha256": "ed2015d842cbde0b95223a3abc135361f7356317282f9dd91e6fa762c37ea311",
+          "retrieved_at_utc": "2026-09-12T13:17:06.764194+00:00"
+        },
+        {
+          "range": "330353329-330353393",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-330353329-330353393.data",
+          "bytes": 65,
+          "sha256": "ca99765f2b1cda4a5f039cc9b0f2dcad74ae8454be5d24cb4db4d6e28abfcbb4",
+          "retrieved_at_utc": "2026-09-12T13:17:09.121715+00:00"
+        },
+        {
+          "range": "333889848-333908066",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-333889848-333908066.data",
+          "bytes": 18219,
+          "sha256": "7dedef2d80fc0c84b55799c39ccd06364996e6c69c798b6a1000561cbcc83dba",
+          "retrieved_at_utc": "2026-09-12T13:17:11.510884+00:00"
+        },
+        {
+          "range": "437499320-437499374",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-437499320-437499374.data",
+          "bytes": 55,
+          "sha256": "3bb45c3259396639519812509e73b250c543fcb5c251b8a1cb80c8ad1c19ab98",
+          "retrieved_at_utc": "2026-09-12T13:17:13.871282+00:00"
+        },
+        {
+          "range": "441036325-441058176",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-441036325-441058176.data",
+          "bytes": 21852,
+          "sha256": "763544690ab751960c8029f4ad48d7e46730e4d7c02872dcce89b90cac828528",
+          "retrieved_at_utc": "2026-09-12T13:17:16.280289+00:00"
+        },
+        {
+          "range": "463390876-463390939",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-463390876-463390939.data",
+          "bytes": 64,
+          "sha256": "610331febbe30fbdb88b81d6fbd32d75d7201996207d8e9df76ff03d4a6da2c7",
+          "retrieved_at_utc": "2026-09-12T13:17:18.651064+00:00"
+        },
+        {
+          "range": "466869376-466888237",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-466869376-466888237.data",
+          "bytes": 18862,
+          "sha256": "8765cc4d2d1a371dded1ef93a2cfc090b01773266c5c11996f949d9001f93229",
+          "retrieved_at_utc": "2026-09-12T13:17:21.042732+00:00"
+        },
+        {
+          "range": "572057408-572057462",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-572057408-572057462.data",
+          "bytes": 55,
+          "sha256": "92d415ac0175b33829b8fa5bbaf572f9bfe1d9378b1fb6459a04d4a5f7859c37",
+          "retrieved_at_utc": "2026-09-12T13:17:23.399676+00:00"
+        },
+        {
+          "range": "575124399-575143019",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-575124399-575143019.data",
+          "bytes": 18621,
+          "sha256": "833106b98d27d6f91a85ae11fdcfe721343f2dc652859b1e26dd9a9eb0c5c2e3",
+          "retrieved_at_utc": "2026-09-12T13:17:25.792489+00:00"
+        },
+        {
+          "range": "575231263-575231317",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-575231263-575231317.data",
+          "bytes": 55,
+          "sha256": "92d415ac0175b33829b8fa5bbaf572f9bfe1d9378b1fb6459a04d4a5f7859c37",
+          "retrieved_at_utc": "2026-09-12T13:17:28.131097+00:00"
+        },
+        {
+          "range": "578503814-578524232",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-578503814-578524232.data",
+          "bytes": 20419,
+          "sha256": "c71fc980696ecb02d31b8fa9fb0a2db95a3d821e68192dc8f25e6e83cd344c1d",
+          "retrieved_at_utc": "2026-09-12T13:17:30.592454+00:00"
+        },
+        {
+          "range": "604036793-604036857",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-604036793-604036857.data",
+          "bytes": 65,
+          "sha256": "c7b383c7cfbf232964c63b6ba24daf7157eed861b86efe762d176171e0482083",
+          "retrieved_at_utc": "2026-09-12T13:17:32.945612+00:00"
+        },
+        {
+          "range": "607498664-607519826",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-607498664-607519826.data",
+          "bytes": 21163,
+          "sha256": "a44707a676b895d4fddcba1147884120f143fea3798a61323ee5ebc09b0fc0ae",
+          "retrieved_at_utc": "2026-09-12T13:17:35.345789+00:00"
+        },
+        {
+          "range": "650775767-650775821",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-650775767-650775821.data",
+          "bytes": 55,
+          "sha256": "57fe60251a4a667c9da0b100f6f1161e1541a3e44108a0b6441662c42e53c37c",
+          "retrieved_at_utc": "2026-09-12T13:17:37.752525+00:00"
+        },
+        {
+          "range": "654973641-654995177",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-654973641-654995177.data",
+          "bytes": 21537,
+          "sha256": "3454dd28395eb604f67eb1a87ba61776e17bb5209df19b3f7c2785ea14f0493a",
+          "retrieved_at_utc": "2026-09-12T13:17:40.159399+00:00"
+        },
+        {
+          "range": "655446536-655446590",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-655446536-655446590.data",
+          "bytes": 55,
+          "sha256": "a435e31209656fa264354cc2a5a63eb3ccde5c025b44e6ccb9245bb30c66f231",
+          "retrieved_at_utc": "2026-09-12T13:17:42.514125+00:00"
+        },
+        {
+          "range": "659052551-659074118",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-659052551-659074118.data",
+          "bytes": 21568,
+          "sha256": "c2fef3a11759dc90f4df809b2864988dede5b2bda7a9eb04d051ce14f506027f",
+          "retrieved_at_utc": "2026-09-12T13:17:44.913460+00:00"
+        },
+        {
+          "range": "659299459-659299522",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-659299459-659299522.data",
+          "bytes": 64,
+          "sha256": "adf2db656071ea428c32f139adaa0cdcac1a581b25d0f8aac2622a78de474828",
+          "retrieved_at_utc": "2026-09-12T13:17:47.254156+00:00"
+        },
+        {
+          "range": "662686148-662703484",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-662686148-662703484.data",
+          "bytes": 17337,
+          "sha256": "4e69ac6503b7783dcee8b89d2b6b74277ff16e6f385f2759bb0214cf73e44a62",
+          "retrieved_at_utc": "2026-09-12T13:17:49.642629+00:00"
+        },
+        {
+          "range": "1379439302-1379439355",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1379439302-1379439355.data",
+          "bytes": 54,
+          "sha256": "031a07515da743ac75fa4ab57f48d3d2e69b1b8c4df73da11e5fb2d9208d6072",
+          "retrieved_at_utc": "2026-09-12T13:17:51.998090+00:00"
+        },
+        {
+          "range": "1383140239-1383160369",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1383140239-1383160369.data",
+          "bytes": 20131,
+          "sha256": "c65a05c79bdca6b707061cb0c412a673a12d5336ab592aaba38efb8f0798e7a2",
+          "retrieved_at_utc": "2026-09-12T13:17:54.388442+00:00"
+        },
+        {
+          "range": "1383414683-1383414736",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1383414683-1383414736.data",
+          "bytes": 54,
+          "sha256": "031a07515da743ac75fa4ab57f48d3d2e69b1b8c4df73da11e5fb2d9208d6072",
+          "retrieved_at_utc": "2026-09-12T13:17:56.743907+00:00"
+        },
+        {
+          "range": "1386732754-1386753129",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1386732754-1386753129.data",
+          "bytes": 20376,
+          "sha256": "7ef415c13216496130971b772f38c4c2a36df9432096e845b9f63232a319f26b",
+          "retrieved_at_utc": "2026-09-12T13:17:59.135338+00:00"
+        },
+        {
+          "range": "1471808029-1471808092",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1471808029-1471808092.data",
+          "bytes": 64,
+          "sha256": "cdd35e36acdbb848567df7ecc6481f2dd33b57f76524b987499b04f3caca4709",
+          "retrieved_at_utc": "2026-09-12T13:18:01.495665+00:00"
+        },
+        {
+          "range": "1475222434-1475242695",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1475222434-1475242695.data",
+          "bytes": 20262,
+          "sha256": "a2c1be88fd96b0b1af32a35e459033a4d67d5fb29d3011baa477d33c2a4f88f8",
+          "retrieved_at_utc": "2026-09-12T13:18:03.883973+00:00"
+        },
+        {
+          "range": "1697104201-1697104254",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1697104201-1697104254.data",
+          "bytes": 54,
+          "sha256": "1f07b0c6040dc30cfd41746fae6dcbac71d542f3d5ebdb62b490c48fbcba656b",
+          "retrieved_at_utc": "2026-09-12T13:18:06.256420+00:00"
+        },
+        {
+          "range": "1700945523-1700965055",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1700945523-1700965055.data",
+          "bytes": 19533,
+          "sha256": "6d67121d262afbc33f5f248a3092b58b9742ff87c1c1f79cb40513d7e211729c",
+          "retrieved_at_utc": "2026-09-12T13:18:08.647214+00:00"
+        },
+        {
+          "range": "1765158787-1765158849",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1765158787-1765158849.data",
+          "bytes": 63,
+          "sha256": "587b5a3f162ced581adb624846ae8caff1261e59389f9ca3c630a9736a613467",
+          "retrieved_at_utc": "2026-09-12T13:18:11.010331+00:00"
+        },
+        {
+          "range": "1768450458-1768470394",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1768450458-1768470394.data",
+          "bytes": 19937,
+          "sha256": "a677be95a76fddf2396efb7372f26f995b733dd930503bbbd96272c83b0dc5a6",
+          "retrieved_at_utc": "2026-09-12T13:18:13.400774+00:00"
+        },
+        {
+          "range": "1836843774-1836843827",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1836843774-1836843827.data",
+          "bytes": 54,
+          "sha256": "f253ca320d230dc1e87d690b332f5044f3f77dbf5609fc226f007e14c0720101",
+          "retrieved_at_utc": "2026-09-12T13:18:15.751628+00:00"
+        },
+        {
+          "range": "1840577997-1840599446",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1840577997-1840599446.data",
+          "bytes": 21450,
+          "sha256": "6fca7f74600175ad4ea0f282db3da8239880646678ca5d28ac97994a7bb38fcb",
+          "retrieved_at_utc": "2026-09-12T13:18:18.146564+00:00"
+        },
+        {
+          "range": "1870032119-1870032181",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1870032119-1870032181.data",
+          "bytes": 63,
+          "sha256": "6e9cbe9f1d073e974dfbf71d9bfa725197c46795f263e9c5839d94959953212c",
+          "retrieved_at_utc": "2026-09-12T13:18:20.500872+00:00"
+        },
+        {
+          "range": "1873716489-1873736862",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1873716489-1873736862.data",
+          "bytes": 20374,
+          "sha256": "546437a05cb75712af5d067f4ce0ad632a04195f00aa6a7e1710ed06ef3c3484",
+          "retrieved_at_utc": "2026-09-12T13:18:22.889496+00:00"
+        },
+        {
+          "range": "1930025146-1930025199",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1930025146-1930025199.data",
+          "bytes": 54,
+          "sha256": "b7b146225755235d8f334f33411eca87cb4f10f565ff144dfcad2c505011abaa",
+          "retrieved_at_utc": "2026-09-12T13:18:25.240046+00:00"
+        },
+        {
+          "range": "1933677450-1933700245",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1933677450-1933700245.data",
+          "bytes": 22796,
+          "sha256": "3c9f8417a6c03a37551d4787c7f7dc2b7b3f97818c9ee1b2aadae65d552af0dd",
+          "retrieved_at_utc": "2026-09-12T13:18:27.638500+00:00"
+        },
+        {
+          "range": "1993065548-1993065610",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1993065548-1993065610.data",
+          "bytes": 63,
+          "sha256": "5fcb8589e6d282d8964ef8ac1952cfc650ea0195aa29b2a2c06a7088aceaf97d",
+          "retrieved_at_utc": "2026-09-12T13:18:29.987216+00:00"
+        },
+        {
+          "range": "1996559883-1996587453",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1996559883-1996587453.data",
+          "bytes": 27571,
+          "sha256": "97edade23727b5cf04bd29eab4f7f9ab96a83f616d096a519fc74cb185085023",
+          "retrieved_at_utc": "2026-09-12T13:18:32.396068+00:00"
+        },
+        {
+          "range": "2145240471-2145240524",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2145240471-2145240524.data",
+          "bytes": 54,
+          "sha256": "d008ae6b0cab8b8ff4b823c6a25671ac3d663d7aca7d195bba19f91b401cefe7",
+          "retrieved_at_utc": "2026-09-12T13:18:35.009674+00:00"
+        },
+        {
+          "range": "2148410899-2148432412",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2148410899-2148432412.data",
+          "bytes": 21514,
+          "sha256": "298287d5eaf922dc94bb56d2ee8e36b7df555eb64b3ea4f5f9ded890b9312ec0",
+          "retrieved_at_utc": "2026-09-12T13:18:37.417796+00:00"
+        },
+        {
+          "range": "2191419195-2191419256",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2191419195-2191419256.data",
+          "bytes": 62,
+          "sha256": "95b942ae071c7bf220dcb562756df1551a5a058f43328baa004ca7de88484b26",
+          "retrieved_at_utc": "2026-09-12T13:18:39.796933+00:00"
+        },
+        {
+          "range": "2194830332-2194850455",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2194830332-2194850455.data",
+          "bytes": 20124,
+          "sha256": "b319a51f3072aadd6221accb6a5849ae4a1617e83a6276e7eb09963b5796178d",
+          "retrieved_at_utc": "2026-09-12T13:18:42.263800+00:00"
+        },
+        {
+          "range": "2286897576-2286897629",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2286897576-2286897629.data",
+          "bytes": 54,
+          "sha256": "318f7e2f56817c865894d5de17130d9fbecbfed262df2ef71d28d63c8e222da1",
+          "retrieved_at_utc": "2026-09-12T13:18:44.733739+00:00"
+        },
+        {
+          "range": "2290963147-2290986290",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2290963147-2290986290.data",
+          "bytes": 23144,
+          "sha256": "961b468e748ef709c4301872ec0761cb55792663ffde9d89890386d2969d8c9e",
+          "retrieved_at_utc": "2026-09-12T13:18:47.134316+00:00"
+        },
+        {
+          "range": "2324611315-2324611377",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2324611315-2324611377.data",
+          "bytes": 63,
+          "sha256": "281ba3b8cd5d4f2ce53175b030966bf6b4496b100006819903bca9780d1f5600",
+          "retrieved_at_utc": "2026-09-12T13:18:49.494124+00:00"
+        },
+        {
+          "range": "2328431285-2328449214",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2328431285-2328449214.data",
+          "bytes": 17930,
+          "sha256": "6b3fa7ab7de5dbad0cc0e1d716169626c36940282c3e077f8f7b501bc36267dd",
+          "retrieved_at_utc": "2026-09-12T13:18:51.880701+00:00"
+        },
+        {
+          "range": "2391702549-2391702602",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2391702549-2391702602.data",
+          "bytes": 54,
+          "sha256": "7e43efe3d3984f55fdd47f9c299454794d5d6ccf60b263847b04e5ef590b4386",
+          "retrieved_at_utc": "2026-09-12T13:18:54.231445+00:00"
+        },
+        {
+          "range": "2395606253-2395626011",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2395606253-2395626011.data",
+          "bytes": 19759,
+          "sha256": "bd019676ee6f693a81992409dc1cacace67216f1fdcc78aefdfdf2d19997cab4",
+          "retrieved_at_utc": "2026-09-12T13:18:56.620426+00:00"
+        },
+        {
+          "range": "2415303500-2415303562",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2415303500-2415303562.data",
+          "bytes": 63,
+          "sha256": "50d57fb277bcce161f25dc42fc0293efe5b58e3931d804168ccf5973821223d1",
+          "retrieved_at_utc": "2026-09-12T13:18:58.987867+00:00"
+        },
+        {
+          "range": "2418623419-2418643744",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2418623419-2418643744.data",
+          "bytes": 20326,
+          "sha256": "26055273f9a1fc43f88f25bd06e7c452ad87286944fa7306c06eee0556a81817",
+          "retrieved_at_utc": "2026-09-12T13:19:01.377683+00:00"
+        },
+        {
+          "range": "2473227980-2473228033",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2473227980-2473228033.data",
+          "bytes": 54,
+          "sha256": "399d243d14f8cba92c74b4970e29bb1760509218958e48395063bed07a045cd9",
+          "retrieved_at_utc": "2026-09-12T13:19:04.481499+00:00"
+        },
+        {
+          "range": "2476672120-2476694176",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2476672120-2476694176.data",
+          "bytes": 22057,
+          "sha256": "626857681a6d78d03fe3c9ef36da9fbafe469e38d9a3aaab43b19318c660c4c4",
+          "retrieved_at_utc": "2026-09-12T13:19:06.910441+00:00"
+        },
+        {
+          "range": "2511773454-2511773516",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2511773454-2511773516.data",
+          "bytes": 63,
+          "sha256": "66e5f169fed941994e3eb7c930f02cc13983c19ff958a7768e413c3d8b1ec701",
+          "retrieved_at_utc": "2026-09-12T13:19:09.264746+00:00"
+        },
+        {
+          "range": "2515662599-2515686020",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2515662599-2515686020.data",
+          "bytes": 23422,
+          "sha256": "659aba280133901eef804e1b8cd53867a2dca7cb9944beb9692a0d943d85ea86",
+          "retrieved_at_utc": "2026-09-12T13:19:11.672142+00:00"
+        },
+        {
+          "range": "2536142307-2536142360",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2536142307-2536142360.data",
+          "bytes": 54,
+          "sha256": "4a76e8a350d490674d4b492509903474274572d54e61342c0419e23a72714795",
+          "retrieved_at_utc": "2026-09-12T13:19:14.027372+00:00"
+        },
+        {
+          "range": "2539833397-2539855661",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2539833397-2539855661.data",
+          "bytes": 22265,
+          "sha256": "5f532dedfcf76806342df801967cb92e77a8894a1e7083dd1ed8812612add95c",
+          "retrieved_at_utc": "2026-09-12T13:19:16.433885+00:00"
+        },
+        {
+          "range": "1379419171-1386855044",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-1379419171-1386855044.data",
+          "bytes": 7435874,
+          "sha256": "542f518b6cc2beacf9bff633ec9e112a36a2c1e9d979befc82ec0995b0ef8b5e",
+          "retrieved_at_utc": "2026-09-12T13:19:23.992134+00:00"
+        }
+      ],
+      "remote_size": 2553606318,
+      "etag": "\"9834f0ae-6497b69ac36b1\"",
+      "last_modified": "Wed, 28 Jan 2026 23:51:02 GMT",
+      "metadata": {
+        "schema": "molecular_trait_id: string\nchromosome: string\nposition: int32\nref: string\nalt: string\nvariant: string\nma_samples: int32\nmaf: double\npvalue: double\nbeta: double\nse: double\ntype: string\nac: int32\nan: int32\nr2: string\nmolecular_trait_object_id: string\ngene_id: string\nmedian_tpm: int32\nrsid: string",
+        "total_rows": 86442821,
+        "total_row_groups": 701,
+        "candidate_gene_row_groups": [
+          386,
+          387
+        ],
+        "identifier_only_row_groups": [
+          32,
+          33,
+          64,
+          86,
+          91,
+          121,
+          128,
+          158,
+          159,
+          167,
+          179,
+          180,
+          181,
+          386,
+          387,
+          410,
+          472,
+          490,
+          509,
+          517,
+          532,
+          549,
+          593,
+          605,
+          631,
+          641,
+          658,
+          664,
+          679,
+          690,
+          696
+        ],
+        "identifier_only_rows": 3826500,
+        "candidate_rows": 247020
+      },
+      "result": {
+        "file": "data/derived/coverage-repair-queries/QTD000889-alternative.tsv.gz",
+        "sha256": "ab0f7044afde885034a2e91bd4b7ab36f93f273e017e92dee72d6c20254c5d59",
+        "uncompressed_sha256": "a20ff91b574a8b612fbe931d6406397a00cd17690212747b95a0dcbe81615b65",
+        "gene_rows_before_region_filter": 5457,
+        "rows": 5457,
+        "transfer_bytes": 9301027
+      }
+    },
+    {
+      "id": "QTD000891",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000891/QTD000891.all.parquet",
+      "ranges": [
+        {
+          "range": "0-7",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-0-7.data",
+          "bytes": 8,
+          "sha256": "306ed0b5ec3dfe3ff54e131319dc0207e79d28accac79e3e09516a568657d583",
+          "retrieved_at_utc": "2026-09-12T13:19:26.741053+00:00"
+        },
+        {
+          "range": "4817520292-4817585827",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4817520292-4817585827.data",
+          "bytes": 65536,
+          "sha256": "32d249ce82fe1158d58f9c5434aee36e7daf198ba9d36ddfd54f1c8c6f8fb8d4",
+          "retrieved_at_utc": "2026-09-12T13:19:29.239356+00:00"
+        },
+        {
+          "range": "4815362615-4817585819",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4815362615-4817585819.data",
+          "bytes": 2223205,
+          "sha256": "dbaa53ca4ec8f073e2bc4e5353c1dac305ef3e1a998aef3acdff8c38c681e07a",
+          "retrieved_at_utc": "2026-09-12T13:19:33.713692+00:00"
+        },
+        {
+          "range": "210264300-210264353",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-210264300-210264353.data",
+          "bytes": 54,
+          "sha256": "1184843022be8273757dabb3a49a492d49c06a4a80d4dd19f639a0a8069524d4",
+          "retrieved_at_utc": "2026-09-12T13:19:36.036868+00:00"
+        },
+        {
+          "range": "213514079-213557071",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-213514079-213557071.data",
+          "bytes": 42993,
+          "sha256": "7fc7ef8029df1e9202ce4acf50c5ac5e30c2952cf87feb393b503e7d305c5043",
+          "retrieved_at_utc": "2026-09-12T13:19:38.448891+00:00"
+        },
+        {
+          "range": "213644936-213644989",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-213644936-213644989.data",
+          "bytes": 54,
+          "sha256": "1184843022be8273757dabb3a49a492d49c06a4a80d4dd19f639a0a8069524d4",
+          "retrieved_at_utc": "2026-09-12T13:19:40.797389+00:00"
+        },
+        {
+          "range": "216896329-216941153",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-216896329-216941153.data",
+          "bytes": 44825,
+          "sha256": "6ac9d0ba50feb6eeac342cc25e8364f119c2690c63437b82d150776ccffb733a",
+          "retrieved_at_utc": "2026-09-12T13:19:43.205815+00:00"
+        },
+        {
+          "range": "217025018-217025071",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-217025018-217025071.data",
+          "bytes": 54,
+          "sha256": "f722f16e006fa0a2a16a3aeaa399fe87df2e9086dcfb8882ae6bd272ef3b72c1",
+          "retrieved_at_utc": "2026-09-12T13:19:45.570815+00:00"
+        },
+        {
+          "range": "220246211-220288116",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-220246211-220288116.data",
+          "bytes": 41906,
+          "sha256": "df99a2514a4b2bff995083d5c6f213dcc7fc40159d7c7c4605ded28f4e92c847",
+          "retrieved_at_utc": "2026-09-12T13:19:47.968162+00:00"
+        },
+        {
+          "range": "220374570-220374623",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-220374570-220374623.data",
+          "bytes": 54,
+          "sha256": "1184843022be8273757dabb3a49a492d49c06a4a80d4dd19f639a0a8069524d4",
+          "retrieved_at_utc": "2026-09-12T13:19:50.307080+00:00"
+        },
+        {
+          "range": "223641667-223682788",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-223641667-223682788.data",
+          "bytes": 41122,
+          "sha256": "267d1812b93d77b89118d66b864d21015ca18d97ebc127470c57facd0b066c17",
+          "retrieved_at_utc": "2026-09-12T13:19:52.705936+00:00"
+        },
+        {
+          "range": "422484112-422484175",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-422484112-422484175.data",
+          "bytes": 64,
+          "sha256": "23cfa4eca1ec12ff841f722cd9d8e61598119d5813c56efd41e767e3142ac20d",
+          "retrieved_at_utc": "2026-09-12T13:19:55.050936+00:00"
+        },
+        {
+          "range": "425906987-425944420",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-425906987-425944420.data",
+          "bytes": 37434,
+          "sha256": "6503ae3f2a2997c8bbae1c59674c81f37fdd9fd01145eacd6f32d2724c2b5fe4",
+          "retrieved_at_utc": "2026-09-12T13:19:57.444130+00:00"
+        },
+        {
+          "range": "576626657-576626711",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-576626657-576626711.data",
+          "bytes": 55,
+          "sha256": "a883d387f2353c832510c6dcb7f8b7dddedc851d21b39333c2829582d43fcd75",
+          "retrieved_at_utc": "2026-09-12T13:19:59.801428+00:00"
+        },
+        {
+          "range": "580420049-580459216",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-580420049-580459216.data",
+          "bytes": 39168,
+          "sha256": "7187d56891cfa49091816fb40b789517f73f3d0c999108a2018118ddad6c08e3",
+          "retrieved_at_utc": "2026-09-12T13:20:02.203558+00:00"
+        },
+        {
+          "range": "580779991-580780045",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-580779991-580780045.data",
+          "bytes": 55,
+          "sha256": "f1214a41714308c5fbd3ebc9b06ea6505f12e66537792fd7143efd894f9628d7",
+          "retrieved_at_utc": "2026-09-12T13:20:04.553054+00:00"
+        },
+        {
+          "range": "584188342-584227741",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-584188342-584227741.data",
+          "bytes": 39400,
+          "sha256": "99952d3f5924adfda73cf1a2566a4ae0cd22229855ed6f4842075d6b40006c30",
+          "retrieved_at_utc": "2026-09-12T13:20:06.944399+00:00"
+        },
+        {
+          "range": "613813246-613813310",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-613813246-613813310.data",
+          "bytes": 65,
+          "sha256": "5578a864935cf8cbcc950c2e1f21e057f010e570aec4912051b294b630b24940",
+          "retrieved_at_utc": "2026-09-12T13:20:09.294373+00:00"
+        },
+        {
+          "range": "617108015-617151640",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-617108015-617151640.data",
+          "bytes": 43626,
+          "sha256": "deb7c854f41390e307ca79e0939fa6742b73f177f4a5ea7ec7112b2790a0ba09",
+          "retrieved_at_utc": "2026-09-12T13:20:11.699799+00:00"
+        },
+        {
+          "range": "807797173-807797227",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-807797173-807797227.data",
+          "bytes": 55,
+          "sha256": "c4f7806a369270f7aa7cfa27eccad66e4e21b54ac53eeb2ec5a4218e59ebe9e3",
+          "retrieved_at_utc": "2026-09-12T13:20:14.053337+00:00"
+        },
+        {
+          "range": "811139850-811176088",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-811139850-811176088.data",
+          "bytes": 36239,
+          "sha256": "a2f2d42c1eca81b15b19c4396904c1ed27f75559a9d17a9923560cd66e897823",
+          "retrieved_at_utc": "2026-09-12T13:20:16.463545+00:00"
+        },
+        {
+          "range": "811370843-811370897",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-811370843-811370897.data",
+          "bytes": 55,
+          "sha256": "5ecd5a68a950f87e84cf6dd806a9ab56905d9ef56d7e51cf2c4ed46227c284a3",
+          "retrieved_at_utc": "2026-09-12T13:20:18.803837+00:00"
+        },
+        {
+          "range": "814657341-814706716",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-814657341-814706716.data",
+          "bytes": 49376,
+          "sha256": "8d97f229eedbaa90101f29c4bc438310092c5d2ef5e7252f72fd716d49931d2b",
+          "retrieved_at_utc": "2026-09-12T13:20:21.197790+00:00"
+        },
+        {
+          "range": "857312039-857312103",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-857312039-857312103.data",
+          "bytes": 65,
+          "sha256": "cb048f088e2457b2a503c5960bcf5de9b8082b8b4f87b84d56f8d104cb1c99b8",
+          "retrieved_at_utc": "2026-09-12T13:20:23.544310+00:00"
+        },
+        {
+          "range": "860735489-860766726",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-860735489-860766726.data",
+          "bytes": 31238,
+          "sha256": "ea7d99fdfc4601c6e823197627e018d92aeb28775d9fe46b39da9d7f748b964f",
+          "retrieved_at_utc": "2026-09-12T13:20:25.945229+00:00"
+        },
+        {
+          "range": "1066996707-1066996761",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1066996707-1066996761.data",
+          "bytes": 55,
+          "sha256": "fd68700efd5a9dbb6b2433ff653ba6b692e7f1b75f2ddadc070292cd1321f5f8",
+          "retrieved_at_utc": "2026-09-12T13:20:28.310377+00:00"
+        },
+        {
+          "range": "1070288925-1070345092",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1070288925-1070345092.data",
+          "bytes": 56168,
+          "sha256": "ef8412806a0a52bab7e16149dfe9984a97d794ab4905e9245de6a6c62185ef03",
+          "retrieved_at_utc": "2026-09-12T13:20:30.797295+00:00"
+        },
+        {
+          "range": "1070443592-1070443646",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1070443592-1070443646.data",
+          "bytes": 55,
+          "sha256": "67283326cfc3051ce5b923e58d61a3d2def5bb2869047434a5556256f31a09b5",
+          "retrieved_at_utc": "2026-09-12T13:20:33.134800+00:00"
+        },
+        {
+          "range": "1073559482-1073607575",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1073559482-1073607575.data",
+          "bytes": 48094,
+          "sha256": "8559409b0a20952f44e5029c7a1f2b888d840d68910e26837da2b0f1309f950b",
+          "retrieved_at_utc": "2026-09-12T13:20:35.674435+00:00"
+        },
+        {
+          "range": "1073697506-1073697560",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1073697506-1073697560.data",
+          "bytes": 55,
+          "sha256": "fd68700efd5a9dbb6b2433ff653ba6b692e7f1b75f2ddadc070292cd1321f5f8",
+          "retrieved_at_utc": "2026-09-12T13:20:39.183033+00:00"
+        },
+        {
+          "range": "1076945642-1076978432",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1076945642-1076978432.data",
+          "bytes": 32791,
+          "sha256": "671b132a6199642413d6eddab0762c2a922d7f95211eb98e18c124629045f3d6",
+          "retrieved_at_utc": "2026-09-12T13:20:41.588279+00:00"
+        },
+        {
+          "range": "1122757816-1122757880",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1122757816-1122757880.data",
+          "bytes": 65,
+          "sha256": "44db16419547b2ae0666a2344a8660272ce6a259b841d05da3f27e5fab91bb91",
+          "retrieved_at_utc": "2026-09-12T13:20:43.945963+00:00"
+        },
+        {
+          "range": "1126091822-1126133473",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1126091822-1126133473.data",
+          "bytes": 41652,
+          "sha256": "5c62a6fe18640ae3f55a40d90f71a50e1eaff388e731c7180f68a075df526f97",
+          "retrieved_at_utc": "2026-09-12T13:20:46.350792+00:00"
+        },
+        {
+          "range": "1213435122-1213435176",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1213435122-1213435176.data",
+          "bytes": 55,
+          "sha256": "f88b4da7b434ddf4aef6eda56b800450ea7c3168aa797d85973d19d8dd52ce12",
+          "retrieved_at_utc": "2026-09-12T13:20:48.703550+00:00"
+        },
+        {
+          "range": "1217012908-1217062419",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1217012908-1217062419.data",
+          "bytes": 49512,
+          "sha256": "d178366ff997b00131fd0855d8a474f26150bac6817b22335fdd68d983ff3ced",
+          "retrieved_at_utc": "2026-09-12T13:20:51.193035+00:00"
+        },
+        {
+          "range": "1220741381-1220741445",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1220741381-1220741445.data",
+          "bytes": 65,
+          "sha256": "19555a704ec2f67cdeed07cdb2a546e080e0ddcad9aeddf862299867a99a9b8c",
+          "retrieved_at_utc": "2026-09-12T13:20:53.544642+00:00"
+        },
+        {
+          "range": "1224080135-1224130810",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-1224080135-1224130810.data",
+          "bytes": 50676,
+          "sha256": "d94e7a6085f5de38b906bf74842a32496ccc948c015a4265ec3c84e7da3d3f36",
+          "retrieved_at_utc": "2026-09-12T13:20:56.033320+00:00"
+        },
+        {
+          "range": "2654729463-2654729516",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2654729463-2654729516.data",
+          "bytes": 54,
+          "sha256": "cff5466b5054ea743bc2b181383bddc74d1e7ce823e23e095384110388b81fe9",
+          "retrieved_at_utc": "2026-09-12T13:20:58.400146+00:00"
+        },
+        {
+          "range": "2658173696-2658209013",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2658173696-2658209013.data",
+          "bytes": 35318,
+          "sha256": "c673ca159cca28cca7565715dbf597fd471bd38b08c1b1ff7cccc26e90c8a4c3",
+          "retrieved_at_utc": "2026-09-12T13:21:00.801277+00:00"
+        },
+        {
+          "range": "2658384822-2658384875",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2658384822-2658384875.data",
+          "bytes": 54,
+          "sha256": "cff5466b5054ea743bc2b181383bddc74d1e7ce823e23e095384110388b81fe9",
+          "retrieved_at_utc": "2026-09-12T13:21:03.138857+00:00"
+        },
+        {
+          "range": "2661686638-2661736009",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2661686638-2661736009.data",
+          "bytes": 49372,
+          "sha256": "44659f446e76295584946869049ff1c528f68bd7847f00f9da08ef03a3d8281a",
+          "retrieved_at_utc": "2026-09-12T13:21:05.542745+00:00"
+        },
+        {
+          "range": "2814998097-2814998160",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2814998097-2814998160.data",
+          "bytes": 64,
+          "sha256": "2234292890780040b95e57b2d8bd62e13fd5a8041c8769da4162e35c6a9a4b74",
+          "retrieved_at_utc": "2026-09-12T13:21:07.886862+00:00"
+        },
+        {
+          "range": "2818363041-2818418673",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2818363041-2818418673.data",
+          "bytes": 55633,
+          "sha256": "f4267eb87d961bddaf3283955124460334aa2ac70ca9ea6bc0033be3ebbb3df4",
+          "retrieved_at_utc": "2026-09-12T13:21:10.370064+00:00"
+        },
+        {
+          "range": "3230893240-3230893293",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3230893240-3230893293.data",
+          "bytes": 54,
+          "sha256": "1505c077d8162f211efae8d290b70c88b11b0a8bcdbdee3c06f7967920f2576a",
+          "retrieved_at_utc": "2026-09-12T13:21:12.734653+00:00"
+        },
+        {
+          "range": "3234251187-3234298582",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3234251187-3234298582.data",
+          "bytes": 47396,
+          "sha256": "fe0039436c9a020f89fcca182234dcc439857b796264a39dab2e188e44357e80",
+          "retrieved_at_utc": "2026-09-12T13:21:15.137334+00:00"
+        },
+        {
+          "range": "3359434700-3359434762",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3359434700-3359434762.data",
+          "bytes": 63,
+          "sha256": "8355335ae019cee3c5488824af343f33d92752c23b1284a4bc327e23ca45b58a",
+          "retrieved_at_utc": "2026-09-12T13:21:17.487983+00:00"
+        },
+        {
+          "range": "3362686323-3362732547",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3362686323-3362732547.data",
+          "bytes": 46225,
+          "sha256": "108494038c121822b819af65dd0f4a614e5cf4619f4c85be3fc1c6988fee5e82",
+          "retrieved_at_utc": "2026-09-12T13:21:19.904813+00:00"
+        },
+        {
+          "range": "3491163090-3491163143",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3491163090-3491163143.data",
+          "bytes": 54,
+          "sha256": "ade366212d1ed8c886a323e17e4ff263dc957862471c2d8ce91ea448be061fcb",
+          "retrieved_at_utc": "2026-09-12T13:21:22.261111+00:00"
+        },
+        {
+          "range": "3494616735-3494649885",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3494616735-3494649885.data",
+          "bytes": 33151,
+          "sha256": "34db46d756c6fd7addaf6eb4dda76b3c10e173a0d18903c8d8d55a92c90e7eee",
+          "retrieved_at_utc": "2026-09-12T13:21:24.664047+00:00"
+        },
+        {
+          "range": "3560537120-3560537182",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3560537120-3560537182.data",
+          "bytes": 63,
+          "sha256": "0eeadcbbe1850d1196e362438e4d0b2af44fe2e218488b6523174e9670287e6a",
+          "retrieved_at_utc": "2026-09-12T13:21:27.026452+00:00"
+        },
+        {
+          "range": "3564100095-3564139038",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3564100095-3564139038.data",
+          "bytes": 38944,
+          "sha256": "4cd22549cdd377fee372b11b577797a6c815d694794e8373c879f9bec9887fa0",
+          "retrieved_at_utc": "2026-09-12T13:21:29.443283+00:00"
+        },
+        {
+          "range": "3672611264-3672611317",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3672611264-3672611317.data",
+          "bytes": 54,
+          "sha256": "6b41b35f14caa026e49a51cb2d8590a0edc72fc296d76024e69c670b5d8b1d1c",
+          "retrieved_at_utc": "2026-09-12T13:21:31.806190+00:00"
+        },
+        {
+          "range": "3675997928-3676030064",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3675997928-3676030064.data",
+          "bytes": 32137,
+          "sha256": "70e0ae1e68e609d5486660f5e977816e1d8db5411d3c6834011b41ef2fcb3aa9",
+          "retrieved_at_utc": "2026-09-12T13:21:34.210432+00:00"
+        },
+        {
+          "range": "3676180265-3676180318",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3676180265-3676180318.data",
+          "bytes": 54,
+          "sha256": "0adb4f0d7ed19876096576eb01b6f91a3cb616b9b0516e078601ecdecb9c1479",
+          "retrieved_at_utc": "2026-09-12T13:21:36.561065+00:00"
+        },
+        {
+          "range": "3679653965-3679682386",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3679653965-3679682386.data",
+          "bytes": 28422,
+          "sha256": "4dba4d26c05b378b702d4b36387f38eb51922e350fc3a77ee9ce005d0e29a847",
+          "retrieved_at_utc": "2026-09-12T13:21:38.968062+00:00"
+        },
+        {
+          "range": "3791093231-3791093293",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3791093231-3791093293.data",
+          "bytes": 63,
+          "sha256": "90727661b4b42f2ff284077d401c00e7bd8f67953fd6a54e6289a7237b2a4f9e",
+          "retrieved_at_utc": "2026-09-12T13:21:41.323822+00:00"
+        },
+        {
+          "range": "3794527226-3794565569",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-3794527226-3794565569.data",
+          "bytes": 38344,
+          "sha256": "283e1837698c2ce4416cf925e7c5afc92eb05b839fa571ee607bedbe66c8d9b1",
+          "retrieved_at_utc": "2026-09-12T13:21:43.729094+00:00"
+        },
+        {
+          "range": "4057365656-4057365709",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4057365656-4057365709.data",
+          "bytes": 54,
+          "sha256": "361267b4d80ec945ec8a980e3ba24e21749cc1ef3cdb7697892be7f0182b7632",
+          "retrieved_at_utc": "2026-09-12T13:21:46.077404+00:00"
+        },
+        {
+          "range": "4060670220-4060726712",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4060670220-4060726712.data",
+          "bytes": 56493,
+          "sha256": "1785ab2c5b2b2689ccd2868dca4a4c8b4be0f5d04820f3c8e49631958e741861",
+          "retrieved_at_utc": "2026-09-12T13:21:48.559879+00:00"
+        },
+        {
+          "range": "4060844715-4060844768",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4060844715-4060844768.data",
+          "bytes": 54,
+          "sha256": "361267b4d80ec945ec8a980e3ba24e21749cc1ef3cdb7697892be7f0182b7632",
+          "retrieved_at_utc": "2026-09-12T13:21:50.895021+00:00"
+        },
+        {
+          "range": "4064413181-4064451373",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4064413181-4064451373.data",
+          "bytes": 38193,
+          "sha256": "a6aa092cffd446da0e61b26cd012775b8bca52941b360be7ce079a56c30041d7",
+          "retrieved_at_utc": "2026-09-12T13:21:53.305014+00:00"
+        },
+        {
+          "range": "4134061336-4134061398",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4134061336-4134061398.data",
+          "bytes": 63,
+          "sha256": "823b8f0578ed2fb2a50181a8e4360d5137bd4e2d95c27c8c71669945bf2ccbaf",
+          "retrieved_at_utc": "2026-09-12T13:21:55.664032+00:00"
+        },
+        {
+          "range": "4137428074-4137467499",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4137428074-4137467499.data",
+          "bytes": 39426,
+          "sha256": "faeaa187fc6aab7973b814130974014185d37af734f93910d9cc8fcb187abbc2",
+          "retrieved_at_utc": "2026-09-12T13:21:58.076924+00:00"
+        },
+        {
+          "range": "4312882850-4312882903",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4312882850-4312882903.data",
+          "bytes": 54,
+          "sha256": "fb25d7638ff480c34938779e9014433e53b4a87ab1a024f964dcd81c1fe25c89",
+          "retrieved_at_utc": "2026-09-12T13:22:00.494091+00:00"
+        },
+        {
+          "range": "4316600338-4316636459",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4316600338-4316636459.data",
+          "bytes": 36122,
+          "sha256": "5ea7ae8c9dd269ee0ec04f05ced6976dbd32967654a5f59d3b511d51c6257c4a",
+          "retrieved_at_utc": "2026-09-12T13:22:02.889424+00:00"
+        },
+        {
+          "range": "4388026198-4388026260",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4388026198-4388026260.data",
+          "bytes": 63,
+          "sha256": "d13f495e5d1886fef07a356e3add42308d1831d741589e33f1ba72195bd42ca7",
+          "retrieved_at_utc": "2026-09-12T13:22:05.240569+00:00"
+        },
+        {
+          "range": "4391645862-4391681726",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4391645862-4391681726.data",
+          "bytes": 35865,
+          "sha256": "75a824a18709ac6ef971961ca42745712331792d8196eec7b10442ddd00a0698",
+          "retrieved_at_utc": "2026-09-12T13:22:07.657123+00:00"
+        },
+        {
+          "range": "4520360306-4520360359",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4520360306-4520360359.data",
+          "bytes": 54,
+          "sha256": "a20f4772562fd936c266e68611dc9b5f368bcdea17e41ee072c0e8cce1237fb9",
+          "retrieved_at_utc": "2026-09-12T13:22:10.038232+00:00"
+        },
+        {
+          "range": "4524412045-4524435138",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4524412045-4524435138.data",
+          "bytes": 23094,
+          "sha256": "5a16d7a2b4d7eb577c6fd4ce3320d8313c2255e4177c22a617f4c1fe4d2e842b",
+          "retrieved_at_utc": "2026-09-12T13:22:12.441160+00:00"
+        },
+        {
+          "range": "4568415101-4568415163",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4568415101-4568415163.data",
+          "bytes": 63,
+          "sha256": "0368ef4b81acc6e2e4f014db34f52e118a292a112b9036a7a8e7699acc66c240",
+          "retrieved_at_utc": "2026-09-12T13:22:14.800544+00:00"
+        },
+        {
+          "range": "4571941243-4571980981",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4571941243-4571980981.data",
+          "bytes": 39739,
+          "sha256": "a7c198c3b0e8f67e097ba0ac0e4bd74126b563d46946ac6af43413c545f2c276",
+          "retrieved_at_utc": "2026-09-12T13:22:17.206255+00:00"
+        },
+        {
+          "range": "4671411384-4671411437",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4671411384-4671411437.data",
+          "bytes": 54,
+          "sha256": "5351fb08fd6b4c3d515e8f2dacfa56dbf27aae8480e5e8d88e7e0dd2b6cd8758",
+          "retrieved_at_utc": "2026-09-12T13:22:19.559666+00:00"
+        },
+        {
+          "range": "4674985504-4675009892",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4674985504-4675009892.data",
+          "bytes": 24389,
+          "sha256": "c1c655dde89d364069fe7ac83e04001ed4f6236d1bb339aa22d29511cfae5066",
+          "retrieved_at_utc": "2026-09-12T13:22:22.247931+00:00"
+        },
+        {
+          "range": "4675268951-4675269004",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4675268951-4675269004.data",
+          "bytes": 54,
+          "sha256": "5351fb08fd6b4c3d515e8f2dacfa56dbf27aae8480e5e8d88e7e0dd2b6cd8758",
+          "retrieved_at_utc": "2026-09-12T13:22:24.605815+00:00"
+        },
+        {
+          "range": "4678567113-4678604737",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4678567113-4678604737.data",
+          "bytes": 37625,
+          "sha256": "347a757bcb6d32e82d6374623ffe659ffb773aa18921407058df3a3b834a5e15",
+          "retrieved_at_utc": "2026-09-12T13:22:27.012593+00:00"
+        },
+        {
+          "range": "4744509265-4744509327",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4744509265-4744509327.data",
+          "bytes": 63,
+          "sha256": "28e83643d88d4747d91c9d78de9c6034dbe100d70f540e8c8645fdf282e4649e",
+          "retrieved_at_utc": "2026-09-12T13:22:29.365624+00:00"
+        },
+        {
+          "range": "4748273623-4748299178",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4748273623-4748299178.data",
+          "bytes": 25556,
+          "sha256": "18c4fc3763672fb9fc4dd995be6eefcf67f22169c2ac29dfd943fbed5d3ea12c",
+          "retrieved_at_utc": "2026-09-12T13:22:31.769513+00:00"
+        },
+        {
+          "range": "4789879815-4789879868",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4789879815-4789879868.data",
+          "bytes": 54,
+          "sha256": "288c55056f4e1a15248c1bcb2508222e49fee9ea087730a3a4a7ab2f568c89f3",
+          "retrieved_at_utc": "2026-09-12T13:22:34.126078+00:00"
+        },
+        {
+          "range": "4793435038-4793458361",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-4793435038-4793458361.data",
+          "bytes": 23324,
+          "sha256": "5eb9bc0df7948dfa6741f1d786312f4f581985de696e8e90aebcb05e248689b9",
+          "retrieved_at_utc": "2026-09-12T13:22:36.537388+00:00"
+        },
+        {
+          "range": "2654694145-2661796544",
+          "file": "data/raw/repair-parquet-ranges/QTD000891-2654694145-2661796544.data",
+          "bytes": 7102400,
+          "sha256": "11fa0eab3467704279e26a02f9ed10d33e926acbd1a2d5c881313f651e55d87f",
+          "retrieved_at_utc": "2026-09-12T13:22:45.959181+00:00"
+        }
+      ],
+      "remote_size": 4817585828,
+      "etag": "\"11f2686a4-64978fa30d216\"",
+      "last_modified": "Wed, 28 Jan 2026 20:56:42 GMT",
+      "metadata": {
+        "schema": "molecular_trait_id: string\nchromosome: string\nposition: int32\nref: string\nalt: string\nvariant: string\nma_samples: int32\nmaf: double\npvalue: double\nbeta: double\nse: double\ntype: string\nac: int32\nan: int32\nr2: string\nmolecular_trait_object_id: string\ngene_id: string\nmedian_tpm: int32\nrsid: string",
+        "total_rows": 167735124,
+        "total_row_groups": 1357,
+        "candidate_gene_row_groups": [
+          756,
+          757
+        ],
+        "identifier_only_row_groups": [
+          60,
+          61,
+          62,
+          63,
+          121,
+          164,
+          165,
+          174,
+          229,
+          230,
+          243,
+          303,
+          304,
+          305,
+          319,
+          343,
+          345,
+          756,
+          757,
+          800,
+          917,
+          953,
+          989,
+          1007,
+          1037,
+          1038,
+          1070,
+          1148,
+          1149,
+          1169,
+          1219,
+          1240,
+          1276,
+          1289,
+          1317,
+          1318,
+          1338,
+          1350
+        ],
+        "identifier_only_rows": 4697728,
+        "candidate_rows": 247392
+      },
+      "result": {
+        "file": "data/derived/coverage-repair-queries/QTD000891-alternative.tsv.gz",
+        "sha256": "8b65e9abc7824f2696ecddb95f9866fe220d33ab97e32ae0e86cd6ef0b06d647",
+        "uncompressed_sha256": "f3225b13266c9bb02a38826d2abdf7a060d6b61f8014f26c73400806a07bbad8",
+        "gene_rows_before_region_filter": 5493,
+        "rows": 5493,
+        "transfer_bytes": 10904324
+      }
+    },
+    {
+      "id": "QTD000892",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000892/QTD000892.all.parquet",
+      "ranges": [
+        {
+          "range": "0-7",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-0-7.data",
+          "bytes": 8,
+          "sha256": "158710709d0d3cec4ebf27b9cbd8e2311d8d2ee11ac9ee01f254ec4f929e3346",
+          "retrieved_at_utc": "2026-09-12T13:22:48.465593+00:00"
+        },
+        {
+          "range": "3039919612-3039985147",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-3039919612-3039985147.data",
+          "bytes": 65536,
+          "sha256": "e68ec47908e856bca6cf779af1acaa09c9fd9f124973345d7c44f25246973e68",
+          "retrieved_at_utc": "2026-09-12T13:22:50.973783+00:00"
+        },
+        {
+          "range": "3038598731-3039985139",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-3038598731-3039985139.data",
+          "bytes": 1386409,
+          "sha256": "19db34220baea06fec8334c4d2d1490484faaac976214fa0001ef132590d359e",
+          "retrieved_at_utc": "2026-09-12T13:22:54.425388+00:00"
+        },
+        {
+          "range": "136271025-136271078",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-136271025-136271078.data",
+          "bytes": 54,
+          "sha256": "7076388c17f7168cb1ffb3154536e7dfc6cd0597936d1a92473710c9ac41dbd8",
+          "retrieved_at_utc": "2026-09-12T13:22:56.749598+00:00"
+        },
+        {
+          "range": "139486004-139506395",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-139486004-139506395.data",
+          "bytes": 20392,
+          "sha256": "d37f6ce7b95e0bf787abe203a905c9c0c384ac41e5dfceb1ae613b0466c7f861",
+          "retrieved_at_utc": "2026-09-12T13:22:59.139500+00:00"
+        },
+        {
+          "range": "139579288-139579341",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-139579288-139579341.data",
+          "bytes": 54,
+          "sha256": "3ddf380ce50ff04762c4edf0ecbca5974ca71488748d7dc921eab8a1044b6622",
+          "retrieved_at_utc": "2026-09-12T13:23:01.476268+00:00"
+        },
+        {
+          "range": "142870051-142889820",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-142870051-142889820.data",
+          "bytes": 19770,
+          "sha256": "89eaa42e69f7d07e84f90e5414f493d383a002cd203df3a7db6f557d3393a9f9",
+          "retrieved_at_utc": "2026-09-12T13:23:03.869785+00:00"
+        },
+        {
+          "range": "270629574-270629637",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-270629574-270629637.data",
+          "bytes": 64,
+          "sha256": "718410817d76d1730140d4c42941524a50f9395e8cb1db31ec3faa40fabff5f1",
+          "retrieved_at_utc": "2026-09-12T13:23:06.223165+00:00"
+        },
+        {
+          "range": "274409568-274441383",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-274409568-274441383.data",
+          "bytes": 31816,
+          "sha256": "da9d5d5562bbd1cece87d9966b966761a213b71945328710172a75aa1ea847ab",
+          "retrieved_at_utc": "2026-09-12T13:23:08.628385+00:00"
+        },
+        {
+          "range": "372667043-372667097",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-372667043-372667097.data",
+          "bytes": 55,
+          "sha256": "6dda95e8e5c971eacad431fec0a24d3c8606b2aaf271c064927a2f20dddcf48a",
+          "retrieved_at_utc": "2026-09-12T13:23:10.976428+00:00"
+        },
+        {
+          "range": "376147121-376167243",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-376147121-376167243.data",
+          "bytes": 20123,
+          "sha256": "50c37c34aa9fe09c7577e0db9e2bdfda44795f4e1d97fe2e21dd7c82ed96544a",
+          "retrieved_at_utc": "2026-09-12T13:23:13.416875+00:00"
+        },
+        {
+          "range": "395374847-395374911",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-395374847-395374911.data",
+          "bytes": 65,
+          "sha256": "325b10648f489d510a7f8feeb7bb8b42974ed2fc6c998cb67b826f0c1f2edce1",
+          "retrieved_at_utc": "2026-09-12T13:23:16.979335+00:00"
+        },
+        {
+          "range": "398617399-398649149",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-398617399-398649149.data",
+          "bytes": 31751,
+          "sha256": "ad378dddded1f53dbba85a9caeb96d137f21334352ecbd9eb7a32a5a354b5c2f",
+          "retrieved_at_utc": "2026-09-12T13:23:19.381784+00:00"
+        },
+        {
+          "range": "518827480-518827534",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-518827480-518827534.data",
+          "bytes": 55,
+          "sha256": "34e00b14bf566ab8c28f7880ffbb6906d1ab61423b132bfd2808d92aec522ff8",
+          "retrieved_at_utc": "2026-09-12T13:23:21.750992+00:00"
+        },
+        {
+          "range": "522273221-522297593",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-522273221-522297593.data",
+          "bytes": 24373,
+          "sha256": "cb1f1d7001e1850b541c68a1e250237ea904b6136e519e3c5a6a89853f208a43",
+          "retrieved_at_utc": "2026-09-12T13:23:24.182972+00:00"
+        },
+        {
+          "range": "522478254-522478308",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-522478254-522478308.data",
+          "bytes": 55,
+          "sha256": "f1d1ae4425bbc4c0f79635283d0a4071cfe44d83cd3fb83adf6749a63871cff4",
+          "retrieved_at_utc": "2026-09-12T13:23:26.529749+00:00"
+        },
+        {
+          "range": "525821526-525849219",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-525821526-525849219.data",
+          "bytes": 27694,
+          "sha256": "1ca7e33b838114265a5f891223e1feaff0ef5021480d3604387464711fe842fe",
+          "retrieved_at_utc": "2026-09-12T13:23:28.946762+00:00"
+        },
+        {
+          "range": "550846662-550846726",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-550846662-550846726.data",
+          "bytes": 65,
+          "sha256": "9f839bb7b0f183f82684e32a073503c1abe8ebe49796867819a979c8e202f8ce",
+          "retrieved_at_utc": "2026-09-12T13:23:31.298096+00:00"
+        },
+        {
+          "range": "554513568-554539562",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-554513568-554539562.data",
+          "bytes": 25995,
+          "sha256": "4d37825f6164cfa328e7ee8f2dc7c00c3bc212c02f967ac0850a12c6c916bd2c",
+          "retrieved_at_utc": "2026-09-12T13:23:34.488941+00:00"
+        },
+        {
+          "range": "687399162-687399216",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-687399162-687399216.data",
+          "bytes": 55,
+          "sha256": "e37920976eb74fa60035e55c402bff67178e88f903041f195a73f756c9a41a38",
+          "retrieved_at_utc": "2026-09-12T13:23:37.003806+00:00"
+        },
+        {
+          "range": "690538074-690561197",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-690538074-690561197.data",
+          "bytes": 23124,
+          "sha256": "6fd9d793e1fdeeba26304a92955e692ed2805ecb94da45b0fd6c4a6a5275dd40",
+          "retrieved_at_utc": "2026-09-12T13:23:39.412550+00:00"
+        },
+        {
+          "range": "722980804-722980868",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-722980804-722980868.data",
+          "bytes": 65,
+          "sha256": "558b00fa34d5f169111764689ff4ee0521c6c55b78ca7f4fb0897498f9ea2a8a",
+          "retrieved_at_utc": "2026-09-12T13:23:41.763432+00:00"
+        },
+        {
+          "range": "726369582-726393412",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-726369582-726393412.data",
+          "bytes": 23831,
+          "sha256": "d67d3a9f37dfe2ad9b5db901effd2b1437f8315fd938ca14702e5b92dfc54198",
+          "retrieved_at_utc": "2026-09-12T13:23:44.165579+00:00"
+        },
+        {
+          "range": "780698189-780698243",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-780698189-780698243.data",
+          "bytes": 55,
+          "sha256": "8f1d57dafccbcf4e5d06dec2fb17313bb8970a296d131f3dd9db71a325ae74e2",
+          "retrieved_at_utc": "2026-09-12T13:23:46.508307+00:00"
+        },
+        {
+          "range": "784234845-784254520",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-784234845-784254520.data",
+          "bytes": 19676,
+          "sha256": "c2ff245853262f89142f215f648616a154a2b25a0a69931cb218488a9fb21754",
+          "retrieved_at_utc": "2026-09-12T13:23:48.899674+00:00"
+        },
+        {
+          "range": "784461740-784461804",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-784461740-784461804.data",
+          "bytes": 65,
+          "sha256": "e5c912f1f9d393171400cff85968464488ff3197be36d85945b31b732c8e25f8",
+          "retrieved_at_utc": "2026-09-12T13:23:51.256775+00:00"
+        },
+        {
+          "range": "787803676-787821121",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-787803676-787821121.data",
+          "bytes": 17446,
+          "sha256": "6a0ba58b2dfbac3483f6158befe0ca20881d3be8d3487b7d5a8392e9ffccb07e",
+          "retrieved_at_utc": "2026-09-12T13:23:53.645714+00:00"
+        },
+        {
+          "range": "1663762540-1663762593",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1663762540-1663762593.data",
+          "bytes": 54,
+          "sha256": "9df69748cad6efb67f8d4db39e87d2557d73e8ebe96a5b9c1b0417602ecaebde",
+          "retrieved_at_utc": "2026-09-12T13:23:55.989155+00:00"
+        },
+        {
+          "range": "1667404103-1667424758",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1667404103-1667424758.data",
+          "bytes": 20656,
+          "sha256": "c80de3c44ad90b81fee1efb93895cedf883f5d7b76badf95e4d6866769051654",
+          "retrieved_at_utc": "2026-09-12T13:23:59.256833+00:00"
+        },
+        {
+          "range": "1667680608-1667680661",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1667680608-1667680661.data",
+          "bytes": 54,
+          "sha256": "9df69748cad6efb67f8d4db39e87d2557d73e8ebe96a5b9c1b0417602ecaebde",
+          "retrieved_at_utc": "2026-09-12T13:24:01.645381+00:00"
+        },
+        {
+          "range": "1670906577-1670925752",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1670906577-1670925752.data",
+          "bytes": 19176,
+          "sha256": "fc3a1ca5613e520176e1f314a7c3b5e6b408d351140a326a1f08e94580357693",
+          "retrieved_at_utc": "2026-09-12T13:24:04.038446+00:00"
+        },
+        {
+          "range": "1769211366-1769211428",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1769211366-1769211428.data",
+          "bytes": 63,
+          "sha256": "e5e6a2b18957866ddd2a3674ba3cb8727d23a17446db8dd86d4ebac9d204367a",
+          "retrieved_at_utc": "2026-09-12T13:24:06.398565+00:00"
+        },
+        {
+          "range": "1772608307-1772627893",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1772608307-1772627893.data",
+          "bytes": 19587,
+          "sha256": "e3be74281b8ad7576ec9553aabb4dffb9835e6b71e0559c651a3f8d3affa31ef",
+          "retrieved_at_utc": "2026-09-12T13:24:08.788115+00:00"
+        },
+        {
+          "range": "2031154494-2031154547",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2031154494-2031154547.data",
+          "bytes": 54,
+          "sha256": "14f5649cbbb49f354f63a6211421579c4f84a877d4d5ca47ba3f6e191d5ab2c0",
+          "retrieved_at_utc": "2026-09-12T13:24:11.134978+00:00"
+        },
+        {
+          "range": "2034604907-2034627626",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2034604907-2034627626.data",
+          "bytes": 22720,
+          "sha256": "63d973a944ffe3c1dfc1da804199ad550bbadd50345e4c31908a9016408ff424",
+          "retrieved_at_utc": "2026-09-12T13:24:13.540325+00:00"
+        },
+        {
+          "range": "2112816025-2112816087",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2112816025-2112816087.data",
+          "bytes": 63,
+          "sha256": "5cc3c751dc0b30543f871c3a8525f368b7d87f4cad1342f5a5e17df63a092e27",
+          "retrieved_at_utc": "2026-09-12T13:24:15.893245+00:00"
+        },
+        {
+          "range": "2116123906-2116157302",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2116123906-2116157302.data",
+          "bytes": 33397,
+          "sha256": "8442299381b153829cc80fb9eb8635693bf08fecb1ede2ac0420f892e823a31d",
+          "retrieved_at_utc": "2026-09-12T13:24:18.300451+00:00"
+        },
+        {
+          "range": "2194782366-2194782419",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2194782366-2194782419.data",
+          "bytes": 54,
+          "sha256": "ad1c49a35790a60b37cc4024a2cdfd1995fdb3f3e7f81c11661b9bf3dd4b2857",
+          "retrieved_at_utc": "2026-09-12T13:24:20.668995+00:00"
+        },
+        {
+          "range": "2198483296-2198505093",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2198483296-2198505093.data",
+          "bytes": 21798,
+          "sha256": "732eeb6936187034f6934bd2f9448f62378957b0ab26c5cdb2f3faaff5bb5e75",
+          "retrieved_at_utc": "2026-09-12T13:24:23.073117+00:00"
+        },
+        {
+          "range": "2234358003-2234358065",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2234358003-2234358065.data",
+          "bytes": 63,
+          "sha256": "6c105b3090b0a369e6cf59bbc485a09e19834858b5cd5932902c988709180cd4",
+          "retrieved_at_utc": "2026-09-12T13:24:25.421441+00:00"
+        },
+        {
+          "range": "2237932260-2237952129",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2237932260-2237952129.data",
+          "bytes": 19870,
+          "sha256": "1f58671c79bc0526375ca4d37d4927e3f505d39037d4364eae1b43de257ffe04",
+          "retrieved_at_utc": "2026-09-12T13:24:27.813292+00:00"
+        },
+        {
+          "range": "2303637823-2303637876",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2303637823-2303637876.data",
+          "bytes": 54,
+          "sha256": "b59235eeff644291da601a80851ffb56b0428d9317463863a3300d344f4018f9",
+          "retrieved_at_utc": "2026-09-12T13:24:30.166909+00:00"
+        },
+        {
+          "range": "2307369055-2307390868",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2307369055-2307390868.data",
+          "bytes": 21814,
+          "sha256": "45423e6cbc217138a1689fd2cad1917575eb16ea3b099600d4091612226b7f17",
+          "retrieved_at_utc": "2026-09-12T13:24:32.576677+00:00"
+        },
+        {
+          "range": "2307666205-2307666258",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2307666205-2307666258.data",
+          "bytes": 54,
+          "sha256": "b59235eeff644291da601a80851ffb56b0428d9317463863a3300d344f4018f9",
+          "retrieved_at_utc": "2026-09-12T13:24:34.934888+00:00"
+        },
+        {
+          "range": "2311245976-2311267408",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2311245976-2311267408.data",
+          "bytes": 21433,
+          "sha256": "fda269f312055721332afd69c0cccda1d2edc1211fb99e6d67420fe8873ced68",
+          "retrieved_at_utc": "2026-09-12T13:24:37.341806+00:00"
+        },
+        {
+          "range": "2380207244-2380207306",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2380207244-2380207306.data",
+          "bytes": 63,
+          "sha256": "8f6182d3607120b0d3f367fb46634e982088872a8e7960200b7e8c8f032658ce",
+          "retrieved_at_utc": "2026-09-12T13:24:39.691175+00:00"
+        },
+        {
+          "range": "2383666429-2383687213",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2383666429-2383687213.data",
+          "bytes": 20785,
+          "sha256": "dc5288c740e714529d8e6073f4118fa1d31df185b66f77c549e4b69270e5c3e4",
+          "retrieved_at_utc": "2026-09-12T13:24:42.096633+00:00"
+        },
+        {
+          "range": "2551258572-2551258625",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2551258572-2551258625.data",
+          "bytes": 54,
+          "sha256": "cd23d70ae0312e87651615224307c35252d39cb55f8486c729b8174f5b9562fb",
+          "retrieved_at_utc": "2026-09-12T13:24:44.450946+00:00"
+        },
+        {
+          "range": "2554561328-2554583423",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2554561328-2554583423.data",
+          "bytes": 22096,
+          "sha256": "9457914d5eab4ff2531a2d636bdad726ade224f931fd73c3f7a033cd9a52f77b",
+          "retrieved_at_utc": "2026-09-12T13:24:46.852306+00:00"
+        },
+        {
+          "range": "2554704735-2554704788",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2554704735-2554704788.data",
+          "bytes": 54,
+          "sha256": "d1066d23096b46055ab8030bf5b680a8ce06301f76163d3efe99d5f6296e4dfd",
+          "retrieved_at_utc": "2026-09-12T13:24:49.200546+00:00"
+        },
+        {
+          "range": "2558332013-2558353228",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2558332013-2558353228.data",
+          "bytes": 21216,
+          "sha256": "2550e15571243f10c18394e59c2e117e7ea890978df479846c5193fb4055d0e9",
+          "retrieved_at_utc": "2026-09-12T13:24:51.602082+00:00"
+        },
+        {
+          "range": "2607824914-2607824976",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2607824914-2607824976.data",
+          "bytes": 63,
+          "sha256": "9e39b7ae3ba61691767e527be0070d034de531b9be56928852d21ed2cc0b90cb",
+          "retrieved_at_utc": "2026-09-12T13:24:53.944695+00:00"
+        },
+        {
+          "range": "2611265648-2611307845",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2611265648-2611307845.data",
+          "bytes": 42198,
+          "sha256": "3329e32a59db0d87fed5aaf14c8cd47a50e83617edc8e8a3cb50db14a07d3550",
+          "retrieved_at_utc": "2026-09-12T13:24:56.354047+00:00"
+        },
+        {
+          "range": "2720270034-2720270087",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2720270034-2720270087.data",
+          "bytes": 54,
+          "sha256": "31119bc901ade3c18c0f95e3369614ec0416ac4b99d72342f5c7fdf9dc3cca91",
+          "retrieved_at_utc": "2026-09-12T13:24:58.711961+00:00"
+        },
+        {
+          "range": "2724268828-2724291076",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2724268828-2724291076.data",
+          "bytes": 22249,
+          "sha256": "014826e582ed1017b7a1ac197cd5341ab95d80266c041a6684fe9d6c926bea99",
+          "retrieved_at_utc": "2026-09-12T13:25:01.122787+00:00"
+        },
+        {
+          "range": "2767796065-2767796127",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2767796065-2767796127.data",
+          "bytes": 63,
+          "sha256": "e6a12b2c3803fdd848da432eb9444df20fe4dce0eea0faf3af6d46bbc25c0426",
+          "retrieved_at_utc": "2026-09-12T13:25:03.472154+00:00"
+        },
+        {
+          "range": "2771514408-2771533072",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2771514408-2771533072.data",
+          "bytes": 18665,
+          "sha256": "16190bf6bd7ec57d6f1bfd884e93a7dccb6a2b499876e1d30cec015bfadab3fe",
+          "retrieved_at_utc": "2026-09-12T13:25:05.864698+00:00"
+        },
+        {
+          "range": "2848677385-2848677438",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2848677385-2848677438.data",
+          "bytes": 54,
+          "sha256": "e6939e43e39609ee0c2f9882506ac62f3b9acb237ca01d95a57787fbfc42e35a",
+          "retrieved_at_utc": "2026-09-12T13:25:08.218381+00:00"
+        },
+        {
+          "range": "2852629927-2852649682",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2852629927-2852649682.data",
+          "bytes": 19756,
+          "sha256": "bc52151dafa8bc627611313546f4cfa35e61a2b5813b48e939f958e1e59dd787",
+          "retrieved_at_utc": "2026-09-12T13:25:10.611929+00:00"
+        },
+        {
+          "range": "2878759300-2878759362",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2878759300-2878759362.data",
+          "bytes": 63,
+          "sha256": "b4d02e0979d1519f23881ca3350df7869f70c68d1c29a5d6aa4ce42b0b807842",
+          "retrieved_at_utc": "2026-09-12T13:25:12.957748+00:00"
+        },
+        {
+          "range": "2882547304-2882567447",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2882547304-2882567447.data",
+          "bytes": 20144,
+          "sha256": "06f0525cf139dbe809412e980862efeeed9ad318f6c5cebf93ffa5a83d029b58",
+          "retrieved_at_utc": "2026-09-12T13:25:15.347555+00:00"
+        },
+        {
+          "range": "2943547072-2943547125",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2943547072-2943547125.data",
+          "bytes": 54,
+          "sha256": "892d5f3cfe6f141fc92efd0777eae8b8a503debc6d9926c8473109f5117189bd",
+          "retrieved_at_utc": "2026-09-12T13:25:17.698206+00:00"
+        },
+        {
+          "range": "2947280870-2947301544",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2947280870-2947301544.data",
+          "bytes": 20675,
+          "sha256": "2179d7e601e82ffe282d4c874fac90af286f33729b2f1724a15475196dc19c18",
+          "retrieved_at_utc": "2026-09-12T13:25:20.153309+00:00"
+        },
+        {
+          "range": "2947606600-2947606653",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2947606600-2947606653.data",
+          "bytes": 54,
+          "sha256": "892d5f3cfe6f141fc92efd0777eae8b8a503debc6d9926c8473109f5117189bd",
+          "retrieved_at_utc": "2026-09-12T13:25:22.525007+00:00"
+        },
+        {
+          "range": "2950888359-2950908198",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2950888359-2950908198.data",
+          "bytes": 19840,
+          "sha256": "cfc2a481dd3d9a8bdf943f4bc9a8d7342d8c87b23aa5d2a6892ae0cd25717466",
+          "retrieved_at_utc": "2026-09-12T13:25:24.914279+00:00"
+        },
+        {
+          "range": "2989051467-2989051529",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2989051467-2989051529.data",
+          "bytes": 63,
+          "sha256": "22e496b88362ad29ece61a473542ebbba75cf152e54eeb635ae171b662cfbe84",
+          "retrieved_at_utc": "2026-09-12T13:25:27.267658+00:00"
+        },
+        {
+          "range": "2992300487-2992319628",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-2992300487-2992319628.data",
+          "bytes": 19142,
+          "sha256": "481d26dbffdd5ca03c74a9fdf9888983ef84e3d70970c25d2d9a66bd4a9a2a9f",
+          "retrieved_at_utc": "2026-09-12T13:25:29.659919+00:00"
+        },
+        {
+          "range": "3020497434-3020497487",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-3020497434-3020497487.data",
+          "bytes": 54,
+          "sha256": "87e56495de716d7432f23e61df475a106420bc513aa2d0bd28c649ba459f2419",
+          "retrieved_at_utc": "2026-09-12T13:25:32.012459+00:00"
+        },
+        {
+          "range": "3024193855-3024215337",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-3024193855-3024215337.data",
+          "bytes": 21483,
+          "sha256": "bbd91ae423548047d285b8fddcd2fc2ffb8919784a85036001f90852fada0e0a",
+          "retrieved_at_utc": "2026-09-12T13:25:34.423437+00:00"
+        },
+        {
+          "range": "1663741884-1671011244",
+          "file": "data/raw/repair-parquet-ranges/QTD000892-1663741884-1671011244.data",
+          "bytes": 7269361,
+          "sha256": "6c39a45d19005279e29487b88eca02d4e4256f95659d695f8bfa632eb71530a5",
+          "retrieved_at_utc": "2026-09-12T13:25:41.694038+00:00"
+        }
+      ],
+      "remote_size": 3039985148,
+      "etag": "\"b5327dfc-6497b03d81b1c\"",
+      "last_modified": "Wed, 28 Jan 2026 23:22:34 GMT",
+      "metadata": {
+        "schema": "molecular_trait_id: string\nchromosome: string\nposition: int32\nref: string\nalt: string\nvariant: string\nma_samples: int32\nmaf: double\npvalue: double\nbeta: double\nse: double\ntype: string\nac: int32\nan: int32\nr2: string\nmolecular_trait_object_id: string\ngene_id: string\nmedian_tpm: int32\nrsid: string",
+        "total_rows": 104135611,
+        "total_row_groups": 845,
+        "candidate_gene_row_groups": [
+          470,
+          471
+        ],
+        "identifier_only_row_groups": [
+          39,
+          40,
+          77,
+          105,
+          111,
+          146,
+          147,
+          155,
+          193,
+          203,
+          218,
+          219,
+          470,
+          471,
+          498,
+          571,
+          593,
+          615,
+          625,
+          643,
+          644,
+          664,
+          714,
+          715,
+          729,
+          760,
+          773,
+          794,
+          802,
+          819,
+          820,
+          832,
+          840
+        ],
+        "identifier_only_rows": 4067742,
+        "candidate_rows": 246636
+      },
+      "result": {
+        "file": "data/derived/coverage-repair-queries/QTD000892-alternative.tsv.gz",
+        "sha256": "e87348ca83778405321b747fce75bb3a8a79405ff55cb48445834b160be72155",
+        "uncompressed_sha256": "0daea63ec541c0915c1d3ba963dbf21adea12c36b66846e768ecaab2f0c8cf73",
+        "gene_rows_before_region_filter": 5451,
+        "rows": 5451,
+        "transfer_bytes": 9477918
+      }
+    }
+  ]
+}

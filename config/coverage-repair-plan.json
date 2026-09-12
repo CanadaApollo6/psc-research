@@ -1,0 +1,291 @@
+{
+  "purpose": "Verify exact PFKFB3 deletion identity and investigate missing BCL2L11 variants without rewriting the completed colocalisation",
+  "frozen_at_utc": "2026-09-12T12:56:32.267178+00:00",
+  "status": "Follow-up chosen after earlier results; source rows and chain mappings inspected before this freeze, no new reference sequence, targeted reference genotype or QTL missingness query yet",
+  "pfkfb3_deletions": [
+    {
+      "id": "del4",
+      "gene": "PFKFB3",
+      "chromosome": "chr10",
+      "position_grch38": 6161637,
+      "ref": "TAGAG",
+      "alt": "T"
+    },
+    {
+      "id": "del2",
+      "gene": "PFKFB3",
+      "chromosome": "chr10",
+      "position_grch38": 6161575,
+      "ref": "TAC",
+      "alt": "T"
+    },
+    {
+      "id": "long_deletion",
+      "gene": "PFKFB3",
+      "chromosome": "chr10",
+      "position_grch38": 6170685,
+      "ref": "AGTATGGAGGTGGGGACAGG",
+      "alt": "A"
+    }
+  ],
+  "bcl2l11_variants": [
+    {
+      "source_id": "rs13405741",
+      "position_grch38": 111155479,
+      "alleles": [
+        "C",
+        "T"
+      ]
+    },
+    {
+      "source_id": "rs72837816",
+      "position_grch38": 111159291,
+      "alleles": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "source_id": "rs72836352",
+      "position_grch38": 111137297,
+      "alleles": [
+        "C",
+        "T"
+      ]
+    },
+    {
+      "source_id": "rs144569746",
+      "position_grch38": 111150990,
+      "alleles": [
+        "C",
+        "T"
+      ]
+    }
+  ],
+  "datasets": [
+    {
+      "study_id": "QTS000002",
+      "dataset_id": "QTD000031",
+      "study_label": "BLUEPRINT",
+      "sample_group": "T-cell",
+      "tissue_id": "CL_0000624",
+      "tissue_label": "CD4+ T cell",
+      "condition_label": "naive",
+      "sample_size": "167",
+      "quant_method": "ge",
+      "pmid": "27863251",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000031/QTD000031.all.tsv.gz",
+      "cohort_label": "BLUEPRINT",
+      "reporting_context": "closest_unstimulated",
+      "assay_matched_model_track": "CL:0000624 total RNA-seq",
+      "context_note": "",
+      "independence_note": "Source cohort reused in PSC fine-mapping; not independent replication of that evidence"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000439",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Tfh_memory",
+      "tissue_id": "CL_0002038",
+      "tissue_label": "Tfh cell",
+      "condition_label": "naive",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000439/QTD000439.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000444",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Th17_memory",
+      "tissue_id": "CL_0000899",
+      "tissue_label": "Th17 cell",
+      "condition_label": "naive",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000444/QTD000444.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000449",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Th1_memory",
+      "tissue_id": "CL_0000545",
+      "tissue_label": "Th1 cell",
+      "condition_label": "naive",
+      "sample_size": "82",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000449/QTD000449.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000454",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Th2_memory",
+      "tissue_id": "CL_0000546",
+      "tissue_label": "Th2 cell",
+      "condition_label": "naive",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000454/QTD000454.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000459",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Th1-17_memory",
+      "tissue_id": "CL_0000899",
+      "tissue_label": "Th17 cell",
+      "condition_label": "naive",
+      "sample_size": "88",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000459/QTD000459.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000464",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Treg_memory",
+      "tissue_id": "CL_0002678",
+      "tissue_label": "Treg naive",
+      "condition_label": "naive",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000464/QTD000464.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "Sample-group naive/memory label conflicts with tissue_label; preserve both and do not resolve cell state by inference",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000469",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "Treg_naive",
+      "tissue_id": "CL_0002677",
+      "tissue_label": "Treg memory",
+      "condition_label": "naive",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000469/QTD000469.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "specialized_subset",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "Sample-group naive/memory label conflicts with tissue_label; preserve both and do not resolve cell state by inference",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000479",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "CD4_T-cell_naive",
+      "tissue_id": "CL_0000624",
+      "tissue_label": "CD4+ T cell",
+      "condition_label": "naive",
+      "sample_size": "88",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000479/QTD000479.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "closest_unstimulated",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000484",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "CD4_T-cell_anti-CD3-CD28",
+      "tissue_id": "CL_0000624",
+      "tissue_label": "CD4+ T cell",
+      "condition_label": "anti-CD3-CD28_4h",
+      "sample_size": "89",
+      "quant_method": "ge",
+      "pmid": "30449622",
+      "study_type": "bulk",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000484/QTD000484.all.tsv.gz",
+      "cohort_label": "DICE",
+      "reporting_context": "activation",
+      "assay_matched_model_track": "CL:0000624 polyA plus RNA-seq",
+      "context_note": "",
+      "independence_note": "Separate named cohort from BLUEPRINT; DICE conditions and subsets share donors; exact model-training donor overlap unresolved"
+    }
+  ],
+  "reference_flank_bases": 1000,
+  "full_allele_mapping": "Require contiguous unique reciprocal mapping of every reference allele base and 100 bp flanks. Verify full REF on both reference sequences, normalize against each reference, reject ambiguous REF or unbounded normalization. Compare alternate haplotypes; rsID is annotation only.",
+  "reference_query": "One bounded 1000G phase3 VCF interval per locus covering the frozen targets and reference flanks; preserve full rows ignored, aggregate only 503 EUR dosages/frequencies",
+  "bcl_query": "Query all ten nominal gene-expression archives across the bounded target interval, retaining every allele and every gene at each target position, not only BCL2L11. Record complete rows and flanking availability.",
+  "coverage": "Use complete published PFKFB3 component BF vectors. Report original shared keys, exactly recoverable additions, remaining gaps and full component weight. No new posterior unless a separately frozen, adequate common-universe analysis is possible. Never infer missing effects with LD proxies.",
+  "alternative_cohort_rule": "If source-specific missingness cannot be resolved, screen metadata for one separate CD4 cohort with at least 200 donors and complete regional nominal statistics; prefer single-cell reannotated OneK1K release over duplicate original labels and retain all CD4 contexts. Freeze chosen dataset IDs and coverage rules before reading target effects. If inaccessible retain unavailability.",
+  "network_bounds": {
+    "reference_response_bytes": 1000000,
+    "supporting_source_bytes": 30000000,
+    "nominal_rows_per_query": 1000000,
+    "nominal_uncompressed_bytes_per_query": 300000000,
+    "minimum_seconds_between_indexed_queries": 2
+  },
+  "limits": [
+    "Not patient data",
+    "DICE contexts share donors",
+    "Treg naive/memory metadata unresolved",
+    "Do not assign a particular upstream filtering reason without variant-level evidence",
+    "External reference LD and heterogeneous GWAS sample covariance remain unresolved",
+    "No researcher contact or clinical inference"
+  ],
+  "frozen_file_sha256": {
+    "config/coloc-plan.json": "46b3db7e669d2cd54ad09b5131fed989b749c64eca1067acf2d4cdfeb3a9d20e",
+    "config/coloc-platform-plan.json": "a54e676c5272a52f45b469286ae5b3eebbfbebcaa9f2c5c0c05254645f3d6407",
+    "config/coloc-sources.json": "d093286478dee9e7e975f50a9bbaf0b1e5f97cf5991823f4e3c57dc5e72e860a",
+    "config/coloc-qtl-queries.json": "2d325d9912052d206a00308a093a34f8ac021f18fc57195c4bc2cf4c8f43911f",
+    "config/coloc-gwas-queries.json": "e1fa2406b123ef58b40bb0cc62b84c3954fc1980b31850a380e30c1e268d3dfd",
+    "config/coloc-published-bf-queries.json": "0f59de7a43c196a6cfdca594fc6440cae6e197438b79671754a5232eba674249",
+    "data/derived/coloc-query-rows/GWAS-PFKFB3.txt.gz": "6a549979acef67fa76f47efaee1e1eede4562845af88be8707e692852c806035",
+    "data/derived/coloc-query-rows/GWAS-BCL2L11.txt.gz": "f843c5d723d6276fc9fc6e004eb5fe80afc9347391c395291fb7e0c250838f5c",
+    "reports/coloc-summary.json": "cf2b5064d57cd822d8d9bf88eb9e3a1a86a276ae4c383f698c7c68038c92ff4f",
+    "reports/coloc-missing-gwas-variants.csv": "41bc880fc8738376d1087e23ee5c6e4f89295d47602f6f2822ad4e8b97fe4e7c",
+    "scripts/coloc_common.py": "f5bf68c806b4082024e82bd0ef209dfdbc8744c234d9adacd804338f2b6a1141"
+  }
+}

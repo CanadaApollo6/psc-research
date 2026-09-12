@@ -1,0 +1,528 @@
+{
+  "pfkfb3": [
+    {
+      "target_id": "del4",
+      "source_variant": "chr10_6161637_TAGAG_T",
+      "deleted_bases": 4,
+      "normalized_grch38": [
+        6161637,
+        "TAGAG",
+        "T"
+      ],
+      "normalized_grch37": [
+        6203600,
+        "TAGAG",
+        "T"
+      ],
+      "reciprocal_bases": 205,
+      "strand": "+",
+      "full_flank_sequence_agrees": true,
+      "minimal_equivalent_placement_min_grch37": 6203600,
+      "minimal_equivalent_placement_max_grch37": 6203617,
+      "original_regional_gwas_rows": 7639,
+      "bounded_gwas_indels_checked": 10,
+      "potential_equivalent_gwas_rows": 0,
+      "gwas_matches": [],
+      "reference_matches": [],
+      "control_vs_reference_risk_frequency_difference": null,
+      "recoverable": false,
+      "status": "absent_from_original_regional_GWAS_and_phase3_reference"
+    },
+    {
+      "target_id": "del2",
+      "source_variant": "chr10_6161575_TAC_T",
+      "deleted_bases": 2,
+      "normalized_grch38": [
+        6161575,
+        "TAC",
+        "T"
+      ],
+      "normalized_grch37": [
+        6203538,
+        "TAC",
+        "T"
+      ],
+      "reciprocal_bases": 203,
+      "strand": "+",
+      "full_flank_sequence_agrees": true,
+      "minimal_equivalent_placement_min_grch37": 6203538,
+      "minimal_equivalent_placement_max_grch37": 6203547,
+      "original_regional_gwas_rows": 7639,
+      "bounded_gwas_indels_checked": 10,
+      "potential_equivalent_gwas_rows": 1,
+      "gwas_matches": [
+        {
+          "chr": "10",
+          "SNP": "rs138248884",
+          "pos": "6203538",
+          "allele_0": "T",
+          "allele_1": "TAC",
+          "freq_1": "0.22",
+          "freq_1_cases": "0.24",
+          "freq_1_controls": "0.22",
+          "mmm_var_info_nonmissing": "0.993",
+          "or": "1.126",
+          "se": "0.041",
+          "p": "0.00282324564870757",
+          "platform": "omni"
+        }
+      ],
+      "reference_matches": [
+        {
+          "position_grch37": 6203538,
+          "source_ref": "TAC",
+          "source_alt": "T",
+          "source_id": ".",
+          "normalized": [
+            6203538,
+            "TAC",
+            "T"
+          ],
+          "called_donors": 503,
+          "alt_count": 775,
+          "allele_number": 1006,
+          "alt_frequency": 0.7703777335984096
+        }
+      ],
+      "control_vs_reference_risk_frequency_difference": 0.009622266401590446,
+      "recoverable": true,
+      "status": "sequence_matched_GWAS_and_reference"
+    },
+    {
+      "target_id": "long_deletion",
+      "source_variant": "chr10_6170685_AGTATGGAGGTGGGGACAGG_A",
+      "deleted_bases": 19,
+      "normalized_grch38": [
+        6170685,
+        "AGTATGGAGGTGGGGACAGG",
+        "A"
+      ],
+      "normalized_grch37": [
+        6212648,
+        "AGTATGGAGGTGGGGACAGG",
+        "A"
+      ],
+      "reciprocal_bases": 220,
+      "strand": "+",
+      "full_flank_sequence_agrees": true,
+      "minimal_equivalent_placement_min_grch37": 6212648,
+      "minimal_equivalent_placement_max_grch37": 6212660,
+      "original_regional_gwas_rows": 7639,
+      "bounded_gwas_indels_checked": 10,
+      "potential_equivalent_gwas_rows": 1,
+      "gwas_matches": [
+        {
+          "chr": "10",
+          "SNP": "rs140499372",
+          "pos": "6212648",
+          "allele_0": "A",
+          "allele_1": "AGTATGGAGGTGGGGACAGG",
+          "freq_1": "0.23",
+          "freq_1_cases": "0.24",
+          "freq_1_controls": "0.23",
+          "mmm_var_info_nonmissing": "0.998",
+          "or": "1.077",
+          "se": "0.040",
+          "p": "0.0614214358566135",
+          "platform": "omni"
+        }
+      ],
+      "reference_matches": [
+        {
+          "position_grch37": 6212648,
+          "source_ref": "AGTATGGAGGTGGGGACAGG",
+          "source_alt": "A",
+          "source_id": ".",
+          "normalized": [
+            6212648,
+            "AGTATGGAGGTGGGGACAGG",
+            "A"
+          ],
+          "called_donors": 503,
+          "alt_count": 758,
+          "allele_number": 1006,
+          "alt_frequency": 0.7534791252485089
+        }
+      ],
+      "control_vs_reference_risk_frequency_difference": 0.016520874751491083,
+      "recoverable": true,
+      "status": "sequence_matched_GWAS_and_reference"
+    }
+  ],
+  "bcl2l11": [
+    {
+      "source_id": "rs13405741",
+      "position_grch38": 111155479,
+      "alleles": [
+        "C",
+        "T"
+      ],
+      "ref": "T",
+      "alt": "C",
+      "mapped_grch37": [
+        111913056,
+        "T",
+        "C"
+      ],
+      "reciprocal_bases": 201,
+      "full_flank_sequence_agrees": true,
+      "gwas": {
+        "chr": "2",
+        "SNP": "rs13405741",
+        "pos": "111913056",
+        "allele_0": "T",
+        "allele_1": "C",
+        "freq_1": "0.11",
+        "freq_1_cases": "0.14",
+        "freq_1_controls": "0.10",
+        "mmm_var_info_nonmissing": "0.983",
+        "or": "1.358",
+        "se": "0.052",
+        "p": "1.36461600474789e-09",
+        "platform": "omni"
+      },
+      "reference": {
+        "position_grch37": 111913056,
+        "source_ref": "T",
+        "source_alt": "C",
+        "source_id": ".",
+        "normalized": [
+          111913056,
+          "T",
+          "C"
+        ],
+        "called_donors": 503,
+        "alt_count": 111,
+        "allele_number": 1006,
+        "alt_frequency": 0.110337972166998
+      }
+    },
+    {
+      "source_id": "rs72837816",
+      "position_grch38": 111159291,
+      "alleles": [
+        "A",
+        "C"
+      ],
+      "ref": "A",
+      "alt": "C",
+      "mapped_grch37": [
+        111916868,
+        "A",
+        "C"
+      ],
+      "reciprocal_bases": 201,
+      "full_flank_sequence_agrees": true,
+      "gwas": {
+        "chr": "2",
+        "SNP": "rs72837816",
+        "pos": "111916868",
+        "allele_0": "A",
+        "allele_1": "C",
+        "freq_1": "0.11",
+        "freq_1_cases": "0.14",
+        "freq_1_controls": "0.10",
+        "mmm_var_info_nonmissing": "0.998",
+        "or": "1.353",
+        "se": "0.052",
+        "p": "1.72668533906564e-09",
+        "platform": "omni"
+      },
+      "reference": {
+        "position_grch37": 111916868,
+        "source_ref": "A",
+        "source_alt": "C",
+        "source_id": ".",
+        "normalized": [
+          111916868,
+          "A",
+          "C"
+        ],
+        "called_donors": 503,
+        "alt_count": 117,
+        "allele_number": 1006,
+        "alt_frequency": 0.11630218687872763
+      }
+    },
+    {
+      "source_id": "rs72836352",
+      "position_grch38": 111137297,
+      "alleles": [
+        "C",
+        "T"
+      ],
+      "ref": "C",
+      "alt": "T",
+      "mapped_grch37": [
+        111894874,
+        "C",
+        "T"
+      ],
+      "reciprocal_bases": 201,
+      "full_flank_sequence_agrees": true,
+      "gwas": {
+        "chr": "2",
+        "SNP": "rs72836352",
+        "pos": "111894874",
+        "allele_0": "C",
+        "allele_1": "T",
+        "freq_1": "0.11",
+        "freq_1_cases": "0.14",
+        "freq_1_controls": "0.11",
+        "mmm_var_info_nonmissing": "0.992",
+        "or": "1.347",
+        "se": "0.052",
+        "p": "2.99787413092669e-09",
+        "platform": "omni"
+      },
+      "reference": {
+        "position_grch37": 111894874,
+        "source_ref": "C",
+        "source_alt": "T",
+        "source_id": ".",
+        "normalized": [
+          111894874,
+          "C",
+          "T"
+        ],
+        "called_donors": 503,
+        "alt_count": 117,
+        "allele_number": 1006,
+        "alt_frequency": 0.11630218687872763
+      }
+    },
+    {
+      "source_id": "rs144569746",
+      "position_grch38": 111150990,
+      "alleles": [
+        "C",
+        "T"
+      ],
+      "ref": "C",
+      "alt": "T",
+      "mapped_grch37": [
+        111908567,
+        "C",
+        "T"
+      ],
+      "reciprocal_bases": 201,
+      "full_flank_sequence_agrees": true,
+      "gwas": {
+        "chr": "2",
+        "SNP": "rs144569746",
+        "pos": "111908567",
+        "allele_0": "C",
+        "allele_1": "T",
+        "freq_1": "0.11",
+        "freq_1_cases": "0.14",
+        "freq_1_controls": "0.10",
+        "mmm_var_info_nonmissing": "0.999",
+        "or": "1.346",
+        "se": "0.052",
+        "p": "3.25601268761528e-09",
+        "platform": "omni"
+      },
+      "reference": {
+        "position_grch37": 111908567,
+        "source_ref": "C",
+        "source_alt": "T",
+        "source_id": ".",
+        "normalized": [
+          111908567,
+          "C",
+          "T"
+        ],
+        "called_donors": 503,
+        "alt_count": 117,
+        "allele_number": 1006,
+        "alt_frequency": 0.11630218687872763
+      }
+    }
+  ],
+  "ensembl_representation_audit": [
+    {
+      "target_id": "del4",
+      "queried_rsid": "rs149556258",
+      "returned_rsid": "rs71390193",
+      "build": "GRCh38",
+      "mapping": {
+        "location": "10:6161638-6161658",
+        "ancestral_allele": "AGAGAGAGAGAGAGAGAGAGA",
+        "assembly_name": "GRCh38",
+        "seq_region_name": "10",
+        "coord_system": "chromosome",
+        "strand": 1,
+        "start": 6161638,
+        "end": 6161658,
+        "allele_string": "AGAGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGAGAGAGA"
+      },
+      "exact_target_alt_representations": [
+        "AGAGAGAGAGAGAGAGA"
+      ]
+    },
+    {
+      "target_id": "del4",
+      "queried_rsid": "rs149556258",
+      "returned_rsid": "rs71390193",
+      "build": "GRCh37",
+      "mapping": {
+        "seq_region_name": "10",
+        "end": 6203621,
+        "location": "10:6203601-6203621",
+        "ancestral_allele": "AGAGAGAGAGAGAGAGAGAGA",
+        "allele_string": "AGAGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGAGAGA/AGAGAGAGAGAGAGAGAGAGAGAGA",
+        "assembly_name": "GRCh37",
+        "strand": 1,
+        "coord_system": "chromosome",
+        "start": 6203601
+      },
+      "exact_target_alt_representations": [
+        "AGAGAGAGAGAGAGAGA"
+      ]
+    },
+    {
+      "target_id": "del2",
+      "queried_rsid": "rs138248884",
+      "returned_rsid": "rs138248884",
+      "build": "GRCh38",
+      "mapping": {
+        "strand": 1,
+        "coord_system": "chromosome",
+        "location": "10:6161576-6161586",
+        "start": 6161576,
+        "allele_string": "ACACACACACA/ACACA/ACACACA/ACACACACA/ACACACACACACA",
+        "seq_region_name": "10",
+        "assembly_name": "GRCh38",
+        "end": 6161586,
+        "ancestral_allele": null
+      },
+      "exact_target_alt_representations": [
+        "ACACACACA"
+      ]
+    },
+    {
+      "target_id": "del2",
+      "queried_rsid": "rs138248884",
+      "returned_rsid": "rs138248884",
+      "build": "GRCh37",
+      "mapping": {
+        "assembly_name": "GRCh37",
+        "allele_string": "ACACACACACA/ACACA/ACACACA/ACACACACA/ACACACACACACA",
+        "strand": 1,
+        "seq_region_name": "10",
+        "location": "10:6203539-6203549",
+        "end": 6203549,
+        "ancestral_allele": "ACACACACATA",
+        "coord_system": "chromosome",
+        "start": 6203539
+      },
+      "exact_target_alt_representations": [
+        "ACACACACA"
+      ]
+    },
+    {
+      "target_id": "long_deletion",
+      "queried_rsid": "rs140499372",
+      "returned_rsid": "rs3834900",
+      "build": "GRCh38",
+      "mapping": {
+        "start": 6170686,
+        "ancestral_allele": "GTATGGAGGTGGGGACAGGGTATGGAGGTGG",
+        "allele_string": "GTATGGAGGTGGGGACAGGGTATGGAGGTGG/GTATGGAGGTGG/GTATGGAGGTGGGGACAGGGTATGGAGGTGGGGACAGGGTATGGAGGTGG",
+        "seq_region_name": "10",
+        "location": "10:6170686-6170716",
+        "end": 6170716,
+        "strand": 1,
+        "coord_system": "chromosome",
+        "assembly_name": "GRCh38"
+      },
+      "exact_target_alt_representations": [
+        "GTATGGAGGTGG"
+      ]
+    },
+    {
+      "target_id": "long_deletion",
+      "queried_rsid": "rs140499372",
+      "returned_rsid": "rs3834900",
+      "build": "GRCh37",
+      "mapping": {
+        "assembly_name": "GRCh37",
+        "seq_region_name": "10",
+        "strand": 1,
+        "allele_string": "GTATGGAGGTGGGGACAGGGTATGGAGGTGG/GTATGGAGGTGG/GTATGGAGGTGGGGACAGGGTATGGAGGTGGGGACAGGGTATGGAGGTGG",
+        "end": 6212679,
+        "location": "10:6212649-6212679",
+        "ancestral_allele": "GTATGGAGGTGGGGACAGGGTATGGAGGTGG",
+        "coord_system": "chromosome",
+        "start": 6212649
+      },
+      "exact_target_alt_representations": [
+        "GTATGGAGGTGG"
+      ]
+    }
+  ],
+  "independent_normalization": [
+    {
+      "id": "del2",
+      "build": "GRCh37",
+      "bcftools_matches": true,
+      "normalized": [
+        6203538,
+        "TAC",
+        "T"
+      ]
+    },
+    {
+      "id": "del4",
+      "build": "GRCh37",
+      "bcftools_matches": true,
+      "normalized": [
+        6203600,
+        "TAGAG",
+        "T"
+      ]
+    },
+    {
+      "id": "long_deletion",
+      "build": "GRCh37",
+      "bcftools_matches": true,
+      "normalized": [
+        6212648,
+        "AGTATGGAGGTGGGGACAGG",
+        "A"
+      ]
+    },
+    {
+      "id": "del2",
+      "build": "GRCh38",
+      "bcftools_matches": true,
+      "normalized": [
+        6161575,
+        "TAC",
+        "T"
+      ]
+    },
+    {
+      "id": "del4",
+      "build": "GRCh38",
+      "bcftools_matches": true,
+      "normalized": [
+        6161637,
+        "TAGAG",
+        "T"
+      ]
+    },
+    {
+      "id": "long_deletion",
+      "build": "GRCh38",
+      "bcftools_matches": true,
+      "normalized": [
+        6170685,
+        "AGTATGGAGGTGGGGACAGG",
+        "A"
+      ]
+    }
+  ],
+  "pysam_version": "0.23.3",
+  "htslib_version": "1.21"
+}

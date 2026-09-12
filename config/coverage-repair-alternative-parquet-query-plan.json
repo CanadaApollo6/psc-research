@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-09-12T13:16:41.589288+00:00",
+  "status": "Metadata-only attempt found no min/max on string columns. Before any target effects, adapt query selection to position min/max followed by chromosome and gene identifier columns; same datasets, coverage, full-region rules.",
+  "sources": [
+    {
+      "id": "QTD000889",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000889/QTD000889.all.parquet"
+    },
+    {
+      "id": "QTD000891",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000891/QTD000891.all.parquet"
+    },
+    {
+      "id": "QTD000892",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000892/QTD000892.all.parquet"
+    }
+  ],
+  "original_access_plan_sha256": "3c3a8003ae4da268063fd4b17de4fdfa71004ee52ea8e97d6a88b5867e881be4",
+  "metadata_attempt_sha256": "c7c905a0f9f213face420968ec18ce41964c75ab99e74e56dc04272a391f935e",
+  "reader_v1_sha256": "7de7624e5280e3c64e99a2deb1e315b566a0152c04445effd9a969463542eb25",
+  "selection": "Select every row group whose position min/max overlaps the entire fixed region, across all chromosomes. Read only chromosome and gene_id columns to select groups containing the exact chromosome 2 / BCL2L11 combination. Read all columns in those groups, then filter exact chromosome, gene and region. If any position statistics absent, fail. The 1 million nominal row cap applies to full selected row groups; identifier-only selection reads are separately counted. All bytes count toward 300 MB cap.",
+  "scope": "No hypothesis posteriors. Same 100 shared SNP and 90% per-trait BF coverage rules and .15 quantitative prior SD."
+}

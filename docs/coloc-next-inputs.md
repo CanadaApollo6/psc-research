@@ -2,6 +2,8 @@
 
 Prepared September 12, 2026 after the [completed regional assessment](../reports/colocalisation.md). This is a follow-up chosen after the results, not an amendment to the completed analysis. No researcher contact has been made.
 
+**Completed follow-up:** the work specified in sections 1 and 2 has now been assessed in the [variant-coverage report](../reports/variant-coverage-repair.md). Two PFKFB3 deletions are exactly recoverable; the four-base deletion remains absent. All four BCL2L11 variants are measured in the separately selected larger OneK1K cohort, but their associations are weak and regional RNA coverage still fails. Exact DICE filter causes remain unknown. The original specification below is retained; the [updated source questions](coverage-repair-source-questions.md) identify what is still needed.
+
 ## 1. Match the important PFKFB3 deletions across sources
 
 The next bounded compute task is to establish exact allele identity and coverage for these GRCh38 RNA variants:

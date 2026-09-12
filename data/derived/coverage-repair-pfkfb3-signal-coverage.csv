@@ -1,0 +1,4 @@
+dataset_id,component,full_source_variants,baseline_shared_variants,exact_added_variants,original_signal_coverage,added_signal_weight,recoverable_signal_coverage,remaining_signal_weight,qtl_90pct_gate,status
+QTD000031,1,10552,6320,2,0.5047404434515634,0.0175951737384665,0.52233561719003,0.47766438280997003,False,support_audit_only_no_new_GWAS_fit_or_posterior
+QTD000031,2,10552,6320,2,0.999422548810606,2.1002856302816826e-15,0.9994225488106081,0.0005774511893918977,True,support_audit_only_no_new_GWAS_fit_or_posterior
+QTD000469,1,10264,5857,2,0.540627541898968,0.34490988998097355,0.8855374318799414,0.11446256812005862,False,support_audit_only_no_new_GWAS_fit_or_posterior

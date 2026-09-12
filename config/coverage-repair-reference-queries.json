@@ -1,0 +1,37 @@
+{
+  "plan_sha256": "251d7a83d0c7472ff529e366f3fa21fd7fd40b24a76ad5cc4603fe448fc4cded",
+  "reader_sha256": "1f8d21b38b3794d6d9904a363f03fe3fc889d6122cdab6609bc732c2ad3adeea",
+  "pysam_version": "0.23.3",
+  "queries": [
+    {
+      "id": "reference-PFKFB3",
+      "file": "data/raw/repair-reference-PFKFB3.vcf.gz",
+      "sha256": "a5ab30f8a941c561002996607861fc903aa4bc1e62f0aeb2f92ec6f361333bb0",
+      "uncompressed_sha256": "b1a0e57960ec818d17749d6ff0480e002fe4df75a8babf81cab8047108ff823c",
+      "bytes": 90055,
+      "finished_at_utc": "2026-09-12T13:03:31.814883+00:00",
+      "source_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "source_index_sha256": "3ef8aa430d5552c2a43cffaa47a1d33f3542dafa41c281c9ee5cdbf416821d96",
+      "build": "GRCh37",
+      "start_0based": 6202537,
+      "end_exclusive": 6213667,
+      "rows": 449,
+      "sample_bearing": true
+    },
+    {
+      "id": "reference-BCL2L11",
+      "file": "data/raw/repair-reference-BCL2L11.vcf.gz",
+      "sha256": "2d99b76d2678b02a6ec4482ba870c0e87d09e10d33ac3a8ea0179b2bd0fd90d3",
+      "uncompressed_sha256": "5cfa28c767b349dd48ff82bd05ac560fc6b39b291eeae53592eb14ace822d491",
+      "bytes": 103525,
+      "finished_at_utc": "2026-09-12T13:03:36.197729+00:00",
+      "source_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "source_index_sha256": "de9cbe172468d433ecbf6f451d9eec256c1291274f61f6f51443a57cc906e8e7",
+      "build": "GRCh37",
+      "start_0based": 111893873,
+      "end_exclusive": 111917868,
+      "rows": 758,
+      "sample_bearing": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "plan_sha256": "bae29186b7bb6a2763ab6bcf71cd1df2cfe284a76ec4ae80ec12d06d03fc0c7f",
+  "access_plan_sha256": "3c3a8003ae4da268063fd4b17de4fdfa71004ee52ea8e97d6a88b5867e881be4",
+  "reader_sha256": "7de7624e5280e3c64e99a2deb1e315b566a0152c04445effd9a969463542eb25",
+  "pyarrow_version": "25.0.1",
+  "queries": [
+    {
+      "id": "QTD000889",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000889/QTD000889.all.parquet",
+      "ranges": [
+        {
+          "range": "0-7",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-0-7.data",
+          "bytes": 8,
+          "sha256": "cd61c6498a54fcf8c67371328dda6562ed32dd6243a28e3c012e2cae3ecee810",
+          "retrieved_at_utc": "2026-09-12T13:14:39.260041+00:00"
+        },
+        {
+          "range": "2553540782-2553606317",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2553540782-2553606317.data",
+          "bytes": 65536,
+          "sha256": "3fb9c2333b29df91a031149a21fed5612a7b26f7ccf92fc36b15bb447f9e774e",
+          "retrieved_at_utc": "2026-09-12T13:14:41.771055+00:00"
+        },
+        {
+          "range": "2552455235-2553606309",
+          "file": "data/raw/repair-parquet-ranges/QTD000889-2552455235-2553606309.data",
+          "bytes": 1151075,
+          "sha256": "15b7adc2ec4915e73caab21cdfd7a5e91418d227325d252083e80000953972ee",
+          "retrieved_at_utc": "2026-09-12T13:14:45.012066+00:00"
+        }
+      ],
+      "remote_size": 2553606318,
+      "etag": "\"9834f0ae-6497b69ac36b1\"",
+      "last_modified": "Wed, 28 Jan 2026 23:51:02 GMT"
+    },
+    {
+      "id": "QTD000891",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000891/QTD000891.all.parquet",
+      "ranges": []
+    },
+    {
+      "id": "QTD000892",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/r8_beta/sumstats/QTS000048/QTD000892/QTD000892.all.parquet",
+      "ranges": []
+    }
+  ]
+}

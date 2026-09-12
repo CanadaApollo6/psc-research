@@ -1,0 +1,51 @@
+{
+  "recorded_at_utc": "2026-09-12T13:12:30.911638+00:00",
+  "status": "The original r7-style URL templates returned HTTP 404 for all nine requests. Official release notes locate r8 under r8_beta with parquet, discovered before any target effects.",
+  "failed_requests": [
+    {
+      "id": "repair-QTD000889-index",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000889/QTD000889.all.tsv.gz.tbi",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000889-header",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000889/QTD000889.all.tsv.gz",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000889-cs",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000889/QTD000889.credible_sets.tsv.gz",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000891-index",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000891/QTD000891.all.tsv.gz.tbi",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000891-header",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000891/QTD000891.all.tsv.gz",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000891-cs",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000891/QTD000891.credible_sets.tsv.gz",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000892-index",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000892/QTD000892.all.tsv.gz.tbi",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000892-header",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000048/QTD000892/QTD000892.all.tsv.gz",
+      "http_status": 404
+    },
+    {
+      "id": "repair-QTD000892-cs",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000048/QTD000892/QTD000892.credible_sets.tsv.gz",
+      "http_status": 404
+    }
+  ]
+}
