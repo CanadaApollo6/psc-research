@@ -11,4 +11,7 @@ data/raw/
 data/private/
 data/predictions/
 work/
+# Full vector QC plots retain millions of points; compact PNG renders are versioned.
+data/derived/gse84161-array-qc/signal-distributions.pdf
+data/derived/gse84161-array-qc/rle-boxplots.pdf
 .DS_Store

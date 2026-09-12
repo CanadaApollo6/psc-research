@@ -1,0 +1,685 @@
+{
+  "checked_at_utc": "2026-09-12 18:12:29 UTC",
+  "mode": "execute",
+  "plan_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-normalization-plan.json",
+  "plan_sha256": "af3e84e6ef75c57427c6da1dee8d508ea53975e7793bd0befbae8ff7489defde",
+  "repository_root": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research",
+  "runtime": {
+    "R_version": "4.4.3",
+    "platform": "x86_64-conda-linux-gnu",
+    "bioconductor_release": "3.20",
+    "packages": {
+      "affy": "1.84.0",
+      "affyio": "1.76.0",
+      "preprocessCore": "1.68.0",
+      "hgu133plus2cdf": "2.18.0",
+      "Biobase": "2.66.0",
+      "BiocGenerics": "0.52.0",
+      "zlibbioc": "1.52.0",
+      "jsonlite": "2.0.0"
+    },
+    "lock": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/requirements-gse84161-array-linux-64.lock",
+      "expected_sha256": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+      "actual_sha256": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+      "bytes": 17270,
+      "status": "verified"
+    }
+  },
+  "method": {
+    "background": true,
+    "normalize": true,
+    "bgversion": 2,
+    "destructive": false,
+    "cdf_package": "hgu133plus2cdf",
+    "all_arrays_together": true,
+    "expected_sample_count": 30,
+    "expected_probe_rows": 54675,
+    "quantile_probabilities": [0, 0.01, 0.25, 0.5, 0.75, 0.98999999999999999, 1],
+    "quantile_type": 7
+  },
+  "input_hashes": {
+    "status": "verified",
+    "checked": {
+      "config/gse84161-normalization-method-lock.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-normalization-method-lock.json",
+        "sha256": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861",
+        "bytes": 3236
+      },
+      "docs/gse84161-normalization-method.md": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/docs/gse84161-normalization-method.md",
+        "sha256": "03736ea478a474bce53077ad5bb733af65e2c8e23b86eb5a3a1eac0c7d052afd",
+        "bytes": 8178
+      },
+      "docs/gse84161-array-protocol.md": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/docs/gse84161-array-protocol.md",
+        "sha256": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f",
+        "bytes": 8724
+      },
+      "config/gse84161-array-preparation.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-array-preparation.json",
+        "sha256": "4c737a700c53ae11927c520c2fd8d39771af776ac731f52764e3860fc8fc241d",
+        "bytes": 35223
+      },
+      "config/gse84161-raw-capture.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-raw-capture.json",
+        "sha256": "68212fa9e8d6164ff527bb5d796b4048ed0df0889bb7761b4592bfadef929613",
+        "bytes": 1664
+      },
+      "data/derived/gse84161-samples.csv": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-samples.csv",
+        "sha256": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+        "bytes": 21326
+      },
+      "data/derived/gse84161-raw-arrays.csv": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-raw-arrays.csv",
+        "sha256": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+        "bytes": 10633
+      },
+      "data/derived/gse84161-probe-map.csv.gz": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-probe-map.csv.gz",
+        "sha256": "6d1df89415d1b18a789d6ad685cbf9f8f74d29fe27f5b6d3db3783c654d75581",
+        "bytes": 881204
+      },
+      "data/raw/gse84161/GSE84161_RAW.tar": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/gse84161/GSE84161_RAW.tar",
+        "sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+        "bytes": 146739200
+      },
+      "scripts/normalize_gse84161.R": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/scripts/normalize_gse84161.R",
+        "sha256": "1d7513d054df3aa4088aec7351971ff3507b9101ba6d006b5d38f100545a8aa8",
+        "bytes": 31852
+      },
+      "config/gse84161-array-runtime.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-array-runtime.json",
+        "sha256": "e3fd6b17c40ece76a7a1932372cbe8f24787d89a558223bcfcf05dd8329f6607",
+        "bytes": 8402
+      },
+      "requirements-gse84161-array-linux-64.lock": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/requirements-gse84161-array-linux-64.lock",
+        "sha256": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+        "bytes": 17270
+      },
+      "config/gse84161-gene-map-sources.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-gene-map-sources.json",
+        "sha256": "e1518e126fcd8a61e262ad68afe09e43025c66f2c21d49b26820128ad23c7154",
+        "bytes": 7879
+      },
+      "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+        "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+        "bytes": 2236970
+      },
+      "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv",
+        "sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+        "bytes": 6
+      },
+      "data/raw/ets2-benchmark/ets2-public-release.zip": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ets2-benchmark/ets2-public-release.zip",
+        "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+        "bytes": 34636310
+      },
+      "work/ets2-independent-search/GSE84161-family-soft.txt": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ets2-independent-search/GSE84161-family-soft.txt",
+        "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+        "bytes": 99895372
+      },
+      "config/gse84161-normalization-plan-v1.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-normalization-plan-v1.json",
+        "sha256": "d196bb1eccb7aec332e53b20d08487bb54b9c904f6a85071055c454f5a8c264c",
+        "bytes": 10663
+      },
+      "docs/gse84161-normalization-run-amendment.md": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/docs/gse84161-normalization-run-amendment.md",
+        "sha256": "2a2350c93b85bc99fc15ec488079ab0602639103a2141dbd517e83529f7d5e64",
+        "bytes": 1535
+      },
+      "config/gse84161-normalization-plan-v2.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-normalization-plan-v2.json",
+        "sha256": "79ce13563a965eb00ed0ffc5c59dea306c11f87eb7943a309d1262c2ede0bddc",
+        "bytes": 11883
+      },
+      "config/gse84161-normalization-plan-v3.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-normalization-plan-v3.json",
+        "sha256": "f1a940449169bf9bf3932b2273268e62f262b3a4f45ea0d10902775b2383ab62",
+        "bytes": 12977
+      },
+      "config/gse84161-preprocesscore-thread-override.json": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/gse84161-preprocesscore-thread-override.json",
+        "sha256": "bdedf9e39f649146157906e7278df12e18b3b31d446119d8fb55c236b8555259",
+        "bytes": 11953
+      },
+      "docs/gse84161-runtime-correction.md": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/docs/gse84161-runtime-correction.md",
+        "sha256": "0fa2f64fc419419a7418875c52cae693133b509d7bfe98415601ef8db5ff0bc7",
+        "bytes": 2012
+      },
+      "work/gse84161-normalization/source/preprocessCore_1.68.0.tar.gz": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/source/preprocessCore_1.68.0.tar.gz",
+        "sha256": "50d9b6c2c1e4758dd19cc11470951d7e0d60f5ba315701835bc13dc9cbf3fb62",
+        "bytes": 127397
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/DESCRIPTION": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/DESCRIPTION",
+        "sha256": "3e86128b30fa10f95e5ba751c1cd2b72661817f889a7b7900db7a043ddf1b387",
+        "bytes": 845
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/INDEX": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/INDEX",
+        "sha256": "91272dbd6667b322b551c6d137c4efc761fbf63f961d6cad3d090854fbc6c2cf",
+        "bytes": 894
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/Rd.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/Rd.rds",
+        "sha256": "76083d2b97be50c9ee0697177762baba5415ea4fd4ba59c4357d6ffb907cfbc1",
+        "bytes": 811
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/features.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/features.rds",
+        "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9",
+        "bytes": 123
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/hsearch.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/hsearch.rds",
+        "sha256": "0b79c256a456a14b83c47bc355292c24b232abde824260d67bcdd761a92c7c69",
+        "bytes": 887
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/links.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/links.rds",
+        "sha256": "fcbf9c611962156988e24237a5ddb23e44e659d08b7d8edcb7f394f1906db9e0",
+        "bytes": 490
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/nsInfo.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/nsInfo.rds",
+        "sha256": "29bdd0ff30a654fb0d85795e0abd9778db175c5e634650ab8da17a1696950807",
+        "bytes": 240
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/package.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/Meta/package.rds",
+        "sha256": "ceeaa995c0b8ac64b52559b0360904ed7c0b694f265e23f5a1fce57024c133d1",
+        "bytes": 837
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/NAMESPACE": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/NAMESPACE",
+        "sha256": "d390a5ae468b21182afadda39be4579c31efc9c8d66b859fc45aaeddba2a9f76",
+        "bytes": 127
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "bytes": 1058
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore.rdb": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore.rdb",
+        "sha256": "1b0fa3eec6a2febaa6bfc02b53ed13367b02e0d1cc76441769d4b135d4f177fe",
+        "bytes": 40206
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore.rdx": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/R/preprocessCore.rdx",
+        "sha256": "48ac584d5de175cd2143203fea1c3d3230fdb75772d45740d3af67377f4040b8",
+        "bytes": 764
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/AnIndex": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/AnIndex",
+        "sha256": "20ceb1f3b040ae780c7e2c57078f77fbd32320d16570f7e2a33fc9218ead1320",
+        "bytes": 1506
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/aliases.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/aliases.rds",
+        "sha256": "f1f6da0ea320bbfa5cda18c6259af132142460bad10a876fbd739717f8675104",
+        "bytes": 434
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/paths.rds": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/paths.rds",
+        "sha256": "eb649320c80f9f29086c1b2480837f3c5df9c41e6a08b6baf4ff8376a28b832f",
+        "bytes": 326
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/preprocessCore.rdb": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/preprocessCore.rdb",
+        "sha256": "c92e93d5f252f61eed5ec103211a36c2f2b3b86792a44887ae474979be769ea6",
+        "bytes": 37083
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/preprocessCore.rdx": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/help/preprocessCore.rdx",
+        "sha256": "3a5a3f225fe4c001640cd94b82e08c6e56a7f758902c96279aa293c7b95cd9dc",
+        "bytes": 427
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/html/00Index.html": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/html/00Index.html",
+        "sha256": "4c1cfcd89b63e854efe5c1979e745502a4d5730d40d4a7c14a49ec84204a37a3",
+        "bytes": 6862
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/html/R.css": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/html/R.css",
+        "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b",
+        "bytes": 1844
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/R_subColSummarize.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/R_subColSummarize.h",
+        "sha256": "a920451ba5dcac9af84a2e411d8cbd6ef7ac17ac40a657d35ba992f026f32a43",
+        "bytes": 757
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/R_subColSummarize_stubs.c": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/R_subColSummarize_stubs.c",
+        "sha256": "25e984d56629fc2fc6dfd92e8cffe2cfd0d26fbee562e5e0e0d52801c583fd03",
+        "bytes": 2812
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/avg.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/avg.h",
+        "sha256": "cb5803cf90cbdb36732e67305e277259da2f49d067d5b66c8dc5273b73a3a2a5",
+        "bytes": 3896
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/avg_log.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/avg_log.h",
+        "sha256": "bb464dd6c040def01b6e3e2efc8a61c7a385441fe4fa06a6092ad42b86de0c96",
+        "bytes": 4190
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/biweight.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/biweight.h",
+        "sha256": "6abf63366986ad128d68b1e446aeb7c74551aa5b969020cd56d0352f4791a74a",
+        "bytes": 4649
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/lm.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/lm.h",
+        "sha256": "7357b79ecd162d434c61382f9a65f62de027a110d8af193fd95f818f317819c5",
+        "bytes": 864
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/log_avg.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/log_avg.h",
+        "sha256": "ee90cda7d1c5ece6f8d6e9cc0ff04af5bb334c11eb019b01456ede30a766ff60",
+        "bytes": 2724
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/log_median.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/log_median.h",
+        "sha256": "3362fa0ccb9f3d82de698f6d4cbae83e271a354c72ea15c976ec9408fe2d0a94",
+        "bytes": 4069
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/median.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/median.h",
+        "sha256": "5dceda1b26515348e9f2da3fc56039516461601d7cec745cb51d7eeb5f7461d8",
+        "bytes": 3490
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/median_log.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/median_log.h",
+        "sha256": "e402ea1fc8eef035379e20557d902dd662225ad7ed666051d22c4908d6944de6",
+        "bytes": 4040
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/medianpolish.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/medianpolish.h",
+        "sha256": "54c71b60bd74517d6834364c45db5a90b6379468c6c8371858abf98dfd49190d",
+        "bytes": 6699
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/plmd.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/plmd.h",
+        "sha256": "96cd196dc9f7b2a6df834eff8d7d8a84988e8afae3c675e6c73b2ec61c3bb7e7",
+        "bytes": 413
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/plmr.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/plmr.h",
+        "sha256": "731e167ddb01310719b367a0775d52aa9b3f7550569c1e85aaecc448637a9383",
+        "bytes": 7005
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_background_stubs.c": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_background_stubs.c",
+        "sha256": "12bf20443b82e37f24c6036254184a1941480a8dde5db9902d08c13bb96b80f7",
+        "bytes": 1120
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_background_stubs.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_background_stubs.h",
+        "sha256": "bfd99b0c89846863118e50d2e5873ffe194407f268e28976396e0a52af098d7b",
+        "bytes": 237
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_normalization_stubs.c": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_normalization_stubs.c",
+        "sha256": "a605a3e58be8212bebc6019c5730e41b3bab906fd0b743e72275818969e6b228",
+        "bytes": 2403
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_normalization_stubs.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_normalization_stubs.h",
+        "sha256": "4c50f90ef359b81778e64aa9906b3c840f313f28705d5e1836d15e5250855954",
+        "bytes": 440
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_summarization_stubs.c": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_summarization_stubs.c",
+        "sha256": "4586463a059227522fe8ffb1ccf3abdba5a1dff11fcaf2d23cc762aedced3d00",
+        "bytes": 62422
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_summarization_stubs.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/preprocessCore_summarization_stubs.h",
+        "sha256": "203c97ca73d74bf48d968884b0387308254476d4747fa3b1ec8e147d9e610612",
+        "bytes": 7155
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/qnorm.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/qnorm.h",
+        "sha256": "c42ea4801a9a266fdcdc2ca33831582118f690d8d104eb0078d2fb79f6551788",
+        "bytes": 972
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rlm.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rlm.h",
+        "sha256": "08fc7846deb56d0a839f3aa2e2625914657bcf5a9f3c6bc520f66eae9028b1a8",
+        "bytes": 6708
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rlm_se.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rlm_se.h",
+        "sha256": "8207691441899ed8a87a4d411000a8d4bd3044ff68d5bfa6c29c6bcc1d1ebf16",
+        "bytes": 3907
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rma_background4.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/rma_background4.h",
+        "sha256": "815d225699b242809bef2de50ad1a65ad7a67ae65606462a03be4ebdccfc7b10",
+        "bytes": 2438
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/weightedkerneldensity_stubs.c": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/weightedkerneldensity_stubs.c",
+        "sha256": "871f8f74027124fa07d9a17e93e13365f2c661778caa0735c4a3dc73c65fda6e",
+        "bytes": 701
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/weightedkerneldensity_stubs.h": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/include/weightedkerneldensity_stubs.h",
+        "sha256": "7e01546dfcbc887d0b5270674afc244ec5b6f1b96c467dd7cb671b847e26b1c7",
+        "bytes": 163
+      },
+      "work/gse84161-normalization/runtime/lib/R/library/preprocessCore/libs/preprocessCore.so": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/runtime/lib/R/library/preprocessCore/libs/preprocessCore.so",
+        "sha256": "2e269a4dd29a3e154e82336580b86c2080c58262ae3acc5bbf7cb2721cb007c6",
+        "bytes": 211200
+      }
+    }
+  },
+  "samples": {
+    "count": 30,
+    "order_column": "source_order",
+    "accessions": ["GSM2228386", "GSM2228387", "GSM2228388", "GSM2228389", "GSM2228390", "GSM2228391", "GSM2228392", "GSM2228393", "GSM2228394", "GSM2228395", "GSM2228396", "GSM2228397", "GSM2228398", "GSM2228399", "GSM2228400", "GSM2228401", "GSM2228402", "GSM2228403", "GSM2228404", "GSM2228405", "GSM2228406", "GSM2228407", "GSM2228408", "GSM2228409", "GSM2228410", "GSM2228411", "GSM2228412", "GSM2228413", "GSM2228414", "GSM2228415"],
+    "metadata_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-samples.csv",
+    "metadata_sha256": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff"
+  },
+  "source": {
+    "archive_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/gse84161/GSE84161_RAW.tar",
+    "archive_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+    "archive_bytes": 146739200,
+    "archive_sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+    "archive_members": ["GSM2228386_34810_SPR938_HGU133P.CEL.gz", "GSM2228387_34811_SPR938_HGU133P.CEL.gz", "GSM2228388_34812_SPR938_HGU133P.CEL.gz", "GSM2228389_34813_SPR938_HGU133P.CEL.gz", "GSM2228390_34814_SPR938_HGU133P.CEL.gz", "GSM2228391_34815_SPR938_HGU133P.CEL.gz", "GSM2228392_34816_SPR938_HGU133P.CEL.gz", "GSM2228393_34817_SPR938_HGU133P.CEL.gz", "GSM2228394_34818_SPR938_HGU133P.CEL.gz", "GSM2228395_34819_SPR938_HGU133P.CEL.gz", "GSM2228396_34820_SPR938_HGU133P.CEL.gz", "GSM2228397_34821_SPR938_HGU133P.CEL.gz", "GSM2228398_34822_SPR938_HGU133P.CEL.gz", "GSM2228399_34823_SPR938_HGU133P.CEL.gz", "GSM2228400_34824_SPR938_HGU133P.CEL.gz", "GSM2228401_34825_SPR938_HGU133P.CEL.gz", "GSM2228402_34826_SPR938_HGU133P.CEL.gz", "GSM2228403_34827_SPR938_HGU133P.CEL.gz", "GSM2228404_34828_SPR938_HGU133P.CEL.gz", "GSM2228405_34829_SPR938_HGU133P.CEL.gz", "GSM2228406_34830_SPR938_HGU133P.CEL.gz", "GSM2228407_34831_SPR938_HGU133P.CEL.gz", "GSM2228408_34832_SPR938_HGU133P.CEL.gz", "GSM2228409_34833_SPR938_HGU133P.CEL.gz", "GSM2228410_34834_SPR938_HGU133P.CEL.gz", "GSM2228411_34835_SPR938_HGU133P.CEL.gz", "GSM2228412_34836_SPR938_HGU133P.CEL.gz", "GSM2228413_34837_SPR938_HGU133P.CEL.gz", "GSM2228414_34838_SPR938_HGU133P.CEL.gz", "GSM2228415_34839_SPR938_HGU133P.CEL.gz"],
+    "archive_member_count": 30,
+    "inventory_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-raw-arrays.csv",
+    "inventory_sha256": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "cel_directory": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel",
+    "extracted_paths": ["/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228386_34810_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228387_34811_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228388_34812_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228389_34813_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228390_34814_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228391_34815_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228392_34816_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228393_34817_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228394_34818_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228395_34819_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228396_34820_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228397_34821_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228398_34822_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228399_34823_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228400_34824_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228401_34825_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228402_34826_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228403_34827_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228404_34828_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228405_34829_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228406_34830_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228407_34831_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228408_34832_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228409_34833_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228410_34834_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228411_34835_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228412_34836_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228413_34837_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228414_34838_SPR938_HGU133P.CEL.gz", "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228415_34839_SPR938_HGU133P.CEL.gz"],
+    "extracted_present": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+    "extracted_all_present": true,
+    "extracted_hashes": {
+      "GSM2228386": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228386_34810_SPR938_HGU133P.CEL.gz",
+        "bytes": 4963009,
+        "sha256": "c6411a9f9667c3113744b1d7be43aff2b17b86bbb09b6d967c4a4c4b3ac8067e"
+      },
+      "GSM2228387": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228387_34811_SPR938_HGU133P.CEL.gz",
+        "bytes": 4878254,
+        "sha256": "4ea7b815c10f210190e6391e33d472b461ae502cb5bd372e14c9c4717bfaf65d"
+      },
+      "GSM2228388": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228388_34812_SPR938_HGU133P.CEL.gz",
+        "bytes": 5007492,
+        "sha256": "85096c5276d927dc34f0026bf839704a5cfc90c70853c726bdeb5039f7ac3454"
+      },
+      "GSM2228389": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228389_34813_SPR938_HGU133P.CEL.gz",
+        "bytes": 4861899,
+        "sha256": "6358a52c1245fbb2d0af79d51a6931868cab087752bac45575e029972345e763"
+      },
+      "GSM2228390": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228390_34814_SPR938_HGU133P.CEL.gz",
+        "bytes": 4921982,
+        "sha256": "e98261bfbc1215de20ccbe15597de7f290a1ea1dd1e8e17fdfddeb9dd29ed748"
+      },
+      "GSM2228391": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228391_34815_SPR938_HGU133P.CEL.gz",
+        "bytes": 4870254,
+        "sha256": "2c4026a037eb9623dd1839f889ed78a490b6b97a7f160cc97fad5953212aceb6"
+      },
+      "GSM2228392": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228392_34816_SPR938_HGU133P.CEL.gz",
+        "bytes": 4967237,
+        "sha256": "2bd7d3e03e4968ba290ba6f1943d9ab2e58b8196379b89165aa27c50aa288cba"
+      },
+      "GSM2228393": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228393_34817_SPR938_HGU133P.CEL.gz",
+        "bytes": 5128538,
+        "sha256": "ba4c8eeeca24d8f334fee1947e2f6fa2c8fff0b999ed07ad13090611469fedef"
+      },
+      "GSM2228394": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228394_34818_SPR938_HGU133P.CEL.gz",
+        "bytes": 5129606,
+        "sha256": "b7768a988347eb775eda10e5cc9ad076cb8626a984bff2624d32ceb2b446666f"
+      },
+      "GSM2228395": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228395_34819_SPR938_HGU133P.CEL.gz",
+        "bytes": 5030268,
+        "sha256": "4992d272df15ea11a669f188845cda2d21bfaec4371d5901b44a085ed4c5c23e"
+      },
+      "GSM2228396": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228396_34820_SPR938_HGU133P.CEL.gz",
+        "bytes": 4851261,
+        "sha256": "38dae08bd65c7d1c7bcb2c6e5e50166b33f43c3880ee46bc113d927b9590a5e4"
+      },
+      "GSM2228397": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228397_34821_SPR938_HGU133P.CEL.gz",
+        "bytes": 4938895,
+        "sha256": "bb0a63902d02ea18cc18047993e2be9eed8cf2cb08bce8ee6fe83e00cc392410"
+      },
+      "GSM2228398": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228398_34822_SPR938_HGU133P.CEL.gz",
+        "bytes": 5016407,
+        "sha256": "a32dd22895a1ac49985e1de92c04f1609c92cb9ef87144296de08e6761acae42"
+      },
+      "GSM2228399": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228399_34823_SPR938_HGU133P.CEL.gz",
+        "bytes": 4969969,
+        "sha256": "f113fa2b3dbada445ba473996d01b6e8b58c0019237f9fca3473b780f7c56e4a"
+      },
+      "GSM2228400": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228400_34824_SPR938_HGU133P.CEL.gz",
+        "bytes": 4917132,
+        "sha256": "cb74c8bba35a46c145ef8dd2fc90aaf060917a3a99c58be5d4149501fac5ed9f"
+      },
+      "GSM2228401": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228401_34825_SPR938_HGU133P.CEL.gz",
+        "bytes": 4760222,
+        "sha256": "a8c4903ed4055ae50cbb9effcac6b1c931946c8a503dce9a4f3063f2f4cc4e41"
+      },
+      "GSM2228402": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228402_34826_SPR938_HGU133P.CEL.gz",
+        "bytes": 4876434,
+        "sha256": "0062913ed181aaec6c2ab061af02171793c707aa551a9fb8c9bff7e8934841bd"
+      },
+      "GSM2228403": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228403_34827_SPR938_HGU133P.CEL.gz",
+        "bytes": 4840374,
+        "sha256": "9ae704cab2067969bec80ade3b59df154d675e40fa65acde2cc1f5dded490907"
+      },
+      "GSM2228404": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228404_34828_SPR938_HGU133P.CEL.gz",
+        "bytes": 4915550,
+        "sha256": "2205b9ed379a0f8f6d027bea03d6abf50c008f1f832b36f20a7e6f1c80c239dd"
+      },
+      "GSM2228405": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228405_34829_SPR938_HGU133P.CEL.gz",
+        "bytes": 4923987,
+        "sha256": "62657584183cc92d0c9652e1b9c43cdaf743f891f9671ffc4ab9d2fb04eba150"
+      },
+      "GSM2228406": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228406_34830_SPR938_HGU133P.CEL.gz",
+        "bytes": 4771228,
+        "sha256": "6d779df8b2ff26c95825e531d4eb26580a9b18eff6d1c7fae02e361f7fec2df9"
+      },
+      "GSM2228407": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228407_34831_SPR938_HGU133P.CEL.gz",
+        "bytes": 4927546,
+        "sha256": "e07823c56a2cff8fad2863c2cfefa546d948b820a60a1cad732fed22fb7999e7"
+      },
+      "GSM2228408": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228408_34832_SPR938_HGU133P.CEL.gz",
+        "bytes": 4960242,
+        "sha256": "ece5be8481be3968e1f1f7afe48db7545417651ee466111e55b17934c7b35dc6"
+      },
+      "GSM2228409": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228409_34833_SPR938_HGU133P.CEL.gz",
+        "bytes": 4804868,
+        "sha256": "5f31994acd8fcc97ab3b0cd7cf251b62563684f0b19658b35b796743ee89ec22"
+      },
+      "GSM2228410": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228410_34834_SPR938_HGU133P.CEL.gz",
+        "bytes": 4850051,
+        "sha256": "cbcd2c389765f9f75129d080dd688540e6daa09c5646ef9156ecd8aae177cdf7"
+      },
+      "GSM2228411": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228411_34835_SPR938_HGU133P.CEL.gz",
+        "bytes": 4817266,
+        "sha256": "fb1d435cffb64188f704ad73e8bdbbdea04b6a3cbc47e7680b387b16b6d2f423"
+      },
+      "GSM2228412": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228412_34836_SPR938_HGU133P.CEL.gz",
+        "bytes": 4815640,
+        "sha256": "c746144fa4054df8c954d365ba45c5eff9371a036c00b75bed052f389b117d40"
+      },
+      "GSM2228413": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228413_34837_SPR938_HGU133P.CEL.gz",
+        "bytes": 4592966,
+        "sha256": "6a1a5d58990628686d80d95b447d00dd28b2e4b0e8ce8690e45fda7443da9d94"
+      },
+      "GSM2228414": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228414_34838_SPR938_HGU133P.CEL.gz",
+        "bytes": 4659439,
+        "sha256": "f3aed0dac84808dc8a5b3970f685db8e80b1cf652eaf3948c7d15470db1e0498"
+      },
+      "GSM2228415": {
+        "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/cel/GSM2228415_34839_SPR938_HGU133P.CEL.gz",
+        "bytes": 4738222,
+        "sha256": "7354d204347d68863230ea1edb7e8e1b7b7f9ca865bf0cf44064c094241056ef"
+      }
+    }
+  },
+  "execution_gate": {
+    "status": "frozen",
+    "allowed": true,
+    "frozen": true
+  },
+  "expression_values_read": true,
+  "expression_normalization_run": true,
+  "started_at_utc": "2026-09-12 18:12:29 UTC",
+  "finished_at_utc": "2026-09-12 18:13:18 UTC",
+  "raw_pm": {
+    "definition": "CDF-defined perfect-match entries returned by affy::pm",
+    "dimensions": [604258, 30],
+    "missing_count": 0,
+    "nonfinite_count_excluding_missing": 0,
+    "negative_count": 0,
+    "zero_count": 0,
+    "hard_stop_passed": true,
+    "quantile_type": 7,
+    "quantile_probabilities": [0, 0.01, 0.25, 0.5, 0.75, 0.98999999999999999, 1],
+    "summary_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/raw-pm-summary.csv",
+    "summary_sha256": "0a8315fda7999eb8d23b4a3370ebd6e772125ebd325458389443b00e3c8a6564"
+  },
+  "normalized_probe_rma": {
+    "dimensions": [54675, 30],
+    "finite": true,
+    "quantity": "log2 RMA probe-set expression",
+    "cdf_package": "hgu133plus2cdf",
+    "background": true,
+    "normalize": true,
+    "bgversion": 2,
+    "destructive": false,
+    "summary_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/normalized-probe-summary.csv",
+    "summary_sha256": "81b8c7deb6b72d5735fbd6a48a8fce373772ddb9663b89d13899bf7804a25f9e",
+    "probe_matrix_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_probe_rma.rds",
+    "probe_matrix_sha256": "6dcfd78b60a73c6d99310d24777af68f712ff430db0bd1e466b4033fec9a9748",
+    "expression_set_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_probe_rma_expression_set.rds",
+    "expression_set_sha256": "d521b35b827ca7f9d1e9382aa1db442f056337600d8e14f5f2fcaae45f78c2f4"
+  },
+  "rle": {
+    "definition": "full-probe RMA matrix minus each probe's median across all 30 arrays",
+    "dimensions": [54675, 30],
+    "finite": true,
+    "summary_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/rle-summary.csv",
+    "summary_sha256": "eebad0dd9f9602df54c1f4b9176c8400f73a75205954aba8bf3f50f61ae297db",
+    "plot_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/rle-boxplots.pdf",
+    "plot_sha256": "65b4b0bcd851249e91aff6a2b50260a9bcb98747edbbf28ed58cee49ffc3dfe7"
+  },
+  "plots": {
+    "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/signal-distributions.pdf",
+    "sha256": "43221f5f261dc8991750070affd0ed3ee0e77d1345595b5f60fd8a3fe91137e9"
+  },
+  "outputs": {
+    "raw-pm-summary.csv": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/raw-pm-summary.csv",
+      "bytes": 2144,
+      "sha256": "0a8315fda7999eb8d23b4a3370ebd6e772125ebd325458389443b00e3c8a6564"
+    },
+    "normalized-probe-summary.csv": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/normalized-probe-summary.csv",
+      "bytes": 4417,
+      "sha256": "81b8c7deb6b72d5735fbd6a48a8fce373772ddb9663b89d13899bf7804a25f9e"
+    },
+    "rle-summary.csv": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/rle-summary.csv",
+      "bytes": 5212,
+      "sha256": "eebad0dd9f9602df54c1f4b9176c8400f73a75205954aba8bf3f50f61ae297db"
+    },
+    "sample-order.csv": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/sample-order.csv",
+      "bytes": 1752,
+      "sha256": "29025440ef091ef4a3debd7b6ec71907f3406408d537ae1c06a850d4e04b4ceb"
+    },
+    "signal-distributions.pdf": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/signal-distributions.pdf",
+      "bytes": 37361830,
+      "sha256": "43221f5f261dc8991750070affd0ed3ee0e77d1345595b5f60fd8a3fe91137e9"
+    },
+    "rle-boxplots.pdf": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/rle-boxplots.pdf",
+      "bytes": 5954219,
+      "sha256": "65b4b0bcd851249e91aff6a2b50260a9bcb98747edbbf28ed58cee49ffc3dfe7"
+    },
+    "normalized_probe_rma.rds": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_probe_rma.rds",
+      "bytes": 10949384,
+      "sha256": "6dcfd78b60a73c6d99310d24777af68f712ff430db0bd1e466b4033fec9a9748"
+    },
+    "normalized_probe_rma_expression_set.rds": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_probe_rma_expression_set.rds",
+      "bytes": 10950732,
+      "sha256": "d521b35b827ca7f9d1e9382aa1db442f056337600d8e14f5f2fcaae45f78c2f4"
+    },
+    "normalized_entrez_median.rds": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_entrez_median.rds",
+      "bytes": 4210060,
+      "sha256": "c524ba92df6809afc151b51a2fd0ce400eb0c67f913f55ca67b91ef848c80f54"
+    },
+    "entrez-probe-counts.csv": {
+      "path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/entrez-probe-counts.csv",
+      "bytes": 209717,
+      "sha256": "39fefbb0b2923c716b7772b3dca1b646d42923e688cf444cb0a0e96393ceef60"
+    }
+  },
+  "mapping": {
+    "status": "completed",
+    "probe_map_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-probe-map.csv.gz",
+    "probe_map_sha256": "6d1df89415d1b18a789d6ad685cbf9f8f74d29fe27f5b6d3db3783c654d75581",
+    "eligible_probe_count": 41834,
+    "entrez_gene_count": 20486,
+    "dimensions": [20486, 30],
+    "matrix_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/gse84161-normalization/output/normalized_entrez_median.rds",
+    "matrix_sha256": "c524ba92df6809afc151b51a2fd0ce400eb0c67f913f55ca67b91ef848c80f54",
+    "contributing_probe_counts_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/derived/gse84161-array-qc/entrez-probe-counts.csv",
+    "contributing_probe_counts_sha256": "39fefbb0b2923c716b7772b3dca1b646d42923e688cf444cb0a0e96393ceef60",
+    "feature_order": "lexicographic Entrez Gene ID",
+    "aggregation": "median of all eligible single-Entrez normalized probe sets per array",
+    "ensembl_crosswalk_used": false
+  },
+  "automatic_signal_based_exclusions": false,
+  "program_scores_computed": false,
+  "treatment_or_donor_contrasts_computed": false
+}

@@ -1,0 +1,7 @@
+# GSE84161 execution correction
+
+The first execution under [plan v1](../config/gse84161-normalization-plan-v1.json), frozen September 12, 2026 at 17:59:21 UTC, stopped while writing the raw PM summary. R reported `unimplemented type 'list' in 'EncodeElement'`: the summary builder left sample accessions in a list column. Source validation and CEL reading had completed, but `affy::rma` had not been called. No normalized matrix, gene aggregation, program score or treatment contrast was produced by that attempt.
+
+The correction adds `out$sample_accession <- as.character(out$sample_accession)` immediately before the summary's numeric-column conversions. A two-array fixture verified atomic columns, known medians and zero counts, and a CSV write/read round trip before restarting. This changes summary serialization only. Inputs, array inclusion, RMA parameters, mapping, aggregation, QC definitions and coverage thresholds remain unchanged.
+
+The failed plan is preserved, including the original script SHA-256 `57db51cf41505bd594eb407c5be2e990dfd4ea6991ff9867834c656cac8a0844`. The original script and execution logs are retained in ignored `work/gse84161-normalization/` storage. Removing the single added conversion line reconstructs that script. The effective [execution plan](../config/gse84161-normalization-plan.json) records the corrected script hash, this note, the original plan and failure-log hashes, and a new freeze time before the resumed run. The earlier method specification and method lock are preserved verbatim.

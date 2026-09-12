@@ -1,0 +1,812 @@
+{
+  "created_at_utc": "2026-09-12T18:16:02.110713+00:00",
+  "check_id": "gse84161-independent-mapping-check-v1",
+  "method_lock": {
+    "path": "config/gse84161-normalization-method-lock.json",
+    "sha256": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861",
+    "method_id": "gse84161-normalization-mapping-method-v1",
+    "frozen_at_utc": "2026-09-12T17:41:34.062464+00:00"
+  },
+  "verified_input_hashes": [
+    {
+      "path": "config/gse84161-normalization-method-lock.json",
+      "bytes": 3236,
+      "sha256": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861"
+    },
+    {
+      "path": "config/ets2-benchmark-sources.json",
+      "bytes": 1422,
+      "sha256": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a"
+    },
+    {
+      "path": "config/ets2-validation-amended-rules.json",
+      "bytes": 11396,
+      "sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b"
+    },
+    {
+      "path": "config/gse84161-array-preparation.json",
+      "bytes": 35223,
+      "sha256": "4c737a700c53ae11927c520c2fd8d39771af776ac731f52764e3860fc8fc241d"
+    },
+    {
+      "path": "data/derived/gse84161-raw-arrays.csv",
+      "bytes": 10633,
+      "sha256": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125"
+    },
+    {
+      "path": "data/derived/gse84161-samples.csv",
+      "bytes": 21326,
+      "sha256": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff"
+    },
+    {
+      "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "bytes": 34636310,
+      "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c"
+    },
+    {
+      "path": "docs/gse84161-array-protocol.md",
+      "bytes": 8724,
+      "sha256": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f"
+    },
+    {
+      "path": "docs/gse84161-normalization-method.md",
+      "bytes": 8178,
+      "sha256": "03736ea478a474bce53077ad5bb733af65e2c8e23b86eb5a3a1eac0c7d052afd"
+    },
+    {
+      "path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777"
+    },
+    {
+      "path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777"
+    },
+    {
+      "path": "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+      "bytes": 2236970,
+      "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167"
+    },
+    {
+      "path": "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv",
+      "bytes": 6,
+      "sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646"
+    },
+    {
+      "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "bytes": 34636310,
+      "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c"
+    }
+  ],
+  "source_members": {
+    "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv": {
+      "member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "bytes": 59700,
+      "sha256": "ed042a565382c230603d42b338b440107b74617dd4ee90cc9a8a690d1e94e229",
+      "header_columns": 6,
+      "nonblank_rows": 928
+    },
+    "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv": {
+      "member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "bytes": 18837392,
+      "sha256": "2a104869fdb5d11b2c61c11bdd166e4c3989fc12525fe4b53e06e08d975a1bf4",
+      "header_columns": 7658,
+      "nonblank_rows": 815
+    }
+  },
+  "gpl570": {
+    "source": {
+      "header": [
+        "ID",
+        "GB_ACC",
+        "SPOT_ID",
+        "Species Scientific Name",
+        "Annotation Date",
+        "Sequence Type",
+        "Sequence Source",
+        "Target Description",
+        "Representative Public ID",
+        "Gene Title",
+        "Gene Symbol",
+        "ENTREZ_GENE_ID",
+        "RefSeq Transcript ID",
+        "Gene Ontology Biological Process",
+        "Gene Ontology Cellular Component",
+        "Gene Ontology Molecular Function"
+      ],
+      "probe_rows": 54675,
+      "unique_probe_ids": 54675,
+      "expected_platform": "GPL570",
+      "annotation_date": "Oct 6, 2014"
+    },
+    "probe_to_entrez": {
+      "expected": {
+        "probe_rows": 54675,
+        "single_unique_entrez": 41834,
+        "blank_or_unresolved_entrez": 10541,
+        "multiple_unique_entrez": 2300,
+        "unique_eligible_entrez": 20486
+      },
+      "observed": {
+        "probe_rows": 54675,
+        "single_unique_entrez": 41834,
+        "blank_or_unresolved_entrez": 10541,
+        "multiple_unique_entrez": 2300,
+        "unique_eligible_entrez": 20486,
+        "probes_with_unresolved_tokens_discarded": 0,
+        "eligible_probe_count": 41834,
+        "probe_count_distribution": {
+          "2": 5194,
+          "8": 54,
+          "3": 2810,
+          "4": 1379,
+          "5": 700,
+          "7": 160,
+          "1": 9792,
+          "6": 333,
+          "9": 29,
+          "11": 7,
+          "10": 16,
+          "15": 1,
+          "12": 5,
+          "13": 5,
+          "20": 1
+        },
+        "status_examples": {
+          "multiple_unique_entrez": [
+            "1007_s_at",
+            "1294_at",
+            "1552258_at",
+            "1552283_s_at",
+            "1552388_at"
+          ],
+          "single_unique_entrez": [
+            "1053_at",
+            "117_at",
+            "121_at",
+            "1255_g_at",
+            "1316_at"
+          ],
+          "blank_or_unresolved_entrez": [
+            "1552563_a_at",
+            "1552829_at",
+            "1552867_at",
+            "1552961_at",
+            "1552974_at"
+          ]
+        }
+      }
+    }
+  },
+  "ensembl116": {
+    "source": {
+      "path": "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+      "bytes": 2236970,
+      "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+      "manifest_id": "ensembl116_human_gene_crosswalk",
+      "role": ""
+    },
+    "relationships": {
+      "relationship_rows": 91748,
+      "unique_exact_relationship_rows": 91748,
+      "duplicate_relationship_rows": 0,
+      "unique_ensembl_gene_ids": 86411,
+      "ensembl_rows_with_entrez": 31492,
+      "ensembl_without_entrez": 54919,
+      "unique_entrez_ids": 28433,
+      "reciprocal_one_to_one_ensembl_ids": 25210,
+      "symbols_with_one_ensembl": 38629,
+      "symbols_with_multiple_ensembl": 3148,
+      "unique_hgnc_symbols": 41777
+    }
+  },
+  "programs": {
+    "ets2_g1_dn": {
+      "source_namespace": "ensembl_gene_id",
+      "source_unique_before_exclusion": 928,
+      "excluded_target_gene_count": 1,
+      "excluded_target_values": [
+        "ENSG00000157557"
+      ],
+      "intended_source_members": 927,
+      "mapped_unique_entrez_genes": 801,
+      "mapping_fraction": 0.8640776699029126,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 8,
+        "ambiguous_reciprocal_entrez": 66,
+        "mapped": 801,
+        "missing_ensembl_id": 2,
+        "missing_entrez_id": 23,
+        "no_eligible_gpl_probe": 27
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "ENSG00000088298",
+          "ENSG00000204577",
+          "ENSG00000179304",
+          "ENSG00000268350",
+          "ENSG00000166780",
+          "ENSG00000170667",
+          "ENSG00000197943",
+          "ENSG00000178104"
+        ],
+        "ambiguous_reciprocal_entrez": [
+          "ENSG00000277632",
+          "ENSG00000159314",
+          "ENSG00000167613",
+          "ENSG00000271503",
+          "ENSG00000130755",
+          "ENSG00000187630",
+          "ENSG00000116574",
+          "ENSG00000157326",
+          "ENSG00000185291",
+          "ENSG00000244482"
+        ],
+        "mapped": [
+          "ENSG00000106034",
+          "ENSG00000131018",
+          "ENSG00000104894",
+          "ENSG00000143110",
+          "ENSG00000104043",
+          "ENSG00000064886",
+          "ENSG00000164691",
+          "ENSG00000111961",
+          "ENSG00000139572",
+          "ENSG00000132965"
+        ],
+        "missing_ensembl_id": [
+          "ENSG00000112096",
+          "ENSG00000221995"
+        ],
+        "missing_entrez_id": [
+          "ENSG00000248477",
+          "ENSG00000250687",
+          "ENSG00000179978",
+          "ENSG00000223799",
+          "ENSG00000244682",
+          "ENSG00000250138",
+          "ENSG00000251634",
+          "ENSG00000160766",
+          "ENSG00000268758",
+          "ENSG00000261888"
+        ],
+        "no_eligible_gpl_probe": [
+          "ENSG00000239697",
+          "ENSG00000254415",
+          "ENSG00000163874",
+          "ENSG00000214212",
+          "ENSG00000187037",
+          "ENSG00000196535",
+          "ENSG00000275793",
+          "ENSG00000238005",
+          "ENSG00000241399",
+          "ENSG00000188305"
+        ]
+      },
+      "mapped_entrez_sha256": "0fdb95ffae2555aadb68563d3cc7921fd8a71e221db3c3aebe6b543d95da3d54"
+    },
+    "ets2_g1_up": {
+      "source_namespace": "ensembl_gene_id",
+      "source_unique_before_exclusion": 668,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 668,
+      "mapped_unique_entrez_genes": 518,
+      "mapping_fraction": 0.7754491017964071,
+      "mapping_gate_pass": false,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 7,
+        "ambiguous_reciprocal_entrez": 36,
+        "mapped": 518,
+        "missing_ensembl_id": 2,
+        "missing_entrez_id": 86,
+        "no_eligible_gpl_probe": 19
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "ENSG00000076554",
+          "ENSG00000004866",
+          "ENSG00000171943",
+          "ENSG00000172062",
+          "ENSG00000186854",
+          "ENSG00000197620",
+          "ENSG00000099290"
+        ],
+        "ambiguous_reciprocal_entrez": [
+          "ENSG00000234745",
+          "ENSG00000172058",
+          "ENSG00000185122",
+          "ENSG00000196369",
+          "ENSG00000204525",
+          "ENSG00000143624",
+          "ENSG00000175344",
+          "ENSG00000145425",
+          "ENSG00000117115",
+          "ENSG00000206503"
+        ],
+        "mapped": [
+          "ENSG00000152582",
+          "ENSG00000142002",
+          "ENSG00000121769",
+          "ENSG00000196428",
+          "ENSG00000103353",
+          "ENSG00000065150",
+          "ENSG00000168497",
+          "ENSG00000143457",
+          "ENSG00000139725",
+          "ENSG00000112983"
+        ],
+        "missing_ensembl_id": [
+          "ENSG00000225178",
+          "ENSG00000130723"
+        ],
+        "missing_entrez_id": [
+          "ENSG00000212789",
+          "ENSG00000213442",
+          "ENSG00000244021",
+          "ENSG00000210049",
+          "ENSG00000234287",
+          "ENSG00000244716",
+          "ENSG00000236552",
+          "ENSG00000227347",
+          "ENSG00000259612",
+          "ENSG00000234322"
+        ],
+        "no_eligible_gpl_probe": [
+          "ENSG00000105640",
+          "ENSG00000147403",
+          "ENSG00000273514",
+          "ENSG00000187559",
+          "ENSG00000108107",
+          "ENSG00000122026",
+          "ENSG00000175061",
+          "ENSG00000102898",
+          "ENSG00000163545",
+          "ENSG00000278771"
+        ]
+      },
+      "mapped_entrez_sha256": "fc89eb00cd1384ab7f63a7d55988e2283942f4c7960582dfca1f9c1fe65d987c"
+    },
+    "ets2_g2_dn": {
+      "source_namespace": "ensembl_gene_id",
+      "source_unique_before_exclusion": 875,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 875,
+      "mapped_unique_entrez_genes": 764,
+      "mapping_fraction": 0.8731428571428571,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 8,
+        "ambiguous_reciprocal_entrez": 56,
+        "mapped": 764,
+        "missing_ensembl_id": 1,
+        "missing_entrez_id": 19,
+        "no_eligible_gpl_probe": 27
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "ENSG00000166780",
+          "ENSG00000197943",
+          "ENSG00000179304",
+          "ENSG00000170667",
+          "ENSG00000268350",
+          "ENSG00000088298",
+          "ENSG00000204577",
+          "ENSG00000178104"
+        ],
+        "ambiguous_reciprocal_entrez": [
+          "ENSG00000159314",
+          "ENSG00000271503",
+          "ENSG00000105808",
+          "ENSG00000277632",
+          "ENSG00000140749",
+          "ENSG00000168918",
+          "ENSG00000130755",
+          "ENSG00000187630",
+          "ENSG00000213719",
+          "ENSG00000126821"
+        ],
+        "mapped": [
+          "ENSG00000131018",
+          "ENSG00000259207",
+          "ENSG00000164691",
+          "ENSG00000197046",
+          "ENSG00000050405",
+          "ENSG00000111961",
+          "ENSG00000104894",
+          "ENSG00000149131",
+          "ENSG00000161955",
+          "ENSG00000175471"
+        ],
+        "missing_ensembl_id": [
+          "ENSG00000221995"
+        ],
+        "missing_entrez_id": [
+          "ENSG00000272625",
+          "ENSG00000286646",
+          "ENSG00000149531",
+          "ENSG00000244682",
+          "ENSG00000160766",
+          "ENSG00000179978",
+          "ENSG00000248477",
+          "ENSG00000251634",
+          "ENSG00000250138",
+          "ENSG00000250687"
+        ],
+        "no_eligible_gpl_probe": [
+          "ENSG00000239697",
+          "ENSG00000163874",
+          "ENSG00000254415",
+          "ENSG00000187037",
+          "ENSG00000183246",
+          "ENSG00000196535",
+          "ENSG00000214212",
+          "ENSG00000275793",
+          "ENSG00000241399",
+          "ENSG00000274600"
+        ]
+      },
+      "mapped_entrez_sha256": "66de48f7e6cf9d753d1eed9791cf4dca7f4640466f36bcf636dd21dc427d4135"
+    },
+    "chr21_dn": {
+      "source_namespace": "ensembl_gene_id",
+      "source_unique_before_exclusion": 141,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 141,
+      "mapped_unique_entrez_genes": 120,
+      "mapping_fraction": 0.851063829787234,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_reciprocal_entrez": 13,
+        "mapped": 120,
+        "missing_entrez_id": 6,
+        "no_eligible_gpl_probe": 2
+      },
+      "status_examples": {
+        "ambiguous_reciprocal_entrez": [
+          "ENSG00000131042",
+          "ENSG00000187116",
+          "ENSG00000104972",
+          "ENSG00000249437",
+          "ENSG00000167613",
+          "ENSG00000204472",
+          "ENSG00000140749",
+          "ENSG00000185862",
+          "ENSG00000185291",
+          "ENSG00000012779"
+        ],
+        "mapped": [
+          "ENSG00000137462",
+          "ENSG00000170345",
+          "ENSG00000148926",
+          "ENSG00000152229",
+          "ENSG00000177575",
+          "ENSG00000185432",
+          "ENSG00000186815",
+          "ENSG00000162711",
+          "ENSG00000165092",
+          "ENSG00000179630"
+        ],
+        "missing_entrez_id": [
+          "ENSG00000244682",
+          "ENSG00000268758",
+          "ENSG00000179978",
+          "ENSG00000251634",
+          "ENSG00000210196",
+          "ENSG00000250138"
+        ],
+        "no_eligible_gpl_probe": [
+          "ENSG00000186407",
+          "ENSG00000249859"
+        ]
+      },
+      "mapped_entrez_sha256": "278819b69872d0382b0f1cfbd1b0092978c9c83abbfcbdb8f531cc8d3a52e4c1"
+    },
+    "inflammation": {
+      "source_namespace": "hgnc_symbol",
+      "source_unique_before_exclusion": 815,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 815,
+      "mapped_unique_entrez_genes": 666,
+      "mapping_fraction": 0.8171779141104294,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 2,
+        "ambiguous_hgnc_symbol": 62,
+        "ambiguous_reciprocal_entrez": 2,
+        "mapped": 666,
+        "missing_entrez_id": 2,
+        "missing_hgnc_symbol": 3,
+        "no_eligible_gpl_probe": 78
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "MRGPRX1",
+          "PLCG2"
+        ],
+        "ambiguous_hgnc_symbol": [
+          "MIR675",
+          "CASP12",
+          "LILRB4",
+          "LTB4R",
+          "DDT",
+          "AGER",
+          "AIF1",
+          "ELANE",
+          "NLRP7",
+          "NAPEPLD"
+        ],
+        "ambiguous_reciprocal_entrez": [
+          "LGALS9",
+          "ITCH"
+        ],
+        "mapped": [
+          "ADA",
+          "HDAC5",
+          "CDH5",
+          "NR1H3",
+          "ADAM8",
+          "TSPAN2",
+          "RASGRP1",
+          "LPCAT3",
+          "CHST4",
+          "CALCRL"
+        ],
+        "missing_entrez_id": [
+          "GGT3P",
+          "GPR32P1"
+        ],
+        "missing_hgnc_symbol": [
+          "GBA",
+          "CCL3L1",
+          "GGT2"
+        ],
+        "no_eligible_gpl_probe": [
+          "MIR920",
+          "PLA2G4B",
+          "MIR3909",
+          "MIR6869",
+          "TREX1",
+          "ADORA2A",
+          "PYDC2",
+          "FCGR3A",
+          "TAC4",
+          "NEAT1"
+        ]
+      },
+      "mapped_entrez_sha256": "279258e99144bf9f972fad82c7187bc49540458e721b016882222ad6ed73aa81"
+    },
+    "interferon_gamma": {
+      "source_namespace": "hgnc_symbol",
+      "source_unique_before_exclusion": 139,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 139,
+      "mapped_unique_entrez_genes": 114,
+      "mapping_fraction": 0.8201438848920863,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 1,
+        "ambiguous_hgnc_symbol": 16,
+        "ambiguous_reciprocal_entrez": 2,
+        "mapped": 114,
+        "missing_hgnc_symbol": 2,
+        "no_eligible_gpl_probe": 4
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "PDE12"
+        ],
+        "ambiguous_hgnc_symbol": [
+          "UBD",
+          "ADAMTS13",
+          "AIF1",
+          "HLA-DPA1",
+          "CCL3L3",
+          "CCL3",
+          "CCL4",
+          "CCL5",
+          "CCL14",
+          "CCL15"
+        ],
+        "ambiguous_reciprocal_entrez": [
+          "SYNCRIP",
+          "LGALS9"
+        ],
+        "mapped": [
+          "NR1H3",
+          "ACTR3",
+          "ACTR2",
+          "CALCOCO2",
+          "CCL26",
+          "IFITM3",
+          "CDC42EP2",
+          "IFITM2",
+          "CDC37",
+          "VPS26B"
+        ],
+        "missing_hgnc_symbol": [
+          "CCL3L1",
+          "TDGF1"
+        ],
+        "no_eligible_gpl_probe": [
+          "OTOP1",
+          "RPL13A",
+          "GBP7",
+          "XCL2"
+        ]
+      },
+      "mapped_entrez_sha256": "d3e7ffad2e96aabfa58caf348cc6d7558a7bebc150806bc43b98634ecd548e0c"
+    },
+    "oxidative_stress": {
+      "source_namespace": "hgnc_symbol",
+      "source_unique_before_exclusion": 436,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 436,
+      "mapped_unique_entrez_genes": 378,
+      "mapping_fraction": 0.8669724770642202,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 2,
+        "ambiguous_hgnc_symbol": 31,
+        "mapped": 378,
+        "missing_entrez_id": 1,
+        "missing_hgnc_symbol": 2,
+        "no_eligible_gpl_probe": 22
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "FANCC",
+          "MCL1"
+        ],
+        "ambiguous_hgnc_symbol": [
+          "MIR675",
+          "RIPK3",
+          "CRYGD",
+          "AIF1",
+          "CLN8",
+          "SIRT2",
+          "ALOX5",
+          "GPX6",
+          "GATA4",
+          "GFER"
+        ],
+        "mapped": [
+          "HDAC6",
+          "IL18BP",
+          "PPIF",
+          "SGK2",
+          "TRAP1",
+          "DHRS2",
+          "ANGPTL7",
+          "NET1",
+          "SIGMAR1",
+          "LANCL1"
+        ],
+        "missing_entrez_id": [
+          "DHFRP1"
+        ],
+        "missing_hgnc_symbol": [
+          "GBA",
+          "ARNTL"
+        ],
+        "no_eligible_gpl_probe": [
+          "RACK1",
+          "TREX1",
+          "PYCR2",
+          "HBA1",
+          "HBA2",
+          "MIRLET7B",
+          "MIR103A1",
+          "MIR107",
+          "MIR132",
+          "MIR133A1"
+        ]
+      },
+      "mapped_entrez_sha256": "a07b5c3f9771ac874bf8ccbcc5a16e829a039e3c1bc81f424450696221d642fe"
+    },
+    "apoptotic_signaling": {
+      "source_namespace": "hgnc_symbol",
+      "source_unique_before_exclusion": 588,
+      "excluded_target_gene_count": 0,
+      "excluded_target_values": [],
+      "intended_source_members": 588,
+      "mapped_unique_entrez_genes": 512,
+      "mapping_fraction": 0.8707482993197279,
+      "mapping_gate_pass": true,
+      "status_counts": {
+        "ambiguous_ensembl_entrez": 1,
+        "ambiguous_hgnc_symbol": 43,
+        "mapped": 512,
+        "missing_entrez_id": 1,
+        "missing_hgnc_symbol": 1,
+        "no_eligible_gpl_probe": 30
+      },
+      "status_examples": {
+        "ambiguous_ensembl_entrez": [
+          "MCL1"
+        ],
+        "ambiguous_hgnc_symbol": [
+          "PARP2",
+          "CASP12",
+          "HYOU1",
+          "RIPK3",
+          "IFI27L1",
+          "DAXX",
+          "E2F2",
+          "EIF5A",
+          "CTTN",
+          "MPV17L"
+        ],
+        "mapped": [
+          "CD24",
+          "PDCD6",
+          "BCL2L10",
+          "BCL2L11",
+          "DNM1L",
+          "PPIF",
+          "FEM1B",
+          "TRAP1",
+          "BCAP31",
+          "RNF41"
+        ],
+        "missing_entrez_id": [
+          "ST20"
+        ],
+        "missing_hgnc_symbol": [
+          "SLC9A3R1"
+        ],
+        "no_eligible_gpl_probe": [
+          "RACK1",
+          "ADORA2A",
+          "BBC3",
+          "INCA1",
+          "GFRAL",
+          "MIR132",
+          "MIR15A",
+          "MIR16-1",
+          "MIR17",
+          "MIR186"
+        ]
+      },
+      "mapped_entrez_sha256": "fa23f9706b164312012a06150d3cbbe4763de0fb6abf719d8f5fce3ee798f04a"
+    }
+  },
+  "derived_nonoverlap": {
+    "parent_program_id": "ets2_g1_dn",
+    "parent_intended_source_members": 927,
+    "parent_mapped_unique_entrez_genes": 801,
+    "comparator_union_mapped_unique_entrez_genes": 1404,
+    "parent_comparator_overlap_mapped_unique_entrez_genes": 149,
+    "derived_mapped_unique_entrez_genes": 652,
+    "derived_mapping_fraction": 0.703344120819849,
+    "parent_mapping_gate_pass": true,
+    "derived_mapping_gate_pass": true,
+    "comparator_union_entrez_sha256": "99c5477709dfa1de546d246bf50ca84d37ed90077ddcbb68ca3af7b2ac77f577",
+    "derived_entrez_sha256": "f13fef27e6db6e69ba2c8c641263c86de867c52183ee18e508199bbb52df006f"
+  },
+  "primary_mapping_comparison": {
+    "status": "compared",
+    "path": "data/derived/gse84161-program-coverage.csv",
+    "bytes": 6601,
+    "sha256": "20fbd0d971b6ccda015746f1133589ea93b245e0b5bdb188b2b3f02422c81f10",
+    "programs_compared": 9,
+    "mismatches": [],
+    "counts_match": true
+  },
+  "limits": {
+    "expression_values_read": false,
+    "cel_files_opened": false,
+    "probe_intensities_read": false,
+    "program_scores_computed": false,
+    "treatment_or_donor_effects_computed": false,
+    "mapping_only": true,
+    "note": "Only GPL annotation fields, complete Ensembl relationship rows, and source-program identifiers were parsed. Crosswalk and array eligibility were resolved without opening CEL or expression files."
+  }
+}

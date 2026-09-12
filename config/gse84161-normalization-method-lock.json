@@ -1,0 +1,62 @@
+{
+  "method_id": "gse84161-normalization-mapping-method-v1",
+  "frozen_at_utc": "2026-09-12T17:41:34.062464+00:00",
+  "status": "method_choices_frozen_before_array_expression_processing_and_program_coverage",
+  "normalization_input_lock_still_required": true,
+  "input_sha256": {
+    "docs/gse84161-normalization-method.md": "03736ea478a474bce53077ad5bb733af65e2c8e23b86eb5a3a1eac0c7d052afd",
+    "docs/gse84161-array-protocol.md": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f",
+    "config/gse84161-array-preparation.json": "4c737a700c53ae11927c520c2fd8d39771af776ac731f52764e3860fc8fc241d",
+    "config/ets2-validation-amended-rules.json": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b",
+    "config/ets2-benchmark-sources.json": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+    "data/raw/ets2-benchmark/ets2-public-release.zip": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+    "data/derived/gse84161-samples.csv": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+    "data/derived/gse84161-raw-arrays.csv": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "work/ets2-independent-search/GSE84161-family-soft.txt": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777"
+  },
+  "scope": "Raw CEL normalization, fixed gene mapping, coverage and descriptive assay QC. No program score or treatment/donor contrast.",
+  "source_namespace_clarification": "Four ETS2/CHR21 sets use Ensembl genes; four GOBP comparators use exact case-sensitive HGNC symbols resolved uniquely to Ensembl in the complete release116 crosswalk, then the same reciprocal one-to-one Ensembl-Entrez rule. No aliases or array-symbol fallback.",
+  "crosswalk_release": "Ensembl116 June2026 complete human BioMart export, separate wholehuman gene-count query; final query/source hashes must be pinned before mapping",
+  "source_member_denominators_after_ETS2_exclusion": {
+    "ets2_g1_dn": 927,
+    "ets2_g1_up": 668,
+    "ets2_g2_dn": 875,
+    "chr21_dn": 141,
+    "inflammation": 815,
+    "interferon_gamma": 139,
+    "oxidative_stress": 436,
+    "apoptotic_signaling": 588
+  },
+  "array_qc": {
+    "quantile_probabilities": [
+      0,
+      0.01,
+      0.25,
+      0.5,
+      0.75,
+      0.99,
+      1
+    ],
+    "quantile_type": 7,
+    "raw_probe_definition": "CDF-defined perfect-match entries passed to RMA",
+    "raw_pm_negative_or_nonfinite": "hard stop",
+    "raw_pm_zero": "record count; no automatic exclusion",
+    "normalized_matrix": "54675 unique probe sets x30 unique GSM columns, finite log2 RMA",
+    "rle": "full-probe log2 RMA minus per-probe median acrossall30arrays; median and IQR perarray",
+    "pca_if_generated": "all probes, centered perprobe, no variance scaling or highvariance selection; descriptive only",
+    "automatic_signal_based_exclusions": false
+  },
+  "expected_entrez_matrix_shape": [
+    20486,
+    30
+  ],
+  "mapping_gates": {
+    "fraction": 0.8,
+    "minimum_genes": 10,
+    "nonoverlap_coverage_uses_parent": true
+  },
+  "prior_protocols_preserved": true,
+  "new_program_scores_at_freeze": 0,
+  "new_donor_contrasts_at_freeze": 0,
+  "program_coverage_inspected_at_freeze": false
+}

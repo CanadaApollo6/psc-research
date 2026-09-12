@@ -1,0 +1,241 @@
+{
+  "created_at_utc": "2026-09-12T17:59:21.156605+00:00",
+  "status": "frozen",
+  "normalization_run_status": "frozen",
+  "normalization_run_allowed": true,
+  "repository_root": "..",
+  "purpose": "Execute all 30 original GSE84161 CEL arrays together using frozen RMA parameters; produce full probe and Entrez-median matrices and descriptive QC only.",
+  "runtime": {
+    "environment_prefix": "work/gse84161-normalization/runtime",
+    "rscript_path": "work/gse84161-normalization/runtime/bin/Rscript",
+    "r_version": "4.4.3",
+    "bioconductor_release": "3.20",
+    "lock_path": "requirements-gse84161-array-linux-64.lock",
+    "lock_sha256": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+    "packages": [
+      {
+        "r_package": "affy",
+        "conda_package": "bioconductor-affy",
+        "version": "1.84.0",
+        "build": "r44h3df3fcb_1",
+        "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-affy-1.84.0-r44h3df3fcb_1.tar.bz2",
+        "sha256": "515d598ed6f2de50858834c794d41dce5e73f6624704222484d6704695ebab6b",
+        "bytes": 2196075
+      },
+      {
+        "r_package": "affyio",
+        "conda_package": "bioconductor-affyio",
+        "version": "1.76.0",
+        "build": "r44h15a9599_0",
+        "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-affyio-1.76.0-r44h15a9599_0.tar.bz2",
+        "sha256": "0baad80028508840b348ef03b1b3ae9a10e37d231426f7fd80c8dbdb9790aafd",
+        "bytes": 126926
+      },
+      {
+        "r_package": "preprocessCore",
+        "conda_package": "bioconductor-preprocesscore",
+        "version": "1.68.0",
+        "build": "r44h3df3fcb_1",
+        "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-preprocesscore-1.68.0-r44h3df3fcb_1.tar.bz2",
+        "sha256": "f4a708cbea277d6ea11f53b70299057e4635dd9a106c68e68c90cca32a4b4a72",
+        "bytes": 201647
+      },
+      {
+        "r_package": "hgu133plus2cdf",
+        "conda_package": "bioconductor-hgu133plus2cdf",
+        "version": "2.18.0",
+        "build": "r44hdfd78af_14",
+        "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-hgu133plus2cdf-2.18.0-r44hdfd78af_14.tar.bz2",
+        "sha256": "c5224648389dcb6a760a6a225068d57a949b0e24f86b386652d5831e844a0dfc",
+        "bytes": 11659
+      },
+      {
+        "r_package": "Biobase",
+        "conda_package": "bioconductor-biobase",
+        "version": "2.66.0",
+        "build": "r44h3df3fcb_0",
+        "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-biobase-2.66.0-r44h3df3fcb_0.tar.bz2",
+        "sha256": "5f482a491f073d6e2441dc192c441f06857eb0039695ef564cea17ffe090d57a",
+        "bytes": 2674289
+      },
+      {
+        "r_package": "BiocGenerics",
+        "conda_package": "bioconductor-biocgenerics",
+        "version": "0.52.0",
+        "build": "r44hdfd78af_3",
+        "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-biocgenerics-0.52.0-r44hdfd78af_3.tar.bz2",
+        "sha256": "372f2a4b5f1802dc76347b1e87d8a75fea204304fa5bb3239e54737907761d7d",
+        "bytes": 694499
+      },
+      {
+        "r_package": "zlibbioc",
+        "conda_package": "bioconductor-zlibbioc",
+        "version": "1.52.0",
+        "build": "r44h3df3fcb_2",
+        "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-zlibbioc-1.52.0-r44h3df3fcb_2.tar.bz2",
+        "sha256": "9d9c1f20cec2bac9c259b1e7798795e61c92573cfea74b5fda739c37a118cf6a",
+        "bytes": 254875
+      },
+      {
+        "r_package": "jsonlite",
+        "conda_package": "r-jsonlite",
+        "version": "2.0.0",
+        "build": "r44h54b55ab_1",
+        "url": "https://conda.anaconda.org/conda-forge/linux-64/r-jsonlite-2.0.0-r44h54b55ab_1.conda",
+        "sha256": "faff2faef7e73c5fd02fea6bbe8aa9e444fabf7f56e8d932c7babc51ee76a290",
+        "bytes": 639260
+      }
+    ]
+  },
+  "source_archive": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE84nnn/GSE84161/suppl/GSE84161_RAW.tar",
+    "path": "data/raw/gse84161/GSE84161_RAW.tar",
+    "bytes": 146739200,
+    "sha256": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+    "expected_members": 30,
+    "inventory_path": "data/derived/gse84161-raw-arrays.csv",
+    "inventory_sha256": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "cel_directory": "work/gse84161-normalization/cel"
+  },
+  "sample_metadata": {
+    "path": "data/derived/gse84161-samples.csv",
+    "sha256": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+    "accession_column": "sample_accession",
+    "order_column": "source_order",
+    "expected_count": 30,
+    "archive_member_column": null,
+    "cel_url_column": "cel_url"
+  },
+  "normalization": {
+    "method": "affy::rma",
+    "cdf_package": "hgu133plus2cdf",
+    "background": true,
+    "normalize": true,
+    "bgversion": 2,
+    "destructive": false,
+    "all_arrays_together": true,
+    "expected_sample_count": 30,
+    "expected_probe_rows": 54675,
+    "quantile_probabilities": [
+      0,
+      0.01,
+      0.25,
+      0.5,
+      0.75,
+      0.99,
+      1
+    ],
+    "quantile_type": 7,
+    "raw_pm_definition": "CDF-defined perfect-match entries returned by affy::pm",
+    "raw_pm_invalid_values": "missing, nonfinite or negative values hard-stop; zeros are counted and retained",
+    "rle_definition": "full-probe log2 RMA values minus each probe median across all 30 arrays"
+  },
+  "mapping": {
+    "status": "probe_map_available_for_frozen_run",
+    "probe_map_path": "data/derived/gse84161-probe-map.csv.gz",
+    "probe_map_sha256": "6d1df89415d1b18a789d6ad685cbf9f8f74d29fe27f5b6d3db3783c654d75581",
+    "probe_id_column": "probe_id",
+    "entrez_id_column": "entrez_gene_id",
+    "eligible_column": "eligible_probe",
+    "expected_probe_rows": 54675,
+    "expected_eligible_probe_count": 41834,
+    "expected_entrez_count": 20486,
+    "aggregation": "median of all eligible single-Entrez probe RMA values per array; retain all Entrez genes"
+  },
+  "outputs": {
+    "ignored_output_dir": "work/gse84161-normalization/output",
+    "versioned_qc_dir": "data/derived/gse84161-array-qc",
+    "raw_pm_summary_csv": "data/derived/gse84161-array-qc/raw-pm-summary.csv",
+    "normalized_probe_summary_csv": "data/derived/gse84161-array-qc/normalized-probe-summary.csv",
+    "rle_summary_csv": "data/derived/gse84161-array-qc/rle-summary.csv",
+    "sample_order_csv": "data/derived/gse84161-array-qc/sample-order.csv",
+    "signal_distribution_plot": "data/derived/gse84161-array-qc/signal-distributions.pdf",
+    "rle_plot": "data/derived/gse84161-array-qc/rle-boxplots.pdf",
+    "audit_json": "reports/gse84161-normalization-audit.json"
+  },
+  "official_documentation": [
+    {
+      "role": "affy_RMA_reference",
+      "url": "https://www.bioconductor.org/packages/release/bioc/manuals/affy/man/affy.pdf",
+      "accessed_date": "2026-09-12"
+    },
+    {
+      "role": "affy_package_release",
+      "url": "https://bioconductor.org/packages/3.20/bioc/html/affy.html",
+      "accessed_date": "2026-09-12"
+    },
+    {
+      "role": "hgu133plus2cdf_package_release",
+      "url": "https://bioconductor.org/packages/3.20/data/annotation/html/hgu133plus2cdf.html",
+      "accessed_date": "2026-09-12"
+    }
+  ],
+  "method_lock": {
+    "path": "config/gse84161-normalization-method-lock.json",
+    "sha256": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861"
+  },
+  "input_sha256": {
+    "config/gse84161-normalization-method-lock.json": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861",
+    "docs/gse84161-normalization-method.md": "03736ea478a474bce53077ad5bb733af65e2c8e23b86eb5a3a1eac0c7d052afd",
+    "docs/gse84161-array-protocol.md": "2e7d63ba5d804663f3b0ffc95121ada32847c9274ca95904923b4001ce9b280f",
+    "config/gse84161-array-preparation.json": "4c737a700c53ae11927c520c2fd8d39771af776ac731f52764e3860fc8fc241d",
+    "config/gse84161-raw-capture.json": "68212fa9e8d6164ff527bb5d796b4048ed0df0889bb7761b4592bfadef929613",
+    "data/derived/gse84161-samples.csv": "20bb61f7590e517375f63c4db5836d881b4be2ec3fa1b46e1e7d129d9beb99ff",
+    "data/derived/gse84161-raw-arrays.csv": "518d5d5b1bb968f1fd9b353c5da728dbe05cf8f96e8275730fd4cf29d4e48125",
+    "data/derived/gse84161-probe-map.csv.gz": "6d1df89415d1b18a789d6ad685cbf9f8f74d29fe27f5b6d3db3783c654d75581",
+    "data/raw/gse84161/GSE84161_RAW.tar": "6d700c2e2cdcee9ef4eabb654b4c61f5d32952aa6f07bb00d11900f12ec78fff",
+    "scripts/normalize_gse84161.R": "57db51cf41505bd594eb407c5be2e990dfd4ea6991ff9867834c656cac8a0844",
+    "config/gse84161-array-runtime.json": "e3fd6b17c40ece76a7a1932372cbe8f24787d89a558223bcfcf05dd8329f6607",
+    "requirements-gse84161-array-linux-64.lock": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+    "config/gse84161-gene-map-sources.json": "b86c09cef34c0d16fd987d26e8ffa1beef397fba4b298e98a830d657f57ef039",
+    "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+    "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+    "data/raw/ets2-benchmark/ets2-public-release.zip": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+    "work/ets2-independent-search/GSE84161-family-soft.txt": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777"
+  },
+  "plan_id": "gse84161-normalization-execution-v1",
+  "program_scores_allowed": false,
+  "treatment_or_donor_contrasts_allowed": false,
+  "program_mapping_coverage_known_at_execution_freeze": true,
+  "mapping_method_frozen_before_coverage": true,
+  "sample_order": [
+    "GSM2228386",
+    "GSM2228387",
+    "GSM2228388",
+    "GSM2228389",
+    "GSM2228390",
+    "GSM2228391",
+    "GSM2228392",
+    "GSM2228393",
+    "GSM2228394",
+    "GSM2228395",
+    "GSM2228396",
+    "GSM2228397",
+    "GSM2228398",
+    "GSM2228399",
+    "GSM2228400",
+    "GSM2228401",
+    "GSM2228402",
+    "GSM2228403",
+    "GSM2228404",
+    "GSM2228405",
+    "GSM2228406",
+    "GSM2228407",
+    "GSM2228408",
+    "GSM2228409",
+    "GSM2228410",
+    "GSM2228411",
+    "GSM2228412",
+    "GSM2228413",
+    "GSM2228414",
+    "GSM2228415"
+  ],
+  "matrix_format": {
+    "primary_storage": "R serialize version 3, xz compressed RDS numeric double matrix",
+    "precision": "IEEE 754 double precision; no rounding of saved matrix values",
+    "probe_row_order": "affy full-CDF output probe order; IDs verified against complete GPL570 probe map",
+    "entrez_row_order": "lexicographic Entrez Gene ID",
+    "sample_column_order": "fixed source order 1 through 30",
+    "full_matrices_versioned": false
+  }
+}

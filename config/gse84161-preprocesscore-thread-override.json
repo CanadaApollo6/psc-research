@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "manifest_type": "gse84161_preprocessCore_thread_override",
+  "captured_at_utc": "2026-09-12T18:10:53+00:00",
+  "purpose": "Supplemental provenance for the isolated preprocessCore replacement used to avoid the host pthread_create failure during GSE84161 RMA.",
+  "base_runtime": {
+    "prefix": "work/gse84161-normalization/runtime",
+    "r_version": "4.4.3",
+    "lock_path": "requirements-gse84161-array-linux-64.lock",
+    "lock_sha256": "f04873f928f31d5ebc0f634788ca78e9f2d823eee0e47d800500c3e78477064b",
+    "manifest_path": "config/gse84161-array-runtime.json",
+    "manifest_sha256": "e3fd6b17c40ece76a7a1932372cbe8f24787d89a558223bcfcf05dd8329f6607",
+    "original_conda_package": {
+      "name": "bioconductor-preprocesscore",
+      "version": "1.68.0",
+      "build": "r44h3df3fcb_1",
+      "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-preprocesscore-1.68.0-r44h3df3fcb_1.tar.bz2",
+      "bytes": 201647,
+      "sha256": "f4a708cbea277d6ea11f53b70299057e4635dd9a106c68e68c90cca32a4b4a72"
+    }
+  },
+  "source": {
+    "url": "https://bioconductor.org/packages/3.20/bioc/src/contrib/preprocessCore_1.68.0.tar.gz",
+    "local_path": "work/gse84161-normalization/source/preprocessCore_1.68.0.tar.gz",
+    "bytes": 127397,
+    "sha256": "50d9b6c2c1e4758dd19cc11470951d7e0d60f5ba315701835bc13dc9cbf3fb62",
+    "bioconductor_release": "3.20",
+    "package_version": "1.68.0",
+    "git_url_from_description": "https://git.bioconductor.org/packages/preprocessCore",
+    "git_branch_from_description": "RELEASE_3_20",
+    "git_last_commit_from_description": "fa0e33e",
+    "git_last_commit_date_from_description": "2024-10-29",
+    "extracted_tree_path": "work/gse84161-normalization/build/preprocessCore",
+    "extracted_file_count": 138,
+    "extracted_tree_inventory_sha256": "c64d89b5bff7d702d2b4b6de7f85e60edeadc5b01a426ef67680a38f14ebb232"
+  },
+  "build": {
+    "configure_args": [
+      "--disable-threading"
+    ],
+    "install_command": "PATH=work/gse84161-normalization/runtime/bin:$PATH work/gse84161-normalization/runtime/bin/R CMD INSTALL --library=work/gse84161-normalization/runtime/lib/R/library --configure-args=--disable-threading work/gse84161-normalization/build/preprocessCore",
+    "compiler": "x86_64-conda-linux-gnu-cc (conda-forge gcc 16.2.0-4)",
+    "configure_log_path": "work/gse84161-normalization/build/preprocessCore/config.log",
+    "configure_log_sha256": "7d77e5f55d17292a7d1ddd77f6c938286fba9baa2d95ef96edee5c32cfebdeb5",
+    "install_log_path": "work/gse84161-normalization/build/preprocessCore-install.log",
+    "install_log_sha256": "70567465c4d9320a037567a9e76f6c778196fb1d8cffc013cd0691870f9abae6",
+    "generated_makevars_path": "work/gse84161-normalization/build/preprocessCore/src/Makevars",
+    "generated_makevars_sha256": "898fdddde5b2d0b0f9281a46de82c1352a147a8399fee50e49d2e32b37e49a40",
+    "threading_evidence": "configure.log and install.log contain the exact line: configure: Disabling threading for preprocessCore"
+  },
+  "installed_library": {
+    "path": "work/gse84161-normalization/runtime/lib/R/library/preprocessCore",
+    "package_version": "1.68.0",
+    "file_count": 45,
+    "inventory_sha256": "d4ac76271058cfcb11e60fb128f0b35f7cb75c4c34a3c52c074bafc27f09655f",
+    "files": [
+      {
+        "path": "DESCRIPTION",
+        "bytes": 845,
+        "sha256": "3e86128b30fa10f95e5ba751c1cd2b72661817f889a7b7900db7a043ddf1b387"
+      },
+      {
+        "path": "INDEX",
+        "bytes": 894,
+        "sha256": "91272dbd6667b322b551c6d137c4efc761fbf63f961d6cad3d090854fbc6c2cf"
+      },
+      {
+        "path": "Meta/Rd.rds",
+        "bytes": 811,
+        "sha256": "76083d2b97be50c9ee0697177762baba5415ea4fd4ba59c4357d6ffb907cfbc1"
+      },
+      {
+        "path": "Meta/features.rds",
+        "bytes": 123,
+        "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9"
+      },
+      {
+        "path": "Meta/hsearch.rds",
+        "bytes": 887,
+        "sha256": "0b79c256a456a14b83c47bc355292c24b232abde824260d67bcdd761a92c7c69"
+      },
+      {
+        "path": "Meta/links.rds",
+        "bytes": 490,
+        "sha256": "fcbf9c611962156988e24237a5ddb23e44e659d08b7d8edcb7f394f1906db9e0"
+      },
+      {
+        "path": "Meta/nsInfo.rds",
+        "bytes": 240,
+        "sha256": "29bdd0ff30a654fb0d85795e0abd9778db175c5e634650ab8da17a1696950807"
+      },
+      {
+        "path": "Meta/package.rds",
+        "bytes": 837,
+        "sha256": "ceeaa995c0b8ac64b52559b0360904ed7c0b694f265e23f5a1fce57024c133d1"
+      },
+      {
+        "path": "NAMESPACE",
+        "bytes": 127,
+        "sha256": "d390a5ae468b21182afadda39be4579c31efc9c8d66b859fc45aaeddba2a9f76"
+      },
+      {
+        "path": "R/preprocessCore",
+        "bytes": 1058,
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759"
+      },
+      {
+        "path": "R/preprocessCore.rdb",
+        "bytes": 40206,
+        "sha256": "1b0fa3eec6a2febaa6bfc02b53ed13367b02e0d1cc76441769d4b135d4f177fe"
+      },
+      {
+        "path": "R/preprocessCore.rdx",
+        "bytes": 764,
+        "sha256": "48ac584d5de175cd2143203fea1c3d3230fdb75772d45740d3af67377f4040b8"
+      },
+      {
+        "path": "help/AnIndex",
+        "bytes": 1506,
+        "sha256": "20ceb1f3b040ae780c7e2c57078f77fbd32320d16570f7e2a33fc9218ead1320"
+      },
+      {
+        "path": "help/aliases.rds",
+        "bytes": 434,
+        "sha256": "f1f6da0ea320bbfa5cda18c6259af132142460bad10a876fbd739717f8675104"
+      },
+      {
+        "path": "help/paths.rds",
+        "bytes": 326,
+        "sha256": "eb649320c80f9f29086c1b2480837f3c5df9c41e6a08b6baf4ff8376a28b832f"
+      },
+      {
+        "path": "help/preprocessCore.rdb",
+        "bytes": 37083,
+        "sha256": "c92e93d5f252f61eed5ec103211a36c2f2b3b86792a44887ae474979be769ea6"
+      },
+      {
+        "path": "help/preprocessCore.rdx",
+        "bytes": 427,
+        "sha256": "3a5a3f225fe4c001640cd94b82e08c6e56a7f758902c96279aa293c7b95cd9dc"
+      },
+      {
+        "path": "html/00Index.html",
+        "bytes": 6862,
+        "sha256": "4c1cfcd89b63e854efe5c1979e745502a4d5730d40d4a7c14a49ec84204a37a3"
+      },
+      {
+        "path": "html/R.css",
+        "bytes": 1844,
+        "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b"
+      },
+      {
+        "path": "include/R_subColSummarize.h",
+        "bytes": 757,
+        "sha256": "a920451ba5dcac9af84a2e411d8cbd6ef7ac17ac40a657d35ba992f026f32a43"
+      },
+      {
+        "path": "include/R_subColSummarize_stubs.c",
+        "bytes": 2812,
+        "sha256": "25e984d56629fc2fc6dfd92e8cffe2cfd0d26fbee562e5e0e0d52801c583fd03"
+      },
+      {
+        "path": "include/avg.h",
+        "bytes": 3896,
+        "sha256": "cb5803cf90cbdb36732e67305e277259da2f49d067d5b66c8dc5273b73a3a2a5"
+      },
+      {
+        "path": "include/avg_log.h",
+        "bytes": 4190,
+        "sha256": "bb464dd6c040def01b6e3e2efc8a61c7a385441fe4fa06a6092ad42b86de0c96"
+      },
+      {
+        "path": "include/biweight.h",
+        "bytes": 4649,
+        "sha256": "6abf63366986ad128d68b1e446aeb7c74551aa5b969020cd56d0352f4791a74a"
+      },
+      {
+        "path": "include/lm.h",
+        "bytes": 864,
+        "sha256": "7357b79ecd162d434c61382f9a65f62de027a110d8af193fd95f818f317819c5"
+      },
+      {
+        "path": "include/log_avg.h",
+        "bytes": 2724,
+        "sha256": "ee90cda7d1c5ece6f8d6e9cc0ff04af5bb334c11eb019b01456ede30a766ff60"
+      },
+      {
+        "path": "include/log_median.h",
+        "bytes": 4069,
+        "sha256": "3362fa0ccb9f3d82de698f6d4cbae83e271a354c72ea15c976ec9408fe2d0a94"
+      },
+      {
+        "path": "include/median.h",
+        "bytes": 3490,
+        "sha256": "5dceda1b26515348e9f2da3fc56039516461601d7cec745cb51d7eeb5f7461d8"
+      },
+      {
+        "path": "include/median_log.h",
+        "bytes": 4040,
+        "sha256": "e402ea1fc8eef035379e20557d902dd662225ad7ed666051d22c4908d6944de6"
+      },
+      {
+        "path": "include/medianpolish.h",
+        "bytes": 6699,
+        "sha256": "54c71b60bd74517d6834364c45db5a90b6379468c6c8371858abf98dfd49190d"
+      },
+      {
+        "path": "include/plmd.h",
+        "bytes": 413,
+        "sha256": "96cd196dc9f7b2a6df834eff8d7d8a84988e8afae3c675e6c73b2ec61c3bb7e7"
+      },
+      {
+        "path": "include/plmr.h",
+        "bytes": 7005,
+        "sha256": "731e167ddb01310719b367a0775d52aa9b3f7550569c1e85aaecc448637a9383"
+      },
+      {
+        "path": "include/preprocessCore_background_stubs.c",
+        "bytes": 1120,
+        "sha256": "12bf20443b82e37f24c6036254184a1941480a8dde5db9902d08c13bb96b80f7"
+      },
+      {
+        "path": "include/preprocessCore_background_stubs.h",
+        "bytes": 237,
+        "sha256": "bfd99b0c89846863118e50d2e5873ffe194407f268e28976396e0a52af098d7b"
+      },
+      {
+        "path": "include/preprocessCore_normalization_stubs.c",
+        "bytes": 2403,
+        "sha256": "a605a3e58be8212bebc6019c5730e41b3bab906fd0b743e72275818969e6b228"
+      },
+      {
+        "path": "include/preprocessCore_normalization_stubs.h",
+        "bytes": 440,
+        "sha256": "4c50f90ef359b81778e64aa9906b3c840f313f28705d5e1836d15e5250855954"
+      },
+      {
+        "path": "include/preprocessCore_summarization_stubs.c",
+        "bytes": 62422,
+        "sha256": "4586463a059227522fe8ffb1ccf3abdba5a1dff11fcaf2d23cc762aedced3d00"
+      },
+      {
+        "path": "include/preprocessCore_summarization_stubs.h",
+        "bytes": 7155,
+        "sha256": "203c97ca73d74bf48d968884b0387308254476d4747fa3b1ec8e147d9e610612"
+      },
+      {
+        "path": "include/qnorm.h",
+        "bytes": 972,
+        "sha256": "c42ea4801a9a266fdcdc2ca33831582118f690d8d104eb0078d2fb79f6551788"
+      },
+      {
+        "path": "include/rlm.h",
+        "bytes": 6708,
+        "sha256": "08fc7846deb56d0a839f3aa2e2625914657bcf5a9f3c6bc520f66eae9028b1a8"
+      },
+      {
+        "path": "include/rlm_se.h",
+        "bytes": 3907,
+        "sha256": "8207691441899ed8a87a4d411000a8d4bd3044ff68d5bfa6c29c6bcc1d1ebf16"
+      },
+      {
+        "path": "include/rma_background4.h",
+        "bytes": 2438,
+        "sha256": "815d225699b242809bef2de50ad1a65ad7a67ae65606462a03be4ebdccfc7b10"
+      },
+      {
+        "path": "include/weightedkerneldensity_stubs.c",
+        "bytes": 701,
+        "sha256": "871f8f74027124fa07d9a17e93e13365f2c661778caa0735c4a3dc73c65fda6e"
+      },
+      {
+        "path": "include/weightedkerneldensity_stubs.h",
+        "bytes": 163,
+        "sha256": "7e01546dfcbc887d0b5270674afc244ec5b6f1b96c467dd7cb671b847e26b1c7"
+      },
+      {
+        "path": "libs/preprocessCore.so",
+        "bytes": 211200,
+        "sha256": "2e269a4dd29a3e154e82336580b86c2080c58262ae3acc5bbf7cb2721cb007c6"
+      }
+    ]
+  },
+  "verification": {
+    "toy_command": "library(preprocessCore); x <- matrix(seq_len(600), nrow=200L, ncol=3L); bg <- rma.background.correct(x); q <- normalize.quantiles(bg); stopifnot(identical(dim(bg), c(200L, 3L)), identical(dim(q), c(200L, 3L)), all(is.finite(bg)), all(is.finite(q)))",
+    "toy_status": "passed",
+    "toy_dimensions_background": [
+      200,
+      3
+    ],
+    "toy_dimensions_quantile": [
+      200,
+      3
+    ],
+    "verified_package_version": "1.68.0",
+    "verified_r_version": "4.4.3",
+    "array_normalization_run": "not_run_here"
+  },
+  "scope_and_limitations": [
+    "This supplements the unchanged base Conda lock; it is a local source rebuild replacing only preprocessCore in the isolated GSE84161 runtime.",
+    "The base Conda record remains the provenance of the original threaded package and does not describe the replacement shared object.",
+    "The toy test exercises preprocessCore background correction and quantile normalization only; it does not inspect or normalize GSE84161 arrays.",
+    "The build requires the runtime compiler toolchain on PATH; the source install failed before build when the runtime bin directory was absent from PATH."
+  ]
+}

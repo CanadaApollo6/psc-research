@@ -1,0 +1,120 @@
+{
+  "manifest_id": "gse84161-gene-map-sources-v1",
+  "created_at_utc": "2026-09-12T17:42:02Z",
+  "status": "source_pinned_before_mapping",
+  "purpose": "Pin the complete GPL570 annotation input, the complete whole-human Ensembl 116 crosswalk, and source-program archive before probe or program coverage mapping.",
+  "source_files": [
+    {
+      "id": "gse84161_gpl570_soft",
+      "path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161&targ=all&form=text&view=quick",
+      "retrieved_at_utc": "2026-09-12T16:06:18Z",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "values_read": false,
+      "scope": "GSE84161 series metadata and GPL570 platform table; only probe identifiers and annotation fields are used by this mapping.",
+      "platform_expectations": {
+        "platform": "GPL570",
+        "annotation_date": "Oct 6, 2014",
+        "platform_last_update": "Dec 14, 2020",
+        "probe_rows": 54675,
+        "unique_probe_ids": 54675
+      }
+    },
+    {
+      "id": "ensembl116_human_gene_crosswalk",
+      "path": "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "retrieved_at_utc": "2026-09-12T17:40:41Z",
+      "bytes": 2236970,
+      "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+      "archive_release": "Ensembl 116, June 2026",
+      "attributes": [
+        "ensembl_gene_id",
+        "entrezgene_id",
+        "hgnc_symbol"
+      ],
+      "header": [
+        "Gene stable ID",
+        "NCBI gene (formerly Entrezgene) ID",
+        "HGNC symbol"
+      ],
+      "relationship_rows_excluding_header_and_success_stamp": 91748,
+      "unique_ensembl_gene_ids": 86411,
+      "response_success_stamp": "[success]",
+      "server_success_stamp_present": true,
+      "values_read": false,
+      "query_id": "ensembl116_hsapiens_gene_ensembl_ensg_entrez_hgnc_full_v1"
+    },
+    {
+      "id": "ensembl116_human_gene_crosswalk_count",
+      "path": "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "retrieved_at_utc": "2026-09-12T17:40:57Z",
+      "bytes": 6,
+      "sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+      "response_content": "86411",
+      "meaning": "BioMart count-mode response for unique Ensembl gene IDs under the same no-filter attribute query; the count response has no success footer.",
+      "values_read": false
+    },
+    {
+      "id": "ets2_program_archive",
+      "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "url": "https://zenodo.org/api/records/10707942/files/JamesLeeLab/ETS2manuscript_Stankey_CT_et_al_2024-v1.0.zip/content",
+      "retrieved_at_utc": "2026-09-12T14:21:34.543387+00:00",
+      "bytes": 34636310,
+      "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+      "source_manifest": "config/ets2-benchmark-sources.json",
+      "source_manifest_sha256": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+      "program_members": [
+        "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv"
+      ],
+      "values_read": false
+    }
+  ],
+  "biomart_query": {
+    "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+    "method": "GET",
+    "virtual_schema": "default",
+    "dataset": "hsapiens_gene_ensembl",
+    "interface": "default",
+    "formatter": "TSV",
+    "header": "1",
+    "unique_rows": "0",
+    "filters": [],
+    "attributes": [
+      "ensembl_gene_id",
+      "entrezgene_id",
+      "hgnc_symbol"
+    ],
+    "full_query_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"\" completionStamp=\"1\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/><Attribute name=\"hgnc_symbol\"/></Dataset></Query>",
+    "count_query_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"1\" completionStamp=\"1\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/><Attribute name=\"hgnc_symbol\"/></Dataset></Query>",
+    "query_boundary": "No filters; complete human gene dataset; uniqueRows=0 preserves relationship rows. The response footer is checked separately from the count-mode response."
+  },
+  "completeness_check": {
+    "observed_relationship_rows": 91748,
+    "observed_unique_ensembl_gene_ids": 86411,
+    "count_response_unique_ensembl_gene_ids": 86411,
+    "unique_ensembl_count_matches": true,
+    "success_stamp_checked": true,
+    "success_stamp": "[success]",
+    "limitation": "The count agreement and terminal success stamp support a complete returned export, but neither proves that the remote server had no unobserved backend omission; parser checks exact three-column row widths, nonblank Ensembl IDs and duplicate relationship rows separately."
+  },
+  "mapping_rules": {
+    "probe_to_entrez": "Split GPL570 ENTREZ_GENE_ID on ///, trim and discard blank/unresolved tokens, deduplicate tokens within each probe, and retain a probe only when exactly one unique numeric Entrez ID remains. Preserve the original field and reason for every probe.",
+    "ensembl_to_entrez": "Build the complete valid Ensembl-ID universe and both Ensembl-to-Entrez and Entrez-to-Ensembl directions over every crosswalk relationship before restricting to array genes or programs. Eligible only when one Ensembl stable ID has exactly one Entrez ID and that Entrez ID has exactly one Ensembl stable ID across the full crosswalk. A source ID absent from the pinned valid Ensembl universe is reported as missing_ensembl_id_in_snapshot; an ID present without an Entrez relation is reported separately as missing_entrez_relation. Neither status asserts retirement.",
+    "symbol_programs": "For exact, case-sensitive HGNC symbols, require one Ensembl stable ID across the complete crosswalk, then require the same reciprocal one-to-one Ensembl-Entrez rule. No aliases, previous names, case changes, GPL symbol fallback or expression-based resolution.",
+    "version_rule": "Remove only a numeric suffix from an Ensembl gene identifier when present; retain the original source value and normalized value separately.",
+    "ets2_exclusion": "Exclude exact ENSG00000157557 or literal ETS2 from intended program denominators; the primary ETS2g1_DN denominator is 927.",
+    "coverage_gate": "Direct programs pass when array-mapped unique Entrez genes are >= 0.8 of the intended source-member denominator and >= 10 genes. The derived nonoverlap program subtracts the mapped comparator union in Entrez space, retains the parent's 801/927 coverage gate and applies a separate ten-gene minimum; its retained 652/927 fraction is reported separately from the gate-evaluated parent fraction.",
+    "source_programs": "Load exactly the eight source-defined columns from the pinned Stankey archive: four Ensembl-ID sets and four exact HGNC-symbol GOBP sets. Preserve source namespaces and all missing/ambiguous statuses."
+  },
+  "method_lock": {
+    "path": "config/gse84161-normalization-method-lock.json",
+    "sha256": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861",
+    "mapping_method_sha256": "03736ea478a474bce53077ad5bb733af65e2c8e23b86eb5a3a1eac0c7d052afd",
+    "coverage_allowed_after_source_pin": true,
+    "expression_values_read": false
+  }
+}
