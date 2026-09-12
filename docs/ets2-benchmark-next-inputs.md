@@ -2,6 +2,8 @@
 
 Checked 2026-09-12. This is a source-readiness assessment. No ETS2 program score, drug ranking, spatial analysis or treatment simulation has been computed in this phase.
 
+**Later follow-up, September 12:** the [program benchmark](../reports/ets2-program-benchmark.md), [source audit](ets2-source-semantics.md) and [inhibitor-method reconstruction](ets2-inhibitor-reconstruction.md) now complete the bounded analysis below. This document preserves the earlier readiness snapshot and its original boundaries.
+
 The [Stankey et al. primary study](https://www.nature.com/articles/s41586-024-07501-1) provides an existing experimental mechanism to reproduce before extending the PSC candidate analysis. Its [versioned public release](https://zenodo.org/records/10707942) contains code, gene sets, ranked gene statistics and four compressed spatial-count datasets. The 34,636,310-byte ZIP matches the publisher MD5 and our pinned SHA-256. See the [source manifest](../config/ets2-benchmark-sources.json) and [member inventory](../data/derived/ets2-benchmark-inventory.csv).
 
 ## What is available

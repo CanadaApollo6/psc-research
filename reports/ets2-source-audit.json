@@ -1,0 +1,978 @@
+{
+  "analysis_version": "1.0",
+  "archive": {
+    "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+    "raw_count_folders": {
+      "RNA-seq/RNAseq_CRISPR": false,
+      "RNA-seq/RNAseq_MEKi": false,
+      "RNA-seq/RNAseq_biopsies": true,
+      "RNA-seq/RNAseq_overexpression": false
+    },
+    "relevant_members": [
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+        "bytes": 6857,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+        "sha256": "9cc56f99ee774caf95498c51624d6bd7af9266a7abdf7230482a308135b05039"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_CRISPR/ko.g1.res_finalSYMBOL_rank.csv",
+        "bytes": 232386,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_CRISPR/ko.g1.res_finalSYMBOL_rank.csv",
+        "sha256": "afca5117aedba9c8f8bf6b5ba9fb3a554b359e601d8031aad400b257b6d1ae57"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+        "bytes": 3709,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+        "sha256": "daaefef4765d40a7b92017ce12497203982935fb22704ec4569c08621cd5d4da"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "bytes": 242682,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "sha256": "28ca0dbcb74a045613f003269baf39363a6179d20095407f6573f3513ff2a817"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "bytes": 242575,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "sha256": "0d53d5fa3cac93564326eec787147db505f46ddfa062371322fea234c55f4199"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_biopsies/RNA-seq_colonbiopsies_analysis.R",
+        "bytes": 2205,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_biopsies/RNA-seq_colonbiopsies_analysis.R",
+        "sha256": "8eb7ceba0d780e6dcc20c824ef2ccb6905c0bb03268c0efde91df6e557ed2a19"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "bytes": 59700,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "sha256": "ed042a565382c230603d42b338b440107b74617dd4ee90cc9a8a690d1e94e229"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_overexpression/RNAseq_overexpression_analysis.r",
+        "bytes": 6992,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_overexpression/RNAseq_overexpression_analysis.r",
+        "sha256": "4adccbffa1011c327b29d5e8d207741ca0d99ebfa4df640cf1325bc37a4cd231"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_overexpression/overexpression_250ng_rank.csv",
+        "bytes": 197885,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_overexpression/overexpression_250ng_rank.csv",
+        "sha256": "040f3a0c4d1a6ecbc4ecbe19ea693986152d49a0331d849b59cfcd9aa150e2a3"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_overexpression/overexpression_500ng_rank.csv",
+        "bytes": 198021,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_overexpression/overexpression_500ng_rank.csv",
+        "sha256": "b39b360d7f0a56b6e4c82c264288511e5b5dc88faaaef0ecc88842675c18e4f4"
+      }
+    ],
+    "root_prefix": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/"
+  },
+  "article": {
+    "bytes": 285979,
+    "evidence": [
+      {
+        "excerpt": "GSEA was performed using fGSEA78 in R with differentially expressed gene lists ranked by t-statistic. Gene sets were obtained from GO Biological Pathways (MSigDB), experimentally derived based on differential expression analysis or sourced from published literature31,42,70,79–86. Specific details of disease macrophage signatures (Fig. 3f) are provided as source data. GO pathways shown in Figs. 2–5 are as follows: GO:0002274, GO:0042116, GO:0097529, GO:0006909, GO:0071706, GO:0032732, GO:0032755, GO:0032757, GO:2000379, GO:0009060, GO:0006119 and GO:0045649. Statistical significance was calculated using the adaptive multilevel split Monte Carlo method.",
+        "id": "ranked_by_t_statistic",
+        "paragraph_number": 77,
+        "phrase": "ranked by t-statistic"
+      },
+      {
+        "excerpt": "RNA was isolated from macrophage lysates (AllPrep DNA/RNA Micro Kit, Qiagen) and sequencing libraries were prepared from 10 ng RNA using the SMARTer Stranded Total RNA-Seq Kit v2 Pico Input Mammalian (Takara) according to the manufacturer’s instructions. Libraries were sequenced on either the NextSeq 2000 (50 bp paired-end reads: CRISPR, roxadustat and PD-0325901 experiments) or NovaSeq 6000 (100 bp paired-end reads: overexpression experiments) system and preprocessed using MultiQC. Reads were trimmed using Trim Galore (Phred score 24) and filtered to remove reads <20 bp. Ribosomal reads (mapping to human ribosomal DNA complete repeating unit; GenBank: U13369 .1) were removed using BBSplit (https://sourceforge.net/projects/bbmap/). Reads were aligned to the human genome (hg38) using HISAT2 (ref. 74) and converted to BAM files, sorted and indexed using SAMtools75. Gene read counts were...",
+        "id": "supplementary_differential_tables",
+        "paragraph_number": 76,
+        "phrase": "Differential expression results are shown in Supplementary Tables 1 and 2"
+      },
+      {
+        "excerpt": "Pathway analysis of 241 IBD-associated GWAS hits3 was performed using SNPsea v.1.0.4 (ref. 34). In brief, linkage intervals were defined for every lead SNP based on the furthest correlated SNPs (r2 > 0.5 in 1000 Genomes, European population) and were extended to the nearest recombination hotspots with recombination rate > 3 cM per Mb. If no genes were present in this region, the linkage interval was extended up- and downstream by 500 kb (as long-range regulatory interactions usually occur within 1 Mb). Genes within linkage intervals were tested for enrichment within 7,660 pathways, comprising 7,658 GO Biological Pathways and two lists of ETS2-regulated genes (either those significantly downregulated after ETS2 disruption with gRNA1 or those significantly upregulated after ETS2 overexpression, based on a consensus list obtained from differential expression analysis including all sample...",
+        "id": "downregulated_g1_program",
+        "paragraph_number": 82,
+        "phrase": "downregulated after ETS2 disruption"
+      },
+      {
+        "excerpt": "Raw count data from colonic immune cells41 (including healthy controls and Crohn’s disease) were downloaded from the Single Cell Portal (https://singlecell.broadinstitute.org/single_cell). Myeloid cell data were extracted for further analysis using the cell annotation provided. Raw data were preprocessed, normalized and variance-stabilized using Seurat (v.4)96. PCA and UMAP clustering was performed and clusters annotated using established markers and/or previous literature. Marker genes were identified using the FindAllMarkers function. Modular expression of ETS2-regulated genes (downregulated after ETS2 editing, gRNA1) was measured using the AddModuleScore function.",
+        "id": "modular_g1_program",
+        "paragraph_number": 87,
+        "phrase": "Modular expression of ETS2-regulated genes (downregulated after ETS2 editing, gRNA1)"
+      },
+      {
+        "excerpt": "a, Experimental schematic for studying ETS2 in inflammatory (TPP) macrophages. The diagram was created using BioRender. b, Cytokine secretion after ETS2 disruption. Heat map of relative cytokine levels from ETS2-edited versus unedited macrophages. n = 8. c, Phagocytosis of fluorescently labelled zymosan particles by ETS2-edited and unedited macrophages (non-targeting control (NTC)) (left). Data are from one representative donor out of seven. Right, the phagocytosis index (the product of the proportion and MFI of phagocytosing cells). n = 7. d, ROS production by ETS2-edited and unedited macrophages. Data from one representative donor out of six (left). Right, NADPH oxidase component expression in ETS2-edited and unedited macrophages (western blot densitometry). n = 7. Source gels are shown in Supplementary Fig. 1. RLU, relative light units. e, RNA-seq analysis of differentially express...",
+        "id": "crispr_n",
+        "paragraph_number": 24,
+        "phrase": "RNA-seq analysis of differentially expressed genes in ETS2-edited"
+      },
+      {
+        "excerpt": "The datasets produced in this study are accessible at the following repositories: MPRA (GEO: GSE229472), RNA-seq data of ETS2 or chr21q22-edited TPP macrophages (EGA: EGAD00001011338), RNA-seq data of ETS2 overexpression (EGA: EGAD00001011341), RNA-seq data of MEK-inhibitor-treated TPP macrophages (EGA: EGAD00001011337), H3K27ac ChIP–seq data in TPP macrophages (EGA: EGAD00001011351), ATAC–seq and H3K27ac ChIP–seq data in ETS2-overexpressing or -edited macrophages (EGA: EGAD50000000154), ETS2 CUT&RUN data (EGA: EGAD00001011349), biopsy RNA-seq data (EGA: EGAD00001011333). MetaboLights: Metabolomics (MTBLS7665). The counts table for CosMx is provided at Zenodo (https://zenodo.org/records/10707942)114. The phenotype and genotype data used for the PRS analysis are available on application to the IBD Bioresource (https://www.ibdbioresource.nihr.ac.uk/). Source data are provided with this ...",
+        "id": "ega_accessions",
+        "paragraph_number": 123,
+        "phrase": "EGAD00001011338"
+      }
+    ],
+    "file": "ets2-primary-article.xml",
+    "paragraph_count": 150,
+    "sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168933/fullTextXML"
+  },
+  "caveats": [
+    "The master columns reproduce strict adjusted P value < 0.05 directional memberships from S1; FDR < 0.10 counts are reported separately and are not substituted.",
+    "Master members are Ensembl gene IDs without version suffixes; rank files use published gene symbols. Literal None values and duplicate symbol rows remain explicit.",
+    "KO gRNA1 ranks numerically match the one-to-one S1 gRNA1 t statistics within Decimal tolerance 1e-9; the raw xlsx and CSV strings differ in some floating-point serialization.",
+    "OE rank values are not numerically within 1e-9 of one-to-one S2 t statistics, despite high rank-level concordance. Sign mismatches are reported without choosing a preferred source row by nearest numeric value.",
+    "The MEKi release includes code-defined MEK minus control contrasts and rank files but no pinned publisher differential table or active matching export; rank orientation remains unresolved.",
+    "Relevant CRISPR, overexpression and MEKi public folders do not contain the raw_counts.txt files referenced by their R scripts. Biopsy raw counts are not a substitute.",
+    "R designs describe donor/sample structure only. Saved rank vectors cannot reproduce donor fits, count matrices or held-out-donor validation.",
+    "No biological orientation was inferred from expected inflammatory, oxidative-stress or cell-death responses."
+  ],
+  "derived_output_sha256": {
+    "design": "9bc9d974a0ee761ead71d7985b325b42fa054941eef882118f971fcad7fa6d18",
+    "differential": "6e24cc93e5cf8bd1d0ea27b59f89270d16a52be41d4537040bad3d06a9a8257a",
+    "gene_sets": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524",
+    "notes": "fe9e8ca4c49382ee43655b52324b31c7596ffa914153a9c8e3ec41f4a6570031",
+    "ranks": "e6832337db7c252cbc116318801b0edbbd392cea27e1c33d0057f788b893d447"
+  },
+  "designs": {
+    "crispr_ets2": {
+      "all_names_count": 38,
+      "complete_g1_ntc_pair_donors": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_g2_ntc_pair_donors": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "contrasts": [
+        "g1-NTC",
+        "g2-NTC"
+      ],
+      "donor_labels_in_model": 10,
+      "raw_count_matrix_present_in_same_archive_folder": false,
+      "selected_model_sample_count": 27
+    },
+    "meki": {
+      "complete_paired_donors": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "contrasts": [
+        "MEK_100-ctrl",
+        "MEK_500-ctrl"
+      ],
+      "donor_count": 3,
+      "raw_count_matrix_present_in_same_archive_folder": false,
+      "sample_count": 9
+    },
+    "oe_ets2": {
+      "complete_paired_donors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "contrasts": [
+        "ets2_250-rev_250",
+        "ets2_500-rev_500",
+        "ets2-rev with dose covariate"
+      ],
+      "donor_count": 8,
+      "raw_count_matrix_present_in_same_archive_folder": false,
+      "sample_count": 32
+    }
+  },
+  "gene_sets": {
+    "all_master_members_have_s1_rows": true,
+    "columns": {
+      "CHR21_DN": {
+        "rows_in_output": 141,
+        "unique_members": 141,
+        "within_column_duplicate_count": 0
+      },
+      "CHR21_UP": {
+        "rows_in_output": 215,
+        "unique_members": 215,
+        "within_column_duplicate_count": 0
+      },
+      "ETS2g1_DN": {
+        "rows_in_output": 928,
+        "unique_members": 928,
+        "within_column_duplicate_count": 0
+      },
+      "ETS2g1_UP": {
+        "rows_in_output": 668,
+        "unique_members": 668,
+        "within_column_duplicate_count": 0
+      },
+      "ETS2g2_DN": {
+        "rows_in_output": 875,
+        "unique_members": 875,
+        "within_column_duplicate_count": 0
+      },
+      "ETS2g2_UP": {
+        "rows_in_output": 716,
+        "unique_members": 716,
+        "within_column_duplicate_count": 0
+      }
+    },
+    "fdr05_reproduction": {
+      "CHR21_DN": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 341,
+        "master_count": 141,
+        "reproduced_fdr05_count": 141
+      },
+      "CHR21_UP": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 482,
+        "master_count": 215,
+        "reproduced_fdr05_count": 215
+      },
+      "ETS2g1_DN": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 1286,
+        "master_count": 928,
+        "reproduced_fdr05_count": 928
+      },
+      "ETS2g1_UP": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 1090,
+        "master_count": 668,
+        "reproduced_fdr05_count": 668
+      },
+      "ETS2g2_DN": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 1252,
+        "master_count": 875,
+        "reproduced_fdr05_count": 875
+      },
+      "ETS2g2_UP": {
+        "exact_member_set": true,
+        "fdr10_directional_count": 1195,
+        "master_count": 716,
+        "reproduced_fdr05_count": 716
+      }
+    },
+    "fdr10_directional_counts": {
+      "CHR21_DN": 341,
+      "CHR21_UP": 482,
+      "ETS2g1_DN": 1286,
+      "ETS2g1_UP": 1090,
+      "ETS2g2_DN": 1252,
+      "ETS2g2_UP": 1195
+    },
+    "fdr_rule": "strict adjusted P value < 0.05; direction determined by source logFC",
+    "pairwise_overlap_counts": {
+      "CHR21_DN__CHR21_UP": 0,
+      "CHR21_DN__ETS2g2_DN": 114,
+      "CHR21_DN__ETS2g2_UP": 0,
+      "CHR21_UP__ETS2g2_DN": 0,
+      "CHR21_UP__ETS2g2_UP": 125,
+      "ETS2g1_DN__CHR21_DN": 120,
+      "ETS2g1_DN__CHR21_UP": 0,
+      "ETS2g1_DN__ETS2g2_DN": 675,
+      "ETS2g1_DN__ETS2g2_UP": 0,
+      "ETS2g1_UP__CHR21_DN": 0,
+      "ETS2g1_UP__CHR21_UP": 90,
+      "ETS2g1_UP__ETS2g1_DN": 0,
+      "ETS2g1_UP__ETS2g2_DN": 0,
+      "ETS2g1_UP__ETS2g2_UP": 426,
+      "ETS2g2_UP__ETS2g2_DN": 0
+    },
+    "source_logfc_t_sign_agreement": {
+      "s1_chr21": {
+        "agree": 12144,
+        "disagree": 0
+      },
+      "s1_g1": {
+        "agree": 12144,
+        "disagree": 0
+      },
+      "s1_g2": {
+        "agree": 12144,
+        "disagree": 0
+      }
+    },
+    "union_duplicate_memberships": 1359,
+    "union_members_in_multiple_sets": 1168,
+    "union_unique_members": 2184
+  },
+  "output_schemas": {
+    "design": {
+      "columns": [
+        "experiment_id",
+        "code_member",
+        "code_member_bytes",
+        "code_member_sha256",
+        "sample_index",
+        "sample_name_literal",
+        "target_as_coded",
+        "donor_as_coded",
+        "included_in_model",
+        "contrast_id",
+        "contrast_formula",
+        "condition_left_as_coded",
+        "condition_right_as_coded",
+        "design_note"
+      ],
+      "path": "data/derived/ets2-source-design.csv"
+    },
+    "differential": {
+      "columns": [
+        "workbook_id",
+        "worksheet_name",
+        "worksheet_xml_member",
+        "workbook_sha256",
+        "worksheet_source_row_number",
+        "source_member",
+        "source_member_bytes",
+        "source_member_sha256",
+        "contrast_id",
+        "contrast_label",
+        "condition_left_as_published",
+        "condition_right_as_published",
+        "ensembl_id_original",
+        "ensembl_id_namespace",
+        "gene_symbol_original",
+        "gene_symbol_is_literal_none",
+        "logfc_original",
+        "ave_expr_original",
+        "t_original",
+        "p_value_original",
+        "adj_p_val_original",
+        "b_original",
+        "logfc_sign",
+        "t_sign",
+        "logfc_t_sign_agree",
+        "adj_lt_0_05",
+        "adj_lt_0_10",
+        "source_table_footer_present"
+      ],
+      "path": "data/derived/ets2-source-differential.csv.gz"
+    },
+    "gene_sets": {
+      "columns": [
+        "set_name",
+        "member_index",
+        "gene_id_original",
+        "gene_id_namespace",
+        "gene_id_version_suffix_present",
+        "master_source_row_number",
+        "source_member",
+        "source_member_bytes",
+        "source_member_sha256",
+        "gene_symbol_s1_original",
+        "gene_symbol_s1_is_literal_none",
+        "s1_source_row_number",
+        "s1_source_contrast",
+        "source_logfc_original",
+        "source_t_original",
+        "source_adj_p_val_original",
+        "fdr05_membership_reproduced",
+        "fdr10_membership_reproduced",
+        "symbol_to_ensembl_count_s1"
+      ],
+      "path": "data/derived/ets2-source-gene-sets.csv"
+    },
+    "notes": {
+      "columns": [
+        "workbook_id",
+        "worksheet_name",
+        "source_row_number",
+        "cell_column",
+        "value_original",
+        "workbook_sha256"
+      ],
+      "path": "data/derived/ets2-source-notes.csv"
+    },
+    "ranks": {
+      "columns": [
+        "rank_dataset_id",
+        "rank_file",
+        "rank_member_bytes",
+        "rank_member_sha256",
+        "rank_position",
+        "gene_symbol_original",
+        "gene_symbol_namespace",
+        "statistic_original",
+        "statistic_decimal",
+        "statistic_sign",
+        "rank_order_is_descending",
+        "code_member",
+        "code_member_bytes",
+        "code_member_sha256",
+        "code_contrast",
+        "code_effect_direction",
+        "code_rank_linkage_status",
+        "source_workbook_id",
+        "source_worksheet_name",
+        "source_contrast",
+        "source_workbook_sha256",
+        "source_match_status",
+        "source_symbol_match_count",
+        "source_ensembl_ids_unambiguous",
+        "source_gene_symbol_original_unambiguous",
+        "source_row_number_unambiguous",
+        "source_t_original_unambiguous",
+        "source_logfc_original_unambiguous",
+        "source_adj_p_val_original_unambiguous",
+        "source_abs_difference_decimal_unambiguous",
+        "source_numeric_match_within_1e-9_unambiguous",
+        "source_sign_match_unambiguous",
+        "source_candidate_row_numbers_diagnostic",
+        "source_candidate_ensembl_ids_diagnostic",
+        "source_candidate_t_original_diagnostic",
+        "source_candidate_logfc_original_diagnostic",
+        "source_candidate_sign_mismatch_count_diagnostic",
+        "source_nearest_row_number_diagnostic",
+        "source_nearest_abs_difference_decimal_diagnostic",
+        "source_nearest_sign_match_diagnostic",
+        "source_comparison_status"
+      ],
+      "path": "data/derived/ets2-source-ranks.csv.gz"
+    }
+  },
+  "publisher_zip_md5": {
+    "actual": "9d6b7ddcf377cb194bc72732d807ae80",
+    "expected": "9d6b7ddcf377cb194bc72732d807ae80",
+    "verified": true
+  },
+  "rank_datasets": [
+    {
+      "code_contrast": "g1 - NTC",
+      "code_effect_direction": "ETS2 gRNA 1 edited minus non-targeting control",
+      "code_member": "RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+      "code_member_sha256": "9cc56f99ee774caf95498c51624d6bd7af9266a7abdf7230482a308135b05039",
+      "code_rank_linkage": "R reads ko.g1.res_finalSYMBOL_rank.csv as fGSEA statistics; the article specifies t-statistic ranking; all unambiguous symbols match S1 gRNA1 t within 1e-9.",
+      "ets2_rank_position": 11660,
+      "ets2_statistic_original": "-15.808711",
+      "finite_statistic_count": 11660,
+      "max_statistic": "7.682805421",
+      "min_statistic": "-15.808711",
+      "rank_dataset_id": "ko_g1",
+      "rank_file": "RNA-seq/RNAseq_CRISPR/ko.g1.res_finalSYMBOL_rank.csv",
+      "rank_member_bytes": 232386,
+      "rank_member_sha256": "afca5117aedba9c8f8bf6b5ba9fb3a554b359e601d8031aad400b257b6d1ae57",
+      "rank_row_count": 11660,
+      "sorted_nonincreasing": true,
+      "source_comparison": {
+        "ambiguous_shared_symbol_count": 2,
+        "ambiguous_shared_symbols": [
+          "POLR2J3",
+          "Y_RNA"
+        ],
+        "candidate_all_numeric_match_count": 11660,
+        "candidate_all_shared_row_count": 11663,
+        "candidate_all_sign_mismatch_count": 1,
+        "nearest_candidate_max_abs_difference_diagnostic": "0.000000000000001",
+        "nearest_candidate_sign_mismatch_count_diagnostic": 0,
+        "numeric_match_tolerance": "0.000000001",
+        "primary_comparison_rule": "Compare only rank symbols with exactly one non-literal-None source row; ambiguous symbols and rank-only symbols are unavailable for primary identity.",
+        "primary_max_abs_difference": "0.000000000000001",
+        "primary_mean_abs_difference": "0.00000000000000006158712180476925716246354435",
+        "primary_numeric_match_within_tolerance_count": 11658,
+        "primary_numeric_match_within_tolerance_fraction": 1.0,
+        "primary_sign_mismatch_count": 0,
+        "primary_unambiguous_match_count": 11658,
+        "rank_only_symbol_count": 0,
+        "rank_symbol_count": 11660,
+        "shared_symbol_count": 11660,
+        "source_non_none_symbol_count": 11660,
+        "source_only_unique_symbol_count": 0,
+        "unambiguous_one_to_one_symbol_count": 11658
+      },
+      "source_comparison_status": "publisher_table_numeric_match_within_tolerance",
+      "unique_gene_symbol_count": 11660
+    },
+    {
+      "code_contrast": "ets2_250 - rev_250",
+      "code_effect_direction": "ETS2 250ng mRNA minus reverse-complement 250ng control",
+      "code_member": "RNA-seq/RNAseq_overexpression/RNAseq_overexpression_analysis.r",
+      "code_member_sha256": "4adccbffa1011c327b29d5e8d207741ca0d99ebfa4df640cf1325bc37a4cd231",
+      "code_rank_linkage": "R reads overexpression_250ng_rank.csv after the split-dose limma contrast and comments that it is ranked by t statistic; matched symbols are highly concordant with S2 but not numerically identical.",
+      "ets2_rank_position": 1,
+      "ets2_statistic_original": "32.75148931",
+      "finite_statistic_count": 9979,
+      "max_statistic": "32.75148931",
+      "min_statistic": "-8.70140202",
+      "rank_dataset_id": "oe_250",
+      "rank_file": "RNA-seq/RNAseq_overexpression/overexpression_250ng_rank.csv",
+      "rank_member_bytes": 197885,
+      "rank_member_sha256": "040f3a0c4d1a6ecbc4ecbe19ea693986152d49a0331d849b59cfcd9aa150e2a3",
+      "rank_row_count": 9979,
+      "sorted_nonincreasing": true,
+      "source_comparison": {
+        "ambiguous_shared_symbol_count": 5,
+        "ambiguous_shared_symbols": [
+          "NPEPPSP1",
+          "NPIPA9",
+          "POLR2J3",
+          "SIGLEC5",
+          "U2"
+        ],
+        "candidate_all_numeric_match_count": 0,
+        "candidate_all_shared_row_count": 9926,
+        "candidate_all_sign_mismatch_count": 41,
+        "nearest_candidate_max_abs_difference_diagnostic": "2.51627315700000002",
+        "nearest_candidate_sign_mismatch_count_diagnostic": 36,
+        "numeric_match_tolerance": "0.000000001",
+        "primary_comparison_rule": "Compare only rank symbols with exactly one non-literal-None source row; ambiguous symbols and rank-only symbols are unavailable for primary identity.",
+        "primary_max_abs_difference": "2.51627315700000002",
+        "primary_mean_abs_difference": "0.01592548300494549837398677836",
+        "primary_numeric_match_within_tolerance_count": 0,
+        "primary_numeric_match_within_tolerance_fraction": 0.0,
+        "primary_sign_mismatch_count": 36,
+        "primary_unambiguous_match_count": 9908,
+        "rank_only_symbol_count": 66,
+        "rank_symbol_count": 9979,
+        "shared_symbol_count": 9913,
+        "source_non_none_symbol_count": 9983,
+        "source_only_unique_symbol_count": 69,
+        "unambiguous_one_to_one_symbol_count": 9908
+      },
+      "source_comparison_status": "publisher_table_nonexact_numeric_mismatch",
+      "unique_gene_symbol_count": 9979
+    },
+    {
+      "code_contrast": "ets2_500 - rev_500",
+      "code_effect_direction": "ETS2 500ng mRNA minus reverse-complement 500ng control",
+      "code_member": "RNA-seq/RNAseq_overexpression/RNAseq_overexpression_analysis.r",
+      "code_member_sha256": "4adccbffa1011c327b29d5e8d207741ca0d99ebfa4df640cf1325bc37a4cd231",
+      "code_rank_linkage": "R reads overexpression_500ng_rank.csv after the split-dose limma contrast and comments that it is ranked by t statistic; matched symbols are highly concordant with S2 but not numerically identical.",
+      "ets2_rank_position": 1,
+      "ets2_statistic_original": "36.48994869",
+      "finite_statistic_count": 9979,
+      "max_statistic": "36.48994869",
+      "min_statistic": "-9.328158278",
+      "rank_dataset_id": "oe_500",
+      "rank_file": "RNA-seq/RNAseq_overexpression/overexpression_500ng_rank.csv",
+      "rank_member_bytes": 198021,
+      "rank_member_sha256": "b39b360d7f0a56b6e4c82c264288511e5b5dc88faaaef0ecc88842675c18e4f4",
+      "rank_row_count": 9979,
+      "sorted_nonincreasing": true,
+      "source_comparison": {
+        "ambiguous_shared_symbol_count": 5,
+        "ambiguous_shared_symbols": [
+          "NPEPPSP1",
+          "NPIPA9",
+          "POLR2J3",
+          "SIGLEC5",
+          "U2"
+        ],
+        "candidate_all_numeric_match_count": 0,
+        "candidate_all_shared_row_count": 9926,
+        "candidate_all_sign_mismatch_count": 50,
+        "nearest_candidate_max_abs_difference_diagnostic": "4.52707515099999999",
+        "nearest_candidate_sign_mismatch_count_diagnostic": 42,
+        "numeric_match_tolerance": "0.000000001",
+        "primary_comparison_rule": "Compare only rank symbols with exactly one non-literal-None source row; ambiguous symbols and rank-only symbols are unavailable for primary identity.",
+        "primary_max_abs_difference": "4.52707515099999999",
+        "primary_mean_abs_difference": "0.01655478829218813235900787243",
+        "primary_numeric_match_within_tolerance_count": 0,
+        "primary_numeric_match_within_tolerance_fraction": 0.0,
+        "primary_sign_mismatch_count": 42,
+        "primary_unambiguous_match_count": 9908,
+        "rank_only_symbol_count": 66,
+        "rank_symbol_count": 9979,
+        "shared_symbol_count": 9913,
+        "source_non_none_symbol_count": 9983,
+        "source_only_unique_symbol_count": 69,
+        "unambiguous_one_to_one_symbol_count": 9908
+      },
+      "source_comparison_status": "publisher_table_nonexact_numeric_mismatch",
+      "unique_gene_symbol_count": 9979
+    },
+    {
+      "code_contrast": "MEK_100 - ctrl",
+      "code_effect_direction": "PD-0325901 100nM minus vehicle control",
+      "code_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "code_member_sha256": "daaefef4765d40a7b92017ce12497203982935fb22704ec4569c08621cd5d4da",
+      "code_rank_linkage": "R defines MEK_100nM = MEK_100 - ctrl, creates a topTable object, and then reads the released rank file. The matching write.csv line is commented/mismatched, so the saved rank's directional linkage cannot be certified from this release.",
+      "ets2_rank_position": 7377,
+      "ets2_statistic_original": "-0.504429264",
+      "finite_statistic_count": 12095,
+      "max_statistic": "7.841975336",
+      "min_statistic": "-15.84996246",
+      "rank_dataset_id": "meki_100",
+      "rank_file": "RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+      "rank_member_bytes": 242682,
+      "rank_member_sha256": "28ca0dbcb74a045613f003269baf39363a6179d20095407f6573f3513ff2a817",
+      "rank_row_count": 12095,
+      "sorted_nonincreasing": true,
+      "source_comparison": {
+        "numeric_match_tolerance": "1e-9",
+        "primary_comparison_rule": "No pinned publisher differential table for this experiment.",
+        "primary_numeric_match_within_tolerance_count": null,
+        "primary_sign_mismatch_count": null,
+        "primary_unambiguous_match_count": null
+      },
+      "source_comparison_status": "publisher_differential_table_not_pinned",
+      "unique_gene_symbol_count": 12095
+    },
+    {
+      "code_contrast": "MEK_500 - ctrl",
+      "code_effect_direction": "PD-0325901 500nM minus vehicle control",
+      "code_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "code_member_sha256": "daaefef4765d40a7b92017ce12497203982935fb22704ec4569c08621cd5d4da",
+      "code_rank_linkage": "R defines MEK_500nM = MEK_500 - ctrl, creates a topTable object, and then reads the released rank file. The matching write.csv line is commented/mismatched, so the saved rank's directional linkage cannot be certified from this release.",
+      "ets2_rank_position": 6133,
+      "ets2_statistic_original": "0.007280601",
+      "finite_statistic_count": 12095,
+      "max_statistic": "9.062092728",
+      "min_statistic": "-19.60553592",
+      "rank_dataset_id": "meki_500",
+      "rank_file": "RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+      "rank_member_bytes": 242575,
+      "rank_member_sha256": "0d53d5fa3cac93564326eec787147db505f46ddfa062371322fea234c55f4199",
+      "rank_row_count": 12095,
+      "sorted_nonincreasing": true,
+      "source_comparison": {
+        "numeric_match_tolerance": "1e-9",
+        "primary_comparison_rule": "No pinned publisher differential table for this experiment.",
+        "primary_numeric_match_within_tolerance_count": null,
+        "primary_sign_mismatch_count": null,
+        "primary_unambiguous_match_count": null
+      },
+      "source_comparison_status": "publisher_differential_table_not_pinned",
+      "unique_gene_symbol_count": 12095
+    }
+  ],
+  "scope": "Public ETS2 source and semantics audit; no atlas scores or donor count-matrix reconstruction.",
+  "snapshot_date": "2026-09-12",
+  "source_manifests": [
+    {
+      "bytes": 1422,
+      "path": "config/ets2-benchmark-sources.json",
+      "published_zip_md5": "9d6b7ddcf377cb194bc72732d807ae80",
+      "retrieval_failures": [],
+      "sha256": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+      "snapshot_date": "2026-09-12",
+      "source_directory": "data/raw/ets2-benchmark",
+      "sources": [
+        {
+          "actual_bytes": 285979,
+          "actual_sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+          "bytes": 285979,
+          "bytes_verified": true,
+          "file": "ets2-primary-article.xml",
+          "id": "ets2-primary-article.xml",
+          "max_bytes": 2000000,
+          "retrieved_at_utc": "2026-09-12T14:20:39.428537+00:00",
+          "sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+          "sha256_verified": true,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168933/fullTextXML",
+          "verified": true
+        },
+        {
+          "actual_bytes": 3968,
+          "actual_sha256": "5673b3198c72631966560e760f71052811389e9f30c261e0a6d08eb2856c94a1",
+          "bytes": 3968,
+          "bytes_verified": true,
+          "file": "ets2-zenodo-metadata.json",
+          "id": "ets2-zenodo-metadata.json",
+          "max_bytes": 2000000,
+          "retrieved_at_utc": "2026-09-12T14:21:08.533316+00:00",
+          "sha256": "5673b3198c72631966560e760f71052811389e9f30c261e0a6d08eb2856c94a1",
+          "sha256_verified": true,
+          "url": "https://zenodo.org/api/records/10707942",
+          "verified": true
+        },
+        {
+          "actual_bytes": 34636310,
+          "actual_sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+          "bytes": 34636310,
+          "bytes_verified": true,
+          "file": "ets2-public-release.zip",
+          "id": "ets2-public-release.zip",
+          "max_bytes": 40000000,
+          "retrieved_at_utc": "2026-09-12T14:21:34.543387+00:00",
+          "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+          "sha256_verified": true,
+          "url": "https://zenodo.org/api/records/10707942/files/JamesLeeLab/ETS2manuscript_Stankey_CT_et_al_2024-v1.0.zip/content",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "bytes": 1678,
+      "path": "config/ets2-program-sources.json",
+      "published_zip_md5": "",
+      "retrieval_failures": [
+        {
+          "date": "2026-09-12",
+          "error": "curl could not resolve host; publisher media.springernature.com fallback used",
+          "files": [
+            "41586_2024_7501_MOESM3_ESM.xlsx",
+            "41586_2024_7501_MOESM9_ESM.xlsx"
+          ],
+          "host": "static-content.springer-cdn.com"
+        }
+      ],
+      "sha256": "2942a10caeb4ba9159eb19fe61c0616c3223e904971c6ed25f7078c995c2185f",
+      "snapshot_date": "2026-09-12",
+      "source_directory": "data/raw/ets2-benchmark",
+      "sources": [
+        {
+          "actual_bytes": 5270597,
+          "actual_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "bytes": 5270597,
+          "bytes_verified": true,
+          "file": "ets2-supplementary-tables.xlsx",
+          "id": "ets2-supplementary-tables.xlsx",
+          "max_bytes": 25000000,
+          "retrieved_at_utc": "2026-09-12T14:59:01.207253+00:00",
+          "sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "sha256_verified": true,
+          "timestamp_basis": "local file completion time; curl did not preserve server modification time",
+          "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM3_ESM.xlsx",
+          "verified": true
+        },
+        {
+          "actual_bytes": 7907111,
+          "actual_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+          "bytes": 7907111,
+          "bytes_verified": true,
+          "file": "ets2-source-data-fig5.xlsx",
+          "id": "ets2-source-data-fig5.xlsx",
+          "max_bytes": 25000000,
+          "retrieved_at_utc": "2026-09-12T14:59:37.149157+00:00",
+          "sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+          "sha256_verified": true,
+          "timestamp_basis": "local file completion time; curl did not preserve server modification time",
+          "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM9_ESM.xlsx",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "workbooks": {
+    "notes_preserved_in": "data/derived/ets2-source-notes.csv",
+    "s1": {
+      "duplicate_non_none_symbols": {
+        "POLR2J3": 2,
+        "Y_RNA": 3
+      },
+      "first_valid_source_row": 3,
+      "header_field_values": {
+        "A": "EnsemblID",
+        "B": "geneID",
+        "C": "logFC",
+        "D": "AveExpr",
+        "E": "t",
+        "F": "P.Value",
+        "G": "adj.P.Val",
+        "H": "B",
+        "I": "logFC",
+        "J": "AveExpr",
+        "K": "t",
+        "L": "P.Value",
+        "M": "adj.P.Val",
+        "N": "B",
+        "O": "logFC",
+        "P": "AveExpr",
+        "Q": "t",
+        "R": "P.Value",
+        "S": "adj.P.Val",
+        "T": "B"
+      },
+      "header_group_values": {
+        "C": "ETS2 gRNA 1",
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": "",
+        "H": "",
+        "I": "ETS2 gRNA 2",
+        "J": "",
+        "K": "",
+        "L": "",
+        "M": "",
+        "N": "",
+        "O": "ch21q22 deletion",
+        "P": "",
+        "Q": "",
+        "R": "",
+        "S": "",
+        "T": ""
+      },
+      "last_valid_source_row": 12146,
+      "literal_none_rows": 481,
+      "notes": [
+        {
+          "cell_column": "A",
+          "source_row_number": 12148,
+          "value_original": "Supplementary Table 1. Differentially-expressed genes following ETS2 or chr21q22 editing",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S1_loss-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 12149,
+          "value_original": "Toptable results of differential expression analysis using limma with voom transformation.",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S1_loss-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 12150,
+          "value_original": "P-value (two-tailed) adjusted for multiple testing using Benjamini-Hochberg (FDR) method.",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S1_loss-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 12151,
+          "value_original": "Results are shown with respect to expression in unedited cells",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S1_loss-of-function"
+        }
+      ],
+      "rows_with_any_cell_after_header": 12148,
+      "rows_with_xml": 12150,
+      "unique_ensembl_ids": 12144,
+      "unique_non_none_symbols": 11660,
+      "valid_ensembl_rows": 12144,
+      "workbook_bytes": 5270597,
+      "workbook_id": "ets2-supplementary-tables.xlsx",
+      "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+      "worksheet_body_rows_after_header": 12149,
+      "worksheet_dimension": "A1:T12151",
+      "worksheet_name": "Table S1_loss-of-function",
+      "worksheet_xml_member": "xl/worksheets/sheet1.xml"
+    },
+    "s2": {
+      "duplicate_non_none_symbols": {
+        "LINC03025": 2,
+        "NPEPPSP1": 2,
+        "NPIPA9": 2,
+        "POLR2J3": 2,
+        "SIGLEC5": 2,
+        "U2": 10
+      },
+      "first_valid_source_row": 3,
+      "header_field_values": {
+        "A": "EnsemblID",
+        "B": "geneID",
+        "C": "logFC",
+        "D": "AveExpr",
+        "E": "t",
+        "F": "P.Value",
+        "G": "adj.P.Val",
+        "H": "B",
+        "I": "logFC",
+        "J": "AveExpr",
+        "K": "t",
+        "L": "P.Value",
+        "M": "adj.P.Val",
+        "N": "B",
+        "O": "logFC",
+        "P": "AveExpr",
+        "Q": "t",
+        "R": "P.Value",
+        "S": "adj.P.Val",
+        "T": "B"
+      },
+      "header_group_values": {
+        "C": "ETS2 overexpression (250ng)",
+        "D": "",
+        "E": "",
+        "F": "",
+        "G": "",
+        "H": "",
+        "I": "ETS2 overexpression (500ng)",
+        "J": "",
+        "K": "",
+        "L": "",
+        "M": "",
+        "N": "",
+        "O": "ETS2 overexpression (250ng and 500ng, dose as covariate)",
+        "P": "",
+        "Q": "",
+        "R": "",
+        "S": "",
+        "T": ""
+      },
+      "last_valid_source_row": 10198,
+      "literal_none_rows": 199,
+      "notes": [
+        {
+          "cell_column": "A",
+          "source_row_number": 10200,
+          "value_original": "Supplementary Table 2. Differentially-expressed genes following ETS2 overexpression",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S2_gain-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 10201,
+          "value_original": "Toptable results of differential expression analysis using limma with voom transformation.",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S2_gain-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 10202,
+          "value_original": "P-value  (two-tailed) adjusted for multiple testing using Benjamini-Hochberg (FDR) method.",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S2_gain-of-function"
+        },
+        {
+          "cell_column": "A",
+          "source_row_number": 10203,
+          "value_original": "Results are shown with respect to expression in cells transfected with equivalent amount of mRNA encoding reverse complement of ETS2",
+          "workbook_id": "ets2-supplementary-tables.xlsx",
+          "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "worksheet_name": "Table S2_gain-of-function"
+        }
+      ],
+      "rows_with_any_cell_after_header": 10200,
+      "rows_with_xml": 10202,
+      "unique_ensembl_ids": 10196,
+      "unique_non_none_symbols": 9983,
+      "valid_ensembl_rows": 10196,
+      "workbook_bytes": 5270597,
+      "workbook_id": "ets2-supplementary-tables.xlsx",
+      "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+      "worksheet_body_rows_after_header": 10201,
+      "worksheet_dimension": "A1:T10203",
+      "worksheet_name": "Table S2_gain-of-function",
+      "worksheet_xml_member": "xl/worksheets/sheet2.xml"
+    }
+  }
+}

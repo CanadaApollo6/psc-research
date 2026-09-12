@@ -1,0 +1,9 @@
+workbook_id,worksheet_name,source_row_number,cell_column,value_original,workbook_sha256
+ets2-supplementary-tables.xlsx,Table S1_loss-of-function,12148,A,Supplementary Table 1. Differentially-expressed genes following ETS2 or chr21q22 editing,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S1_loss-of-function,12149,A,Toptable results of differential expression analysis using limma with voom transformation.,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S1_loss-of-function,12150,A,P-value (two-tailed) adjusted for multiple testing using Benjamini-Hochberg (FDR) method.,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S1_loss-of-function,12151,A,Results are shown with respect to expression in unedited cells,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S2_gain-of-function,10200,A,Supplementary Table 2. Differentially-expressed genes following ETS2 overexpression,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S2_gain-of-function,10201,A,Toptable results of differential expression analysis using limma with voom transformation.,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S2_gain-of-function,10202,A,P-value  (two-tailed) adjusted for multiple testing using Benjamini-Hochberg (FDR) method.,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74
+ets2-supplementary-tables.xlsx,Table S2_gain-of-function,10203,A,Results are shown with respect to expression in cells transfected with equivalent amount of mRNA encoding reverse complement of ETS2,5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74

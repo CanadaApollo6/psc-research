@@ -1,0 +1,38 @@
+{
+  "snapshot_date": "2026-09-12",
+  "source_directory": "data/raw/ets2-benchmark",
+  "purpose": "Primary publisher supplements for ETS2 gene-set and rank-direction verification; no donor-level RNA counts.",
+  "sources": [
+    {
+      "id": "ets2-supplementary-tables.xlsx",
+      "file": "ets2-supplementary-tables.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM3_ESM.xlsx",
+      "bytes": 5270597,
+      "max_bytes": 25000000,
+      "sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+      "retrieved_at_utc": "2026-09-12T14:59:01.207253+00:00",
+      "timestamp_basis": "local file completion time; curl did not preserve server modification time"
+    },
+    {
+      "id": "ets2-source-data-fig5.xlsx",
+      "file": "ets2-source-data-fig5.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM9_ESM.xlsx",
+      "bytes": 7907111,
+      "max_bytes": 25000000,
+      "sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+      "retrieved_at_utc": "2026-09-12T14:59:37.149157+00:00",
+      "timestamp_basis": "local file completion time; curl did not preserve server modification time"
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "host": "static-content.springer-cdn.com",
+      "files": [
+        "41586_2024_7501_MOESM3_ESM.xlsx",
+        "41586_2024_7501_MOESM9_ESM.xlsx"
+      ],
+      "date": "2026-09-12",
+      "error": "curl could not resolve host; publisher media.springernature.com fallback used"
+    }
+  ]
+}

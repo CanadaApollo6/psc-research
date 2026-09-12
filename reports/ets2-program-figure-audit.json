@@ -1,0 +1,11 @@
+{
+  "source_file": "data/derived/ets2-program-contrasts.csv",
+  "source_sha256": "40425353f0076e72df005ee96e3838f5c75591d695d8bb13e97ee7fb131c7fc4",
+  "script_sha256": "e662a5b0b2e1b4d37a16d4811c1b3fd3daa2baefd009e38a3ee214d0a8ec0872",
+  "plotted_rows": 36,
+  "selection": "Primary, nonoverlap sensitivity and inflammation programs; all 3 contrasts, both modalities and thresholds",
+  "outputs_sha256": {
+    "reports/figures/ets2-program-contrasts.png": "31c5600b185ed4cbe6e4547789281653f2d176f181e07de7ccbf769c18487890",
+    "reports/figures/ets2-program-contrasts.pdf": "82385de45b56d919a62cabe840abf29ae8a26a2c6caa8653f5823536ca0e9656"
+  }
+}

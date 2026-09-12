@@ -1,0 +1,200 @@
+{
+  "analysis_id": "psc-ets2-program-v1",
+  "frozen_at_utc": "2026-09-12T15:05:09.049685+00:00",
+  "status_at_freeze": "Source definitions, gene-set sizes, selected source-table rows and prior five-gene atlas results inspected. No multi-gene atlas program score, paired program contrast or new experimental concordance summary inspected.",
+  "purpose": "Reproduce source-defined ETS2 perturbation patterns and evaluate donor-level program context/specificity in the existing PSC liver atlas.",
+  "input_sha256": {
+    "config/ets2-benchmark-sources.json": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+    "config/ets2-program-sources.json": "2942a10caeb4ba9159eb19fe61c0616c3223e904971c6ed25f7078c995c2185f",
+    "config/liver-atlas-sources.json": "45665304f57ff439dc8624b2af122c95b301f24cabcbf19f6986430f1ec8cbbf",
+    "config/liver-atlas-plan.json": "961ad6eec38c25b352e32e5af51f9af9a663da138286ba8815f44ea2049b4a6b",
+    "reports/liver-atlas-expression-audit.json": "c37c7f2f4ca0f289f3d127c90a07023fabbd2b0b62251d8a4b0ab5d59572f08c",
+    "scripts/analyze_liver_atlas.py": "a683c4a003d7524f25910e54dd52610655c0cd2221b9f31aa7286143ed3460d2",
+    "requirements-liver-atlas.txt": "56fe147663ec9d3bff722dd7c0bb80554e6a1fc6813b1130b381641f3b5f8e9c",
+    "requirements-ets2-program.txt": "034ec16c1aaaaf8782be9a5d8c7b0209491c4866bae3c666d2cc3521762aabac"
+  },
+  "datasets": [
+    {
+      "key": "sc",
+      "file": "psc-sc-ff713455.h5ad",
+      "dataset_id": "02792605-4760-4023-82ad-40fc4458a5db",
+      "version_id": "ff713455-e6b7-45b3-b2dd-1c9dd26251f6",
+      "expected_observations": 89637
+    },
+    {
+      "key": "sn",
+      "file": "psc-sn-34702b40.h5ad",
+      "dataset_id": "1873a18a-66fd-4a4d-8277-a872c93f5b59",
+      "version_id": "34702b40-d0ac-4ec2-8871-776ca012efd0",
+      "expected_observations": 105780
+    }
+  ],
+  "cohort": "PSC",
+  "author_cell_types": [
+    "Monocyte",
+    "Kupffer",
+    "LAM-like",
+    "ActMac"
+  ],
+  "count_source": "raw/X",
+  "metadata_rules": "Reuse pinned previous prepare_metadata, preserving exclusions, original author labels and separate donor/assay/modality strata. All stored raw counts checked. No PSC-Control or PSC-PBC expression comparison.",
+  "unit": "donor within dataset, assay and author cell type; repeated libraries combined, sc/sn never counted as independent replication",
+  "cell_thresholds": [
+    20,
+    50
+  ],
+  "minimum_paired_donors": 3,
+  "minimum_correlation_donors": 4,
+  "programs": [
+    {
+      "id": "ets2_g1_dn",
+      "role": "primary",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_DN",
+      "meaning": "Genes downregulated by ETS2 gRNA1 editing; source-defined ETS2-dependent program"
+    },
+    {
+      "id": "ets2_g1_up",
+      "role": "opposite-direction companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g1_UP"
+    },
+    {
+      "id": "ets2_g2_dn",
+      "role": "related-guide companion, not independent validation",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "ETS2g2_DN"
+    },
+    {
+      "id": "chr21_dn",
+      "role": "enhancer-deletion companion",
+      "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+      "column": "CHR21_DN"
+    },
+    {
+      "id": "inflammation",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_INFLAMMATORY_RESPONSE"
+    },
+    {
+      "id": "interferon_gamma",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_INTERFERON_GAMMA"
+    },
+    {
+      "id": "oxidative_stress",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_RESPONSE_TO_OXIDATIVE_STRESS"
+    },
+    {
+      "id": "apoptotic_signaling",
+      "role": "biological comparison; not a mechanistically exclusive negative control",
+      "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+      "column": "GOBP_APOPTOTIC_SIGNALING_PATHWAY"
+    },
+    {
+      "id": "ets2_g1_dn_without_comparators",
+      "role": "specificity sensitivity",
+      "derived_from": "ets2_g1_dn",
+      "subtract_union": [
+        "inflammation",
+        "interferon_gamma",
+        "oxidative_stress",
+        "apoptotic_signaling"
+      ],
+      "derivation": "Subtract after exact atlas feature mapping; mapping coverage gate uses the parent source set. Report source and mapped overlap explicitly."
+    }
+  ],
+  "exclude_gene_ids": [
+    "ENSG00000157557"
+  ],
+  "exclude_gene_symbols": [
+    "ETS2"
+  ],
+  "mapping": "Exact stable Ensembl IDs after removing numeric version suffix only; otherwise exact unique raw/var feature_name. Record all missing and ambiguous identifiers. No aliases or expression-based signature membership selection.",
+  "minimum_mapped_fraction": 0.8,
+  "minimum_mapped_genes": 10,
+  "normalization": "Sum all-feature UMIs per donor/stratum; CPM=1e6*geneUMIs/allFeatureUMIs; log2(CPM+1). All intended mapped genes retained including measured zeros.",
+  "signature_coverage": "Report intended/mapped genes, unique overlap, genes with any UMIs, and fraction detected per donor/stratum. Do not turn non-detection into absence of the pathway.",
+  "matching": {
+    "reference": "Per feature, average log2CPM1 across eligible20-cell author populations within each donor, then across donors with equal donor weight, separately by modality.",
+    "universe": "All unique raw features, including zeros; order by reference abundance then stable feature ID and split with numpy.array_split into20 equal-count bins.",
+    "bins": 20,
+    "pool_exclusion": "Union of all eight original mapped program memberships plus ETS2.",
+    "replicates": 1000,
+    "base_seed": 20260912,
+    "seed_rule": "int(sha256(f\"20260912:{dataset_key}:{program_id}\".encode()).hexdigest()[:16],16), numpy default_rng PCG64. Sorted candidates; draw bins in ascending order for each replicate.",
+    "sampling": "Match the mapped program gene count in each expression bin, without replacement within each set; samples reused across donor groups and at50-cell threshold. Sets may share genes across replicates.",
+    "failure": "If any bin lacks enough non-program genes, leave matched score and calibrated contrast unavailable; do not widen bins or replace missing controls. Unmatched program mean remains descriptive.",
+    "calibration_limit": "Controls match average expression only, not variance, gene length, detection, co-regulation or cell function. These are conditional gene-set references, not independent donors or disease-null samples."
+  },
+  "score": "Mean mapped-program log2CPM1 minus mean of1000 expression-matched random-set means for the same donor/stratum. Report unadjusted program mean and matched background separately. Negative scores do not mean biological inhibition.",
+  "conditional_percentile": "Fraction of matched set means <= observed program mean; descriptive calibration, no population p-value or significance label.",
+  "contrasts": [
+    {
+      "left": "ActMac",
+      "right": "Kupffer",
+      "role": "primary within-PSC cell-state contrast; whole-cell only if nuclei lack ActMac"
+    },
+    {
+      "left": "LAM-like",
+      "right": "Kupffer",
+      "role": "secondary within-PSC cell-state contrast"
+    },
+    {
+      "left": "Monocyte",
+      "right": "Kupffer",
+      "role": "secondary within-PSC cell-type contrast"
+    }
+  ],
+  "contrast_summary": "Within identical donor and assay compute left score minus right score; require3paired donors. Report median, full range, positive count; leave-one-donor-out medians only where at least3pairs remain. No p-values.",
+  "correlations": "Within each author population and modality at each threshold, Spearman primary-program score versus ETS2 log2CPM1 and each of four biological comparator scores. At least4donors; constant vectors unavailable. Descriptive only; no significance or proof of incremental predictive value.",
+  "specificity_limit": "A score or correlation cannot identify ETS2 dependence, causal mediation, or distinct activity beyond correlated inflammation. The nonoverlap sensitivity removes shared genes but not co-regulation.",
+  "experimental_benchmark": {
+    "primary_source": "Publisher Supplementary Tables S1 and S2; original source set definitions and rank files preserved separately.",
+    "planned_comparisons": [
+      [
+        "ETS2_g1",
+        "ETS2_g2"
+      ],
+      [
+        "ETS2_g1",
+        "chr21_deletion"
+      ],
+      [
+        "ETS2_g1",
+        "OE_250"
+      ],
+      [
+        "ETS2_g1",
+        "OE_500"
+      ],
+      [
+        "OE_250",
+        "OE_500"
+      ],
+      [
+        "ETS2_g1",
+        "MEKi_0.1"
+      ],
+      [
+        "ETS2_g1",
+        "MEKi_0.5"
+      ]
+    ],
+    "endpoints": "On exact shared unique genes: descriptive Spearman of signed t statistics (and logFC where both available), gene counts and direction concordance. For primary source gene set, report available fraction, median signed statistic/logFC and fraction negative/positive in each experiment.",
+    "rank_orientation": "Use exact numeric agreement with publisher tables or an explicit saved-file-producing code path. Unresolved vector signs are unavailable for directional claims; report source-audit evidence and never select sign to match expectation.",
+    "independence": "g1-derived gene-set effect in g1 is circular source reproduction. Guide/dose comparisons share a study and may share donors. Gene count is not donor count; no gene-as-independent-replicate p-values.",
+    "scope": "No LINCS drug screen, treatment ranking, donor-level DE refit, spatial reanalysis or patient response simulation."
+  },
+  "deliverables": "All nine programs, mapped/absent genes and overlaps, matching-bin QC, donor-level aggregate context summaries, planned paired contrasts and correlations with missingness, experiment-summary benchmark, reproducible methods, figure and report. Donor expression, full matrices and sampled random-set indices remain ignored.",
+  "not_in_this_phase": [
+    "No AlphaGenome or AlphaFold calls",
+    "No personal sequencing or individual-genotype inference",
+    "No researchers contacted or controlled-access application",
+    "No clinical recommendation"
+  ]
+}

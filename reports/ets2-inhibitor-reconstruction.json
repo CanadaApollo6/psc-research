@@ -1,0 +1,736 @@
+{
+  "analysis_version": "1.0",
+  "archive": {
+    "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+    "raw_count_matrix_present_in_meki_folder": false,
+    "relevant_member_records": [
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+        "bytes": 6857,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+        "sha256": "9cc56f99ee774caf95498c51624d6bd7af9266a7abdf7230482a308135b05039"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+        "bytes": 3709,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+        "sha256": "daaefef4765d40a7b92017ce12497203982935fb22704ec4569c08621cd5d4da"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "bytes": 242682,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "sha256": "28ca0dbcb74a045613f003269baf39363a6179d20095407f6573f3513ff2a817"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "bytes": 242575,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "sha256": "0d53d5fa3cac93564326eec787147db505f46ddfa062371322fea234c55f4199"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/fgsea_PD_0.5_mac.pathways.csv",
+        "bytes": 3386,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/fgsea_PD_0.5_mac.pathways.csv",
+        "sha256": "029203c95a28dd7d38379af25eb560b2a7e3634df22a0e2e8f2c7e8652bf0f96"
+      },
+      {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/macrophage_genesets_fgsea.csv",
+        "bytes": 6548,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/macrophage_genesets_fgsea.csv",
+        "sha256": "1f2fd378e4657375085ace352e25ebca16084642b1f4516ad298d2d27bd4c6f7"
+      }
+    ],
+    "root_prefix": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/"
+  },
+  "confidence_interpretation": {
+    "high_confidence": [
+      "The code's intended sample labels, CPM filter, edgeR normalization call, donor-aware design, two drug-control contrasts and limma voom/eBayes sequence.",
+      "The released MEKi vectors are finite, unique-symbol, strictly descending two-column vectors with 12,095 rows each.",
+      "The nine signed ES values calculated from the 500 nM vector and the nine released GO columns match the released fgsea ES values within 1e-9; their signs agree with source-data Fig. 5 sheet 5j NES signs.",
+      "The code-defined drug-versus-control contrast plus the numerical 500 nM vector-to-ES-to-publisher-NES chain makes a drug-minus-vehicle working interpretation well-supported at pathway-result level."
+    ],
+    "low_confidence_or_unresolved": [
+      "The exact count filtering outcome, normalization factors and limma fit cannot be reproduced without controlled-access counts.",
+      "The 12,801 topTable request versus 12,095 saved rows cannot be explained from the release.",
+      "Symbol mapping, one-to-many collapse, tie handling, rank serialization and the active export that produced each MEKi CSV are absent.",
+      "The exact historical per-gene export orientation and 100 nM vector linkage remain unresolved, despite code-defined contrast formulas and 500 nM pathway compatibility."
+    ],
+    "medium_confidence": [
+      "The rank files are intended t-statistic vectors because the article says GSEA lists are ranked by t-statistic and the code consumes them as fGSEA stats.",
+      "The fgsea default gseaParam=1 is compatible with the exact signed ES check; package-version and null/NES behavior remain unverified."
+    ]
+  },
+  "derived_output_sha256": {
+    "notes": "9d7978099411c42ea4be79ef01d612c2853da40b2a25301bbd90d375868b7250",
+    "overlaps": "22588d580e2f9cc2ee3cc82adf92d94ce7afd8781ae13c2f2499cda964bdd0ba",
+    "pathways": "80d63b1fe80a4386a131c47352cbb20558eab24362d9a8ddbf89f659f3d5760e",
+    "ranks": "225208b884881a8dcadbaca657482870dbdced16d7fe996137ad4ce0ef213dfd",
+    "steps": "be2c6eaf65788dbb5e708ff0972d41f6197e32974e7d305b5701706478b84c55"
+  },
+  "fgsea_signed_es_compatibility": {
+    "algorithm": "weighted running-sum ES with abs(statistic)^1 hit weights and equal miss steps; no NES/null recomputation",
+    "all_nine_es_within_1e-9": true,
+    "all_nine_fig5_and_archive_nes_within_1e-9": true,
+    "all_nine_sign_flipped_rank_es_signs_invert": true,
+    "all_nine_signed_es_agree_with_reported_fig5_nes": true,
+    "max_abs_computed_es_minus_archive_es": "0.000000000000163",
+    "max_abs_fig5_minus_archive_nes": "0.0000000000000002",
+    "pathways": [
+      {
+        "computed_es": "-0.6440965407866073",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_MYELOID_LEUKOCYTE_ACTIVATION",
+        "pathway_name_reported_original": "Myeloid leukocyte activation",
+        "rank_hit_count": 145,
+        "reported_archive_es": "-0.644096540786613",
+        "reported_fig5_nes": "-2.3502625480908699",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 157
+      },
+      {
+        "computed_es": "-0.6062458696515783",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_PHAGOCYTOSIS",
+        "pathway_name_reported_original": "Phagocytosis",
+        "rank_hit_count": 161,
+        "reported_archive_es": "-0.606245869651612",
+        "reported_fig5_nes": "-2.2294722856729798",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 174
+      },
+      {
+        "computed_es": "-0.5776838554247873",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_TUMOR_NECROSIS_FACTOR_SUPERFAMILY_CYTOKINE_PRODUCTION",
+        "pathway_name_reported_original": "TNFSF cytokine production",
+        "rank_hit_count": 117,
+        "reported_archive_es": "-0.577683855424808",
+        "reported_fig5_nes": "-2.04861610253894",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 124
+      },
+      {
+        "computed_es": "-0.6697587768760233",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_1_PRODUCTION",
+        "pathway_name_reported_original": "IL-1 production",
+        "rank_hit_count": 48,
+        "reported_archive_es": "-0.669758776875995",
+        "reported_fig5_nes": "-2.1007869603548599",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 54
+      },
+      {
+        "computed_es": "-0.6703108518450918",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_MACROPHAGE_ACTIVATION",
+        "pathway_name_reported_original": "Macrophage activation",
+        "rank_hit_count": 66,
+        "reported_archive_es": "-0.67031085184499",
+        "reported_fig5_nes": "-2.2204237700838498",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 72
+      },
+      {
+        "computed_es": "-0.5686866004071108",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_MYELOID_LEUKOCYTE_MIGRATION",
+        "pathway_name_reported_original": "Myeloid leukocyte migration",
+        "rank_hit_count": 128,
+        "reported_archive_es": "-0.568686600406997",
+        "reported_fig5_nes": "-2.0491380127785002",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 148
+      },
+      {
+        "computed_es": "-0.6049926314064964",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_POSITIVE_REGULATION_OF_REACTIVE_OXYGEN_SPECIES_METABOLIC_PROCESS",
+        "pathway_name_reported_original": "ROS production",
+        "rank_hit_count": 50,
+        "reported_archive_es": "-0.604992631406529",
+        "reported_fig5_nes": "-1.92378290476039",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 53
+      },
+      {
+        "computed_es": "-0.690959143308609",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_6_PRODUCTION",
+        "pathway_name_reported_original": "IL-6 production",
+        "rank_hit_count": 63,
+        "reported_archive_es": "-0.690959143308446",
+        "reported_fig5_nes": "-2.26367910153362",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 71
+      },
+      {
+        "computed_es": "-0.6731713528457455",
+        "computed_es_within_1e-9": "true",
+        "pathway_id": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_8_PRODUCTION",
+        "pathway_name_reported_original": "IL-8 production",
+        "rank_hit_count": 37,
+        "reported_archive_es": "-0.67317135284571",
+        "reported_fig5_nes": "-2.01339144396841",
+        "sign_agree": "true",
+        "source_gene_set_member_count": 43
+      }
+    ],
+    "rank_dataset_id": "meki_500",
+    "sign_flip_interpretation": "Reversing the rank order while negating statistics reverses every ES sign, showing that the reported negative NES signs are compatible with the released vector orientation. Together with the code contrast and sheet 5j treated-versus-vehicle note, this supports a drug-minus-vehicle working interpretation for the 500 nM pathway result, but does not independently certify the historical per-gene export orientation."
+  },
+  "gene_sets": {
+    "duplicate_member_counts": {
+      "GOBP_MACROPHAGE_ACTIVATION": 0,
+      "GOBP_MYELOID_LEUKOCYTE_ACTIVATION": 0,
+      "GOBP_MYELOID_LEUKOCYTE_MIGRATION": 0,
+      "GOBP_PHAGOCYTOSIS": 0,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_1_PRODUCTION": 0,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_6_PRODUCTION": 0,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_8_PRODUCTION": 0,
+      "GOBP_POSITIVE_REGULATION_OF_REACTIVE_OXYGEN_SPECIES_METABOLIC_PROCESS": 0,
+      "GOBP_TUMOR_NECROSIS_FACTOR_SUPERFAMILY_CYTOKINE_PRODUCTION": 0
+    },
+    "header_count": 9,
+    "member_counts": {
+      "GOBP_MACROPHAGE_ACTIVATION": 72,
+      "GOBP_MYELOID_LEUKOCYTE_ACTIVATION": 157,
+      "GOBP_MYELOID_LEUKOCYTE_MIGRATION": 148,
+      "GOBP_PHAGOCYTOSIS": 174,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_1_PRODUCTION": 54,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_6_PRODUCTION": 71,
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_8_PRODUCTION": 43,
+      "GOBP_POSITIVE_REGULATION_OF_REACTIVE_OXYGEN_SPECIES_METABOLIC_PROCESS": 53,
+      "GOBP_TUMOR_NECROSIS_FACTOR_SUPERFAMILY_CYTOKINE_PRODUCTION": 124
+    },
+    "pathway_ids": [
+      "GOBP_MYELOID_LEUKOCYTE_ACTIVATION",
+      "GOBP_PHAGOCYTOSIS",
+      "GOBP_TUMOR_NECROSIS_FACTOR_SUPERFAMILY_CYTOKINE_PRODUCTION",
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_1_PRODUCTION",
+      "GOBP_MACROPHAGE_ACTIVATION",
+      "GOBP_MYELOID_LEUKOCYTE_MIGRATION",
+      "GOBP_POSITIVE_REGULATION_OF_REACTIVE_OXYGEN_SPECIES_METABOLIC_PROCESS",
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_6_PRODUCTION",
+      "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_8_PRODUCTION"
+    ]
+  },
+  "limitations": [
+    "The 9-sample design from 3 donors is code metadata; saved ranks are not donor-level fits and cannot establish independent replication.",
+    "The source-data Fig. 5 NES sheet states treated-versus-vehicle context, but it does not supply the underlying per-gene differential table.",
+    "The reconstruction does not download or infer controlled-access EGA count matrices and does not install R packages."
+  ],
+  "output_paths": {
+    "notes": "data/derived/ets2-inhibitor-reconstruction-notes.csv",
+    "overlaps": "data/derived/ets2-inhibitor-reconstruction-overlaps.csv",
+    "pathways": "data/derived/ets2-inhibitor-reconstruction-pathways.csv",
+    "ranks": "data/derived/ets2-inhibitor-reconstruction-ranks.csv",
+    "report": "reports/ets2-inhibitor-reconstruction.json",
+    "steps": "data/derived/ets2-inhibitor-reconstruction-steps.csv"
+  },
+  "rank_vectors": {
+    "identity_overlaps": [
+      {
+        "left_dataset_id": "meki_100",
+        "left_only_symbol_count": 0,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": 0.9163935635053346,
+        "right_dataset_id": "meki_500",
+        "right_only_symbol_count": 0,
+        "right_rank_symbol_count": 12095,
+        "shared_fraction_of_left": 1.0,
+        "shared_fraction_of_right": 1.0,
+        "shared_symbol_count": 12095,
+        "sign_agree_count": 9955,
+        "sign_agreement_fraction": 0.8230673832162051
+      },
+      {
+        "left_dataset_id": "meki_100",
+        "left_only_symbol_count": 1054,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": 0.5989572580645535,
+        "right_dataset_id": "ko_g1",
+        "right_only_symbol_count": 619,
+        "right_rank_symbol_count": 11660,
+        "shared_fraction_of_left": 0.9128565522943365,
+        "shared_fraction_of_right": 0.9469125214408233,
+        "shared_symbol_count": 11041,
+        "sign_agree_count": 7428,
+        "sign_agreement_fraction": 0.6727651480844127
+      },
+      {
+        "left_dataset_id": "meki_500",
+        "left_only_symbol_count": 1054,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": 0.6289366632575832,
+        "right_dataset_id": "ko_g1",
+        "right_only_symbol_count": 619,
+        "right_rank_symbol_count": 11660,
+        "shared_fraction_of_left": 0.9128565522943365,
+        "shared_fraction_of_right": 0.9469125214408233,
+        "shared_symbol_count": 11041,
+        "sign_agree_count": 7591,
+        "sign_agreement_fraction": 0.6875283035956888
+      },
+      {
+        "left_dataset_id": "meki_100",
+        "left_only_symbol_count": 2745,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": -0.012293068756216852,
+        "right_dataset_id": "oe_250",
+        "right_only_symbol_count": 629,
+        "right_rank_symbol_count": 9979,
+        "shared_fraction_of_left": 0.7730467135179826,
+        "shared_fraction_of_right": 0.9369676320272572,
+        "shared_symbol_count": 9350,
+        "sign_agree_count": 4702,
+        "sign_agreement_fraction": 0.5028877005347594
+      },
+      {
+        "left_dataset_id": "meki_100",
+        "left_only_symbol_count": 2745,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": -0.06677213858267064,
+        "right_dataset_id": "oe_500",
+        "right_only_symbol_count": 629,
+        "right_rank_symbol_count": 9979,
+        "shared_fraction_of_left": 0.7730467135179826,
+        "shared_fraction_of_right": 0.9369676320272572,
+        "shared_symbol_count": 9350,
+        "sign_agree_count": 4599,
+        "sign_agreement_fraction": 0.4918716577540107
+      },
+      {
+        "left_dataset_id": "meki_500",
+        "left_only_symbol_count": 2745,
+        "left_rank_symbol_count": 12095,
+        "pearson_statistic_correlation": -0.059925001575810315,
+        "right_dataset_id": "oe_500",
+        "right_only_symbol_count": 629,
+        "right_rank_symbol_count": 9979,
+        "shared_fraction_of_left": 0.7730467135179826,
+        "shared_fraction_of_right": 0.9369676320272572,
+        "shared_symbol_count": 9350,
+        "sign_agree_count": 4612,
+        "sign_agreement_fraction": 0.4932620320855615
+      }
+    ],
+    "source_records": {
+      "meki_100": {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "bytes": 242682,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "sha256": "28ca0dbcb74a045613f003269baf39363a6179d20095407f6573f3513ff2a817"
+      },
+      "meki_500": {
+        "archive_member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "bytes": 242575,
+        "compress_type": 8,
+        "member": "RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "sha256": "0d53d5fa3cac93564326eec787147db505f46ddfa062371322fea234c55f4199"
+      }
+    },
+    "summaries": [
+      {
+        "absolute_statistic_gt_10_count": 39,
+        "absolute_statistic_gt_2_count": 3836,
+        "absolute_statistic_gt_5_count": 566,
+        "adjacent_tie_count": 0,
+        "bottom5_gene_symbols_original": "JAML|HK3|MMP9|ADGRE2|RAC2",
+        "bottom5_statistics_original": "-13.22680835|-13.38348028|-13.69230677|-14.26218471|-15.84996246",
+        "direction_status": "unresolved",
+        "finite_statistic_count": 12095,
+        "max_statistic": "7.841975336",
+        "mean_statistic": "-0.15539868890028938",
+        "median_statistic": "0.013779609",
+        "min_statistic": "-15.84996246",
+        "negative_count": 6015,
+        "positive_count": 6080,
+        "quantile_01_statistic": "-7.763978715",
+        "quantile_25_statistic": "-1.311443049",
+        "quantile_75_statistic": "1.256129645",
+        "quantile_99_statistic": "5.081878278",
+        "rank_dataset_id": "meki_100",
+        "rank_file": "RNA-seq/RNAseq_MEKi/PD_0.1_MEK.resSYMBOL.rank.csv",
+        "rank_member_bytes": 242682,
+        "rank_member_sha256": "28ca0dbcb74a045613f003269baf39363a6179d20095407f6573f3513ff2a817",
+        "rank_row_count": 12095,
+        "rank_statistic_interpretation": "Candidate t-statistic vector by code/article; no logFC column is present.",
+        "strict_descending_order": "true",
+        "t_logfc_plausibility": "Finite two-sided values with both signs and t-like magnitude; direct logFC plausibility is unavailable because no logFC or fitted standard error is retained.",
+        "top5_gene_symbols_original": "BATF3|PPP1R16B|LINC00869|MID1IP1|GRSF1",
+        "top5_statistics_original": "7.841975336|7.620838858|7.516481318|7.264940217|7.150089415",
+        "unique_gene_symbol_count": 12095,
+        "zero_count": 0
+      },
+      {
+        "absolute_statistic_gt_10_count": 131,
+        "absolute_statistic_gt_2_count": 4226,
+        "absolute_statistic_gt_5_count": 850,
+        "adjacent_tie_count": 0,
+        "bottom5_gene_symbols_original": "PTAFR|ADGRE2|HK3|RAC2|MMP9",
+        "bottom5_statistics_original": "-17.15638166|-17.4863863|-18.48338502|-19.04289764|-19.60553592",
+        "direction_status": "unresolved",
+        "finite_statistic_count": 12095,
+        "max_statistic": "9.062092728",
+        "mean_statistic": "-0.24168004945200497",
+        "median_statistic": "0.041610643",
+        "min_statistic": "-19.60553592",
+        "negative_count": 5945,
+        "positive_count": 6150,
+        "quantile_01_statistic": "-10.16680058",
+        "quantile_25_statistic": "-1.367134378",
+        "quantile_75_statistic": "1.36490278",
+        "quantile_99_statistic": "5.485560724",
+        "rank_dataset_id": "meki_500",
+        "rank_file": "RNA-seq/RNAseq_MEKi/PD_0.5_MEK.resSYMBOL.rank.csv",
+        "rank_member_bytes": 242575,
+        "rank_member_sha256": "0d53d5fa3cac93564326eec787147db505f46ddfa062371322fea234c55f4199",
+        "rank_row_count": 12095,
+        "rank_statistic_interpretation": "Candidate t-statistic vector by code/article; no logFC column is present.",
+        "strict_descending_order": "true",
+        "t_logfc_plausibility": "Finite two-sided values with both signs and t-like magnitude; direct logFC plausibility is unavailable because no logFC or fitted standard error is retained.",
+        "top5_gene_symbols_original": "GADD45A|IL23A|SLC38A1|ITGB8|LMNB1",
+        "top5_statistics_original": "9.062092728|8.414581931|8.379299594|7.917561733|7.870037483",
+        "unique_gene_symbol_count": 12095,
+        "zero_count": 0
+      }
+    ],
+    "working_context_status": "For 500 nM pathway results, drug-minus-vehicle is a well-supported working interpretation from the code contrast, source-data sheet note and numerical vector-to-ES-to-NES chain; exact per-gene historical export orientation remains unverified."
+  },
+  "reconstruction_steps": [
+    {
+      "confidence": "high_for_intended_input",
+      "evidence_line_number": 10,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "counts=data.matrix(read.table(file=\"raw_counts.txt\",sep='\\t',row.names=1,header=T))",
+      "inference": "The intended input is a nine-column raw_counts.txt file in the MEKi analysis folder.",
+      "limitation": "The public MEKi folder has no raw_counts.txt; no count values or donor fits are recovered.",
+      "phase": "input",
+      "step_id": "input_count_matrix"
+    },
+    {
+      "confidence": "high",
+      "evidence_line_number": 11,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "names=paste0(rep(c(\"s1\",\"s2\",\"s3\"),each=3),c(\"_100\",\"_500\",\"_ctrl\"))",
+      "inference": "The intended nine samples are three donors with 100 nM, 500 nM and control labels.",
+      "limitation": "The code labels are preserved as source metadata; biological donor identity is unavailable in the public folder.",
+      "phase": "sample_annotation",
+      "step_id": "sample_names"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 23,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "dge$samples$donor=rep(c(\"s1\",\"s2\",\"s3\"),each=3)",
+      "inference": "The intended DGEList metadata assigns donor s1/s2/s3 and drug levels 100nM/500nM/ctrl in three-sample blocks.",
+      "limitation": "This identifies the model labels, not independent donor provenance or sample QC in the inaccessible matrix.",
+      "phase": "sample_annotation",
+      "step_id": "donor_and_drug_annotation"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 15,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "eset.expressed=rowSums(cpm(eset)>0.5)>=9",
+      "inference": "Genes with CPM greater than 0.5 in all nine samples were retained before DGEList normalization.",
+      "limitation": "The number of genes before/after this filter cannot be audited without raw counts; topTable requests 12,801 rows.",
+      "phase": "filtering",
+      "step_id": "expression_filter"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 22,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "dge=calcNormFactors(dge)",
+      "inference": "edgeR calcNormFactors was applied to the filtered DGEList.",
+      "limitation": "Normalization factors and their version-specific implementation cannot be recomputed without counts and the R package environment.",
+      "phase": "normalization",
+      "step_id": "library_normalization"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 25,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "design=model.matrix(~0+factor(dge$samples$drug)+factor(dge$samples$donor))",
+      "inference": "The intended limma design has separate drug levels and donor covariates without an intercept.",
+      "limitation": "This is a code design, not evidence that the unavailable public matrix had exactly these columns or QC after filtering.",
+      "phase": "design",
+      "step_id": "donor_aware_design"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 28,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "contrasts=makeContrasts(MEK_100nM=MEK_100-ctrl,MEK_500nM=MEK_500-ctrl, levels=colnames(design))",
+      "inference": "The code intends 100 nM minus control and 500 nM minus control contrasts.",
+      "limitation": "The saved rank files are read after this step, but the release does not expose an active export linking each file to its contrast.",
+      "phase": "contrast",
+      "step_id": "contrasts"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 29,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "voom=voom(dge,design,plot=T)",
+      "inference": "The filtered DGEList and donor-aware design are passed to voom.",
+      "limitation": "Exact mean-variance trend and weights cannot be recovered without counts and the R package environment.",
+      "phase": "model_fit",
+      "step_id": "voom"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 30,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "fit=lmFit(voom,design)",
+      "inference": "The voom-transformed expression is fitted with limma lmFit.",
+      "limitation": "Coefficient and residual values are unavailable without the count matrix.",
+      "phase": "model_fit",
+      "step_id": "lm_fit"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 31,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "fit2=contrasts.fit(fit,contrasts)",
+      "inference": "The two drug-control contrasts are applied to the fitted model.",
+      "limitation": "The resulting coefficients and standard errors are not in the public release.",
+      "phase": "model_fit",
+      "step_id": "contrasts_fit"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 32,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "fit3=eBayes(fit2)",
+      "inference": "limma empirical-Bayes moderation is applied before topTable extraction.",
+      "limitation": "A moderated t statistic is coefficient divided by a moderated standard error; it cannot recover counts, logFC or variance components by itself.",
+      "phase": "model_fit",
+      "step_id": "e_bayes"
+    },
+    {
+      "confidence": "high_for_intended_code",
+      "evidence_line_number": 34,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "MEK_100nM.res=topTable(fit3,number=12801,p.value=1,lfc=0,adjust.method=\"BH\",coef=1)",
+      "inference": "The intended output is a BH-adjusted limma topTable with lfc=0, p.value=1 and 12,801 requested rows per coefficient.",
+      "limitation": "The public rank vectors contain 12,095 rows; absent counts and code that generated the rank files prevent identifying the 706-row difference.",
+      "phase": "statistic_extraction",
+      "step_id": "top_table_statistic"
+    },
+    {
+      "confidence": "low_to_medium",
+      "evidence_line_number": 41,
+      "evidence_member": "RNA-seq/RNAseq_CRISPR/TPP_CRISPR_RNAseq_analysis.r",
+      "evidence_text_original": "G_list = getBM(filters = \"ensembl_gene_id\", attributes = c(\"ensembl_gene_id\", \"hgnc_symbol\"),values=ensg,mart= mart)",
+      "inference": "Analogue CRISPR code maps Ensembl row names to HGNC symbols through biomaRt; the MEKi code itself has no mapping call and its rank filename says SYMBOL.",
+      "limitation": "Mapping release, one-to-many handling, empty-symbol filtering and any collapse rule for the MEKi rank export are not recoverable.",
+      "phase": "identifier_mapping",
+      "step_id": "symbol_mapping"
+    },
+    {
+      "confidence": "low",
+      "evidence_line_number": 44,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "names(pd100_num)=rownames(pd100)",
+      "inference": "The MEKi code assigns the symbols already present in the rank CSV as vector names; it does not show how Ensembl rows were mapped or collapsed before serialization.",
+      "limitation": "One-to-many symbol mappings, duplicate handling and whether a symbol was selected by maximum statistic, first row or another rule are non-identifiable from the rank vector.",
+      "phase": "identifier_mapping",
+      "step_id": "symbol_collapse"
+    },
+    {
+      "confidence": "medium",
+      "evidence_line_number": 42,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "pd100=read.csv(file=\"PD_0.1_MEK.resSYMBOL.rank.csv\",header=F,row.names=1)",
+      "inference": "The released rank CSV is consumed as a headerless two-column symbol/statistic vector, then named by row names for fGSEA.",
+      "limitation": "The generating write step is absent and the active export linkage cannot be certified; sorted order, tie handling, precision and symbol collapse are observed properties, not recovered production rules.",
+      "phase": "rank_consumption",
+      "step_id": "rank_serialization"
+    },
+    {
+      "confidence": "medium_to_high",
+      "evidence_line_number": 50,
+      "evidence_member": "RNA-seq/RNAseq_MEKi/MEKi_treated_TPP_analysis.r",
+      "evidence_text_original": "fgsea_pd500=fgsea(pathways=lists, stats=pd500_num, eps=0.0, minSize=15, maxSize=500)",
+      "inference": "The code specifies fgsea with eps=0, minSize=15 and maxSize=500; the default gseaParam=1 is compatible with the signed ES check.",
+      "limitation": "This is an ES compatibility test, not recovery of fgsea's permutation/null calculation or the exact package version.",
+      "phase": "pathway_check",
+      "step_id": "fgsea_parameters"
+    }
+  ],
+  "scope": "Bounded forensic reconstruction of released MEK inhibitor rank vectors; no raw-count recovery or treatment-direction assignment.",
+  "snapshot_date": "2026-09-12",
+  "source_data_fig5": {
+    "bytes": 7907111,
+    "notes": [
+      {
+        "cell_column": "A",
+        "source_data_row_number": 13,
+        "source_data_sheet": "5j",
+        "value_original": "Pathway = Gene Ontology Biological Pathway",
+        "workbook_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a"
+      },
+      {
+        "cell_column": "A",
+        "source_data_row_number": 14,
+        "source_data_sheet": "5j",
+        "value_original": "NES = normalised enrichment score",
+        "workbook_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a"
+      },
+      {
+        "cell_column": "A",
+        "source_data_row_number": 15,
+        "source_data_sheet": "5j",
+        "value_original": "NES and P-value calculated for MEK inhibitor-treated versus vehicle-treated cells",
+        "workbook_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a"
+      },
+      {
+        "cell_column": "A",
+        "source_data_row_number": 18,
+        "source_data_sheet": "5j",
+        "value_original": "Data available on EGA: EGAD00001011337",
+        "workbook_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a"
+      },
+      {
+        "cell_column": "A",
+        "source_data_row_number": 19,
+        "source_data_sheet": "5j",
+        "value_original": "Code available on GitHub: https://github.com/JamesLeeLab/chr21q22_manuscript",
+        "workbook_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a"
+      }
+    ],
+    "path": "ets2-source-data-fig5.xlsx",
+    "sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+    "sheet": "5j",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM9_ESM.xlsx",
+    "worksheet_dimension": "A1:C19",
+    "worksheet_xml_member": "xl/worksheets/sheet9.xml"
+  },
+  "source_manifests": [
+    {
+      "bytes": 1422,
+      "path": "config/ets2-benchmark-sources.json",
+      "published_zip_md5": "9d6b7ddcf377cb194bc72732d807ae80",
+      "retrieval_failures": [],
+      "sha256": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a",
+      "snapshot_date": "2026-09-12",
+      "source_directory": "data/raw/ets2-benchmark",
+      "sources": [
+        {
+          "actual_bytes": 285979,
+          "actual_sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+          "bytes": 285979,
+          "bytes_verified": true,
+          "file": "ets2-primary-article.xml",
+          "id": "ets2-primary-article.xml",
+          "max_bytes": 2000000,
+          "retrieved_at_utc": "2026-09-12T14:20:39.428537+00:00",
+          "sha256": "3abb35514eb3584180b5bf07c25445d74331cb66e32ac319a7050b32cbbb68c4",
+          "sha256_verified": true,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11168933/fullTextXML",
+          "verified": true
+        },
+        {
+          "actual_bytes": 3968,
+          "actual_sha256": "5673b3198c72631966560e760f71052811389e9f30c261e0a6d08eb2856c94a1",
+          "bytes": 3968,
+          "bytes_verified": true,
+          "file": "ets2-zenodo-metadata.json",
+          "id": "ets2-zenodo-metadata.json",
+          "max_bytes": 2000000,
+          "retrieved_at_utc": "2026-09-12T14:21:08.533316+00:00",
+          "sha256": "5673b3198c72631966560e760f71052811389e9f30c261e0a6d08eb2856c94a1",
+          "sha256_verified": true,
+          "url": "https://zenodo.org/api/records/10707942",
+          "verified": true
+        },
+        {
+          "actual_bytes": 34636310,
+          "actual_sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+          "bytes": 34636310,
+          "bytes_verified": true,
+          "file": "ets2-public-release.zip",
+          "id": "ets2-public-release.zip",
+          "max_bytes": 40000000,
+          "retrieved_at_utc": "2026-09-12T14:21:34.543387+00:00",
+          "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+          "sha256_verified": true,
+          "url": "https://zenodo.org/api/records/10707942/files/JamesLeeLab/ETS2manuscript_Stankey_CT_et_al_2024-v1.0.zip/content",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "bytes": 1678,
+      "path": "config/ets2-program-sources.json",
+      "published_zip_md5": "",
+      "retrieval_failures": [
+        {
+          "date": "2026-09-12",
+          "error": "curl could not resolve host; publisher media.springernature.com fallback used",
+          "files": [
+            "41586_2024_7501_MOESM3_ESM.xlsx",
+            "41586_2024_7501_MOESM9_ESM.xlsx"
+          ],
+          "host": "static-content.springer-cdn.com"
+        }
+      ],
+      "sha256": "2942a10caeb4ba9159eb19fe61c0616c3223e904971c6ed25f7078c995c2185f",
+      "snapshot_date": "2026-09-12",
+      "source_directory": "data/raw/ets2-benchmark",
+      "sources": [
+        {
+          "actual_bytes": 5270597,
+          "actual_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "bytes": 5270597,
+          "bytes_verified": true,
+          "file": "ets2-supplementary-tables.xlsx",
+          "id": "ets2-supplementary-tables.xlsx",
+          "max_bytes": 25000000,
+          "retrieved_at_utc": "2026-09-12T14:59:01.207253+00:00",
+          "sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74",
+          "sha256_verified": true,
+          "timestamp_basis": "local file completion time; curl did not preserve server modification time",
+          "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM3_ESM.xlsx",
+          "verified": true
+        },
+        {
+          "actual_bytes": 7907111,
+          "actual_sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+          "bytes": 7907111,
+          "bytes_verified": true,
+          "file": "ets2-source-data-fig5.xlsx",
+          "id": "ets2-source-data-fig5.xlsx",
+          "max_bytes": 25000000,
+          "retrieved_at_utc": "2026-09-12T14:59:37.149157+00:00",
+          "sha256": "b55d3998747dbfd45384f8c11116965029b29c24d8b764f8e4b40811d8594b9a",
+          "sha256_verified": true,
+          "timestamp_basis": "local file completion time; curl did not preserve server modification time",
+          "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07501-1/MediaObjects/41586_2024_7501_MOESM9_ESM.xlsx",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "t_logfc_plausibility": {
+    "non_identifiability": [
+      "The saved vectors contain one statistic per symbol and no logFC, fitted standard error, expression, count or variance column.",
+      "A limma moderated t statistic is a coefficient divided by a moderated standard error, so its magnitude cannot recover the underlying logFC or count matrix.",
+      "No dose-response, IC50, donor-level effect or clinical efficacy can be inferred from these ranks."
+    ],
+    "observed_rank_properties": [
+      "Both vectors are finite, unique-symbol, strictly descending and have no adjacent ties.",
+      "Both contain positive and negative values; their observed ranges are compatible with a signed moderated-statistic scale."
+    ]
+  }
+}

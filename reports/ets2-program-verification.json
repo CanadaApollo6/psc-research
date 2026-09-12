@@ -1,0 +1,205 @@
+{
+  "analysis": "ETS2 integrated verification",
+  "atlas_replay": {
+    "all_six_public_hashes_exact": true,
+    "analysis_script_unchanged": true,
+    "production_chunk_counts": [
+      22,
+      26
+    ],
+    "replay_chunk_counts": [
+      11,
+      13
+    ]
+  },
+  "date": "2026-09-12",
+  "experimental_replay": {
+    "all_four_public_hashes_exact": true
+  },
+  "frozen_plan_sha256": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9",
+  "full_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "failed": 0,
+    "passed": 120,
+    "test_log_sha256": "fbc9ded617905ce0bb33e5065d961762e4e7531dcb063d5fc4dc03540b3e85fb"
+  },
+  "independent_checks": {
+    "atlas_counts": {
+      "checks": [
+        {
+          "all_exact": true,
+          "all_feature_denominators_exact": true,
+          "cell_counts_exact": true,
+          "dataset": "sc",
+          "gene_umi_checks": 160,
+          "groups": 32
+        },
+        {
+          "all_exact": true,
+          "all_feature_denominators_exact": true,
+          "cell_counts_exact": true,
+          "dataset": "sn",
+          "gene_umi_checks": 70,
+          "groups": 14
+        }
+      ],
+      "method": "Compare all-feature pseudobulk to unchanged previous five-gene pipeline output for every selected PSC donor/assay/population, including groups below cell gate"
+    },
+    "inhibitor_ES": {
+      "all9_agree_within_1e-9": true,
+      "maximum_absolute_error": 1.6298074001497298e-13,
+      "method": "Independent NumPy cumsum across all ranked genes; comparison to unmodified archived ES",
+      "pathways": [
+        {
+          "absolute_error": 1.0180745135812685e-13,
+          "archived_ES": -0.67031085184499,
+          "calculated_ES": -0.6703108518450918,
+          "hits": 66,
+          "pathway": "GOBP_MACROPHAGE_ACTIVATION"
+        },
+        {
+          "absolute_error": 5.773159728050814e-15,
+          "archived_ES": -0.644096540786613,
+          "calculated_ES": -0.6440965407866073,
+          "hits": 145,
+          "pathway": "GOBP_MYELOID_LEUKOCYTE_ACTIVATION"
+        },
+        {
+          "absolute_error": 1.1401990462900358e-13,
+          "archived_ES": -0.568686600406997,
+          "calculated_ES": -0.568686600407111,
+          "hits": 128,
+          "pathway": "GOBP_MYELOID_LEUKOCYTE_MIGRATION"
+        },
+        {
+          "absolute_error": 3.3639757646142243e-14,
+          "archived_ES": -0.606245869651612,
+          "calculated_ES": -0.6062458696515783,
+          "hits": 161,
+          "pathway": "GOBP_PHAGOCYTOSIS"
+        },
+        {
+          "absolute_error": 2.8199664825478976e-14,
+          "archived_ES": -0.669758776875995,
+          "calculated_ES": -0.6697587768760233,
+          "hits": 48,
+          "pathway": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_1_PRODUCTION"
+        },
+        {
+          "absolute_error": 1.6298074001497298e-13,
+          "archived_ES": -0.690959143308446,
+          "calculated_ES": -0.690959143308609,
+          "hits": 63,
+          "pathway": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_6_PRODUCTION"
+        },
+        {
+          "absolute_error": 3.552713678800501e-14,
+          "archived_ES": -0.67317135284571,
+          "calculated_ES": -0.6731713528457455,
+          "hits": 37,
+          "pathway": "GOBP_POSITIVE_REGULATION_OF_INTERLEUKIN_8_PRODUCTION"
+        },
+        {
+          "absolute_error": 3.26405569239796e-14,
+          "archived_ES": -0.604992631406529,
+          "calculated_ES": -0.6049926314064964,
+          "hits": 50,
+          "pathway": "GOBP_POSITIVE_REGULATION_OF_REACTIVE_OXYGEN_SPECIES_METABOLIC_PROCESS"
+        },
+        {
+          "absolute_error": 2.0761170560490427e-14,
+          "archived_ES": -0.577683855424808,
+          "calculated_ES": -0.5776838554247873,
+          "hits": 117,
+          "pathway": "GOBP_TUMOR_NECROSIS_FACTOR_SUPERFAMILY_CYTOKINE_PRODUCTION"
+        }
+      ]
+    },
+    "publisher": {
+      "all_production_concordance_checks_passed": true,
+      "concordance": {
+        "OE250-v-OE500": {
+          "logFC_rho": 0.5452502607153715,
+          "n": 10196,
+          "t_rho": 0.5934973834896679
+        },
+        "g1-v-OE250": {
+          "logFC_rho": 0.05375690146207514,
+          "n": 9659,
+          "t_rho": 0.038367633269680984
+        },
+        "g1-v-OE500": {
+          "logFC_rho": -0.1091203651728872,
+          "n": 9659,
+          "t_rho": -0.09187263921358015
+        },
+        "g1-v-chr21": {
+          "logFC_rho": 0.6643947446336083,
+          "n": 12144,
+          "t_rho": 0.6818236587053583
+        },
+        "g1-v-g2": {
+          "logFC_rho": 0.8405296071773748,
+          "n": 12144,
+          "t_rho": 0.8580994854742675
+        }
+      },
+      "g1_fdr_010": {
+        "down": 1286,
+        "up": 1090
+      },
+      "method": "Independent openpyxl direct row extraction by exact Ensembl IDs; scipy Spearman; separate from production XML reader",
+      "primary_program_without_ets2": 927,
+      "program_direction_counts": {
+        "OE250": {
+          "available": 831,
+          "negative_t": 413,
+          "positive_t": 418
+        },
+        "OE500": {
+          "available": 831,
+          "negative_t": 344,
+          "positive_t": 487
+        },
+        "chr21": {
+          "available": 927,
+          "negative_t": 909,
+          "positive_t": 18
+        },
+        "g1": {
+          "available": 927,
+          "negative_t": 927,
+          "positive_t": 0
+        },
+        "g2": {
+          "available": 927,
+          "negative_t": 927,
+          "positive_t": 0
+        }
+      },
+      "workbook_sha256": "5390818bf0eb81a027ac145ac65661ed1b6333299d21e257f7d7c3e4b7ad8c74"
+    }
+  },
+  "limitations": [
+    "These checks establish computational consistency, not independent biological validation.",
+    "Raw atlas data, donor expression, random-set indices and credentials remain outside Git."
+  ],
+  "recorded_output_hashes_verified": 12,
+  "script_and_test_sha256": {
+    "scripts/analyze_ets2_program.py": "7e7c73fab9f4bef31f535f4a3fb8bfbff2d9642b473542533a42aa15c2be6092",
+    "scripts/audit_ets2_sources.py": "8f007eff0445af1f331d32f3422951f4cd88842bf1567ce30c6f47d748c0118a",
+    "scripts/benchmark_ets2_experiments.py": "4d13f46dbb0e5eba64b9a5eb9f5d70323b5d128536be2c42af71d16e2358586d",
+    "scripts/inspect_ets2_benchmark.py": "72011e6dc0157599d5acfd553502021df0afb4b1c07da94cab60a964acea974e",
+    "scripts/plot_ets2_program.py": "e662a5b0b2e1b4d37a16d4811c1b3fd3daa2baefd009e38a3ee214d0a8ec0872",
+    "scripts/reconstruct_ets2_inhibitor.py": "056d4f12d6d2d36139ac8fa8cc33983ae52b920206865290b28b9d3ebcd52178",
+    "scripts/verify_ets2_program.py": "901c429534faf0bcdfa786d26508a430510cabf823c58c0d77d06b3e7667a580",
+    "tests/test_ets2_experiments.py": "421d806136fb5a6b39b95e9b8b93562f9716b611b69f3b7095816780836bd0d5",
+    "tests/test_ets2_inhibitor_reconstruction.py": "ea8e8c82ad6a3c47a1ec89c94ce725fcb4e6636a048bb3067bce1db2408f91f5",
+    "tests/test_ets2_program.py": "39adc507826163b1bf18a07d85ca5b858646249379371c2c99b182949954d07f",
+    "tests/test_ets2_sources.py": "373bdc2a57c30c4cbb268c76d6ac15abd3afd25dfe0eee1893762ee73bad4b42"
+  },
+  "source_and_reconstruction_repeat": {
+    "all_hashes_exact": true,
+    "numerical_files": 10
+  }
+}

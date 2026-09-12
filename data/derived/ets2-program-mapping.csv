@@ -1,0 +1,19 @@
+dataset_key,program_id,source_unique_before_exclusion,excluded_target_gene_count,intended_unique_source_genes,mapped_unique_genes,missing_source_genes,ambiguous_source_genes,mapping_fraction,mapping_gate_pass,role,derived_mapping_fraction,parent_mapping_fraction,parent_mapping_gate_pass,parent_program_id,parent_mapped_unique_genes,comparator_union_mapped_genes,parent_comparator_overlap_genes,derived_nonoverlap_mapped_genes
+sc,apoptotic_signaling,588,0,588,573,15,0,0.9744897959183674,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sc,chr21_dn,141,0,141,135,6,0,0.9574468085106383,True,enhancer-deletion companion,,,,,,,,
+sc,ets2_g1_dn,928,1,927,906,21,0,0.9773462783171522,True,primary,,,,,,,,
+sc,ets2_g1_dn_without_comparators,928,1,927,741,21,0,0.7993527508090615,True,specificity sensitivity,0.7993527508090615,0.9773462783171522,True,ets2_g1_dn,906.0,1579.0,165.0,741.0
+sc,ets2_g1_up,668,0,668,583,85,0,0.8727544910179641,True,opposite-direction companion,,,,,,,,
+sc,ets2_g2_dn,875,0,875,859,16,0,0.9817142857142858,True,"related-guide companion, not independent validation",,,,,,,,
+sc,inflammation,815,0,815,751,64,0,0.9214723926380368,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sc,interferon_gamma,139,0,139,137,2,0,0.9856115107913669,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sc,oxidative_stress,436,0,436,419,17,0,0.9610091743119266,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sn,apoptotic_signaling,588,0,588,573,15,0,0.9744897959183674,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sn,chr21_dn,141,0,141,135,6,0,0.9574468085106383,True,enhancer-deletion companion,,,,,,,,
+sn,ets2_g1_dn,928,1,927,906,21,0,0.9773462783171522,True,primary,,,,,,,,
+sn,ets2_g1_dn_without_comparators,928,1,927,741,21,0,0.7993527508090615,True,specificity sensitivity,0.7993527508090615,0.9773462783171522,True,ets2_g1_dn,906.0,1579.0,165.0,741.0
+sn,ets2_g1_up,668,0,668,583,85,0,0.8727544910179641,True,opposite-direction companion,,,,,,,,
+sn,ets2_g2_dn,875,0,875,859,16,0,0.9817142857142858,True,"related-guide companion, not independent validation",,,,,,,,
+sn,inflammation,815,0,815,751,64,0,0.9214723926380368,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sn,interferon_gamma,139,0,139,137,2,0,0.9856115107913669,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
+sn,oxidative_stress,436,0,436,419,17,0,0.9610091743119266,True,biological comparison; not a mechanistically exclusive negative control,,,,,,,,
