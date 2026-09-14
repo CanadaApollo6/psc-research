@@ -1,0 +1,11 @@
+transcript_id,version,display_name,biotype,is_canonical,selected,reason,exon_count,reference_cdna_length,annotated_protein_length,target_upstream_exon_number
+ENST00000291535,12,UBASH3A-201,protein_coding,0,True,exact_consecutive_exon_boundaries,14,2488,623,9
+ENST00000319294,11,UBASH3A-202,protein_coding,1,True,exact_consecutive_exon_boundaries,15,2520,661,10
+ENST00000398367,2,UBASH3A-203,protein_coding,0,True,exact_consecutive_exon_boundaries,12,2271,526,9
+ENST00000473381,1,UBASH3A-204,nonsense_mediated_decay,0,False,lacks_exact_consecutive_exon_boundaries,14,2754,451,
+ENST00000634453,1,UBASH3A-205,protein_coding_CDS_not_defined,0,False,lacks_exact_consecutive_exon_boundaries,4,871,,
+ENST00000634718,1,UBASH3A-206,nonsense_mediated_decay,0,False,lacks_exact_consecutive_exon_boundaries,4,696,38,
+ENST00000635108,1,UBASH3A-207,nonsense_mediated_decay,0,False,lacks_exact_consecutive_exon_boundaries,4,572,55,
+ENST00000635189,1,UBASH3A-208,protein_coding,0,False,lacks_exact_consecutive_exon_boundaries,5,567,169,
+ENST00000635325,1,UBASH3A-209,nonsense_mediated_decay,0,True,exact_consecutive_exon_boundaries,14,2095,521,9
+ENST00001131803,1,UBASH3A-210,protein_coding,0,True,exact_consecutive_exon_boundaries,15,2602,661,10

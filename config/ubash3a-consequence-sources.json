@@ -1,0 +1,1124 @@
+{
+  "manifest_id": "ubash3a-consequence-sources-v1",
+  "created_at_utc": "2026-09-14T17:58:12.809249+00:00",
+  "plan_sha256": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+  "sources": [
+    {
+      "source_id": "ENST00000291535-cdna",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000291535",
+      "params": {
+        "type": "cdna"
+      },
+      "file": "ENST00000291535-cdna.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000291535?type=cdna",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000291535",
+        "params": {
+          "type": "cdna"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-cdna.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000291535",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-cdna.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000291535-cdna.json",
+      "retrieval_started_at_utc": "2026-09-14T18:00:48.891131+00:00",
+      "retrieved_at_utc": "2026-09-14T18:00:57.934227+00:00",
+      "bytes": 2589,
+      "sha256": "77da169ca4f0550395e37a59b824749b2cf1615d0a66bf2fba036e88058326dc",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000291535-cds",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000291535",
+      "params": {
+        "type": "cds"
+      },
+      "file": "ENST00000291535-cds.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000291535?type=cds",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000291535",
+        "params": {
+          "type": "cds"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-cds.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000291535",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-cds.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000291535-cds.json",
+      "retrieval_started_at_utc": "2026-09-14T18:00:48.891225+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:01.898469+00:00",
+      "bytes": 1973,
+      "sha256": "654ed6e9dc06f57dd4964ba5ff4788929d56ded7a6058746b77e1fe011648d16",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000291535-protein",
+      "service": "ensembl",
+      "path": "sequence/id/ENSP00000291535",
+      "params": {
+        "type": "protein"
+      },
+      "file": "ENST00000291535-protein.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENSP00000291535?type=protein",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENSP00000291535",
+        "params": {
+          "type": "protein"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-protein.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENSP00000291535",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000291535-protein.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000291535-protein.json",
+      "retrieval_started_at_utc": "2026-09-14T18:00:57.934281+00:00",
+      "retrieved_at_utc": "2026-09-14T18:00:58.451306+00:00",
+      "bytes": 727,
+      "sha256": "ba10642942995cc0af1fe633328d92a3adb270c74d8ff39109815cd63854987c",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000319294-cdna",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000319294",
+      "params": {
+        "type": "cdna"
+      },
+      "file": "ENST00000319294-cdna.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000319294?type=cdna",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000319294",
+        "params": {
+          "type": "cdna"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-cdna.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000319294",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-cdna.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000319294-cdna.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:04.717350+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:18.748048+00:00",
+      "bytes": 2621,
+      "sha256": "3f79376f04b7ea3a5652a3e8909aa309f6b80138f037bc6be7518fa98d18a652",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000319294-cds",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000319294",
+      "params": {
+        "type": "cds"
+      },
+      "file": "ENST00000319294-cds.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000319294?type=cds",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000319294",
+        "params": {
+          "type": "cds"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-cds.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000319294",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-cds.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000319294-cds.json",
+      "retrieval_started_at_utc": "2026-09-14T18:02:55.715069+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:03.646420+00:00",
+      "bytes": 2087,
+      "sha256": "aec238ffc24f6548cf4f16d8389da6a26d2e08aa37f62c5bbe86de7f7569650f",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000319294-protein",
+      "service": "ensembl",
+      "path": "sequence/id/ENSP00000317327",
+      "params": {
+        "type": "protein"
+      },
+      "file": "ENST00000319294-protein.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENSP00000317327?type=protein",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENSP00000317327",
+        "params": {
+          "type": "protein"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-protein.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENSP00000317327",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000319294-protein.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000319294-protein.json",
+      "retrieval_started_at_utc": "2026-09-14T18:02:55.715159+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:03.666357+00:00",
+      "bytes": 765,
+      "sha256": "cd92245f149f8ccad9e8db458737ceb6eb8d9502d61f81768269db9983c676ab",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000398367-cdna",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000398367",
+      "params": {
+        "type": "cdna"
+      },
+      "file": "ENST00000398367-cdna.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000398367?type=cdna",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000398367",
+        "params": {
+          "type": "cdna"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-cdna.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000398367",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-cdna.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000398367-cdna.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:15.413025+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:17.017052+00:00",
+      "bytes": 2371,
+      "sha256": "a5eeeed7c86403aae7a0b2d87736e8b7cb2d0d9edcbab1dca20cd3a05f417fc2",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000398367-cds",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000398367",
+      "params": {
+        "type": "cds"
+      },
+      "file": "ENST00000398367-cds.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000398367?type=cds",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000398367",
+        "params": {
+          "type": "cds"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-cds.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000398367",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-cds.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000398367-cds.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:15.534193+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:20.098576+00:00",
+      "bytes": 1681,
+      "sha256": "ce0cb3e9b9c35a12be2e0bb5433f155723871f2b7d8578354cf4ca61a67ee0b9",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000398367-protein",
+      "service": "ensembl",
+      "path": "sequence/id/ENSP00000381408",
+      "params": {
+        "type": "protein"
+      },
+      "file": "ENST00000398367-protein.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENSP00000381408?type=protein",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENSP00000381408",
+        "params": {
+          "type": "protein"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-protein.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENSP00000381408",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000398367-protein.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000398367-protein.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:17.017103+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:44.013688+00:00",
+      "bytes": 630,
+      "sha256": "db68112d6882dc8c01e50884834834d88fbdef871439edadafb81878cfcfb5df",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000635325-cdna",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000635325",
+      "params": {
+        "type": "cdna"
+      },
+      "file": "ENST00000635325-cdna.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000635325?type=cdna",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000635325",
+        "params": {
+          "type": "cdna"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-cdna.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000635325",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-cdna.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000635325-cdna.json",
+      "retrieval_started_at_utc": "2026-09-14T18:00:58.451355+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:04.717266+00:00",
+      "bytes": 2195,
+      "sha256": "d632112cdadc096c01948c71233eb55f9a2ecc00a5c404f78f0c38ea192389ee",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000635325-cds",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00000635325",
+      "params": {
+        "type": "cds"
+      },
+      "file": "ENST00000635325-cds.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00000635325?type=cds",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00000635325",
+        "params": {
+          "type": "cds"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-cds.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00000635325",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-cds.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000635325-cds.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:01.898522+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:04.442478+00:00",
+      "bytes": 1666,
+      "sha256": "3dc0b461d5a9ba945305e3768d1d7859499e9eae0849fe3b63810ea7afab762f",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00000635325-protein",
+      "service": "ensembl",
+      "path": "sequence/id/ENSP00000489463",
+      "params": {
+        "type": "protein"
+      },
+      "file": "ENST00000635325-protein.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENSP00000489463?type=protein",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENSP00000489463",
+        "params": {
+          "type": "protein"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-protein.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENSP00000489463",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00000635325-protein.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00000635325-protein.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:04.442560+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:15.008035+00:00",
+      "bytes": 625,
+      "sha256": "22df917b382e0f38ca03a728fcacc095735f08c436acca309c912c863feecf35",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00001131803-cdna",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00001131803",
+      "params": {
+        "type": "cdna"
+      },
+      "file": "ENST00001131803-cdna.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00001131803?type=cdna",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00001131803",
+        "params": {
+          "type": "cdna"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-cdna.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00001131803",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-cdna.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00001131803-cdna.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:18.748156+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:53.727356+00:00",
+      "bytes": 2702,
+      "sha256": "ce98e3604898669332e76a4d7cd8520e7e7afda36c17df5042c6e33686132ac5",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00001131803-cds",
+      "service": "ensembl",
+      "path": "sequence/id/ENST00001131803",
+      "params": {
+        "type": "cds"
+      },
+      "file": "ENST00001131803-cds.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENST00001131803?type=cds",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENST00001131803",
+        "params": {
+          "type": "cds"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-cds.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENST00001131803",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-cds.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00001131803-cds.json",
+      "retrieval_started_at_utc": "2026-09-14T18:02:55.715670+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:03.634555+00:00",
+      "bytes": 2086,
+      "sha256": "85f770cb14aac83611209b21ee82525c95d84e1806fc32bb3b3c978916615010",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ENST00001131803-protein",
+      "service": "ensembl",
+      "path": "sequence/id/ENSP00000806534",
+      "params": {
+        "type": "protein"
+      },
+      "file": "ENST00001131803-protein.json",
+      "url": "https://rest.ensembl.org/sequence/id/ENSP00000806534?type=protein",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/id/ENSP00000806534",
+        "params": {
+          "type": "protein"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-protein.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/id/ENSP00000806534",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ENST00001131803-protein.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ENST00001131803-protein.json",
+      "retrieval_started_at_utc": "2026-09-14T18:03:03.634599+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:04.144563+00:00",
+      "bytes": 765,
+      "sha256": "cda5dd7490e80900214e8299218e1b7e0e51cc777df6248e513fb9dcf2f326b4",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ensembl-assembly",
+      "service": "ensembl",
+      "path": "info/assembly/homo_sapiens",
+      "params": {},
+      "file": "ensembl-assembly.json",
+      "url": "https://rest.ensembl.org/info/assembly/homo_sapiens",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "info/assembly/homo_sapiens",
+        "params": {},
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-assembly.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "info/assembly/homo_sapiens",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-assembly.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ensembl-assembly.json",
+      "retrieval_started_at_utc": "2026-09-14T17:58:12.810045+00:00",
+      "retrieved_at_utc": "2026-09-14T17:58:25.758950+00:00",
+      "bytes": 12640,
+      "sha256": "4e6789582b612e8f1fae0bd1699a614f3a3fde15c6f2c3439fef7dcff3789e89",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ensembl-gene",
+      "service": "ensembl",
+      "path": "lookup/id/ENSG00000160185",
+      "params": {
+        "expand": 1
+      },
+      "file": "ensembl-gene.json",
+      "url": "https://rest.ensembl.org/lookup/id/ENSG00000160185?expand=1",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "lookup/id/ENSG00000160185",
+        "params": {
+          "expand": 1
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-gene.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "lookup/id/ENSG00000160185",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-gene.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ensembl-gene.json",
+      "retrieval_started_at_utc": "2026-09-14T17:58:12.810222+00:00",
+      "retrieved_at_utc": "2026-09-14T17:58:53.241398+00:00",
+      "bytes": 25821,
+      "sha256": "9d116bbc9fe1bd146991e109b0213a2324f7e197111a72039c9226af168d08fd",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ensembl-gene-sequence",
+      "service": "ensembl",
+      "path": "sequence/region/human/21:42403447..42447684:1",
+      "params": {},
+      "file": "ensembl-gene-sequence.json",
+      "url": "https://rest.ensembl.org/sequence/region/human/21:42403447..42447684:1",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "sequence/region/human/21:42403447..42447684:1",
+        "params": {},
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-gene-sequence.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "sequence/region/human/21:42403447..42447684:1",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-gene-sequence.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ensembl-gene-sequence.json",
+      "retrieval_started_at_utc": "2026-09-14T18:00:48.890978+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:14.489971+00:00",
+      "bytes": 44347,
+      "sha256": "7291bf9478affb5cf3ff6d762335818506e447d89d09c928c5dfba1f0b18e24c",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ensembl-release",
+      "service": "ensembl",
+      "path": "info/data",
+      "params": {},
+      "file": "ensembl-release.json",
+      "url": "https://rest.ensembl.org/info/data",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "info/data",
+        "params": {},
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-release.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "info/data",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-release.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ensembl-release.json",
+      "retrieval_started_at_utc": "2026-09-14T17:58:12.809886+00:00",
+      "retrieved_at_utc": "2026-09-14T17:58:41.236892+00:00",
+      "bytes": 18,
+      "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ensembl-variant",
+      "service": "ensembl",
+      "path": "variation/human/rs1893592",
+      "params": {},
+      "file": "ensembl-variant.json",
+      "url": "https://rest.ensembl.org/variation/human/rs1893592",
+      "request": {
+        "base_url": "https://rest.ensembl.org",
+        "path": "variation/human/rs1893592",
+        "params": {},
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-variant.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-ensembl-org",
+        "path": "variation/human/rs1893592",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/ensembl-variant.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/ensembl-variant.json",
+      "retrieval_started_at_utc": "2026-09-14T17:58:25.759012+00:00",
+      "retrieved_at_utc": "2026-09-14T17:58:57.890063+00:00",
+      "bytes": 628,
+      "sha256": "aaa79e4bafcf46237853630dba2c5016147f4a29b14507a22499cb5f154f9e0a",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "ge2018",
+      "service": "local_reuse",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6018660/",
+      "file": "ge2018.html",
+      "origin_manifest": "config/mechanism-sources.json",
+      "origin_source_id": "Ge2018-PMC",
+      "original_retrieved_at_utc": "2026-09-11T22:47:47.771420+00:00",
+      "original_local_cache_path": "data/raw/Ge2018.html",
+      "representation": "Unmodified copy of the earlier pinned primary-paper HTML; current timestamp records local reuse, not a fresh download",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6018660/",
+      "local_cache_path": "data/raw/ubash3a-consequences/ge2018.html",
+      "retrieval_started_at_utc": "2026-09-14T18:05:31.706026+00:00",
+      "retrieved_at_utc": "2026-09-14T18:05:31.706893+00:00",
+      "bytes": 141926,
+      "sha256": "d9defe51c4394078e70928259e1586718a8c3c436bbbd3ba436b53d5a15cd63c",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "lindeboom2016",
+      "service": "https",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5045715/fullTextXML",
+      "file": "lindeboom2016.xml",
+      "status_code": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5045715/fullTextXML",
+      "content_type": "application/xml",
+      "representation": "HTTP response body as received by urllib; not reformatted",
+      "local_cache_path": "data/raw/ubash3a-consequences/lindeboom2016.xml",
+      "retrieval_started_at_utc": "2026-09-14T18:03:04.146414+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:05.277361+00:00",
+      "bytes": 119305,
+      "sha256": "bfd439a678958ee52fe2c67d20b9ab148878b1b99e0a66b9b44c548dd50ee8f4",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "lindeboom2019",
+      "service": "https",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6858879/fullTextXML",
+      "file": "lindeboom2019.xml",
+      "status_code": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6858879/fullTextXML",
+      "content_type": "application/xml",
+      "representation": "HTTP response body as received by urllib; not reformatted",
+      "local_cache_path": "data/raw/ubash3a-consequences/lindeboom2019.xml",
+      "retrieval_started_at_utc": "2026-09-14T18:03:04.920139+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:06.890299+00:00",
+      "bytes": 124932,
+      "sha256": "7fb827bd35d766ce406090781227d2e200e1df2a0f2dc62b11956fa152a0944a",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "mucaki2020",
+      "service": "https",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7066660/fullTextXML",
+      "file": "mucaki2020.xml",
+      "status_code": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7066660/fullTextXML",
+      "content_type": "application/xml",
+      "representation": "HTTP response body as received by urllib; not reformatted",
+      "local_cache_path": "data/raw/ubash3a-consequences/mucaki2020.xml",
+      "retrieval_started_at_utc": "2026-09-14T18:03:04.145529+00:00",
+      "retrieved_at_utc": "2026-09-14T18:03:05.478937+00:00",
+      "bytes": 249930,
+      "sha256": "745fa2ea00875263a591b1c207d3c3eb646994b5fe85c461282f816aeeb1f5d6",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "uniprot-entry",
+      "service": "uniprot",
+      "path": "uniprotkb/P57075",
+      "params": {
+        "format": "json"
+      },
+      "file": "uniprot-entry.json",
+      "url": "https://rest.uniprot.org/uniprotkb/P57075?format=json",
+      "request": {
+        "base_url": "https://rest.uniprot.org",
+        "path": "uniprotkb/P57075",
+        "params": {
+          "format": "json"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/uniprot-entry.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-uniprot-org",
+        "path": "uniprotkb/P57075",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/uniprot-entry.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/uniprot-entry.json",
+      "retrieval_started_at_utc": "2026-09-14T18:01:53.727425+00:00",
+      "retrieved_at_utc": "2026-09-14T18:01:54.300419+00:00",
+      "bytes": 55106,
+      "sha256": "e78ebcc48ad0b4b0c72e225a8f8aae5ca40b1732c6b16dacbd915371fdd63b44",
+      "publisher_checksum": null
+    },
+    {
+      "source_id": "uniprot-search",
+      "service": "uniprot",
+      "path": "uniprotkb/search",
+      "params": {
+        "query": "gene:UBASH3A AND organism_id:9606 AND reviewed:true",
+        "size": 10,
+        "format": "json"
+      },
+      "file": "uniprot-search.json",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene%3AUBASH3A+AND+organism_id%3A9606+AND+reviewed%3Atrue&size=10&format=json",
+      "request": {
+        "base_url": "https://rest.uniprot.org",
+        "path": "uniprotkb/search",
+        "params": {
+          "query": "gene:UBASH3A AND organism_id:9606 AND reviewed:true",
+          "size": 10,
+          "format": "json"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "response_format": "text",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-consequences/uniprot-search.json",
+        "timeout_sec": 45,
+        "max_items": 10
+      },
+      "status_code": 200,
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "client_result": {
+        "ok": true,
+        "source": "rest-uniprot-org",
+        "path": "uniprotkb/search",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "application/json",
+        "text_head": null,
+        "text_head_truncated": false,
+        "raw_output_path": "data/raw/ubash3a-consequences/uniprot-search.json",
+        "warnings": []
+      },
+      "representation": "Skill client saves requests.response.text as UTF-8 without JSON reformatting; transport decompression/decoding is not a byte-level wire archive",
+      "local_cache_path": "data/raw/ubash3a-consequences/uniprot-search.json",
+      "retrieval_started_at_utc": "2026-09-14T17:58:41.236973+00:00",
+      "retrieved_at_utc": "2026-09-14T17:58:42.113561+00:00",
+      "bytes": 55120,
+      "sha256": "9b07e52eb81bb201b55c145b2a5a47c82751b47fce6dcbda35a78ead6f91593c",
+      "publisher_checksum": null
+    }
+  ],
+  "failed_attempts": [
+    {
+      "source_id": "ENST00000319294-cds",
+      "checked_at_utc": "2026-09-14T18:01:18.748200+00:00",
+      "error": "{\"source_id\": \"ENST00000319294-cds\", \"client_result\": {\"ok\": false, \"error\": {\"code\": \"network_error\", \"message\": \"Request failed: 500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENST00000319294?type=cds\"}, \"warnings\": []}}"
+    },
+    {
+      "source_id": "ENST00000319294-protein",
+      "checked_at_utc": "2026-09-14T18:01:18.748218+00:00",
+      "error": "{\"source_id\": \"ENST00000319294-protein\", \"client_result\": {\"ok\": false, \"error\": {\"code\": \"network_error\", \"message\": \"Request failed: 500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSP00000317327?type=protein\"}, \"warnings\": []}}"
+    },
+    {
+      "source_id": "ENST00001131803-cds",
+      "checked_at_utc": "2026-09-14T18:02:05.506538+00:00",
+      "error": "{\"source_id\": \"ENST00001131803-cds\", \"client_result\": {\"ok\": false, \"error\": {\"code\": \"network_error\", \"message\": \"Request failed: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Read timed out. (read timeout=45)\"}, \"warnings\": []}}"
+    },
+    {
+      "source_id": "ENST00001131803-protein",
+      "checked_at_utc": "2026-09-14T18:02:09.991981+00:00",
+      "error": "{\"source_id\": \"ENST00001131803-protein\", \"client_result\": {\"ok\": false, \"error\": {\"code\": \"network_error\", \"message\": \"Request failed: 503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSP00000806534?type=protein\"}, \"warnings\": []}}"
+    },
+    {
+      "source_id": "ge2018",
+      "checked_at_utc": "2026-09-14T18:03:05.479300+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "attempted_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6018660/fullTextXML"
+    }
+  ],
+  "retention": "Raw third-party content remains ignored; hashes and small derived outputs are versioned."
+}

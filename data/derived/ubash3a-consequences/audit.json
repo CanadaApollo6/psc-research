@@ -1,0 +1,112 @@
+{
+  "analysis_id": "ubash3a-transcript-consequences-v1",
+  "plan_sha256": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+  "source_manifest_sha256": "1cfbc4a6cc7a4f07fe5f5921f4ffe45a9e79640eb6969926db58255f26f1e9b3",
+  "script_sha256": "32861b4829bba4cbf3b05cbe424951c48354d316051bc87811334a68e2a8122d",
+  "reference_checks": [
+    {
+      "transcript_id": "ENST00000291535",
+      "version": 12,
+      "cdna_matches_genomic_exons": true,
+      "cds_matches_genomic_annotation": true,
+      "protein_matches_translation": true,
+      "cds_includes_terminal_stop": true,
+      "cds_length_nt": 1872,
+      "protein_length_aa": 623,
+      "cds_coordinate_convention": "lookup_translation_bounds_equal_API_CDS"
+    },
+    {
+      "transcript_id": "ENST00000319294",
+      "version": 11,
+      "cdna_matches_genomic_exons": true,
+      "cds_matches_genomic_annotation": true,
+      "protein_matches_translation": true,
+      "cds_includes_terminal_stop": true,
+      "cds_length_nt": 1986,
+      "protein_length_aa": 661,
+      "cds_coordinate_convention": "lookup_translation_bounds_equal_API_CDS"
+    },
+    {
+      "transcript_id": "ENST00000398367",
+      "version": 2,
+      "cdna_matches_genomic_exons": true,
+      "cds_matches_genomic_annotation": true,
+      "protein_matches_translation": true,
+      "cds_includes_terminal_stop": true,
+      "cds_length_nt": 1581,
+      "protein_length_aa": 526,
+      "cds_coordinate_convention": "lookup_translation_bounds_equal_API_CDS"
+    },
+    {
+      "transcript_id": "ENST00000635325",
+      "version": 1,
+      "cdna_matches_genomic_exons": true,
+      "cds_matches_genomic_annotation": true,
+      "protein_matches_translation": true,
+      "cds_includes_terminal_stop": true,
+      "cds_length_nt": 1566,
+      "protein_length_aa": 521,
+      "cds_coordinate_convention": "lookup_translation_bounds_equal_API_CDS"
+    },
+    {
+      "transcript_id": "ENST00001131803",
+      "version": 1,
+      "cdna_matches_genomic_exons": true,
+      "cds_matches_genomic_annotation": true,
+      "protein_matches_translation": true,
+      "cds_includes_terminal_stop": true,
+      "cds_length_nt": 1986,
+      "protein_length_aa": 661,
+      "cds_coordinate_convention": "lookup_translation_bounds_equal_API_CDS"
+    }
+  ],
+  "source_count": 26,
+  "gene_transcripts_inventoried": 10,
+  "selected_transcripts": [
+    "ENST00000291535",
+    "ENST00000319294",
+    "ENST00000398367",
+    "ENST00000635325",
+    "ENST00001131803"
+  ],
+  "scenario_count": 20,
+  "retained_segments": {
+    "A": "GTATGTTTGAGGACTGTCTAGTAGGAAAG",
+    "C": "GTCTGTTTGAGGACTGTCTAGTAGGAAAG"
+  },
+  "uniprot": {
+    "accession": "P57075",
+    "audit": {
+      "firstPublicDate": "2000-12-01",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2000-12-01",
+      "entryVersion": 198,
+      "sequenceVersion": 1
+    },
+    "canonical_length_aa": 661,
+    "exact_Ensembl_matches": [
+      "ENST00000319294",
+      "ENST00001131803"
+    ],
+    "anchor_transcript": "ENST00000319294",
+    "projection_method": "Unique exact genomic codon triplets plus identical amino acids; unmatched codons remain unmapped."
+  },
+  "output_counts": {
+    "protein_features": 60,
+    "protein_alignment_residues": 11116,
+    "exon_scenarios": 280
+  },
+  "runtime_python": "3.12.14",
+  "files_sha256": {
+    "consequences.csv": "9f5a749205a8ef22501e52896f70e968dd6c8180b48bf1a35b09f012a5f420ba",
+    "exon-coordinates.csv": "3af153c983747475ca98379be362c3f950a3bb1778043983cbe0c896b63fd990",
+    "orfs-with-stop.fasta": "418aef5131a6ff8b2e55898e5d2b28ac3a6ea1c7df24c4db41bf1350aa7e85a8",
+    "protein-features.csv": "d1fc0a904118c42c81fd3c70399830e72e193db308ab003d424aefcb889d451b",
+    "protein-reference-alignment.csv": "a2a795e4e5d4c51858bfa84143059e72bccd5f9acc15d6a2795dc799ed3d30f3",
+    "proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "retained-segments.fasta": "25d4adf6eabc40190c5eb2516bd3262648293ea54d9873fb034315f9f7bf1927",
+    "transcript-inventory.csv": "02a4f8e679e7687a4e2129c995a4ae09db4fd7ff75de8593d37e5e668d71bf1c",
+    "transcripts.fasta": "db407110e3e206f5cf6aa857203b7ba2089b996f53eb1f92168ebf6d47bbf02f"
+  },
+  "scope": "Deterministic sequence consequences; NMD features are conditional flags, not measured degradation, protein abundance, allele effects or treatment outcomes."
+}

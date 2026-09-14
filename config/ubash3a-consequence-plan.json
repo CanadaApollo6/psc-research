@@ -1,0 +1,96 @@
+{
+  "plan_id": "ubash3a-transcript-consequences-v1",
+  "frozen_at_utc": "2026-09-14T17:55:42.009587+00:00",
+  "prior_repository_commit": "eddc422259d9127a464493f44eadd01630f76057",
+  "purpose": "Conditional sequence, RNA-decay and protein-feature consequences of the exact +29 nt splice event; no new allele-effect or expression inference.",
+  "protocol": "docs/ubash3a-consequence-protocol.md",
+  "protocol_sha256": "196b5af67ed6581343e887cd11675d16f76ad70352c0be67789ba256cc900f53",
+  "gene_id": "ENSG00000160185",
+  "assembly": "GRCh38",
+  "chromosome": "21",
+  "strand": 1,
+  "canonical_upstream_exon_end_1based": 42434954,
+  "downstream_exon_start_1based": 42437488,
+  "retained_interval_1based_inclusive": [
+    42434955,
+    42434983
+  ],
+  "variant": {
+    "rsid": "rs1893592",
+    "position_1based": 42434957,
+    "reference": "A",
+    "alternate": "C"
+  },
+  "selection_rule": "Every transcript in the preserved expanded gene record containing the exact consecutive exon boundaries; preserve existing NMD-annotated transcripts and inventory exclusions.",
+  "expected_transcripts": [
+    {
+      "id": "ENST00000291535",
+      "version": 12,
+      "biotype": "protein_coding"
+    },
+    {
+      "id": "ENST00000635325",
+      "version": 1,
+      "biotype": "nonsense_mediated_decay"
+    },
+    {
+      "id": "ENST00000319294",
+      "version": 11,
+      "biotype": "protein_coding"
+    },
+    {
+      "id": "ENST00000398367",
+      "version": 2,
+      "biotype": "protein_coding"
+    },
+    {
+      "id": "ENST00001131803",
+      "version": 1,
+      "biotype": "protein_coding"
+    }
+  ],
+  "scenarios": [
+    {
+      "key": "normal_A",
+      "splice": "normal",
+      "allele": "A"
+    },
+    {
+      "key": "normal_C",
+      "splice": "normal",
+      "allele": "C"
+    },
+    {
+      "key": "plus29_A",
+      "splice": "plus29",
+      "allele": "A"
+    },
+    {
+      "key": "plus29_C",
+      "splice": "plus29",
+      "allele": "C"
+    }
+  ],
+  "nmd_features": {
+    "primary_stop_end_to_final_junction_gt_nt": 55,
+    "sensitivity_stop_end_to_final_junction_gt_nt": 50,
+    "start_proximity_coding_nt": 150,
+    "long_stop_exon_gt_nt": 400,
+    "prediction_boundary": "Positional flags and context only; no probability or observed decay claim."
+  },
+  "reference_pins": {
+    "data/raw/UBASH3A-transcripts-GRCh38.json": "5f748a1bfb41ad1e25aeec9d1cc3eda2935e7e9f9f035b752bccfeabb46d8ab3",
+    "data/derived/ubash3a-transcript-boundaries.csv": "38d336b0d3ebb7acffe2d57af199c21bb8c0802e5e59a25429ac593caac3db67",
+    "config/ubash3a-splice-followup.json": "624fc35e26e12ae881d681742ddb82277239a3ea9ba4c0873d934a93c80cfba9",
+    "config/mechanism-sources.json": "a07aa38e5843f1e97daf9a796081f1952b4211ce838c5ebb5efa089a40bb36ba",
+    "reports/mechanism-audit.md": "51ba51c253f09c08ed26aabd4acf59858474133f3b219939678c4e8e73ab67f6",
+    "reports/ubash3a-junction-followup.md": "b05b4feb3558899b7f073b128a9a36e498928bb3adffb84677e133ca4c12d907",
+    "config/gse84161-normalization-method-lock.json": "ab1a1619e77505df12f7792d7cbc7625e11a02e005e51a9475f6d4aaa5e98861",
+    "reports/gse84161-normalization-verification.json": "d84273d454da66a9e4c47c517eacd601503e474c3805d2b33d5e3275368edd88",
+    "reports/gse84161-supplement-verification.json": "0ecce391e64a895f0db6acd383caebcad870c9d15d8a069e0c81a95b5f095e04"
+  },
+  "freeze_boundary": "Saved after prior annotation metadata and literature method review, before retrieving full transcript/protein sequences or computing new consequences.",
+  "output_directory": "data/derived/ubash3a-consequences",
+  "raw_directory": "data/raw/ubash3a-consequences",
+  "primary_output": "reports/ubash3a-transcript-consequences.md"
+}

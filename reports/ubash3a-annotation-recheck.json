@@ -1,0 +1,13 @@
+{
+  "prior_annotation_sha256": "5f748a1bfb41ad1e25aeec9d1cc3eda2935e7e9f9f035b752bccfeabb46d8ab3",
+  "fresh_annotation_sha256": "9d116bbc9fe1bd146991e109b0213a2324f7e197111a72039c9226af168d08fd",
+  "full_parsed_record_equal": true,
+  "transcript_count": 10,
+  "release": {
+    "releases": [
+      116
+    ]
+  },
+  "assembly_name": "GRCh38.p14",
+  "assembly_accession": "GCA_000001405.29"
+}

@@ -1,0 +1,326 @@
+{
+  "verification_id": "ubash3a-consequence-completion-v1",
+  "completed_at_utc": "2026-09-14T18:33:08.470448+00:00",
+  "status": "complete_verified",
+  "scope": "Conditional consequences of a fixed +29-nt splice construction. No new allele-effect, RNA abundance, protein detection, structure prediction or clinical result.",
+  "initial_execution_record": "config/ubash3a-consequence-run.json",
+  "initial_execution_record_sha256": "ca3495d85b1e755ec5b0709f6554f18f8fa748b78676eab18eafd7db077a4929",
+  "initial_input_and_method_pins_unchanged": true,
+  "methods_amended": false,
+  "prior_plan_reference_pins_checked": 9,
+  "source_verification": {
+    "usable_files": 26,
+    "all_hashes_and_sizes_match": true,
+    "offline_fetch_verifier_exit_code": 0,
+    "offline_log_sha256": "26c374adaaf73ee0b9d1ec3bc61a77491c103c28383fd638144687c5fcca8634",
+    "checks": [
+      {
+        "source_id": "ENST00000291535-cdna",
+        "bytes": 2589,
+        "sha256": "77da169ca4f0550395e37a59b824749b2cf1615d0a66bf2fba036e88058326dc",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000291535-cds",
+        "bytes": 1973,
+        "sha256": "654ed6e9dc06f57dd4964ba5ff4788929d56ded7a6058746b77e1fe011648d16",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000291535-protein",
+        "bytes": 727,
+        "sha256": "ba10642942995cc0af1fe633328d92a3adb270c74d8ff39109815cd63854987c",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000319294-cdna",
+        "bytes": 2621,
+        "sha256": "3f79376f04b7ea3a5652a3e8909aa309f6b80138f037bc6be7518fa98d18a652",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000319294-cds",
+        "bytes": 2087,
+        "sha256": "aec238ffc24f6548cf4f16d8389da6a26d2e08aa37f62c5bbe86de7f7569650f",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000319294-protein",
+        "bytes": 765,
+        "sha256": "cd92245f149f8ccad9e8db458737ceb6eb8d9502d61f81768269db9983c676ab",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000398367-cdna",
+        "bytes": 2371,
+        "sha256": "a5eeeed7c86403aae7a0b2d87736e8b7cb2d0d9edcbab1dca20cd3a05f417fc2",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000398367-cds",
+        "bytes": 1681,
+        "sha256": "ce0cb3e9b9c35a12be2e0bb5433f155723871f2b7d8578354cf4ca61a67ee0b9",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000398367-protein",
+        "bytes": 630,
+        "sha256": "db68112d6882dc8c01e50884834834d88fbdef871439edadafb81878cfcfb5df",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000635325-cdna",
+        "bytes": 2195,
+        "sha256": "d632112cdadc096c01948c71233eb55f9a2ecc00a5c404f78f0c38ea192389ee",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000635325-cds",
+        "bytes": 1666,
+        "sha256": "3dc0b461d5a9ba945305e3768d1d7859499e9eae0849fe3b63810ea7afab762f",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00000635325-protein",
+        "bytes": 625,
+        "sha256": "22df917b382e0f38ca03a728fcacc095735f08c436acca309c912c863feecf35",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00001131803-cdna",
+        "bytes": 2702,
+        "sha256": "ce98e3604898669332e76a4d7cd8520e7e7afda36c17df5042c6e33686132ac5",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00001131803-cds",
+        "bytes": 2086,
+        "sha256": "85f770cb14aac83611209b21ee82525c95d84e1806fc32bb3b3c978916615010",
+        "matches": true
+      },
+      {
+        "source_id": "ENST00001131803-protein",
+        "bytes": 765,
+        "sha256": "cda5dd7490e80900214e8299218e1b7e0e51cc777df6248e513fb9dcf2f326b4",
+        "matches": true
+      },
+      {
+        "source_id": "ensembl-assembly",
+        "bytes": 12640,
+        "sha256": "4e6789582b612e8f1fae0bd1699a614f3a3fde15c6f2c3439fef7dcff3789e89",
+        "matches": true
+      },
+      {
+        "source_id": "ensembl-gene",
+        "bytes": 25821,
+        "sha256": "9d116bbc9fe1bd146991e109b0213a2324f7e197111a72039c9226af168d08fd",
+        "matches": true
+      },
+      {
+        "source_id": "ensembl-gene-sequence",
+        "bytes": 44347,
+        "sha256": "7291bf9478affb5cf3ff6d762335818506e447d89d09c928c5dfba1f0b18e24c",
+        "matches": true
+      },
+      {
+        "source_id": "ensembl-release",
+        "bytes": 18,
+        "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c",
+        "matches": true
+      },
+      {
+        "source_id": "ensembl-variant",
+        "bytes": 628,
+        "sha256": "aaa79e4bafcf46237853630dba2c5016147f4a29b14507a22499cb5f154f9e0a",
+        "matches": true
+      },
+      {
+        "source_id": "ge2018",
+        "bytes": 141926,
+        "sha256": "d9defe51c4394078e70928259e1586718a8c3c436bbbd3ba436b53d5a15cd63c",
+        "matches": true
+      },
+      {
+        "source_id": "lindeboom2016",
+        "bytes": 119305,
+        "sha256": "bfd439a678958ee52fe2c67d20b9ab148878b1b99e0a66b9b44c548dd50ee8f4",
+        "matches": true
+      },
+      {
+        "source_id": "lindeboom2019",
+        "bytes": 124932,
+        "sha256": "7fb827bd35d766ce406090781227d2e200e1df2a0f2dc62b11956fa152a0944a",
+        "matches": true
+      },
+      {
+        "source_id": "mucaki2020",
+        "bytes": 249930,
+        "sha256": "745fa2ea00875263a591b1c207d3c3eb646994b5fe85c461282f816aeeb1f5d6",
+        "matches": true
+      },
+      {
+        "source_id": "uniprot-entry",
+        "bytes": 55106,
+        "sha256": "e78ebcc48ad0b4b0c72e225a8f8aae5ca40b1732c6b16dacbd915371fdd63b44",
+        "matches": true
+      },
+      {
+        "source_id": "uniprot-search",
+        "bytes": 55120,
+        "sha256": "9b07e52eb81bb201b55c145b2a5a47c82751b47fce6dcbda35a78ead6f91593c",
+        "matches": true
+      }
+    ],
+    "failed_attempts_preserved": 5
+  },
+  "independent_check": {
+    "path": "reports/ubash3a-consequences-independent-check.json",
+    "sha256": "0a69ff46ff4c0cbd569c5a6e124a30a5f2dac6c9c7823c3021b22d5d9473ff4a",
+    "status": "all_checks_passed",
+    "scalar_comparisons": 69547,
+    "counts": {
+      "source_files": 26,
+      "transcripts_inventoried": 10,
+      "selected_transcripts": 5,
+      "scenarios": 20,
+      "aligned_peptide_residues": 11116,
+      "feature_rows": 60,
+      "exon_rows": 280
+    },
+    "boundary": "Two implementations share pinned input annotation and sequences. Agreement establishes computational consistency, not biological observation."
+  },
+  "deterministic_replay": {
+    "transcript-inventory.csv": true,
+    "consequences.csv": true,
+    "exon-coordinates.csv": true,
+    "protein-features.csv": true,
+    "protein-reference-alignment.csv": true,
+    "transcripts.fasta": true,
+    "orfs-with-stop.fasta": true,
+    "proteins.fasta": true,
+    "retained-segments.fasta": true,
+    "audit.json": true
+  },
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "passed": 165,
+    "duration_seconds": 48.788,
+    "new_synthetic_tests": 21,
+    "log_path": "work/ubash3a-consequences/full-tests.log",
+    "log_sha256": "acc9617dec965dfcc2d41911b586c5a3b4b2cf1c386701f618e75a08755cf947",
+    "log_retention": "Local ignored runtime artifact; rerun command to reproduce test validation."
+  },
+  "runtime_changes": {
+    "existing_package_versions_checked": 50,
+    "previous_versions_changed": [],
+    "added_packages": {
+      "biopython": "1.88",
+      "certifi": "2026.7.22",
+      "charset-normalizer": "3.5.1",
+      "idna": "3.19",
+      "requests": "2.34.2",
+      "urllib3": "2.7.0"
+    },
+    "before_snapshot_sha256": "87a4c289c19a56b25c3811a4c1e1840b4739480f45c23ed99f1c6bb710014b15",
+    "after_snapshot_sha256": "b308c4f30df979ef99421c0444ee2c7464078e6be96e725728cee201a6cf8947"
+  },
+  "prior_work_preservation": {
+    "baseline_commit": "eddc422259d9127a464493f44eadd01630f76057",
+    "tracked_files_checked": 621,
+    "unchanged_files": 617,
+    "method": "Compared every baseline Git blob object ID against git hash-object of its current workspace file.",
+    "intentional_updates": [
+      {
+        "path": "README.md",
+        "baseline_sha256": "c47305bbae693bec622c89a358240b97193157452dc9835ecc1b100627d992de",
+        "current_sha256": "93efbccc80dc9ba49e9e912815dfb3acc292315410eea24151f118b6b9fe2e8c",
+        "reason": "Dated result navigation, evidence or completion status; historical reports and analysis outputs remain unchanged."
+      },
+      {
+        "path": "docs/data-sources.md",
+        "baseline_sha256": "fe07bb9eda7efbe5561ae01404a3949cd6f3434a06f1dcc36603db839009e0ce",
+        "current_sha256": "76cddccbfaf774b680e21fdbc13569c5817a2b564de183c825e0df6ad7e9ce73",
+        "reason": "Dated result navigation, evidence or completion status; historical reports and analysis outputs remain unchanged."
+      },
+      {
+        "path": "docs/evidence-log.md",
+        "baseline_sha256": "acdc39ae08d76908aa4c2fc0dbba9ed6eea91499f731316a2b093b2903e0ccf7",
+        "current_sha256": "7dc60ad72ff74ebab529f11ff2d50151946298af11b537081e3cd25545983052",
+        "reason": "Dated result navigation, evidence or completion status; historical reports and analysis outputs remain unchanged."
+      },
+      {
+        "path": "docs/research-plan.md",
+        "baseline_sha256": "77cb4adf922a10fec5abd5557a2b38402b32c089ba46335ebd9155ad7021ca00",
+        "current_sha256": "e60601a55fc60304e74146b38ec50a7cb26f47154777313ef056e5eb03887b0e",
+        "reason": "Dated result navigation, evidence or completion status; historical reports and analysis outputs remain unchanged."
+      }
+    ],
+    "unexpected_changes": [],
+    "earlier_reports_scripts_locks_tables_and_unsent_correspondence_unchanged": true
+  },
+  "presentation_checks": {
+    "figure_visually_inspected": true,
+    "figure_outputs": [
+      "reports/figures/ubash3a-transcript-consequences.png",
+      "reports/figures/ubash3a-transcript-consequences.svg"
+    ],
+    "new_csv_rows": {
+      "data/derived/ubash3a-consequences/consequences.csv": 20,
+      "data/derived/ubash3a-consequences/exon-coordinates.csv": 280,
+      "data/derived/ubash3a-consequences/protein-features.csv": 60,
+      "data/derived/ubash3a-consequences/protein-reference-alignment.csv": 11116,
+      "data/derived/ubash3a-consequences/transcript-inventory.csv": 10
+    },
+    "csv_line_endings": "LF",
+    "local_markdown_links_resolved": 209,
+    "git_diff_check_passed": true,
+    "svg_formatting": {
+      "reason": "Staged Git whitespace check identified trailing blanks emitted by Matplotlib.",
+      "change": "Remove line-end whitespace in newly generated SVG only; generator now does this automatically.",
+      "normalized_svg_xml_unchanged": true,
+      "png_bytes_unchanged": true,
+      "previous_svg_sha256": "7c0ad0bae45f168e9c2c81c6dbc51b74a1ae34b3d420aba96bbc2a9ebe7690fa",
+      "sequence_outputs_unchanged": true
+    }
+  },
+  "files_sha256": {
+    "README.md": "93efbccc80dc9ba49e9e912815dfb3acc292315410eea24151f118b6b9fe2e8c",
+    "config/ubash3a-consequence-plan.json": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+    "config/ubash3a-consequence-run.json": "ca3495d85b1e755ec5b0709f6554f18f8fa748b78676eab18eafd7db077a4929",
+    "config/ubash3a-consequence-sources.json": "1cfbc4a6cc7a4f07fe5f5921f4ffe45a9e79640eb6969926db58255f26f1e9b3",
+    "data/derived/ubash3a-consequences/audit.json": "ae73b54eab14756119675cd24ac63898049f4c107aa5e8ba50e6e7a699770c96",
+    "data/derived/ubash3a-consequences/consequences.csv": "9f5a749205a8ef22501e52896f70e968dd6c8180b48bf1a35b09f012a5f420ba",
+    "data/derived/ubash3a-consequences/exon-coordinates.csv": "3af153c983747475ca98379be362c3f950a3bb1778043983cbe0c896b63fd990",
+    "data/derived/ubash3a-consequences/orfs-with-stop.fasta": "418aef5131a6ff8b2e55898e5d2b28ac3a6ea1c7df24c4db41bf1350aa7e85a8",
+    "data/derived/ubash3a-consequences/protein-features.csv": "d1fc0a904118c42c81fd3c70399830e72e193db308ab003d424aefcb889d451b",
+    "data/derived/ubash3a-consequences/protein-reference-alignment.csv": "a2a795e4e5d4c51858bfa84143059e72bccd5f9acc15d6a2795dc799ed3d30f3",
+    "data/derived/ubash3a-consequences/proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "data/derived/ubash3a-consequences/retained-segments.fasta": "25d4adf6eabc40190c5eb2516bd3262648293ea54d9873fb034315f9f7bf1927",
+    "data/derived/ubash3a-consequences/transcript-inventory.csv": "02a4f8e679e7687a4e2129c995a4ae09db4fd7ff75de8593d37e5e668d71bf1c",
+    "data/derived/ubash3a-consequences/transcripts.fasta": "db407110e3e206f5cf6aa857203b7ba2089b996f53eb1f92168ebf6d47bbf02f",
+    "docs/data-sources.md": "76cddccbfaf774b680e21fdbc13569c5817a2b564de183c825e0df6ad7e9ce73",
+    "docs/evidence-log.md": "7dc60ad72ff74ebab529f11ff2d50151946298af11b537081e3cd25545983052",
+    "docs/research-plan.md": "e60601a55fc60304e74146b38ec50a7cb26f47154777313ef056e5eb03887b0e",
+    "docs/ubash3a-consequence-protocol.md": "196b5af67ed6581343e887cd11675d16f76ad70352c0be67789ba256cc900f53",
+    "docs/ubash3a-consequences-reproduction.md": "d75f8eb0880f730879c37b3d6950b6a5788dd6c1df65a8f7ad74b3feafa88b65",
+    "reports/figures/ubash3a-transcript-consequences.png": "69f677fdc7ada0561cd5e67bd119be3eb8227ad5ced4fa59a13e7b12bf16d1e4",
+    "reports/figures/ubash3a-transcript-consequences.svg": "8a3231b938819f89c8ad2abde39449ab9597c474f83dd4734f01ad47f6dd12de",
+    "reports/ubash3a-annotation-recheck.json": "93073ecb80098c0f4fd2c6076cc89d378c40dab9f32fb0bd97761bdcbeaea621",
+    "reports/ubash3a-consequences-independent-check.json": "0a69ff46ff4c0cbd569c5a6e124a30a5f2dac6c9c7823c3021b22d5d9473ff4a",
+    "reports/ubash3a-transcript-consequences.md": "c1ff646f9c22c1b7fa99a1d8498a3159f41d67127eba8d8f90e5bf7529b31f04",
+    "requirements-ubash3a-consequences.txt": "91ba963521c62c9616449db363d438d03ae303467a00bb54da44f66f0059416a",
+    "scripts/analyze_ubash3a_consequences.py": "32861b4829bba4cbf3b05cbe424951c48354d316051bc87811334a68e2a8122d",
+    "scripts/fetch_ubash3a_consequence_sources.py": "8d67dfb3f77077a795c36dba0b45c016c5e6513eabb6283ee10633ec178261e2",
+    "scripts/plot_ubash3a_consequences.py": "3a72983b17788428bb1634c933bc4e95806667012608ec56c1944b601b524d8d",
+    "scripts/verify_ubash3a_consequences.py": "6b781919967628dd43b1b483059d695d2ed89f12a1db03b5f4a59229753a6cd3",
+    "tests/test_ubash3a_consequences.py": "94cf8282dbe67a2415fbc0cca3f2432f55c54849c9dbd9837c5217165c93ac31"
+  },
+  "self_hash_omitted": "This completion record is excluded from its own artifact hash list to avoid recursion.",
+  "remaining_biological_questions": [
+    "Abundance of each full-length +29-containing transcript in the relevant cell context",
+    "Allele-associated direction and magnitude of exact splice-form use",
+    "Transcript-specific NMD sensitivity and stable altered protein existence",
+    "Functional consequences and relevance to PSC susceptibility or established disease"
+  ]
+}

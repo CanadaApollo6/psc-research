@@ -1,0 +1,24 @@
+{
+  "run_id": "ubash3a-consequences-v1",
+  "started_at_utc": "2026-09-14T18:13:07.473147+00:00",
+  "status": "started_before_first_sequence_consequence_execution",
+  "command": ".venv/bin/python scripts/analyze_ubash3a_consequences.py",
+  "input_and_method_sha256": {
+    "config/ubash3a-consequence-plan.json": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+    "docs/ubash3a-consequence-protocol.md": "196b5af67ed6581343e887cd11675d16f76ad70352c0be67789ba256cc900f53",
+    "config/ubash3a-consequence-sources.json": "1cfbc4a6cc7a4f07fe5f5921f4ffe45a9e79640eb6969926db58255f26f1e9b3",
+    "scripts/analyze_ubash3a_consequences.py": "32861b4829bba4cbf3b05cbe424951c48354d316051bc87811334a68e2a8122d",
+    "scripts/fetch_ubash3a_consequence_sources.py": "8d67dfb3f77077a795c36dba0b45c016c5e6513eabb6283ee10633ec178261e2",
+    "tests/test_ubash3a_consequences.py": "94cf8282dbe67a2415fbc0cca3f2432f55c54849c9dbd9837c5217165c93ac31",
+    "requirements-ubash3a-consequences.txt": "91ba963521c62c9616449db363d438d03ae303467a00bb54da44f66f0059416a"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "biopython": "1.88",
+    "requests": "2.34.2",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "pre_execution_validation": "21 synthetic boundary and failure-handling tests passed; all sequence sources captured and pinned.",
+  "methods_amended": false
+}

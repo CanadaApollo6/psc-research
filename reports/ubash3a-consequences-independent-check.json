@@ -1,0 +1,270 @@
+{
+  "verification_id": "ubash3a-consequences-independent-v1",
+  "verified_at_utc": "2026-09-14T18:20:56.790620+00:00",
+  "status": "all_checks_passed",
+  "scalar_comparisons": 69547,
+  "methods": {
+    "primary": "Insert 29 nt into reconstructed normal cDNA; literal standard codon table",
+    "independent": "Replace genomic allele, extend only the chosen genomic exon interval, concatenate exons; Biopython translation",
+    "feature_check": "Per-genomic-nucleotide reference residue and codon-offset mapping",
+    "shared_inputs": "Both implementations use the same pinned source annotation and sequences; this verifies computation, not the biological truth or completeness of the annotations.",
+    "biopython_version": "1.88"
+  },
+  "reference_checks": [
+    {
+      "transcript": "ENST00000291535.12",
+      "cdna_cds_protein_and_lookup_match": true
+    },
+    {
+      "transcript": "ENST00000319294.11",
+      "cdna_cds_protein_and_lookup_match": true
+    },
+    {
+      "transcript": "ENST00000398367.2",
+      "cdna_cds_protein_and_lookup_match": true
+    },
+    {
+      "transcript": "ENST00000635325.1",
+      "cdna_cds_protein_and_lookup_match": true
+    },
+    {
+      "transcript": "ENST00001131803.1",
+      "cdna_cds_protein_and_lookup_match": true
+    }
+  ],
+  "counts": {
+    "source_files": 26,
+    "transcripts_inventoried": 10,
+    "selected_transcripts": 5,
+    "scenarios": 20,
+    "aligned_peptide_residues": 11116,
+    "feature_rows": 60,
+    "exon_rows": 280
+  },
+  "stop_coordinate_sensitivity": [
+    {
+      "scenario_id": "ENST00000291535.12__normal_A",
+      "stop_start_cdna_1based": 1996,
+      "stop_end_cdna_1based": 1998,
+      "final_junction_cdna_boundary": 1860,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000291535.12__normal_C",
+      "stop_start_cdna_1based": 1996,
+      "stop_end_cdna_1based": 1998,
+      "final_junction_cdna_boundary": 1860,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000291535.12__plus29_A",
+      "stop_start_cdna_1based": 1621,
+      "stop_end_cdna_1based": 1623,
+      "final_junction_cdna_boundary": 1889,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000291535.12__plus29_C",
+      "stop_start_cdna_1based": 1621,
+      "stop_end_cdna_1based": 1623,
+      "final_junction_cdna_boundary": 1889,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000319294.11__normal_A",
+      "stop_start_cdna_1based": 2028,
+      "stop_end_cdna_1based": 2030,
+      "final_junction_cdna_boundary": 1892,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000319294.11__normal_C",
+      "stop_start_cdna_1based": 2028,
+      "stop_end_cdna_1based": 2030,
+      "final_junction_cdna_boundary": 1892,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000319294.11__plus29_A",
+      "stop_start_cdna_1based": 1653,
+      "stop_end_cdna_1based": 1655,
+      "final_junction_cdna_boundary": 1921,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000319294.11__plus29_C",
+      "stop_start_cdna_1based": 1653,
+      "stop_end_cdna_1based": 1655,
+      "final_junction_cdna_boundary": 1921,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000398367.2__normal_A",
+      "stop_start_cdna_1based": 1705,
+      "stop_end_cdna_1based": 1707,
+      "final_junction_cdna_boundary": 1643,
+      "stop_end_to_final_junction_nt": -64,
+      "stop_first_base_to_final_junction_nt": -62,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000398367.2__normal_C",
+      "stop_start_cdna_1based": 1705,
+      "stop_end_cdna_1based": 1707,
+      "final_junction_cdna_boundary": 1643,
+      "stop_end_to_final_junction_nt": -64,
+      "stop_first_base_to_final_junction_nt": -62,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00000398367.2__plus29_A",
+      "stop_start_cdna_1based": 1621,
+      "stop_end_cdna_1based": 1623,
+      "final_junction_cdna_boundary": 1672,
+      "stop_end_to_final_junction_nt": 49,
+      "stop_first_base_to_final_junction_nt": 51,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000398367.2__plus29_C",
+      "stop_start_cdna_1based": 1621,
+      "stop_end_cdna_1based": 1623,
+      "final_junction_cdna_boundary": 1672,
+      "stop_end_to_final_junction_nt": 49,
+      "stop_first_base_to_final_junction_nt": 51,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000635325.1__normal_A",
+      "stop_start_cdna_1based": 1629,
+      "stop_end_cdna_1based": 1631,
+      "final_junction_cdna_boundary": 1957,
+      "stop_end_to_final_junction_nt": 326,
+      "stop_first_base_to_final_junction_nt": 328,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000635325.1__normal_C",
+      "stop_start_cdna_1based": 1629,
+      "stop_end_cdna_1based": 1631,
+      "final_junction_cdna_boundary": 1957,
+      "stop_end_to_final_junction_nt": 326,
+      "stop_first_base_to_final_junction_nt": 328,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000635325.1__plus29_A",
+      "stop_start_cdna_1based": 1560,
+      "stop_end_cdna_1based": 1562,
+      "final_junction_cdna_boundary": 1986,
+      "stop_end_to_final_junction_nt": 424,
+      "stop_first_base_to_final_junction_nt": 426,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00000635325.1__plus29_C",
+      "stop_start_cdna_1based": 1560,
+      "stop_end_cdna_1based": 1562,
+      "final_junction_cdna_boundary": 1986,
+      "stop_end_to_final_junction_nt": 424,
+      "stop_first_base_to_final_junction_nt": 426,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00001131803.1__normal_A",
+      "stop_start_cdna_1based": 2110,
+      "stop_end_cdna_1based": 2112,
+      "final_junction_cdna_boundary": 1974,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00001131803.1__normal_C",
+      "stop_start_cdna_1based": 2110,
+      "stop_end_cdna_1based": 2112,
+      "final_junction_cdna_boundary": 1974,
+      "stop_end_to_final_junction_nt": -138,
+      "stop_first_base_to_final_junction_nt": -136,
+      "primary_gt55_from_stop_end": false,
+      "sensitivity_gt50_from_stop_end": false,
+      "sensitivity_gt50_from_stop_first_base": false
+    },
+    {
+      "scenario_id": "ENST00001131803.1__plus29_A",
+      "stop_start_cdna_1based": 1735,
+      "stop_end_cdna_1based": 1737,
+      "final_junction_cdna_boundary": 2003,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    },
+    {
+      "scenario_id": "ENST00001131803.1__plus29_C",
+      "stop_start_cdna_1based": 1735,
+      "stop_end_cdna_1based": 1737,
+      "final_junction_cdna_boundary": 2003,
+      "stop_end_to_final_junction_nt": 266,
+      "stop_first_base_to_final_junction_nt": 268,
+      "primary_gt55_from_stop_end": true,
+      "sensitivity_gt50_from_stop_end": true,
+      "sensitivity_gt50_from_stop_first_base": true
+    }
+  ],
+  "boundary_interpretation": "ENST00000398367.2 retained stop is 49 nt from its final nucleotide, or 51 nt from its first nucleotide, to the final exon boundary. It is below the frozen >55 nt flag under both conventions; the >50 nt sensitivity classification changes with codon convention. This is a boundary case, not established NMD escape.",
+  "plan_sha256": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+  "primary_audit_sha256": "ae73b54eab14756119675cd24ac63898049f4c107aa5e8ba50e6e7a699770c96",
+  "checker_sha256": "6b781919967628dd43b1b483059d695d2ed89f12a1db03b5f4a59229753a6cd3"
+}
