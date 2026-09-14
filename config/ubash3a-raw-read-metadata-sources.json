@@ -1,0 +1,65 @@
+{
+  "purpose": "Metadata and tool-release lookup only; no raw target reads inspected",
+  "sources": [
+    {
+      "source_id": "DRA016285.experiment.xml",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRA016285.experiment.xml",
+      "retrieved_at_utc": "2026-09-14T20:47:05.086481+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/DRA016285.experiment.xml",
+      "bytes": 42884,
+      "sha256": "3164bba1b32abfed74b9a22ab79dcf05c9222552850127e1df5adda4dc041fe9",
+      "etag": "\"a784-61ba3045bacc0\"",
+      "last_modified": "Mon, 24 Jun 2024 13:47:07 GMT"
+    },
+    {
+      "source_id": "DRA016285.run.xml",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRA016285.run.xml",
+      "retrieved_at_utc": "2026-09-14T20:47:05.086745+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/DRA016285.run.xml",
+      "bytes": 6689,
+      "sha256": "c3cadffd41526a2df7584cb709a9aa2631327e0c7406e786bebf8f08b150a210",
+      "etag": "\"1a21-5fbbb3408c780\"",
+      "last_modified": "Mon, 15 May 2023 13:12:14 GMT"
+    },
+    {
+      "source_id": "DRA016285.sample.xml",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRA016285.sample.xml",
+      "retrieved_at_utc": "2026-09-14T20:47:05.087426+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/DRA016285.sample.xml",
+      "bytes": 43768,
+      "sha256": "6de90b9973c6eab6f5deaa2072183729f2f433651c9c34a33153a82028189551",
+      "etag": "\"aaf8-61ba3045bacc0\"",
+      "last_modified": "Mon, 24 Jun 2024 13:47:07 GMT"
+    },
+    {
+      "source_id": "DRA016285.study.xml",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRA016285.study.xml",
+      "retrieved_at_utc": "2026-09-14T20:47:05.991718+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/DRA016285.study.xml",
+      "bytes": 2503,
+      "sha256": "21b19cbc0501bf49c52fe17352af51055dd4529179264244e98598d7d61b9660",
+      "etag": "\"9c7-61ba3045bacc0\"",
+      "last_modified": "Mon, 24 Jun 2024 13:47:07 GMT"
+    },
+    {
+      "source_id": "DRA016285.submission.xml",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRA016285.submission.xml",
+      "retrieved_at_utc": "2026-09-14T20:47:06.242528+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/DRA016285.submission.xml",
+      "bytes": 812,
+      "sha256": "26643ce929912e7ca515135470e6877fbd31a4b4761ee5484099b1c89ba910f2",
+      "etag": "\"32c-61ba25c922f00\"",
+      "last_modified": "Mon, 24 Jun 2024 13:00:12 GMT"
+    },
+    {
+      "source_id": "minimap2-latest-release.json",
+      "url": "https://api.github.com/repos/lh3/minimap2/releases/latest",
+      "retrieved_at_utc": "2026-09-14T20:47:06.243680+00:00",
+      "path": "data/raw/ubash3a-raw-read-audit/minimap2-latest-release.json",
+      "bytes": 5592,
+      "sha256": "cf3216d651e808d2b435c44c41d9a24bfe046a75a58de25da2d2b4d89cb68e70",
+      "etag": "W/\"500ef1a258b5e1c8ffca4f73c665e1662146635cb12010bf22d3f61a14b462de\"",
+      "last_modified": "Wed, 20 May 2026 13:54:05 GMT"
+    }
+  ]
+}

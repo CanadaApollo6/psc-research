@@ -1,0 +1,37 @@
+{
+  "plan_sha256": "76a6a34bc1ca475de65a8f12f9f5ca96cf940b13b4f7887cdf13c476697539f0",
+  "script_sha256": "5fc415718614087fa427d53f80fb87212e7e496e2213831a1f70754f270c164d",
+  "prior_translation_library_sha256": "32861b4829bba4cbf3b05cbe424951c48354d316051bc87811334a68e2a8122d",
+  "verification": [
+    {
+      "scenario": "T29__A",
+      "independent_RNA_equal": true,
+      "independent_Biopython_translation_equal": true,
+      "independent_first_stop_equal": true,
+      "bases_checked": 4392,
+      "amino_acids_checked": 482
+    },
+    {
+      "scenario": "T29__C",
+      "independent_RNA_equal": true,
+      "independent_Biopython_translation_equal": true,
+      "independent_first_stop_equal": true,
+      "bases_checked": 4392,
+      "amino_acids_checked": 482
+    }
+  ],
+  "allele_RNAs_differ_only_at_fixed_position": true,
+  "files_sha256": {
+    "consequences.csv": "6db793e3238ddf0d7297e48c5f5d8f0d26bf6c29f6e6a18f51c96e981967dc6c",
+    "previous-product-comparisons.csv": "bf57dfb4c799173aa522ead43cc112719cbb2702aa0638956378df9f168016f1",
+    "protein-codon-map.csv": "cf1a6e6cf30b4408245392d538266a350f333fa10d32676278908a48c14e07a3",
+    "protein-features.csv": "a2525de3ec74a3f0e6c7962c695b9d8fcb17c32c70cd77283288c716b15c1312",
+    "tryptic-candidates.csv": "1039c9386f2de50f97d4097d779bad4fdd7d36b9266c3988328248468451c13d",
+    "exon-coordinates.csv": "f63a4387e781d945ba4baba960b68564126ef3caf7136a2fa15061fa240f7b22",
+    "transcripts.fasta": "019346c183f5f6562b03cb50ca5e21c5d888e1227fd003e2811965c1b3f18585",
+    "orfs-with-stop.fasta": "9d17c498f142c01f795e911c43661c4ccae5d586410ff3b73848254937af6a7a",
+    "proteins.fasta": "9b5707a5c8fd7106ea01f2761e22747136f49dc9e29586967281a8c5faa96a27"
+  },
+  "distinct_candidate_peptides_absent_from_prior_products_IL_equivalent": 4,
+  "biological_boundary": "Conditional sequence results. No observed translation initiation, protein, decay, donor genotype, or human-proteome-specific peptide."
+}

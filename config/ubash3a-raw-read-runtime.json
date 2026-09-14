@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-09-14T21:25:30.820507+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+  "packages": {
+    "pysam": "0.23.3",
+    "biopython": "1.88",
+    "requests": "2.34.2"
+  },
+  "minimap2": "2.31-r1302",
+  "approved_install_only": "minimap2 isolated in project; Python packages were already present",
+  "reference_index_peak_RSS_GB": 16.475,
+  "mapping_policy": "one library at a time, eight aligner workers, 50M-base query batches; one complete genome index",
+  "independent_verification": "Separate textual-CIGAR parser and hand-written affine dynamic programming; 50 deterministic synthetic score comparisons passed."
+}

@@ -1,0 +1,139 @@
+{
+  "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+  "script_sha256": "2884cb24afebc4bf10f755d3d992af5d2cafb268b35d1d0a6283a4b4e3942567",
+  "additive_coding_descriptors_sha256": "268b9b057a088b22d400229ca4d5ae6fdc5827c2a2e4a2cb63f6a46e5d7c18b7",
+  "shared_CIGAR_parser_sha256": "6e4603e267c39c810e63a005fa2a05ab228f254e17f64c28bf50ca4421bc2dc1",
+  "samples": {
+    "NCD4": {
+      "sample": "NCD4",
+      "stats": {
+        "sample": "NCD4",
+        "input_reads": 5611025,
+        "input_bases": 5469014753,
+        "shortest_read": 46,
+        "longest_read": 66282,
+        "output_query_groups": 5611025,
+        "mapped_primary_reads": 5576972,
+        "unmapped_reads": 34053,
+        "all_output_alignments": 9798276,
+        "target_query_groups": 397,
+        "target_all_locus_and_competing_alignments": 412,
+        "complete_fastq_and_bzip2_integrity": true
+      },
+      "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+      "script_sha256": "8f13d67974ff075b34d21075dbdcb6b9d0f78edd84638ae2f7d79b54d38c5cb0",
+      "input_sha256": "f210d2068ceaed9327eef4ab50bc848ae32d74c185ab0dacbd13642d6bd62a16",
+      "command": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/minimap2-v2.31/minimap2",
+        "-ax",
+        "splice",
+        "-t",
+        "8",
+        "-K",
+        "50M",
+        "--secondary=yes",
+        "-N",
+        "20",
+        "--cs=long",
+        "--MD",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/GRCh38.primary.splice.mmi",
+        "-"
+      ],
+      "sensitivity_command": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/minimap2-v2.31/minimap2",
+        "-ax",
+        "splice",
+        "-t",
+        "8",
+        "-K",
+        "50M",
+        "--secondary=yes",
+        "-N",
+        "20",
+        "--cs=long",
+        "--MD",
+        "--splice-flank=no",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/GRCh38.primary.splice.mmi",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/NCD4/target-reads.fastq.gz"
+      ],
+      "sensitivity_scope": "only reads nominated by a primary-setting locus or competing alignment",
+      "completed_at_utc": "2026-09-14T21:40:19.028303+00:00",
+      "output_hashes": {
+        "target-groups.bam": "d80d7911cbc2bbd178db4ab735ae361b6ebec589e996541e43e207ff71405805",
+        "target-reads.fastq.gz": "4e8ec02b172291347545d6da881f77e830c1cf67ded02a7eb8481d90e503ff4a",
+        "target-groups.sorted.bam": "cfbd360d034d21394795a408fded3a953113a6c640b95f9708acd322fd661e9f",
+        "target-groups.sorted.bam.bai": "658734b96c5d68a80009bb52344bafffd02df42210cef41dc6637e0dff6c2434",
+        "target-sensitivity.bam": "17f091ce36583ecbb2257c4cee6ab6e92482ca2e453a53dc7eca1fcc761bb4f9"
+      }
+    },
+    "MemCD4": {
+      "sample": "MemCD4",
+      "stats": {
+        "sample": "MemCD4",
+        "input_reads": 2790053,
+        "input_bases": 2581343875,
+        "shortest_read": 89,
+        "longest_read": 83477,
+        "output_query_groups": 2790053,
+        "mapped_primary_reads": 2773827,
+        "unmapped_reads": 16226,
+        "all_output_alignments": 4333996,
+        "target_query_groups": 248,
+        "target_all_locus_and_competing_alignments": 252,
+        "complete_fastq_and_bzip2_integrity": true
+      },
+      "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+      "script_sha256": "8f13d67974ff075b34d21075dbdcb6b9d0f78edd84638ae2f7d79b54d38c5cb0",
+      "input_sha256": "c1a9b7b6645e75de9b6abfc6d2512c9e4ae68d3302eac032807743618140f6c3",
+      "command": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/minimap2-v2.31/minimap2",
+        "-ax",
+        "splice",
+        "-t",
+        "8",
+        "-K",
+        "50M",
+        "--secondary=yes",
+        "-N",
+        "20",
+        "--cs=long",
+        "--MD",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/GRCh38.primary.splice.mmi",
+        "-"
+      ],
+      "sensitivity_command": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/minimap2-v2.31/minimap2",
+        "-ax",
+        "splice",
+        "-t",
+        "8",
+        "-K",
+        "50M",
+        "--secondary=yes",
+        "-N",
+        "20",
+        "--cs=long",
+        "--MD",
+        "--splice-flank=no",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/GRCh38.primary.splice.mmi",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-raw-read-audit/MemCD4/target-reads.fastq.gz"
+      ],
+      "sensitivity_scope": "only reads nominated by a primary-setting locus or competing alignment",
+      "completed_at_utc": "2026-09-14T21:54:50.049712+00:00",
+      "output_hashes": {
+        "target-groups.bam": "388b6fe9cd26b4d536be276aa1229bfc830e038eb08bbd232332546373367144",
+        "target-reads.fastq.gz": "d1a694d00a43c434005dfa010321c160631f3e3554e0e11f1aee479d8d22ff12",
+        "target-groups.sorted.bam": "8e6c604ff29a39597835c0ea35b8e3130fc76d9abbb87b40c39ac0a667baae90",
+        "target-groups.sorted.bam.bai": "68734d727fb717e2608d2445eab7557c06b69c3064a97ee287f4ed66d1c35994",
+        "target-sensitivity.bam": "17dc3b9685f6beed8048224ea6ef6f84ec3bef8351275269f4f939963036e9d3"
+      }
+    }
+  },
+  "files_sha256": {
+    "raw-locus-alignments.csv": "151012f3e374cba822278180bca8b8adc87efa184c365fda1e47e803ab269623",
+    "raw-read-summary.csv": "60782e96c8c129e61480bfe6d1bc70b6f19ea44751fcd4c91947ef1293d1b6c2",
+    "raw-architecture-counts.csv": "f72dfec5554a13a2cdcb76c63d05831cb35e728c2e899fab89703ab29c970696",
+    "raw-alignment-sensitivity.csv": "cfbb54dd662e48f98a7f49df41c759b882cfbc4bb31ff016f430eece7ebd3e90"
+  },
+  "interpretation": "Amplified cDNA reads from one donor; exact sequences are not original-molecule identities; no inferred genotype, RNA survival, or protein detection."
+}

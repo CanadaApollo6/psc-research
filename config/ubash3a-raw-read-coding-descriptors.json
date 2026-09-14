@@ -1,0 +1,22 @@
+{
+  "defined_at_utc": "2026-09-14T21:36:02.267285+00:00",
+  "before_raw_target_classification_or_counts_inspected": true,
+  "purpose": "Add coordinate-coverage descriptors for the conditional T29 stop computed independently during alignment; unchanged primary and sensitivity eligibility/counting rules.",
+  "raw_plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+  "T29_consequences_sha256": "6db793e3238ddf0d7297e48c5f5d8f0d26bf6c29f6e6a18f51c96e981967dc6c",
+  "T29_assumed_start_1based": [
+    42403946,
+    42403948
+  ],
+  "T29_conditional_stop_1based": [
+    42437900,
+    42437902
+  ],
+  "previous_plus29_conditional_stop_1based": [
+    42442545,
+    42442547
+  ],
+  "T29_catalog_end_1based": 42440816,
+  "interpretation": "Coverage of reference codon coordinates, not proof of an error-free coding sequence, translation, or an RNA end.",
+  "freeze_boundary_detail": "Whole-genome alignment and locus-only extraction were already running. Target-junction eligibility, downstream/full-chain counts and target-read sequences had not been inspected; the original primary and sensitivity criteria remain unchanged."
+}

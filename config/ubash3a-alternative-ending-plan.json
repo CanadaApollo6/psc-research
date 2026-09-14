@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "fixed_at_utc": "2026-09-14T21:10:30.740174+00:00",
+  "exploratory": true,
+  "before_new_T29_ORF_computation": true,
+  "candidate_label": "T29",
+  "candidate_source_model": "e09f04f5-c617-4bb3-b69c-519ccb16d0f1",
+  "assembly": "GRCh38",
+  "chromosome": "21",
+  "strand": "+",
+  "gene_reference_start_1based": 42403447,
+  "conditional_coding_start_1based": 42403946,
+  "allele_position_1based": 42434957,
+  "hypothetical_alleles": [
+    "A",
+    "C"
+  ],
+  "tryptic_peptide_lengths": [
+    7,
+    35
+  ],
+  "missed_cleavages": [
+    0,
+    1
+  ],
+  "mass_spec_I_L_equivalent": true,
+  "input_pins": {
+    "docs/ubash3a-alternative-ending-protocol.md": "bceb43ba185d25c5b47ae559f160ef35d8f48c5a64bac9fa6deba46131105156",
+    "data/derived/ubash3a-cd4-experiment/assay-targets.csv": "c0f074d13735f37bd6b5f989c7f3803a8f40b6ceaa6284db68ae2bd33b1606bc",
+    "data/raw/ubash3a-consequences/ensembl-gene-sequence.json": "7291bf9478affb5cf3ff6d762335818506e447d89d09c928c5dfba1f0b18e24c",
+    "data/raw/ubash3a-consequences/uniprot-entry.json": "e78ebcc48ad0b4b0c72e225a8f8aae5ca40b1732c6b16dacbd915371fdd63b44",
+    "data/derived/ubash3a-consequences/proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "data/derived/ubash3a-consequences/protein-reference-alignment.csv": "a2a795e4e5d4c51858bfa84143059e72bccd5f9acc15d6a2795dc799ed3d30f3",
+    "config/ubash3a-consequence-plan.json": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509"
+  }
+}

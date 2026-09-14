@@ -1,0 +1,241 @@
+{
+  "sources": [
+    {
+      "retrieved_at_utc": "2026-09-14T21:27:41.667127+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376",
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-project.json",
+        "max_items": 3,
+        "max_depth": 2,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": true,
+        "source": "www-ebi-ac-uk",
+        "path": "projects/PXD000376",
+        "method": "GET",
+        "status_code": 200,
+        "record_path": null,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-project.json",
+        "warnings": [],
+        "summary": {
+          "accession": "PXD000376",
+          "title": "A Multi-Omic Analysis of Human Naive CD4 T cells",
+          "additionalAttributes": [],
+          "_truncated_keys": 28
+        },
+        "top_keys": [
+          "accession",
+          "title",
+          "additionalAttributes"
+        ]
+      },
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "project_metadata_only_no_spectra",
+      "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-project.json",
+      "sha256": "f98fe64f64a93521a4f64c573f1fd6a12c1b7cc3ac0080c3c01a89fb4f6f44d4",
+      "snapshot_bytes": 6983,
+      "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD000376"
+    },
+    {
+      "retrieved_at_utc": "2026-09-14T21:28:55.320047+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "files/byProject",
+        "params": {
+          "accession": "PXD000376",
+          "pageSize": 100,
+          "page": 0
+        },
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page0.json",
+        "max_items": 2,
+        "max_depth": 2,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "invalid_response",
+          "message": "Expecting value: line 1 column 1 (char 0)"
+        },
+        "warnings": []
+      },
+      "process_exit_code": 1,
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "file_metadata_only_no_spectra"
+    },
+    {
+      "retrieved_at_utc": "2026-09-14T21:30:04.803460+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376/files/count",
+        "params": {},
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-file-count.json",
+        "max_items": 1,
+        "max_depth": 2,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": true,
+        "source": "www-ebi-ac-uk",
+        "path": "projects/PXD000376/files/count",
+        "method": "GET",
+        "status_code": 200,
+        "record_path": null,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-file-count.json",
+        "warnings": [],
+        "summary": 273
+      },
+      "process_exit_code": 0,
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "file_metadata_only_no_spectra",
+      "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-file-count.json",
+      "sha256": "303c8bd55875dda240897db158acf70afe4226f300757f3518b86e6817c00022",
+      "snapshot_bytes": 3
+    },
+    {
+      "retrieved_at_utc": "2026-09-14T21:30:05.139201+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376/files",
+        "params": {
+          "pageSize": 100,
+          "page": 0
+        },
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page0.json",
+        "max_items": 1,
+        "max_depth": 2,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": true,
+        "source": "www-ebi-ac-uk",
+        "path": "projects/PXD000376/files",
+        "method": "GET",
+        "status_code": 200,
+        "record_path": "$",
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page0.json",
+        "warnings": [],
+        "record_count_returned": 1,
+        "record_count_available": 100,
+        "truncated": true,
+        "records": [
+          {
+            "projectAccessions": "...",
+            "_truncated_keys": 12
+          }
+        ]
+      },
+      "process_exit_code": 0,
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "file_metadata_only_no_spectra",
+      "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page0.json",
+      "sha256": "76baf600e1c5c40a92e2aedea8eded5cba10b1d6ffccff0a4590ceb44eb0ceac",
+      "snapshot_bytes": 120441
+    },
+    {
+      "retrieved_at_utc": "2026-09-14T21:30:29.549607+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376/files",
+        "params": {
+          "pageSize": 100,
+          "page": 1
+        },
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page1.json",
+        "max_items": 1,
+        "max_depth": 1,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": true,
+        "source": "www-ebi-ac-uk",
+        "path": "projects/PXD000376/files",
+        "method": "GET",
+        "status_code": 200,
+        "record_path": "$",
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page1.json",
+        "warnings": [],
+        "record_count_returned": 1,
+        "record_count_available": 100,
+        "truncated": true,
+        "records": [
+          "..."
+        ]
+      },
+      "process_exit_code": 0,
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "file_metadata_only_no_spectra",
+      "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page1.json",
+      "sha256": "2a768dc2f223518da155a9c8e484a310e1b9f12cf80632ccab2a5185a9c6b136",
+      "snapshot_bytes": 120249
+    },
+    {
+      "retrieved_at_utc": "2026-09-14T21:30:29.544314+00:00",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376/files",
+        "params": {
+          "pageSize": 100,
+          "page": 2
+        },
+        "save_raw": true,
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page2.json",
+        "max_items": 1,
+        "max_depth": 1,
+        "timeout_sec": 40
+      },
+      "request_script_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "result": {
+        "ok": true,
+        "source": "www-ebi-ac-uk",
+        "path": "projects/PXD000376/files",
+        "method": "GET",
+        "status_code": 200,
+        "record_path": "$",
+        "raw_output_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page2.json",
+        "warnings": [],
+        "record_count_returned": 1,
+        "record_count_available": 73,
+        "truncated": true,
+        "records": [
+          "..."
+        ]
+      },
+      "process_exit_code": 0,
+      "snapshot_format": "parsed_JSON_reserialized_by_skill_client_not_transport_byte_capture",
+      "analysis_stage": "file_metadata_only_no_spectra",
+      "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-files-page2.json",
+      "sha256": "e7a388e304318cfe0e03617cf1b7c1cc6dde823ebed3d6713bed19f14c930477",
+      "snapshot_bytes": 87720
+    }
+  ],
+  "source_API_documentation": {
+    "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/v3/api-docs",
+    "local_path": "data/raw/ubash3a-proteomics-readiness/pride-api-docs.json",
+    "sha256": "bbec60d6372f179895609cc6dcbe97f1062fa542459840f1832ad877c05dfb1d",
+    "snapshot_format": "parsed_JSON_reserialized_by_skill_client"
+  },
+  "study_design_source": {
+    "url": "https://link.springer.com/article/10.1186/s12918-015-0225-4",
+    "retrieved_at_utc": "2026-09-14T21:44:30.247456+00:00",
+    "http_status": 200,
+    "purpose": "Study design and cell-isolation wording only; no target peptides or expression inspected",
+    "local_path": "data/raw/ubash3a-proteomics-readiness/PXD000376-paper.html",
+    "sha256": "7c97d8d6dd1725087d2e30a3c60d6532f13ea7e6ff2c0fb105821cbc7e41288b",
+    "bytes": 572085,
+    "snapshot_format": "HTTP_body_bytes",
+    "usable": true
+  }
+}

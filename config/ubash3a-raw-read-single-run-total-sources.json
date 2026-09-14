@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "run": "DRR465268",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=DRR465268&result=read_run&fields=run_accession%2Cread_count%2Cbase_count&format=json",
+      "retrieved_at_utc": "2026-09-14T21:18:57.995618+00:00",
+      "local_path": "data/raw/ubash3a-raw-read-audit/ena-DRR465268-totals.json",
+      "sha256": "ff28b647ce26da613672624655dfff9391e6b224fc788472d857c4a368de1050",
+      "result": [
+        {
+          "run_accession": "DRR465268",
+          "read_count": "5611025",
+          "base_count": "5469014753"
+        }
+      ]
+    },
+    {
+      "run": "DRR465269",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=DRR465269&result=read_run&fields=run_accession%2Cread_count%2Cbase_count&format=json",
+      "retrieved_at_utc": "2026-09-14T21:18:57.992693+00:00",
+      "local_path": "data/raw/ubash3a-raw-read-audit/ena-DRR465269-totals.json",
+      "sha256": "1b198c0d1d3cd13e6924e0e7ab848fb1161c46b033a3f7461602c00064e563a2",
+      "result": [
+        {
+          "run_accession": "DRR465269",
+          "read_count": "2790053",
+          "base_count": "2581343875"
+        }
+      ]
+    }
+  ],
+  "purpose": "Independent source totals; empty API rows do not mean zero reads"
+}

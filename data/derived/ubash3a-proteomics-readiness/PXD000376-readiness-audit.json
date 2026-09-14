@@ -1,0 +1,29 @@
+{
+  "project": "PXD000376",
+  "complete_file_count_endpoint": 273,
+  "unique_file_records": 273,
+  "metadata_pages": [
+    100,
+    100,
+    73
+  ],
+  "files_by_category": {
+    "RAW": 249,
+    "SEARCH": 24
+  },
+  "bytes_by_category": {
+    "RAW": 91304122023,
+    "SEARCH": 1135736484
+  },
+  "total_listed_bytes": 92439858507,
+  "files_by_extension": {
+    ".raw": 249,
+    ".xml": 24
+  },
+  "files_with_nonempty_publisher_checksum": 0,
+  "inventory_sha256": "855c6f1bbbad1c2ad3cda9ba97773ec670ad247f5cc8a1d51060dd00c40f2857",
+  "spectrum_files_downloaded": 0,
+  "mass_spectra_searched": 0,
+  "human_proteome_specificity_tested": false,
+  "source_metadata_warning": "Project protocol says CD45RO depletion of resting memory CD4 cells; retain verbatim and reconcile with paper/sample mapping before assigning files or comparisons."
+}

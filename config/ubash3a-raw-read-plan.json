@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "frozen_at_utc": "2026-09-14T20:56:53.451358+00:00",
+  "frozen_before_raw_target_inspection": true,
+  "input_pins": {
+    "docs/ubash3a-raw-read-protocol.md": "a3102668e0d8f208ce04fbd5e39c76d3b2de0c3919ecd34ac848b3f2360dfe08",
+    "config/ubash3a-raw-read-sample-selection.json": "ce42d7d8270afb6ed17da0e2dbdfe28ac7eac5fe6e496109f062d9b1f28fea88",
+    "data/derived/ubash3a-cd4-experiment/assay-targets.csv": "c0f074d13735f37bd6b5f989c7f3803a8f40b6ceaa6284db68ae2bd33b1606bc",
+    "data/raw/ubash3a-consequences/ensembl-gene-sequence.json": "7291bf9478affb5cf3ff6d762335818506e447d89d09c928c5dfba1f0b18e24c"
+  },
+  "downloads": [
+    {
+      "id": "NCD4",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRX449504/DRR465268.fastq.bz2",
+      "local_path": "data/raw/ubash3a-raw-read-audit/DRR465268.fastq.bz2",
+      "expected_bytes": 4230554395,
+      "etag": "\"fc29231b-5fbb6bcd13480\"",
+      "publisher_checksum": null
+    },
+    {
+      "id": "MemCD4",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRX449505/DRR465269.fastq.bz2",
+      "local_path": "data/raw/ubash3a-raw-read-audit/DRR465269.fastq.bz2",
+      "expected_bytes": 2002732722,
+      "etag": "\"775f46b2-5fbb6b5024dc0\"",
+      "publisher_checksum": null
+    },
+    {
+      "id": "GRCh38_primary",
+      "url": "https://ftp.ensembl.org/pub/release-112/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "local_path": "data/raw/ubash3a-raw-read-audit/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "expected_bytes": 881964081,
+      "etag": "\"3491b431-6114762a7f98e\"",
+      "publisher_checksum": null
+    }
+  ],
+  "sample_ids": [
+    "NCD4",
+    "MemCD4"
+  ],
+  "chromosome": "21",
+  "locus_interval_1based_inclusive": [
+    42403447,
+    42447684
+  ],
+  "junctions_1based_exonic_endpoints": {
+    "normal": [
+      42434954,
+      42437488
+    ],
+    "plus29": [
+      42434983,
+      42437488
+    ]
+  },
+  "aligner": "work/tools/minimap2-v2.31/minimap2",
+  "aligner_version": "2.31-r1302",
+  "index_options": [
+    "-x",
+    "splice",
+    "-I",
+    "4G",
+    "-t",
+    "4"
+  ],
+  "primary_alignment_options": [
+    "-ax",
+    "splice",
+    "-t",
+    "8",
+    "-K",
+    "50M",
+    "--secondary=yes",
+    "-N",
+    "20",
+    "--cs=long",
+    "--MD"
+  ],
+  "sensitivity_extra_options": [
+    "--splice-flank=no"
+  ],
+  "primary_mapq_min": 20,
+  "primary_anchor_min": 20,
+  "sensitivity_anchor_min": 10,
+  "downloads_budget_bytes": 7115251198,
+  "local_storage_budget_gb": 50,
+  "mapping_threads": 8,
+  "sequential_genome_mapping": true,
+  "normalization": "none_amplified_cDNA_reads_from_one_donor",
+  "protein_or_decay_claim": false
+}

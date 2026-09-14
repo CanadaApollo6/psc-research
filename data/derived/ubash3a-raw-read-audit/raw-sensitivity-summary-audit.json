@@ -1,0 +1,14 @@
+{
+  "input_alignment_sha256": {
+    "work/ubash3a-raw-read-audit/NCD4/target-groups.bam": "d80d7911cbc2bbd178db4ab735ae361b6ebec589e996541e43e207ff71405805",
+    "work/ubash3a-raw-read-audit/NCD4/target-sensitivity.bam": "17f091ce36583ecbb2257c4cee6ab6e92482ca2e453a53dc7eca1fcc761bb4f9",
+    "work/ubash3a-raw-read-audit/MemCD4/target-groups.bam": "388b6fe9cd26b4d536be276aa1229bfc830e038eb08bbd232332546373367144",
+    "work/ubash3a-raw-read-audit/MemCD4/target-sensitivity.bam": "17dc3b9685f6beed8048224ea6ef6f84ec3bef8351275269f4f939963036e9d3"
+  },
+  "script_sha256": "7a7cda4b6bfe9830d376ca72338c492d725c65ff61879e08c00ab650d52900a6",
+  "output_sha256": {
+    "raw-junction-neighborhood.csv": "8656b86894fe00ce1ef6c4ab6c58317fff1fec652c519c724557de022e833ed9",
+    "raw-all-setting-event-counts.csv": "26df1543f32a93452706e813a4fe94bb62caf94eaccb2dd897b67baa31fb45e4"
+  },
+  "scope": "All output alignments for nominated target queries; the sensitivity run cannot find queries absent from primary-setting nomination. Counts are alignment-coordinate descriptors, not donor or molecule counts."
+}

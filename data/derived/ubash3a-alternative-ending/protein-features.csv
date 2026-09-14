@@ -1,0 +1,7 @@
+scenario,feature_type,feature_name,uniprot_start_1based,uniprot_end_1based,reference_length_aa,reference_residues_present,peptide_first_mapped_residue,peptide_last_mapped_residue,sequence_status,evidence,interpretation_boundary
+T29__A,Domain,UBA,15,60,46,46,15,60,intact_reference_sequence,"[{""evidenceCode"":""ECO:0000255"",""source"":""PROSITE-ProRule"",""id"":""PRU00212""}]",Sequence preservation or interruption; not an assay of folding or function
+T29__A,Domain,SH3,276,341,66,66,238,303,intact_reference_sequence,"[{""evidenceCode"":""ECO:0000255"",""source"":""PROSITE-ProRule"",""id"":""PRU00192""}]",Sequence preservation or interruption; not an assay of folding or function
+T29__A,Region,Phosphatase-like,395,661,267,70,357,426,partial_reference_sequence,[],Sequence preservation or interruption; not an assay of folding or function
+T29__C,Domain,UBA,15,60,46,46,15,60,intact_reference_sequence,"[{""evidenceCode"":""ECO:0000255"",""source"":""PROSITE-ProRule"",""id"":""PRU00212""}]",Sequence preservation or interruption; not an assay of folding or function
+T29__C,Domain,SH3,276,341,66,66,238,303,intact_reference_sequence,"[{""evidenceCode"":""ECO:0000255"",""source"":""PROSITE-ProRule"",""id"":""PRU00192""}]",Sequence preservation or interruption; not an assay of folding or function
+T29__C,Region,Phosphatase-like,395,661,267,70,357,426,partial_reference_sequence,[],Sequence preservation or interruption; not an assay of folding or function

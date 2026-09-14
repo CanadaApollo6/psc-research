@@ -1,0 +1,101 @@
+{
+  "completed_at_utc": "2026-09-14T21:08:50.586320+00:00",
+  "before_real_raw_target_alignment": true,
+  "synthetic_alignment_checks": [
+    {
+      "query": "C0_forward",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "C0",
+      "all_full_matches": [
+        "C0",
+        "C20"
+      ],
+      "dp_plus29_minus_normal": -33.0
+    },
+    {
+      "query": "C0_reverse",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "C0",
+      "all_full_matches": [
+        "C0",
+        "C20"
+      ],
+      "dp_plus29_minus_normal": -33.0
+    },
+    {
+      "query": "C29_forward",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "C29",
+      "all_full_matches": [
+        "C29",
+        "C229"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    },
+    {
+      "query": "C29_reverse",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "C29",
+      "all_full_matches": [
+        "C29",
+        "C229"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    },
+    {
+      "query": "B29_forward",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "B29",
+      "all_full_matches": [
+        "B29"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    },
+    {
+      "query": "B29_reverse",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "B29",
+      "all_full_matches": [
+        "B29"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    },
+    {
+      "query": "T29_forward",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "T29",
+      "all_full_matches": [
+        "T29"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    },
+    {
+      "query": "T29_reverse",
+      "exact_chain_match": true,
+      "inferred_genomic_strand": "+",
+      "expected_full_match": "T29",
+      "all_full_matches": [
+        "T29"
+      ],
+      "dp_plus29_minus_normal": 91.0
+    }
+  ],
+  "unit_tests_passed": 13,
+  "unit_test_script_sha256": "cb1ae707976583241b656209efbb8f3236b4b24def6537f1a5e37c4c349b1384",
+  "source_assay_targets_sha256": "c0f074d13735f37bd6b5f989c7f3803a8f40b6ceaa6284db68ae2bd33b1606bc",
+  "files_sha256": {
+    "work/ubash3a-raw-read-audit/synthetic/gene.fa": "1734a2e5951085a8782dc40bc63066af35d56963f741c961023b502533f4a948",
+    "work/ubash3a-raw-read-audit/synthetic/reads.fa": "ad0cd9634c15b67ca011e13c467ab67d4b8495147229ad18db3fe51f33073922",
+    "work/ubash3a-raw-read-audit/synthetic/alignment.sam": "73116e18494890e937d724ec16947ae9f15267ad90c14e6252ded546520b740e",
+    "work/ubash3a-raw-read-audit/synthetic/alignment.log": "cb3115a27d6e59a4d641a915d526dca2c1395e88d95aafacafc817c6d665e483",
+    "work/ubash3a-raw-read-audit/synthetic/gene.fa.fai": "934a1d130e4bf6e2705c4375ffab9a54d5fc3fdcd4a0c948605f2d071a159f59"
+  },
+  "scope": "Synthetic gene reference only; real data require whole primary assembly alignment."
+}

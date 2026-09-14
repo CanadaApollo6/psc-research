@@ -1,0 +1,26 @@
+{
+  "status": "installed_version_and_synthetic_alignment_verified",
+  "tool": "minimap2",
+  "version": "2.31",
+  "source": "https://github.com/lh3/minimap2/releases/download/v2.31/minimap2-2.31_x64-linux.tar.bz2",
+  "download_bytes": 2252266,
+  "publisher_sha256": "300bc287f05eb890c6211fa7db043ce98320a401621fadd1cfdbeabd1a6e4ab5",
+  "install_location": "work/tools/minimap2-v2.31/minimap2",
+  "system_changes": false,
+  "existing_python_packages_changed": false,
+  "steps": [
+    "Retrieve official release asset to ignored project storage",
+    "Require publisher SHA-256 match",
+    "Extract only the minimap2 executable and license from the archive into the named project directory",
+    "Check executable version and retain binary hash",
+    "Run a tiny synthetic alignment check before research reads"
+  ],
+  "scope": "Only this aligner; use existing pysam for BAM operations; reference/data downloads tracked separately",
+  "generic_ngs_preflight": "/tmp/ubash3a-ngs-preflight.json",
+  "generic_resource_plan": "work/ubash3a-raw-read-audit/resource-plan/resource_plan.json",
+  "routing_note": "Registry has no long-read cDNA leaf; its bulk-RNA default uses short-read tools. Use specialized official minimap2 splice workflow, not the unrelated generic installation list.",
+  "explicit_authorization": "User approved isolated Minimap2 2.31 installation in conversation on 2026-09-14",
+  "installed_at_utc": "2026-09-14T20:54:18.894572+00:00",
+  "reported_version": "2.31-r1302",
+  "binary_sha256": "cb7e8f228d516fe4632a2250d09d1635ddd7aa95588c9fd5442d1dbe6e9a20a3"
+}

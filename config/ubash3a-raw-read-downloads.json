@@ -1,0 +1,49 @@
+{
+  "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+  "fetch_script_sha256": "6cd06e79a0408085e31b346dfcb845beb72dca08f08a6376c474e196e5fffc9d",
+  "sources": [
+    {
+      "id": "NCD4",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRX449504/DRR465268.fastq.bz2",
+      "local_path": "data/raw/ubash3a-raw-read-audit/DRR465268.fastq.bz2",
+      "expected_bytes": 4230554395,
+      "etag": "\"fc29231b-5fbb6bcd13480\"",
+      "publisher_checksum": null,
+      "started_at_utc": "2026-09-14T20:56:53.509816+00:00",
+      "completed_at_utc": "2026-09-14T21:00:18.769439+00:00",
+      "sha256": "f210d2068ceaed9327eef4ab50bc848ae32d74c185ab0dacbd13642d6bd62a16",
+      "size_bytes": 4230554395,
+      "integrity_status": "byte_count_and_transport_metadata_verified_decompression_pending",
+      "last_modified": "Mon, 15 May 2023 07:52:34 GMT"
+    },
+    {
+      "id": "MemCD4",
+      "url": "https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/DRA016/DRA016285/DRX449505/DRR465269.fastq.bz2",
+      "local_path": "data/raw/ubash3a-raw-read-audit/DRR465269.fastq.bz2",
+      "expected_bytes": 2002732722,
+      "etag": "\"775f46b2-5fbb6b5024dc0\"",
+      "publisher_checksum": null,
+      "started_at_utc": "2026-09-14T20:56:53.510461+00:00",
+      "completed_at_utc": "2026-09-14T20:58:24.789409+00:00",
+      "sha256": "c1a9b7b6645e75de9b6abfc6d2512c9e4ae68d3302eac032807743618140f6c3",
+      "size_bytes": 2002732722,
+      "integrity_status": "byte_count_and_transport_metadata_verified_decompression_pending",
+      "last_modified": "Mon, 15 May 2023 07:50:23 GMT"
+    },
+    {
+      "id": "GRCh38_primary",
+      "url": "https://ftp.ensembl.org/pub/release-112/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "local_path": "data/raw/ubash3a-raw-read-audit/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+      "expected_bytes": 881964081,
+      "etag": "\"3491b431-6114762a7f98e\"",
+      "publisher_checksum": null,
+      "started_at_utc": "2026-09-14T21:03:40.434571+00:00",
+      "completed_at_utc": "2026-09-14T21:08:12.303575+00:00",
+      "sha256": "d8c3af0094a7bba6125763bad779ec18a81483c739c6ed122094bdf86c187b92",
+      "size_bytes": 881964081,
+      "download_method": "existing_prefix_then_eight_HTTP_ranges_with_exact_Content_Range_and_ETag_checks",
+      "integrity_status": "byte_count_and_transport_metadata_verified_decompression_pending"
+    }
+  ],
+  "target_reads_analyzed": false
+}

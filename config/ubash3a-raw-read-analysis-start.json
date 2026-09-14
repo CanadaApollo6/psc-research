@@ -1,0 +1,8 @@
+{
+  "first_target_classification_at_utc": "2026-09-14T21:50:28.593913+00:00",
+  "stage": "Completed NCD4 library inspection while the fixed second library finishes alignment",
+  "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+  "classifier_sha256": "2884cb24afebc4bf10f755d3d992af5d2cafb268b35d1d0a6283a4b4e3942567",
+  "coding_descriptors_sha256": "268b9b057a088b22d400229ca4d5ae6fdc5827c2a2e4a2cb63f6a46e5d7c18b7",
+  "sample_selection_or_method_changed": false
+}

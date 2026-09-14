@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "ensembl-release112-CHECKSUMS",
+      "url": "https://ftp.ensembl.org/pub/release-112/fasta/homo_sapiens/dna/CHECKSUMS",
+      "retrieved_at_utc": "2026-09-14T21:01:41.534083+00:00",
+      "local_path": "data/raw/ubash3a-raw-read-audit/ensembl-release112-CHECKSUMS",
+      "size_bytes": 5005,
+      "sha256": "2b0fe3a9637859ae73275ee71c990837e6ccc6fab1731e489bd60868f15116c2"
+    },
+    {
+      "id": "minimap2-v2.31-format.c",
+      "url": "https://raw.githubusercontent.com/lh3/minimap2/v2.31/format.c",
+      "retrieved_at_utc": "2026-09-14T21:01:41.566802+00:00",
+      "local_path": "data/raw/ubash3a-raw-read-audit/minimap2-v2.31-format.c",
+      "size_bytes": 24044,
+      "sha256": "85fab14afc2f66c8d95d2e1f83508ecce7eab11969f675e06784fd2460cb64c7"
+    }
+  ],
+  "reference_publisher_checksum": {
+    "algorithm": "BSD_sum_16_bit_with_1024_byte_blocks",
+    "value": 22450,
+    "blocks": 861294,
+    "file": "Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz",
+    "verified_against_download": true,
+    "download_sha256": "d8c3af0094a7bba6125763bad779ec18a81483c739c6ed122094bdf86c187b92"
+  },
+  "ts_tag_semantics": "Relative to query direction; reverse-strand SAM alignments invert ts to infer genomic transcript strand. Verified with synthetic forward and reverse complements."
+}

@@ -1,0 +1,28 @@
+{
+  "plan_sha256": "8837534ba70cbc65c2b6482748e0ef996ffd2f53024abba91486d97f03bc6734",
+  "audit_sha256": "f6f2ce7881f770f578460626cda6e73f5150399149b9154560e816a3c0caab35",
+  "verification_script_sha256": "1d76be1f6efcbdf2bcaee2471c1325e2e4992ea0429d73fbef70aec94b13ac74",
+  "metadata_checks": {
+    "all_experiment_sample_run_joins": 29,
+    "selected_libraries": 2,
+    "metadata_source_hashes": 6
+  },
+  "independent_source_totals": [
+    {
+      "sample": "NCD4",
+      "reads": 5611025,
+      "bases": 5469014753,
+      "source_totals_match": true
+    },
+    {
+      "sample": "MemCD4",
+      "reads": 2790053,
+      "bases": 2581343875,
+      "source_totals_match": true
+    }
+  ],
+  "independent_alignment_rows": 661,
+  "independent_affine_DP_reads": 20,
+  "DP_sampling_rule": "All primary exact +29 candidates with shared flanks, plus first ten normal candidates per library in source order",
+  "all_checks_passed": true
+}
