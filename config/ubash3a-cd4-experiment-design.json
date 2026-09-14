@@ -1,0 +1,127 @@
+{
+  "design_id": "UBASH3A-CD4-2026-09-14-v0.1",
+  "status": "prepared_for_laboratory_feasibility_review",
+  "prepared_date": "2026-09-14",
+  "baseline_commit": "9773bc5472a69346ede86796413e06bf987b0635",
+  "bench_experiment_started": false,
+  "biological_measurements_collected": false,
+  "laboratory_contacted": false,
+  "materials_ordered": false,
+  "confirmatory_protocol_frozen": false,
+  "assembly": "GRCh38",
+  "chromosome": "21",
+  "strand": "+",
+  "coordinate_convention": "1-based inclusive exons; junction = upstream exon end, downstream exon start",
+  "normal_junction": [
+    42434954,
+    42437488
+  ],
+  "plus29_junction": [
+    42434983,
+    42437488
+  ],
+  "retained_interval": [
+    42434955,
+    42434983
+  ],
+  "variant": {
+    "id": "rs1893592",
+    "position": 42434957,
+    "prior_constructed_alleles": [
+      "A",
+      "C"
+    ],
+    "observed_donor_genotype": null
+  },
+  "primary_boundary_reference": "ENST00000398367.2",
+  "primary_canonical_reference": "ENST00000319294.11",
+  "secondary_upstream_matched_reference": "ENST00000291535.12",
+  "exploratory_trails_model": "e09f04f5-c617-4bb3-b69c-519ccb16d0f1",
+  "proposed_pilot": {
+    "independent_donors": 4,
+    "cell_states": [
+      "resting_purified_CD4",
+      "standardized_activated_purified_CD4"
+    ],
+    "conditions": [
+      "matched_control",
+      "qualified_NMD_suppression"
+    ],
+    "biological_aliquots_excluding_qualification_controls": 16,
+    "independent_RT_preparations_per_aliquot": 2,
+    "powered_sample_size_claim": false
+  },
+  "proposed_structural_gate": {
+    "donors_with_both_primary_RNAs_in_same_state": 2,
+    "independent_RT_preparations": 2,
+    "distinct_original_molecule_families_per_RT_per_RNA": 3,
+    "status": "proposal; empirical error and detection validation required before use"
+  },
+  "primary_estimand": "mean_d[(k_C29_active-k_C29_suppressed)-(k_B29_active-k_B29_suppressed)]",
+  "decay_rate_unit": "h^-1",
+  "primary_interval": "two-sided 95%; paired donor unit; propagate kinetic uncertainty",
+  "confirmatory_freeze_required": {
+    "scientific_lead": null,
+    "laboratory": null,
+    "specimen_route": null,
+    "primary_cell_state": null,
+    "compound_or_perturbation_identity": null,
+    "dose": null,
+    "exposure_duration": null,
+    "target_engagement_assays_and_thresholds": null,
+    "NMD_substrate_controls_and_thresholds": null,
+    "cell_quality_thresholds": null,
+    "sequencing_and_enrichment_platform": null,
+    "molecule_counting_and_error_validation": null,
+    "age_and_full_structure_linkage_method": null,
+    "cross_assignment_calibration": null,
+    "limits_of_blank_detection_quantification": null,
+    "minimum_informative_molecules": null,
+    "labeling_and_chase_schedule": null,
+    "timepoints_hours": null,
+    "recovery_and_cell_division_corrections": null,
+    "kinetic_model": null,
+    "handling_non_exponential_curves": null,
+    "minimum_meaningful_delta_per_hour": null,
+    "donor_number_and_power_or_precision_calculation": null,
+    "donor_interval_method": null,
+    "secondary_multiplicity_plan": null,
+    "orthogonal_perturbation": null,
+    "freeze_timestamp": null
+  },
+  "input_files": [
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/reference-junction-chains.csv",
+      "sha256": "ca9de91b4b366ced4f2bfb11b49400bd0e14858f2f2dab59819f9a3de7c25af5"
+    },
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/observed-transcript-models.csv",
+      "sha256": "a3a71455f5ecbf96c67428cdf3b897bf67e7cc89a164f281dd8035cba67980ee"
+    },
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/observed-exons.csv",
+      "sha256": "14cafcbdd44c6d608e130a00c215a292276c28dde4e29822c8eab073d4d7ab32"
+    },
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/diagnostic-RNA-windows.csv",
+      "sha256": "d5fdfd147fdaad35c50bae9f35f41b8edba3b1ce2c212425a7d40fac4116aedc"
+    },
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/diagnostic-RNA-windows.fasta",
+      "sha256": "bcc788666e011c3178c3d2bb3efd0fa24dc321952c000b88f237a1adf2bfdeba"
+    },
+    {
+      "path": "data/derived/ubash3a-hypothesis-test/protein-sequence-equivalence.csv",
+      "sha256": "4383a8062838406598413ac57b6e5492c23b2e8fc2eb8cf061234ce2fc7a12ae"
+    },
+    {
+      "path": "data/derived/ubash3a-consequences/transcripts.fasta",
+      "sha256": "db407110e3e206f5cf6aa857203b7ba2089b996f53eb1f92168ebf6d47bbf02f"
+    },
+    {
+      "path": "data/derived/ubash3a-consequences/consequences.csv",
+      "sha256": "9f5a749205a8ef22501e52896f70e968dd6c8180b48bf1a35b09f012a5f420ba"
+    }
+  ],
+  "execution_boundary": "Design and local preparation only. Laboratory and sample access are required for new measurements. No orders or external messages were authorized by this design record."
+}

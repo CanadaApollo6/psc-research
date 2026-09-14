@@ -1,0 +1,1 @@
+sample_id,donor_code,study_phase,cell_state,culture_id,condition,perturbation_id,exposure_duration_h,chase_time_h,viable_cell_count,purity_fraction,RNA_preparation_id,RT_preparation_id,library_id,batch_id,raw_data_file,raw_data_sha256,QC_status,exclusion_reason

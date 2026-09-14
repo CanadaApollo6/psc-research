@@ -1,0 +1,8 @@
+source_id,title,url,consulted_date,application_boundary
+TRAILS,Long-read sequencing for 29 immune cell subsets reveals disease-linked isoforms,https://www.nature.com/articles/s41467-024-48615-4,2026-09-14,Prior immune-cell catalog context; not a CD4 NMD intervention.
+Penter_2024,Integrative genotyping of cancer and immune phenotypes by long-read sequencing,https://www.nature.com/articles/s41467-023-44137-7,2026-09-14,Targeted immune-transcript enrichment precedent; does not validate this UBASH3A assay.
+Boehm_2025,Rapid UPF1 depletion illuminates the temporal dynamics of the NMD-regulated human transcriptome,https://pubmed.ncbi.nlm.nih.gov/40934927/,2026-09-14,Engineered human cell-line perturbation; auxin conditions do not transfer to unmodified CD4 cells.
+SMG1_2025,Identification of nonsense-mediated decay inhibitors that alter the tumor immune landscape,https://pmc.ncbi.nlm.nih.gov/articles/PMC11832170/,2026-09-14,SMG1 inhibition precedent in tumor models; primary-CD4 qualification required.
+Herzog_2017,Thiol-linked alkylation of RNA to assess expression dynamics,https://www.nature.com/articles/nmeth.4435,2026-09-14,Metabolic labeling principle; default short or 3-prime reads do not resolve the proposed full RNAs.
+CD8_metabolic_labeling,Meta-unstable mRNAs in activated CD8+ T cells are defined by interlinked AU-rich elements and m6A mRNA methylation,https://www.nature.com/articles/s41467-025-67762-w,2026-09-14,Human CD8-cell turnover-method precedent; not CD4 or this UBASH3A endpoint.
+nano_ID_2020,Native molecule sequencing by nano-ID reveals synthesis and stability of RNA isoforms,https://pmc.ncbi.nlm.nih.gov/articles/PMC7545145/,2026-09-14,Isoform-resolved metabolic sequencing precedent in K562 cells; not a validated targeted CD4 workflow.

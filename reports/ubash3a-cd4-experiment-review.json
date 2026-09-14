@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-14",
+  "status": "preparation_checked_experiment_not_run",
+  "review_boundary": "Local packet/data-integrity checks and design readback by the preparing agent; not independent laboratory validation.",
+  "deterministic_packet_and_preparation_record_replay": true,
+  "independent_sequence_length_checks": 20,
+  "target_structures": 11,
+  "upstream_matched_B_U_structure_check": true,
+  "canonical_C_identity_checked_against_prior_consequences": true,
+  "all_package_member_hashes_checked": true,
+  "all_three_measurement_templates_empty": true,
+  "earlier_tracked_files_byte_unchanged": 706,
+  "intentional_earlier_file_updates": [
+    "README.md",
+    "docs/data-sources.md",
+    "docs/evidence-log.md",
+    "docs/research-plan.md"
+  ],
+  "local_markdown_links_resolved": 215,
+  "repository_software_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 196,
+    "runtime_seconds": 48.91,
+    "exit_code": 0,
+    "log_sha256": "e7e1df03952dde6e7762305135aa943d2ad67d23135ab09711f0ddd98ab9d4e8"
+  },
+  "biological_experiment_run": false,
+  "new_donor_measurements": 0,
+  "laboratory_and_specimen_access": "not_confirmed",
+  "confirmatory_protocol": "not_frozen",
+  "remaining_execution_dependencies": [
+    "laboratory and specimen access",
+    "assay and NMD perturbation qualification",
+    "actual method and measurement conditions",
+    "pilot-based sample-size and precision calculation",
+    "confirmatory design freeze",
+    "new biological measurements"
+  ]
+}

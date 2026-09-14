@@ -1,0 +1,41 @@
+{
+  "status": "preparation_verified_experiment_not_started",
+  "date": "2026-09-14",
+  "design_sha256": "33c9e5250c1c84c018854b6f78a0e5101fd8187d60d226d229a2c2af76832d1e",
+  "builder_sha256": "7e48a9b5f21be90236f9984cfcdc964e3acdf9d148d78508f8be02938c985dff",
+  "prior_input_files_verified": 8,
+  "target_structures": 11,
+  "empty_measurement_templates": 3,
+  "method_sources": 7,
+  "package_member_count": 15,
+  "package_sha256": "7577a93a5738e85aaa35d7532b220b61b22cecfa77193bf0167b649d1b7541bb",
+  "package_bytes": 22441,
+  "package_members_verified": true,
+  "new_biological_measurements": 0,
+  "laboratory_access_confirmed": false,
+  "protocol_frozen": false,
+  "validated_primers": false,
+  "generated_file_sha256": {
+    "data/derived/ubash3a-cd4-experiment/assay-targets.csv": "c0f074d13735f37bd6b5f989c7f3803a8f40b6ceaa6284db68ae2bd33b1606bc",
+    "data/derived/ubash3a-cd4-experiment/sample-manifest-template.csv": "5a16fae09b1dbbb74a2892db14e0c3943ad12e948dc12080155bfad09bfabe42",
+    "data/derived/ubash3a-cd4-experiment/molecule-evidence-template.csv": "07bab4509376edc8fe66d7f25f1da0cba24d36b375e4fff2758d2c573b8722e3",
+    "data/derived/ubash3a-cd4-experiment/decay-measurements-template.csv": "4efdf6f1d7131247722677ed24679f8cee31243d39f6d92d7ec70da1ff232d2e",
+    "data/derived/ubash3a-cd4-experiment/method-sources.csv": "f418fed911a365c178d1c0f57ed9d28b66607e418181b2262e735649e927811c"
+  },
+  "package_contents_sha256": {
+    "PACKAGE-README.txt": "c865a063fb2b4b290b5335faafb801f008b612cc800b439f2f4105342734e03d",
+    "START-HERE.md": "1ee02c3b23a42ebc67d4c8a0ead22ff12c252e5fe39664b68c045a769f2dac73",
+    "assay-targets.csv": "c0f074d13735f37bd6b5f989c7f3803a8f40b6ceaa6284db68ae2bd33b1606bc",
+    "conditional-reference-transcripts.fasta": "db407110e3e206f5cf6aa857203b7ba2089b996f53eb1f92168ebf6d47bbf02f",
+    "decay-measurements-template.csv": "4efdf6f1d7131247722677ed24679f8cee31243d39f6d92d7ec70da1ff232d2e",
+    "diagnostic-RNA-windows.csv": "d5fdfd147fdaad35c50bae9f35f41b8edba3b1ce2c212425a7d40fac4116aedc",
+    "diagnostic-RNA-windows.fasta": "bcc788666e011c3178c3d2bb3efd0fa24dc321952c000b88f237a1adf2bfdeba",
+    "method-sources.csv": "f418fed911a365c178d1c0f57ed9d28b66607e418181b2262e735649e927811c",
+    "molecule-evidence-template.csv": "07bab4509376edc8fe66d7f25f1da0cba24d36b375e4fff2758d2c573b8722e3",
+    "proposed-design.json": "33c9e5250c1c84c018854b6f78a0e5101fd8187d60d226d229a2c2af76832d1e",
+    "protein-sequence-equivalence.csv": "4383a8062838406598413ac57b6e5492c23b2e8fc2eb8cf061234ce2fc7a12ae",
+    "reference-junction-chains.csv": "ca9de91b4b366ced4f2bfb11b49400bd0e14858f2f2dab59819f9a3de7c25af5",
+    "sample-manifest-template.csv": "5a16fae09b1dbbb74a2892db14e0c3943ad12e948dc12080155bfad09bfabe42",
+    "ubash3a-cd4-analysis-plan.md": "34d33fc325a6a34a1aadb0b3727cf6d4bdf00b6be23f36236c60b02b7d3e0733"
+  }
+}
