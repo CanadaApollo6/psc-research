@@ -1,0 +1,110 @@
+{
+  "selected_at_utc": "2026-09-14T19:08:09.413129+00:00",
+  "selection_basis": "Study metadata and available primary annotation/independent or correction-comparison files; before any new UBASH3A annotation or count row inspection. TRAILS counts are for descriptive support only, not a treatment comparison.",
+  "requests": [
+    {
+      "source_id": "GSM7182107-annotation",
+      "file": "GSM7182107_ST143_4Hr_bs1_bc1018_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7182nnn/GSM7182107/suppl/GSM7182107_ST143_4Hr_bs1_bc1018_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sample_accession": "GSM7182107",
+      "series": "GSE229971",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "GSM7182108-annotation",
+      "file": "GSM7182108_ST143_16Hr_bs2_bc1019_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7182nnn/GSM7182108/suppl/GSM7182108_ST143_16Hr_bs2_bc1019_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sample_accession": "GSM7182108",
+      "series": "GSE229971",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "GSM7182109-annotation",
+      "file": "GSM7182109_ST143_48Hr_bs3_bc1020_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7182nnn/GSM7182109/suppl/GSM7182109_ST143_48Hr_bs3_bc1020_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sample_accession": "GSM7182109",
+      "series": "GSE229971",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "GSM7182110-annotation",
+      "file": "GSM7182110_ST143_120hr_bs4_bc1023_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7182nnn/GSM7182110/suppl/GSM7182110_ST143_120hr_bs4_bc1023_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sample_accession": "GSM7182110",
+      "series": "GSE229971",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "GSM6108477-SRfiltered",
+      "file": "GSM6108477_SL87_CD4_bc1001_Reduced_FilteredBySR_SQANTI_corrected.gtf.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108477/suppl/GSM6108477_SL87_CD4_bc1001_Reduced_FilteredBySR_SQANTI_corrected.gtf.gz",
+      "sample_accession": "GSM6108477",
+      "series": "GSE202327",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "GSM6108477-annotation",
+      "file": "GSM6108477_SL87_CD4_bc1001_Reduced_SQANTI_corrected.gtf.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108477/suppl/GSM6108477_SL87_CD4_bc1001_Reduced_SQANTI_corrected.gtf.gz",
+      "sample_accession": "GSM6108477",
+      "series": "GSE202327",
+      "maximum_bytes": 25000000
+    },
+    {
+      "source_id": "trails-TRAILS-gtf-gz",
+      "file": "trails-TRAILS.gtf.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/TRAILS.gtf.gz",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "trails-Validated_TRAILS_by_PBMC-gtf-gz",
+      "file": "trails-Validated_TRAILS_by_PBMC.gtf.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/Validated_TRAILS_by_PBMC.gtf.gz",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "trails-male_PBMC-gtf-gz",
+      "file": "trails-male_PBMC.gtf.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/male_PBMC.gtf.gz",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "trails-Espresso-gtf-gz",
+      "file": "trails-Espresso.gtf.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/Espresso.gtf.gz",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "trails-Espresso_SJ-gtf-gz",
+      "file": "trails-Espresso_SJ.gtf.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/Espresso_SJ.gtf.gz",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "trails-isoform_counts_matrix-tsv",
+      "file": "trails-isoform_counts_matrix.tsv",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/isoform_counts_matrix.tsv",
+      "git_commit": "1fda57adf5b51715adf27497fd0c147409e1b054",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "nmdrht-v1-2-annotation",
+      "file": "nmdrht-v1.2.sort.gtf.gz",
+      "url": "https://nmdrht.uni-koeln.de/NMDRHT_data/NMDRHT.v1.2/NMDRHT.v1.2.sort.gtf.gz",
+      "maximum_bytes": 50000000
+    },
+    {
+      "source_id": "lung-isocall-annotation",
+      "file": "lung-nmd_isocall_4ct.gtf.gz",
+      "url": "https://zenodo.org/api/records/22691785/files/nmd_isocall_4ct.gtf.gz/content",
+      "md5": "66c68f2c8a8d578790d65e477c680a85",
+      "zenodo_record": 22691785,
+      "maximum_bytes": 50000000
+    }
+  ]
+}

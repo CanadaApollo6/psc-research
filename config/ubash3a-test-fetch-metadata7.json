@@ -1,0 +1,20 @@
+{
+  "purpose": "Resolve genome assembly and source publication status before locus analysis",
+  "requests": [
+    {
+      "source_id": "lung-code-paths",
+      "file": "lung-code-paths.yml",
+      "url": "https://raw.githubusercontent.com/peter4244/nmd_lung_longread_reproduction/a27c6a91b07e1f181301d41968f8ca3cfc17e0ec/config/paths.yml"
+    },
+    {
+      "source_id": "lung-code-reproduction",
+      "file": "lung-code-reproduction.md",
+      "url": "https://raw.githubusercontent.com/peter4244/nmd_lung_longread_reproduction/a27c6a91b07e1f181301d41968f8ca3cfc17e0ec/REPRODUCTION.md"
+    },
+    {
+      "source_id": "lung-code-CITATION",
+      "file": "lung-code-CITATION.cff",
+      "url": "https://raw.githubusercontent.com/peter4244/nmd_lung_longread_reproduction/a27c6a91b07e1f181301d41968f8ca3cfc17e0ec/CITATION.cff"
+    }
+  ]
+}

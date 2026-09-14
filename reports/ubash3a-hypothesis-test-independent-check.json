@@ -1,0 +1,90 @@
+{
+  "status": "pass",
+  "implementation": "Independent regex attribute reader and zero-based source intervals; no imports from the primary analysis.",
+  "script_sha256": "118ac7505219faeac5f8fc53bdc9100a9360dcbd8d10e867e078d9b192f7ac95",
+  "sources": [
+    {
+      "source_id": "GSM7182107-annotation",
+      "all_exon_rows": 413001,
+      "locus_models": 7,
+      "passed": true
+    },
+    {
+      "source_id": "GSM7182108-annotation",
+      "all_exon_rows": 420635,
+      "locus_models": 5,
+      "passed": true
+    },
+    {
+      "source_id": "GSM7182109-annotation",
+      "all_exon_rows": 547529,
+      "locus_models": 28,
+      "passed": true
+    },
+    {
+      "source_id": "GSM7182110-annotation",
+      "all_exon_rows": 507527,
+      "locus_models": 24,
+      "passed": true
+    },
+    {
+      "source_id": "GSM6108477-annotation",
+      "all_exon_rows": 466795,
+      "locus_models": 9,
+      "passed": true
+    },
+    {
+      "source_id": "GSM6108477-SRfiltered",
+      "all_exon_rows": 175763,
+      "locus_models": 7,
+      "passed": true
+    },
+    {
+      "source_id": "trails-TRAILS-gtf-gz",
+      "all_exon_rows": 1305374,
+      "locus_models": 43,
+      "passed": true
+    },
+    {
+      "source_id": "trails-Validated_TRAILS_by_PBMC-gtf-gz",
+      "all_exon_rows": 388751,
+      "locus_models": 5,
+      "passed": true
+    },
+    {
+      "source_id": "trails-male_PBMC-gtf-gz",
+      "all_exon_rows": 869577,
+      "locus_models": 8,
+      "passed": true
+    },
+    {
+      "source_id": "trails-Espresso-gtf-gz",
+      "all_exon_rows": 1567010,
+      "locus_models": 14,
+      "passed": true
+    },
+    {
+      "source_id": "trails-Espresso_SJ-gtf-gz",
+      "all_exon_rows": 1472111,
+      "locus_models": 14,
+      "passed": true
+    },
+    {
+      "source_id": "nmdrht-v1-2-annotation",
+      "all_exon_rows": 440787,
+      "locus_models": 0,
+      "passed": true
+    },
+    {
+      "source_id": "lung-isocall-annotation",
+      "all_exon_rows": 5159032,
+      "locus_models": 1,
+      "passed": true
+    }
+  ],
+  "model_rows": 165,
+  "exon_rows": 1778,
+  "match_rows": 140,
+  "scalar_and_structure_checks": 2135,
+  "input_specification_sha256": "1e635989bd96086c0e2b13d11a57081e81cb87a928a164862d062e19bd464558"
+}

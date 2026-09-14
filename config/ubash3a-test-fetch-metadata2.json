@@ -1,0 +1,71 @@
+{
+  "purpose": "Resolve metadata, public versions, source design and file definitions before target observations",
+  "requests": [
+    {
+      "source_id": "entrez-CD4-series-summaries",
+      "service": "entrez",
+      "file": "entrez-CD4-series-summaries.json",
+      "request": {
+        "endpoint": "esummary",
+        "params": {
+          "db": "gds",
+          "id": "200229971,200202327",
+          "retmode": "json"
+        }
+      }
+    },
+    {
+      "source_id": "entrez-UPF1-paper-records",
+      "service": "entrez",
+      "file": "entrez-UPF1-paper-records.xml",
+      "request": {
+        "endpoint": "efetch",
+        "params": {
+          "db": "pubmed",
+          "id": "40934927,31253658,29339519,24115769,21234790,19414594,16934750,15448691",
+          "retmode": "xml"
+        },
+        "response_format": "xml"
+      }
+    },
+    {
+      "source_id": "entrez-CD4-NMD-broader",
+      "service": "entrez",
+      "file": "entrez-CD4-NMD-broader.json",
+      "request": {
+        "endpoint": "esearch",
+        "params": {
+          "db": "gds",
+          "term": "GSE[ETYP] AND Homo sapiens[ORGN] AND (CD4 OR \"T cell\") AND (UPF1 OR \"nonsense-mediated decay\" OR \"SMG1 inhibitor\")",
+          "retmode": "json",
+          "retmax": 10
+        }
+      }
+    },
+    {
+      "source_id": "trails-git-tree",
+      "file": "trails-git-tree.json",
+      "url": "https://api.github.com/repos/juninamo/TRAILS/git/trees/1fda57adf5b51715adf27497fd0c147409e1b054?recursive=1"
+    },
+    {
+      "source_id": "trails-readme",
+      "file": "trails-readme.md",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/README.md"
+    },
+    {
+      "source_id": "lung-zenodo-latest-metadata",
+      "file": "lung-zenodo-latest-metadata.json",
+      "url": "https://zenodo.org/api/records/21966061/versions/latest"
+    },
+    {
+      "source_id": "nmdrht-zenodo-metadata",
+      "file": "nmdrht-zenodo-metadata.json",
+      "url": "https://zenodo.org/api/records/15047819"
+    },
+    {
+      "source_id": "nmdrht-experiment-metadata",
+      "file": "nmdrht-experiment-metadata.csv",
+      "url": "https://nmdrht.uni-koeln.de/Tables/UPF1_NMDRHT_datasets_experiments_forGitHub.csv"
+    }
+  ]
+}

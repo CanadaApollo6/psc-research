@@ -1,0 +1,15 @@
+{
+  "purpose": "Verify primary lung code assembly and sample treatment methods",
+  "requests": [
+    {
+      "source_id": "lung-code-tree",
+      "file": "lung-code-tree.json",
+      "url": "https://api.github.com/repos/peter4244/nmd_lung_longread_reproduction/git/trees/a27c6a91b07e1f181301d41968f8ca3cfc17e0ec?recursive=1"
+    },
+    {
+      "source_id": "lung-code-readme",
+      "file": "lung-code-readme.md",
+      "url": "https://raw.githubusercontent.com/peter4244/nmd_lung_longread_reproduction/a27c6a91b07e1f181301d41968f8ca3cfc17e0ec/README.md"
+    }
+  ]
+}

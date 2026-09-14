@@ -1,0 +1,19 @@
+{
+  "analysis_id": "ubash3a-public-hypothesis-test-v1",
+  "plan_sha256": "45249d31d18e9131023c6343737a5e9612d55f2ec37c91968e028edf779a8299",
+  "input_specification_sha256": "1e635989bd96086c0e2b13d11a57081e81cb87a928a164862d062e19bd464558",
+  "script_sha256": "c47a9662f7011c9c6fefa1a1024822df28c875a30ff1717112af79e9abb64dca",
+  "sources": 13,
+  "observed_model_rows": 165,
+  "exon_rows": 1778,
+  "reference_match_rows": 140,
+  "prior_reference_pins_unchanged": true,
+  "files_sha256": {
+    "annotation-summary.csv": "77ccd1b5fda81e3c94b6249e8ee148a00ded2199ac8fce74378c8d7ae887d895",
+    "observed-exons.csv": "14cafcbdd44c6d608e130a00c215a292276c28dde4e29822c8eab073d4d7ab32",
+    "observed-transcript-models.csv": "a3a71455f5ecbf96c67428cdf3b897bf67e7cc89a164f281dd8035cba67980ee",
+    "reference-chain-matches.csv": "f68e7af12eaba943fa487f8c6a4fa0c0a458ca57ef6d5e0017872f5d1fad028e",
+    "reference-junction-chains.csv": "ca9de91b4b366ced4f2bfb11b49400bd0e14858f2f2dab59819f9a3de7c25af5"
+  },
+  "scope": "Deposited annotation structures only. Counts are transcript-model counts, not molecules, donors, protein detections or NMD-response effects."
+}

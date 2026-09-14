@@ -1,0 +1,5 @@
+protein_length_aa,sequence_sha256,number_of_reference_RNAs_encoding_this_sequence,reference_scenarios,interpretation
+498,3a35b812a661c14931c36c83514e950bfa15c5db121e8c54bffc888511f10378,3,ENST00000291535.12__plus29_A;ENST00000398367.2__plus29_A;ENST00000635325.1__plus29_A,Conditional translation products from the prior reconstruction; a peptide cannot identify which of these RNAs produced it.
+498,3dd398be4c5322f624324bb317ba9306037c65f3d893dc5f034386597f16f8d0,3,ENST00000291535.12__plus29_C;ENST00000398367.2__plus29_C;ENST00000635325.1__plus29_C,Conditional translation products from the prior reconstruction; a peptide cannot identify which of these RNAs produced it.
+536,e2a017c93d90f05b2d7ac4a02b2d737d5fe12fa62ef8d8d9ea8eab0154ba61c9,2,ENST00000319294.11__plus29_A;ENST00001131803.1__plus29_A,Conditional translation products from the prior reconstruction; a peptide cannot identify which of these RNAs produced it.
+536,d7fc081f11b8bb92c464a775eac450aeb7a5c8fe9045291e2a382c4b59af40ed,2,ENST00000319294.11__plus29_C;ENST00001131803.1__plus29_C,Conditional translation products from the prior reconstruction; a peptide cannot identify which of these RNAs produced it.

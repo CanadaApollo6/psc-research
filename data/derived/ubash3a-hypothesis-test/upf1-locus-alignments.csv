@@ -1,0 +1,2 @@
+sample_id,platform,condition,read_index,query_name,flag,mapq,alignment_strand,start_1based,end_1based,cigar,exclusion_reasons,event_from_coordinates,event_passes_quality_and_anchor,junctions_json,junction_anchors_json,full_chain_reference_matches,downstream_chain_reference_matches,full_chain_architecture
+HCT_N_AID_UPF1_12h_IAA_PacBio_1,PacBio,UPF1_depleted_12h,1,m84157_240517_174742_s2/145954518/ccs/13307_15728,16,60,-,42446564,42448962,26S1224M4D1171M,,other,False,[],[],,,

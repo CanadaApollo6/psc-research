@@ -1,0 +1,149 @@
+{
+  "created_before_first_target_structure_scan_at_utc": "2026-09-14T19:24:00.533082+00:00",
+  "plan_sha256": "45249d31d18e9131023c6343737a5e9612d55f2ec37c91968e028edf779a8299",
+  "annotations": [
+    {
+      "source_id": "GSM7182107-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM7182107_ST143_4Hr_bs1_bc1018_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sha256": "f24c5ac4e82c04651094d7123577f29617b9952e4a85a2471611fc131d704b51",
+      "family": "GSE229971",
+      "context": "Activated CD4; 4 hours; same 24-year-old female donor",
+      "support_unit": "Cupcake collapsed transcript model; source pipeline requires >=2 full-length reads, counts not supplied per model",
+      "interpretation_boundary": "One donor; no NMD perturbation; 5-prime-subset filtering; catalog non-detection does not establish RNA absence.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE229971 family SOFT: hg38.p13"
+    },
+    {
+      "source_id": "GSM7182108-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM7182108_ST143_16Hr_bs2_bc1019_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sha256": "f0d569906205c84e1c001f3b9ad60315839f055b6e63c3d930daa9b0b5b3042f",
+      "family": "GSE229971",
+      "context": "Activated CD4; 16 hours in title and file; 15 hours in sample characteristic; same 24-year-old female donor",
+      "support_unit": "Cupcake collapsed transcript model; source pipeline requires >=2 full-length reads, counts not supplied per model",
+      "interpretation_boundary": "One donor; no NMD perturbation; 5-prime-subset filtering; catalog non-detection does not establish RNA absence.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE229971 family SOFT: hg38.p13"
+    },
+    {
+      "source_id": "GSM7182109-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM7182109_ST143_48Hr_bs3_bc1020_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sha256": "19c0fa525bfce661af6da9dc876f010863e07080ddfc22d7811c3e56a0ed648b",
+      "family": "GSE229971",
+      "context": "Activated CD4; 48 hours; same 24-year-old female donor",
+      "support_unit": "Cupcake collapsed transcript model; source pipeline requires >=2 full-length reads, counts not supplied per model",
+      "interpretation_boundary": "One donor; no NMD perturbation; 5-prime-subset filtering; catalog non-detection does not establish RNA absence.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE229971 family SOFT: hg38.p13"
+    },
+    {
+      "source_id": "GSM7182110-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM7182110_ST143_120hr_bs4_bc1023_flnc_ALIGNED_CUPCAKE.sorted.REDUCED.gff.gz",
+      "sha256": "559416ecb3269179f50e197fb43bba76f936cd378c514b97d63bcc3a183e96ea",
+      "family": "GSE229971",
+      "context": "Activated CD4; 120 hours; same 24-year-old female donor",
+      "support_unit": "Cupcake collapsed transcript model; source pipeline requires >=2 full-length reads, counts not supplied per model",
+      "interpretation_boundary": "One donor; no NMD perturbation; 5-prime-subset filtering; catalog non-detection does not establish RNA absence.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE229971 family SOFT: hg38.p13"
+    },
+    {
+      "source_id": "GSM6108477-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM6108477_SL87_CD4_bc1001_Reduced_SQANTI_corrected.gtf.gz",
+      "sha256": "2f4fce90d27bbc7c1a25755e9b48bf43abfd6dd799bbd95e843edf3554ee450b",
+      "family": "GSE202327",
+      "context": "Resting CD4; one 57-year-old male donor",
+      "support_unit": "Cupcake/SQANTI3 transcript model; >=2 full-length reads before downstream filters",
+      "interpretation_boundary": "One donor and same sample for both files; base file already reduced and corrected; additional short-read junction filter only in SRfiltered file; no NMD perturbation.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE202327 family SOFT: hg38.p12 with GENCODE v39"
+    },
+    {
+      "source_id": "GSM6108477-SRfiltered",
+      "path": "data/raw/ubash3a-hypothesis-test/GSM6108477_SL87_CD4_bc1001_Reduced_FilteredBySR_SQANTI_corrected.gtf.gz",
+      "sha256": "41b316e76dd1113ae61678ab93221747c95b592ea0d53c710cf97beb94ebf54d",
+      "family": "GSE202327",
+      "context": "Resting CD4; one 57-year-old male donor",
+      "support_unit": "Cupcake/SQANTI3 transcript model; >=2 full-length reads before downstream filters",
+      "interpretation_boundary": "One donor and same sample for both files; base file already reduced and corrected; additional short-read junction filter only in SRfiltered file; no NMD perturbation.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "GSE202327 family SOFT: hg38.p12 with GENCODE v39"
+    },
+    {
+      "source_id": "trails-TRAILS-gtf-gz",
+      "path": "data/raw/ubash3a-hypothesis-test/trails-TRAILS.gtf.gz",
+      "sha256": "6215d0c0d3a9ca450c0676d1e90d5878a596d9e4b2d2ef8be371cae1819d8401",
+      "family": "TRAILS",
+      "context": "29 immune subsets including 11 CD4 subsets; one 42-year-old female donor",
+      "support_unit": "FLAIR/SQANTI3 catalog model; >=3 full-length supporting reads across dataset before later filters",
+      "interpretation_boundary": "Junction correction and TSS/artifact filters; subset presence requires original support table, no NMD perturbation.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "TRAILS README and original source code: GRCh38; primary paper methods"
+    },
+    {
+      "source_id": "trails-Validated_TRAILS_by_PBMC-gtf-gz",
+      "path": "data/raw/ubash3a-hypothesis-test/trails-Validated_TRAILS_by_PBMC.gtf.gz",
+      "sha256": "c424525492f3f147f677c6bb035be53e4f58b21a201870c7626d3caa8964f5df",
+      "family": "TRAILS",
+      "context": "Subset of female TRAILS catalog validated in independent male PBMC",
+      "support_unit": "Catalog model reproduced in male PBMC",
+      "interpretation_boundary": "This is a subset validation file, not a third donor; PBMC mixtures do not establish CD4-cell origin.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "TRAILS README and original source code: GRCh38; primary paper methods"
+    },
+    {
+      "source_id": "trails-male_PBMC-gtf-gz",
+      "path": "data/raw/ubash3a-hypothesis-test/trails-male_PBMC.gtf.gz",
+      "sha256": "2a4949d850f4ac0ed8a40dc802109e5673f7bc134ab478721e0d172f42f973ec",
+      "family": "TRAILS",
+      "context": "PBMC; independent 40-year-old male donor",
+      "support_unit": "FLAIR/SQANTI3 catalog model",
+      "interpretation_boundary": "PBMC mixtures; reference-guided correction and filtering; no NMD perturbation.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "TRAILS README and original source code: GRCh38; primary paper methods"
+    },
+    {
+      "source_id": "trails-Espresso-gtf-gz",
+      "path": "data/raw/ubash3a-hypothesis-test/trails-Espresso.gtf.gz",
+      "sha256": "194485635552bdc6d52aac5f1e4846d1996b907318d4451292d5871bf858e80a",
+      "family": "TRAILS",
+      "context": "Same original female immune dataset; alternative ESPRESSO algorithm without prior junction correction",
+      "support_unit": "Alternative-algorithm transcript model",
+      "interpretation_boundary": "Same source donor/read data as TRAILS, not independent replication; algorithm comparison only.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "TRAILS README and original source code: GRCh38; primary paper methods"
+    },
+    {
+      "source_id": "trails-Espresso_SJ-gtf-gz",
+      "path": "data/raw/ubash3a-hypothesis-test/trails-Espresso_SJ.gtf.gz",
+      "sha256": "d5d67273de00d408507fc2e9b37d2035af6e2541ccb669779752fa70969e41c1",
+      "family": "TRAILS",
+      "context": "Same original female immune dataset; ESPRESSO with junction correction",
+      "support_unit": "Alternative-algorithm transcript model",
+      "interpretation_boundary": "Same source donor/read data as TRAILS and ESPRESSO; algorithm/correction comparison only.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "TRAILS README and original source code: GRCh38; primary paper methods"
+    },
+    {
+      "source_id": "nmdrht-v1-2-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/nmdrht-v1.2.sort.gtf.gz",
+      "sha256": "26e209c2da2daf954f4e4be22445d68782cea74a85a7cc73f032770b6bcb3a5e",
+      "family": "Rapid UPF1 depletion / NMDRHT",
+      "context": "Consolidated human transcriptome resource, including HCT116 long-read UPF1 depletion",
+      "support_unit": "Consolidated annotation model, not independent read or measured HCT116 abundance",
+      "interpretation_boundary": "Reference annotations and multiple assembly pipelines/cell types contribute; a model alone does not establish expression or decay responsiveness in an individual sample.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "NMDRHT pinned code README: GRCh38 primary assembly / GENCODE v42; browser configuration genome hg38"
+    },
+    {
+      "source_id": "lung-isocall-annotation",
+      "path": "data/raw/ubash3a-hypothesis-test/lung-nmd_isocall_4ct.gtf.gz",
+      "sha256": "08ec07f615e066a9ce7dd2605f398ac1ae57f5d2a1bc0594a494ebe12bb43ec4",
+      "family": "GSE329233 / primary lung SMG1i",
+      "context": "26 samples in 13 donor-cell pairs: 7 unique donors across AT2, LAE, FB and MV",
+      "support_unit": "Isocall source transcript model from deposited original (not SQANTI-filtered) GTF",
+      "interpretation_boundary": "Source-data deposit and code available; cited GEO accession did not resolve publicly. Lung cells are a transfer context; matched response requires isoform linkage and sample contrast freeze.",
+      "assembly": "GRCh38",
+      "assembly_evidence": "Deposited Isocall v1.0.0 pipeline projects/nmd_lungcells/run_isocall.sh: GRCh38.primary_assembly.genome.fa and GENCODE v49; align.sh: GRCh38_splice.mmi / genome_hg38"
+    }
+  ]
+}

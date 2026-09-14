@@ -1,0 +1,14 @@
+{
+  "repairs": [
+    {
+      "recorded_at_utc": "2026-09-14T19:25:49.455387+00:00",
+      "initial_stage": "annotation run stopped at NMDRHT before writing tables; first 11 source summary counts were visible, including 1 TRAILS plus29 model",
+      "error": "Unsupported annotation attribute: GENCODE_transcript_support_level 1",
+      "change": "Accept standard single-token unquoted GTF attribute values, preserving their original strings; reject unquoted multi-token malformed values. No coordinate, event, dataset or response method changed.",
+      "new_pins": {
+        "scripts/analyze_ubash3a_observed_isoforms.py": "c47a9662f7011c9c6fefa1a1024822df28c875a30ff1717112af79e9abb64dca",
+        "tests/test_ubash3a_observed_isoforms.py": "9c14ebb25e2d3a3f444739ea077d87d62c8dcc794143fb90e4644a28793e018b"
+      }
+    }
+  ]
+}

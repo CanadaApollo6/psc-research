@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "script_sha256": "fd8b2d1ea17437b5f33535b73972a6b549ca9e507fd32409f7e4d42b44363271",
+  "source_count_values_exactly_checked": 1218,
+  "plus29_support_independent_fraction_sum": {
+    "all_subsets_source_units": "247",
+    "CD4_source_units": "157",
+    "positive_CD4_subsets": 10
+  },
+  "protein_scenarios_checked": 10,
+  "protein_groups_checked": 4,
+  "RNA_windows_checked": 12,
+  "RNA_verification": "Reference windows occur in both appropriate prior reconstructed RNAs; new catalog windows occur in independently assembled genomic exon sequences. Alleles remain hypothetical.",
+  "BAM_verification": "Independent binary BAI metadata parse and samtools SAM-text CIGAR parse; source indexes contain chromosome-21 mappings in every library. Original full BAMs were not downloaded or hashed.",
+  "BAM_samples": [
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1",
+      "original_index_chr21_mapped_alignment_count": 292022,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2",
+      "original_index_chr21_mapped_alignment_count": 287048,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_1",
+      "original_index_chr21_mapped_alignment_count": 165507,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_2",
+      "original_index_chr21_mapped_alignment_count": 178751,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1",
+      "original_index_chr21_mapped_alignment_count": 194728,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2",
+      "original_index_chr21_mapped_alignment_count": 296358,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_1",
+      "original_index_chr21_mapped_alignment_count": 180013,
+      "UBASH3A_subset_alignments": 1,
+      "GRCh38_chr21_length_checked": true
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_2",
+      "original_index_chr21_mapped_alignment_count": 157121,
+      "UBASH3A_subset_alignments": 0,
+      "GRCh38_chr21_length_checked": true
+    }
+  ],
+  "actual_alignments_checked": 1
+}

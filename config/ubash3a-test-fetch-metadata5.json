@@ -1,0 +1,29 @@
+{
+  "purpose": "Additional metadata to resolve lung assembly and NMDRHT catalog construction; no target structures or count values",
+  "requests": [
+    {
+      "source_id": "lung-code-ref",
+      "file": "lung-code-ref.json",
+      "url": "https://api.github.com/repos/peter4244/nmd_lung_longread_reproduction/git/ref/heads/main"
+    },
+    {
+      "source_id": "nmdrht-code-annotation",
+      "file": "nmdrht-code-annotation.R",
+      "url": "https://raw.githubusercontent.com/boehmv/2025_UPF1_NMDRHT/81964a4b6ce3d37e6e0429c6874cfc6b626ff04d/UPF1_NMDRHT_Annotation.R"
+    },
+    {
+      "source_id": "entrez-lung-series",
+      "file": "entrez-lung-series.json",
+      "service": "entrez",
+      "request": {
+        "endpoint": "esearch",
+        "params": {
+          "db": "gds",
+          "term": "GSE329233[ACCN]",
+          "retmode": "json",
+          "retmax": 10
+        }
+      }
+    }
+  ]
+}

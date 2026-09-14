@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-09-14T19:40:38.159323+00:00",
+  "known_at_analysis_start": "Extraction found zero locus alignments in seven libraries and one in 12h PacBio replicate 1; that alignment CIGAR, sequence and quality have not been inspected. The read-test method was frozen before extraction.",
+  "architecture_mapping_clarification": "Architecture is defined by exact post-target junction chain. ENST00000291535.12 shares the canonical suffix with ENST00000319294.11 and ENST00001131803.1, so all three belong to canonical_downstream; every transcript remains individually reported. This mapping follows the already frozen reference structures.",
+  "pins": {
+    "config/ubash3a-upf1-read-test-plan.json": "3bff483ee2c001d5dc9ab7d601735c8c199c91ad416e870e170832fbc8d5cc20",
+    "config/ubash3a-upf1-read-sources.json": "5e348af1c41750dae083b3721813957575cb055af76598377f08b020340e2cc2",
+    "scripts/analyze_ubash3a_upf1_reads.py": "6e4603e267c39c810e63a005fa2a05ab228f254e17f64c28bf50ca4421bc2dc1",
+    "tests/test_ubash3a_upf1_reads.py": "eccb53a7e515a496b003e391fc8732879c2f6366341a95c3013d6ba839a8950e",
+    "data/derived/ubash3a-hypothesis-test/reference-junction-chains.csv": "ca9de91b4b366ced4f2bfb11b49400bd0e14858f2f2dab59819f9a3de7c25af5"
+  }
+}

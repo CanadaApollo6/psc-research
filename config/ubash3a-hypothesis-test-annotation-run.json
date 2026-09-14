@@ -1,0 +1,11 @@
+{
+  "started_at_utc": "2026-09-14T19:24:00.533213+00:00",
+  "stage": "annotation only; no NMD target response values inspected",
+  "source_manifest_at_start_sha256": "3523afbba4295d271ada879310f588e9b58cc5a4b8b6f8e8a0c899c48784a8a8",
+  "pins": {
+    "config/ubash3a-hypothesis-test-plan.json": "45249d31d18e9131023c6343737a5e9612d55f2ec37c91968e028edf779a8299",
+    "config/ubash3a-test-annotation-inputs.json": "1e635989bd96086c0e2b13d11a57081e81cb87a928a164862d062e19bd464558",
+    "scripts/analyze_ubash3a_observed_isoforms.py": "5afe7d53a57dbbd823c36a8a5a767657965893a13a2cb06e504b8eead464b32f",
+    "tests/test_ubash3a_observed_isoforms.py": "b9decbc181249dbc96002154329ff01f00da78828d3043eb2de040c0649723a1"
+  }
+}

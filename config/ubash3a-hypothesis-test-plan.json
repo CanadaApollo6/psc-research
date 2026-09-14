@@ -1,0 +1,51 @@
+{
+  "plan_id": "ubash3a-public-hypothesis-test-v1",
+  "frozen_at_utc": "2026-09-14T18:58:36.967545+00:00",
+  "baseline_commit": "0465abda494b2427b7d2d4cf927ec5c929753acf",
+  "protocol": "docs/ubash3a-hypothesis-test-protocol.md",
+  "protocol_sha256": "a19e87acec3c439668c7c775112021c8b48418680e0ab5a26dbe9f33e3c5e3d9",
+  "initial_discovery_queries": [
+    "\"nonsense mediated decay\" \"long-read\" RNA sequencing UPF1 human dataset",
+    "\"CD4\" \"long-read\" transcriptome sequencing isoforms public data"
+  ],
+  "discovery_boundary": "Initial query results and study-level descriptions/file lists were inspected; no new target structures, counts or response values inspected. This freeze precedes target data inspection, not the initial literature search.",
+  "initial_source_families": [
+    "GSE229971",
+    "GSE202327/GSE202329",
+    "TRAILS DOI 10.1038/s41467-024-48615-4",
+    "Rapid UPF1 depletion / NMDRHT",
+    "GSE329233 / Leshem primary lung SMG1 inhibition"
+  ],
+  "maximum_additional_direct_CD4_NMD_sources": 2,
+  "gene_id": "ENSG00000160185",
+  "symbol": "UBASH3A",
+  "assembly": "GRCh38",
+  "chromosome": "21",
+  "strand": 1,
+  "normal_upstream_exon_end_1based": 42434954,
+  "retained_upstream_exon_end_1based": 42434983,
+  "downstream_exon_start_1based": 42437488,
+  "first_retained_stop_genomic_interval_1based": [
+    42442545,
+    42442547
+  ],
+  "reference_pins": {
+    "config/ubash3a-consequence-plan.json": "7a69dc90d269df27ef744ea653e9bda208070f6328e8d8f8b544db2457004509",
+    "config/ubash3a-consequence-run.json": "ca3495d85b1e755ec5b0709f6554f18f8fa748b78676eab18eafd7db077a4929",
+    "config/ubash3a-consequence-sources.json": "1cfbc4a6cc7a4f07fe5f5921f4ffe45a9e79640eb6969926db58255f26f1e9b3",
+    "data/raw/ubash3a-consequences/ensembl-gene.json": "9d116bbc9fe1bd146991e109b0213a2324f7e197111a72039c9226af168d08fd",
+    "data/derived/ubash3a-consequences/consequences.csv": "9f5a749205a8ef22501e52896f70e968dd6c8180b48bf1a35b09f012a5f420ba",
+    "data/derived/ubash3a-consequences/exon-coordinates.csv": "3af153c983747475ca98379be362c3f950a3bb1778043983cbe0c896b63fd990",
+    "data/derived/ubash3a-consequences/proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "reports/ubash3a-transcript-consequences.md": "c1ff646f9c22c1b7fa99a1d8498a3159f41d67127eba8d8f90e5bf7529b31f04",
+    "reports/ubash3a-consequences-verification.json": "1b8afddc1163b5b0db5207f7841b7fba09cbba36796e033e18ae1f8a20c1ac56",
+    "reports/ubash3a-junction-followup.md": "b05b4feb3558899b7f073b128a9a36e498928bb3adffb84677e133ca4c12d907",
+    "reports/gse84161-normalization-verification.json": "d84273d454da66a9e4c47c517eacd601503e474c3805d2b33d5e3275368edd88"
+  },
+  "primary_cell_context": "Human primary CD4 T cells",
+  "annotation_negative_interpretation": "Non-detection in the particular filtered source; no proof of molecular absence.",
+  "decay_analysis_boundary": "Freeze source-specific sample/contrast/statistical procedure before inspecting target response values if metadata and isoform-linkage eligibility is established.",
+  "raw_directory": "data/raw/ubash3a-hypothesis-test",
+  "derived_directory": "data/derived/ubash3a-hypothesis-test",
+  "report": "reports/ubash3a-hypothesis-test.md"
+}

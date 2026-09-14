@@ -1,0 +1,72 @@
+{
+  "purpose": "Metadata and methods only; before new UBASH3A observations",
+  "requests": [
+    {
+      "source_id": "entrez-known-CD4-series",
+      "service": "entrez",
+      "file": "entrez-known-CD4-series.json",
+      "request": {
+        "endpoint": "esearch",
+        "params": {
+          "db": "gds",
+          "term": "GSE229971[ACCN] OR GSE202327[ACCN]",
+          "retmode": "json",
+          "retmax": 10
+        }
+      }
+    },
+    {
+      "source_id": "entrez-CD4-NMD-longread",
+      "service": "entrez",
+      "file": "entrez-CD4-NMD-longread.json",
+      "request": {
+        "endpoint": "esearch",
+        "params": {
+          "db": "gds",
+          "term": "Homo sapiens[ORGN] AND (CD4 OR \"T cell\") AND (UPF1 OR SMG1 OR \"nonsense mediated decay\") AND (\"long read\" OR \"Iso-Seq\" OR nanopore)",
+          "retmode": "json",
+          "retmax": 10
+        }
+      }
+    },
+    {
+      "source_id": "entrez-UPF1-paper",
+      "service": "entrez",
+      "file": "entrez-UPF1-paper.json",
+      "request": {
+        "endpoint": "esearch",
+        "params": {
+          "db": "pubmed",
+          "term": "\"Rapid UPF1 depletion\"",
+          "retmode": "json",
+          "retmax": 10
+        }
+      }
+    },
+    {
+      "source_id": "trails-git-ref",
+      "file": "trails-git-ref.json",
+      "url": "https://api.github.com/repos/juninamo/TRAILS/git/ref/heads/main"
+    },
+    {
+      "source_id": "lung-zenodo-v6-metadata",
+      "file": "lung-zenodo-v6-metadata.json",
+      "url": "https://zenodo.org/api/records/21966061"
+    },
+    {
+      "source_id": "nmdrht-landing",
+      "file": "nmdrht-landing.html",
+      "url": "https://nmdrht.uni-koeln.de/"
+    },
+    {
+      "source_id": "upf1-longread-repository-metadata",
+      "file": "upf1-longread-repository-metadata.html",
+      "url": "https://edoc.mdc-berlin.de/id/eprint/25704/"
+    },
+    {
+      "source_id": "trails-paper-xml",
+      "file": "trails-paper.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11133395/fullTextXML"
+    }
+  ]
+}

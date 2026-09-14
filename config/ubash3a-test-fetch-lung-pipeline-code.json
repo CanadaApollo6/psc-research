@@ -1,0 +1,11 @@
+{
+  "purpose": "Inspect original Isocall configuration for genome-build provenance without running third-party code",
+  "requests": [
+    {
+      "source_id": "lung-isocall-pipeline-code",
+      "file": "lung-isocall-pipeline.zip",
+      "url": "https://zenodo.org/api/records/21536486/files/peter4244/Isocall_v1-v1.0.0.zip/content",
+      "md5": "211f982c83f1dcb89b70b75a0eaa2291"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "3bff483ee2c001d5dc9ab7d601735c8c199c91ad416e870e170832fbc8d5cc20",
+  "read_source_manifest_sha256": "5e348af1c41750dae083b3721813957575cb055af76598377f08b020340e2cc2",
+  "script_sha256": "6e4603e267c39c810e63a005fa2a05ab228f254e17f64c28bf50ca4421bc2dc1",
+  "samples": 8,
+  "all_locus_alignments": 1,
+  "reference_count_rows_including_zeros": 80,
+  "architecture_count_rows_including_zeros": 48,
+  "files_sha256": {
+    "upf1-locus-alignments.csv": "8d0c36ddc9dd1f17e82a5c8d8b798c2f4965404ec829656cbcaf0c15cadfbaa5",
+    "upf1-read-summary.csv": "1dd480f957eedb9070f8aa858e6990fdf1175ab18da16636db7a631b0ecc7ab2",
+    "upf1-read-reference-matches.csv": "72c5a461313863cf08cd54d37e5798f4d49d543b2afffce724989be8c2f7f335",
+    "upf1-read-reference-counts.csv": "16fc36328089daa9bff617e5e177cc0751805d30e2544355cce41edb2574b2b3",
+    "upf1-read-architecture-counts.csv": "b30c442e03a7e8548e58ff9b89d737d8c83ce9a4a51dbccbc92f22f6dc7e5629",
+    "upf1-read-contrasts.csv": "47f8427b31552cdf3e618f9df81b7aafbccd1cb999579482a61b682f88e54ad7"
+  },
+  "interpretation": "Read-level source audit and descriptive conditional contrasts; no expression, decay or protein inference from a zero or unavailable contrast."
+}

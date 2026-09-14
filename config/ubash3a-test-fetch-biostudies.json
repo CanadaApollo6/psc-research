@@ -1,0 +1,45 @@
+{
+  "purpose": "UPF1 study/sample design and file metadata only",
+  "requests": [
+    {
+      "source_id": "E-MTAB-14725-study",
+      "service": "biostudies",
+      "file": "E-MTAB-14725-study.json",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+        "path": "studies/E-MTAB-14725",
+        "response_format": "text"
+      }
+    },
+    {
+      "source_id": "E-MTAB-14725-info",
+      "service": "biostudies",
+      "file": "E-MTAB-14725-info.json",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+        "path": "studies/E-MTAB-14725/info",
+        "response_format": "text"
+      }
+    },
+    {
+      "source_id": "E-MTAB-13788-study",
+      "service": "biostudies",
+      "file": "E-MTAB-13788-study.json",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+        "path": "studies/E-MTAB-13788",
+        "response_format": "text"
+      }
+    },
+    {
+      "source_id": "E-MTAB-13788-info",
+      "service": "biostudies",
+      "file": "E-MTAB-13788-info.json",
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+        "path": "studies/E-MTAB-13788/info",
+        "response_format": "text"
+      }
+    }
+  ]
+}

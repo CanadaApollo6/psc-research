@@ -1,0 +1,11 @@
+{
+  "selection_at_stage": "After annotation scan: collect original support and alias metadata for all 43 TRAILS locus models; no NMD response data",
+  "requests": [
+    {
+      "source_id": "trails-isoform-info",
+      "file": "trails-isoform_info.txt.gz",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/isoform_info.txt.gz",
+      "maximum_bytes": 50000000
+    }
+  ]
+}

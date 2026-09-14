@@ -1,0 +1,5 @@
+platform,architecture,control_normal,control_plus29,UPF1_depleted_12h_normal,UPF1_depleted_12h_plus29,log2_change_retained_to_normal_odds,status,reason,boundary_minus_canonical_difference
+PacBio,boundary,0,0,0,0,,not_estimable,One or more required full-chain counts are zero; no pseudocount used.,
+PacBio,canonical_downstream,0,0,0,0,,not_estimable,One or more required full-chain counts are zero; no pseudocount used.,
+ONT_dRNA,boundary,0,0,0,0,,not_estimable,One or more required full-chain counts are zero; no pseudocount used.,
+ONT_dRNA,canonical_downstream,0,0,0,0,,not_estimable,One or more required full-chain counts are zero; no pseudocount used.,

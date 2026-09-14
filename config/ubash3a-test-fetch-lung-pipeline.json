@@ -1,0 +1,10 @@
+{
+  "purpose": "Verify the source alignment assembly through the deposited Isocall pipeline metadata",
+  "requests": [
+    {
+      "source_id": "lung-isocall-pipeline-metadata",
+      "file": "lung-isocall-pipeline-metadata.json",
+      "url": "https://zenodo.org/api/records/21536485"
+    }
+  ]
+}

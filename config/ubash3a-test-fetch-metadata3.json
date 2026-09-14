@@ -1,0 +1,72 @@
+{
+  "purpose": "Complete sample and filter metadata before selecting annotation inputs",
+  "requests": [
+    {
+      "source_id": "entrez-CD4-NMD-candidate-summaries",
+      "service": "entrez",
+      "file": "entrez-CD4-NMD-candidate-summaries.json",
+      "request": {
+        "endpoint": "esummary",
+        "params": {
+          "db": "gds",
+          "id": "200305669,200237218,200198392",
+          "retmode": "json"
+        }
+      }
+    },
+    {
+      "source_id": "nmdrht-code-ref",
+      "file": "nmdrht-code-ref.json",
+      "url": "https://api.github.com/repos/boehmv/2025_UPF1_NMDRHT/git/ref/heads/main"
+    },
+    {
+      "source_id": "nmdrht-zenodo-latest-metadata",
+      "file": "nmdrht-zenodo-latest-metadata.json",
+      "url": "https://zenodo.org/api/records/15047819/versions/latest"
+    },
+    {
+      "source_id": "GSE229971-family-metadata",
+      "file": "GSE229971-family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE229nnn/GSE229971/soft/GSE229971_family.soft.gz",
+      "maximum_bytes": 5000000
+    },
+    {
+      "source_id": "GSE202327-family-metadata",
+      "file": "GSE202327-family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202327/soft/GSE202327_family.soft.gz",
+      "maximum_bytes": 5000000
+    },
+    {
+      "source_id": "lung-README-md",
+      "file": "lung-README.md",
+      "url": "https://zenodo.org/api/records/22691785/files/README.md/content",
+      "md5": "9b196b9ece4ab318889ff784720ceb2c",
+      "maximum_bytes": 5000000,
+      "zenodo_record": 22691785
+    },
+    {
+      "source_id": "lung-pheno_4ct-csv",
+      "file": "lung-pheno_4ct.csv",
+      "url": "https://zenodo.org/api/records/22691785/files/pheno_4ct.csv/content",
+      "md5": "e4fd199ccc91d5e6d84a7903c990f78c",
+      "maximum_bytes": 5000000,
+      "zenodo_record": 22691785
+    },
+    {
+      "source_id": "lung-MANIFEST-sha256",
+      "file": "lung-MANIFEST.sha256",
+      "url": "https://zenodo.org/api/records/22691785/files/MANIFEST.sha256/content",
+      "md5": "7e95d1002b2b9609c302882d3c3d3899",
+      "maximum_bytes": 5000000,
+      "zenodo_record": 22691785
+    },
+    {
+      "source_id": "lung-UPLOAD_MANIFEST-sha256",
+      "file": "lung-UPLOAD_MANIFEST.sha256",
+      "url": "https://zenodo.org/api/records/22691785/files/UPLOAD_MANIFEST.sha256/content",
+      "md5": "92aea8dcf62148d058f6d6af747e0a79",
+      "maximum_bytes": 5000000,
+      "zenodo_record": 22691785
+    }
+  ]
+}

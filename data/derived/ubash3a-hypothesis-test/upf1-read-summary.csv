@@ -1,0 +1,9 @@
+sample_id,platform,condition,replicate_label,all_locus_alignments,quality_eligible_alignments,exact_normal_coordinate_alignments,exact_plus29_coordinate_alignments,qualified_normal_event_reads,qualified_plus29_event_reads,qualified_full_reference_reads
+HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1,ONT_dRNA,control,1,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2,ONT_dRNA,control,2,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_0h_IAA_PacBio_1,PacBio,control,1,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_0h_IAA_PacBio_2,PacBio,control,2,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1,ONT_dRNA,UPF1_depleted_12h,1,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2,ONT_dRNA,UPF1_depleted_12h,2,0,0,0,0,0,0,0
+HCT_N_AID_UPF1_12h_IAA_PacBio_1,PacBio,UPF1_depleted_12h,1,1,1,0,0,0,0,0
+HCT_N_AID_UPF1_12h_IAA_PacBio_2,PacBio,UPF1_depleted_12h,2,0,0,0,0,0,0,0

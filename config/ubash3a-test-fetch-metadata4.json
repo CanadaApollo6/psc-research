@@ -1,0 +1,50 @@
+{
+  "purpose": "Verify assembly, annotation provenance, count definitions and sample identities before target structures or NMD responses",
+  "requests": [
+    {
+      "source_id": "nmdrht-code-tree",
+      "file": "nmdrht-code-tree.json",
+      "url": "https://api.github.com/repos/boehmv/2025_UPF1_NMDRHT/git/trees/81964a4b6ce3d37e6e0429c6874cfc6b626ff04d?recursive=1"
+    },
+    {
+      "source_id": "nmdrht-code-readme",
+      "file": "nmdrht-code-readme.md",
+      "url": "https://raw.githubusercontent.com/boehmv/2025_UPF1_NMDRHT/81964a4b6ce3d37e6e0429c6874cfc6b626ff04d/README.md"
+    },
+    {
+      "source_id": "nmdrht-browser-config",
+      "file": "nmdrht-browser-config.js",
+      "url": "https://nmdrht.uni-koeln.de/igvwebConfig.js"
+    },
+    {
+      "source_id": "lung-code-repository",
+      "file": "lung-code-repository.json",
+      "url": "https://api.github.com/repos/peter4244/nmd_lung_longread_reproduction"
+    },
+    {
+      "source_id": "GSE329233-family-metadata",
+      "file": "GSE329233-family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE329nnn/GSE329233/soft/GSE329233_family.soft.gz"
+    },
+    {
+      "source_id": "trails-code-flair.sh",
+      "file": "trails-code-flair.sh",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/source_codes/flair.sh"
+    },
+    {
+      "source_id": "trails-code-extract_cell_specific_isoforms.sh",
+      "file": "trails-code-extract_cell_specific_isoforms.sh",
+      "url": "https://raw.githubusercontent.com/juninamo/TRAILS/1fda57adf5b51715adf27497fd0c147409e1b054/source_codes/extract_cell_specific_isoforms.sh"
+    },
+    {
+      "source_id": "E-MTAB-14725-sdrf",
+      "file": "E-MTAB-14725.sdrf.txt",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/E-MTAB-14725.sdrf.txt"
+    },
+    {
+      "source_id": "E-MTAB-13788-sdrf",
+      "file": "E-MTAB-13788.sdrf.txt",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/788/E-MTAB-13788/Files/E-MTAB-13788.sdrf.txt"
+    }
+  ]
+}

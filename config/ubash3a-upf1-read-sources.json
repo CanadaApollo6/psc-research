@@ -1,0 +1,474 @@
+{
+  "plan_sha256": "3bff483ee2c001d5dc9ab7d601735c8c199c91ad416e870e170832fbc8d5cc20",
+  "created_at_utc": "2026-09-14T19:33:06.508953+00:00",
+  "fetch_script_sha256_at_start": "b558c5a530fb972e8eca5ffd9a0a11f408510962730886be5310e4360951d8a8",
+  "pysam_version": "0.23.3",
+  "htslib_version": "1.21",
+  "samples": [
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1",
+      "platform": "ONT_dRNA",
+      "replicate_label": "1",
+      "condition": "control",
+      "compound_source_value": "none",
+      "dose_source_value": "0",
+      "time_hours": "0",
+      "bam_file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:06.512788+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:12.316646+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam",
+        "status": 200,
+        "bytes": 23327643137,
+        "etag": "\"56e6f9601-629b8b83d2480\"",
+        "last_modified": "Fri, 20 Dec 2024 19:33:22 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam",
+        "status": 200,
+        "bytes": 23327643137,
+        "etag": "\"56e6f9601-629b8b83d2480\"",
+        "last_modified": "Fri, 20 Dec 2024 19:33:22 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "350125da83a0242099ee5c753d80de14ddbcf5c8fcc9cf2a50fddae9c8c2a865",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.UBASH3A.bam": {
+          "bytes": 2960,
+          "sha256": "1454b27ac6b90b011ac272eed5d55e0078b8657e310e3af128d749120243cb32"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.header.sam": {
+          "bytes": 5837,
+          "sha256": "275e527f8563894b079c7beeac26444dda233ada3a78258665405ba6c580c089"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "c94b48a4f49b3e74a8e36e2f4c36fa38eba74167d9d528b0c48e437f7bbfe73a"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2",
+      "platform": "ONT_dRNA",
+      "replicate_label": "2",
+      "condition": "control",
+      "compound_source_value": "none",
+      "dose_source_value": "0",
+      "time_hours": "0",
+      "bam_file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:12.324427+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:15.336526+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam",
+        "status": 200,
+        "bytes": 23506750103,
+        "etag": "\"5791c8a97-629b8bc1cf6c0\"",
+        "last_modified": "Fri, 20 Dec 2024 19:34:27 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam",
+        "status": 200,
+        "bytes": 23506750103,
+        "etag": "\"5791c8a97-629b8bc1cf6c0\"",
+        "last_modified": "Fri, 20 Dec 2024 19:34:27 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "bca80665787214f8fbf05344fa9dbb685a7fd01253f60ab3235eabcf02dd15d8",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.UBASH3A.bam": {
+          "bytes": 2960,
+          "sha256": "dbb727a58966b12135e3504e0ea11a0fbb2ca247a246a1d2377256e7cd00c513"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.header.sam": {
+          "bytes": 5837,
+          "sha256": "707557ecd2c2127b4f8a020b93c5c1af9116d361afeede5d584640095c6c96c5"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "5596d8030c0c6948328bdf164aa7765c5945ecbc7e341c591b3cf3827621065d"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_1",
+      "platform": "PacBio",
+      "replicate_label": "1",
+      "condition": "control",
+      "compound_source_value": "none",
+      "dose_source_value": "0",
+      "time_hours": "0",
+      "bam_file": "HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:15.343740+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:17.729625+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam",
+        "status": 200,
+        "bytes": 6249405229,
+        "etag": "\"1747e5b2d-629b8968fed40\"",
+        "last_modified": "Fri, 20 Dec 2024 19:23:57 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam",
+        "status": 200,
+        "bytes": 6249405229,
+        "etag": "\"1747e5b2d-629b8968fed40\"",
+        "last_modified": "Fri, 20 Dec 2024 19:23:57 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "21d016ceff537ed8da24f5d60d77f38762389de34976777a1bce990f2cbc4461",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.UBASH3A.bam": {
+          "bytes": 2966,
+          "sha256": "103394fd6e9e76273da6ea6ebc394380f6be75f835bcce7a77340a5b6f1b5299"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.header.sam": {
+          "bytes": 5895,
+          "sha256": "bad43fafa0dd6b019e00b2cb52a1128ac469087f5aadfc08a271a106109c4577"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_1.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "903fe5d9a310ca69c1d0b72369fc1d04126f8c83b5ff2712322323b43916611d"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_2",
+      "platform": "PacBio",
+      "replicate_label": "2",
+      "condition": "control",
+      "compound_source_value": "none",
+      "dose_source_value": "0",
+      "time_hours": "0",
+      "bam_file": "HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:17.736015+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:20.680483+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam",
+        "status": 200,
+        "bytes": 6355557441,
+        "etag": "\"17ad21c41-629b897470840\"",
+        "last_modified": "Fri, 20 Dec 2024 19:24:09 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam",
+        "status": 200,
+        "bytes": 6355557441,
+        "etag": "\"17ad21c41-629b897470840\"",
+        "last_modified": "Fri, 20 Dec 2024 19:24:09 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "37a096445a00a6f0219050ce5e7f9add6a95579a4676d33419ab4708df36c760",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.UBASH3A.bam": {
+          "bytes": 2966,
+          "sha256": "df8b1db3836f2697d6725a60da87e868cf6b67832bf155f26bba774e0adcfed0"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.header.sam": {
+          "bytes": 5895,
+          "sha256": "c3190aea5accbb631d812b13daeb04821cd5a7c102bf2d2f76ce81c8f8c75275"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_0h_IAA_PacBio_2.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "a75504db47d2dd4d223222b9db65bb66b5371fdcda025e1b6b87d9ffccea549f"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1",
+      "platform": "ONT_dRNA",
+      "replicate_label": "1",
+      "condition": "UPF1_depleted_12h",
+      "compound_source_value": "indole-3-acetic acid (IAA)",
+      "dose_source_value": "500",
+      "time_hours": "12",
+      "bam_file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:20.686447+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:23.497385+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam",
+        "status": 200,
+        "bytes": 16708526099,
+        "etag": "\"3e3e7e013-629b8a5f0b1c0\"",
+        "last_modified": "Fri, 20 Dec 2024 19:28:15 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam",
+        "status": 200,
+        "bytes": 16708526099,
+        "etag": "\"3e3e7e013-629b8a5f0b1c0\"",
+        "last_modified": "Fri, 20 Dec 2024 19:28:15 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "dad53ee266354102031b5cba2ba1ab71958a9efa88eef1d2387d0078d553b593",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.UBASH3A.bam": {
+          "bytes": 2956,
+          "sha256": "5427a3e81db9e505ce0dc928108e80068afdd8299a42636b90a5032d645827ed"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.header.sam": {
+          "bytes": 5832,
+          "sha256": "73525fd7f5c4ee39feaf5a4d3f81bc78a4de5590af9f1ba5aaacec9937d443b0"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "baedbc46f249c791c33408db5218f6cc875c89d942a886743c763fa8dd1cafcb"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2",
+      "platform": "ONT_dRNA",
+      "replicate_label": "2",
+      "condition": "UPF1_depleted_12h",
+      "compound_source_value": "indole-3-acetic acid (IAA)",
+      "dose_source_value": "500",
+      "time_hours": "12",
+      "bam_file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:23.505776+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:26.079532+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam",
+        "status": 200,
+        "bytes": 27529868022,
+        "etag": "\"668e872f6-629b8b5517640\"",
+        "last_modified": "Fri, 20 Dec 2024 19:32:33 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam",
+        "status": 200,
+        "bytes": 27529868022,
+        "etag": "\"668e872f6-629b8b5517640\"",
+        "last_modified": "Fri, 20 Dec 2024 19:32:33 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "51d6218d531ccab1c98ee94a1a0302848e4100fe1c8adac47374c705d064bc03",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.UBASH3A.bam": {
+          "bytes": 2957,
+          "sha256": "17230f0a3c8fe10d000bae1587894294733066bcfe0564d93d5bde8b65d9752d"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.header.sam": {
+          "bytes": 5832,
+          "sha256": "732e1fd6fac4583bd4ec72166179e17243bc85cb1efe0126ac093f9bd8487006"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "0cffc580ca31e461e17c76d834e668fe632d3813de6dea2371b4ba10476b54c5"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_1",
+      "platform": "PacBio",
+      "replicate_label": "1",
+      "condition": "UPF1_depleted_12h",
+      "compound_source_value": "indole-3-acetic acid (IAA)",
+      "dose_source_value": "500",
+      "time_hours": "12",
+      "bam_file": "HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:26.087029+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:29.383944+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam",
+        "status": 200,
+        "bytes": 6152591828,
+        "etag": "\"16eb919d4-629b89643a200\"",
+        "last_modified": "Fri, 20 Dec 2024 19:23:52 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam",
+        "status": 200,
+        "bytes": 6152591828,
+        "etag": "\"16eb919d4-629b89643a200\"",
+        "last_modified": "Fri, 20 Dec 2024 19:23:52 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "b02a66b5e4d6a1af60d83168eaade8c1d89fdfacc7f74ca08c300fe539b99454",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 1,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.UBASH3A.bam": {
+          "bytes": 4159,
+          "sha256": "d6a03c16abe06b7ca36200216e600fef6ceb7bb82414eee1358507d21f5a26e2"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.UBASH3A.bam.bai": {
+          "bytes": 22368,
+          "sha256": "53cd40525359192c6886a205f5f480d99f234479d33a4e055d9adf82da545d98"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.header.sam": {
+          "bytes": 5895,
+          "sha256": "27c369ce5706dac72b7071e5a5dfeaf81f0189c80d6d5fab43cba3f35dbd57fd"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_1.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "f049c882e7ce1f1c04fadfb6a7b34d7835f0bd068f8f68e643bc6ea460c93c44"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    },
+    {
+      "sample_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_2",
+      "platform": "PacBio",
+      "replicate_label": "2",
+      "condition": "UPF1_depleted_12h",
+      "compound_source_value": "indole-3-acetic acid (IAA)",
+      "dose_source_value": "500",
+      "time_hours": "12",
+      "bam_file": "HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam",
+      "bai_file": "HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam.bai",
+      "bam_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam",
+      "retrieval_started_at_utc": "2026-09-14T19:33:29.391264+00:00",
+      "retrieved_at_utc": "2026-09-14T19:33:32.155665+00:00",
+      "source_metadata_before": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam",
+        "status": 200,
+        "bytes": 6600574720,
+        "etag": "\"1896cc700-629b8996c5940\"",
+        "last_modified": "Fri, 20 Dec 2024 19:24:45 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_metadata_after": {
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam",
+        "status": 200,
+        "bytes": 6600574720,
+        "etag": "\"1896cc700-629b8996c5940\"",
+        "last_modified": "Fri, 20 Dec 2024 19:24:45 GMT",
+        "accept_ranges": "bytes"
+      },
+      "source_index_sha256": "ea8dbf0452dd7734549cfda5993de972747f76b65dc611852dbe5d44701f662c",
+      "source_index_path": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam.bai",
+      "region_1based_inclusive": [
+        "chr21",
+        42403447,
+        42447684
+      ],
+      "all_locus_alignments": 0,
+      "local_bam": "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.UBASH3A.bam",
+      "local_files": {
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.UBASH3A.bam": {
+          "bytes": 2966,
+          "sha256": "eda4855f10623bdaf701fd3520b9ec740e415b9b4dfd44885d7fbcf2c98f70d1"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.UBASH3A.bam.bai": {
+          "bytes": 1576,
+          "sha256": "c9ffab44f5015a6a52465e538034555abce1a3b4ae0e5bb7f4346b9d9e9d70cf"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.header.sam": {
+          "bytes": 5895,
+          "sha256": "11f88fe67443cc136ec44b5901956967d0f0d76961b28b1aabb2a508226c5868"
+        },
+        "data/raw/ubash3a-hypothesis-test/HCT_N_AID_UPF1_12h_IAA_PacBio_2.prefix.bgzf": {
+          "bytes": 65536,
+          "sha256": "5956191039cc4610f34cc812ec1f9895358c4460c689780149083676ab8d805c"
+        }
+      },
+      "representation": "pysam/htslib indexed interval extraction; all overlapping alignments retained with the source header. Hashes identify the subset, prefix, header and indexes, not the entire remote BAM."
+    }
+  ],
+  "failed_attempts": []
+}

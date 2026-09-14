@@ -1,0 +1,53 @@
+{
+  "purpose": "Indexes for all eight prospectively selected BAM locus extractions",
+  "requests": [
+    {
+      "source_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1-bai",
+      "file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2-bai",
+      "file": "HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_1-bai",
+      "file": "HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_1.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_0h_IAA_PacBio_2-bai",
+      "file": "HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_0h_IAA_PacBio_2.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1-bai",
+      "file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_1.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2-bai",
+      "file": "HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_ONT_dRNA_2.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_1-bai",
+      "file": "HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_1.sort.bam.bai",
+      "maximum_bytes": 10000000
+    },
+    {
+      "source_id": "HCT_N_AID_UPF1_12h_IAA_PacBio_2-bai",
+      "file": "HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam.bai",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/725/E-MTAB-14725/Files/HCT_N_AID_UPF1_12h_IAA_PacBio_2.sort.bam.bai",
+      "maximum_bytes": 10000000
+    }
+  ]
+}
