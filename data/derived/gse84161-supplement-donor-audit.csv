@@ -1,0 +1,31 @@
+sample_accession,source_title,source_description,source_sample_label,source_replicate_number,source_compound_label,source_stimulation,existing_condition_key,confirmed_donor_group,donor_group_status,source_id
+GSM2228386,Untreated 1,Blood sample SAM636535 - Treatment: Untreated 1,SAM636535,1,Vehicle,Unstimulated,untreated_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228387,Tpl-2 SMI 1,Blood sample SAM636536 - Treatment: Tpl-2 SMI 1,SAM636536,1,TPL2i,Unstimulated,tpl2i_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228388,MEK SMI 1,Blood sample SAM636537 - Treatment: MEK SMI 1,SAM636537,1,MEKi,Unstimulated,meki_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228389,LPS 1,Blood sample SAM636538 - Treatment: LPS 1,SAM636538,1,Vehicle,LPS,vehicle_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228390,Tpl-2 SMI + LPS 1,Blood sample SAM636539 - Treatment: Tpl-2 SMI + LPS 1,SAM636539,1,TPL2i,LPS,tpl2i_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228391,MEK SMI + LPS 1,Blood sample SAM636540 - Treatment: MEK SMI + LPS 1,SAM636540,1,MEKi,LPS,meki_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228392,Untreated 2,Blood sample SAM636541 - Treatment: Untreated 2,SAM636541,2,Vehicle,Unstimulated,untreated_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228393,Tpl-2 SMI 2,Blood sample SAM636542 - Treatment: Tpl-2 SMI 2,SAM636542,2,TPL2i,Unstimulated,tpl2i_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228394,MEK SMI 2,Blood sample SAM636543 - Treatment: MEK SMI 2,SAM636543,2,MEKi,Unstimulated,meki_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228395,LPS 2,Blood sample SAM636544 - Treatment: LPS 2,SAM636544,2,Vehicle,LPS,vehicle_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228396,Tpl-2 SMI + LPS 2,Blood sample SAM636545 - Treatment: Tpl-2 SMI + LPS 2,SAM636545,2,TPL2i,LPS,tpl2i_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228397,MEK SMI + LPS 2,Blood sample SAM636546 - Treatment: MEK SMI + LPS 2,SAM636546,2,MEKi,LPS,meki_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228398,Untreated 3,Blood sample SAM636547 - Treatment: Untreated 3,SAM636547,3,Vehicle,Unstimulated,untreated_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228399,Tpl-2 SMI 3,Blood sample SAM636548 - Treatment: Tpl-2 SMI 3,SAM636548,3,TPL2i,Unstimulated,tpl2i_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228400,MEK SMI 3,Blood sample SAM636549 - Treatment: MEK SMI 3,SAM636549,3,MEKi,Unstimulated,meki_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228401,LPS 3,Blood sample SAM636550 - Treatment: LPS 3,SAM636550,3,Vehicle,LPS,vehicle_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228402,Tpl-2 SMI + LPS 3,Blood sample SAM636551 - Treatment: Tpl-2 SMI + LPS 3,SAM636551,3,TPL2i,LPS,tpl2i_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228403,MEK SMI + LPS 3,Blood sample SAM636552 - Treatment: MEK SMI + LPS 3,SAM636552,3,MEKi,LPS,meki_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228404,Untreated 4,Blood sample SAM636553 - Treatment: Untreated 4,SAM636553,4,Vehicle,Unstimulated,untreated_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228405,Tpl-2 SMI 4,Blood sample SAM636554 - Treatment: Tpl-2 SMI 4,SAM636554,4,TPL2i,Unstimulated,tpl2i_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228406,MEK SMI 4,Blood sample SAM636555 - Treatment: MEK SMI 4,SAM636555,4,MEKi,Unstimulated,meki_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228407,LPS 4,Blood sample SAM636556 - Treatment: LPS 4,SAM636556,4,Vehicle,LPS,vehicle_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228408,Tpl-2 SMI + LPS 4,Blood sample SAM636557 - Treatment: Tpl-2 SMI + LPS 4,SAM636557,4,TPL2i,LPS,tpl2i_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228409,MEK SMI + LPS 4,Blood sample SAM636558 - Treatment: MEK SMI + LPS 4,SAM636558,4,MEKi,LPS,meki_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228410,Untreated 5,Blood sample SAM636559 - Treatment: Untreated 5,SAM636559,5,Vehicle,Unstimulated,untreated_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228411,Tpl-2 SMI 5,Blood sample SAM636560 - Treatment: Tpl-2 SMI 5,SAM636560,5,TPL2i,Unstimulated,tpl2i_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228412,MEK SMI 5,Blood sample SAM636561 - Treatment: MEK SMI 5,SAM636561,5,MEKi,Unstimulated,meki_unstim,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228413,LPS 5,Blood sample SAM636562 - Treatment: LPS 5,SAM636562,5,Vehicle,LPS,vehicle_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228414,Tpl-2 SMI + LPS 5,Blood sample SAM636563 - Treatment: Tpl-2 SMI + LPS 5,SAM636563,5,TPL2i,LPS,tpl2i_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft
+GSM2228415,MEK SMI + LPS 5,Blood sample SAM636564 - Treatment: MEK SMI + LPS 5,SAM636564,5,MEKi,LPS,meki_lps,,"unresolved; replicate number is a candidate block, not a confirmed donor",geo-gse84161-soft

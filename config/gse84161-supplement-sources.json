@@ -1,0 +1,590 @@
+{
+  "manifest_id": "gse84161-supplement-source-manifest-v1",
+  "created_at_utc": "2026-09-14T15:49:25.099740+00:00",
+  "search_date": "2026-09-14",
+  "scope": "Public supplement investigation of anonymous donor grouping, study inhibitor identities, and array concentrations. No new expression scoring, contrasts, or researcher contact.",
+  "sources": [
+    {
+      "source_id": "senger2017-europepmc-metadata",
+      "source_role": "bibliographic_availability",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/europepmc.json",
+      "bytes": 17782,
+      "sha256": "c94717fcd7af4c2870d49467dfacbf390053ef75cf9d0a9f3b58ad40ddcbaaf5",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/europepmc.json",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+        "retrieved_at": "2026-09-14T15:34:52.991298+00:00",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 17782,
+        "sha256": "c94717fcd7af4c2870d49467dfacbf390053ef75cf9d0a9f3b58ad40ddcbaaf5",
+        "is_pdf": false,
+        "is_zip": false,
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch2.json"
+      },
+      "inspected_locators": [
+        "resultList.result: PMID 28420753; repository availability flags only"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "senger2017-supplement",
+      "source_role": "original_study_supplement",
+      "source_url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_sm.pdf",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/aah4273_sm.pdf",
+      "bytes": 5302678,
+      "sha256": "c477aab305df79ce53214491924baeb44333b290f6b0f0e1e277cab277841bd5",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/aah4273_sm.pdf",
+        "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_sm.pdf",
+        "retrieval_method": "publisher_visible_public_download_link_via_browser",
+        "download_modified_at_utc": "2026-09-14T15:34:33.402559+00:00",
+        "recorded_at_utc": "2026-09-14T15:35:28.979067+00:00",
+        "bytes": 5302678,
+        "sha256": "c477aab305df79ce53214491924baeb44333b290f6b0f0e1e277cab277841bd5",
+        "magic_hex": "255044462d312e36",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-browser.json"
+      },
+      "inspected_locators": [
+        "Fig. S2E, PDF pages 5-6",
+        "Fig. S3A/E, PDF pages 7-8",
+        "Fig. S4A, PDF page 9",
+        "Fig. S5A/C, PDF page 10",
+        "Fig. S9, PDF page 16",
+        "Table S2 legend, PDF page 27"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes",
+      "pdf_pages": 28
+    },
+    {
+      "source_id": "wang2023-elife-xml",
+      "source_role": "later_primary_structure_reference",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10411973/fullTextXML",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/wang2023-elife-fulltext.xml",
+      "bytes": 265941,
+      "sha256": "e904313b50d7bb28b0abf6ab9e9cae65137c893cca01e6523cdea1dc235d151f",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/wang2023-elife-fulltext.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10411973/fullTextXML",
+        "retrieved_at_utc": "2026-09-14T15:39:23.355590+00:00",
+        "status": 200,
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10411973/fullTextXML",
+        "content_type": "application/xml",
+        "bytes": 265941,
+        "sha256": "e904313b50d7bb28b0abf6ab9e9cae65137c893cca01e6523cdea1dc235d151f",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+      },
+      "inspected_locators": [
+        "Figure 1 - figure supplement 2A, G432 structure"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "hatzivassiliou2013-landing",
+      "source_role": "primary_publisher_supplement_link",
+      "source_url": "https://www.nature.com/articles/nature12441",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/hatzivassiliou2013.html",
+      "bytes": 373359,
+      "sha256": "763dca72ed329f16d4260a140fa1a3c4e7b78084f1648d960e8a646425a99d9e",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013.html",
+        "url": "https://www.nature.com/articles/nature12441",
+        "retrieved_at_utc": "2026-09-14T15:39:23.356042+00:00",
+        "status": 200,
+        "final_url": "https://www.nature.com/articles/nature12441?error=cookies_not_supported&code=27718743-5129-4939-9d0c-e6af203f58aa",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 373359,
+        "sha256": "763dca72ed329f16d4260a140fa1a3c4e7b78084f1648d960e8a646425a99d9e",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+      },
+      "inspected_locators": [
+        "Supplementary information: combined PDF"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "g573-pubchem-properties",
+      "source_role": "chemical_database_reference",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/46926364/property/IUPACName,InChIKey,MolecularFormula/JSON",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/g573-pubchem.json",
+      "bytes": 310,
+      "sha256": "ff5c3ecc55d42612ae5cee209b4c36d0ad3fe38b5bd53ef3efe9c4a215c02ad7",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/g573-pubchem.json",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/46926364/property/IUPACName,InChIKey,MolecularFormula/JSON",
+        "retrieved_at_utc": "2026-09-14T15:39:23.356431+00:00",
+        "status": 200,
+        "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/46926364/property/IUPACName,InChIKey,MolecularFormula/JSON",
+        "content_type": "application/json",
+        "bytes": 310,
+        "sha256": "ff5c3ecc55d42612ae5cee209b4c36d0ad3fe38b5bd53ef3efe9c4a215c02ad7",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+      },
+      "inspected_locators": [
+        "CID 46926364; molecular formula and InChIKey"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "hatzivassiliou2013-supplement",
+      "source_role": "cited_primary_structure_reference",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12441/MediaObjects/41586_2013_BFnature12441_MOESM60_ESM.pdf",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-supplement.pdf",
+      "bytes": 11147498,
+      "sha256": "dc207ac82a2eaef542a0424c5d4275ab569b18cea69e16f2468cacbd5f9274c5",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-supplement.pdf",
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12441/MediaObjects/41586_2013_BFnature12441_MOESM60_ESM.pdf",
+        "retrieved_at_utc": "2026-09-14T15:40:44.153134+00:00",
+        "status": 200,
+        "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12441/MediaObjects/41586_2013_BFnature12441_MOESM60_ESM.pdf",
+        "content_type": "application/pdf",
+        "bytes": 11147498,
+        "sha256": "dc207ac82a2eaef542a0424c5d4275ab569b18cea69e16f2468cacbd5f9274c5",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+      },
+      "inspected_locators": [
+        "Supplementary Fig. 1A, PDF page 22: G573 structure"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes",
+      "pdf_pages": 36
+    },
+    {
+      "source_id": "g573-rcsb-chemcomp",
+      "source_role": "chemical_database_reference",
+      "source_url": "https://data.rcsb.org/rest/v1/core/chemcomp/573",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/g573-rcsb.json",
+      "bytes": 4356,
+      "sha256": "1144b8faebe7b5c7bf301944569dcf004b9e98b90d222f43db0743af52dc7a77",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/g573-rcsb.json",
+        "url": "https://data.rcsb.org/rest/v1/core/chemcomp/573",
+        "retrieved_at_utc": "2026-09-14T15:40:44.153563+00:00",
+        "status": 200,
+        "final_url": "https://data.rcsb.org/rest/v1/core/chemcomp/573",
+        "content_type": "application/json",
+        "bytes": 4356,
+        "sha256": "1144b8faebe7b5c7bf301944569dcf004b9e98b90d222f43db0743af52dc7a77",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+      },
+      "inspected_locators": [
+        "component 573; PubChem mapping and InChIKey"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "wang2023-pmc",
+      "source_role": "later_primary_structure_reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10411973/",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/wang2023-pmc.html",
+      "bytes": 372229,
+      "sha256": "ee20bf0b6e14cc3d5d053df68c9e37189abc95e99479757bc74154d02fa09329",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/wang2023-pmc.html",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10411973/",
+        "retrieved_at_utc": "2026-09-14T15:40:44.153874+00:00",
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10411973/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 372229,
+        "sha256": "ee20bf0b6e14cc3d5d053df68c9e37189abc95e99479757bc74154d02fa09329",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+      },
+      "inspected_locators": [
+        "Figure 1 - figure supplement 2A, G432 structure"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "hatzivassiliou2013-erratum",
+      "source_role": "primary_publisher_correction",
+      "source_url": "https://www.nature.com/articles/nature12659",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-erratum.html",
+      "bytes": 232383,
+      "sha256": "b72709246e811df254a66ecb881ce1556f3258b7b152b91ccbfb5e5ad806558c",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-erratum.html",
+        "url": "https://www.nature.com/articles/nature12659",
+        "retrieved_at_utc": "2026-09-14T15:40:44.154108+00:00",
+        "status": 200,
+        "final_url": "https://www.nature.com/articles/nature12659?error=cookies_not_supported&code=9e90f9d8-4c79-4c2d-88cd-1e16e8bfa094",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 232383,
+        "sha256": "b72709246e811df254a66ecb881ce1556f3258b7b152b91ccbfb5e5ad806558c",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+      },
+      "inspected_locators": [
+        "Correction adds competing financial interests statement; does not reconcile Senger array doses"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "wang2023-g432-structure-figure",
+      "source_role": "later_primary_structure_figure",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b20/10411973/6e0260d4a433/elife-83451-fig1-figsupp2.jpg",
+      "local_cache_path": "data/raw/gse84161-supplement-followup/wang2023-g432-structure.jpg",
+      "bytes": 44852,
+      "sha256": "05dc23ce44591ed3a8c560764cdb5bee296a1787e0420025a0f44a0b98e6e482",
+      "retrieval_record": {
+        "file": "data/raw/gse84161-supplement-followup/wang2023-g432-structure.jpg",
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b20/10411973/6e0260d4a433/elife-83451-fig1-figsupp2.jpg",
+        "retrieved_at_utc": "2026-09-14T15:42:10.489973+00:00",
+        "content_type": "image/jpeg",
+        "bytes": 44852,
+        "sha256": "05dc23ce44591ed3a8c560764cdb5bee296a1787e0420025a0f44a0b98e6e482",
+        "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-structure-image.json"
+      },
+      "inspected_locators": [
+        "Figure 1 - figure supplement 2A, lower structure labeled G432"
+      ],
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from captured bytes"
+    },
+    {
+      "source_id": "geo-gse84161-soft",
+      "source_role": "primary_repository_metadata",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84161&targ=all&form=text&view=quick",
+      "local_cache_path": "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "bytes": 99895372,
+      "sha256": "620c3c8b1cb864cd61605b24e06a9fdc67fb81e6288a2918d22beb792ebf8777",
+      "retrieved_at_utc": "2026-09-12T16:06:18Z",
+      "timestamp_precision": "seconds; reused from prior source record",
+      "publisher_checksum": null,
+      "sha256_origin": "computed locally from complete cached bytes",
+      "usage": "Public repository data or bibliographic metadata; preserve originating source terms; not relicensed by this repository.",
+      "rechecked_at_utc": "2026-09-14T15:49:25.099740+00:00",
+      "recheck_scope": "Metadata records only; cached 2026-09-12 bytes, not a fresh GEO snapshot. No expression values interpreted."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tpl2-study-compound",
+      "question": "Identity of study TPL2 inhibitor",
+      "status": "resolved_study_compound_code",
+      "value": "G-432",
+      "sources": [
+        "senger2017-supplement"
+      ],
+      "locator": "Fig. S3A/E, PDF page 7; E caption continues page 8",
+      "boundary": "No study batch, vendor catalog or CAS assigned."
+    },
+    {
+      "claim_id": "mek-study-compound",
+      "question": "Identity of study MEK inhibitor",
+      "status": "resolved_study_compound_code",
+      "value": "G-573",
+      "sources": [
+        "senger2017-supplement"
+      ],
+      "locator": "Fig. S3E, PDF page 7; Fig. S4A, PDF page 9",
+      "boundary": "No study batch, vendor catalog or CAS assigned."
+    },
+    {
+      "claim_id": "array-doses",
+      "question": "Concentrations used for the 30 deposited arrays",
+      "status": "unresolved_source_conflict",
+      "selected_value": null,
+      "sources": [
+        "geo-gse84161-soft",
+        "senger2017-supplement"
+      ],
+      "inherited_evidence": "docs/gse84161-publication-evidence.md; config/gse84161-literature-sources.json",
+      "geo_series_design": {
+        "TPL2i": {
+          "original_value": 2.8,
+          "unit": "uM",
+          "converted_nM": 2800
+        },
+        "MEKi": {
+          "original_value": 0.31,
+          "unit": "uM",
+          "converted_nM": 310
+        }
+      },
+      "paper_figure_2D": {
+        "TPL2i": {
+          "original_value": 926,
+          "unit": "nM"
+        },
+        "MEKi": {
+          "original_value": 103,
+          "unit": "nM"
+        }
+      },
+      "new_supporting_assays": [
+        {
+          "locator": "Fig. S2E, PDF pages 5-6",
+          "TPL2i_max_nM": 926,
+          "MEKi_max_nM": 103,
+          "LPS_ng_per_ml": 100,
+          "stimulation_minutes": 20
+        },
+        {
+          "locator": "Fig. S5A, PDF page 10",
+          "TPL2i_nM": 926,
+          "MEKi_nM": 103,
+          "LPS_ng_per_ml": 10,
+          "stimulation_hours": 6,
+          "endpoint": "cytokines by Luminex"
+        }
+      ],
+      "boundary": "Supporting assays do not establish the per-array dose or explain the conflicting original records."
+    },
+    {
+      "claim_id": "anonymous-donor-groups",
+      "question": "Do replicate labels 1-5 each identify one donor across six arms?",
+      "status": "unresolved_no_explicit_key_located",
+      "confirmed_grouping": null,
+      "sources": [
+        "geo-gse84161-soft",
+        "senger2017-supplement"
+      ],
+      "locator": "30 GEO sample metadata records; full supplement text audit, Table S2 legend on PDF page 27",
+      "supportive_context": "Five stated donors and five complete six-arm replicate groups; original processing adjusts for donor.",
+      "new_finding": "Each sample description has a different SAM label; no label reused across arms or sample relation field supplies a donor key.",
+      "boundary": "Tables S1-S9 archive was not obtained; its contents have not been ruled out as a possible source."
+    },
+    {
+      "claim_id": "monocyte-engagement",
+      "question": "Published pathway-engagement support",
+      "status": "supporting_assay_only",
+      "sources": [
+        "senger2017-supplement"
+      ],
+      "locator": "Fig. S9, PDF page 16",
+      "finding": "Monocyte pERK signal decreases with both inhibitors, without corresponding p38 suppression in the shown assay.",
+      "LPS_ng_per_ml": 100,
+      "stimulation_minutes": 20,
+      "pretreatment_minimum_minutes": 30,
+      "representative_experiments": 5,
+      "boundary": "Does not establish engagement in the same 30 array samples at six hours."
+    },
+    {
+      "claim_id": "g573-structure",
+      "question": "Published structure reference for G-573",
+      "status": "published_structure_and_reference_record_located",
+      "sources": [
+        "hatzivassiliou2013-supplement",
+        "g573-pubchem-properties",
+        "g573-rcsb-chemcomp"
+      ],
+      "locator": "Supplementary Fig. 1A, PDF page 22; PubChem CID 46926364; RCSB component 573",
+      "reference_InChIKey": "ZEZHPEIEEFTILY-QMMMGPOBSA-N",
+      "boundary": "Database cross-link and matching InChIKey verify the reference records; the figure does not specify stereochemistry or prove the 2017 study batch."
+    },
+    {
+      "claim_id": "g432-structure",
+      "question": "Published structure reference for G-432",
+      "status": "later_primary_structure_figure_located",
+      "sources": [
+        "wang2023-elife-xml",
+        "wang2023-pmc",
+        "wang2023-g432-structure-figure"
+      ],
+      "locator": "Figure 1 - figure supplement 2A, lower structure labeled G432",
+      "boundary": "Later primary source; no machine-readable identity or CAS established here."
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "file": "data/raw/gse84161-supplement-followup/europepmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+      "retrieved_at": "2026-09-14T15:33:53.262526+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch1.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/openalex.json",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1126/scisignal.aah4273",
+      "retrieved_at": "2026-09-14T15:33:53.263183+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch1.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/europepmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+      "retrieved_at": "2026-09-14T15:34:52.991298+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28420753%20AND%20SRC:MED&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 17782,
+      "sha256": "c94717fcd7af4c2870d49467dfacbf390053ef75cf9d0a9f3b58ad40ddcbaaf5",
+      "is_pdf": false,
+      "is_zip": false,
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch2.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/aah4273_sm.response",
+      "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_sm.pdf",
+      "retrieved_at": "2026-09-14T15:34:52.991882+00:00",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP Error 403: Forbidden",
+      "bytes": 5674,
+      "sha256": "34cb3e2d211d243018920c226c9cca8ab5f7f206738a5306f1eb2607480335f0",
+      "is_pdf": false,
+      "is_zip": false,
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch2.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/aah4273_tables_s1_to_s9.response",
+      "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_tables_s1_to_s9.zip",
+      "retrieved_at": "2026-09-14T15:34:52.992227+00:00",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP Error 403: Forbidden",
+      "bytes": 5734,
+      "sha256": "e0e7a0a4e30c33642f94a5266f2c9674c4c98079e6ee0d0089765ad1cec8357e",
+      "is_pdf": false,
+      "is_zip": false,
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch2.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/aah4273_sm.pdf",
+      "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_sm.pdf",
+      "retrieval_method": "publisher_visible_public_download_link_via_browser",
+      "download_modified_at_utc": "2026-09-14T15:34:33.402559+00:00",
+      "recorded_at_utc": "2026-09-14T15:35:28.979067+00:00",
+      "bytes": 5302678,
+      "sha256": "c477aab305df79ce53214491924baeb44333b290f6b0f0e1e277cab277841bd5",
+      "magic_hex": "255044462d312e36",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-browser.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/wang2023-elife-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10411973/fullTextXML",
+      "retrieved_at_utc": "2026-09-14T15:39:23.355590+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10411973/fullTextXML",
+      "content_type": "application/xml",
+      "bytes": 265941,
+      "sha256": "e904313b50d7bb28b0abf6ab9e9cae65137c893cca01e6523cdea1dc235d151f",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013.html",
+      "url": "https://www.nature.com/articles/nature12441",
+      "retrieved_at_utc": "2026-09-14T15:39:23.356042+00:00",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/nature12441?error=cookies_not_supported&code=27718743-5129-4939-9d0c-e6af203f58aa",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 373359,
+      "sha256": "763dca72ed329f16d4260a140fa1a3c4e7b78084f1648d960e8a646425a99d9e",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/g573-pubchem.json",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/46926364/property/IUPACName,InChIKey,MolecularFormula/JSON",
+      "retrieved_at_utc": "2026-09-14T15:39:23.356431+00:00",
+      "status": 200,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/46926364/property/IUPACName,InChIKey,MolecularFormula/JSON",
+      "content_type": "application/json",
+      "bytes": 310,
+      "sha256": "ff5c3ecc55d42612ae5cee209b4c36d0ad3fe38b5bd53ef3efe9c4a215c02ad7",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch3.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-supplement.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12441/MediaObjects/41586_2013_BFnature12441_MOESM60_ESM.pdf",
+      "retrieved_at_utc": "2026-09-14T15:40:44.153134+00:00",
+      "status": 200,
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12441/MediaObjects/41586_2013_BFnature12441_MOESM60_ESM.pdf",
+      "content_type": "application/pdf",
+      "bytes": 11147498,
+      "sha256": "dc207ac82a2eaef542a0424c5d4275ab569b18cea69e16f2468cacbd5f9274c5",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/g573-rcsb.json",
+      "url": "https://data.rcsb.org/rest/v1/core/chemcomp/573",
+      "retrieved_at_utc": "2026-09-14T15:40:44.153563+00:00",
+      "status": 200,
+      "final_url": "https://data.rcsb.org/rest/v1/core/chemcomp/573",
+      "content_type": "application/json",
+      "bytes": 4356,
+      "sha256": "1144b8faebe7b5c7bf301944569dcf004b9e98b90d222f43db0743af52dc7a77",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/wang2023-pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10411973/",
+      "retrieved_at_utc": "2026-09-14T15:40:44.153874+00:00",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10411973/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 372229,
+      "sha256": "ee20bf0b6e14cc3d5d053df68c9e37189abc95e99479757bc74154d02fa09329",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/hatzivassiliou2013-erratum.html",
+      "url": "https://www.nature.com/articles/nature12659",
+      "retrieved_at_utc": "2026-09-14T15:40:44.154108+00:00",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/nature12659?error=cookies_not_supported&code=9e90f9d8-4c79-4c2d-88cd-1e16e8bfa094",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 232383,
+      "sha256": "b72709246e811df254a66ecb881ce1556f3258b7b152b91ccbfb5e5ad806558c",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-batch4.json"
+    },
+    {
+      "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_tables_s1_to_s9.zip",
+      "file": "data/raw/gse84161-supplement-followup/aah4273_tables-link-response.bin",
+      "retrieved_at_utc": "2026-09-14T15:41:03.635376+00:00",
+      "method": "public_download_with_publisher_referrer",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5841,
+      "sha256": "0eacb2bc13d6bbc37b0533fb6617478dfc1b652ab340821bfb71afb198fbea86",
+      "is_zip": false,
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-table-final.json"
+    },
+    {
+      "file": "data/raw/gse84161-supplement-followup/wang2023-g432-structure.jpg",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b20/10411973/6e0260d4a433/elife-83451-fig1-figsupp2.jpg",
+      "retrieved_at_utc": "2026-09-14T15:42:10.489973+00:00",
+      "content_type": "image/jpeg",
+      "bytes": 44852,
+      "sha256": "05dc23ce44591ed3a8c560764cdb5bee296a1787e0420025a0f44a0b98e6e482",
+      "receipt_path": "data/raw/gse84161-supplement-followup/retrieval-structure-image.json"
+    }
+  ],
+  "unavailable_sources": [
+    {
+      "source_id": "senger2017-tables-s1-to-s9",
+      "url": "https://www.science.org/doi/suppl/10.1126/scisignal.aah4273/suppl_file/aah4273_tables_s1_to_s9.zip",
+      "status": "not_retrieved_or_inspected",
+      "publisher_displayed_size": "666.59 KB",
+      "attempts": "Normal public-link browser download/click did not save an archive; browser direct navigation returned net::ERR_BLOCKED_BY_CLIENT. Basic HTTP and public-referrer HTTP requests returned 403 HTML; web open failed.",
+      "content_boundary": "PDF page 27 describes Table S2 as gene-level summary contrasts; archive sheets were not inspected."
+    }
+  ],
+  "transformations": [
+    "Saved original downloaded bytes without modification; validated recorded byte counts, local SHA-256 and file magic.",
+    "Extracted PDF text with pdftotext -layout to ignored work storage; visually inspected relevant complete pages and figures. No full text or source PDF republished.",
+    "Copied 30 metadata-only records into a separate donor-audit CSV; kept original strings and left confirmed_donor_group empty.",
+    "Converted GEO uM to nM by multiplying by 1000 solely to display the source conflict. No dose value selected or source field overwritten.",
+    "Compared PubChem and RCSB InChIKeys and explicit cross-link; did not transcribe drawings into a new chemical structure.",
+    "The new donor-audit CSV uses UTF-8 with LF line endings. Normalizing generated CRLF separators to LF preserved all 30 parsed rows exactly; original source bytes were not changed."
+  ],
+  "manual_review_boundary": "Finite public-source investigation, not an exhaustive proof that no donor key or dose correction exists. Source availability flags refer to Europe PMC only.",
+  "retention": "Original PDFs, image, XML/HTML/JSON and failed responses stay in ignored data/raw storage. Small findings and hashes are versioned. Public access does not relicense third-party content.",
+  "prior_documents_preserved": [
+    "docs/gse84161-publication-evidence.md",
+    "docs/gse84161-source-questions.md",
+    "docs/gse84161-array-protocol.md"
+  ],
+  "new_metadata_table": "data/derived/gse84161-supplement-donor-audit.csv"
+}

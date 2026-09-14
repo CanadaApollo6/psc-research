@@ -63,3 +63,9 @@ The comparison at IL2RA, BACH2 and BCL2L11 was defined before viewing their pred
 A useful result could identify a previously underexplored regulatory mechanism, improve the ranking of candidates for an experiment, or establish where a model fails on PSC-relevant biology. Publication or novelty is not guaranteed. A mechanism affecting disease susceptibility may not control established disease or make a safe drug target. Those questions require further evidence, including experiments and clinical studies.
 
 Researcher outreach can help review the result and propose experiments. It does not hold up the public-data work above. No personal genome or patient records are required for this project.
+
+## September 14 supplement follow-up
+
+The public-source follow-up to items 18-19 is complete within the inspected material. The [report](../reports/gse84161-supplement-followup.md) resolves the original study inhibitor codes as G-432 and G-573 and locates published structures. The sample-to-donor correspondence and paper/GEO array concentrations remain unresolved. The original supplement PDF was inspected, but the separate Tables S1-S9 archive could not be retrieved and remains a possible public source for the missing details.
+
+Before paired scoring, confirm whether each replicate label 1-5 identifies one donor across six arms and which concentrations produced the deposited CEL files. The new evidence does not change the eight eligible program mappings, the excluded gRNA1-up program or any existing analysis lock. Earlier source questions remain an unsent snapshot; the compound-code question is now answered. No researcher contact or program scoring was part of this follow-up.
