@@ -138,7 +138,19 @@ def verify():
             resolved = (ROOT / name).parent / target
             assert resolved.exists() or resolved.resolve() == ROOT / REPORT, (name, target)
             checked_links += 1
-    subprocess.run(["git", "diff", "--check"], cwd=ROOT, check=True)
+    whitespace = subprocess.run(["git", "diff", "--check", BASE], cwd=ROOT, capture_output=True, text=True)
+    assert whitespace.returncode in (0, 2) and not whitespace.stderr, whitespace.stderr
+    preserved_source_paths = {"config/ubash3a-proteomics-comet.params"}
+    preserved_source_paths.update(str(path.relative_to(ROOT)) for path in
+                                  (ROOT / "data/derived/ubash3a-proteomics-specificity/search-settings").glob("*.txt"))
+    preserved_whitespace = []
+    for line in whitespace.stdout.splitlines():
+        match = re.fullmatch(r"(.+):(\d+): new blank line at EOF\.", line)
+        assert match and match.group(1) in preserved_source_paths, line
+        # These bytes belong to the pre-search parameter lock or replayed
+        # deposited settings; trimming them would invalidate that provenance.
+        preserved_whitespace.append({"file": match.group(1), "line": int(match.group(2)),
+                                     "reason": "Retain exact frozen parameter or extracted source-setting bytes"})
     files = {name: {"sha256": sha256(ROOT / name), "size_bytes": (ROOT / name).stat().st_size}
              for name in sorted(candidates) if name != REPORT}
     assert all(value["size_bytes"] < 2_000_000 for value in files.values())
@@ -158,6 +170,8 @@ def verify():
               "software_tests": {"passed": 238, **test_status},
               "verified_report_hashes": {name: sha256(ROOT / name) for name in required_reports},
               "relative_markdown_links_checked": checked_links,
+              "whitespace_check_against_baseline": {"no_unexpected_errors": True,
+                  "preserved_source_EOF_blank_line_warnings": preserved_whitespace},
               "delivery_file_count_including_this_record": len(candidates),
               "delivery_files": files, "self_excluded_from_file_hashes": REPORT,
               "completion_note": "Both failed analysis/verifier attempts remain preserved as historical logs; completed independent verification, scan coverage and replay records define the final status. No spectrum search or biological threshold was changed to obtain the result."}

@@ -1,7 +1,7 @@
 {
   "all_checks_pass": true,
   "complete_bounded_roadmap_direction": 3,
-  "verified_at_utc": "2026-09-15T00:42:08.362792+00:00",
+  "verified_at_utc": "2026-09-15T00:45:08.767549+00:00",
   "baseline_commit": "c7bccc3c84cf8559b92759cfcec063d3f194cecf",
   "baseline_tracked_files": 775,
   "prior_files_preserved_byte_for_byte": 770,
@@ -40,6 +40,76 @@
     "reports/ubash3a-proteomics-replay-verification.json": "366d4fa1f454dc9cf3998af5e2b232b42081c614f623da48644e0d9aea22e49f"
   },
   "relative_markdown_links_checked": 309,
+  "whitespace_check_against_baseline": {
+    "no_unexpected_errors": true,
+    "preserved_source_EOF_blank_line_warnings": [
+      {
+        "file": "config/ubash3a-proteomics-comet.params",
+        "line": 172,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/01BR1_PAGE_IOB.pep.xml.txt",
+        "line": 300,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/02BR1_PAGE_Core.pep.pep.xml.txt",
+        "line": 282,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/03BR1_PAGE_AP.pep.xml.txt",
+        "line": 205,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/04BR2_Nuclear_IOB.pep.xml.txt",
+        "line": 283,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/05BR2_nonNuclear_IOB.pep.xml.txt",
+        "line": 284,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/07BR3_1SCX_bRP_Core.pep.xml.txt",
+        "line": 284,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/08BR3_2SCX_bRP_Core.pep.xml.txt",
+        "line": 288,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/09BR3_1SCX_bRP_AP.pep.xml.txt",
+        "line": 198,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/10BR3_2SCX_bRP_AP.pep.xml.txt",
+        "line": 202,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/11BR4_GELFREE-PAGE_AP.pep.xml.txt",
+        "line": 244,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/GetnetD_iTRAQ_RARO.pep.xml.txt",
+        "line": 167,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      },
+      {
+        "file": "data/derived/ubash3a-proteomics-specificity/search-settings/NaiveCD4T_nuclear.pep.xml.txt",
+        "line": 186,
+        "reason": "Retain exact frozen parameter or extracted source-setting bytes"
+      }
+    ]
+  },
   "delivery_file_count_including_this_record": 94,
   "delivery_files": {
     "README.md": {
@@ -399,8 +469,8 @@
       "size_bytes": 5327
     },
     "scripts/verify_ubash3a_proteomics_stage.py": {
-      "sha256": "7178a223176ce0ebb19616939c36d018d03e0cb9b4866b0797d6bde6b9cdd173",
-      "size_bytes": 9950
+      "sha256": "740a9dd8b9497b7d64ce1f528dbb9bb96af3a077f7a094ce400ce13798428458",
+      "size_bytes": 11092
     },
     "tests/test_ubash3a_proteomics_fdr.py": {
       "sha256": "c95d4060f0b74a967f844ed5b3ea834a6db273f72aef8035843e0f0ae5a133d3",
