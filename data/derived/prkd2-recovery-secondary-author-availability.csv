@@ -1,0 +1,5 @@
+family,context,full_export_rows,PRKD2_rows,primary_rsid_PRKD2_rows,full_nominal_vector,reason,archive_bytes,url
+Nassiri_2025,UT,69271.0,46.0,0.0,False,Forward/backward conditional output; no explicit allele pair; absence is not a null association.,,
+Nassiri_2025,IFN,25822.0,48.0,0.0,False,Forward/backward conditional output; no explicit allele pair; absence is not a null association.,,
+Nassiri_2025,LPS24,53862.0,0.0,0.0,False,Forward/backward conditional output; no explicit allele pair; absence is not a null association.,,
+Natri_2024,Monocyte and Inflammatory monocyte; secondary lung context,,,,,Public LIMIX immune TAR.GZ is unindexed and exceeds the frozen transfer cap; no variant absence claim.,11026774251.0,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227136/suppl/GSE227136_limix_res_immune.tar.gz

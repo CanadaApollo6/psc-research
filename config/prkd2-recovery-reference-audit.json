@@ -1,0 +1,25 @@
+{
+  "plan_sha256": "29d0619e1ecdbab89a0d5614a56b780bceb285cfee61465ae882314147248513",
+  "reader_sha256": "9178a9f6c711dff0b1257210908691cd60681a27d153ce0de3db2a28b8cb01e7",
+  "queries": [
+    {
+      "id": "1000G-30x-20201028",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/working/20201028_3202_phased/CCDG_14151_B01_GRM_WGS_2020-08-05_chr19.filtered.shapeit2-duohmm-phased.vcf.gz",
+      "index_sha256": "4ba9fda116989b54dbd07bcea8897ed06cd583cc69714ac8e15b59763e3ab6c0",
+      "file": "data/derived/prkd2-recovery-queries/1000G-30x-20201028-reference.tsv.gz",
+      "sha256": "a6b5707e88d4075ece4a50da6a8a0ee061b24ec77eb4f8a22f9a090014932ef9",
+      "uncompressed_sha256": "6707ee42988e1daac85b3bcc64d2456e45e4e7b55f7597458248c10273328c19",
+      "all_returned_rows_sha256": "2eba1a2d5608dc6f3ce74d3821f4003df13af7c4afa0133c4eea290a8b10fe3f",
+      "all_gene_or_site_counts": {
+        "46700099": 0,
+        "46681839": 2,
+        "46685258": 3,
+        "46681255": 3,
+        "46717081": 1,
+        "46718300": 1
+      },
+      "rows": 10,
+      "completed_at_utc": "2026-09-15T17:12:18.231405+00:00"
+    }
+  ]
+}

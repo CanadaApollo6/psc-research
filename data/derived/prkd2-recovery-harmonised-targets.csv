@@ -1,0 +1,7 @@
+target_rsid,role,canonical_edit_grch38,harmonised_exact_rows,source_rsids,unharmonised_source_candidate_rows,status
+rs112445263,missing PSC association,chr19:46700099:A:C,1,rs112445263,0,present
+,missing RNA association,chr19:46681839:C:CT,0,,0,not-recovered-from-complete-harmonised-regional-copy
+,missing RNA association,chr19:46685258:C:CA,0,,0,not-recovered-from-complete-harmonised-regional-copy
+,missing RNA association,chr19:46681255:CT:C,0,,0,not-recovered-from-complete-harmonised-regional-copy
+,missing RNA association,chr19:46717081:T:TCGG,0,,0,not-recovered-from-complete-harmonised-regional-copy
+rs313839,identity/direction control,chr19:46718300:C:G,1,rs313839,0,present

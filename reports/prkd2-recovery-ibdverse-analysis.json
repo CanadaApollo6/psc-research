@@ -1,0 +1,146 @@
+{
+  "analysis_status": "complete",
+  "author_plan_sha256": "477483793fea89a2048cf2ba335562afae1323cbbbd1e5a1a392b51bd12857b7",
+  "script_sha256": "cffe72c2a950cd3d8276677b2b2cf55e18206e759a8b5b58c841b85d6c9b1641",
+  "new_H4_posteriors": 0,
+  "contexts": [
+    {
+      "dataset_id": "IBDverse-original-Myeloid-0",
+      "context": "Classical monocyte",
+      "source_chromosome_rows": 5356483,
+      "source_build": "GRCh38",
+      "effect_allele": "ALT dosage, explicit in primary methods",
+      "cohort_context": "Original IBDverse blood; Crohn disease and healthy participants, not a PSC case-control expression comparison",
+      "full_source_gene_rows": 3634,
+      "source_rows_in_fixed_region": 3634,
+      "distinct_source_association_rows": 3634,
+      "exact_duplicate_source_rows": 0,
+      "verified_edit_rows": 3634,
+      "shared_distinct_edits": 2632,
+      "full_PSC_marginal_weight_available": 0.9070353862129674,
+      "RNA_marginal_weight_available": 0.9711349494219448,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": true,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "Diagnostic Gaussian-ABF overlap in original inverse-normal expression units; finite-sample distribution check is separate.",
+      "model_gate_reason": "No complete original-source component vectors or adequate study-matched LD/covariance recovered. Catalogue sample counts are not silently assigned to this different original export.",
+      "primary_variant_present": true,
+      "source_coordinate_min": 45720898,
+      "source_coordinate_max": 47716636
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-1",
+      "context": "Intermediate monocyte",
+      "source_chromosome_rows": 5282859,
+      "source_build": "GRCh38",
+      "effect_allele": "ALT dosage, explicit in primary methods",
+      "cohort_context": "Original IBDverse blood; Crohn disease and healthy participants, not a PSC case-control expression comparison",
+      "full_source_gene_rows": 3637,
+      "source_rows_in_fixed_region": 3637,
+      "distinct_source_association_rows": 3637,
+      "exact_duplicate_source_rows": 0,
+      "verified_edit_rows": 3637,
+      "shared_distinct_edits": 2632,
+      "full_PSC_marginal_weight_available": 0.9070353862129674,
+      "RNA_marginal_weight_available": 0.9999191713458119,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": true,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "Diagnostic Gaussian-ABF overlap in original inverse-normal expression units; finite-sample distribution check is separate.",
+      "model_gate_reason": "No complete original-source component vectors or adequate study-matched LD/covariance recovered. Catalogue sample counts are not silently assigned to this different original export.",
+      "primary_variant_present": true,
+      "source_coordinate_min": 45720898,
+      "source_coordinate_max": 47716636
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-3",
+      "context": "Non-classical monocyte",
+      "source_chromosome_rows": 4918445,
+      "source_build": "GRCh38",
+      "effect_allele": "ALT dosage, explicit in primary methods",
+      "cohort_context": "Original IBDverse blood; Crohn disease and healthy participants, not a PSC case-control expression comparison",
+      "full_source_gene_rows": 3634,
+      "source_rows_in_fixed_region": 3634,
+      "distinct_source_association_rows": 3634,
+      "exact_duplicate_source_rows": 0,
+      "verified_edit_rows": 3634,
+      "shared_distinct_edits": 2632,
+      "full_PSC_marginal_weight_available": 0.9070353862129674,
+      "RNA_marginal_weight_available": 0.7483796037053041,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": false,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "Diagnostic Gaussian-ABF overlap in original inverse-normal expression units; finite-sample distribution check is separate.",
+      "model_gate_reason": "No complete original-source component vectors or adequate study-matched LD/covariance recovered. Catalogue sample counts are not silently assigned to this different original export.",
+      "primary_variant_present": true,
+      "source_coordinate_min": 45720898,
+      "source_coordinate_max": 47716636
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-7",
+      "context": "Monocyte S100A8/9",
+      "source_chromosome_rows": 1832856,
+      "source_build": "GRCh38",
+      "effect_allele": "ALT dosage, explicit in primary methods",
+      "cohort_context": "Original IBDverse blood; Crohn disease and healthy participants, not a PSC case-control expression comparison",
+      "full_source_gene_rows": 3744,
+      "source_rows_in_fixed_region": 3744,
+      "distinct_source_association_rows": 3744,
+      "exact_duplicate_source_rows": 0,
+      "verified_edit_rows": 3744,
+      "shared_distinct_edits": 2714,
+      "full_PSC_marginal_weight_available": 0.9070521226614543,
+      "RNA_marginal_weight_available": 1.0,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": true,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "Diagnostic Gaussian-ABF overlap in original inverse-normal expression units; finite-sample distribution check is separate.",
+      "model_gate_reason": "No complete original-source component vectors or adequate study-matched LD/covariance recovered. Catalogue sample counts are not silently assigned to this different original export.",
+      "primary_variant_present": true,
+      "source_coordinate_min": 45720898,
+      "source_coordinate_max": 47716636
+    }
+  ],
+  "outputs": [
+    {
+      "file": "data/derived/prkd2-recovery-IBDverse-original-Myeloid-0-alleles.csv.gz",
+      "rows": 3634,
+      "sha256": "4455267c17fbc283572db1eeee255f4d604de63fe4c90147206a73e70acfbc56"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-IBDverse-original-Myeloid-1-alleles.csv.gz",
+      "rows": 3637,
+      "sha256": "96edd274544f3a1299136b08c0ddae908d5e1394fa278edb6a2636c08300625e"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-IBDverse-original-Myeloid-3-alleles.csv.gz",
+      "rows": 3634,
+      "sha256": "062b20f2caa607c1404c1309a10d89f5871289917da5ba49febc0d928c48c701"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-IBDverse-original-Myeloid-7-alleles.csv.gz",
+      "rows": 3744,
+      "sha256": "6c4b823b559eb46cefc106f62a13ef4c8d46e1efe0683c0415cb454f8f53f197"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-ibdverse-summary.csv",
+      "rows": 4,
+      "sha256": "30a3a96d0b09858e35094c2c2026af3bfc9e1f8fc3f75a3c0816e87da79160dd"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-ibdverse-targets.csv",
+      "rows": 24,
+      "sha256": "b09fd745323b537eccd67ec9d080addd93cb1af2098e1052ab09b078354dc410"
+    }
+  ],
+  "limitations": [
+    "Four contexts share one study family.",
+    "Source nominal vectors are distinct from Catalogue reanalysis.",
+    "Marginal overlap is not multi-signal colocalization.",
+    "No original-source study-matched covariance is supplied by these nominal files."
+  ]
+}

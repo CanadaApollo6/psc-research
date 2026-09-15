@@ -1,0 +1,95 @@
+{
+  "analysis_status": "complete",
+  "new_H4_posteriors": 0,
+  "plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "followup_plan_sha256": "29d0619e1ecdbab89a0d5614a56b780bceb285cfee61465ae882314147248513",
+  "script_sha256": "31d9f7b0db82ed4bd94c4c21ebe7836d8a330fffaa3d614774a31e1c9caf4227",
+  "cohorts_planned": 42,
+  "cohort_outcomes": 42,
+  "outcome_counts": {
+    "prior-complete-region; missing-required-PSC-variant": 2,
+    "missing-required-PSC-variant": 31,
+    "access-or-format-failure": 9
+  },
+  "original_study_overlap": {
+    "DICE-original": {
+      "full_source_gene_rows": 3060,
+      "source_rows_in_fixed_region": 3060,
+      "distinct_source_association_rows": 3060,
+      "exact_duplicate_source_rows": 0,
+      "verified_edit_rows": 3058,
+      "shared_distinct_edits": 2501,
+      "full_PSC_marginal_weight_available": 0.9989960564708052,
+      "RNA_marginal_weight_available": null,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": null,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "unavailable: no complete explicit finite beta/SE vector; no reconstructed or imputed SE",
+      "model_gate_reason": "Original and reprocessed effects cannot be spliced together. No full original-source component vectors or matching study covariance have been recovered.",
+      "source_coordinate_min": 46221726,
+      "source_coordinate_max": 48216657
+    },
+    "BLUEPRINT-original": {
+      "full_source_gene_rows": 3099,
+      "source_rows_in_fixed_region": 3043,
+      "distinct_source_association_rows": 3098,
+      "exact_duplicate_source_rows": 1,
+      "verified_edit_rows": 3053,
+      "shared_distinct_edits": 2283,
+      "full_PSC_marginal_weight_available": 0.6169788203365436,
+      "RNA_marginal_weight_available": 0.9999997961780124,
+      "RNA_weight_denominator": "Every distinct original PRKD2 association, including unmapped edits and rows outside the fixed window; collapse only exact duplicates in all fields except source row index",
+      "quantitative_prior_SD_in_source_units": 0.15,
+      "coverage_gate": false,
+      "multi_signal_model_qualified": false,
+      "RNA_weight_status": "diagnostic marginal overlap only; source units and original mixed-model analysis retained",
+      "model_gate_reason": "Original and reprocessed effects cannot be spliced together. No full original-source component vectors or matching study covariance have been recovered.",
+      "source_coordinate_min": 46178661,
+      "source_coordinate_max": 48219929
+    }
+  },
+  "outputs": [
+    {
+      "file": "data/derived/prkd2-recovery-targets.csv",
+      "rows": 6,
+      "sha256": "5a1b26954b41d21fd8129748b532f7a65d5a02f3df445ef59276f74b8cb48245"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-DICE-original-alleles.csv.gz",
+      "rows": 3060,
+      "sha256": "a9136fb08aea018413bf659096dd611c80b96ef954dde3d72609da0cdc8a6915"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-BLUEPRINT-original-alleles.csv.gz",
+      "rows": 3099,
+      "sha256": "2e622d92e2f511384397233c15d2549e7735383c70d8766abc893648ce364881"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-original-target-associations.csv",
+      "rows": 4,
+      "sha256": "239b0f3b854cd469e968deab3aad1a70e71ecc40398028278ba4c0bff824ad75"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-cohort-screen.csv",
+      "rows": 42,
+      "sha256": "d7bdb7be94f97e3b7763424b4c6a8257b27f592a64d8b213768edbd0b5ef217e"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-target-screen.csv",
+      "rows": 252,
+      "sha256": "afa065314d5f7ecde8d794aeb5285fe85e200333cdfdc58bcc9d22d6187e7f0a"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-reference-panel-audit.csv",
+      "rows": 6,
+      "sha256": "de6e83787d90943371c82504803750df9505adf720adf06e36fdd7993bf37003"
+    }
+  ],
+  "limitations": [
+    "Metadata-listed but inaccessible datasets are not biological nulls.",
+    "Reannotations share source cohorts; study labels are not independent replications.",
+    "Original study estimates cannot repair missing entries in reprocessed component vectors.",
+    "The high-coverage reference check does not prove which internal Catalogue filter removed a variant."
+  ]
+}

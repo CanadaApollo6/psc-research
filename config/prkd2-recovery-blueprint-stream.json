@@ -1,0 +1,66 @@
+{
+  "plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "source_head": {
+    "id": "blueprint-original-monocytes-head",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/blueprint/blueprint_Epivar/qtl_as/QTL_RESULTS/mono_gene_nor_combat_peer_10_all_summary.txt.gz",
+    "method": "HEAD",
+    "byte_range": null,
+    "byte_limit": 3000000,
+    "retrieved_at_utc": "2026-09-15T16:54:50.854800+00:00",
+    "status": 200,
+    "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/blueprint/blueprint_Epivar/qtl_as/QTL_RESULTS/mono_gene_nor_combat_peer_10_all_summary.txt.gz",
+    "headers": {
+      "Date": "Tue, 15 Sep 2026 16:54:51 GMT",
+      "Server": "Apache",
+      "Last-Modified": "Fri, 09 Dec 2016 10:12:46 GMT",
+      "ETag": "\"3c93057d-54336fed883bb\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "1016268157",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET,OPTIONS",
+      "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+      "Connection": "close",
+      "Content-Type": "application/x-gzip"
+    },
+    "file": "data/raw/prkd2-recovery-sources/blueprint-original-monocytes-head.data",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "reader_sha256": "83969e0e4a0d760e2634cca7ef8e5b2d1e63112886d48058dd30c94542bac714",
+  "started_at_utc": "2026-09-15T17:21:36.684788+00:00",
+  "completed_at_utc": "2026-09-15T17:22:13.835255+00:00",
+  "archive": "data/raw/prkd2-recovery-original-BLUEPRINT-monocytes.txt.gz",
+  "compressed_bytes": 1016268157,
+  "compressed_sha256": "b23144dc42026e121cd32c6203be7df0ba5639b4ff0c4d9ae5804b2fd1eb20f5",
+  "uncompressed_bytes": 5334093611,
+  "uncompressed_sha256": "8b9b4dbb0b3d1e27d7caad12f4e23d83a19502d7268ace8c15dc5d849dce7f30",
+  "total_rows": 59468244,
+  "gzip_eof_verified": true,
+  "outputs": [
+    {
+      "file": "data/derived/prkd2-recovery-queries/original-BLUEPRINT-PRKD2.txt.gz",
+      "rows": 3099,
+      "sha256": "f11691406d3d6f9bbcd450557759bfeb91624fe67f178eaa0d69eb08300a8682",
+      "uncompressed_sha256": "feaae3b91389c31fbe79ba87ea87780f6614a062c8c53edec6a311430c3dd85a"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-queries/original-BLUEPRINT-rs112445263-all-genes.txt.gz",
+      "rows": 0,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+      "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "columns": [
+    "chr:pos_ref_alt",
+    "rsid",
+    "phenotypeID",
+    "p.value",
+    "beta",
+    "Bonferroni.p.value",
+    "FDR",
+    "alt_allele_frequency",
+    "std.error_of_beta"
+  ],
+  "column_source_id": "blueprint-qtl-readme",
+  "limitations": "Original cohort and analysis; not an independent replication or interchangeable Catalogue component input. Genome build, exact edits, per-gene N and effect convention require reconciliation."
+}

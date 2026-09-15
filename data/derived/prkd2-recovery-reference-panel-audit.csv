@@ -1,0 +1,7 @@
+chromosome,position,ref,alt,rsid,role,canonical_edit_grch38,position_grch37,ref_grch37,alt_grch37,reference_exact_site_rows,reference_status,filter_values,site_ids
+19,46700099,C,A,rs112445263,missing PSC association,chr19:46700099:A:C,47203356,C,A,0,absent-at-exact-site,,
+19,46681839,C,CT,,missing RNA association,chr19:46681839:C:CT,47185096,C,CT,1,present,PASS,19:46681839:C:CT
+19,46685258,C,CA,,missing RNA association,chr19:46685258:C:CA,47188515,C,CA,1,present,PASS,19:46685259:C:CA
+19,46681255,CT,C,,missing RNA association,chr19:46681255:CT:C,47184512,CT,C,1,present,PASS,19:46681255:CT:C
+19,46717081,T,TCGG,,missing RNA association,chr19:46717081:T:TCGG,47220338,T,TCGG,1,present,PASS,19:46717081:T:TCGG
+19,46718300,C,G,rs313839,identity/direction control,chr19:46718300:C:G,47221557,C,G,1,present,PASS,19:46718300:C:G

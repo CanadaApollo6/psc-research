@@ -1,0 +1,76 @@
+{
+  "frozen_at_utc": "2026-09-15T17:41:25.104454+00:00",
+  "parent_plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "scope": "Original author sources for the nine preselected Catalogue contexts returning HTTP 404. No new study families or cell types added. Four IBDverse blood monocyte groups are selected by author annotations before reading their associations. Nassiri conditional exports are audited only for data type and target presence, not treated as complete nominal statistics. Natri source availability only because the unindexed immune TAR.GZ exceeds the frozen per-dataset transfer cap.",
+  "frozen_files": {
+    "data/raw/prkd2-recovery-extra-sources/ibdverse-annotation.data": "a817df9c64e06d93308c467eca6e3031eac3605323ab6da90dde42ae453b99da",
+    "data/derived/prkd2-recovery-ibdverse-archive-inventory.csv": "3b680fa9ef603c969fc76efe8d81a2076481d3f44b2c9d006aba47fcfcff8f7a",
+    "config/prkd2-recovery-ibdverse-zip-metadata.json": "85f325799a9b2cfcca1f2fa98b9a704b3a52317137dd5e836e8aeda15b6a592f",
+    "data/derived/prkd2-recovery-targets.csv": "5a1b26954b41d21fd8129748b532f7a65d5a02f3df445ef59276f74b8cb48245"
+  },
+  "gene_id": "ENSG00000105287",
+  "gene_symbol": "PRKD2",
+  "transfer_cap_per_context_bytes": 300000000,
+  "ibdverse": [
+    {
+      "id": "IBDverse-original-Myeloid-0",
+      "catalogue_context": "QTD000773",
+      "label": "Classical monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_0_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "539963901",
+        "compressed_bytes": "173926798",
+        "compression_method": "8",
+        "local_header_offset": "3827829068",
+        "crc32": "3687558517"
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-1",
+      "catalogue_context": "QTD000774",
+      "label": "Intermediate monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_1_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "532521885",
+        "compressed_bytes": "172260988",
+        "compression_method": "8",
+        "local_header_offset": "288309322328",
+        "crc32": "1368258478"
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-3",
+      "catalogue_context": "QTD000776",
+      "label": "Non-classical monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_3_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "495559051",
+        "compressed_bytes": "159239350",
+        "compression_method": "8",
+        "local_header_offset": "82814916439",
+        "crc32": "2527673406"
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-7",
+      "catalogue_context": "QTD000833",
+      "label": "Monocyte S100A8/9",
+      "member": {
+        "filename": "dMean__Myeloid_7_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "181726888",
+        "compressed_bytes": "56367148",
+        "compression_method": "8",
+        "local_header_offset": "369336807438",
+        "crc32": "2785861057"
+      }
+    }
+  ],
+  "ibdverse_scan": "Complete chromosome-19 member, CRC and EOF verified; retain complete source PRKD2 rows and six prespecified positions in both builds across genes. Genome build and alleles must be verified before identity claims.",
+  "nassiri_commit": "694ee67e9829a0056c7290e0e8c5f107d7941da1",
+  "nassiri_exports": [
+    "gQTL_UT_non_significant.txt",
+    "gQTL_IFN_non_significant.txt",
+    "gQTL_LPS24_non_significant.txt"
+  ],
+  "model_gates_unchanged": true
+}

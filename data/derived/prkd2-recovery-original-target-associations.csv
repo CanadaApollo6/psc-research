@@ -1,0 +1,5 @@
+dataset_id,target_rsid,target_edit_grch38,role,source_row,rsid,position,ref,alt,source_gene_id,source_beta,source_se,source_pvalue,source_statistic,source_af,canonical_beta_sign,identity_status
+DICE-original,rs112445263,chr19:46700099:A:C,missing PSC association,666,rs112445263,47203356,C,A,ENSG00000105287.8,0.22,,0.224,1.225,,-1,verified-full-edit
+DICE-original,,chr19:46717081:T:TCGG,missing RNA association,637,rs776159868,47220338,T,TCGG,ENSG00000105287.8,0.30,,0.2129,1.255,,1,verified-full-edit
+DICE-original,rs313839,chr19:46718300:C:G,identity/direction control,345,rs313839,47221557,C,G,ENSG00000105287.8,0.32,,0.1005,1.66,,1,verified-full-edit
+BLUEPRINT-original,rs313839,chr19:46718300:C:G,identity/direction control,1903,rs313839,47221557,C,G,ENSG00000105287.8,1.133,0.1092,3.078e-25,,0.2,1,verified-full-edit

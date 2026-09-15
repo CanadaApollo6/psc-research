@@ -1,0 +1,370 @@
+{
+  "plan_sha256": "29d0619e1ecdbab89a0d5614a56b780bceb285cfee61465ae882314147248513",
+  "reader_sha256": "9178a9f6c711dff0b1257210908691cd60681a27d153ce0de3db2a28b8cb01e7",
+  "queries": [
+    {
+      "id": "QTD000069",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000007/QTD000069/QTD000069.all.tsv.gz",
+      "index_sha256": "b0ddf881b9302b6d81c22c34270f71b019d404af938485be0577c01f3dc63b0b",
+      "file": "data/derived/prkd2-recovery-queries/QTD000069-controls.tsv.gz",
+      "sha256": "c06eca33ca5d42afae0d2fe954053f495a8041976fd9bac97477e2a2a24731c7",
+      "uncompressed_sha256": "3ee053a3bb007a1c56b23f4b2f94af93b1c6272cae8f6eaa8ffdac47dbe9b3b1",
+      "all_returned_rows_sha256": "c8265f4159363ab31b916034cbec0ffef07a7060aee78875d7e35af3b1453e44",
+      "all_gene_or_site_counts": {
+        "46718300": 71
+      },
+      "rows": 71,
+      "completed_at_utc": "2026-09-15T17:11:56.784541+00:00"
+    },
+    {
+      "id": "QTD000081",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000081/QTD000081.all.tsv.gz",
+      "index_sha256": "060983d26292dc452c41a658760e9abe6f964e7b2cebfda7637c2c4008ba1e71",
+      "file": "data/derived/prkd2-recovery-queries/QTD000081-controls.tsv.gz",
+      "sha256": "9f9a76bf880694b604936764db5087df7fb790c51226ff4fc48187bb80d6a1fc",
+      "uncompressed_sha256": "20c307bf333569ffe6e719dad970f4f6e84f46d928f66efaa18dc8c9edf723cf",
+      "all_returned_rows_sha256": "b71500691749e77c24786f5a14c1404d0375989cde1807b71dd1434fb5f6b44f",
+      "all_gene_or_site_counts": {
+        "46718300": 71
+      },
+      "rows": 71,
+      "completed_at_utc": "2026-09-15T17:11:59.711081+00:00"
+    },
+    {
+      "id": "QTD000082",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000082/QTD000082.all.tsv.gz",
+      "index_sha256": "a3dbc100cc63feb5415e251dd53ebfa9f2b102ee7c0c4bc39012492db05673ba",
+      "file": "data/derived/prkd2-recovery-queries/QTD000082-controls.tsv.gz",
+      "sha256": "e395c702a22f2666c00d25aa240f2595b9243396752e8ea87de418c36c045ba7",
+      "uncompressed_sha256": "c38e01a4d9b48d26c26546b5ef76066b8ccfb4f93fdd8668e77bea867f0f63dd",
+      "all_returned_rows_sha256": "49fdde6fa17a33caddf29ed2fe9406ce6d3474ff77e53b4cb076f98e6a596a61",
+      "all_gene_or_site_counts": {
+        "46718300": 71
+      },
+      "rows": 71,
+      "completed_at_utc": "2026-09-15T17:12:02.626592+00:00"
+    },
+    {
+      "id": "QTD000083",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000083/QTD000083.all.tsv.gz",
+      "index_sha256": "c05379620d2e9cd242af693ed025cde37d25029e60da7dedb271637e822044d1",
+      "file": "data/derived/prkd2-recovery-queries/QTD000083-controls.tsv.gz",
+      "sha256": "96cc147dac30738b38b4bb2b18ee1714ca80e19eb9ed65c9483b6b50e1a94998",
+      "uncompressed_sha256": "35a4c1a020fb7eb4b7afc9a549fc1adeec0789e3ef455c37c27387d77f0e0cd6",
+      "all_returned_rows_sha256": "cd7e67e66c2030b1126b0fbcf9e86258e947d25f1fe765b96b2310b5a58565c1",
+      "all_gene_or_site_counts": {
+        "46718300": 71
+      },
+      "rows": 71,
+      "completed_at_utc": "2026-09-15T17:12:05.556346+00:00"
+    },
+    {
+      "id": "QTD000084",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000084/QTD000084.all.tsv.gz",
+      "index_sha256": "4f324f39a0c00d142ef0636bf75e274bcb860b0aa4a2c42ba12da5837c773f61",
+      "file": "data/derived/prkd2-recovery-queries/QTD000084-controls.tsv.gz",
+      "sha256": "eb4acdbc4c3ca4836ab87b447c564bd486aa1443097258c5f7374ec74aa13ec9",
+      "uncompressed_sha256": "10f0249bd564c3c1e3eaf2c80a3b23ebce5730be6e22e0ac45781e774b92685e",
+      "all_returned_rows_sha256": "cfc89f28025076b1e4551849205781e54284f63d9b49ba1bfdc78acbbe286637",
+      "all_gene_or_site_counts": {
+        "46718300": 71
+      },
+      "rows": 71,
+      "completed_at_utc": "2026-09-15T17:12:08.485270+00:00"
+    },
+    {
+      "id": "QTD000409",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000409/QTD000409.all.tsv.gz",
+      "index_sha256": "52570b31e304415f1379e2b7f5eb28fe05787955338c727613492bc43b6a4eaa",
+      "file": "data/derived/prkd2-recovery-queries/QTD000409-controls.tsv.gz",
+      "sha256": "0ae186b7d54237d079a6f8057ecac8ca04b24f0672359681363a58683fc3e5b3",
+      "uncompressed_sha256": "02be913719b4229386ad3fe240d88cf8274e76c6ffe6929048f848b512abab12",
+      "all_returned_rows_sha256": "e8142411e67a8f933191dcd2933a9a18f9222acb4069254fce6bd8011b51d640",
+      "all_gene_or_site_counts": {
+        "46718300": 40
+      },
+      "rows": 40,
+      "completed_at_utc": "2026-09-15T17:12:11.415655+00:00"
+    },
+    {
+      "id": "QTD000414",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000414/QTD000414.all.tsv.gz",
+      "index_sha256": "ef778e456ef69b64dcf09d53536c592e516c31bb4f7c84c2577b989644c606c7",
+      "file": "data/derived/prkd2-recovery-queries/QTD000414-controls.tsv.gz",
+      "sha256": "93368249544b850feaf4c9b72710f1ece971ddfbad9f9608752b0c750056e4e9",
+      "uncompressed_sha256": "273b8398b08ae875e7d3ffc8b678d2e7d2eb6a06f72ac7371ccb28b1776344df",
+      "all_returned_rows_sha256": "83733c2726f655ef1f4cf005da525dc4188adef6c93e6cac1763d7be59c284ec",
+      "all_gene_or_site_counts": {
+        "46718300": 40
+      },
+      "rows": 40,
+      "completed_at_utc": "2026-09-15T17:12:14.533457+00:00"
+    },
+    {
+      "id": "QTD000419",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000419/QTD000419.all.tsv.gz",
+      "index_sha256": "4986cdaa9bed496564e8b2c7323849f6d779eda095bc820bc345ca5c867af5f5",
+      "file": "data/derived/prkd2-recovery-queries/QTD000419-controls.tsv.gz",
+      "sha256": "74af090a0d3b4ee594b13cfa901fdecd801ae88dee45fc508746f28066cba715",
+      "uncompressed_sha256": "1858c5144a9ed2670cb03396e93470899ca93a7f10d8740d1e757a47b483aaef",
+      "all_returned_rows_sha256": "4a163c7d614428e8ccdeb4e7c4a1cc983da15a71edea0856a6f311ef46af3ba8",
+      "all_gene_or_site_counts": {
+        "46718300": 39
+      },
+      "rows": 39,
+      "completed_at_utc": "2026-09-15T17:12:17.459053+00:00"
+    },
+    {
+      "id": "QTD000424",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000424/QTD000424.all.tsv.gz",
+      "index_sha256": "77b1b86a7f2c722aca0412fa874e41bf9ada7908cf3fa154ca793b86fe7d3162",
+      "file": "data/derived/prkd2-recovery-queries/QTD000424-controls.tsv.gz",
+      "sha256": "8d4c20320b4562a76ec31598021369f05480fe9be597c2de8efcdb269d067d34",
+      "uncompressed_sha256": "483fab5ab4b586afdde93d035d545f07a3d5c1283a6ae2868581163275b6ac65",
+      "all_returned_rows_sha256": "3f7e9bbb6241043d071411201b56aa77deefe82164a0f89c49f463fa66153db9",
+      "all_gene_or_site_counts": {
+        "46718300": 38
+      },
+      "rows": 38,
+      "completed_at_utc": "2026-09-15T17:12:20.386782+00:00"
+    },
+    {
+      "id": "QTD000429",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000429/QTD000429.all.tsv.gz",
+      "index_sha256": "41591e03cc7273bfcdfaa1810abbebac6636b12e2d5a75b906f51d01963cb834",
+      "file": "data/derived/prkd2-recovery-queries/QTD000429-controls.tsv.gz",
+      "sha256": "0c03de35ca730c2b6c7bcb5cd11233dc2fc646adbaa91a4c8b7723d19e4391d0",
+      "uncompressed_sha256": "a69f2a8d1cd9d4c0c03d63e478e97fc3415d61db2f00d3dcd14b72f4a697617d",
+      "all_returned_rows_sha256": "8b07554a13683201fd8e5bb171894f593a88f9688c33ae01857a802837de4ab8",
+      "all_gene_or_site_counts": {
+        "46718300": 42
+      },
+      "rows": 42,
+      "completed_at_utc": "2026-09-15T17:12:23.296446+00:00"
+    },
+    {
+      "id": "QTD000499",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000499/QTD000499.all.tsv.gz",
+      "index_sha256": "afe7067960a4f4b3310aa5a2667d8100aff46339bbb41d9ce02b020e81b56003",
+      "file": "data/derived/prkd2-recovery-queries/QTD000499-controls.tsv.gz",
+      "sha256": "d29158abeadbb46b0b2a94e3badd22bc836b615718743ba45a981e7def74a939",
+      "uncompressed_sha256": "d465739216cc4b2e2b641e36132d112a83adf00cc907cd8417c0a4a828805fff",
+      "all_returned_rows_sha256": "364b13609377b43c2132c98fa177a5755fddf075c348e83586ce70f64ac9d024",
+      "all_gene_or_site_counts": {
+        "46718300": 34
+      },
+      "rows": 34,
+      "completed_at_utc": "2026-09-15T17:12:26.120163+00:00"
+    },
+    {
+      "id": "QTD000593",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000593/QTD000593.all.tsv.gz",
+      "index_sha256": "f9e183bb5c27ad2aa77f58846610a4241796db8d579689afc607a345b530aa98",
+      "file": "data/derived/prkd2-recovery-queries/QTD000593-controls.tsv.gz",
+      "sha256": "17d486bbec253e2c223ac78315c95778bf4af20ef1d4b8c79cfc653c1d0e0fdc",
+      "uncompressed_sha256": "ead5ac012d326ffac270182e709af12fa2bd242c6c16659550b51d3e5259daa2",
+      "all_returned_rows_sha256": "754ef9d856889998a3582a454ae0e4e344f21daf15115b850490eeb61d7f1266",
+      "all_gene_or_site_counts": {
+        "46718300": 13
+      },
+      "rows": 13,
+      "completed_at_utc": "2026-09-15T17:12:28.933461+00:00"
+    },
+    {
+      "id": "QTD000594",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000594/QTD000594.all.tsv.gz",
+      "index_sha256": "41550b7d2071ffd9b81adf2bc6f05a44812ec528c570ddf89bc70ebc171fb07a",
+      "file": "data/derived/prkd2-recovery-queries/QTD000594-controls.tsv.gz",
+      "sha256": "e6f2e7dfd6a32b932d80ff49ee768e54a6c5664999474aca81e00e6741bd7672",
+      "uncompressed_sha256": "2b6fef050ce2c7bc1f0baf57d82bcd6e8f9af97fb72fc8e545bff869d0ee0b7c",
+      "all_returned_rows_sha256": "97ea03e33c55789ec98aa1e9f2c0292ca1f6c0bc6b99ab89858fdb8653851360",
+      "all_gene_or_site_counts": {
+        "46718300": 22
+      },
+      "rows": 22,
+      "completed_at_utc": "2026-09-15T17:12:31.747717+00:00"
+    },
+    {
+      "id": "QTD000595",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000595/QTD000595.all.tsv.gz",
+      "index_sha256": "7ec910ef4d1909d6687c06a9b6ef022003047163934f531d69a313300772fbaf",
+      "file": "data/derived/prkd2-recovery-queries/QTD000595-controls.tsv.gz",
+      "sha256": "bd289365a3867a3c7ec6e8ea490c00e6521491fb27f3a004685275e2d5d9486e",
+      "uncompressed_sha256": "528ca8d13510259dfd58ac958b0c3a6ce919e770acf717e61f26b19a66c6dc25",
+      "all_returned_rows_sha256": "00350b21406b2d74bb24be4af708efb7ca32fa9558bde821dad64fe8f2ae9463",
+      "all_gene_or_site_counts": {
+        "46718300": 31
+      },
+      "rows": 31,
+      "completed_at_utc": "2026-09-15T17:12:34.565946+00:00"
+    },
+    {
+      "id": "QTD000596",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000596/QTD000596.all.tsv.gz",
+      "index_sha256": "d6b08a26c50af36eecf831e8c5c55a6a9aad23eeb7694728d8c666738915e158",
+      "file": "data/derived/prkd2-recovery-queries/QTD000596-controls.tsv.gz",
+      "sha256": "fc263e7b11e51c6eaf9f8182a001d3838947dcfe485b18dc9a1ecb47f1a38836",
+      "uncompressed_sha256": "e3747a41548f052e561f9b8e39b52a8a764dc5a5ae6bcf21e9bd84cbbbbc9b6f",
+      "all_returned_rows_sha256": "7129dda6a5b7af2e7b963218435a9e9847a671ccce4faf8b7d379e62a158912a",
+      "all_gene_or_site_counts": {
+        "46718300": 26
+      },
+      "rows": 26,
+      "completed_at_utc": "2026-09-15T17:12:37.381237+00:00"
+    },
+    {
+      "id": "QTD000603",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000037/QTD000603/QTD000603.all.tsv.gz",
+      "index_sha256": "c7bd6cae21829109b0f10759441ca562fc51d31b16913fd964b25b883aa8a282",
+      "file": "data/derived/prkd2-recovery-queries/QTD000603-controls.tsv.gz",
+      "sha256": "ff47ddf5e3f4cef8f6654840f496e050d4cc02ab3301a2a03b842db578201949",
+      "uncompressed_sha256": "76feceb6c89d62605ca1463a9c1ec36bbc515cb83c9d270299c62035f7fc1411",
+      "all_returned_rows_sha256": "219354891de44f640603cdcbd95556288e4812634da891e6047f0d8042714050",
+      "all_gene_or_site_counts": {
+        "46718300": 39
+      },
+      "rows": 39,
+      "completed_at_utc": "2026-09-15T17:12:40.199036+00:00"
+    },
+    {
+      "id": "QTD000604",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000037/QTD000604/QTD000604.all.tsv.gz",
+      "index_sha256": "8cf84f6df34c21d07e95c8d610bce4766383415093e701c200fc370a687396a3",
+      "file": "data/derived/prkd2-recovery-queries/QTD000604-controls.tsv.gz",
+      "sha256": "233c6976799a8d708ca1547eb58d943b9a2ceb2aa8e4d9e50c85e086db8d3ecf",
+      "uncompressed_sha256": "3ebb3ed5e559836489b3a43bae94ce889627be3d967e1bc55738d55337696526",
+      "all_returned_rows_sha256": "4fdd8f7b5e22c8acd87baa9044d6e33ee49ade8d3e32fe66a05d7f8ad34ecea7",
+      "all_gene_or_site_counts": {
+        "46718300": 32
+      },
+      "rows": 32,
+      "completed_at_utc": "2026-09-15T17:12:43.012643+00:00"
+    },
+    {
+      "id": "QTD000609",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000038/QTD000609/QTD000609.all.tsv.gz",
+      "index_sha256": "e8d44c6ac8a5965d846c62d63118f9032f55b705eb7199fceb4d220ba1220b69",
+      "file": "data/derived/prkd2-recovery-queries/QTD000609-controls.tsv.gz",
+      "sha256": "6b35a43335afd67f8ad300bedd9fd612c1448680eae31d65a0ee89179d75a2a5",
+      "uncompressed_sha256": "c5a3eac6be3d2a0e882649bd413ac80c5de9e3d1e643920bb850ab3ae6d99efe",
+      "all_returned_rows_sha256": "4c275728b8d99584c29eb1c029415996af29f37904ccc245fcca12a24ca6b9ab",
+      "all_gene_or_site_counts": {
+        "46718300": 18
+      },
+      "rows": 18,
+      "completed_at_utc": "2026-09-15T17:12:45.987975+00:00"
+    },
+    {
+      "id": "QTD000610",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000038/QTD000610/QTD000610.all.tsv.gz",
+      "index_sha256": "3b32c1c3b5a14383972de51c691e662e1978639e79762412d9d94f20c38b3fc4",
+      "file": "data/derived/prkd2-recovery-queries/QTD000610-controls.tsv.gz",
+      "sha256": "847d0f0ceffba2522636889fb48a4e3a2a72afc27163b6be0666015d22bb0344",
+      "uncompressed_sha256": "ee6f96d381f8b8f2d73d9ca2501c56f66c340595784671d7da261b63d9df2c4c",
+      "all_returned_rows_sha256": "2e02410d58cb494ffee76399b625df45bd578422416e9da4b3dccf440b9e04a1",
+      "all_gene_or_site_counts": {
+        "46718300": 16
+      },
+      "rows": 16,
+      "completed_at_utc": "2026-09-15T17:12:48.939491+00:00"
+    },
+    {
+      "id": "QTD000752",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000752/QTD000752.all.tsv.gz",
+      "index_sha256": "cf5938379b44fed008eba219e5c6ee03649d33b43e9efd68fec6f27093b78604",
+      "file": "data/derived/prkd2-recovery-queries/QTD000752-controls.tsv.gz",
+      "sha256": "35c6ddcb02a470bbb389252bc06785fb309967e1ce30e4d10ab269f1b8d8d7dd",
+      "uncompressed_sha256": "7e74a7ed7477e20bc47c3515d8474cf90416822e72b784ffba4d25badfdc66cd",
+      "all_returned_rows_sha256": "683eaf8d4b9e138cc8fbe6943a44bf636eea5c6a6780bdece06de6f6954961fa",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:12:51.941949+00:00"
+    },
+    {
+      "id": "QTD000753",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000753/QTD000753.all.tsv.gz",
+      "index_sha256": "3baec36bceb7c95327ebe2a32c8a39b2c14d90406a98669171a91e797590b7b6",
+      "file": "data/derived/prkd2-recovery-queries/QTD000753-controls.tsv.gz",
+      "sha256": "1920240868fdadbd59692e418b03e692dde9eaa18546946fde50a5511780278c",
+      "uncompressed_sha256": "b82c4ec5e8c43b156d2a03e97982d947166607cdf665f941b2a66042d1188539",
+      "all_returned_rows_sha256": "50228393bdf9f84ab52d089cfa4e0dd6d8d37c82ec38bd447ee14fcd39266dd8",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:12:54.943822+00:00"
+    },
+    {
+      "id": "QTD000754",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000754/QTD000754.all.tsv.gz",
+      "index_sha256": "3239aa03e01e7db565016fba74c75fc4a283c1bc76b62cd322f43e8609b24794",
+      "file": "data/derived/prkd2-recovery-queries/QTD000754-controls.tsv.gz",
+      "sha256": "615a7387650bc1747887e2215c53c1c450516e6ba81e2e2dc6ca797f3a31d1ce",
+      "uncompressed_sha256": "a1660e7a5168c494cd200971b293e94f827c8d10938c438237a6344f8002500a",
+      "all_returned_rows_sha256": "3ea6707ebaac5b40383f089d450225ce5abe13f6b6cc1bf0bfe47252e49c15ac",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:12:57.762060+00:00"
+    },
+    {
+      "id": "QTD000755",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000755/QTD000755.all.tsv.gz",
+      "index_sha256": "70bb8fb6af5a973f9c21dba332bf593c9311e41ea5c041a9089d55d3f5b5aba5",
+      "file": "data/derived/prkd2-recovery-queries/QTD000755-controls.tsv.gz",
+      "sha256": "de8b969c6a4c0468e44ce226e66b0654ba88d1235560a6340709cc0ef5955044",
+      "uncompressed_sha256": "b42eb942794ac905687559091c19e306395b1becdd91ea3e72f06ec96db22987",
+      "all_returned_rows_sha256": "9ab4c78efe9a68d5ffc0963785d954f1ab1a776d456104e1e55b65edff840cf9",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:13:00.575399+00:00"
+    },
+    {
+      "id": "QTD000756",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000756/QTD000756.all.tsv.gz",
+      "index_sha256": "29d512752fd4c1f727790b583c44a75e5d395aea812bf123ac65a513de2012d1",
+      "file": "data/derived/prkd2-recovery-queries/QTD000756-controls.tsv.gz",
+      "sha256": "438ce979b831c8d6e41e5c489635a00136af7fecad81e76d3ccb9c504696b3ae",
+      "uncompressed_sha256": "0f5a393cd38f188abd7f13a13771e80a821f2ca88e906bb337b115638efa6440",
+      "all_returned_rows_sha256": "996cc05f7c4a96f59bc7b380c23aea3e91ae5f23d7b6ec05b7955ce9580a3146",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:13:03.804747+00:00"
+    },
+    {
+      "id": "QTD000757",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000757/QTD000757.all.tsv.gz",
+      "index_sha256": "1870f226a999782065ba31796ce182029ced5843921c5064d194f60ead93533f",
+      "file": "data/derived/prkd2-recovery-queries/QTD000757-controls.tsv.gz",
+      "sha256": "171369b90f21101b2e2b293e02de93b725f0c5575b318b8831e20811e00e5e12",
+      "uncompressed_sha256": "b27cd8d6e71e59612f4878e36e16bfa52129c5ed521b6429e45903611befdb79",
+      "all_returned_rows_sha256": "28465b476d388a8261514f8e805e1bf65f7f3eadf59b32f6113b753c548c7fd7",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:13:06.628488+00:00"
+    },
+    {
+      "id": "QTD000758",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000758/QTD000758.all.tsv.gz",
+      "index_sha256": "c883738deadfb9af40c82069f6de478b99577295703fbd572e00bd4ce820077f",
+      "file": "data/derived/prkd2-recovery-queries/QTD000758-controls.tsv.gz",
+      "sha256": "88844822dba13a6397dddf2f5deccc400c5a0ec6295a2d562fd03d4b035d59ac",
+      "uncompressed_sha256": "63963dc2d668c3fb4675b07158d268994aa73b29c1e2ce57c139d53e8127a279",
+      "all_returned_rows_sha256": "f7df17f8cef94e7032a5972083b613a8ef280cb2690521d3d2e594e1892787ac",
+      "all_gene_or_site_counts": {
+        "46718300": 41
+      },
+      "rows": 41,
+      "completed_at_utc": "2026-09-15T17:13:09.632327+00:00"
+    }
+  ]
+}

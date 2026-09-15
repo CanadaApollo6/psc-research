@@ -1,0 +1,25 @@
+dataset_id,context,target_rsid,target_edit_grch38,status,variant_id,source_beta,source_se,source_pvalue,source_af,canonical_beta_sign
+IBDverse-original-Myeloid-0,Classical monocyte,rs112445263,chr19:46700099:A:C,present,chr19:46700099:C:A,0.5801919,0.13363896,4.748084044487732e-05,0.15416864,-1.0
+IBDverse-original-Myeloid-0,Classical monocyte,,chr19:46681839:C:CT,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-0,Classical monocyte,,chr19:46685258:C:CA,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-0,Classical monocyte,,chr19:46681255:CT:C,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-0,Classical monocyte,,chr19:46717081:T:TCGG,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-0,Classical monocyte,rs313839,chr19:46718300:C:G,present,chr19:46718300:C:G,0.5827172,0.13409404,4.6790773517995584e-05,0.14856736,1.0
+IBDverse-original-Myeloid-1,Intermediate monocyte,rs112445263,chr19:46700099:A:C,present,chr19:46700099:C:A,0.86932194,0.12273434,1.1531167262193809e-09,0.15582636,-1.0
+IBDverse-original-Myeloid-1,Intermediate monocyte,,chr19:46681839:C:CT,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-1,Intermediate monocyte,,chr19:46685258:C:CA,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-1,Intermediate monocyte,,chr19:46681255:CT:C,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-1,Intermediate monocyte,,chr19:46717081:T:TCGG,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-1,Intermediate monocyte,rs313839,chr19:46718300:C:G,present,chr19:46718300:C:G,0.8758001,0.12537204,1.7181289559974762e-09,0.15016486,1.0
+IBDverse-original-Myeloid-3,Non-classical monocyte,rs112445263,chr19:46700099:A:C,present,chr19:46700099:C:A,0.43707785,0.15752049,0.007011281061047209,0.15416864,-1.0
+IBDverse-original-Myeloid-3,Non-classical monocyte,,chr19:46681839:C:CT,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-3,Non-classical monocyte,,chr19:46685258:C:CA,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-3,Non-classical monocyte,,chr19:46681255:CT:C,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-3,Non-classical monocyte,,chr19:46717081:T:TCGG,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-3,Non-classical monocyte,rs313839,chr19:46718300:C:G,present,chr19:46718300:C:G,0.403802,0.15910429,0.013283454176488603,0.14856736,1.0
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,rs112445263,chr19:46700099:A:C,present,chr19:46700099:C:A,0.4012487,0.37378976,0.39539575576782227,0.1662942,-1.0
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,,chr19:46681839:C:CT,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,,chr19:46685258:C:CA,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,,chr19:46681255:CT:C,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,,chr19:46717081:T:TCGG,absent-from-complete-source-PRKD2-vector,,,,,,
+IBDverse-original-Myeloid-7,Monocyte S100A8/9,rs313839,chr19:46718300:C:G,present,chr19:46718300:C:G,0.40142533,0.3740749,0.3955194354057314,0.16594677,1.0

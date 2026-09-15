@@ -1,0 +1,26 @@
+{
+  "all_checks_pass": true,
+  "method": "Independent external gzip decompression and ripgrep selection, followed by exact identifier parsing; every compressed archive reread through EOF",
+  "completed_at_utc": "2026-09-15T17:28:30.214728+00:00",
+  "verifier_sha256": "402f5d85069d05e5c2434fb31e9c5ca2d9933345c9ff8ec68927641ca44f943f",
+  "studies": [
+    {
+      "study": "dice",
+      "archive_sha256": "a9c1f7bd4960cbd663c9485e5416b1004aa463edea9580d328ce37506d7254ad",
+      "gene_rows": 3060,
+      "variant_rows_all_genes": 89,
+      "all_source_rows_reread": true,
+      "gzip_eof_and_crc_verified": true,
+      "exact_extraction_match": true
+    },
+    {
+      "study": "blueprint",
+      "archive_sha256": "b23144dc42026e121cd32c6203be7df0ba5639b4ff0c4d9ae5804b2fd1eb20f5",
+      "gene_rows": 3099,
+      "variant_rows_all_genes": 0,
+      "all_source_rows_reread": true,
+      "gzip_eof_and_crc_verified": true,
+      "exact_extraction_match": true
+    }
+  ]
+}

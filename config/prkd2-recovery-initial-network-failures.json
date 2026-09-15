@@ -1,0 +1,74 @@
+{
+  "sources": [
+    {
+      "id": "catalogue-current-commit",
+      "url": "https://api.github.com/repos/eQTL-Catalogue/eQTL-Catalogue-resources/commits/master",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:31.717113+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "catalogue-data-access",
+      "url": "https://www.ebi.ac.uk/eqtl/Data_access/",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:33.722114+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "catalogue-studies",
+      "url": "https://www.ebi.ac.uk/eqtl/Studies/",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:35.722622+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "dice-downloads",
+      "url": "https://dice-database.org/downloads",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:37.723111+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "blueprint-original-qtls",
+      "url": "https://blueprint-dev.bioinfo.cnio.es/WP10/qtls",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:39.723551+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "blueprint-epivar-index",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/blueprint/blueprint_Epivar/",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:41.724018+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    },
+    {
+      "id": "psc-gcst004030-index",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/",
+      "method": "GET",
+      "byte_range": null,
+      "byte_limit": 3000000,
+      "retrieved_at_utc": "2026-09-15T16:49:43.724503+00:00",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": null
+    }
+  ]
+}

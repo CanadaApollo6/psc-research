@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-09-15T18:09:15.897866+00:00",
+  "trigger": "In the completed S100A8/9 source vector, a beta/SE ratio of about 47 coexists with nominal P about 0.000445. Check the distribution convention before interpreting normal-approximation BF coverage. Original association fields and numerical coverage remain unchanged.",
+  "scope": "All PRKD2 rows in all four original IBDverse contexts; no association or cohort selection by this diagnostic.",
+  "method": "Compare exported two-sided nominal P with Student-t probabilities for every integer residual degree of freedom from 1 through 500, using abs(beta/SE). Choose the integer minimizing median absolute log10-P discrepancy; report 95th percentile and maximum discrepancies for the chosen integer and the normal distribution. This is a consistency inference, not a source-backed sample count or recovered covariate list.",
+  "gaussian_approximation_flag": "Flag very low inferred residual degrees of freedom (<30); do not promote numerical Gaussian-ABF coverage to model qualification. No posteriors are calculated.",
+  "frozen_source_files": {
+    "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-0-PRKD2.tsv.gz": "004f6e6f811d81257c32c4605e256a010d576107d182e76328bf40a09f8af066",
+    "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-1-PRKD2.tsv.gz": "693fa41d642776840994f1644a1f3ae6e1e14514d0afb99327df778992238494",
+    "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-3-PRKD2.tsv.gz": "8860cc85bd9dadf09a8142fdc645a1aaa175b93c075b1f161ea7e7584b49f1fc",
+    "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-7-PRKD2.tsv.gz": "ce2d4c320dde7309ebf4933fbd7c95f2b53e18e53a36300ca5bce9de280d312a"
+  }
+}

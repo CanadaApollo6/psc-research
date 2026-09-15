@@ -1,0 +1,7 @@
+"dataset_id","shared_edits","full_PSC_weight","full_RNA_weight","source_rows","distinct_source_rows"
+"DICE-original",2501,0.998996056470805,,3060,3060
+"BLUEPRINT-original",2283,0.616978820336542,0.999999796178016,3099,3098
+"IBDverse-original-Myeloid-0",2632,0.907035386212967,0.971134949421944,3634,3634
+"IBDverse-original-Myeloid-1",2632,0.907035386212967,0.99991917134581,3637,3637
+"IBDverse-original-Myeloid-3",2632,0.907035386212967,0.748379603705304,3634,3634
+"IBDverse-original-Myeloid-7",2714,0.907052122661454,1,3744,3744

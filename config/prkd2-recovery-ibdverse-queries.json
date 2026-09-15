@@ -1,0 +1,756 @@
+{
+  "plan_sha256": "477483793fea89a2048cf2ba335562afae1323cbbbd1e5a1a392b51bd12857b7",
+  "reader_sha256": "dfd0ec412df1a01be3eb520ec9b95b6e03eb6ee84f2338a585e2ba7c9b226b71",
+  "queries": [
+    {
+      "id": "IBDverse-original-Myeloid-0",
+      "catalogue_context": "QTD000773",
+      "label": "Classical monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_0_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "539963901",
+        "compressed_bytes": "173926798",
+        "compression_method": "8",
+        "local_header_offset": "3827829068",
+        "crc32": "3687558517"
+      },
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "ranges": [
+        {
+          "range": "3827829068-3827829097",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3827829068-3827829097.data",
+          "bytes": 30,
+          "sha256": "beb3726c0458da0e7c2248b2c8e37aa7c2e1479a58baa87c97bd054c0927c39b",
+          "retrieved_at_utc": "2026-09-15T17:42:08.902364+00:00"
+        },
+        {
+          "range": "3827829098-3827829193",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3827829098-3827829193.data",
+          "bytes": 96,
+          "sha256": "02c3ace9ade5c8848c94fcd3585874c5ffa81eb241580a81e2595accaacc8273",
+          "retrieved_at_utc": "2026-09-15T17:42:14.461477+00:00"
+        },
+        {
+          "range": "3827829194-3836217801",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3827829194-3836217801.data",
+          "bytes": 8388608,
+          "sha256": "59deb43918ac234c5a27fd7eab7112c5c0700ac41fb40debebe10d0c7b98e116",
+          "retrieved_at_utc": "2026-09-15T17:42:32.393362+00:00"
+        },
+        {
+          "range": "3836217802-3844606409",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3836217802-3844606409.data",
+          "bytes": 8388608,
+          "sha256": "7cddee91d7a26db87a24f59ca13647ab582a41c10002492e7acd82c49f2fe397",
+          "retrieved_at_utc": "2026-09-15T17:43:30.817164+00:00"
+        },
+        {
+          "range": "3844606410-3852995017",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3844606410-3852995017.data",
+          "bytes": 8388608,
+          "sha256": "7ab729ef8a8cdc05b3a4b6a31d9e127e254958517a25c13e41a4ca889f4ad9f9",
+          "retrieved_at_utc": "2026-09-15T17:44:11.898992+00:00"
+        },
+        {
+          "range": "3852995018-3861383625",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3852995018-3861383625.data",
+          "bytes": 8388608,
+          "sha256": "6011d9a483eb11f1e99178fb975163e0ce08dc1e330eb734125c6ee9f112d2d7",
+          "retrieved_at_utc": "2026-09-15T17:44:27.177459+00:00"
+        },
+        {
+          "range": "3861383626-3869772233",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3861383626-3869772233.data",
+          "bytes": 8388608,
+          "sha256": "23b7e16f2b8c394691dbeeb627426337eda3f7ebfd50c39c8ade361c967c0ee4",
+          "retrieved_at_utc": "2026-09-15T17:44:50.162390+00:00"
+        },
+        {
+          "range": "3869772234-3878160841",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3869772234-3878160841.data",
+          "bytes": 8388608,
+          "sha256": "ad0e00fbdc2ba3e3674c23413e4f85791897a28b8817a670f0944bde80a7020f",
+          "retrieved_at_utc": "2026-09-15T17:45:05.324457+00:00"
+        },
+        {
+          "range": "3878160842-3886549449",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3878160842-3886549449.data",
+          "bytes": 8388608,
+          "sha256": "bc14c06a24f51f50a413ecc38cdff3aadd8d806512ab4959c035aa6ca62ff11a",
+          "retrieved_at_utc": "2026-09-15T17:45:40.211355+00:00"
+        },
+        {
+          "range": "3886549450-3894938057",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3886549450-3894938057.data",
+          "bytes": 8388608,
+          "sha256": "21ad4ec27e06d70f1c324b690df5b600caa65696daf9a544089bdf5d94e6224a",
+          "retrieved_at_utc": "2026-09-15T17:45:59.131767+00:00"
+        },
+        {
+          "range": "3894938058-3903326665",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3894938058-3903326665.data",
+          "bytes": 8388608,
+          "sha256": "a552dbddae92acb48009890bae7c08b2513d8878e66cab43a39a90bdf028352a",
+          "retrieved_at_utc": "2026-09-15T17:46:36.333071+00:00"
+        },
+        {
+          "range": "3911715274-3920103881",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3911715274-3920103881.data",
+          "bytes": 8388608,
+          "sha256": "8e8c1f6292a7c3b0a1b43adb5a6c5e4e5c8ea314bab257f6ea8dc1503e8606d3",
+          "retrieved_at_utc": "2026-09-15T17:49:09.039674+00:00"
+        },
+        {
+          "range": "3903326666-3911715273",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3903326666-3911715273.data",
+          "bytes": 8388608,
+          "sha256": "3397468599bc6be09a277a2a4a37e2c796d04e579b68e155a94bf897fd82eb76",
+          "retrieved_at_utc": "2026-09-15T17:49:34.019174+00:00"
+        },
+        {
+          "range": "3920103882-3928492489",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3920103882-3928492489.data",
+          "bytes": 8388608,
+          "sha256": "79ebef329beace396edb49765f64347fbee0747581b9d05a20d0046487c25b10",
+          "retrieved_at_utc": "2026-09-15T17:49:54.316131+00:00"
+        },
+        {
+          "range": "3928492490-3936881097",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3928492490-3936881097.data",
+          "bytes": 8388608,
+          "sha256": "0f6a733095424898dc6da5948e7ec55a16cfc99d12ba84e43aac312706d4f937",
+          "retrieved_at_utc": "2026-09-15T17:50:03.662273+00:00"
+        },
+        {
+          "range": "3945269706-3953658313",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3945269706-3953658313.data",
+          "bytes": 8388608,
+          "sha256": "1b56e547a0fb84076f08f137fe4e222d2d9b67b077a421a8542f63b660b4c5a2",
+          "retrieved_at_utc": "2026-09-15T17:50:30.777554+00:00"
+        },
+        {
+          "range": "3936881098-3945269705",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3936881098-3945269705.data",
+          "bytes": 8388608,
+          "sha256": "a12df16052366aa089fd59d7a27f8578499ec495c2c39bdf4314062bf60e2c0e",
+          "retrieved_at_utc": "2026-09-15T17:50:35.212430+00:00"
+        },
+        {
+          "range": "3953658314-3962046921",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3953658314-3962046921.data",
+          "bytes": 8388608,
+          "sha256": "1b9bc2d43bf1273bf0934da917f72905be56ea1980c1b70aba5693a4977b58dd",
+          "retrieved_at_utc": "2026-09-15T17:50:41.867003+00:00"
+        },
+        {
+          "range": "3962046922-3970435529",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3962046922-3970435529.data",
+          "bytes": 8388608,
+          "sha256": "7bb446709362379181b96711437d2a2127cd6eb3373592d4676153826959d681",
+          "retrieved_at_utc": "2026-09-15T17:51:21.202431+00:00"
+        },
+        {
+          "range": "3970435530-3978824137",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3970435530-3978824137.data",
+          "bytes": 8388608,
+          "sha256": "09831077ab355e51377a7f945c4e83840786205765fdabcab9809265cb44af39",
+          "retrieved_at_utc": "2026-09-15T17:51:28.939221+00:00"
+        },
+        {
+          "range": "3987212746-3995601353",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3987212746-3995601353.data",
+          "bytes": 8388608,
+          "sha256": "82fcd2037f5699c5b591a3e9e1c000268f4bcafeb1c14a831e286ab271f71648",
+          "retrieved_at_utc": "2026-09-15T17:52:07.233529+00:00"
+        },
+        {
+          "range": "3978824138-3987212745",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3978824138-3987212745.data",
+          "bytes": 8388608,
+          "sha256": "fcc266cb66849f7331ffcf3657d841f22e68823ac0648d41ddc519c9e5ad6744",
+          "retrieved_at_utc": "2026-09-15T17:52:19.996893+00:00"
+        },
+        {
+          "range": "3995601354-4001755991",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-0-3995601354-4001755991.data",
+          "bytes": 6154638,
+          "sha256": "e370043cb2b1f7043b6284e69f7303e49d9f1a820e1983008e6f1fed445c5dea",
+          "retrieved_at_utc": "2026-09-15T17:52:42.216003+00:00"
+        }
+      ],
+      "started_at_utc": "2026-09-15T17:42:06.390867+00:00",
+      "result": {
+        "source_rows": 5356483,
+        "source_bytes": 539963901,
+        "source_sha256": "f5511bcc1b27b915d03c8bdf2137bc68f1f0067b76a2c94c6f487a884dc66ed2",
+        "crc32": 3687558517,
+        "deflate_eof_verified": true,
+        "header": [
+          "phenotype_id",
+          "variant_id",
+          "start_distance",
+          "af",
+          "ma_samples",
+          "ma_count",
+          "pval_nominal",
+          "slope",
+          "slope_se"
+        ],
+        "outputs": [
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-0-PRKD2.tsv.gz",
+            "rows": 3634,
+            "sha256": "004f6e6f811d81257c32c4605e256a010d576107d182e76328bf40a09f8af066",
+            "uncompressed_sha256": "55a36520372c19d7a674f59eb83be2ce16d6ca350a4a58cef63f588288803888"
+          },
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-0-target-positions.tsv.gz",
+            "rows": 82,
+            "sha256": "ed7ad45dd6d1efb72a43d8fa9020997bbce82298736191ed2fed5952de4d0343",
+            "uncompressed_sha256": "787eb04f5d5666dbd3078eb6c6439218874f01bff38d30051179d14ddd4151c1"
+          }
+        ],
+        "transfer_bytes": 173926924
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-1",
+      "catalogue_context": "QTD000774",
+      "label": "Intermediate monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_1_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "532521885",
+        "compressed_bytes": "172260988",
+        "compression_method": "8",
+        "local_header_offset": "288309322328",
+        "crc32": "1368258478"
+      },
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "ranges": [
+        {
+          "range": "288309322328-288309322357",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288309322328-288309322357.data",
+          "bytes": 30,
+          "sha256": "beb3726c0458da0e7c2248b2c8e37aa7c2e1479a58baa87c97bd054c0927c39b",
+          "retrieved_at_utc": "2026-09-15T17:48:19.624544+00:00"
+        },
+        {
+          "range": "288309322358-288309322453",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288309322358-288309322453.data",
+          "bytes": 96,
+          "sha256": "671ff723d093598689e9c0e9a7c8ba3ca39fcf18e7bb199bbe7d48524970fb4c",
+          "retrieved_at_utc": "2026-09-15T17:48:21.919908+00:00"
+        },
+        {
+          "range": "288309322454-288317711061",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288309322454-288317711061.data",
+          "bytes": 8388608,
+          "sha256": "0c11fac4fbfbbc66a84c8ce023e3f542234ef3d7c019ccfd913b67a2c08b6b8c",
+          "retrieved_at_utc": "2026-09-15T17:52:52.307162+00:00"
+        },
+        {
+          "range": "288317711062-288326099669",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288317711062-288326099669.data",
+          "bytes": 8388608,
+          "sha256": "f90e41e359254bc748735e0d3f4c4e2ca579169f332638791eb76666e9a4fbc0",
+          "retrieved_at_utc": "2026-09-15T17:52:57.070317+00:00"
+        },
+        {
+          "range": "288326099670-288334488277",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288326099670-288334488277.data",
+          "bytes": 8388608,
+          "sha256": "3b32dc575211cfef97c726e9d17cc30dedae8d4955e0dcda204e6ec48f158113",
+          "retrieved_at_utc": "2026-09-15T17:53:15.649675+00:00"
+        },
+        {
+          "range": "288334488278-288342876885",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288334488278-288342876885.data",
+          "bytes": 8388608,
+          "sha256": "57d77274e161c78921c1075eac1715ebb5abe775971c46bd1b34cfba06b20003",
+          "retrieved_at_utc": "2026-09-15T17:53:28.804044+00:00"
+        },
+        {
+          "range": "288342876886-288351265493",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288342876886-288351265493.data",
+          "bytes": 8388608,
+          "sha256": "0f553cf27838ce691069ec7827bd197f7025400d555c69d998c8bd320cdb2990",
+          "retrieved_at_utc": "2026-09-15T17:53:54.214329+00:00"
+        },
+        {
+          "range": "288351265494-288359654101",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288351265494-288359654101.data",
+          "bytes": 8388608,
+          "sha256": "03fdf73b32998bd4778fc4b04391efc0bd9cd4a6bf20f3243a4c96023bc4c850",
+          "retrieved_at_utc": "2026-09-15T17:54:02.528621+00:00"
+        },
+        {
+          "range": "288368042710-288376431317",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288368042710-288376431317.data",
+          "bytes": 8388608,
+          "sha256": "401d63b3a574a30525d8cfeb540c2c9e740c0062df0666b7bb89c841cfdb9244",
+          "retrieved_at_utc": "2026-09-15T17:54:26.634993+00:00"
+        },
+        {
+          "range": "288359654102-288368042709",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288359654102-288368042709.data",
+          "bytes": 8388608,
+          "sha256": "db27cb78f60860349a24d23921afe6db849a662021f06316aa671fe704d44c6c",
+          "retrieved_at_utc": "2026-09-15T17:54:36.882226+00:00"
+        },
+        {
+          "range": "288376431318-288384819925",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288376431318-288384819925.data",
+          "bytes": 8388608,
+          "sha256": "1baf9519d03d7a90265defba5f4e84b6620661863c9d044b8c76eb9d500d02e5",
+          "retrieved_at_utc": "2026-09-15T17:55:05.925155+00:00"
+        },
+        {
+          "range": "288384819926-288393208533",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288384819926-288393208533.data",
+          "bytes": 8388608,
+          "sha256": "5ca97c6cb3196ffc139a5e0a74b43ff7cb764d8fd35324ce2a7b1518d90c04dc",
+          "retrieved_at_utc": "2026-09-15T17:55:06.167421+00:00"
+        },
+        {
+          "range": "288401597142-288409985749",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288401597142-288409985749.data",
+          "bytes": 8388608,
+          "sha256": "5d43c60850a5fcb2c9598e46de849b821e7ab40883a52f14b8651e4c0b39d644",
+          "retrieved_at_utc": "2026-09-15T17:55:10.486512+00:00"
+        },
+        {
+          "range": "288393208534-288401597141",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288393208534-288401597141.data",
+          "bytes": 8388608,
+          "sha256": "ce28d46f6aa640a44fc06df98d6c3fca13a26d0058b4a38e719cdc6318ebb609",
+          "retrieved_at_utc": "2026-09-15T17:55:47.985608+00:00"
+        },
+        {
+          "range": "288409985750-288418374357",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288409985750-288418374357.data",
+          "bytes": 8388608,
+          "sha256": "f73515ba08c5aa9e26c3a2cd65479c13dbd846ad23a4be571ccfbd782a082228",
+          "retrieved_at_utc": "2026-09-15T17:55:58.411623+00:00"
+        },
+        {
+          "range": "288418374358-288426762965",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288418374358-288426762965.data",
+          "bytes": 8388608,
+          "sha256": "d8a17d9ef1a12dfdd5d01b0b81577f38276e907af5755b9ec935f01e72aba5e3",
+          "retrieved_at_utc": "2026-09-15T17:56:20.133235+00:00"
+        },
+        {
+          "range": "288426762966-288435151573",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288426762966-288435151573.data",
+          "bytes": 8388608,
+          "sha256": "973dc22b48909b61f8f6f6e7baf482ae6f745b9e3eb66f1c7620384287468e86",
+          "retrieved_at_utc": "2026-09-15T17:56:52.530148+00:00"
+        },
+        {
+          "range": "288443540182-288451928789",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288443540182-288451928789.data",
+          "bytes": 8388608,
+          "sha256": "2645ab09d7c9c89287af646f1f866d497f96985b398c8fa851f21ca92ea09d86",
+          "retrieved_at_utc": "2026-09-15T17:57:37.825323+00:00"
+        },
+        {
+          "range": "288435151574-288443540181",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288435151574-288443540181.data",
+          "bytes": 8388608,
+          "sha256": "ed309100457a53c214811df41525b8a656dc4cdd624d9b212f0bcb9d4acfa66d",
+          "retrieved_at_utc": "2026-09-15T17:57:40.251418+00:00"
+        },
+        {
+          "range": "288451928790-288460317397",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288451928790-288460317397.data",
+          "bytes": 8388608,
+          "sha256": "41f1253752c02f60bdfd2fe4cb1142a3aa0dd0ebf7798d2bc0e341ba3e8e6ddb",
+          "retrieved_at_utc": "2026-09-15T17:57:51.327135+00:00"
+        },
+        {
+          "range": "288468706006-288477094613",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288468706006-288477094613.data",
+          "bytes": 8388608,
+          "sha256": "c1e9c59243d943851eb5f5a3e1cdab4e0b6fc9a4e140a0920d5c0a00fd6943d9",
+          "retrieved_at_utc": "2026-09-15T17:58:06.229258+00:00"
+        },
+        {
+          "range": "288460317398-288468706005",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288460317398-288468706005.data",
+          "bytes": 8388608,
+          "sha256": "90845258d5ee16517e383d69caf9c3a57bfffb34fac58ec34271577047a6dd0b",
+          "retrieved_at_utc": "2026-09-15T17:58:07.655715+00:00"
+        },
+        {
+          "range": "288477094614-288481583441",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-1-288477094614-288481583441.data",
+          "bytes": 4488828,
+          "sha256": "f3708d26c5bd5145130faa949c1d5f177b6c28e8e639da09bd1070f2729f1007",
+          "retrieved_at_utc": "2026-09-15T17:58:08.088567+00:00"
+        }
+      ],
+      "started_at_utc": "2026-09-15T17:48:16.985529+00:00",
+      "result": {
+        "source_rows": 5282859,
+        "source_bytes": 532521885,
+        "source_sha256": "f71e0129110b4ad5ee678d77446d37b455ac921a75f0993dde8f63817367d7ed",
+        "crc32": 1368258478,
+        "deflate_eof_verified": true,
+        "header": [
+          "phenotype_id",
+          "variant_id",
+          "start_distance",
+          "af",
+          "ma_samples",
+          "ma_count",
+          "pval_nominal",
+          "slope",
+          "slope_se"
+        ],
+        "outputs": [
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-1-PRKD2.tsv.gz",
+            "rows": 3637,
+            "sha256": "693fa41d642776840994f1644a1f3ae6e1e14514d0afb99327df778992238494",
+            "uncompressed_sha256": "ba16469aea4a1ed0a5f3bcc5ba496aac2a2dc4ae026632945c9cfd0087a59c52"
+          },
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-1-target-positions.tsv.gz",
+            "rows": 82,
+            "sha256": "967eeafedc3b3065ea3600ac230492e43628d5fa7b15d44d412883e42a8b058c",
+            "uncompressed_sha256": "52d17416a0faadb04f8275b81b7e12d9c457c2a1f0b40d24abb256b33d652748"
+          }
+        ],
+        "transfer_bytes": 172261114
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-3",
+      "catalogue_context": "QTD000776",
+      "label": "Non-classical monocyte",
+      "member": {
+        "filename": "dMean__Myeloid_3_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "495559051",
+        "compressed_bytes": "159239350",
+        "compression_method": "8",
+        "local_header_offset": "82814916439",
+        "crc32": "2527673406"
+      },
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "ranges": [
+        {
+          "range": "82814916439-82814916468",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82814916439-82814916468.data",
+          "bytes": 30,
+          "sha256": "beb3726c0458da0e7c2248b2c8e37aa7c2e1479a58baa87c97bd054c0927c39b",
+          "retrieved_at_utc": "2026-09-15T17:48:26.267535+00:00"
+        },
+        {
+          "range": "82814916469-82814916564",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82814916469-82814916564.data",
+          "bytes": 96,
+          "sha256": "719051233b1bd6cc5f7f55b6fb47c1adb84233af1f9471c6ad3775b1b9e17768",
+          "retrieved_at_utc": "2026-09-15T17:48:28.563483+00:00"
+        },
+        {
+          "range": "82814916565-82823305172",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82814916565-82823305172.data",
+          "bytes": 8388608,
+          "sha256": "40f64f7eed554279c12488c461947527322e637bd98bd119ee06edf3c65c446e",
+          "retrieved_at_utc": "2026-09-15T17:58:20.838479+00:00"
+        },
+        {
+          "range": "82831693781-82840082388",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82831693781-82840082388.data",
+          "bytes": 8388608,
+          "sha256": "f141b9acf75a95c408a404dab8e2c674c1feae841fd55d197c32615550af92d2",
+          "retrieved_at_utc": "2026-09-15T17:58:43.367690+00:00"
+        },
+        {
+          "range": "82823305173-82831693780",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82823305173-82831693780.data",
+          "bytes": 8388608,
+          "sha256": "c441d14d6d427e288de412c00c774627215827ca0334a287c778b42f294743e1",
+          "retrieved_at_utc": "2026-09-15T17:58:52.663810+00:00"
+        },
+        {
+          "range": "82840082389-82848470996",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82840082389-82848470996.data",
+          "bytes": 8388608,
+          "sha256": "8d82461912a863e22c852cdd0f0bb6f4778178a5cb1323566c198136498c7370",
+          "retrieved_at_utc": "2026-09-15T17:59:17.516316+00:00"
+        },
+        {
+          "range": "82856859605-82865248212",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82856859605-82865248212.data",
+          "bytes": 8388608,
+          "sha256": "e061978f70cfd5f155e2fe77940fc658daaee230e9b885ef1df6cfcc0d389bb2",
+          "retrieved_at_utc": "2026-09-15T17:59:34.252693+00:00"
+        },
+        {
+          "range": "82848470997-82856859604",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82848470997-82856859604.data",
+          "bytes": 8388608,
+          "sha256": "c11b89cc05248bbc624488f300d2248f0292524b3935fe262aee19fe6a723f3f",
+          "retrieved_at_utc": "2026-09-15T17:59:47.269822+00:00"
+        },
+        {
+          "range": "82865248213-82873636820",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82865248213-82873636820.data",
+          "bytes": 8388608,
+          "sha256": "b8ea0288e55b506730201b0e9e555b007f7a10abb3c946bc7605f41dccccdb36",
+          "retrieved_at_utc": "2026-09-15T18:00:06.488607+00:00"
+        },
+        {
+          "range": "82873636821-82882025428",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82873636821-82882025428.data",
+          "bytes": 8388608,
+          "sha256": "aa313e150a8982f4e9a9f878ee7dd19cfb2d3762bca642608bdd393ab6683f23",
+          "retrieved_at_utc": "2026-09-15T18:00:14.885850+00:00"
+        },
+        {
+          "range": "82882025429-82890414036",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82882025429-82890414036.data",
+          "bytes": 8388608,
+          "sha256": "3b486dd9be6aa7e13b70ee92dde5ecc173fed9a2da6b3787104c477b4f8e7080",
+          "retrieved_at_utc": "2026-09-15T18:00:24.203567+00:00"
+        },
+        {
+          "range": "82898802645-82907191252",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82898802645-82907191252.data",
+          "bytes": 8388608,
+          "sha256": "92af5abfa2e760d87c679a756be445ce6fd49cb6aa5fd85fd6a4963926b5dc19",
+          "retrieved_at_utc": "2026-09-15T18:00:36.921004+00:00"
+        },
+        {
+          "range": "82890414037-82898802644",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82890414037-82898802644.data",
+          "bytes": 8388608,
+          "sha256": "bc71e2529ea9ee8ca3aba28fd03b6570bc8f62751523331bcfa3a2788b0608c4",
+          "retrieved_at_utc": "2026-09-15T18:01:01.249925+00:00"
+        },
+        {
+          "range": "82907191253-82915579860",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82907191253-82915579860.data",
+          "bytes": 8388608,
+          "sha256": "53f2f82cc635e7ef310d233fd0b91d6277f0a1edbefa113d1ddc8f630510b042",
+          "retrieved_at_utc": "2026-09-15T18:01:06.391275+00:00"
+        },
+        {
+          "range": "82915579861-82923968468",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82915579861-82923968468.data",
+          "bytes": 8388608,
+          "sha256": "c0f4cc00fdf12b086283ebb6fdb75799499596b1cbe37b8f04a3b8809157cd69",
+          "retrieved_at_utc": "2026-09-15T18:01:38.700138+00:00"
+        },
+        {
+          "range": "82923968469-82932357076",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82923968469-82932357076.data",
+          "bytes": 8388608,
+          "sha256": "2f4fb03aae205620607c7b883e49cc6254cb695d7846a9414accb1250425d996",
+          "retrieved_at_utc": "2026-09-15T18:01:50.235794+00:00"
+        },
+        {
+          "range": "82940745685-82949134292",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82940745685-82949134292.data",
+          "bytes": 8388608,
+          "sha256": "7c24e9d446b56a1077ac0309a8916aeccc99742419a113fdc4cd67eb94061f5a",
+          "retrieved_at_utc": "2026-09-15T18:02:06.382555+00:00"
+        },
+        {
+          "range": "82932357077-82940745684",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82932357077-82940745684.data",
+          "bytes": 8388608,
+          "sha256": "8343ce3b4e0ca7b192877607729b3f159ff35f5bdbc4cf3b1d1f16ca25836213",
+          "retrieved_at_utc": "2026-09-15T18:02:08.197638+00:00"
+        },
+        {
+          "range": "82949134293-82957522900",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82949134293-82957522900.data",
+          "bytes": 8388608,
+          "sha256": "cec2268fb91c186c642cc6798e950bcb3a1c5d19102bf3f33840d44bf98aca26",
+          "retrieved_at_utc": "2026-09-15T18:02:41.592099+00:00"
+        },
+        {
+          "range": "82957522901-82965911508",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82957522901-82965911508.data",
+          "bytes": 8388608,
+          "sha256": "ec198f652ddbede396a9b8e0e90fe350d4a71e6e165dae122d4ce62c7fd98f69",
+          "retrieved_at_utc": "2026-09-15T18:02:41.749464+00:00"
+        },
+        {
+          "range": "82965911509-82974155914",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-3-82965911509-82974155914.data",
+          "bytes": 8244406,
+          "sha256": "10baf1ee905038addcff551774c747f180556a563d13ae631db8ca8f548621f7",
+          "retrieved_at_utc": "2026-09-15T18:03:19.651960+00:00"
+        }
+      ],
+      "started_at_utc": "2026-09-15T17:48:23.920255+00:00",
+      "result": {
+        "source_rows": 4918445,
+        "source_bytes": 495559051,
+        "source_sha256": "2e1ffa4158f76f088251aae527f55bfaa5b4f752b39a7ae3c5f5d485e9bc83d3",
+        "crc32": 2527673406,
+        "deflate_eof_verified": true,
+        "header": [
+          "phenotype_id",
+          "variant_id",
+          "start_distance",
+          "af",
+          "ma_samples",
+          "ma_count",
+          "pval_nominal",
+          "slope",
+          "slope_se"
+        ],
+        "outputs": [
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-3-PRKD2.tsv.gz",
+            "rows": 3634,
+            "sha256": "8860cc85bd9dadf09a8142fdc645a1aaa175b93c075b1f161ea7e7584b49f1fc",
+            "uncompressed_sha256": "f9e8e98421ed81e0c7f444eb40cd9283e066f933e3c9e676d399e47ec7f78441"
+          },
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-3-target-positions.tsv.gz",
+            "rows": 76,
+            "sha256": "099113f3e52042a65e1f0356a48113b22014c2341767254a52e1f70ad613f3e9",
+            "uncompressed_sha256": "e97ff3bd646bd94c8aefef95c990cc2df912834cbeb110fdade0f1ba2474430f"
+          }
+        ],
+        "transfer_bytes": 159239476
+      }
+    },
+    {
+      "id": "IBDverse-original-Myeloid-7",
+      "catalogue_context": "QTD000833",
+      "label": "Monocyte S100A8/9",
+      "member": {
+        "filename": "dMean__Myeloid_7_blood_all/OPTIM_pcs/base_output/base/cis_nominal1.cis_qtl_pairs.19.tsv",
+        "uncompressed_bytes": "181726888",
+        "compressed_bytes": "56367148",
+        "compression_method": "8",
+        "local_header_offset": "369336807438",
+        "crc32": "2785861057"
+      },
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "ranges": [
+        {
+          "range": "369336807438-369336807467",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369336807438-369336807467.data",
+          "bytes": 30,
+          "sha256": "beb3726c0458da0e7c2248b2c8e37aa7c2e1479a58baa87c97bd054c0927c39b",
+          "retrieved_at_utc": "2026-09-15T17:48:32.812750+00:00"
+        },
+        {
+          "range": "369336807468-369336807563",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369336807468-369336807563.data",
+          "bytes": 96,
+          "sha256": "395d9edac567db50b9017c4481a779445037d08fcb2b2a9fad03582e76e20f28",
+          "retrieved_at_utc": "2026-09-15T17:48:39.435079+00:00"
+        },
+        {
+          "range": "369336807564-369345196171",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369336807564-369345196171.data",
+          "bytes": 8388608,
+          "sha256": "76cbad967d0e288d2af72dc2ac8674e903150c8b511d1ffd4b03be85c2d7e73d",
+          "retrieved_at_utc": "2026-09-15T18:02:57.417280+00:00"
+        },
+        {
+          "range": "369345196172-369353584779",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369345196172-369353584779.data",
+          "bytes": 8388608,
+          "sha256": "6d157326f01ec84c67dddd3710141c58e8f4fa9ca74428694099cb498bbed9ab",
+          "retrieved_at_utc": "2026-09-15T18:03:01.665948+00:00"
+        },
+        {
+          "range": "369353584780-369361973387",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369353584780-369361973387.data",
+          "bytes": 8388608,
+          "sha256": "78d82a2a7b363759d10cfa857ee49f84dc9ed3601ce8150893d79537268af489",
+          "retrieved_at_utc": "2026-09-15T18:03:37.602265+00:00"
+        },
+        {
+          "range": "369361973388-369370361995",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369361973388-369370361995.data",
+          "bytes": 8388608,
+          "sha256": "59e20fc29bfec05354fff4e78b1dd97e529dcd7939470274e012c6c08b99f8ec",
+          "retrieved_at_utc": "2026-09-15T18:04:10.825698+00:00"
+        },
+        {
+          "range": "369378750604-369387139211",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369378750604-369387139211.data",
+          "bytes": 8388608,
+          "sha256": "83ac9877bae6c6e3573d409cf4b642a7655f4d93f8d38cdaeb7f5b8f4bc7d333",
+          "retrieved_at_utc": "2026-09-15T18:04:27.788281+00:00"
+        },
+        {
+          "range": "369387139212-369393174711",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369387139212-369393174711.data",
+          "bytes": 6035500,
+          "sha256": "f5bf4c7650e77d411707370112488c3bade3d4fab478cc66dcf32106f61d9ba1",
+          "retrieved_at_utc": "2026-09-15T18:04:33.526874+00:00"
+        },
+        {
+          "range": "369370361996-369378750603",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-original-Myeloid-7-369370361996-369378750603.data",
+          "bytes": 8388608,
+          "sha256": "951a306dbfa67b6c0f7a02b56bb036186d4ba125d0b303a2e370e9a5103f8ef0",
+          "retrieved_at_utc": "2026-09-15T18:04:44.409875+00:00"
+        }
+      ],
+      "started_at_utc": "2026-09-15T17:48:30.563880+00:00",
+      "result": {
+        "source_rows": 1832856,
+        "source_bytes": 181726888,
+        "source_sha256": "15efd470dad9357c06fa444de92189cf786755ec6974c3397062032070df7402",
+        "crc32": 2785861057,
+        "deflate_eof_verified": true,
+        "header": [
+          "phenotype_id",
+          "variant_id",
+          "start_distance",
+          "af",
+          "ma_samples",
+          "ma_count",
+          "pval_nominal",
+          "slope",
+          "slope_se"
+        ],
+        "outputs": [
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-7-PRKD2.tsv.gz",
+            "rows": 3744,
+            "sha256": "ce2d4c320dde7309ebf4933fbd7c95f2b53e18e53a36300ca5bce9de280d312a",
+            "uncompressed_sha256": "baab0ac9dcb6b7c6aab8c4f74f31a291cf683fa852614e28996540496bcc1a21"
+          },
+          {
+            "file": "data/derived/prkd2-recovery-queries/IBDverse-original-Myeloid-7-target-positions.tsv.gz",
+            "rows": 36,
+            "sha256": "1ca3420ca89798d1fb6c2e45275561ee0044f890cd41224c3c1bb034089ed010",
+            "uncompressed_sha256": "8d49791d9a1189c03ce88ea6e9aff30ae7854c2e42d9f7608df8066c4d33074a"
+          }
+        ],
+        "transfer_bytes": 56367274
+      }
+    }
+  ],
+  "range_prefetch": {
+    "script_sha256": "40f126bf88768529ece435eb0b8313d60b3d4cec1a5e87fdb32b65ccd6c2821d",
+    "workers": 2,
+    "minimum_request_start_spacing_seconds": 2,
+    "reason": "Preserve the original frozen extractor; change transfer scheduling only."
+  }
+}

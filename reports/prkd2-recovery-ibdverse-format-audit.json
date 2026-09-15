@@ -1,0 +1,65 @@
+{
+  "plan_sha256": "28ac8a0dc5a2895f30d817eded48ae5eb6ee4040799aa205fa398ba391c6440a",
+  "script_sha256": "641c2880f40d02c789e18c01898072bef30ea7dd9d730501a42315de6740ffd0",
+  "contexts": [
+    {
+      "dataset_id": "IBDverse-original-Myeloid-0",
+      "source_rows_checked": 3634,
+      "best_matching_integer_residual_df": 69,
+      "median_abs_log10_P_error": 7.712505444455878e-09,
+      "p95_abs_log10_P_error": 8.811100495183728e-08,
+      "max_abs_log10_P_error": 7.570284774902667e-07,
+      "normal_median_abs_log10_P_error": 0.002227866571199151,
+      "normal_max_abs_log10_P_error": 1.1255142200635264,
+      "very_low_residual_df_flag": false,
+      "actual_sample_N_recovered": false,
+      "qualification": "distribution-consistency inference only; not observed sample N or covariate count"
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-1",
+      "source_rows_checked": 3637,
+      "best_matching_integer_residual_df": 66,
+      "median_abs_log10_P_error": 6.906386458176416e-09,
+      "p95_abs_log10_P_error": 8.329071149618496e-08,
+      "max_abs_log10_P_error": 5.831405683906252e-07,
+      "normal_median_abs_log10_P_error": 0.0018931701469640091,
+      "normal_max_abs_log10_P_error": 3.831402528562639,
+      "very_low_residual_df_flag": false,
+      "actual_sample_N_recovered": false,
+      "qualification": "distribution-consistency inference only; not observed sample N or covariate count"
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-3",
+      "source_rows_checked": 3634,
+      "best_matching_integer_residual_df": 73,
+      "median_abs_log10_P_error": 8.05730012741734e-09,
+      "p95_abs_log10_P_error": 5.92421507136039e-08,
+      "max_abs_log10_P_error": 4.2960382923097207e-07,
+      "normal_median_abs_log10_P_error": 0.002055034837294899,
+      "normal_max_abs_log10_P_error": 0.3983586588395847,
+      "very_low_residual_df_flag": false,
+      "actual_sample_N_recovered": false,
+      "qualification": "distribution-consistency inference only; not observed sample N or covariate count"
+    },
+    {
+      "dataset_id": "IBDverse-original-Myeloid-7",
+      "source_rows_checked": 3744,
+      "best_matching_integer_residual_df": 2,
+      "median_abs_log10_P_error": 7.379354557597501e-09,
+      "p95_abs_log10_P_error": 3.9351632101724345e-08,
+      "max_abs_log10_P_error": 1.0476450028623284e-07,
+      "normal_median_abs_log10_P_error": 0.12851588306217832,
+      "normal_max_abs_log10_P_error": 485.99348441255324,
+      "very_low_residual_df_flag": true,
+      "actual_sample_N_recovered": false,
+      "qualification": "distribution-consistency inference only; not observed sample N or covariate count"
+    }
+  ],
+  "output": {
+    "file": "data/derived/prkd2-recovery-ibdverse-format-audit.csv",
+    "rows": 4,
+    "sha256": "a0ebcd1674ee4f3cb8150d131c989d01097d66fde4ab779793bb0f82fa5f1df5"
+  },
+  "new_H4_posteriors": 0,
+  "interpretation": "Retain all source values and numerical coverage diagnostics. A very-low-df context does not qualify a Gaussian-BF interpretation merely because its numerical overlap exceeds 90%."
+}

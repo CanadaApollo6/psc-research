@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-09-15T17:26:16.585535+00:00",
+  "followup_plan_sha256": "29d0619e1ecdbab89a0d5614a56b780bceb285cfee61465ae882314147248513",
+  "purpose": "Check whether the harmonised copy assigns a missing RNA allele an identity not recoverable from the original source representation; no new association study and no posterior.",
+  "source_size": 324058718,
+  "publisher_md5": "4a9995f393bdf1dd4d09ca9129800b1a",
+  "source_metadata_id": "psc-harmonised-yaml",
+  "maximum_source_bytes": 500000000,
+  "maximum_source_rows": 20000000,
+  "maximum_retained_rows": 50000,
+  "control_rsids": [
+    "rs112445263",
+    "rs313839"
+  ],
+  "start_union_0based": 45717126,
+  "end_union_exclusive": 48250000,
+  "selection": "All chromosome-19 rows in the union of the GRCh38 fixed interval and its GRCh37 interval with padding, using either original or harmonised coordinate columns, plus both exact control rsIDs anywhere. Preserve all original and harmonised fields.",
+  "build_gate": "Metadata claims GRCh38. Independently compare both controls to verified full edits in both builds before accepting any harmonised coordinate. A metadata mismatch is reported, never silently treated as a source correction.",
+  "target_matching": "Use the same four missing RNA edits from the prior plan, with exact-reference normalization and reciprocal full-edit mapping when required. rsID alone cannot establish an indel identity.",
+  "scope": "Do not replace the original PSC statistics or transform prior completed analyses."
+}

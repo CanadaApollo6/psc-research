@@ -1,0 +1,47 @@
+{
+  "scope": "Central-directory metadata only; no association data inspected",
+  "queries": [
+    {
+      "id": "IBDverse-base-eQTLs",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "ranges": [
+        {
+          "range": "393071674065-393071674086",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-base-eQTLs-393071674065-393071674086.data",
+          "bytes": 22,
+          "sha256": "9dabc5ff6b6d7d956296574a9e2f7bbae116328286efd46117d4f88625dbe0a7",
+          "retrieved_at_utc": "2026-09-15T17:32:55.848118+00:00"
+        },
+        {
+          "range": "393071674045-393071674064",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-base-eQTLs-393071674045-393071674064.data",
+          "bytes": 20,
+          "sha256": "b4a938dc9b641e6fa049f58d07b3b396f9eb50796c1ad152d2b82909555ae553",
+          "retrieved_at_utc": "2026-09-15T17:32:58.542162+00:00"
+        },
+        {
+          "range": "393071673989-393071674044",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-base-eQTLs-393071673989-393071674044.data",
+          "bytes": 56,
+          "sha256": "7f518ee4a0a0fccaa4647db2f7bbbd4cb7186643ce4f70a82f844666ac170730",
+          "retrieved_at_utc": "2026-09-15T17:33:02.645673+00:00"
+        },
+        {
+          "range": "393070776692-393071673988",
+          "file": "data/raw/prkd2-recovery-zip-ranges/IBDverse-base-eQTLs-393070776692-393071673988.data",
+          "bytes": 897297,
+          "sha256": "a4dab129ef71f8dde92af4eaa8f35167d4356498e0e23f1616f2accad66cc5cf",
+          "retrieved_at_utc": "2026-09-15T17:33:09.325927+00:00"
+        }
+      ],
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT"
+    }
+  ],
+  "result": {
+    "members": 6047,
+    "inventory_file": "data/derived/prkd2-recovery-ibdverse-archive-inventory.csv",
+    "inventory_sha256": "3b680fa9ef603c969fc76efe8d81a2076481d3f44b2c9d006aba47fcfcff8f7a"
+  }
+}

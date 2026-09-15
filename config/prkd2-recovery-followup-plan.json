@@ -1,0 +1,61 @@
+{
+  "frozen_at_utc": "2026-09-15T17:10:23.309130+00:00",
+  "parent_plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "targets": [
+    {
+      "chromosome": "19",
+      "position": 46700099,
+      "ref": "C",
+      "alt": "A",
+      "rsid": "rs112445263",
+      "role": "missing PSC association"
+    },
+    {
+      "chromosome": "19",
+      "position": 46681839,
+      "ref": "C",
+      "alt": "CT",
+      "rsid": "",
+      "role": "missing RNA association"
+    },
+    {
+      "chromosome": "19",
+      "position": 46685258,
+      "ref": "C",
+      "alt": "CA",
+      "rsid": "",
+      "role": "missing RNA association"
+    },
+    {
+      "chromosome": "19",
+      "position": 46681255,
+      "ref": "CT",
+      "alt": "C",
+      "rsid": "",
+      "role": "missing RNA association"
+    },
+    {
+      "chromosome": "19",
+      "position": 46717081,
+      "ref": "T",
+      "alt": "TCGG",
+      "rsid": "",
+      "role": "missing RNA association"
+    },
+    {
+      "chromosome": "19",
+      "position": 46718300,
+      "ref": "C",
+      "alt": "G",
+      "rsid": "rs313839",
+      "role": "identity/direction control"
+    }
+  ],
+  "control_coordinate_provenance": {
+    "file": "data/derived/prkd2-query-rows/QTD000021-PRKD2.tsv.gz",
+    "sha256": "71839a945ba1771fafe18bfdc538603d06102c425dabadf01b8537bf23dcbcc6"
+  },
+  "initial_query_correction": "The first r7 screening implementation used auxiliary position 46702450 instead of the requested rs313839 identity control at 46718300. All five missing-evidence target coordinates were correct. Preserve the first-pass output and add an exact independent control query to every r7 dataset; no effect or coverage result is overwritten. r8 full-region extraction includes the true control unchanged.",
+  "reference_panel_audit": "Check the same six fixed positions in the public 20201028 high-coverage 1000 Genomes phased panel. This tests a potential explanation for Catalogue-wide absence, not the exact internal imputation-panel file or a clinical claim. Retain only VCF site fields, no donor genotypes.",
+  "coverage_audit": "For newly recovered original study files, normalize every full PRKD2 edit and measure overlap against the completed full PSC association denominator. Do not combine original-study effects with reprocessed effects or component vectors. For explicit finite beta/SE only, compute full RNA marginal-weight overlap with quantitative prior SD .15 in source units as a diagnostic; unknown expression-scale and N prevent this from qualifying a multi-signal model on its own. No new H4 posterior without the parent plan requirements."
+}

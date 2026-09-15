@@ -1,0 +1,43 @@
+{
+  "all_checks_pass": true,
+  "verifier_sha256": "08257f54a875ef51e34cab7a0e2bc69492635e6cf1696dd6ce3eff2355381976",
+  "method": "Standard-library ZIP reader and independent byte-field parser; primary reader uses explicit raw-DEFLATE blocks.",
+  "contexts": [
+    {
+      "id": "IBDverse-original-Myeloid-0",
+      "source_rows": 5356483,
+      "PRKD2_rows": 3634,
+      "target_position_rows": 82,
+      "full_source_sha256": "f5511bcc1b27b915d03c8bdf2137bc68f1f0067b76a2c94c6f487a884dc66ed2",
+      "standard_zip_CRC_and_EOF_verified": true,
+      "exact_extraction_match": true
+    },
+    {
+      "id": "IBDverse-original-Myeloid-1",
+      "source_rows": 5282859,
+      "PRKD2_rows": 3637,
+      "target_position_rows": 82,
+      "full_source_sha256": "f71e0129110b4ad5ee678d77446d37b455ac921a75f0993dde8f63817367d7ed",
+      "standard_zip_CRC_and_EOF_verified": true,
+      "exact_extraction_match": true
+    },
+    {
+      "id": "IBDverse-original-Myeloid-3",
+      "source_rows": 4918445,
+      "PRKD2_rows": 3634,
+      "target_position_rows": 76,
+      "full_source_sha256": "2e1ffa4158f76f088251aae527f55bfaa5b4f752b39a7ae3c5f5d485e9bc83d3",
+      "standard_zip_CRC_and_EOF_verified": true,
+      "exact_extraction_match": true
+    },
+    {
+      "id": "IBDverse-original-Myeloid-7",
+      "source_rows": 1832856,
+      "PRKD2_rows": 3744,
+      "target_position_rows": 36,
+      "full_source_sha256": "15efd470dad9357c06fa444de92189cf786755ec6974c3397062032070df7402",
+      "standard_zip_CRC_and_EOF_verified": true,
+      "exact_extraction_match": true
+    }
+  ]
+}

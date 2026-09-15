@@ -1,0 +1,1099 @@
+{
+  "plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "reader_sha256": "59fbeceaaa9225a6f425af4a643cfe2edd6e376407ddb67bdec84afe3fbbaa23",
+  "range_dependency_sha256": "4fe47460abc271fc57c34a2aae79b0b6e53b68dda9c43b358056235e34363a07",
+  "queries": [
+    {
+      "id": "QTD000069",
+      "dataset": {
+        "study_id": "QTS000007",
+        "dataset_id": "QTD000069",
+        "study_label": "CEDAR",
+        "sample_group": "monocyte_CD14",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "286",
+        "quant_method": "microarray",
+        "pmid": "29930244",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "CEDAR",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T16:57:56.041619+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000069-points-all-genes.tsv.gz",
+          "rows": 577,
+          "sha256": "f52b0ef8d7ba02a7823588012359a74519ccaedbed25accfff1cfeb363d1e940",
+          "uncompressed_sha256": "b087b9301683621e796ddd9c2ada5588fefea861c5a1ad3a0b48172b9866e088"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000007/QTD000069/QTD000069.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 73,
+        "46681839": 73,
+        "46685258": 219,
+        "46700099": 0,
+        "46702450": 70,
+        "46717081": 142
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T16:58:26.156570+00:00"
+    },
+    {
+      "id": "QTD000081",
+      "dataset": {
+        "study_id": "QTS000010",
+        "dataset_id": "QTD000081",
+        "study_label": "Fairfax_2014",
+        "sample_group": "monocyte_naive",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "420",
+        "quant_method": "microarray",
+        "pmid": "24604202",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Fairfax_2014",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T16:58:28.156870+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000081-points-all-genes.tsv.gz",
+          "rows": 577,
+          "sha256": "94965dba30b60072195b580918d149c9b300103bde0f0ad9dd24ac27cb4aed1e",
+          "uncompressed_sha256": "f66e12bc7bfc7790d76f5a511f707f2b4b71a98bc45fffa4cf672e2faa28c6db"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000081/QTD000081.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 73,
+        "46681839": 73,
+        "46685258": 219,
+        "46700099": 0,
+        "46702450": 70,
+        "46717081": 142
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T16:58:50.267930+00:00"
+    },
+    {
+      "id": "QTD000082",
+      "dataset": {
+        "study_id": "QTS000010",
+        "dataset_id": "QTD000082",
+        "study_label": "Fairfax_2014",
+        "sample_group": "monocyte_IFN24",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "IFNg_24h",
+        "sample_size": "370",
+        "quant_method": "microarray",
+        "pmid": "24604202",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Fairfax_2014",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T16:58:52.268257+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000082-points-all-genes.tsv.gz",
+          "rows": 577,
+          "sha256": "217a72a02edfe1596e0573760511c12caa8214c91c994ed0903e35fa52ab6654",
+          "uncompressed_sha256": "586545652b57f49c87c4b09b6047cfa4079f7a1ab442dd9f075ea30c88edf665"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000082/QTD000082.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 73,
+        "46681839": 73,
+        "46685258": 219,
+        "46700099": 0,
+        "46702450": 70,
+        "46717081": 142
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T16:59:13.203257+00:00"
+    },
+    {
+      "id": "QTD000083",
+      "dataset": {
+        "study_id": "QTS000010",
+        "dataset_id": "QTD000083",
+        "study_label": "Fairfax_2014",
+        "sample_group": "monocyte_LPS2",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "LPS_2h",
+        "sample_size": "256",
+        "quant_method": "microarray",
+        "pmid": "24604202",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Fairfax_2014",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T16:59:15.203671+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000083-points-all-genes.tsv.gz",
+          "rows": 577,
+          "sha256": "61cbf10629502b4b4d130dd7e9975fb27eba20981a8792914651a5ab0c40de70",
+          "uncompressed_sha256": "4de06bc30f3f666d26b236f04da2d09be951fb4001e360b349affb0f0379f157"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000083/QTD000083.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 73,
+        "46681839": 73,
+        "46685258": 219,
+        "46700099": 0,
+        "46702450": 70,
+        "46717081": 142
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T16:59:39.165752+00:00"
+    },
+    {
+      "id": "QTD000084",
+      "dataset": {
+        "study_id": "QTS000010",
+        "dataset_id": "QTD000084",
+        "study_label": "Fairfax_2014",
+        "sample_group": "monocyte_LPS24",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "LPS_24h",
+        "sample_size": "325",
+        "quant_method": "microarray",
+        "pmid": "24604202",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Fairfax_2014",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T16:59:41.166132+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000084-points-all-genes.tsv.gz",
+          "rows": 577,
+          "sha256": "b42c2444f8d7ac1f47b13a1dc851784947b49b48c1912418d558e9abe5db2d2c",
+          "uncompressed_sha256": "04f8f13d4eaae73adda75685cdc1760f4e1c54a40c5ef2d28268123b8e812f5b"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000010/QTD000084/QTD000084.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 73,
+        "46681839": 73,
+        "46685258": 219,
+        "46700099": 0,
+        "46702450": 70,
+        "46717081": 142
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:00:02.768538+00:00"
+    },
+    {
+      "id": "QTD000409",
+      "dataset": {
+        "study_id": "QTS000024",
+        "dataset_id": "QTD000409",
+        "study_label": "Quach_2016",
+        "sample_group": "monocyte_naive",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "200",
+        "quant_method": "ge",
+        "pmid": "27768888",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Quach_2016",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:00:04.768967+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000409-points-all-genes.tsv.gz",
+          "rows": 365,
+          "sha256": "ac8da3134a3219c3436a5c8b5c7028ecb5ffe1756dd25e62a5da5d7a615074aa",
+          "uncompressed_sha256": "6307de2b0d4d0385d3416e7f74b29a95a8a9a4eb3f293d5b274e141fe7b02e3d"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000409/QTD000409.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 82,
+        "46681839": 41,
+        "46685258": 123,
+        "46700099": 0,
+        "46702450": 39,
+        "46717081": 80
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:00:37.047676+00:00"
+    },
+    {
+      "id": "QTD000414",
+      "dataset": {
+        "study_id": "QTS000024",
+        "dataset_id": "QTD000414",
+        "study_label": "Quach_2016",
+        "sample_group": "monocyte_LPS",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "LPS_6h",
+        "sample_size": "184",
+        "quant_method": "ge",
+        "pmid": "27768888",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Quach_2016",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:00:39.048102+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000414-points-all-genes.tsv.gz",
+          "rows": 365,
+          "sha256": "2e050153961bda2388879b989c2f2db1ac8bcb1204e2c4b7f3d2166f69381028",
+          "uncompressed_sha256": "437875ae413dd0c14085381cc2bf99b208a9a35142cc4c687eda2287d31f5403"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000414/QTD000414.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 82,
+        "46681839": 41,
+        "46685258": 123,
+        "46700099": 0,
+        "46702450": 39,
+        "46717081": 80
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:01:00.614101+00:00"
+    },
+    {
+      "id": "QTD000419",
+      "dataset": {
+        "study_id": "QTS000024",
+        "dataset_id": "QTD000419",
+        "study_label": "Quach_2016",
+        "sample_group": "monocyte_Pam3CSK4",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "Pam3CSK4_6h",
+        "sample_size": "196",
+        "quant_method": "ge",
+        "pmid": "27768888",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Quach_2016",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:01:02.614738+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000419-points-all-genes.tsv.gz",
+          "rows": 356,
+          "sha256": "021bf1662abfd01b4eadca499a525d0b3012cc070b0e024d51c8709101c20d35",
+          "uncompressed_sha256": "025427e054b2bb97e80e930a7e487e73e013df4bcc46833d4d521620efc15498"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000419/QTD000419.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 80,
+        "46681839": 40,
+        "46685258": 120,
+        "46700099": 0,
+        "46702450": 38,
+        "46717081": 78
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:01:23.779410+00:00"
+    },
+    {
+      "id": "QTD000424",
+      "dataset": {
+        "study_id": "QTS000024",
+        "dataset_id": "QTD000424",
+        "study_label": "Quach_2016",
+        "sample_group": "monocyte_R848",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "R848_6h",
+        "sample_size": "191",
+        "quant_method": "ge",
+        "pmid": "27768888",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Quach_2016",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:01:25.779899+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000424-points-all-genes.tsv.gz",
+          "rows": 347,
+          "sha256": "481435b049b6069c8eeaea7e50ca68fbba1d7fa0490cc870b4f027da9b8e3111",
+          "uncompressed_sha256": "47d9c74f4b448991ac8f4d003049ccea91f4ed70250ebfe008b526f2ea9ef58a"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000424/QTD000424.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 78,
+        "46681839": 39,
+        "46685258": 117,
+        "46700099": 0,
+        "46702450": 37,
+        "46717081": 76
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:01:48.116947+00:00"
+    },
+    {
+      "id": "QTD000429",
+      "dataset": {
+        "study_id": "QTS000024",
+        "dataset_id": "QTD000429",
+        "study_label": "Quach_2016",
+        "sample_group": "monocyte_IAV",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "Influenza_6h",
+        "sample_size": "198",
+        "quant_method": "ge",
+        "pmid": "27768888",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Quach_2016",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:01:50.117733+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000429-points-all-genes.tsv.gz",
+          "rows": 383,
+          "sha256": "c0d0af324d3b7685d3cf66aec42a9b047f415a255d839d92799dcd9aff8067aa",
+          "uncompressed_sha256": "7201500e0849971a6e50854427ab22d97d419099f4e59ff18ce78f3cc86d1128"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000024/QTD000429/QTD000429.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 86,
+        "46681839": 43,
+        "46685258": 129,
+        "46700099": 0,
+        "46702450": 41,
+        "46717081": 84
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:02:21.041165+00:00"
+    },
+    {
+      "id": "QTD000499",
+      "dataset": {
+        "study_id": "QTS000026",
+        "dataset_id": "QTD000499",
+        "study_label": "Schmiedel_2018",
+        "sample_group": "monocyte_CD16_naive",
+        "tissue_id": "CL_0002396",
+        "tissue_label": "CD16+ monocyte",
+        "condition_label": "naive",
+        "sample_size": "90",
+        "quant_method": "ge",
+        "pmid": "30449622",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Schmiedel_2018",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:02:23.041953+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000499-points-all-genes.tsv.gz",
+          "rows": 282,
+          "sha256": "09072131557434cb2b1d5804d0683ee6294339b38f0e7edccc6e02a12951d9f4",
+          "uncompressed_sha256": "71c8e6dd9084f7a6edc416545bd06b14fc202c7ad99e964674b51ef5e96fe776"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000499/QTD000499.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 36,
+        "46681839": 36,
+        "46685258": 108,
+        "46700099": 0,
+        "46702450": 34,
+        "46717081": 68
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:02:54.008710+00:00"
+    },
+    {
+      "id": "QTD000593",
+      "dataset": {
+        "study_id": "QTS000036",
+        "dataset_id": "QTD000593",
+        "study_label": "Randolph_2021",
+        "sample_group": "highly_infected_flu",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "Influenza_6h",
+        "sample_size": "52",
+        "quant_method": "ge",
+        "pmid": "34822289",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Randolph_2021",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:02:56.009238+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000593-points-all-genes.tsv.gz",
+          "rows": 123,
+          "sha256": "d198ecd58cc52f2ade22c604d9e686ae00becfe31e17a96cd800fa8df13e6996",
+          "uncompressed_sha256": "4b214bfe1fe73eec16ec2aba379f67b34c6f5881ba1a2521cf533cc3f77e83d0"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000593/QTD000593.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 28,
+        "46681839": 14,
+        "46685258": 42,
+        "46700099": 0,
+        "46702450": 13,
+        "46717081": 26
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:03:24.746650+00:00"
+    },
+    {
+      "id": "QTD000594",
+      "dataset": {
+        "study_id": "QTS000036",
+        "dataset_id": "QTD000594",
+        "study_label": "Randolph_2021",
+        "sample_group": "infected_monocytes_flu",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "Influenza_6h",
+        "sample_size": "78",
+        "quant_method": "ge",
+        "pmid": "34822289",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Randolph_2021",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:03:26.747192+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000594-points-all-genes.tsv.gz",
+          "rows": 204,
+          "sha256": "d4d64308f99cecffb186d788d5383d6092c0c979989bfc9eb3498a316a18fa62",
+          "uncompressed_sha256": "4cf323428d69b45594005cecc547584a94931074c6c732be0d5b8d9be20c0f2d"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000594/QTD000594.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 46,
+        "46681839": 23,
+        "46685258": 69,
+        "46700099": 0,
+        "46702450": 22,
+        "46717081": 44
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:03:52.758922+00:00"
+    },
+    {
+      "id": "QTD000595",
+      "dataset": {
+        "study_id": "QTS000036",
+        "dataset_id": "QTD000595",
+        "study_label": "Randolph_2021",
+        "sample_group": "monocytes_NI",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "87",
+        "quant_method": "ge",
+        "pmid": "34822289",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Randolph_2021",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:03:54.759458+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000595-points-all-genes.tsv.gz",
+          "rows": 285,
+          "sha256": "1e07bfeb8eafd56d7e3c2bc9b5445e122d63e45d8cc4fb7e77cd06ee83806eef",
+          "uncompressed_sha256": "32f2073050e6a91c2c63df52cbba54d5e82ae2a714c736206a8be7d2bbe53dd9"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000595/QTD000595.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 64,
+        "46681839": 32,
+        "46685258": 96,
+        "46700099": 0,
+        "46702450": 31,
+        "46717081": 62
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:04:13.988031+00:00"
+    },
+    {
+      "id": "QTD000596",
+      "dataset": {
+        "study_id": "QTS000036",
+        "dataset_id": "QTD000596",
+        "study_label": "Randolph_2021",
+        "sample_group": "monocytes_flu",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "Influenza_6h",
+        "sample_size": "84",
+        "quant_method": "ge",
+        "pmid": "34822289",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Randolph_2021",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:04:15.988610+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000596-points-all-genes.tsv.gz",
+          "rows": 240,
+          "sha256": "11df5b06306205ba27b87845778dbb64e5f6a830e9284ffee04fecc60005266c",
+          "uncompressed_sha256": "99e6a16a5cd1205496fbe3e03942a9759bb27a262b83fdb0a8e4323b651181c9"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000036/QTD000596/QTD000596.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 54,
+        "46681839": 27,
+        "46685258": 81,
+        "46700099": 0,
+        "46702450": 26,
+        "46717081": 52
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:04:42.034324+00:00"
+    },
+    {
+      "id": "QTD000603",
+      "dataset": {
+        "study_id": "QTS000037",
+        "dataset_id": "QTD000603",
+        "study_label": "Perez_2022",
+        "sample_group": "cM",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "165",
+        "quant_method": "ge",
+        "pmid": "35389781",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Perez_2022",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:04:44.034894+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000603-points-all-genes.tsv.gz",
+          "rows": 246,
+          "sha256": "0ce84426794cc787c2e59d4cc1b2f13e59f73557e35bb980321d1de8f4e502a7",
+          "uncompressed_sha256": "08dc5572bf81f2edbe3579f8bc18e9da894d232e54db7bef39a253778ba5cbd2"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000037/QTD000603/QTD000603.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 0,
+        "46685258": 84,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 80
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:05:04.317376+00:00"
+    },
+    {
+      "id": "QTD000604",
+      "dataset": {
+        "study_id": "QTS000037",
+        "dataset_id": "QTD000604",
+        "study_label": "Perez_2022",
+        "sample_group": "ncM",
+        "tissue_id": "CL_0002396",
+        "tissue_label": "CD16+ monocyte",
+        "condition_label": "naive",
+        "sample_size": "162",
+        "quant_method": "ge",
+        "pmid": "35389781",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "Perez_2022",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:05:06.318259+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000604-points-all-genes.tsv.gz",
+          "rows": 198,
+          "sha256": "d648bbb84ad074fbdf6b8b4aa2a3446c82f25654a9649a2189a5d836cd9d4a17",
+          "uncompressed_sha256": "c5d6d3a51bcb5388e8cca82ff6d5d81a08310e09bee5d61d49c12c6b30b5da2c"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000037/QTD000604/QTD000604.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 34,
+        "46681839": 0,
+        "46685258": 68,
+        "46700099": 0,
+        "46702450": 32,
+        "46717081": 64
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:05:33.201933+00:00"
+    },
+    {
+      "id": "QTD000609",
+      "dataset": {
+        "study_id": "QTS000038",
+        "dataset_id": "QTD000609",
+        "study_label": "OneK1K",
+        "sample_group": "CD14_Mono",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "560",
+        "quant_method": "ge",
+        "pmid": "35389779",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "OneK1K",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:05:35.202535+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000609-points-all-genes.tsv.gz",
+          "rows": 149,
+          "sha256": "32f23858d05dfc165f5524767340ebf5d8c136f0c4bed656d38d25635d97abdb",
+          "uncompressed_sha256": "a09df67aad743e874cd954c23d92814970d401a59a06f40547504db6a7b09f89"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000038/QTD000609/QTD000609.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 19,
+        "46681839": 19,
+        "46685258": 57,
+        "46700099": 0,
+        "46702450": 18,
+        "46717081": 36
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:05:55.107016+00:00"
+    },
+    {
+      "id": "QTD000610",
+      "dataset": {
+        "study_id": "QTS000038",
+        "dataset_id": "QTD000610",
+        "study_label": "OneK1K",
+        "sample_group": "CD16_Mono",
+        "tissue_id": "CL_0002396",
+        "tissue_label": "CD16+ monocyte",
+        "condition_label": "naive",
+        "sample_size": "373",
+        "quant_method": "ge",
+        "pmid": "35389779",
+        "study_type": "single-cell",
+        "release": "r7",
+        "cohort_family": "OneK1K",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:05:57.107636+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000610-points-all-genes.tsv.gz",
+          "rows": 133,
+          "sha256": "5ad9b50fc0bc2675a4ddb21255d4126c88f796bdc4e13748125a7e2eb93c55a8",
+          "uncompressed_sha256": "9625f0ba388400d0531b63139bc4bfaa5fc66cbbda78efdecabc8ae637ffa686"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000038/QTD000610/QTD000610.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 17,
+        "46681839": 17,
+        "46685258": 51,
+        "46700099": 0,
+        "46702450": 16,
+        "46717081": 32
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:06:17.854041+00:00"
+    },
+    {
+      "id": "QTD000752",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000752",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_naive",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "naive",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:06:19.855109+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000752-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "c36c034eabdf5c821ecb8060894141d1491b6bed5af711c30438ded5fc8dadf5",
+          "uncompressed_sha256": "486ccb611ada529b09b2ba6232aa88cd380dadb49ffb2fab845c375470d08f7b"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000752/QTD000752.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:06:46.704665+00:00"
+    },
+    {
+      "id": "QTD000753",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000753",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_IVT_6h",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "IVT_6h",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:06:48.705330+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000753-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "de91cb79bea50a03168a5400b1f9b358756c0b99f2e366b97939df700c18d565",
+          "uncompressed_sha256": "2bf1e1128e8bb3004b67ac29f20af69e6cb52019e0c9bbe3e2b73f13f606f2a4"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000753/QTD000753.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:07:09.167362+00:00"
+    },
+    {
+      "id": "QTD000754",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000754",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_IVT_90min",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "IVT_90min",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:07:11.168041+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000754-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "e2160785f98e5515fd099a1dc768b6b2a6404986de89ef1f1477db52adf6771b",
+          "uncompressed_sha256": "030d64bb433ea6f171d3839ebd7f0a48dfc1ad1d56be8ad01fd8fa3e0c07ccbb"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000754/QTD000754.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:07:35.182302+00:00"
+    },
+    {
+      "id": "QTD000755",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000755",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_LPS_6h",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "LPS_6h",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:07:37.183036+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000755-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "0e3ba976363448a0e0fae4432a9351dc643baf8a9d40798922d7f6606ec1daf8",
+          "uncompressed_sha256": "04c235ed723629e06dd95f3a3820aa68c452de37b572449592a04450c33c898d"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000755/QTD000755.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:07:59.635599+00:00"
+    },
+    {
+      "id": "QTD000756",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000756",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_LPS_90min",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "LPS_90min",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:08:01.636316+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000756-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "26d0cf06e70f49731f4a8458272f2128dbbb3a5af08291ca68e9cfbb6a63f3b9",
+          "uncompressed_sha256": "0c7f5d6071cee9ff24e2ad434174bbad8b961145094452a5f22fc6c7e3a8b7a3"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000756/QTD000756.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:08:22.872606+00:00"
+    },
+    {
+      "id": "QTD000757",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000757",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_MDP_6h",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "MDP_6h",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:08:24.873300+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000757-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "6590b00c7a9ffbdc49f5eb1b2514352ecbac6bfd160db9bf484165826b1c893c",
+          "uncompressed_sha256": "0b36f792b6e41f17327e935b8632af715cf14b3bf6d3806a45370e4b5cba1f3c"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000757/QTD000757.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:08:45.310281+00:00"
+    },
+    {
+      "id": "QTD000758",
+      "dataset": {
+        "study_id": "QTS000042",
+        "dataset_id": "QTD000758",
+        "study_label": "Kim-Hellmuth_2017",
+        "sample_group": "monocyte_MDP_90min",
+        "tissue_id": "CL_0002057",
+        "tissue_label": "monocyte",
+        "condition_label": "MDP_90min",
+        "sample_size": "96",
+        "quant_method": "microarray",
+        "pmid": "28814792",
+        "study_type": "bulk",
+        "release": "r7",
+        "cohort_family": "Kim-Hellmuth_2017",
+        "context_scope": "blood-monocyte",
+        "prior_analysis": false
+      },
+      "started_at_utc": "2026-09-15T17:08:47.311031+00:00",
+      "outputs": [
+        {
+          "file": "data/derived/prkd2-recovery-queries/QTD000758-points-all-genes.tsv.gz",
+          "rows": 332,
+          "sha256": "7505301763ab515d84710f61309a5eb883ba3f6bea2add2b6f69e1570dca2cdc",
+          "uncompressed_sha256": "d72cf46f7f1f5af0c0486cbcdffc8c0395873a8384578a30d44d15567ad1f1ae"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000042/QTD000758/QTD000758.all.tsv.gz",
+      "exact_primary_target_gene_rows": 0,
+      "all_gene_point_counts": {
+        "46681255": 42,
+        "46681839": 42,
+        "46685258": 126,
+        "46700099": 0,
+        "46702450": 40,
+        "46717081": 82
+      },
+      "status": "missing-required-PSC-variant",
+      "complete": true,
+      "completed_at_utc": "2026-09-15T17:09:07.892340+00:00"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "plan_sha256": "8f212c4d24e87c62648f6802edafc36288f833c35eafd9d42efc9136b3aa708f",
+  "source_head": {
+    "id": "dice-original-monocytes-head",
+    "url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/MONOCYTES.vcf.gz",
+    "method": "HEAD",
+    "byte_range": null,
+    "byte_limit": 3000000,
+    "retrieved_at_utc": "2026-09-15T16:52:29.692905+00:00",
+    "status": 200,
+    "resolved_url": "https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/MONOCYTES.vcf.gz",
+    "headers": {
+      "Date": "Tue, 15 Sep 2026 16:52:30 GMT",
+      "Server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16",
+      "Last-Modified": "Mon, 01 Jul 2019 05:44:21 GMT",
+      "ETag": "\"c40eda9e-58c981eab1740\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "3289307806",
+      "Connection": "close",
+      "Content-Type": "application/x-gzip"
+    },
+    "file": "data/raw/prkd2-recovery-sources/dice-original-monocytes-head.data",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "reader_sha256": "58e08b4c6c20d1a874a5c1bf31f4340055bbf44467f2626d3aacf190ec1e063a",
+  "started_at_utc": "2026-09-15T16:54:25.738062+00:00",
+  "completed_at_utc": "2026-09-15T16:59:15.318676+00:00",
+  "archive": "data/raw/prkd2-recovery-original-DICE-MONOCYTES.vcf.gz",
+  "compressed_bytes": 3289307806,
+  "compressed_sha256": "a9c1f7bd4960cbd663c9485e5416b1004aa463edea9580d328ce37506d7254ad",
+  "uncompressed_bytes": 27174279306,
+  "uncompressed_sha256": "9532ba37551302d1015798975e65c376ad1969988073b0f4ec3d9e8331e5c167",
+  "total_rows": 215708754,
+  "gzip_eof_verified": true,
+  "outputs": [
+    {
+      "file": "data/derived/prkd2-recovery-queries/original-DICE-PRKD2.vcf.gz",
+      "rows": 3060,
+      "sha256": "86dac95529ab19882c0f9e601117daac459251108ef8cab940afce7dc2c02492",
+      "uncompressed_sha256": "0b93e92bc14c5e464a68c4211f28795127b3df72bba73b84dc1c20b4ccc7189e"
+    },
+    {
+      "file": "data/derived/prkd2-recovery-queries/original-DICE-rs112445263-all-genes.vcf.gz",
+      "rows": 89,
+      "sha256": "8fb8d6dd04c3591b102d1d53f28752b01ab6911c8d84335a64985f65f3ed44cb",
+      "uncompressed_sha256": "e7d5b4a843bca14abcd3585fa15ff3f4a8cf6cdba03bdf3b216b72f9b2ca603a"
+    }
+  ],
+  "build": "GRCh37.p19 per original DICE download page",
+  "limitations": "Source has rounded Beta/Statistic and no explicit SE, per-variant N, or full component vectors. Presence does not establish suitability for colocalisation."
+}
