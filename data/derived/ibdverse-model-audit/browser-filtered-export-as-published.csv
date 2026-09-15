@@ -1,0 +1,2 @@
+symbol,phenotype_id,annotation,label_new,category_new,tissue,annotation_type,Level,variant_id,chromosome,position,ref,alt,slope,slope_se,pval_nominal,pval_beta,qval,rank,direction,n_level0,n_level1,n_level2,qtl_clump_index
+PRKD2,ENSG00000105287,Myeloid_0_blood,Classical monocytes,Myeloid,Blood,Cell type,2,chr19:46765721:T:A,chr19,46765721,T,A,0.425,0.0787,8.92e-7,0.00121,0.003,1,1,0,0,1,chr19:46765721:T:A

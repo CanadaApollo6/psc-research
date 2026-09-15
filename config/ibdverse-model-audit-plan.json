@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "purpose": "Determine whether released IBDverse methods, metadata and regional genetic information enable a qualified PSC-PRKD2 shared-signal comparison.",
+  "scope": "Step 1 only: public source/code/model audit of original classical and intermediate blood monocytes. No researcher contact, access application, laboratory work, extra cell-state screen or new prediction calls.",
+  "target_gene": "ENSG00000105287",
+  "gene_label": "PRKD2",
+  "contexts": [
+    {"source_context": "dMean__Myeloid_0_blood_all", "label": "classical monocytes", "previous_inferred_residual_df": 69},
+    {"source_context": "dMean__Myeloid_1_blood_all", "label": "intermediate monocytes", "previous_inferred_residual_df": 66}
+  ],
+  "region": {"build": "GRCh38", "chromosome": "19", "start_1based": 45707127, "end_1based": 47727127},
+  "anchor_edits": ["19:46700099:C:A", "19:46718300:C:G"],
+  "source_families": ["Primary IBDverse publication and supplements", "Public IBDVerse-sc-eQTL-code and explicitly referenced mapping/colocalisation/LD pipelines", "BioStudies S-BSST2922 and E-MTAB-16986 inventories and relevant metadata", "Already inventoried base_eQTLs ZIP gene-level and independent-hit tables for the two fixed contexts", "Directly linked public regional LD or complete component files, if actually present"],
+  "questions": ["What are the observed donor counts and exact fixed/selected covariates in each released context?", "How do the deployed software, expression/genotype processing, variant filters and standard-error conventions map to the released statistics?", "Does the source provide signed study-matched LD/covariance with exact variant and allele order, or complete original signal vectors?", "Do full gene-level/independent-hit tables clarify PRKD2 signal count and conditional associations?", "Which PSC-side sample/covariance requirements remain even if RNA-side details are recovered?"],
+  "qualification": "Keep directly observed metadata, executed-run records, public configuration defaults, source code behavior and numerical inference distinct. A configuration or inferred residual df alone does not establish the actual donor set or deployed model. Independent lead tables, LD clump membership and an external-reference LD panel do not substitute for complete signal components or adequate covariance. Retain prior 90-percent marginal/component coverage requirements and all PSC-side limitations. No new shared-cause posterior unless all required inputs and model assumptions are qualified before that analysis is frozen.",
+  "retrieval": {"reuse_prior_pinned_inputs": true, "maximum_metadata_or_code_file_bytes": 25000000, "maximum_new_selected_archive_member_compressed_bytes": 50000000, "initial_total_new_download_budget_bytes": 150000000, "use_indexed_or_bounded_reads": true, "do_not_download_parent_393GB_archive": true},
+  "outputs": "Pinned public sources and repository commits, full inventory accountability, evidence table distinguishing resolved and unresolved fields, extracted PRKD2 source rows where useful, independent verification and reproduction instructions, explicit ready/not-ready decision with exact remaining inputs. Preserve all previous scientific outputs."
+}

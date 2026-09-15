@@ -1,0 +1,206 @@
+{
+  "plan_sha256": "01aa4ef9467ad9ca1b1cd2f6d4efe2d28478d2614eedc7e915f8a8635d56a119",
+  "inventory_sha256": "3b680fa9ef603c969fc76efe8d81a2076481d3f44b2c9d006aba47fcfcff8f7a",
+  "queries": [
+    {
+      "id": "dMean__Myeloid_0_blood_all-Cis_eqtls_qval",
+      "member": {
+        "filename": "dMean__Myeloid_0_blood_all/OPTIM_pcs/base_output/base/Cis_eqtls_qval.tsv",
+        "uncompressed_bytes": "4012435",
+        "compressed_bytes": "1726884",
+        "compression_method": "8",
+        "local_header_offset": "3659176337",
+        "crc32": "272490115"
+      },
+      "ranges": [
+        {
+          "range": "3659176337-3659176366",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_qval-3659176337-3659176366.data",
+          "bytes": 30,
+          "sha256": "f0552294d05cf6a97468268bcdaea29688abaea39be8e7f92a1cb754b6aa6e06",
+          "retrieved_at_utc": "2026-09-15T20:27:12.093099+00:00"
+        },
+        {
+          "range": "3659176367-3659176447",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_qval-3659176367-3659176447.data",
+          "bytes": 81,
+          "sha256": "ab9cfaf494453cd08b4f4c461bf4545d55c0ca4365d5fc2b194a8f6cfb0fec00",
+          "retrieved_at_utc": "2026-09-15T20:27:14.387448+00:00"
+        },
+        {
+          "range": "3659176448-3660903331",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_qval-3659176448-3660903331.data",
+          "bytes": 1726884,
+          "sha256": "976b889eed957e0cf559dc0321951b0bd358bdb33f962559da15febdae307f6f",
+          "retrieved_at_utc": "2026-09-15T20:27:18.184377+00:00"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "result": {
+        "source_rows": 16209,
+        "source_bytes": 4012435,
+        "source_sha256": "9b894828bb50ce54de1925d1122d5adce2f7b7506b8fd421c4a4143a5d172baf",
+        "source_file": "data/raw/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_qval.tsv",
+        "crc32_verified": true,
+        "deflate_eof_verified": true,
+        "selected_rows": 1,
+        "file": "data/derived/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_qval-PRKD2.tsv",
+        "sha256": "13da02f8ad931327e299a953bb9c45f5a8302d6ee620bc358ed032cea8f3b0b7",
+        "transfer_bytes": 1726995
+      }
+    },
+    {
+      "id": "dMean__Myeloid_0_blood_all-Cis_eqtls_independent",
+      "member": {
+        "filename": "dMean__Myeloid_0_blood_all/OPTIM_pcs/base_output/base/Cis_eqtls_independent.tsv",
+        "uncompressed_bytes": "461620",
+        "compressed_bytes": "188906",
+        "compression_method": "8",
+        "local_header_offset": "4467024449",
+        "crc32": "2831652093"
+      },
+      "ranges": [
+        {
+          "range": "4467024449-4467024478",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_independent-4467024449-4467024478.data",
+          "bytes": 30,
+          "sha256": "8e3b39ec42c230ac422477fb365f36c09f1cfc0dd58e1973e89d05f71e75f641",
+          "retrieved_at_utc": "2026-09-15T20:27:20.780111+00:00"
+        },
+        {
+          "range": "4467024479-4467024566",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_independent-4467024479-4467024566.data",
+          "bytes": 88,
+          "sha256": "0c5a75cdb7afd55df5fe46a5443ba93cb48f89fdea2e73f0f69b8d6f66edf44b",
+          "retrieved_at_utc": "2026-09-15T20:27:23.074619+00:00"
+        },
+        {
+          "range": "4467024567-4467213472",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_0_blood_all-Cis_eqtls_independent-4467024567-4467213472.data",
+          "bytes": 188906,
+          "sha256": "0bb8e29be12a408d6a25b493dfec07663cc0e71d17f26e7de7574dacf6b8ac81",
+          "retrieved_at_utc": "2026-09-15T20:27:26.045285+00:00"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "result": {
+        "source_rows": 2198,
+        "source_bytes": 461620,
+        "source_sha256": "292571c1fbe73362abca5555f2409dbc17db2e153509e327e80e01a5954b9553",
+        "source_file": "data/raw/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_independent.tsv",
+        "crc32_verified": true,
+        "deflate_eof_verified": true,
+        "selected_rows": 1,
+        "file": "data/derived/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_independent-PRKD2.tsv",
+        "sha256": "0bee4226742a49738b14296f571450b63cbb6b129265310b0c951753eddbae05",
+        "transfer_bytes": 189024
+      }
+    },
+    {
+      "id": "dMean__Myeloid_1_blood_all-Cis_eqtls_qval",
+      "member": {
+        "filename": "dMean__Myeloid_1_blood_all/OPTIM_pcs/base_output/base/Cis_eqtls_qval.tsv",
+        "uncompressed_bytes": "3969635",
+        "compressed_bytes": "1707992",
+        "compression_method": "8",
+        "local_header_offset": "288139907176",
+        "crc32": "3561488009"
+      },
+      "ranges": [
+        {
+          "range": "288139907176-288139907205",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_qval-288139907176-288139907205.data",
+          "bytes": 30,
+          "sha256": "f0552294d05cf6a97468268bcdaea29688abaea39be8e7f92a1cb754b6aa6e06",
+          "retrieved_at_utc": "2026-09-15T20:27:28.572886+00:00"
+        },
+        {
+          "range": "288139907206-288139907286",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_qval-288139907206-288139907286.data",
+          "bytes": 81,
+          "sha256": "b453da842cd43ab27ca4076142239d36271dd43d2093829ed7b3611e3dfb6736",
+          "retrieved_at_utc": "2026-09-15T20:27:30.928246+00:00"
+        },
+        {
+          "range": "288139907287-288141615278",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_qval-288139907287-288141615278.data",
+          "bytes": 1707992,
+          "sha256": "e3ea7a446737b703e49db302ade99730183e5346da00402e40bd964a0decc89d",
+          "retrieved_at_utc": "2026-09-15T20:27:34.718759+00:00"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "result": {
+        "source_rows": 16037,
+        "source_bytes": 3969635,
+        "source_sha256": "d0d71008fc9983ac18809de4e33e3863a93dbe249e36eb8c723ddef8abdf097f",
+        "source_file": "data/raw/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_qval.tsv",
+        "crc32_verified": true,
+        "deflate_eof_verified": true,
+        "selected_rows": 1,
+        "file": "data/derived/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_qval-PRKD2.tsv",
+        "sha256": "796194d52171f754554c9e6120bbbb999d99a9a05bfbc2763098714c59767af8",
+        "transfer_bytes": 1708103
+      }
+    },
+    {
+      "id": "dMean__Myeloid_1_blood_all-Cis_eqtls_independent",
+      "member": {
+        "filename": "dMean__Myeloid_1_blood_all/OPTIM_pcs/base_output/base/Cis_eqtls_independent.tsv",
+        "uncompressed_bytes": "445598",
+        "compressed_bytes": "182292",
+        "compression_method": "8",
+        "local_header_offset": "288940973991",
+        "crc32": "1975080416"
+      },
+      "ranges": [
+        {
+          "range": "288940973991-288940974020",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_independent-288940973991-288940974020.data",
+          "bytes": 30,
+          "sha256": "8e3b39ec42c230ac422477fb365f36c09f1cfc0dd58e1973e89d05f71e75f641",
+          "retrieved_at_utc": "2026-09-15T20:27:37.236451+00:00"
+        },
+        {
+          "range": "288940974021-288940974108",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_independent-288940974021-288940974108.data",
+          "bytes": 88,
+          "sha256": "cae8c0702dbab343be35379c0170d2a587fdf7d9c713b44c110238a3f4a9d823",
+          "retrieved_at_utc": "2026-09-15T20:27:39.766272+00:00"
+        },
+        {
+          "range": "288940974109-288941156400",
+          "file": "data/raw/ibdverse-model-audit/zip-ranges/dMean__Myeloid_1_blood_all-Cis_eqtls_independent-288940974109-288941156400.data",
+          "bytes": 182292,
+          "sha256": "073e2aa74771d7e6c2e6ffe5c0de03370567b967cd0f123253e477a7f462e94c",
+          "retrieved_at_utc": "2026-09-15T20:27:42.541349+00:00"
+        }
+      ],
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_eQTLs.zip",
+      "remote_size": 393071674087,
+      "etag": "\"5b84e5c2e7-657533288eb80\"",
+      "last_modified": "Fri, 24 Jul 2026 03:45:02 GMT",
+      "result": {
+        "source_rows": 2122,
+        "source_bytes": 445598,
+        "source_sha256": "51652599acfeafb839a15390b9f5c221d1cdfe5ac28fd40a7873487e6d5e821d",
+        "source_file": "data/raw/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_independent.tsv",
+        "crc32_verified": true,
+        "deflate_eof_verified": true,
+        "selected_rows": 1,
+        "file": "data/derived/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_independent-PRKD2.tsv",
+        "sha256": "44eff15f06fa2c2897f1e6bb5e559db7e1add53f51fcf651bc255af6089fdbda",
+        "transfer_bytes": 182410
+      }
+    }
+  ]
+}

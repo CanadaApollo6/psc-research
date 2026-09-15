@@ -1,0 +1,4 @@
+biopsy_type,samples,distinct_public_individual_labels,CD_individuals,healthy_individuals,qualification
+blood,95,95,95,0,Collection metadata; not final eQTL model N
+rectum,275,275,0,275,Collection metadata; not final eQTL model N
+terminal ileum,362,362,119,243,Collection metadata; not final eQTL model N

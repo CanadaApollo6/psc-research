@@ -1,0 +1,12 @@
+{
+  "base_url": "https://www.ebi.ac.uk/biostudies/api/v1",
+  "headers": {
+    "Accept": "application/json"
+  },
+  "timeout_sec": 45,
+  "save_raw": true,
+  "raw_output_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ibdverse-model-audit/biostudies-S-BSST2922.json",
+  "max_items": 2,
+  "max_depth": 2,
+  "path": "studies/S-BSST2922"
+}

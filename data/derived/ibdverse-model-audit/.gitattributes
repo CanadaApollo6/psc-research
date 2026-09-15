@@ -1,0 +1,4 @@
+# csv.DictWriter emits CRLF; recognize the record terminator as data format.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# The original empty qvals field must retain its final tab separator.
+*-Cis_eqtls_qval-PRKD2.tsv whitespace=-blank-at-eol

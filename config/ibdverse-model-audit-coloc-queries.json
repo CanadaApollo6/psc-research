@@ -1,0 +1,137 @@
+{
+  "queries": [
+    {
+      "id": "base-coloc-index",
+      "url": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/922/S-BSST2922/Files/base_coloc.zip",
+      "remote_size": 83213416,
+      "ranges": [
+        {
+          "range": "83213394-83213415",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-83213394-83213415.data",
+          "bytes": 22,
+          "sha256": "a04bfe182e72ad8d598dc62e9dec8c993e5be85ad1d3b4de06397ac34e51d469",
+          "retrieved_at_utc": "2026-09-15T20:33:43.538543+00:00"
+        },
+        {
+          "range": "83213374-83213393",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-83213374-83213393.data",
+          "bytes": 20,
+          "sha256": "16210bb22f13f9f2a91b55b09c7904ed8827ac128a6b5b4be41aa4314345082d",
+          "retrieved_at_utc": "2026-09-15T20:33:45.838546+00:00"
+        },
+        {
+          "range": "83213213-83213393",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-83213213-83213393.data",
+          "bytes": 181,
+          "sha256": "9a68044513476b985cf253ea84b7297c12e4c8f712cc31059a30a61d3843472c",
+          "retrieved_at_utc": "2026-09-15T20:33:48.132000+00:00"
+        },
+        {
+          "range": "0-65535",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-0-65535.data",
+          "bytes": 65536,
+          "sha256": "3797e3c63fc6e71ce7e43a6f9c2c0afd787859517b51f65d7718335041bc1840",
+          "retrieved_at_utc": "2026-09-15T20:35:04.025521+00:00"
+        },
+        {
+          "range": "29265406-29330941",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-29265406-29330941.data",
+          "bytes": 65536,
+          "sha256": "f39e86e34306e7001fea0b36757c559c84fbf11e7cad1eabd99b267ed98d8040",
+          "retrieved_at_utc": "2026-09-15T20:35:06.719074+00:00"
+        },
+        {
+          "range": "55163686-55229221",
+          "file": "data/raw/ibdverse-model-audit/coloc-ranges/base-coloc-index-55163686-55229221.data",
+          "bytes": 65536,
+          "sha256": "9dabf00b27caa38fd09b654ee28674c116b7cbe866334d82cd614c657493adf4",
+          "retrieved_at_utc": "2026-09-15T20:35:09.253107+00:00"
+        }
+      ],
+      "etag": "\"4f5bc68-6575211c01640\"",
+      "last_modified": "Fri, 24 Jul 2026 02:24:17 GMT"
+    }
+  ],
+  "inventory": {
+    "file": "data/derived/ibdverse-model-audit/base-coloc-inventory.csv",
+    "sha256": "84360ac45cf208a3055c1084ddd226a2a349883259bdcef08a03143f6ed43aa6",
+    "members": 3
+  },
+  "member_headers": [
+    {
+      "member": "IBD.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false,
+      "purpose": "Header/schema only; no target association absence inferred."
+    },
+    {
+      "member": "UC.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false,
+      "purpose": "Header/schema only; no target association absence inferred."
+    },
+    {
+      "member": "CD.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false,
+      "purpose": "Header/schema only; no target association absence inferred."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "purpose": "Read only the cell metadata of the object explicitly linked as Analysis anndata by the IBDverse site, to test whether model sample-count metadata is recoverable.",
+  "source_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/986/E-MTAB-16986/Files/multi_tissue-predicted.h5ad",
+  "source_bytes": 15859629885,
+  "selection_basis": "The source site labels this object Analysis anndata (421 individuals); the deployed config names cross_tissue-analysis_anndata.h5ad and uses Genotyping_ID plus predicted_labels_tissue. File equivalence is unproven and must remain explicit.",
+  "allowed_data_groups": ["obs"],
+  "initial_columns": ["Genotyping_ID", "individual_id", "sanger_sample_id", "predicted_labels_tissue", "predicted_labels", "tissue", "genotyped", "genotype_status"],
+  "counts_only_for": ["Myeloid_0_blood", "Myeloid_1_blood"],
+  "minimum_cells_per_donor": 5,
+  "maximum_new_transfer_bytes": 50000000,
+  "maximum_http_requests": 200,
+  "http_cache_block_bytes": 262144,
+  "forbidden": "Do not read X, raw, expression layers or individual genotype values. Do not export individual identifiers. Do not equate RNA eligibility counts with executed genotype-model N, or infer a directly observed PC count from residual df. No new association or shared-signal analysis.",
+  "before_inspection": "This access plan is written before HDF5 metadata or cell-group counts in this object have been inspected. The 95 blood donors in the separate sample metadata and prior residual df 69/66 are already known."
+}

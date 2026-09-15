@@ -1,0 +1,2 @@
+phenotype_id	num_var	beta_shape1	beta_shape2	true_df	pval_true_df	variant_id	start_distance	end_distance	ma_samples	ma_count	af	pval_nominal	slope	slope_se	pval_perm	pval_beta	qval	pval_nominal_threshold	qvals
+ENSG00000105287	3637	1.0207374	323.77887	57.293793	1.5703985934722695e-09	chr19:46700002:G:A	-17125	-17125	22	22	0.12326772	8.99410108278952e-11	0.95814425	0.124381125	0.000999000999000999	3.731547268152388e-07	6.943018261997821e-06	3.215020504467721e-05	

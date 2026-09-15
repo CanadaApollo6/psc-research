@@ -1,0 +1,15 @@
+accession,filename,bytes,source_description
+S-BSST2922,base_eQTLs.zip,393071674087,Single-cell eQTLs from the IBDverse
+S-BSST2922,base_coloc.zip,83213416,IBDverse single-cell to IBD GWAS colocalisations
+S-BSST2922,interaction_eQTLs.zip,639658816729,Interaction single-cell eQTLs from the IBDverse
+S-BSST2922,interaction_coloc.zip,22482,IBDverse interaction single-cell eQTL to IBD GWAS colocalisations
+S-BSST2922,LD_clumped_eQTLs.txt,10412664,LD clumping for eQTL signals (threshold r^2 > 0.5)
+S-BSST2922,IBDverse_multitissue_annotation.csv,3967,Leiden clusters to curated annotations (cell type and major population/category))
+E-MTAB-16986,sample_metadata.tsv,62266,Processed Data
+E-MTAB-16986,multi_tissue-atlas.h5ad,15126265791,Processed Data
+E-MTAB-16986,individual_metadata.tsv,22047,Processed Data
+E-MTAB-16986,multi_tissue-all.h5ad,18871120479,Processed Data
+E-MTAB-16986,sample_individual_mapping.tsv,32138,Processed Data
+E-MTAB-16986,multi_tissue-predicted.h5ad,15859629885,Processed Data
+E-MTAB-16986,E-MTAB-16986.idf.txt,6120,Investigation Design Format (IDF)
+E-MTAB-16986,E-MTAB-16986.sdrf.txt,681432,Sample and Data Relationship Format (SDRF)

@@ -1,0 +1,4 @@
+filename,uncompressed_bytes,compressed_bytes,compression_method,local_header_offset,crc32
+IBD.gz,29604935,29265345,8,0,4214839118
+UC.gz,26209813,25898220,8,29265406,1361391613
+CD.gz,28369495,28049467,8,55163686,2789424882

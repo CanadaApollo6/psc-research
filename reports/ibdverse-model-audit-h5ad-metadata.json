@@ -1,0 +1,105 @@
+{
+  "schema": [
+    {
+      "name": "Cell_type",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "Clustering_category",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "Lineage",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "conf_score",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "index",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "pct_counts_gene_group__mito_transcript",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "predicted_category",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "predicted_labels",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "sanger_sample_id",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "tissue",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    }
+  ],
+  "h5py_version": "3.16.0",
+  "expression_data_read": false,
+  "actual_executed_model_N_recovered": false,
+  "actual_selected_PCs_recovered": false,
+  "columns_read": [
+    "sanger_sample_id",
+    "predicted_labels",
+    "tissue"
+  ],
+  "observation_rows": 2196874,
+  "counts": [
+    {
+      "context": "Myeloid_0_blood",
+      "donor_column": "individual_id",
+      "cells": 45193,
+      "donor_labels_with_any_cells": 94,
+      "donor_labels_with_at_least_five_cells": 94,
+      "cells_missing_donor_label": 0
+    },
+    {
+      "context": "Myeloid_1_blood",
+      "donor_column": "individual_id",
+      "cells": 49333,
+      "donor_labels_with_any_cells": 93,
+      "donor_labels_with_at_least_five_cells": 93,
+      "cells_missing_donor_label": 0
+    }
+  ],
+  "mapping_amendment_sha256": "b022123b701f89051bf187858e0d5e82a3c868a96ab7df671d91be01036079ab",
+  "unmapped_cells_all_annotations": 0,
+  "interpretation": "Released-object RNA eligibility counts only. Exact mapping to the executed genotype/covariate model remains unverified."
+}

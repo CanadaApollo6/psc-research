@@ -1,0 +1,6 @@
+repository,ref_interpreted,commit,executed_run_commit_confirmed
+andersonlab/IBDVerse-sc-eQTL-code,current main; publication points to repository,de8596d9d1ab3ed65636f7861127c291aaddade2,False
+wtsi-hgi/QTLight,v1.4 branch; README reports v1.4.0 but no exact v1.4.0 release/tag found,4bbe1d0d2b6b2162a44ff0f3dc50a1d63bd62ac6,False
+broadinstitute/tensorqtl,v1.0.9 tag; version explicitly reported in Reporting Summary,8dfd0b634bb7d66e82d190114a353a73d9f101fa,False
+andersonlab/snakemake_colocalisation_sceqtl,current HEAD of explicitly linked repository,bedacde71ef337f08e21b3cf27a21e9ad61b99dc,False
+andersonlab/ld_clump_tqtl,current HEAD of explicitly linked repository,841d869d4b96ebee4a0025fe942efd46888fd999,False

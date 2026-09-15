@@ -1,0 +1,78 @@
+{
+  "schema": [
+    {
+      "name": "Cell_type",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "Clustering_category",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "Lineage",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "conf_score",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "index",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "pct_counts_gene_group__mito_transcript",
+      "encoding": "dataset",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "predicted_category",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "predicted_labels",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "sanger_sample_id",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    },
+    {
+      "name": "tissue",
+      "encoding": "categorical",
+      "shape": [
+        2196874
+      ]
+    }
+  ],
+  "h5py_version": "3.16.0",
+  "expression_data_read": false,
+  "actual_executed_model_N_recovered": false,
+  "actual_selected_PCs_recovered": false
+}

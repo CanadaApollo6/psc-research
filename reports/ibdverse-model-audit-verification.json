@@ -1,0 +1,173 @@
+{
+  "all_checks_pass": true,
+  "verifier_sha256": "091604f0ce5fa1c8b412b983e8c953072b9a84bf71acaa26c14cba8b6d6ad8ef",
+  "source_hashes_and_code": {
+    "unique_source_or_receipt_files_checked": 233,
+    "Git_blobs_matching_pinned_trees": 158,
+    "complete_pinned_repository_trees": 4
+  },
+  "base_eQTL_archive": {
+    "complete_archive_inventory_members": 6047,
+    "members": [
+      {
+        "id": "dMean__Myeloid_0_blood_all-Cis_eqtls_qval",
+        "source_rows": 16209,
+        "PRKD2_rows": 1,
+        "full_source_sha256": "9b894828bb50ce54de1925d1122d5adce2f7b7506b8fd421c4a4143a5d172baf",
+        "standard_ZIP_CRC_checked": true
+      },
+      {
+        "id": "dMean__Myeloid_0_blood_all-Cis_eqtls_independent",
+        "source_rows": 2198,
+        "PRKD2_rows": 1,
+        "full_source_sha256": "292571c1fbe73362abca5555f2409dbc17db2e153509e327e80e01a5954b9553",
+        "standard_ZIP_CRC_checked": true
+      },
+      {
+        "id": "dMean__Myeloid_1_blood_all-Cis_eqtls_qval",
+        "source_rows": 16037,
+        "PRKD2_rows": 1,
+        "full_source_sha256": "d0d71008fc9983ac18809de4e33e3863a93dbe249e36eb8c723ddef8abdf097f",
+        "standard_ZIP_CRC_checked": true
+      },
+      {
+        "id": "dMean__Myeloid_1_blood_all-Cis_eqtls_independent",
+        "source_rows": 2122,
+        "PRKD2_rows": 1,
+        "full_source_sha256": "51652599acfeafb839a15390b9f5c221d1cdfe5ac28fd40a7873487e6d5e821d",
+        "standard_ZIP_CRC_checked": true
+      }
+    ]
+  },
+  "coloc_headers_only": [
+    {
+      "member": "IBD.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false
+    },
+    {
+      "member": "UC.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false
+    },
+    {
+      "member": "CD.gz",
+      "columns": [
+        "condition_name",
+        "phenotype_id",
+        "snp_id",
+        ".row",
+        "nsnps",
+        "PP.H0.abf",
+        "PP.H1.abf",
+        "PP.H2.abf",
+        "PP.H3.abf",
+        "PP.H4.abf",
+        "qtl_pval",
+        "gwas_pval",
+        "qtl_lead",
+        "gwas_lead",
+        "chr",
+        "gwas_lead_pos",
+        "qtl_lead_pos",
+        "gwas_trait"
+      ],
+      "complete_member_scanned": false
+    }
+  ],
+  "RNA_metadata": {
+    "method": "Categorical-code tuple Counter then public sample map; primary implementation uses expanded pandas columns and groupby.",
+    "observation_rows": 2196874,
+    "unmatched_cells": 0,
+    "counts": [
+      {
+        "context": "Myeloid_0_blood",
+        "cells": 45193,
+        "donor_labels_with_any_cells": 94,
+        "donor_labels_with_at_least_five_cells": 94
+      },
+      {
+        "context": "Myeloid_1_blood",
+        "cells": 49333,
+        "donor_labels_with_any_cells": 93,
+        "donor_labels_with_at_least_five_cells": 93
+      }
+    ],
+    "actual_executed_model_N_verified": false
+  },
+  "source_field_checks": {
+    "lead_nominal_fields_compared": 12,
+    "gene_and_conditional_hit_fields_identical": 34,
+    "nonidentical_gene_summary_vs_nominal_fields_preserved": [
+      {
+        "context": "dMean__Myeloid_0_blood_all",
+        "field": "pval_nominal",
+        "absolute_difference": 6.522331385488579e-13,
+        "relative_difference": 7.310593779560521e-07,
+        "harmonized_or_overwritten": false
+      },
+      {
+        "context": "dMean__Myeloid_1_blood_all",
+        "field": "slope_se",
+        "absolute_difference": 4.999999997368221e-09,
+        "relative_difference": 4.019902696943251e-08,
+        "harmonized_or_overwritten": false
+      },
+      {
+        "context": "dMean__Myeloid_1_blood_all",
+        "field": "pval_nominal",
+        "absolute_difference": 4.4910360007495863e-17,
+        "relative_difference": 4.993315287348942e-07,
+        "harmonized_or_overwritten": false
+      }
+    ]
+  },
+  "prior_preservation": {
+    "baseline_commit": "7e96f0304202caf5f84b5d599097dbe9cf7365b6",
+    "prior_files_unchanged": 1254,
+    "navigation_files_with_insertions_only": [
+      "README.md",
+      "docs/evidence-log.md"
+    ],
+    "prior_scientific_content_preserved": true
+  },
+  "new_H4_posteriors": 0
+}

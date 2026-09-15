@@ -1,0 +1,13 @@
+context,variant_id,field,gene_summary_original,nominal_vector_original,absolute_difference,relative_difference
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,slope,0.4250392,0.4250392,0.0,0.0
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,slope_se,0.07871816,0.07871816,0.0,0.0
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,af,0.47271144,0.47271144,0.0,0.0
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,ma_count,88,88,0.0,0.0
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,ma_samples,68,68,0.0,0.0
+dMean__Myeloid_0_blood_all,chr19:46765721:T:A,pval_nominal,8.921746733504246e-07,8.921753255835631e-07,6.522331385488579e-13,7.310593779560521e-07
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,slope,0.95814425,0.95814425,0.0,0.0
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,slope_se,0.124381125,0.12438112,4.999999997368221e-09,4.019902696943251e-08
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,af,0.12326772,0.12326772,0.0,0.0
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,ma_count,22,22,0.0,0.0
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,ma_samples,22,22,0.0,0.0
+dMean__Myeloid_1_blood_all,chr19:46700002:G:A,pval_nominal,8.99410108278952e-11,8.994096591753519e-11,4.4910360007495863e-17,4.993315287348942e-07

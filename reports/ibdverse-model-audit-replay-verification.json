@@ -1,0 +1,45 @@
+{
+  "all_checks_pass": true,
+  "replay_script_sha256": "4fc4a52c7d2f9ee3bef88ba7b344f006aab2ccc84b8a39ebb94a613cd4443206",
+  "network_requests": 0,
+  "model_requests": 0,
+  "new_H4_posteriors": 0,
+  "commands": [
+    [
+      "scripts/fetch_ibdverse_model_members.py",
+      "--offline"
+    ],
+    [
+      "scripts/read_ibdverse_model_metadata.py",
+      "--offline"
+    ],
+    [
+      "scripts/analyze_ibdverse_model_audit.py"
+    ],
+    [
+      "scripts/verify_ibdverse_model_audit.py"
+    ]
+  ],
+  "generated_files_replayed_exactly": 16,
+  "additional_coloc_inventory_rebuilt_and_verified_exactly": 1,
+  "source_acquisition_records_unchanged": 8,
+  "output_sha256": {
+    "data/derived/ibdverse-model-audit/PRKD2-published-clump-membership.csv": "26b092eeebd7eb67ec60aed3d192228dd8b9293a10ba495baa24303e24c56bfd",
+    "data/derived/ibdverse-model-audit/PRKD2-source-model-summary.csv": "727db8934a678a9175d57d7cc9e2875341df4d86329c47cd19852fa248bbd535",
+    "data/derived/ibdverse-model-audit/base-coloc-inventory.csv": "84360ac45cf208a3055c1084ddd226a2a349883259bdcef08a03143f6ed43aa6",
+    "data/derived/ibdverse-model-audit/base-eqtl-member-types.csv": "c7e5dfdbb40f457169a3070c99a895443db4da3a37dd4aab11b7123ed2228dac",
+    "data/derived/ibdverse-model-audit/browser-filtered-export-as-published.csv": "21cccdfdf21b4f26c89cee25b2f15cdee47dcf3d83a7687b0ffe9791ba619d12",
+    "data/derived/ibdverse-model-audit/code-repository-versions.csv": "a59a36bf884749b074b6a2d76d6fa026a8ce29c85598704f1fe7bacd3b1c55e7",
+    "data/derived/ibdverse-model-audit/collection-sample-counts.csv": "63eb73f46d8adc8d5358401f275603fb886253c877881e9d0c394861a5e9cc90",
+    "data/derived/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_independent-PRKD2.tsv": "0bee4226742a49738b14296f571450b63cbb6b129265310b0c951753eddbae05",
+    "data/derived/ibdverse-model-audit/dMean__Myeloid_0_blood_all-Cis_eqtls_qval-PRKD2.tsv": "13da02f8ad931327e299a953bb9c45f5a8302d6ee620bc358ed032cea8f3b0b7",
+    "data/derived/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_independent-PRKD2.tsv": "44eff15f06fa2c2897f1e6bb5e559db7e1add53f51fcf651bc255af6089fdbda",
+    "data/derived/ibdverse-model-audit/dMean__Myeloid_1_blood_all-Cis_eqtls_qval-PRKD2.tsv": "796194d52171f754554c9e6120bbbb999d99a9a05bfbc2763098714c59767af8",
+    "data/derived/ibdverse-model-audit/lead-source-field-comparison.csv": "5dfc19dc41c350f19e0a953366634fc4e516f74b00594744f2cdcb0d4c5d840a",
+    "data/derived/ibdverse-model-audit/public-file-inventory.csv": "696c842e2d89dadea18d4f376ce68313b348fa55aae52446fab97b6484879e26",
+    "data/derived/ibdverse-model-audit/remaining-required-inputs.csv": "3622bc6abf1b286efdffbfa915c589891565791726ced97cb827221f3d3f8d2c",
+    "reports/ibdverse-model-audit.json": "04ffe5060c650c12d173303700064de6adbc6a9bd56aad6edbf5c46f713eed1d",
+    "reports/ibdverse-model-audit-h5ad-schema.json": "dc2b7fea0e7a55eff8bb3a66da15741b90834a63eef898ed0de4cfcd7f118e8f",
+    "reports/ibdverse-model-audit-h5ad-metadata.json": "425a79959c0019d935a4f475978f6106537e296142fb1763f9966d6d90b28472"
+  }
+}

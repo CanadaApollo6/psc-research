@@ -1,0 +1,169 @@
+{
+  "audit_plan_sha256": "01aa4ef9467ad9ca1b1cd2f6d4efe2d28478d2614eedc7e915f8a8635d56a119",
+  "baseline_commit": "7e96f0304202caf5f84b5d599097dbe9cf7365b6",
+  "source_receipts": 240,
+  "successful_source_receipts": 222,
+  "retained_successful_source_and_range_bytes": 41343821,
+  "public_file_inventory_rows": 14,
+  "base_eQTL_archive_members": 6047,
+  "selected_source_summary": [
+    {
+      "context": "dMean__Myeloid_0_blood_all",
+      "cell_label": "classical monocytes",
+      "gene_id": "ENSG00000105287",
+      "source_tested_variants": "3634",
+      "lead_variant": "chr19:46765721:T:A",
+      "beta_ALT": "0.4250392",
+      "SE": "0.07871816",
+      "nominal_P_gene_summary": "8.921746733504246e-07",
+      "permutation_P": "0.002997002997002997",
+      "beta_approximation_P": "0.0012128250581380038",
+      "gene_FDR_qval": "0.008978799297263407",
+      "gene_nominal_threshold": "4.601188296563473e-05",
+      "selected_independent_rows": 1,
+      "selected_ranks": "1",
+      "source_beta_fit_true_df": "58.12637",
+      "previous_inferred_regression_residual_df": 69,
+      "RNA_eligible_public_donor_labels": 94,
+      "expression_PCs_if_RNA_count_equals_model_N_and_five_genotype_PCs_only": 18,
+      "actual_executed_model_N_observed": false,
+      "actual_selected_PCs_observed": false,
+      "published_global_clump": "chr19:46765721:T:A",
+      "qualification": "One selected hit is not proof of one biological causal effect; PC number is conditional inference only"
+    },
+    {
+      "context": "dMean__Myeloid_1_blood_all",
+      "cell_label": "intermediate monocytes",
+      "gene_id": "ENSG00000105287",
+      "source_tested_variants": "3637",
+      "lead_variant": "chr19:46700002:G:A",
+      "beta_ALT": "0.95814425",
+      "SE": "0.124381125",
+      "nominal_P_gene_summary": "8.99410108278952e-11",
+      "permutation_P": "0.000999000999000999",
+      "beta_approximation_P": "3.731547268152388e-07",
+      "gene_FDR_qval": "6.943018261997821e-06",
+      "gene_nominal_threshold": "3.215020504467721e-05",
+      "selected_independent_rows": 1,
+      "selected_ranks": "1",
+      "source_beta_fit_true_df": "57.293793",
+      "previous_inferred_regression_residual_df": 66,
+      "RNA_eligible_public_donor_labels": 93,
+      "expression_PCs_if_RNA_count_equals_model_N_and_five_genotype_PCs_only": 20,
+      "actual_executed_model_N_observed": false,
+      "actual_selected_PCs_observed": false,
+      "published_global_clump": "chr19:46718300:C:G",
+      "qualification": "One selected hit is not proof of one biological causal effect; PC number is conditional inference only"
+    }
+  ],
+  "RNA_observation_metadata": {
+    "h5py_version": "3.16.0",
+    "expression_data_read": false,
+    "actual_executed_model_N_recovered": false,
+    "actual_selected_PCs_recovered": false,
+    "columns_read": [
+      "sanger_sample_id",
+      "predicted_labels",
+      "tissue"
+    ],
+    "observation_rows": 2196874,
+    "counts": [
+      {
+        "context": "Myeloid_0_blood",
+        "donor_column": "individual_id",
+        "cells": 45193,
+        "donor_labels_with_any_cells": 94,
+        "donor_labels_with_at_least_five_cells": 94,
+        "cells_missing_donor_label": 0
+      },
+      {
+        "context": "Myeloid_1_blood",
+        "donor_column": "individual_id",
+        "cells": 49333,
+        "donor_labels_with_any_cells": 93,
+        "donor_labels_with_at_least_five_cells": 93,
+        "cells_missing_donor_label": 0
+      }
+    ],
+    "mapping_amendment_sha256": "b022123b701f89051bf187858e0d5e82a3c868a96ab7df671d91be01036079ab",
+    "unmapped_cells_all_annotations": 0,
+    "interpretation": "Released-object RNA eligibility counts only. Exact mapping to the executed genotype/covariate model remains unverified."
+  },
+  "global_clump_rows": 195321,
+  "PRKD2_global_clump_rows": 16,
+  "published_clump_file_equals_repository_decoded_file": true,
+  "browser_comparison": {
+    "portal_filters": {
+      "gene": "PRKD2",
+      "tissue": "Blood",
+      "major_population": "Myeloid",
+      "annotation_level": "Cell type",
+      "maximum_displayed_qvalue": 0.05
+    },
+    "portal_selected_rows": 1,
+    "portal_variant": "chr19:46765721:T:A",
+    "portal_qval_as_published": "0.003",
+    "archive_gene_FDR_qval": "0.008978799297263407",
+    "archive_permutation_P": "0.002997002997002997",
+    "matches_permutation_P_at_three_significant_digits": true,
+    "matches_gene_FDR_at_three_significant_digits": false,
+    "interpretation": "Preserve the public browser label, but use the complete archived qval field as the gene FDR. Omission from a globally clumped browser is not an absence of an original intermediate-monocyte eQTL."
+  },
+  "outputs": [
+    {
+      "file": "data/derived/ibdverse-model-audit/public-file-inventory.csv",
+      "rows": 14,
+      "sha256": "696c842e2d89dadea18d4f376ce68313b348fa55aae52446fab97b6484879e26"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/collection-sample-counts.csv",
+      "rows": 3,
+      "sha256": "63eb73f46d8adc8d5358401f275603fb886253c877881e9d0c394861a5e9cc90"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/base-eqtl-member-types.csv",
+      "rows": 24,
+      "sha256": "c7e5dfdbb40f457169a3070c99a895443db4da3a37dd4aab11b7123ed2228dac"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/PRKD2-published-clump-membership.csv",
+      "rows": 16,
+      "sha256": "26b092eeebd7eb67ec60aed3d192228dd8b9293a10ba495baa24303e24c56bfd"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/PRKD2-source-model-summary.csv",
+      "rows": 2,
+      "sha256": "727db8934a678a9175d57d7cc9e2875341df4d86329c47cd19852fa248bbd535"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/lead-source-field-comparison.csv",
+      "rows": 12,
+      "sha256": "5dfc19dc41c350f19e0a953366634fc4e516f74b00594744f2cdcb0d4c5d840a"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/browser-filtered-export-as-published.csv",
+      "rows": 1,
+      "sha256": "21cccdfdf21b4f26c89cee25b2f15cdee47dcf3d83a7687b0ffe9791ba619d12"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/code-repository-versions.csv",
+      "rows": 5,
+      "sha256": "a59a36bf884749b074b6a2d76d6fa026a8ce29c85598704f1fe7bacd3b1c55e7"
+    },
+    {
+      "file": "data/derived/ibdverse-model-audit/remaining-required-inputs.csv",
+      "rows": 4,
+      "sha256": "3622bc6abf1b286efdffbfa915c589891565791726ced97cb827221f3d3f8d2c"
+    }
+  ],
+  "ready_for_new_shared_cause_posterior": false,
+  "new_H4_posteriors": 0,
+  "decision": "Public audit complete. Exact executed model records and adequate RNA/PSC covariance or complete RNA components remain unqualified.",
+  "limitations": [
+    "Source branch snapshots and declared versions are not executed-run manifests.",
+    "RNA-eligible donor counts and conditional PC arithmetic are not direct genotype-model metadata.",
+    "Conditional lead tables and global clumps are not complete causal components.",
+    "The base-coloc ZIP has three disease result streams; only headers were read, not every association. It is an IBD/CD/UC release, not PSC.",
+    "This bounded audit does not prove that no suitable data exist anywhere."
+  ]
+}

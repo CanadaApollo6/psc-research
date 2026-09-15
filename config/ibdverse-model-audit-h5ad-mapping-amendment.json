@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-09-15T20:31:48.151532+00:00",
+  "trigger": "The public H5AD observation schema lacks Genotyping_ID and predicted_labels_tissue but exposes sanger_sample_id, predicted_labels and tissue. No cell-group counts have yet been read.",
+  "original_plan_sha256": "09a00ac1424b3f002dcc78653f942dd2eb35738331d59c4d8d959e891ad69320",
+  "observed_schema_sha256": "dc2b7fea0e7a55eff8bb3a66da15741b90834a63eef898ed0de4cfcd7f118e8f",
+  "mapping_file": "data/raw/ibdverse-model-audit/E-MTAB-16986-restored-sample_individual_mapping.tsv.data",
+  "mapping_sha256": "7913a4ab7a25b4d85168994c6ea89f40a999b7025c88fe62ae736264ed68bb3f",
+  "procedure": "Read only the three already allowed observation columns. Map exact sanger_sample_id values through the complete published one-to-one sample-to-individual mapping. Compose predicted_labels plus underscore plus tissue. Count cells per published individual only for Myeloid_0_blood and Myeloid_1_blood, retain the fixed five-cell threshold, and report unmatched cells. Export aggregate counts only.",
+  "qualification": "These are RNA-cell eligibility counts in the public analysis object. The genotype ID mapping, final genotype QC exclusion set and exact historical input-object checksum remain unavailable. Do not label these as executed-model donor counts."
+}
