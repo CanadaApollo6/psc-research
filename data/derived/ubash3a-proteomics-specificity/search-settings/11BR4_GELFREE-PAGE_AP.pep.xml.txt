@@ -1,0 +1,245 @@
+================================================================================
+
+Search name: 11BR4_GELFREE-PAGE_AP
+Search description: -
+Search date: 03/30/2012 21:34:11
+
+================================================================================
+
+The pipeline tree:
+------------------
+
+  |-(0) Spectrum Files
+    |-(1) Spectrum Selector
+      |-(2) Noise Peak Filter
+        |-(3) Non-Fragment Filter
+          |-(4) Mascot
+            |-(6) Annotation
+          |-(5) phosphoRS
+            |-(7) Peptide Validator
+    |-(8) Event Detector
+            |-(9) Precursor Ions Area Detector
+
+------------------------------------------------------------------------------
+Processing node 0: Spectrum Files
+------------------------------------------------------------------------------
+
+Input Data:
+-----------------------------
+File Name(s):
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B01_.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B01-1.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B02-1.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B03-1.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B04.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B05.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B06.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B07.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B08.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B09.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B10.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B11.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B12.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B13.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B14.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B15.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B16.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B17.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B18.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B19.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B20.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B21.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B22.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B23.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B24.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B25.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B26.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B27.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B28.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B29.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B30.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B31.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B32.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B33.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B34.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B35.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B36.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B37.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B38.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B39.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B40.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B41.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B42.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B43.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B44.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B45.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B46.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B47.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B48.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B49.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B50.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B51.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B52.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B53.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B54.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B55.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B56.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B57.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B58.raw
+	G:\Individualome\11BR4_GELFREE-PAGE_AP\Naive_CD4_GelfrEE_B59.raw
+
+------------------------------------------------------------------------------
+Processing node 1: Spectrum Selector
+------------------------------------------------------------------------------
+
+1. General Settings:
+-----------------------------
+Precursor Selection:  Use MS1 Precursor
+Use New Precursor Reevaluation:  True
+
+2. Spectrum Properties Filter:
+-----------------------------
+Lower RT Limit:  0
+Upper RT Limit:  0
+First Scan:  0
+Last Scan:  0
+Lowest Charge State:  0
+Highest Charge State:  0
+Min. Precursor Mass:  350 Da
+Max. Precursor Mass:  10000 Da
+Total Intensity Threshold:  0
+Minimum Peak Count:  1
+
+3. Scan Event Filters:
+-----------------------------
+MS Order:  Is MS2
+Scan Type:  Is Full
+
+4. Peak Filters:
+-----------------------------
+S/N Threshold (FT-only):  1.5
+
+5. Replacements for Unrecognized Properties:
+-----------------------------
+Unrecognized Charge Replacements:  2; 3; 4
+Unrecognized Mass Analyzer Replacements:  FTMS
+Unrecognized MS Order Replacements:  MS2
+Unrecognized Activation Type Replacements:  HCD
+Unrecognized Polarity Replacements:  +
+
+6. Just for Testing:
+-----------------------------
+Precursor Clipping Range Before:  2.5 Da
+Precursor Clipping Range After:  5.5 Da
+
+------------------------------------------------------------------------------
+Processing node 2: Noise Peak Filter
+------------------------------------------------------------------------------
+
+1. General:
+-----------------------------
+S/N Threshold (FT-only):  1.5
+
+------------------------------------------------------------------------------
+Processing node 3: Non-Fragment Filter
+------------------------------------------------------------------------------
+
+1. Precursor Peaks:
+-----------------------------
+Remove Precursor Peak:  True
+Mass Window Offset:  1 Da
+
+2. Charge Reduced Precursors:
+-----------------------------
+Remove Charge Reduced Precursors:  False
+Mass Window Offset:  0.5 Da
+
+3. Neutral Losses From Charge Reduced Precursors:
+-----------------------------
+Remove Neutral Loss Peaks:  False
+Mass Window Offset:  0.5 Da
+Remove Only Known Masses:  False
+Maximum Neutral Loss Mass:  120 Da
+
+4. FT Overtones:
+-----------------------------
+Remove Precursor Overtones:  False
+Mass Window Offset:  0.5 Da
+
+------------------------------------------------------------------------------
+Processing node 4: Mascot
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Protein Database:  Indiv_ProteoGenome
+Enzyme Name:  Trypsin
+Maximum Missed Cleavage Sites:  1
+Instrument:  ESI-FTICR
+Taxonomy:  All entries
+
+1.1 Peptide Scoring Options:
+-----------------------------
+Peptide Cut Off Score:  10
+Peptide Without Protein Cut Off Score:  5
+
+1.2 Protein Scoring Options:
+-----------------------------
+Use MudPIT Scoring:  Automatic
+Protein Relevance Threshold:  20
+Protein Relevance Factor:  1
+
+2. Tolerances:
+-----------------------------
+Precursor Mass Tolerance:  10 ppm
+Fragment Mass Tolerance:  0.05 Da
+Use Average Precursor Mass:  False
+
+3. Dynamic Modifications:
+-----------------------------
+1. Dynamic Modification:  Oxidation (M)
+3. Dynamic Modification:  Phospho (ST)
+5. Dynamic Modification:  Acetyl (Protein N-term)
+6. Dynamic Modification:  Gln->pyro-Glu (N-term Q)
+
+4. Static Modifications:
+-----------------------------
+1. Static Modification:  Carbamidomethyl (C)
+
+------------------------------------------------------------------------------
+Processing node 6: Annotation
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Processing node 5: phosphoRS
+------------------------------------------------------------------------------
+
+General Settings:
+-----------------------------
+Use Fragment Mass Tolerance of Search Node:  True
+Fragment Mass Tolerance:  0.05 Da
+
+------------------------------------------------------------------------------
+Processing node 9: Precursor Ions Area Detector
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Processing node 7: Peptide Validator
+------------------------------------------------------------------------------
+
+1. Decoy Database Search:
+-----------------------------
+Search Against Decoy Database:  True
+Target FDR (Strict):  0.01
+Target FDR (Relaxed):  0.05
+
+------------------------------------------------------------------------------
+Processing node 8: Event Detector
+------------------------------------------------------------------------------
+
+1. General Settings:
+-----------------------------
+Mass Precision:  2 ppm
+S/N Threshold:  1
+
+

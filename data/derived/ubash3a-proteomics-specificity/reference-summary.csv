@@ -1,0 +1,6 @@
+set_id,source_group,records,residues,nonstandard_residue_counts_json,local_path,sha256
+uniprot_2026_03_all_human_isoforms,human_reference,232837,101169542,"{""B"": 2, ""U"": 66, ""X"": 14266, ""Z"": 2}",data/raw/ubash3a-proteomics-specificity/uniprot-human-2026_03-paginated-with-isoforms.fasta,d0332180d1a6b5fbf1e1d1a95f20f6f30402c684bdd77f30c4b8bbf410e20d81
+gencode_v50_comprehensive_translations,human_reference,382428,156684458,"{""*"": 811, ""U"": 156, ""X"": 41789}",data/raw/ubash3a-proteomics-specificity/gencode.v50.pc_translations.fa.gz,5d6408c3a1c22d864c96a55367cf5b69f1031dea1fe2cd6d03e366ae3fc56a45
+gpm_crap_20190304,contaminant,116,38459,{},data/raw/ubash3a-proteomics-specificity/crap.fasta,4b0e6e97ab1d618baa38be612a787d884a781e07f627b919c4b29ac064db5382
+previous_twenty_models,previous_models,20,11116,{},data/derived/ubash3a-consequences/proteins.fasta,9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379
+T29_conditional_alleles,conditional_T29,2,964,{},data/derived/ubash3a-alternative-ending/proteins.fasta,9b5707a5c8fd7106ea01f2761e22747136f49dc9e29586967281a8c5faa96a27

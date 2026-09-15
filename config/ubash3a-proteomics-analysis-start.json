@@ -1,0 +1,22 @@
+{
+  "started_at_utc": "2026-09-15T00:15:24.559430+00:00",
+  "all_14_searches_complete_before_any_new_candidate_score_inspection": true,
+  "complete_search_execution_sha256": "f376e5497012e42af27850a0b37e0b913e88ac9f3f02223fa9f439b854d618cc",
+  "source_manifest_sha256": "ab3f9fcf6b929dd8e76fb91103ff314c3f596c14f0548cd7bcb8e16da5e964fb",
+  "parameter_sha256": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+  "stage_script_sha256": {
+    "scripts/analyze_ubash3a_proteomics_spectra.py": "7e6c86fb6d41b804a90167c8dc90d235fea14e2df620c2b0af83dd35d899c6b4",
+    "scripts/review_ubash3a_candidate_fragments.py": "f03f5ba6e0a51cf1c03a1b2171a633bfa2b43014a973f5bad2bff7ea830c56f7",
+    "scripts/verify_ubash3a_proteomics_search.py": "3539de6c2a55b15e6410f1df705001a0c7c2bd4c27e9e663b0186b0313fbe4bc",
+    "scripts/audit_ubash3a_proteomics_scan_coverage.py": "ac04a3772ba1eaa4c27aa228ef10d85d80c159969012c1f2b44c7afcdfb96b3e",
+    "scripts/replay_ubash3a_proteomics.py": "906924a408b1296418965b3fe9a41e9b32fe3a69a06294eca5c22c606a949cdd"
+  },
+  "controller_sha256": "c558c5c65e03d0c736d3c6db5664b513cb53542ae94b2e9df37cdca728d06767",
+  "analysis_order": [
+    "analyze_ubash3a_proteomics_spectra.py",
+    "review_ubash3a_candidate_fragments.py",
+    "verify_ubash3a_proteomics_search.py",
+    "audit_ubash3a_proteomics_scan_coverage.py",
+    "replay_ubash3a_proteomics.py"
+  ]
+}

@@ -1,0 +1,168 @@
+================================================================================
+
+Search name: GetnetD_iTRAQ_RARO
+Search description: -
+Search date: 11/30/2012 14:22:10
+
+================================================================================
+
+The pipeline tree:
+------------------
+
+  |-(0) Spectrum Files
+    |-(1) Spectrum Selector
+      |-(2) Mascot
+        |-(3) Annotation
+        |-(4) Peptide Validator
+    |-(5) Reporter Ions Quantifier
+
+------------------------------------------------------------------------------
+Processing node 0: Spectrum Files
+------------------------------------------------------------------------------
+
+Input Data:
+-----------------------------
+File Name(s):
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f01.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f02.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f03.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f04.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f05.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f06.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f07.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f08.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f09.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f10.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f11.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f12.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f13.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f14.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f16.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f17.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f18.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f19.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f20.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f21.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f22.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f23.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Individualome_Naive-Memory_iTRAQ_f24.raw
+	D:\Pandey Lab\GetnetD\iTRAQ\Label_Check_iTRAQ_CD4_individualome.raw
+
+------------------------------------------------------------------------------
+Processing node 1: Spectrum Selector
+------------------------------------------------------------------------------
+
+1. General Settings:
+-----------------------------
+Precursor Selection:  Use MS1 Precursor
+Use New Precursor Reevaluation:  True
+
+2. Spectrum Properties Filter:
+-----------------------------
+Lower RT Limit:  0
+Upper RT Limit:  0
+First Scan:  0
+Last Scan:  0
+Lowest Charge State:  0
+Highest Charge State:  0
+Min. Precursor Mass:  350 Da
+Max. Precursor Mass:  10000 Da
+Total Intensity Threshold:  0
+Minimum Peak Count:  1
+
+3. Scan Event Filters:
+-----------------------------
+MS Order:  Is MS2
+Scan Type:  Is Full
+
+4. Peak Filters:
+-----------------------------
+S/N Threshold (FT-only):  1.5
+
+5. Replacements for Unrecognized Properties:
+-----------------------------
+Unrecognized Charge Replacements:  Automatic
+Unrecognized Mass Analyzer Replacements:  FTMS
+Unrecognized MS Order Replacements:  MS2
+Unrecognized Activation Type Replacements:  HCD
+Unrecognized Polarity Replacements:  +
+
+6. Just for Testing:
+-----------------------------
+Precursor Clipping Range Before:  2.5 Da
+Precursor Clipping Range After:  5.5 Da
+
+------------------------------------------------------------------------------
+Processing node 2: Mascot
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Protein Database:  Human_RefSeq50
+Enzyme Name:  Trypsin
+Maximum Missed Cleavage Sites:  1
+Instrument:  Default
+Taxonomy:  . . . . . . . . . . . . . . . . Homo sapiens (human)
+
+1.1 Peptide Scoring Options:
+-----------------------------
+Peptide Cut Off Score:  10
+Peptide Without Protein Cut Off Score:  5
+
+1.2 Protein Scoring Options:
+-----------------------------
+Use MudPIT Scoring:  Automatic
+Protein Relevance Threshold:  20
+Protein Relevance Factor:  1
+
+2. Tolerances:
+-----------------------------
+Precursor Mass Tolerance:  10 ppm
+Fragment Mass Tolerance:  0.05 Da
+Use Average Precursor Mass:  False
+
+3. Dynamic Modifications:
+-----------------------------
+1. Dynamic Modification:  Oxidation (M)
+2. Dynamic Modification:  Deamidated (NQ)
+3. Dynamic Modification:  iTRAQ4plex (N-term)
+4. Dynamic Modification:  iTRAQ4plex (K)
+
+4. Static Modifications:
+-----------------------------
+1. Static Modification:  Carbamidomethyl (C)
+
+------------------------------------------------------------------------------
+Processing node 3: Annotation
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Processing node 4: Peptide Validator
+------------------------------------------------------------------------------
+
+1. Decoy Database Search:
+-----------------------------
+Search Against Decoy Database:  True
+Target FDR (Strict):  0.01
+Target FDR (Relaxed):  0.05
+
+------------------------------------------------------------------------------
+Processing node 5: Reporter Ions Quantifier
+------------------------------------------------------------------------------
+
+1. Quantification Method:
+-----------------------------
+Quantification Method:  iTRAQ 4plex (Custom)
+
+2. Peak Integration:
+-----------------------------
+Integration Window Tolerance:  20 ppm
+Integration Method:  Most Confident Centroid
+
+3. Scan Event Filters:
+-----------------------------
+Mass Analyzer:  FTMS
+MS Order:  MS2
+Activation Type:  HCD
+
+

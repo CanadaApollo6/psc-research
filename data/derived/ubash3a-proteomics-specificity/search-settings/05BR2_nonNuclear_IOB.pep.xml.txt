@@ -1,0 +1,285 @@
+================================================================================
+
+Search name: 05BR2_nonNuclear_IOB
+Search description: -
+Search date: 08/03/2012 20:55:41
+
+================================================================================
+
+The pipeline tree:
+------------------
+
+  |-(0) Spectrum Files
+    |-(1) Spectrum Selector
+      |-(2) Non-Fragment Filter
+        |-(3) Spectrum Properties Filter
+          |-(4) Top N Peaks Filter
+            |-(5) Mascot
+              |-(6) Percolator
+            |-(7) SEQUEST
+              |-(8) Percolator
+    |-(9) Event Detector
+              |-(10) Precursor Ions Area Detector
+
+------------------------------------------------------------------------------
+Processing node 0: Spectrum Files
+------------------------------------------------------------------------------
+
+Input Data:
+-----------------------------
+File Name(s):
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A1.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A10.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A11.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A12.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A1-A4_pool.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A2.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A3.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A4.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A5.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A5_r.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A6.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A7.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A8.raw
+	E:\Pandey Lab\GetnetD\Cell-Ome Data\05BR2_nonNuclear_IOB\naive_CD4_RPLC_A9.raw
+
+------------------------------------------------------------------------------
+Processing node 1: Spectrum Selector
+------------------------------------------------------------------------------
+
+1. General Settings:
+-----------------------------
+Precursor Selection:  Use MS1 Precursor
+Use New Precursor Reevaluation:  True
+
+2. Spectrum Properties Filter:
+-----------------------------
+Lower RT Limit:  0
+Upper RT Limit:  0
+First Scan:  0
+Last Scan:  0
+Lowest Charge State:  0
+Highest Charge State:  0
+Min. Precursor Mass:  300 Da
+Max. Precursor Mass:  10000 Da
+Total Intensity Threshold:  0
+Minimum Peak Count:  1
+
+3. Scan Event Filters:
+-----------------------------
+MS Order:  Is MS2
+Scan Type:  Is Full
+
+4. Peak Filters:
+-----------------------------
+S/N Threshold (FT-only):  1.5
+
+5. Replacements for Unrecognized Properties:
+-----------------------------
+Unrecognized Charge Replacements:  1; 2; 3
+Unrecognized Mass Analyzer Replacements:  FTMS
+Unrecognized MS Order Replacements:  MS2
+Unrecognized Activation Type Replacements:  HCD
+Unrecognized Polarity Replacements:  +
+
+6. Just for Testing:
+-----------------------------
+Precursor Clipping Range Before:  2.5 Da
+Precursor Clipping Range After:  5.5 Da
+
+------------------------------------------------------------------------------
+Processing node 2: Non-Fragment Filter
+------------------------------------------------------------------------------
+
+1. Precursor Peaks:
+-----------------------------
+Remove Precursor Peak:  True
+Mass Window Offset:  1.5 Da
+
+2. Charge Reduced Precursors:
+-----------------------------
+Remove Charge Reduced Precursors:  False
+Mass Window Offset:  2 Da
+
+3. Neutral Losses From Charge Reduced Precursors:
+-----------------------------
+Remove Neutral Loss Peaks:  False
+Mass Window Offset:  0.5 Da
+Remove Only Known Masses:  False
+Maximum Neutral Loss Mass:  120 Da
+
+4. FT Overtones:
+-----------------------------
+Remove Precursor Overtones:  False
+Mass Window Offset:  0.5 Da
+
+------------------------------------------------------------------------------
+Processing node 3: Spectrum Properties Filter
+------------------------------------------------------------------------------
+
+1. Spectrum Properties:
+-----------------------------
+Lower RT Limit:  0
+Upper RT Limit:  0
+Lowest Charge State:  0
+Highest Charge State:  0
+Min. Precursor Mass:  0 Da
+Max. Precursor Mass:  0 Da
+
+2. Spectrum Properties Filter:
+-----------------------------
+First Scan:  0
+Last Scan:  0
+
+2. Thresholds:
+-----------------------------
+Total Intensity Threshold:  5000
+Minimum Peak Count:  10
+
+------------------------------------------------------------------------------
+Processing node 4: Top N Peaks Filter
+------------------------------------------------------------------------------
+
+1. General:
+-----------------------------
+Top N:  6
+Mass Window:  100 Da
+
+------------------------------------------------------------------------------
+Processing node 5: Mascot
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Protein Database:  Human_RefSeq50
+Enzyme Name:  Trypsin
+Maximum Missed Cleavage Sites:  2
+Instrument:  ESI-FTICR
+Taxonomy:  All entries
+
+1.1 Peptide Scoring Options:
+-----------------------------
+Peptide Cut Off Score:  1
+Peptide Without Protein Cut Off Score:  1
+
+1.2 Protein Scoring Options:
+-----------------------------
+Use MudPIT Scoring:  False
+Protein Relevance Threshold:  0
+Protein Relevance Factor:  0
+
+2. Tolerances:
+-----------------------------
+Precursor Mass Tolerance:  10 ppm
+Fragment Mass Tolerance:  0.05 Da
+Use Average Precursor Mass:  False
+
+3. Dynamic Modifications:
+-----------------------------
+1. Dynamic Modification:  Acetyl (Protein N-term)
+2. Dynamic Modification:  Oxidation (M)
+3. Dynamic Modification:  Gln->pyro-Glu (N-term Q)
+4. Dynamic Modification:  Phospho (ST)
+5. Dynamic Modification:  Phospho (Y)
+
+4. Static Modifications:
+-----------------------------
+2. Static Modification:  Carbamidomethyl (C)
+
+------------------------------------------------------------------------------
+Processing node 10: Precursor Ions Area Detector
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Processing node 6: Percolator
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Maximum Delta Cn:  0.05
+
+2. Decoy Database Search:
+-----------------------------
+Target FDR (Strict):  0.01
+Target FDR (Relaxed):  0.05
+Validation based on:  q-Value
+
+------------------------------------------------------------------------------
+Processing node 7: SEQUEST
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Protein Database:  Human_RefSeq50_cont.fasta
+Enzyme Name:  Trypsin (Full)
+Maximum Missed Cleavage Sites:  2
+
+1.1 Peptide Scoring Options:
+-----------------------------
+Maximum Peptides Considered:  500
+Maximum Peptides Output:  10
+Calculate Probability Scores:  False
+Absolute XCorr Threshold:  0.4
+Fragment Ion Cutoff Percentage:  0.1
+Peptide Without Protein XCorr Threshold:  1.5
+
+1.2 Protein Scoring Options:
+-----------------------------
+Maximum Protein References Per Peptide:  100
+Protein Relevance Threshold:  1.5
+Peptide Relevance Factor:  0.4
+
+2. Tolerances:
+-----------------------------
+Precursor Mass Tolerance:  10 ppm
+Fragment Mass Tolerance:  0.05 Da
+Use Average Precursor Mass:  False
+Use Average Fragment Masses:  False
+
+3. Ion Series:
+-----------------------------
+Use Neutral Loss a Ions:  True
+Use Neutral Loss b Ions:  True
+Use Neutral Loss y Ions:  True
+Weight of a Ions:  0
+Weight of b Ions:  1
+Weight of c Ions:  0
+Weight of x Ions:  0
+Weight of y Ions:  1
+Weight of z Ions:  0
+
+4. Dynamic Modifications:
+-----------------------------
+Max. Modifications Per Peptide:  4
+N-Terminal Modification:  Gln->pyro-Glu / -17.027 Da (Any N-Terminus)
+1. Dynamic Modification:  Oxidation / +15.995 Da (M)
+2. Dynamic Modification:  Phospho / +79.966 Da (S, T, Y)
+
+5. Static Modifications:
+-----------------------------
+1. Static Modification:  Carbamidomethyl / +57.021 Da (C)
+
+------------------------------------------------------------------------------
+Processing node 8: Percolator
+------------------------------------------------------------------------------
+
+1. Input Data:
+-----------------------------
+Maximum Delta Cn:  0.05
+
+2. Decoy Database Search:
+-----------------------------
+Target FDR (Strict):  0.01
+Target FDR (Relaxed):  0.05
+Validation based on:  q-Value
+
+------------------------------------------------------------------------------
+Processing node 9: Event Detector
+------------------------------------------------------------------------------
+
+1. General Settings:
+-----------------------------
+Mass Precision:  4 ppm
+S/N Threshold:  1
+
+

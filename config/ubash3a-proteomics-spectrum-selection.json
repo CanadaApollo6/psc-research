@@ -1,0 +1,115 @@
+{
+  "selected_at_utc": "2026-09-14T22:29:49.396759+00:00",
+  "before_any_new_spectrum_score_or_target_spectrum_inspection": true,
+  "experiment_name": "05BR2_nonNuclear_IOB",
+  "selection_reason": "Complete unlabeled non-nuclear naive-CD4 experiment with explicit source-file mapping; appropriate subcellular context for UBASH3A and a bounded 2.39-GB complete group. No target peptide or prior UBASH3A hit was used for selection.",
+  "sample_annotation": "Source experiment name and all source raw names identify naive CD4 and non-nuclear fraction; publication core uses one donor, but per-file donor identity is not supplied. No donor-level replication claimed.",
+  "all_referenced_raw_files_present": true,
+  "includes_source_pooled_and_repeat_runs": true,
+  "independent_replicates": false,
+  "files": [
+    {
+      "file_name": "naive_CD4_RPLC_A1.raw",
+      "expected_bytes": 171204757,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A1.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A1.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A10.raw",
+      "expected_bytes": 144443563,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A10.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A10.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A10.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A11.raw",
+      "expected_bytes": 188711591,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A11.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A11.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A11.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A12.raw",
+      "expected_bytes": 209458156,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A12.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A12.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A12.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A1-A4_pool.raw",
+      "expected_bytes": 202950425,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A1-A4_pool.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A1-A4_pool.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1-A4_pool.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A2.raw",
+      "expected_bytes": 204565228,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A2.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A2.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A2.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A3.raw",
+      "expected_bytes": 172826074,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A3.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A3.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A3.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A4.raw",
+      "expected_bytes": 165656806,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A4.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A4.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A4.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A5.raw",
+      "expected_bytes": 108969881,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A5.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A5.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A5_r.raw",
+      "expected_bytes": 200167410,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A5_r.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A5_r.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5_r.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A6.raw",
+      "expected_bytes": 203715035,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A6.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A6.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A6.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A7.raw",
+      "expected_bytes": 153786863,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A7.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A7.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A7.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A8.raw",
+      "expected_bytes": 132888783,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A8.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A8.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A8.raw"
+    },
+    {
+      "file_name": "naive_CD4_RPLC_A9.raw",
+      "expected_bytes": 128487825,
+      "archive_url": "ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A9.raw",
+      "download_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/naive_CD4_RPLC_A9.raw",
+      "local_path": "data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A9.raw"
+    }
+  ],
+  "download_bytes": 2387832397,
+  "local_storage_budget_gb": 35,
+  "mapping_settings_source_sha256": "2266ed314dde300bf25e3f956484ad7ea3bd91b096992f0955bd21f44e626c7b",
+  "search_parameters_and_sequence_database_not_yet_frozen": true,
+  "interpretation": "Scope for an initial complete-experiment search, not the entire deposit or a naive-memory contrast."
+}

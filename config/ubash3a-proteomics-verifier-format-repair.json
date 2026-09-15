@@ -1,0 +1,53 @@
+{
+  "recorded_at_utc": "2026-09-15T00:28:23.204735+00:00",
+  "trigger": "Whole-output verification found a target parent with a decoy alternative whose DECOY_ prefix is absent in pepXML. Propagating the parent class to every alternative is invalid. The TSV and PIN preserve the decoy prefix.",
+  "observed_example": {
+    "file": "naive_CD4_RPLC_A1",
+    "comet_scan": 107,
+    "instrument_scan": 1303,
+    "charge": 2,
+    "query_hit_index": 3,
+    "peptide": "KQKSSSK",
+    "XML_ambiguous_alternative": "P_b95ffc26ce6a8b1d55e27027",
+    "TXT_and_PIN_alternative": "DECOY_P_b95ffc26ce6a8b1d55e27027"
+  },
+  "original_verifier_backup": "work/ubash3a-proteomics-spectra/parser-format-repair/verify_ubash3a_proteomics_search.py",
+  "original_verifier_sha256": "3805d67b3677e64c08770232887132542376af38d0a351aa94b85fd3e34cce9c",
+  "failed_log": "work/ubash3a-proteomics-spectra/analysis-repair-stage-logs/verify_ubash3a_proteomics_search.py.log",
+  "failed_log_sha256": "5f0b37410e8caa83934fa834e80cf165b30f7106dc70c314286c8c10caba654a",
+  "repair": "Parse the independent PIN output by exported scan, charge and original hit position; verify every complete protein-membership multiset against prefix-stripped XML, then compare the fully labeled membership against TXT. Recalculate the existing conservative any-decoy/tie FDR from XML scores and PIN membership flags, not from primary TXT classes. Preserve ambiguous XML labels as ambiguous.",
+  "search_parameters_database_and_primary_analysis_changed": false,
+  "primary_outputs_before_repair": {
+    "data/derived/ubash3a-proteomics-spectra/candidate-all-reported-assignments.csv": "132172f3bb47438af80caf82f0a7cb4812957ca00348c3ec3079ad587cc21a46",
+    "data/derived/ubash3a-proteomics-spectra/candidate-fragment-review.csv": "277b9491f77e45fedcf30e8229e89c18a7fab24b6baa08c500d9badd4bf82f7b",
+    "data/derived/ubash3a-proteomics-spectra/candidate-search-summary.csv": "9c05faee7c40c8f56b8b9e75b528db5fc7809b1c3b6e1ef522f0e5e038812ef0",
+    "data/derived/ubash3a-proteomics-spectra/file-search-summary.csv": "2d5bb4088315841ce76e4a8458d8216c8db3d720a183f6adf7b81d02e2a697d5",
+    "data/derived/ubash3a-proteomics-spectra/scan-coverage-audit.csv": "0669786599ae5d4c9c498a0f2901426193e94afdc156ad10f0dd6de5736fa0e1",
+    "data/derived/ubash3a-proteomics-spectra/search-summary.json": "45021e96e1614f1577ec39f7c2b17cd3194134f9fdcf129ce658e62e6f411424",
+    "data/derived/ubash3a-proteomics-spectra/ubash3a-spectrum-winners.csv": "85661149f5a1f67e546f29634cf6ec1ac19b32188524f14634569b76386ded58"
+  },
+  "format_source_receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometWritePepXML.cpp",
+      "retrieved_at_utc": "2026-09-15T00:28:23.052011+00:00",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometWritePepXML.cpp",
+      "size_bytes": 41920,
+      "sha256": "f168edadec6e01b45c8227e58b9300373f88dd967ec3851bf520c7b85b5774a9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometWritePercolator.cpp",
+      "retrieved_at_utc": "2026-09-15T00:28:23.204611+00:00",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometWritePercolator.cpp",
+      "size_bytes": 13607,
+      "sha256": "a0c4fe0ff626c512934790f725e8df6bbd4c2c4075d7d198bedcd7ab847ff67d"
+    }
+  ],
+  "prior_source_manifest_preserved": "config/ubash3a-proteomics-sources.json",
+  "candidate_summary_known_at_verifier_repair": "Zero assignments to all four fixed candidates; this correction affects verification of background classes, not target selection or thresholds.",
+  "qualified_at_utc": "2026-09-15T00:31:22.383094+00:00",
+  "repaired_verifier_sha256": "da1e1f12b8c78ae9fb72592c7266b497514eaf69d763b360acc81f658dffd600",
+  "verification_report": "reports/ubash3a-proteomics-search-verification.json",
+  "verification_report_sha256": "0566cfe90dd897a1fb3b95e41b17c9f7393bb5127feafe45551b7ecc08fca926",
+  "all_pinned_primary_output_bytes_unchanged": true,
+  "focused_tests_pass": 15
+}

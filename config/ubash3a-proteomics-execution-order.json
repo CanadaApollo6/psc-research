@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-09-14T23:16:55.809350+00:00",
+  "before_any_public_spectrum_inspection_or_score": true,
+  "after_reference_specificity_results": true,
+  "reason": "The fixed archive transfer is slow enough that running conversion/search only after all transfers would needlessly serialize independent work.",
+  "execution_order": "Qualify each whole raw file once its complete source-byte and SHA receipt exists. Search each file only after its own full conversion/metadata checks pass, using the same already fixed database and parameter hashes. Preserve the original 14-file order. Do not inspect target scores or perform pooled error-control analysis until all 14 complete.",
+  "changed_files_or_search_settings": false,
+  "incomplete_scope_rule": "Any missing or failed file prevents a complete-experiment result; failures are not excluded or replaced.",
+  "unchanged_input_hashes": {
+    "config/ubash3a-proteomics-spectrum-selection.json": "c70d1786b3a3ec3b716e507411e5df224caeee41527c1612d38618d75dac8337",
+    "config/ubash3a-proteomics-comet.params": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+    "config/ubash3a-proteomics-search-database.json": "fc151781477cab47054ad1c883c72b33fbd279bbea0f4e55b087a073f493be97"
+  }
+}

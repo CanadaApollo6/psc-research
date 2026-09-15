@@ -1,0 +1,133 @@
+{
+  "all_checks_pass": true,
+  "completed_at_utc": "2026-09-15T00:31:36.158111+00:00",
+  "specificity_primary_files_replayed_exactly": 19,
+  "spectrum_primary_files_replayed_exactly": 5,
+  "small_file_checks": [
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/all-sequence-matches.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/all-sequence-matches.csv",
+      "sha256": "3c50749e51fafb90b206748a08f049733542ac0f85378cce3ab99134c6a97898"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/candidate-specificity.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/candidate-specificity.csv",
+      "sha256": "12c93c63fc6cc58ee4dc881380addcf1e57d6fb9c811ea3db3f5744d1abbc579"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/experiment-raw-mapping.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/experiment-raw-mapping.csv",
+      "sha256": "e95054916618ab305ebe621efdb71f69a13cee8bb0848f02a5dcab0401231239"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/experiment-search-metadata.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/experiment-search-metadata.csv",
+      "sha256": "1feb1cd8db9cdab9de017bc69840b8ab1d894f5a45b0c102f2adb2204111c40b"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/metadata-summary.json",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/metadata-summary.json",
+      "sha256": "72e955d8e020e8bbc595d63d22f4334632a303e6a052cf9b58797eeff019cee8"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/reference-summary.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/reference-summary.csv",
+      "sha256": "ab031ff2cc431b7ef4df3bb8d21450e5d6f908369cde31e03f8621227af4ec7b"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/01BR1_PAGE_IOB.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/01BR1_PAGE_IOB.pep.xml.txt",
+      "sha256": "5383d7759c343e3dc774deadd3dc15883314a76a1b4b01ce93d2547f2c0cc291"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/02BR1_PAGE_Core.pep.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/02BR1_PAGE_Core.pep.pep.xml.txt",
+      "sha256": "548700b0eb692eba3a67ee6d79f367f29aa8a288444852fbad53bc39f4461ac8"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/03BR1_PAGE_AP.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/03BR1_PAGE_AP.pep.xml.txt",
+      "sha256": "299367db7c73c17bd23a13b219c107b9e898a5a8e799c453d771a1604be57388"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/04BR2_Nuclear_IOB.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/04BR2_Nuclear_IOB.pep.xml.txt",
+      "sha256": "00238937e1a8e6a0b4e458eb51d4bff5fb570e3e4333775affa7e759b239fa0e"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/05BR2_nonNuclear_IOB.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/05BR2_nonNuclear_IOB.pep.xml.txt",
+      "sha256": "4cdc71999bf3e324c5cc59d8ad7ffb8eed92c70f47fab7c66d17a251bec00014"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/07BR3_1SCX_bRP_Core.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/07BR3_1SCX_bRP_Core.pep.xml.txt",
+      "sha256": "2d0424c166b7b993708dbb6eda2ca8e145fc0a8f74ee5006c076681ede289078"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/08BR3_2SCX_bRP_Core.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/08BR3_2SCX_bRP_Core.pep.xml.txt",
+      "sha256": "afc22cf034bb692d8d3ea2587cab9bb12c3e79d4dc05a6f72e66a10c3c8572f9"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/09BR3_1SCX_bRP_AP.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/09BR3_1SCX_bRP_AP.pep.xml.txt",
+      "sha256": "4d0c8a45f54e0edd04dbc210f9cfbb14bc90dbaa84550f4b132c8da4d4ab6742"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/10BR3_2SCX_bRP_AP.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/10BR3_2SCX_bRP_AP.pep.xml.txt",
+      "sha256": "04cdb3d2e3a3b0d0b7d873dcce1110164407469dd5afe7ea5b221c9adbe4114d"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/11BR4_GELFREE-PAGE_AP.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/11BR4_GELFREE-PAGE_AP.pep.xml.txt",
+      "sha256": "b5b41c491052a6c8e72cc4b9b3c4b549992178fdfe3b95203dc3c91e6c35015b"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/GetnetD_iTRAQ_RARO.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/GetnetD_iTRAQ_RARO.pep.xml.txt",
+      "sha256": "5aafdcf6d5769a2e19e1787d851731f999336a6ad8891804e9bc2c02f6876a45"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/search-settings/NaiveCD4T_nuclear.pep.xml.txt",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/search-settings/NaiveCD4T_nuclear.pep.xml.txt",
+      "sha256": "5658c01cd8e6d0c4830dc9ed54a191888d3bca7e77cbdda67b87958f1e257cf3"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-specificity/specificity-summary.json",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/specificity/specificity-summary.json",
+      "sha256": "28a0935b6acc277e040f952d1139ee037317aba29761eeb5b205eeab8a584b40"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-spectra/candidate-all-reported-assignments.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/spectra/candidate-all-reported-assignments.csv",
+      "sha256": "132172f3bb47438af80caf82f0a7cb4812957ca00348c3ec3079ad587cc21a46"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-spectra/candidate-search-summary.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/spectra/candidate-search-summary.csv",
+      "sha256": "9c05faee7c40c8f56b8b9e75b528db5fc7809b1c3b6e1ef522f0e5e038812ef0"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-spectra/file-search-summary.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/spectra/file-search-summary.csv",
+      "sha256": "2d5bb4088315841ce76e4a8458d8216c8db3d720a183f6adf7b81d02e2a697d5"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-spectra/search-summary.json",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/spectra/search-summary.json",
+      "sha256": "45021e96e1614f1577ec39f7c2b17cd3194134f9fdcf129ce658e62e6f411424"
+    },
+    {
+      "original": "data/derived/ubash3a-proteomics-spectra/ubash3a-spectrum-winners.csv",
+      "replay": "work/ubash3a-proteomics-spectra/deterministic-replay/spectra/ubash3a-spectrum-winners.csv",
+      "sha256": "85661149f5a1f67e546f29634cf6ec1ac19b32188524f14634569b76386ded58"
+    }
+  ],
+  "large_tables_rebuilt_with_identical_bytes": {
+    "work/ubash3a-proteomics-spectra/analysis/all-spectrum-winners.csv": "0a76387d2a272dfcf3f2c1ee809151e9eb52becb1b2de1d1a914e8b5cdf25415",
+    "work/ubash3a-proteomics-spectra/analysis/all-peptide-winners.csv": "d6c796911fd5ac48a337586af74420c654e656907404a0da7cb214a0aab04657"
+  },
+  "scope": "Deterministic table reconstruction from existing pinned references and complete search outputs; no repeated spectrum search, fragment review, reference-lock creation or biological replication"
+}

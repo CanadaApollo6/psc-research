@@ -1,0 +1,19 @@
+{
+  "search_headers": 12,
+  "file_references": 250,
+  "archive_raw_files": 249,
+  "unique_mapped_archive_raw_files": 249,
+  "archive_raw_files_without_header_mapping": [],
+  "unmatched_references": [
+    {
+      "experiment": "GetnetD_iTRAQ_RARO",
+      "search_file": "GetnetD_iTRAQ_RARO.pep.xml",
+      "source_raw_name": "Label_Check_iTRAQ_CD4_individualome.raw",
+      "archive_raw_name": "",
+      "mapping_status": "missing_from_archive",
+      "archive_bytes": "",
+      "settings_source_sha256": "91ff2c657c715c9fc5461a922240372708fbd214a344900766df78df8c7aa8a2"
+    }
+  ],
+  "case_only_aliases": 0
+}

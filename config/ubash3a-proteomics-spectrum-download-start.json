@@ -1,0 +1,8 @@
+{
+  "started_at_utc": "2026-09-14T23:12:07.044616+00:00",
+  "selection_sha256": "c70d1786b3a3ec3b716e507411e5df224caeee41527c1612d38618d75dac8337",
+  "specificity_verification_sha256": "26702b8610ff3b58a0b861b61200e84ad4b57c6dbf02fe839e038974ebf09b50",
+  "before_public_spectrum_scores": true,
+  "download_budget_bytes": 2387832397,
+  "local_storage_budget_gb": 35
+}

@@ -1,0 +1,20 @@
+{
+  "built_at_utc": "2026-09-14T23:12:06.881145+00:00",
+  "before_any_public_spectrum_search": true,
+  "source_records": 615403,
+  "unique_exact_protein_sequences": 308191,
+  "removed_exact_duplicates_with_memberships_preserved": 307212,
+  "database_path": "work/ubash3a-proteomics-spectra/search-background.fasta",
+  "database_sha256": "2fd9c8645315ace291160b2c578e0b012f787efd80e06cc0b96a106a67d0995d",
+  "database_bytes": 132724271,
+  "membership_path": "work/ubash3a-proteomics-spectra/search-background-membership.jsonl.gz",
+  "membership_sha256": "1ebc8e9d3f93abad411af424509abf1799221a49f15b6b868ff141724e6e03ae",
+  "reference_lock_sha256": "7fea437bb0c466a200d62a4035a5e5a0e2d6efab39d066bd6cf2d7908d40a49e",
+  "search_plan_sha256": "f98d063cc2c8dcaea3ef8e14d2f07edee0d9bff4542625aa5711c951bc61ca07",
+  "parameter_sha256": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+  "decoys": "Comet internal digestion-aware peptide reversal with final residue retained; concatenated competition; classic FASTA mode",
+  "candidate_decoy_partner_matches": 0,
+  "candidate_eligible_decoy_collisions": 0,
+  "source_sequence_transformations": "Exact full-sequence deduplication only; upper-case FASTA normalization, no ambiguous-residue deletion or stop removal",
+  "nonstandard_sequence_scope": "Comet recognizes explicit stops as boundaries; unknown-residue-containing peptides are not evidence for a concrete amino-acid sequence"
+}

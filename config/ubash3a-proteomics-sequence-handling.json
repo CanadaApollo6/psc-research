@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-09-14T23:05:52.568628+00:00",
+  "before_any_public_spectrum_search": true,
+  "mass_handling": "With zero user static masses, CometSearchManager assigns B/J/X/Z residue masses of 999999, outside the frozen 600-5000-Da peptide mass range. Peptides containing these uncertain residues are therefore unsearchable under the fixed settings, while other segments of the same reference proteins remain included. U and O have defined masses.",
+  "stop_handling": "Explicit stop characters are retained by the FASTA reader and recognized as enzyme boundaries; target strings contain no stops.",
+  "specificity_limitation": "Literal/I-L nonmatches do not rule out matches hidden by X/B/Z or other ambiguous source residues. No guessed residue expansions are used.",
+  "source_hashes": {
+    "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometMassSpecUtils.cpp": "1bf395aabb7e3280afe893bb5f5af8952d406299cc0764c7b365c63968df1c97",
+    "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearchManager.cpp": "a44a1911eb48ecb731dc7c5548e9302fe5f091f36e136ad5783da97452593496",
+    "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearch.cpp": "28fd051ad9d9bf2422f434b8f7858c59cbd32fff90fb5559b4c72c5f4d665bba"
+  }
+}

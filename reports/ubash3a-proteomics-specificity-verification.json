@@ -1,0 +1,24 @@
+{
+  "all_checks_pass": true,
+  "methods": [
+    "Biopython SeqIO versus primary streaming FASTA parser",
+    "Overlapping regular expressions versus substring search",
+    "Independent cleavage-gap set versus per-position boundary function",
+    "XML tree parsing versus primary escaped-text extraction"
+  ],
+  "reference_counts": {
+    "uniprot_2026_03_all_human_isoforms": 232837,
+    "gencode_v50_comprehensive_translations": 382428,
+    "gpm_crap_20190304": 116,
+    "previous_twenty_models": 20,
+    "T29_conditional_alleles": 2
+  },
+  "sequence_match_rows": 16,
+  "sequence_match_fields_compared": 272,
+  "xml_raw_file_references": 250,
+  "inputs": {
+    "data/derived/ubash3a-proteomics-specificity/all-sequence-matches.csv": "3c50749e51fafb90b206748a08f049733542ac0f85378cce3ab99134c6a97898",
+    "data/derived/ubash3a-proteomics-specificity/experiment-raw-mapping.csv": "e95054916618ab305ebe621efdb71f69a13cee8bb0848f02a5dcab0401231239",
+    "config/ubash3a-proteomics-reference-lock.json": "7fea437bb0c466a200d62a4035a5e5a0e2d6efab39d066bd6cf2d7908d40a49e"
+  }
+}

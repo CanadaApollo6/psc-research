@@ -1,0 +1,74 @@
+{
+  "complete_experiment": false,
+  "files": [
+    {
+      "raw_file": "naive_CD4_RPLC_A1.raw",
+      "raw_sha256": "92a4207beedad74cfc576ee8eb4ca97aae87bce9970b1f2e2a48fcd4141ffac3",
+      "started_at_utc": "2026-09-14T23:22:00.962146+00:00",
+      "completed_at_utc": "2026-09-14T23:22:09.806722+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.mzML",
+      "mzml_sha256": "ee2cfad27a35f775eed1c7e26f6cc96bb3e0f6d817895e4ee3794caa19bfca33",
+      "mzml_bytes": 31488197,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-metadata.json",
+      "metadata_sha256": "e59d7c951888a7893a0565c01521a75ea0831783024fe64efd00e6d5cc7ec0ff",
+      "vendor_MS2_count": 5000,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "14416a7c82edb31bbf2dc911c20c728b2c997e58703b5a2281071c9c30101721",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "spectra": 5000,
+      "declared_spectrum_count": 5000,
+      "nonempty_spectra": 5000,
+      "centroid_spectra": 5000,
+      "total_fragment_points": 493439,
+      "charges": {
+        "1": 1500,
+        "2": 2881,
+        "3": 523,
+        "4": 88,
+        "5": 8
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 5000
+      },
+      "filter_analyzers": {
+        "FTMS": 5000
+      },
+      "first_scan": 2,
+      "last_scan": 7387,
+      "binary_and_scan_checks_pass": true,
+      "completion_status_lines": [
+        "2026-09-14 19:22:08 INFO Processing completed 0 errors, 0 warnings"
+      ]
+    }
+  ],
+  "tool_binary_sha256": "867095af5e4a72471e17ef7ec37a5ae7f7224b07642c95deba6026fd939c1414",
+  "completed_at_utc": "2026-09-14T23:22:09.825657+00:00",
+  "total_MS2_spectra": 5000,
+  "all_conversion_and_content_checks_pass": true,
+  "qualification_limitation": "Independent mzML decoding and counts; both converter and metadata counts use the vendor reader, not an independent instrument measurement",
+  "metadata_export_repair": "A separate single-pass vendor-metadata loop avoids the development writer's repeated whole-file scan loop and mislabeled MS2 field. All MS2 scan IDs and counts match independently parsed mzML; publisher code and repair are pinned."
+}

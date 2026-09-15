@@ -1,0 +1,26 @@
+{
+  "all_checks_pass": true,
+  "database": {
+    "all_source_records_preserved": 615403,
+    "unique_sequences_verified": 308191
+  },
+  "search": {
+    "all_pepxml_queries_parsed_through_EOF": true,
+    "TXT_XML_assignment_rows": 269986,
+    "TXT_XML_scalar_comparisons": 2159888,
+    "XML_unprefixed_alternatives_under_decoy_parents": 827031,
+    "XML_omitted_decoy_prefixes_recovered_from_independent_PIN_output": 831997,
+    "mixed_target_decoy_membership_assignment_rows": 508,
+    "PIN_protein_memberships_modified_peptides_and_mass_score_fields_checked": 269986,
+    "independent_spectrum_winners": 54278,
+    "independent_unique_IL_peptides": 30531,
+    "queries_with_multiple_rank_one_assignments": 3479,
+    "scan_identity": "Original instrument scan from explicit spectrumNativeID; exported Comet scan and hit position retained separately",
+    "all_primary_spectrum_and_peptide_q_values_agree_within": 1e-12,
+    "all_candidate_assignment_keys_agree": true,
+    "candidate_assignments_verified": 0,
+    "independent_spectrum_q01_targets": 11611,
+    "source_execution_sha256": "f376e5497012e42af27850a0b37e0b913e88ac9f3f02223fa9f439b854d618cc"
+  },
+  "independence_boundary": "XML supplies independently parsed peptides/scores/native identities and PIN supplies complete target-decoy membership labels missing from XML alternatives; these are compared with TXT and used in a separate pandas q-value implementation. Same spectra, same search engine and same frozen database. This is computational consistency, not independent biological replication or novel-class FDR calibration."
+}

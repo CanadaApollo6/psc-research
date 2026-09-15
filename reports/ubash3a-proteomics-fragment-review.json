@@ -1,0 +1,15 @@
+{
+  "all_reported_candidate_assignments_reviewed": true,
+  "candidate_assignment_count": 0,
+  "distinct_candidate_spectra": 0,
+  "candidate_and_competitor_review_rows": 0,
+  "fragment_ion_rows": 0,
+  "method": "Independent Biopython monoisotopic peptide masses, exact exported modifications, b/y ions through min(3,z-1), nearest centroid within fixed 0.02 Da; no neutral losses or learned scoring",
+  "limitation": "Independent base-ion counts are not a replacement for full-database competition; only first five Comet assignments were exported. Missing noncandidate competitor is retained as unavailable.",
+  "biological_detection_claim": false,
+  "files": {
+    "data/derived/ubash3a-proteomics-spectra/candidate-all-reported-assignments.csv": "132172f3bb47438af80caf82f0a7cb4812957ca00348c3ec3079ad587cc21a46",
+    "data/derived/ubash3a-proteomics-spectra/candidate-fragment-review.csv": "277b9491f77e45fedcf30e8229e89c18a7fab24b6baa08c500d9badd4bf82f7b",
+    "work/ubash3a-proteomics-spectra/analysis/candidate-fragment-ion-matches.csv": "077b5bd152780bbd78bd95bbb0543bb89f1267a05cc266979357df4c6d313052"
+  }
+}

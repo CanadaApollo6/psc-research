@@ -1,0 +1,5 @@
+candidate,reported_assignments_any_rank,distinct_spectra_any_rank,reported_rank_one_assignments,rank_one_assignments_in_tied_queries,primary_target_spectrum_wins,global_spectrum_q01_wins,minimum_reported_expectation,minimum_winner_spectrum_q,novel_class_q_value,protein_detection_claim,interpretation
+RPNSSWKLGIFK,0,0,0,0,0,0,,,not_estimable,False,Not among the five reported competitors per query; not evidence of biological absence
+LGIFKIHLESGIR,0,0,0,0,0,0,,,not_estimable,False,Not among the five reported competitors per query; not evidence of biological absence
+IHLESGIR,0,0,0,0,0,0,,,not_estimable,False,Not among the five reported competitors per query; not evidence of biological absence
+IHLESGIRKP,0,0,0,0,0,0,,,not_estimable,False,Not among the five reported competitors per query; not evidence of biological absence

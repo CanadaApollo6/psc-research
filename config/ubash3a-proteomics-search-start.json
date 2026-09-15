@@ -1,0 +1,30 @@
+{
+  "started_at_utc": "2026-09-14T23:24:07.446060+00:00",
+  "database_record_sha256": "fc151781477cab47054ad1c883c72b33fbd279bbea0f4e55b087a073f493be97",
+  "database_sha256": "2fd9c8645315ace291160b2c578e0b012f787efd80e06cc0b96a106a67d0995d",
+  "parameter_sha256": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+  "conversion_record_sha256": null,
+  "execution_order": "each complete file is independently qualified and pinned before scoring; whole-scope interpretation waits for all fourteen",
+  "execution_order_amendment_sha256": "acf5650fad28c6846b1f7abc26dfe8fc8f96dee5484550c7a635d0ea03f620f7",
+  "synthetic_qualification_sha256": "68e6ff367a92cff81960894e8a900291d3a4c12945bbdca9be824c2a8e9106f7",
+  "comet_binary_sha256": "af515b6ed5a17efafff7277a6a9c73cee97e26d38f3c9b2a8da16adaa44e6d9e",
+  "files": [
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.mzML",
+    "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.mzML"
+  ],
+  "file_count": 14,
+  "total_converted_MS2_spectra": null,
+  "candidate_scores_not_inspected_before_start": true
+}

@@ -1,0 +1,1462 @@
+{
+  "study": "PXD000376",
+  "qualification_receipts": [
+    {
+      "receipt_id": "01BR1_PAGE_IOB.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/01BR1_PAGE_IOB.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "3ff9eb041a22845e49fcf4e1ed08390defe4b8876a7889b0671509250c1ef7a3",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/01BR1_PAGE_IOB.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/01BR1_PAGE_IOB.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:17.551617+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:18.277297+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:17 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:01:27 GMT",
+        "ETag": "\"4797f07-5cf256a41f3c0\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/75071239",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/01BR1_PAGE_IOB.pep.xml.header-prefix",
+        "sha256": "c1e85add99361bd004fe2a6f115b864843f895de44e85d1d8a2e43e2732e5729",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "02BR1_PAGE_Core.pep.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/02BR1_PAGE_Core.pep.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "c3e5c41b16562f5687803b69e1703981d317a7248f145265885f98636cd76c21",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/02BR1_PAGE_Core.pep.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/02BR1_PAGE_Core.pep.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:16.030066+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:17.550141+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:16 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:03:43 GMT",
+        "ETag": "\"8628974-5cf25725d25c0\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/140675444",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/02BR1_PAGE_Core.pep.pep.xml.header-prefix",
+        "sha256": "ba971d34538a659fe5318197bac3eefd386d03b77fb6383112e81e5c9adc0636",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "03BR1_PAGE_AP.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/03BR1_PAGE_AP.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "3bc0e12ec64d299c04de57ac24a73e7c488954abffd9811f9f81d64267e40cc2",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/03BR1_PAGE_AP.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/03BR1_PAGE_AP.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:17.520936+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:18.316893+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:17 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:16:00 GMT",
+        "ETag": "\"3e0d902-5cf259e4ae000\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/65067266",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/03BR1_PAGE_AP.pep.xml.header-prefix",
+        "sha256": "f925072afab7905731120b8495d2964bac1c7b21350cc0b88c18193255758ae7",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "04BR2_Nuclear_IOB.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/04BR2_Nuclear_IOB.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "de3db20b8fbe620bd32f37ae7ea47211bf585a6a38c805e4d835b68101ce97a9",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/04BR2_Nuclear_IOB.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/04BR2_Nuclear_IOB.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:19.005063+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:19.697936+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:19 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 03:58:48 GMT",
+        "ETag": "\"14b1e67-5cf2560c7ce00\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/21700199",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/04BR2_Nuclear_IOB.pep.xml.header-prefix",
+        "sha256": "a48e312997a2c755d888454ef5e33e0487f6bfc832367d9cbf12b7ba2bdba298",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "05BR2_nonNuclear_IOB.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/05BR2_nonNuclear_IOB.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "5d7dfc4bce52a41b5cebf5f3271569ee5c47fc687050d4c1fd45a2ffb408ef86",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/05BR2_nonNuclear_IOB.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/05BR2_nonNuclear_IOB.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:13.064936+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:16.057321+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:15 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:05:33 GMT",
+        "ETag": "\"1b0e36b-5cf2578eb9d40\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/28369771",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/05BR2_nonNuclear_IOB.pep.xml.header-prefix",
+        "sha256": "2266ed314dde300bf25e3f956484ad7ea3bd91b096992f0955bd21f44e626c7b",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "07BR3_1SCX_bRP_Core.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/07BR3_1SCX_bRP_Core.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "402bc4dfa5af19d8ea8446009cd857756b0b7610368b0484380f074c187c8084",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/07BR3_1SCX_bRP_Core.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/07BR3_1SCX_bRP_Core.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:16.099016+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:18.273498+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:17 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:10:05 GMT",
+        "ETag": "\"431476d-5cf2589220140\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/70338413",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/07BR3_1SCX_bRP_Core.pep.xml.header-prefix",
+        "sha256": "314829b061801f0fee54b0447fce6207c5a5d856c37762039cb5c88e2dc94313",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "08BR3_2SCX_bRP_Core.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/08BR3_2SCX_bRP_Core.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "0fa4223dbc96c91277665e91a40181e6f2d00debc949e73f0f8db4b254f07400",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/08BR3_2SCX_bRP_Core.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/08BR3_2SCX_bRP_Core.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:16.058749+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:17.519406+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:16 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:09:35 GMT",
+        "ETag": "\"8642749-5cf2587583dc0\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/140781385",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/08BR3_2SCX_bRP_Core.pep.xml.header-prefix",
+        "sha256": "0c02c16d92e7ecdcdee6fa9d440f3a04670126f443a1423cbb7db501919c724b",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "09BR3_1SCX_bRP_AP.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/09BR3_1SCX_bRP_AP.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "b181bd48ae888091d16c605c4b671e96ad2b423f5425d8f9d205f5d93a2825fd",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/09BR3_1SCX_bRP_AP.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/09BR3_1SCX_bRP_AP.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:18.276050+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:19.043792+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:18 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:09:41 GMT",
+        "ETag": "\"1b26ce4-5cf2587b3cb40\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/28470500",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/09BR3_1SCX_bRP_AP.pep.xml.header-prefix",
+        "sha256": "76501e66656fbd49ec067f1257f36229223849420669f5b6d70ddafdde24ced7",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "10BR3_2SCX_bRP_AP.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/10BR3_2SCX_bRP_AP.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "c1f61e9a8f8aa4c09eec926dee480374b5cf0d128ffb03ba4540658235d34343",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/10BR3_2SCX_bRP_AP.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/10BR3_2SCX_bRP_AP.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:13.063605+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:16.096614+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:15 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:14:58 GMT",
+        "ETag": "\"5e1429d-5cf259a98d480\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/98648733",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/10BR3_2SCX_bRP_AP.pep.xml.header-prefix",
+        "sha256": "89f1c9f7888871355857b1dce57f8f116557259ce6625ce5ca2c2ec53e46f914",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "11BR4_GELFREE-PAGE_AP.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/11BR4_GELFREE-PAGE_AP.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "c399dfe34db6123be4cf41ea4d2d743508db4818f4093c3c62308d01421a3a89",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/11BR4_GELFREE-PAGE_AP.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/11BR4_GELFREE-PAGE_AP.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:18.318583+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:19.289380+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:18 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 03:57:07 GMT",
+        "ETag": "\"4d0732d-5cf255ac2aac0\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/80769837",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/11BR4_GELFREE-PAGE_AP.pep.xml.header-prefix",
+        "sha256": "e415d2a921e14959437fdaad797b3d54cf3cb1b9cda9c4d28c029610d2d71b99",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-decoy-search.html.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-decoy-search.html.receipt.json",
+      "original_receipt_sha256": "824cd635f65255c2d7037ab7688050d4632bf0c5876cd5787a8b42e1e9aa0cb1",
+      "source_url": "https://uwpr.github.io/Comet/parameters/parameters_202301/decoy_search.html",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:41.809207+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:42.033203+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "2118",
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Mon, 10 Aug 2026 23:36:34 GMT",
+        "ETag": "W/\"6a7a6082-15e1\"",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:45:42 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-decoy-search.html",
+        "sha256": "e071648f9721f928e5f340d2329f096dbfda34448cad2a8bcf125ba63f7dc61e",
+        "size_bytes": 5601
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-isotope-error.html.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-isotope-error.html.receipt.json",
+      "original_receipt_sha256": "eb2bb161d3c3694599f55e8913a8bcf479fd6ae3a98f546bee05d1a0649313c9",
+      "source_url": "https://uwpr.github.io/Comet/parameters/parameters_202401/isotope_error.html",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:41.809741+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:41.982682+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "2093",
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Mon, 10 Aug 2026 23:36:34 GMT",
+        "ETag": "W/\"6a7a6082-1682\"",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:45:41 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-isotope-error.html",
+        "sha256": "9c0892c711bd11119fa9981b627e5f6c7944852cde74f6e29267c54d17623132",
+        "size_bytes": 5762
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-latest-release.json.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-latest-release.json.receipt.json",
+      "original_receipt_sha256": "14ee310c6f92c630ef1540e8f339dda6a3bc7f355b66351f9995b0d42435a2a8",
+      "source_url": "https://api.github.com/repos/UWPR/Comet/releases/latest",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:26:58.579832+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-latest-release.json",
+        "sha256": "f60e0546bf1a4d33a278fbae9e442869a24c490bc8cea80d1bf28417c02479e0",
+        "size_bytes": 27512
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-CometMassSpecUtils.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometMassSpecUtils.cpp.receipt.json",
+      "original_receipt_sha256": "b2f8a42965bd5636c8ac83c70adfa736dbfb66e8b625a18238807ce728619094",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometMassSpecUtils.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T23:04:04.869421+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometMassSpecUtils.cpp",
+        "sha256": "1bf395aabb7e3280afe893bb5f5af8952d406299cc0764c7b365c63968df1c97",
+        "size_bytes": 23058
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-CometPreprocess.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometPreprocess.cpp.receipt.json",
+      "original_receipt_sha256": "e64aefa0c86cb118323a7052545289ebfd018cc55303fd8485f886f4537da415",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometPreprocess.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-15T00:01:40.919522+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometPreprocess.cpp",
+        "sha256": "0222e374214f70449345173c4897c8f0d32bf9c9e4bd22674f0b44707984a70e",
+        "size_bytes": 164118
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-CometSearch.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearch.cpp.receipt.json",
+      "original_receipt_sha256": "b0381826d3a2d84f040d51cd5799dfcddb393268556560cdf470dd0138d3b2cf",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometSearch.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:41.983629+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:42.339084+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "64389",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "W/\"c664b9b0c53dc4b344ab5df7d36e6e14563558e1ffec4c205459b47b64db27d7\"",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:45:42 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearch.cpp",
+        "sha256": "28fd051ad9d9bf2422f434b8f7858c59cbd32fff90fb5559b4c72c5f4d665bba",
+        "size_bytes": 410698
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-CometSearchManager.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearchManager.cpp.receipt.json",
+      "original_receipt_sha256": "742efd3d4bfca001fb943a38861132d7b9d1d8d01f4be86852a66465ef9a9d15",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometSearchManager.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T23:04:05.095088+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometSearchManager.cpp",
+        "sha256": "a44a1911eb48ecb731dc7c5548e9302fe5f091f36e136ad5783da97452593496",
+        "size_bytes": 143739
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-FastaStrategy.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-FastaStrategy.cpp.receipt.json",
+      "original_receipt_sha256": "142605abcbf2682951979794ef107769bd9f22be576e491300563cec0a604111",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/FastaStrategy.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-15T00:02:37.009358+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-FastaStrategy.cpp",
+        "sha256": "4488b0d0278caf46c50dc4fab16eaca53d9df7599698086d03edf1930ff40ae2",
+        "size_bytes": 2614
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-Pipeline.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-Pipeline.cpp.receipt.json",
+      "original_receipt_sha256": "f0b305276583b9024278716f8b6218999308e89a4348b8ac109cc01d851b8f9d",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/Pipeline.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-15T00:02:16.959087+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-Pipeline.cpp",
+        "sha256": "65c1f415be59f87c2f84bb9d9090f27b4c5eda205ab0cd991d93c9aae7983536",
+        "size_bytes": 11428
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-README.md.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-README.md.receipt.json",
+      "original_receipt_sha256": "049ba2c55a9d47710396b63f5a1c66dae897dfc2ac8f4d4097a9fbb8deb9daba",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/v2026.02.2/README.md",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:28:08.317789+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-README.md",
+        "sha256": "167392b1526d8c3f23679219115afe8447cb408b2a0ee9cba8f11bfbf9328d6a",
+        "size_bytes": 2799
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-SearchUtils.cpp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-SearchUtils.cpp.receipt.json",
+      "original_receipt_sha256": "596d3be6bf105aa221651cacc80400b56cc04b125d495b51eea15b114297c875",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/SearchUtils.cpp",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-15T00:03:00.269860+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-SearchUtils.cpp",
+        "sha256": "82ec497ec66cc843482092a9785ca68bef0caa09db3c65b1249c33a6e761f613",
+        "size_bytes": 12515
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-v2026.02.2-qvalue.py.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-v2026.02.2-qvalue.py.receipt.json",
+      "original_receipt_sha256": "b1b44dcd2c12e25e9a32bdcb752b6857d368269697cf7ab35a6cd039dac4f181",
+      "source_url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/tools/qvalue.py",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:41.991807+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:42.133128+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "3490",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "W/\"570718ae93c2576663953f884c2493dec62d9e657b06813d57717896f5df8c27\"",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:45:42 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-qvalue.py",
+        "sha256": "d430ae462d1479f258ccdc072f441c92e48de6f737aa78f52588812b69691554",
+        "size_bytes": 10534
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Comet-variable-mods.html.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Comet-variable-mods.html.receipt.json",
+      "original_receipt_sha256": "c2169a1a3cd2455c3865a8b3779bcbbbdbb8d40f193acdd2e58816bf52ff139c",
+      "source_url": "https://uwpr.github.io/Comet/parameters/parameters_202301/variable_mod01.html",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:41.809547+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:41.991320+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "3362",
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Mon, 10 Aug 2026 23:36:34 GMT",
+        "ETag": "W/\"6a7a6082-26b1\"",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:45:41 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-variable-mods.html",
+        "sha256": "e99eddd4d06364aed641d7e8aaca094ef8df5281a8beef3453597db2aeb1f015",
+        "size_bytes": 9905
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "GetnetD_iTRAQ_RARO.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/GetnetD_iTRAQ_RARO.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "63b07586a1dc3ce13f39dc3932653d79fbcd978f7065dd509fcc6f597108d5a5",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/GetnetD_iTRAQ_RARO.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/GetnetD_iTRAQ_RARO.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:13.065620+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:16.028192+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:15 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:06:36 GMT",
+        "ETag": "\"472aa5a-5cf257caceb00\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/74623578",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/GetnetD_iTRAQ_RARO.pep.xml.header-prefix",
+        "sha256": "91ff2c657c715c9fc5461a922240372708fbd214a344900766df78df8c7aa8a2",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "NaiveCD4T_nuclear.pep.xml.header.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/NaiveCD4T_nuclear.pep.xml.header.receipt.json",
+      "original_receipt_sha256": "cb30a9fc7188910cf5f326df14dc296c4b3ad806815c616ae8b5f7c53dcc4fed",
+      "source_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/NaiveCD4T_nuclear.pep.xml",
+      "response_url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2015/11/PXD000376/NaiveCD4T_nuclear.pep.xml",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:23:18.278754+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:19.002239+00:00",
+      "status": 206,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:23:18 GMT",
+        "Last-Modified": "Mon, 25 Oct 2021 04:14:24 GMT",
+        "ETag": "\"55e6570-5cf2598920800\"",
+        "Content-Length": "65536",
+        "Content-Range": "bytes 0-65535/90072432",
+        "Content-Type": "text/xml"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/NaiveCD4T_nuclear.pep.xml.header-prefix",
+        "sha256": "f3f8fe4804db481bcfa747517918167c231369398acd52a6a62924306c35c3a4",
+        "size_bytes": 65536
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "PXD000376-supplemental-methods.doc.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/PXD000376-supplemental-methods.doc.receipt.json",
+      "original_receipt_sha256": "b61c1d00042ad57e7cb81eb3a9daa0df30344f012ab107a6a05dd654a5c87637",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12918-015-0225-4/MediaObjects/12918_2015_225_MOESM25_ESM.doc",
+      "response_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12918-015-0225-4/MediaObjects/12918_2015_225_MOESM25_ESM.doc",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:26.591851+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:22:27.023592+00:00",
+      "status": 200,
+      "headers": {
+        "last-modified": "Mon, 16 Apr 2018 02:55:10 GMT",
+        "content-type": "application/octet-stream",
+        "etag": "\"2427c23165317232a76c50fb9e2b08f1\"",
+        "Date": "Mon, 14 Sep 2026 22:22:26 GMT"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/PXD000376-supplemental-methods.doc",
+        "sha256": "79922c97eaa0828001c54859114723666fa993d72ffad52bbcb2391d20ea2e6b",
+        "size_bytes": 41984
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Thermo-v2dev-Query-ProxiSpectrumReader.cs.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Thermo-v2dev-Query-ProxiSpectrumReader.cs.receipt.json",
+      "original_receipt_sha256": "6a2da0437985606649276ef7f32f4b5fc2b96d83cedc3432940c31116fbe2a62",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/Query/ProxiSpectrumReader.cs",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:46:38.050016+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Query-ProxiSpectrumReader.cs",
+        "sha256": "2ca20454212310552540d02679413fb9f627d3aa987fa0f13875957508d9d62a",
+        "size_bytes": 13603
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Thermo-v2dev-Writer-Metadata.cs.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-Metadata.cs.receipt.json",
+      "original_receipt_sha256": "595d7efbe768a89c4beccb794b30291ad151cf3d118318085b303541beac88ef",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/Writer/Metadata.cs",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:46:37.913278+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-Metadata.cs",
+        "sha256": "de36173dc88bd41ff86705562234774a30d316b8618f4c88870367da8054f93b",
+        "size_bytes": 5169
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Thermo-v2dev-Writer-MetadataWriter.cs.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-MetadataWriter.cs.receipt.json",
+      "original_receipt_sha256": "13780f57bb21cc4d736c11093633a00491722f4948313dd625df6f9871dd66bf",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/Writer/MetadataWriter.cs",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:46:37.779748+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-MetadataWriter.cs",
+        "sha256": "302e71277278c341ae2c216cbdd90e95c76c4c2627fb2d06080cbf1c13b8c902",
+        "size_bytes": 24458
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "Thermo-v2dev-Writer-WriterUtil.cs.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-WriterUtil.cs.receipt.json",
+      "original_receipt_sha256": "0e4708336936254dd2970f74c2aaa361977e5484ec87ef8498345f44ebf44f75",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/Writer/WriterUtil.cs",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:55:27.297151+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-WriterUtil.cs",
+        "sha256": "98626dee106e666d823eae1a79f82cbf3904402f415c7ee4cef9b239bb3982cf",
+        "size_bytes": 1175
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "ThermoRawFileParser-latest-release.json.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/ThermoRawFileParser-latest-release.json.receipt.json",
+      "original_receipt_sha256": "f3054b302532de09ba4f542b1e41fbaacd3a1b579301d9987b39c0eb34c31903",
+      "source_url": "https://api.github.com/repos/CompOmics/ThermoRawFileParser/releases/latest",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:26:58.530904+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/ThermoRawFileParser-latest-release.json",
+        "sha256": "54d1ead14fe44f874936245be95c38d1772bf6aac00b18c8bd05d1d1a6bd834c",
+        "size_bytes": 10340
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "ThermoRawFileParser-v2dev-README.md.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-README.md.receipt.json",
+      "original_receipt_sha256": "e0b0cd1558fb20654de36ab91081d7070c003d9a111187b53ad934eb82e7c912",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/README.md",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:28:08.321855+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-README.md",
+        "sha256": "c20f2621cebc7e4e0fee788743f2a71fc7a12afa7bdff2968136cb8c01d893d0",
+        "size_bytes": 14332
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "ThermoRawFileParser-v2dev-THERMO_LICENSE.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-THERMO_LICENSE.receipt.json",
+      "original_receipt_sha256": "ed996b645846b27cf505f9a155d8ed8bd85bf6bfb52fb4cf72fda22408d9ab2c",
+      "source_url": "https://raw.githubusercontent.com/CompOmics/ThermoRawFileParser/v.2.0.0-dev/THERMO_LICENSE",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": null,
+      "completed_or_retrieved_at_utc": "2026-09-14T22:28:08.334105+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-THERMO_LICENSE",
+        "sha256": "580dab0a34729ef4c8e0213a4289a4e7d807cde027e91bb7548cef944a20f22f",
+        "size_bytes": 6510
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "ThermoRawFileParser-v2dev-source-tree.json.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-source-tree.json.receipt.json",
+      "original_receipt_sha256": "b0b0e5821d2bb8d2dea259baec34ec29782bee032fe1251718b9fced8413092a",
+      "source_url": "https://api.github.com/repos/CompOmics/ThermoRawFileParser/git/trees/v.2.0.0-dev?recursive=1",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:45:42.033808+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:45:42.216916+00:00",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:45:42 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"96bc232e64c6f9782ad25373eabd307032b8a2863abd0642f13e4aaf87d67c48\"",
+        "Last-Modified": "Mon, 14 Sep 2026 10:17:53 GMT",
+        "Content-Encoding": "gzip",
+        "Content-Length": "3602"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/ThermoRawFileParser-v2dev-source-tree.json",
+        "sha256": "e15b669e3831d860df89c673f259c2c2a1724d79e4b4a738705a7a29b131d6c7",
+        "size_bytes": 17907
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "cRAP-source-page.html.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/cRAP-source-page.html.receipt.json",
+      "original_receipt_sha256": "7d78d7bffa86127ff37c47a318c807daef0a6e3647ecfe638d31471e7106275b",
+      "source_url": "https://www.thegpm.org/crap/",
+      "response_url": "https://www.thegpm.org/crap/",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:24.657299+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:22:26.627206+00:00",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:22:26 GMT",
+        "Last-Modified": "Sun, 07 Mar 2021 18:17:52 GMT",
+        "ETag": "\"a955-5bcf655ead48a-gzip\"",
+        "Content-Encoding": "gzip",
+        "Content-Length": "6281",
+        "Content-Type": "text/html; charset=utf-8"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/cRAP-source-page.html",
+        "sha256": "bf63426e4d6efcbffe9ba879d628b077852e2fb5260f005a8952c467b40ad572",
+        "size_bytes": 43349
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "crap-fasta-ftp.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/crap-fasta-ftp.receipt.json",
+      "original_receipt_sha256": "49339dadc3fe5f3012a63aae83b8a9967e7850273bd454e8aba9eaea5286ca35",
+      "source_url": "ftp://ftp.thegpm.org/fasta/cRAP/crap.fasta",
+      "response_url": null,
+      "request": null,
+      "started_at_utc": "2026-09-14T22:26:58.335699+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:26:59.763757+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/crap.fasta",
+        "sha256": "4b0e6e97ab1d618baa38be612a787d884a781e07f627b919c4b29ac064db5382",
+        "size_bytes": 42092
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": "213 20190304195801",
+      "publisher_bytes": 42092
+    },
+    {
+      "receipt_id": "crap.fasta.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/crap.fasta.receipt.json",
+      "original_receipt_sha256": "55d4c715b167b49fb91b06a79c0c333987e0dee7f9d95efdca192bd210b9edba",
+      "source_url": "https://www.thegpm.org/crap/crap.fasta",
+      "response_url": "https://www.thegpm.org/crap/crap.fasta",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:25.217135+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:22:26.591668+00:00",
+      "status": 404,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:22:26 GMT",
+        "Content-Length": "276",
+        "Content-Type": "text/html; charset=iso-8859-1"
+      },
+      "service_response_headers": [],
+      "artifact": null,
+      "error": "404 Client Error: Not Found for url: https://www.thegpm.org/crap/crap.fasta",
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "gencode-release50-page.html.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/gencode-release50-page.html.receipt.json",
+      "original_receipt_sha256": "2e9f0521199561ae9a10a8ba3a88d19cf15ce8f1a2b8e169469bd756fd0d1b5c",
+      "source_url": "https://www.gencodegenes.org/human/release_50.html",
+      "response_url": "https://www.gencodegenes.org/human/release_50.html",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:23.957606+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:22:24.645641+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Encoding": "gzip",
+        "Date": "Mon, 14 Sep 2026 22:22:24 GMT",
+        "ETag": "W/\"6a2812c9-6199\"",
+        "Last-Modified": "Tue, 09 Jun 2026 13:19:05 GMT",
+        "Content-Length": "3278"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/gencode-release50-page.html",
+        "sha256": "f417ed02805b665d2c2608d4826123442f01c517bb364ec1bdfdd01d91a88e35",
+        "size_bytes": 24985
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "gencode.v50.MD5SUMS.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/gencode.v50.MD5SUMS.receipt.json",
+      "original_receipt_sha256": "17c139761823d3faa1ff9e3a5f73ce91f3875533e3e43d02dce8d654f1324e74",
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/MD5SUMS",
+      "response_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/MD5SUMS",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:24.656806+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:22:25.216590+00:00",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:22:25 GMT",
+        "Last-Modified": "Tue, 09 Jun 2026 12:56:03 GMT",
+        "ETag": "\"c02-653d1a645cdea\"",
+        "Content-Length": "3074"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/gencode.v50.MD5SUMS",
+        "sha256": "b681a9bbebc0a6ea3d05370ab8511efc12aa806738013f45ffb473730ecc3b36",
+        "size_bytes": 3074
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "gencode.v50.pc_translations.fa.gz.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/gencode.v50.pc_translations.fa.gz.receipt.json",
+      "original_receipt_sha256": "4c5790939b91634a6350d281b9b4eb9c037c9112727ab908a5d43123f1854a26",
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz",
+      "response_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz",
+      "request": null,
+      "started_at_utc": "2026-09-14T22:22:24.656189+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:23:04.086805+00:00",
+      "status": 200,
+      "headers": {
+        "Date": "Mon, 14 Sep 2026 22:22:25 GMT",
+        "Last-Modified": "Tue, 09 Jun 2026 12:55:51 GMT",
+        "ETag": "\"142865f-653d1a58feb41\"",
+        "Content-Length": "21136991",
+        "Content-Type": "application/x-gzip"
+      },
+      "service_response_headers": [],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/gencode.v50.pc_translations.fa.gz",
+        "sha256": "5d6408c3a1c22d864c96a55367cf5b69f1031dea1fe2cd6d03e366ae3fc56a45",
+        "size_bytes": 21136991
+      },
+      "error": null,
+      "snapshot_format": null,
+      "client_path": null,
+      "client_sha256": null,
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "pride-project-refresh.request.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/pride-project-refresh.request.receipt.json",
+      "original_receipt_sha256": "bab89802dd43d626eda06e28a18268b14ff2699eba743abbbecd0980f6e42f01",
+      "source_url": null,
+      "response_url": null,
+      "request": {
+        "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+        "path": "projects/PXD000376",
+        "max_items": 3,
+        "save_raw": true,
+        "timeout_sec": 60
+      },
+      "started_at_utc": "2026-09-14T22:21:26.388889+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:21:26.933906+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [
+        {
+          "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD000376",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/plain;charset=UTF-8",
+            "Content-Length": "6686"
+          }
+        }
+      ],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/pride-project-refresh.json",
+        "sha256": "f98fe64f64a93521a4f64c573f1fd6a12c1b7cc3ac0080c3c01a89fb4f6f44d4",
+        "size_bytes": 6983
+      },
+      "error": null,
+      "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client",
+      "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/pride-skill/scripts/rest_request.py",
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "uniprot-human-lookup.request.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/uniprot-human-lookup.request.receipt.json",
+      "original_receipt_sha256": "13310cd0dd3ab13048cb3988927f5e7b20198b51ec05aa4af25d865ac55d6424",
+      "source_url": null,
+      "response_url": null,
+      "request": {
+        "base_url": "https://rest.uniprot.org",
+        "path": "uniprotkb/search",
+        "params": {
+          "query": "organism_id:9606",
+          "fields": "accession,gene_names",
+          "size": 10,
+          "format": "json"
+        },
+        "max_items": 10,
+        "save_raw": true,
+        "timeout_sec": 60
+      },
+      "started_at_utc": "2026-09-14T22:21:26.355264+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:21:27.118933+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606&fields=accession%2Cgene_names&size=10&format=json",
+          "status": 200,
+          "headers": {
+            "Content-Type": "application/json",
+            "Content-Encoding": "gzip",
+            "X-UniProt-Release": "2026_03",
+            "Link": "<https://rest.uniprot.org/uniprotkb/search?format=json&fields=accession,gene_names&query=organism_id%3A9606&cursor=1le4n4faph6gn9y9oo86m6e77f6q7dznl08q&size=10>; rel=\"next\"",
+            "X-Total-Results": "210706",
+            "X-UniProt-Release-Date": "02-September-2026"
+          }
+        }
+      ],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/uniprot-human-lookup.json",
+        "sha256": "9610ebb34b8181cb3e095f37950756dc775df65f2025a8d22afc904db2d1ccd5",
+        "size_bytes": 5941
+      },
+      "error": null,
+      "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client",
+      "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/scripts/rest_request.py",
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "uniprot-human-page000.request.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/uniprot-human-page000.request.receipt.json",
+      "original_receipt_sha256": "796d8b6cd1d2f482f583b982ec9ddb4bd5abfe7c2b63f0b1e3cc8538f01404c1",
+      "source_url": null,
+      "response_url": null,
+      "request": {
+        "base_url": "https://rest.uniprot.org",
+        "path": "uniprotkb/search",
+        "params": {
+          "query": "organism_id:9606",
+          "format": "fasta",
+          "includeIsoform": "true",
+          "size": 500
+        },
+        "response_format": "text",
+        "max_items": 1,
+        "timeout_sec": 60,
+        "save_raw": true
+      },
+      "started_at_utc": "2026-09-14T22:32:31.021729+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:32:34.070515+00:00",
+      "status": 200,
+      "headers": {},
+      "service_response_headers": [
+        {
+          "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606&format=fasta&includeIsoform=true&size=500",
+          "status": 200,
+          "headers": {
+            "Content-Type": "text/plain;format=fasta",
+            "Content-Encoding": "gzip",
+            "X-UniProt-Release": "2026_03",
+            "Link": "<https://rest.uniprot.org/uniprotkb/search?format=fasta&includeIsoform=true&query=organism_id%3A9606&cursor=c9bacmxsqhkqgdw9g4qn6zdyn9hm2wj8pk1f8&size=500>; rel=\"next\"",
+            "X-Total-Results": "232837",
+            "X-UniProt-Release-Date": "02-September-2026"
+          }
+        }
+      ],
+      "artifact": {
+        "local_path": "data/raw/ubash3a-proteomics-specificity/uniprot-human-page000.fasta",
+        "sha256": "e59c7dbe523b1a21c0c1245e3dfbbd1eb1a42f9e5bc2ce5966072cc552f2aaa8",
+        "size_bytes": 358387
+      },
+      "error": null,
+      "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client",
+      "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/scripts/rest_request.py",
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    },
+    {
+      "receipt_id": "uniprot-human-proteins.request.receipt.json",
+      "original_receipt_path": "work/ubash3a-proteomics-specificity/uniprot-human-proteins.request.receipt.json",
+      "original_receipt_sha256": "43f5d137d20a3748d45ac138c38e130090851463e8fa9157eeaf40c54100bf42",
+      "source_url": null,
+      "response_url": null,
+      "request": {
+        "base_url": "https://rest.uniprot.org",
+        "path": "uniprotkb/stream",
+        "params": {
+          "query": "organism_id:9606",
+          "format": "fasta",
+          "includeIsoform": "true"
+        },
+        "response_format": "text",
+        "max_items": 1,
+        "timeout_sec": 120,
+        "save_raw": true
+      },
+      "started_at_utc": "2026-09-14T22:22:22.771548+00:00",
+      "completed_or_retrieved_at_utc": "2026-09-14T22:42:08.508124+00:00",
+      "status": null,
+      "headers": {},
+      "service_response_headers": [],
+      "artifact": null,
+      "error": {
+        "code": "network_error",
+        "message": "Request failed: Response ended prematurely"
+      },
+      "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client",
+      "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/scripts/rest_request.py",
+      "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+      "publisher_ftp_mdtm": null,
+      "publisher_bytes": null
+    }
+  ],
+  "initial_network_failures": [
+    {
+      "local_path": "work/ubash3a-proteomics-specificity/pride-project-refresh.initial-network-failure.json",
+      "sha256": "3bc9858fe0d13356a5dcbc977b79cfe33e3201ba9b0208f48dc9e8d8f2ff0537",
+      "record": {
+        "started_at_utc": "2026-09-14T22:20:50.700107+00:00",
+        "completed_at_utc": "2026-09-14T22:20:50.701667+00:00",
+        "request": {
+          "base_url": "https://www.ebi.ac.uk/pride/ws/archive/v2",
+          "path": "projects/PXD000376",
+          "max_items": 3,
+          "max_depth": 1,
+          "save_raw": true,
+          "raw_output_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-specificity/pride-project-refresh.json",
+          "timeout_sec": 60
+        },
+        "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/pride-skill/scripts/rest_request.py",
+        "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+        "response_headers_captured": [],
+        "result": {
+          "ok": false,
+          "error": {
+            "code": "network_error",
+            "message": "Request failed: HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Max retries exceeded with url: /pride/ws/archive/v2/projects/PXD000376 (Caused by NameResolutionError(\"HTTPSConnection(host='www.ebi.ac.uk', port=443): Failed to resolve 'www.ebi.ac.uk' ([Errno -2] Name or service not known)\"))"
+          },
+          "warnings": []
+        },
+        "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client"
+      }
+    },
+    {
+      "local_path": "work/ubash3a-proteomics-specificity/uniprot-human-lookup.initial-network-failure.json",
+      "sha256": "1eb2039b731d9a79f3acdcee0a5d62581315fcd2d717210fe5f4ec17d703edc9",
+      "record": {
+        "started_at_utc": "2026-09-14T22:20:50.699836+00:00",
+        "completed_at_utc": "2026-09-14T22:20:50.701068+00:00",
+        "request": {
+          "base_url": "https://rest.uniprot.org",
+          "path": "uniprotkb/search",
+          "params": {
+            "query": "organism_id:9606",
+            "fields": "accession,gene_names",
+            "size": 10,
+            "format": "json"
+          },
+          "record_path": "results",
+          "max_items": 10,
+          "max_depth": 1,
+          "save_raw": true,
+          "raw_output_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-specificity/uniprot-human-lookup.json",
+          "timeout_sec": 60
+        },
+        "client_path": "/home/riels/.codex/plugins/cache/openai-curated-remote/life-science-research/1.0.3/skills/uniprot-skill/scripts/rest_request.py",
+        "client_sha256": "78ddae6460e3dd701cda67df4454532899d20851f8212a74ec8d5b6e2988b690",
+        "response_headers_captured": [],
+        "result": {
+          "ok": false,
+          "error": {
+            "code": "network_error",
+            "message": "Request failed: HTTPSConnectionPool(host='rest.uniprot.org', port=443): Max retries exceeded with url: /uniprotkb/search?query=organism_id%3A9606&fields=accession%2Cgene_names&size=10&format=json (Caused by NameResolutionError(\"HTTPSConnection(host='rest.uniprot.org', port=443): Failed to resolve 'rest.uniprot.org' ([Errno -2] Name or service not known)\"))"
+          },
+          "warnings": []
+        },
+        "snapshot_format": "FASTA/text decoded as UTF-8 or JSON parsed and reserialized by the unchanged skill client"
+      }
+    }
+  ],
+  "uniprot_complete_pagination_record": "config/ubash3a-proteomics-reference-lock.json",
+  "reference_lock_sha256": "7fea437bb0c466a200d62a4035a5e5a0e2d6efab39d066bd6cf2d7908d40a49e",
+  "reference_sources": [
+    {
+      "set_id": "uniprot_2026_03_all_human_isoforms",
+      "source_group": "human_reference",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/uniprot-human-2026_03-paginated-with-isoforms.fasta",
+      "records": 232837,
+      "residues": 101169542,
+      "nonstandard_residues": {
+        "U": 66,
+        "X": 14266,
+        "Z": 2,
+        "B": 2
+      },
+      "size_bytes": 127856511,
+      "sha256": "d0332180d1a6b5fbf1e1d1a95f20f6f30402c684bdd77f30c4b8bbf410e20d81",
+      "release": "2026_03",
+      "canonical_records": 210706,
+      "isoform_records": 22131,
+      "reviewed_records_including_isoforms": 42562,
+      "unreviewed_records": 190275,
+      "release_date": "02-September-2026",
+      "source_url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id:9606&format=fasta&includeIsoform=true&size=500",
+      "completeness": "All 466 returned pages, stable release and total headers, unique record IDs and terminal no-next-link"
+    },
+    {
+      "set_id": "gencode_v50_comprehensive_translations",
+      "source_group": "human_reference",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/gencode.v50.pc_translations.fa.gz",
+      "records": 382428,
+      "residues": 156684458,
+      "nonstandard_residues": {
+        "X": 41789,
+        "*": 811,
+        "U": 156
+      },
+      "size_bytes": 21136991,
+      "sha256": "5d6408c3a1c22d864c96a55367cf5b69f1031dea1fe2cd6d03e366ae3fc56a45",
+      "release": "50",
+      "genome_build": "GRCh38.p14",
+      "publisher_md5": "509a89a4c3bb8c594baac50d4d57e589",
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz",
+      "scope": "Comprehensive PC, NMD, nonstop, IG, TR, polymorphic pseudogene and protein-coding LoF translations; chromosomes, scaffolds, patches and alternatives"
+    },
+    {
+      "set_id": "gpm_crap_20190304",
+      "source_group": "contaminant",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/crap.fasta",
+      "records": 116,
+      "residues": 38459,
+      "nonstandard_residues": {},
+      "size_bytes": 42092,
+      "sha256": "4b0e6e97ab1d618baa38be612a787d884a781e07f627b919c4b29ac064db5382",
+      "source_url": "ftp://ftp.thegpm.org/fasta/cRAP/crap.fasta",
+      "publisher_ftp_mdtm": "20190304195801",
+      "publisher_bytes": 42092
+    },
+    {
+      "set_id": "previous_twenty_models",
+      "source_group": "previous_models",
+      "local_path": "data/derived/ubash3a-consequences/proteins.fasta",
+      "records": 20,
+      "residues": 11116,
+      "nonstandard_residues": {},
+      "size_bytes": 13274,
+      "sha256": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+      "scope": "Five reference models x normal/plus29 x hypothetical A/C; conditional proteins, not measurements"
+    },
+    {
+      "set_id": "T29_conditional_alleles",
+      "source_group": "conditional_T29",
+      "local_path": "data/derived/ubash3a-alternative-ending/proteins.fasta",
+      "records": 2,
+      "residues": 964,
+      "nonstandard_residues": {},
+      "size_bytes": 1084,
+      "sha256": "9b5707a5c8fd7106ea01f2761e22747136f49dc9e29586967281a8c5faa96a27",
+      "scope": "Two conditional translations under the shared-start assumption; protein existence unconfirmed"
+    }
+  ],
+  "prior_inputs_preserved": {
+    "docs/ubash3a-proteomics-specificity-protocol.md": "3d10fcf081c4a8e58a7d6568a450599de5130fdac059473fd23ff3ecf0c53988",
+    "data/derived/ubash3a-alternative-ending/tryptic-candidates.csv": "1039c9386f2de50f97d4097d779bad4fdd7d36b9266c3988328248468451c13d",
+    "data/derived/ubash3a-alternative-ending/proteins.fasta": "9b5707a5c8fd7106ea01f2761e22747136f49dc9e29586967281a8c5faa96a27",
+    "data/derived/ubash3a-consequences/proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "data/derived/ubash3a-proteomics-readiness/PXD000376-file-inventory.csv": "855c6f1bbbad1c2ad3cda9ba97773ec670ad247f5cc8a1d51060dd00c40f2857",
+    "data/raw/ubash3a-proteomics-readiness/PXD000376-paper.html": "7c97d8d6dd1725087d2e30a3c60d6532f13ea7e6ff2c0fb105821cbc7e41288b"
+  },
+  "spectrum_download_manifest": "config/ubash3a-proteomics-spectrum-downloads.json",
+  "spectrum_download_manifest_sha256": "9842e327daa9f72cdc9dcd95e5d139fa889c6733b40056788fe79fb7d07b81d9",
+  "verified_raw_files": 14,
+  "verified_raw_bytes": 2387832397,
+  "all_recorded_input_hash_checks_pass": true,
+  "snapshot_limitations": [
+    "Service JSON was parsed and reserialized by the unchanged skill clients",
+    "UniProt FASTA was decoded as text and concatenated from every returned page with release and total checks",
+    "The original all-at-once UniProt stream failed and was not substituted for a complete export",
+    "Deposited pepXML files were range-read for complete search settings; their old peptide identifications were not used as new protein evidence",
+    "No publisher raw-spectrum checksum was supplied; source byte totals, HTTP metadata and computed SHA-256 are preserved",
+    "Large input caches and vendor binaries remain in ignored local storage; Git contains their provenance and small outputs",
+    "Live API endpoints can change releases; exact offline replay depends on the pinned local snapshots"
+  ]
+}

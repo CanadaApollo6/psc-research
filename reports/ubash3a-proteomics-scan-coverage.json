@@ -1,0 +1,24 @@
+{
+  "all_checks_pass": true,
+  "files": 14,
+  "original_converted_MS2": 66766,
+  "engine_loaded_queries": 55741,
+  "exported_XML_queries": 55741,
+  "loaded_queries_not_exported": 0,
+  "physical_MS2_with_reported_assignment": 54278,
+  "physical_MS2_without_reported_assignment": 12488,
+  "scan_identifiers_accounted_for_without_assignment": true,
+  "all_exported_scan_ordinals_native_IDs_and_precursor_retention_fields_checked": true,
+  "maximum_precursor_mz_difference": 5.0466621132727596e-05,
+  "maximum_retention_time_difference_seconds": 0.05040000000008149,
+  "field_precision_tolerances": {
+    "precursor_mz": 0.001,
+    "retention_seconds": 0.051
+  },
+  "absence_claim": false,
+  "limitation": "Search output cannot uniquely assign every missing result to preprocessing or lack of a reported competitor; loaded queries and physical MS2 scans are different units.",
+  "output_hashes": {
+    "data/derived/ubash3a-proteomics-spectra/scan-coverage-audit.csv": "0669786599ae5d4c9c498a0f2901426193e94afdc156ad10f0dd6de5736fa0e1",
+    "work/ubash3a-proteomics-spectra/analysis/scans-without-exported-assignment.csv": "504b4091abcb36b14288e19f05f3a2417d03163bd8bfee61b08befef3a9309e8"
+  }
+}

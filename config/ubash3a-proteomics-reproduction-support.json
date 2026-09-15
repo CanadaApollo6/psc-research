@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-09-14T23:48:33.216863+00:00",
+  "purpose": "Preserve the exact retrieval helpers and observed analysis environment; this is not a new source or method freeze",
+  "retrieval_helpers": {
+    "scripts/ubash3a_proteomics_sources/fetch_skill_source.py": {
+      "copied_from": "work/ubash3a-proteomics-specificity/fetch_skill_source.py",
+      "sha256": "3084d465398c69e538a0ecda4d27982a744fd9117ad5e07e9389196852b749ec",
+      "historical_helper_unchanged": true
+    },
+    "scripts/ubash3a_proteomics_sources/fetch_uniprot_pages.py": {
+      "copied_from": "work/ubash3a-proteomics-specificity/fetch_uniprot_pages.py",
+      "sha256": "b3d5b88c31b0fa369d2458dfd1709622699155523040873ae118210cb94736e4",
+      "historical_helper_unchanged": true
+    }
+  },
+  "request_templates": "Original public requests with only raw_output_path made repository-relative; copy templates into work/ubash3a-proteomics-specificity before using the helpers in a separate reproduction workspace",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_packages": {
+    "biopython": "1.88",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "requests": "2.34.2"
+  },
+  "recorded_tools": "config/ubash3a-proteomics-tool-install.json",
+  "metadata_reader_build": "config/ubash3a-proteomics-metadata-repair.json"
+}

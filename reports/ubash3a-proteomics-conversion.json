@@ -1,0 +1,881 @@
+{
+  "complete_experiment": true,
+  "files": [
+    {
+      "raw_file": "naive_CD4_RPLC_A1.raw",
+      "raw_sha256": "92a4207beedad74cfc576ee8eb4ca97aae87bce9970b1f2e2a48fcd4141ffac3",
+      "started_at_utc": "2026-09-14T23:22:00.962146+00:00",
+      "completed_at_utc": "2026-09-14T23:22:09.806722+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.mzML",
+      "mzml_sha256": "ee2cfad27a35f775eed1c7e26f6cc96bb3e0f6d817895e4ee3794caa19bfca33",
+      "mzml_bytes": 31488197,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-metadata.json",
+      "metadata_sha256": "e59d7c951888a7893a0565c01521a75ea0831783024fe64efd00e6d5cc7ec0ff",
+      "vendor_MS2_count": 5000,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "14416a7c82edb31bbf2dc911c20c728b2c997e58703b5a2281071c9c30101721",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "spectra": 5000,
+      "declared_spectrum_count": 5000,
+      "nonempty_spectra": 5000,
+      "centroid_spectra": 5000,
+      "total_fragment_points": 493439,
+      "charges": {
+        "1": 1500,
+        "2": 2881,
+        "3": 523,
+        "4": 88,
+        "5": 8
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 5000
+      },
+      "filter_analyzers": {
+        "FTMS": 5000
+      },
+      "first_scan": 2,
+      "last_scan": 7387,
+      "binary_and_scan_checks_pass": true,
+      "completion_status_lines": [
+        "2026-09-14 19:22:08 INFO Processing completed 0 errors, 0 warnings"
+      ]
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A10.raw",
+      "raw_sha256": "b376e892454676a581c64d95f041264366d15a70dc758e01b6af9046ee8b2898",
+      "started_at_utc": "2026-09-14T23:24:07.426913+00:00",
+      "completed_at_utc": "2026-09-14T23:24:16.626513+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A10.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.mzML",
+      "mzml_sha256": "ec7f8845df087f42b3e9592efd839b9a4faff3f2d86785a97233cb22f06d960f",
+      "mzml_bytes": 29135368,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10-metadata.json",
+      "metadata_sha256": "b634e4ea4d508646ac85ce669df4d86d765c26be95965218c588219811615488",
+      "vendor_MS2_count": 4691,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A10.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "3b66d2f7e1f4e6dced1d480361c594dd9470c547cd444bd8bb4b9395f148d936",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:24:15 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4691,
+      "declared_spectrum_count": 4691,
+      "nonempty_spectra": 4691,
+      "centroid_spectra": 4691,
+      "total_fragment_points": 424967,
+      "charges": {
+        "1": 1695,
+        "2": 2636,
+        "3": 354,
+        "4": 6
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4691
+      },
+      "filter_analyzers": {
+        "FTMS": 4691
+      },
+      "first_scan": 2,
+      "last_scan": 7176,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A11.raw",
+      "raw_sha256": "631611fed15098e34bc306c7737b2671d0743b3afa35f9809db7d2cbd1e4ca61",
+      "started_at_utc": "2026-09-14T23:24:16.732666+00:00",
+      "completed_at_utc": "2026-09-14T23:24:27.479052+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A11.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.mzML",
+      "mzml_sha256": "5897a10df71d3587ff4113172e93fe9b0dad443e0dc647939a8cefe40d862cb9",
+      "mzml_bytes": 27726271,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11-metadata.json",
+      "metadata_sha256": "a496dae7f7e55080f38b52a63ae6e72409c2912fbc7bf5757fd42984866238c4",
+      "vendor_MS2_count": 4582,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A11.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "d0b1fa282d60e228289c926883234c97c13e42b84e190575dce20ece87ac3179",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:24:26 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4582,
+      "declared_spectrum_count": 4582,
+      "nonempty_spectra": 4582,
+      "centroid_spectra": 4582,
+      "total_fragment_points": 348649,
+      "charges": {
+        "1": 3024,
+        "2": 1496,
+        "3": 62
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4582
+      },
+      "filter_analyzers": {
+        "FTMS": 4582
+      },
+      "first_scan": 2,
+      "last_scan": 7332,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A12.raw",
+      "raw_sha256": "ce51e8cd737344edc56657abe87a8a05f9d8d1593362d014b0a9577a8ddb3059",
+      "started_at_utc": "2026-09-14T23:32:57.615583+00:00",
+      "completed_at_utc": "2026-09-14T23:33:10.090879+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A12.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.mzML",
+      "mzml_sha256": "b89905128105f3269c651b180ee701fd6017a939685829a1b89647e70256e572",
+      "mzml_bytes": 32530278,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12-metadata.json",
+      "metadata_sha256": "a94f4b3bb5267eb8a9ddd7119b973f5b850e154868d21612721cbd11d08ad66e",
+      "vendor_MS2_count": 4906,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A12.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "0cd5efde4367ab895585b09944cbf416afdf4fbaea37fdaa9177e90bef375542",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:33:08 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4906,
+      "declared_spectrum_count": 4906,
+      "nonempty_spectra": 4906,
+      "centroid_spectra": 4906,
+      "total_fragment_points": 640487,
+      "charges": {
+        "1": 1971,
+        "2": 2719,
+        "3": 211,
+        "4": 5
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4906
+      },
+      "filter_analyzers": {
+        "FTMS": 4906
+      },
+      "first_scan": 2,
+      "last_scan": 7448,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A1-A4_pool.raw",
+      "raw_sha256": "62fbebe747ccaf59dd7e68da0d6ae992f64fdfb5a1553df70647f922c5258c21",
+      "started_at_utc": "2026-09-14T23:35:30.218240+00:00",
+      "completed_at_utc": "2026-09-14T23:35:41.159630+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1-A4_pool.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.mzML",
+      "mzml_sha256": "b210599d967967e73609974618727507e145375896259e42158a53870303201c",
+      "mzml_bytes": 35432583,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool-metadata.json",
+      "metadata_sha256": "5cab8945a5c8229f7885e37956a5bdfacb3786cc321e2548ed6a61412af3e68c",
+      "vendor_MS2_count": 5171,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A1-A4_pool.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "b49e539d09bc8ad31a873e9af71368e7b27dd9407683a1cf1f89bc882ebf9c82",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:35:40 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 5171,
+      "declared_spectrum_count": 5171,
+      "nonempty_spectra": 5171,
+      "centroid_spectra": 5171,
+      "total_fragment_points": 781052,
+      "charges": {
+        "1": 1641,
+        "2": 2870,
+        "3": 592,
+        "4": 60,
+        "5": 8
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 5171
+      },
+      "filter_analyzers": {
+        "FTMS": 5171
+      },
+      "first_scan": 2,
+      "last_scan": 7582,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A2.raw",
+      "raw_sha256": "9414c10845b86d50bb9bf4e636991a8126e4681532a45087b32e718518470cc8",
+      "started_at_utc": "2026-09-14T23:36:36.281859+00:00",
+      "completed_at_utc": "2026-09-14T23:36:47.445610+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A2.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.mzML",
+      "mzml_sha256": "fe0291a23dd0b6bb332ba33c5953acb860dda6281238b17b4e07077980b368f7",
+      "mzml_bytes": 30202610,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2-metadata.json",
+      "metadata_sha256": "c8a81a67e91f87342623f1b7615b94068642cdc23f5c7a265b60a0431cf3e1c7",
+      "vendor_MS2_count": 4872,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A2.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "d30f410a3bb6571e5b2ee93da3ac65ca213f5a7d080bed15fe82cd0ccdf05e55",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:36:46 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4872,
+      "declared_spectrum_count": 4872,
+      "nonempty_spectra": 4872,
+      "centroid_spectra": 4872,
+      "total_fragment_points": 432075,
+      "charges": {
+        "1": 1544,
+        "2": 3076,
+        "3": 224,
+        "4": 27,
+        "5": 1
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4872
+      },
+      "filter_analyzers": {
+        "FTMS": 4872
+      },
+      "first_scan": 2,
+      "last_scan": 7318,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A3.raw",
+      "raw_sha256": "6bfbfd8948c2459158adb2b8fe6bbfb35dfffbc0530b89ee7df3e5025f2446e0",
+      "started_at_utc": "2026-09-14T23:40:22.557335+00:00",
+      "completed_at_utc": "2026-09-14T23:40:32.827860+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A3.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.mzML",
+      "mzml_sha256": "55116456653853cd4b1a8e1db85f1b09e4951e0a695702eac7376028ff95ff70",
+      "mzml_bytes": 32514324,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3-metadata.json",
+      "metadata_sha256": "fb0dd55eec0b7fe6ebf1f409428b2bebe142d24d97eb09d049bbe9f431340d6b",
+      "vendor_MS2_count": 4949,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A3.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "36d8a659987f7cb96548a7eac3507b6377340bef972e0431a2238560d8c38b5b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:40:32 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4949,
+      "declared_spectrum_count": 4949,
+      "nonempty_spectra": 4949,
+      "centroid_spectra": 4949,
+      "total_fragment_points": 616598,
+      "charges": {
+        "1": 2058,
+        "2": 2496,
+        "3": 373,
+        "4": 22
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4949
+      },
+      "filter_analyzers": {
+        "FTMS": 4949
+      },
+      "first_scan": 2,
+      "last_scan": 7341,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A4.raw",
+      "raw_sha256": "d6782485658e1eed773d0f2a5ea7af6e77025bbbb3b3d1678eee8543e35acbdd",
+      "started_at_utc": "2026-09-14T23:45:57.942996+00:00",
+      "completed_at_utc": "2026-09-14T23:46:07.971915+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A4.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.mzML",
+      "mzml_sha256": "8cc9d4dd9d149ea37dd84ca390220874f3c5546397f484df09a1b46d92e1d3d5",
+      "mzml_bytes": 30708482,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4-metadata.json",
+      "metadata_sha256": "b029411ef07b703e882ae33d2bd2b2a0955e319bad475ac78009c313c2eee3db",
+      "vendor_MS2_count": 4830,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A4.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "9aa2508f4a9f184d1ebb660a9d4c55cf6fb656172bbf5f19a72b65c2ab99e75e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:46:07 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4830,
+      "declared_spectrum_count": 4830,
+      "nonempty_spectra": 4830,
+      "centroid_spectra": 4830,
+      "total_fragment_points": 501459,
+      "charges": {
+        "1": 1619,
+        "2": 2661,
+        "3": 521,
+        "4": 27,
+        "5": 2
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4830
+      },
+      "filter_analyzers": {
+        "FTMS": 4830
+      },
+      "first_scan": 2,
+      "last_scan": 7249,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A5.raw",
+      "raw_sha256": "eb42771635bbd0f4fcc11605643b83dedfffdea779a9e1b2cd79c68c0f00215d",
+      "started_at_utc": "2026-09-14T23:46:08.051150+00:00",
+      "completed_at_utc": "2026-09-14T23:46:14.452249+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.mzML",
+      "mzml_sha256": "1dd34d96862336faa4984c33e646d6c80c82b088d70b3b6af8b3601f5823d090",
+      "mzml_bytes": 10147227,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5-metadata.json",
+      "metadata_sha256": "34517eff9b592a618aa8c9c2ef3ff0f0a0c4df89c917ffbb619ed50360e74638",
+      "vendor_MS2_count": 1731,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "a14af99bc6fb353e2c3012316715fe4c8738a9eda702252a6fed3ce5acbeaaa2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:46:14 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 1731,
+      "declared_spectrum_count": 1731,
+      "nonempty_spectra": 1731,
+      "centroid_spectra": 1731,
+      "total_fragment_points": 99976,
+      "charges": {
+        "1": 1201,
+        "2": 514,
+        "3": 16
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 1731
+      },
+      "filter_analyzers": {
+        "FTMS": 1731
+      },
+      "first_scan": 2,
+      "last_scan": 5447,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A5_r.raw",
+      "raw_sha256": "f33f8f43f2191ca9dca6efb8f44795c9bbd9ac7d011bf43a771efedf03099419",
+      "started_at_utc": "2026-09-14T23:51:59.582130+00:00",
+      "completed_at_utc": "2026-09-14T23:52:12.148053+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5_r.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.mzML",
+      "mzml_sha256": "cf60d6aa8d862532e648b6fc212c031c365a530f9db1f2994579c7f2cea956f4",
+      "mzml_bytes": 43734520,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r-metadata.json",
+      "metadata_sha256": "87296633bee03dc4457f8c2477633ba26dc8258fffd77de1c70a05b9b4276265",
+      "vendor_MS2_count": 6738,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A5_r.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "7d54896da2d3dc76d2f0a49e35f690dd8b6ec60df9b8d268712cd8ee594e3755",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:52:10 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 6738,
+      "declared_spectrum_count": 6738,
+      "nonempty_spectra": 6738,
+      "centroid_spectra": 6738,
+      "total_fragment_points": 787133,
+      "charges": {
+        "1": 2962,
+        "2": 3511,
+        "3": 261,
+        "4": 4
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 6738
+      },
+      "filter_analyzers": {
+        "FTMS": 6738
+      },
+      "first_scan": 2,
+      "last_scan": 8530,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A6.raw",
+      "raw_sha256": "fcb59db81ce239c63ef070a4d4d6c080c6f26253b6a99ddec7d416dfa4a7ebb6",
+      "started_at_utc": "2026-09-14T23:56:07.283548+00:00",
+      "completed_at_utc": "2026-09-14T23:56:18.484917+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A6.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.mzML",
+      "mzml_sha256": "aed778fddc6e113448dfa151937c7ca8f94b80fdefc873a9aeb6151592ef6dd7",
+      "mzml_bytes": 36203440,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6-metadata.json",
+      "metadata_sha256": "0525d8b6a3c113dde2cd5930e7c7f3ceed62aaf257c4aa027b12d76967106edb",
+      "vendor_MS2_count": 5176,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A6.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "0799ade5a64eba343b1ad08e220f417fbfc929e705798469437cb69b1c38d2c4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:56:17 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 5176,
+      "declared_spectrum_count": 5176,
+      "nonempty_spectra": 5176,
+      "centroid_spectra": 5176,
+      "total_fragment_points": 856243,
+      "charges": {
+        "1": 1647,
+        "2": 3057,
+        "3": 447,
+        "4": 24,
+        "5": 1
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 5176
+      },
+      "filter_analyzers": {
+        "FTMS": 5176
+      },
+      "first_scan": 2,
+      "last_scan": 7583,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A7.raw",
+      "raw_sha256": "7929434c73b635e2bd01443264d8246b99ae93f699efb4b335183938b98bbb68",
+      "started_at_utc": "2026-09-14T23:56:18.585998+00:00",
+      "completed_at_utc": "2026-09-14T23:56:28.418991+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A7.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.mzML",
+      "mzml_sha256": "edebbd1987a26fe98250f0c6ae7f82525e7f4158aaf02cc42f015a4f883a9ba1",
+      "mzml_bytes": 26987518,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7-metadata.json",
+      "metadata_sha256": "db0ed87ee402249e7bd862c1cd43240bdf7c250adf83461f74cbb887848daac8",
+      "vendor_MS2_count": 4515,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A7.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "b2b46b0acaeb92af91f5ad235a907b240b1a1c344a8deb4ba2ee6f5f6e329a97",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 19:56:27 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4515,
+      "declared_spectrum_count": 4515,
+      "nonempty_spectra": 4515,
+      "centroid_spectra": 4515,
+      "total_fragment_points": 312470,
+      "charges": {
+        "1": 2187,
+        "2": 2199,
+        "3": 129
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4515
+      },
+      "filter_analyzers": {
+        "FTMS": 4515
+      },
+      "first_scan": 2,
+      "last_scan": 7095,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A8.raw",
+      "raw_sha256": "d440849b21a21942d05ca1eb69064309c722b90ff7dd11afedb8ef71cf9f00d7",
+      "started_at_utc": "2026-09-15T00:02:28.515892+00:00",
+      "completed_at_utc": "2026-09-15T00:02:37.285418+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A8.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.mzML",
+      "mzml_sha256": "4fcae32459669831714edf7fee6944f5ce16824d5b52c79a76bd71530dd7d19a",
+      "mzml_bytes": 31366747,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8-metadata.json",
+      "metadata_sha256": "35c81d790824834ea38e333c1905be9f46e69e942fac382825693d3cf3f7cb9b",
+      "vendor_MS2_count": 4897,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A8.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "36b382682e7330507190b79efe00325ff1180248449e5e817b93a2c9ae73246b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 20:02:36 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4897,
+      "declared_spectrum_count": 4897,
+      "nonempty_spectra": 4897,
+      "centroid_spectra": 4897,
+      "total_fragment_points": 535212,
+      "charges": {
+        "1": 1720,
+        "2": 2719,
+        "3": 450,
+        "4": 8
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4897
+      },
+      "filter_analyzers": {
+        "FTMS": 4897
+      },
+      "first_scan": 2,
+      "last_scan": 7276,
+      "binary_and_scan_checks_pass": true
+    },
+    {
+      "raw_file": "naive_CD4_RPLC_A9.raw",
+      "raw_sha256": "547e65c318f118ef7c135bbbb8c311cdf79a27190cab4ec26172340298f6ab40",
+      "started_at_utc": "2026-09-15T00:04:32.370180+00:00",
+      "completed_at_utc": "2026-09-15T00:04:41.074197+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+        "-i",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A9.raw",
+        "-o",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted",
+        "-f",
+        "1",
+        "-m",
+        "2",
+        "-L",
+        "2"
+      ],
+      "exit_code": 0,
+      "mzml_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.mzML",
+      "mzml_sha256": "3a2f0a4d888e3bf9380e6d9ce0528f0c4c9a677d18dc944a5bf8cd63da1a6d5e",
+      "mzml_bytes": 29386496,
+      "metadata_path": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9-metadata.json",
+      "metadata_sha256": "be691d29d24d3dda941ab5356b46547d64e00c87490e19d4b0a4dc44d4851083",
+      "vendor_MS2_count": 4708,
+      "metadata_args": [
+        "dotnet",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/ubash3a-proteomics-spectra/naive_CD4_RPLC_A9.raw",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9-metadata.json"
+      ],
+      "metadata_method": "Independent single-pass loop over vendor scan filters; no spectrum scoring",
+      "instrument_model": "LTQ Orbitrap Velos",
+      "vendor_count_equals_independent_mzml_count": true,
+      "all_vendor_MS2_scan_identifiers_equal_mzml": true,
+      "stdout_sha256": "b4b2c0f2c63009f945976d67b3283431aad9a04340b669128e60e79b05ac7953",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "warning_lines": [],
+      "completion_status_lines": [
+        "2026-09-14 20:04:40 INFO Processing completed 0 errors, 0 warnings"
+      ],
+      "spectra": 4708,
+      "declared_spectrum_count": 4708,
+      "nonempty_spectra": 4708,
+      "centroid_spectra": 4708,
+      "total_fragment_points": 437308,
+      "charges": {
+        "1": 1621,
+        "2": 2687,
+        "3": 390,
+        "4": 10
+      },
+      "activation": {
+        "beam-type collision-induced dissociation": 4708
+      },
+      "filter_analyzers": {
+        "FTMS": 4708
+      },
+      "first_scan": 2,
+      "last_scan": 7170,
+      "binary_and_scan_checks_pass": true
+    }
+  ],
+  "tool_binary_sha256": "867095af5e4a72471e17ef7ec37a5ae7f7224b07642c95deba6026fd939c1414",
+  "completed_at_utc": "2026-09-15T00:04:41.387735+00:00",
+  "total_MS2_spectra": 66766,
+  "all_conversion_and_content_checks_pass": true,
+  "qualification_limitation": "Independent mzML decoding and counts; both converter and metadata counts use the vendor reader, not an independent instrument measurement",
+  "metadata_export_repair": "A separate single-pass vendor-metadata loop avoids the development writer's repeated whole-file scan loop and mislabeled MS2 field. All MS2 scan IDs and counts match independently parsed mzML; publisher code and repair are pinned."
+}

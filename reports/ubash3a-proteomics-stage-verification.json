@@ -1,0 +1,420 @@
+{
+  "all_checks_pass": true,
+  "complete_bounded_roadmap_direction": 3,
+  "verified_at_utc": "2026-09-15T00:42:08.362792+00:00",
+  "baseline_commit": "c7bccc3c84cf8559b92759cfcec063d3f194cecf",
+  "baseline_tracked_files": 775,
+  "prior_files_preserved_byte_for_byte": 770,
+  "intentional_navigation_changes": [
+    "README.md",
+    "docs/computational-followup-roadmap.md",
+    "docs/data-sources.md",
+    "docs/evidence-log.md",
+    "docs/research-plan.md"
+  ],
+  "source_reference_records": 615403,
+  "UniProt_pages_rechecked": 466,
+  "complete_raw_files_rechecked": 14,
+  "complete_raw_bytes_rechecked": 2387832397,
+  "all_14_search_outputs_and_input_hashes_rechecked": true,
+  "original_analysis_start_source_manifest_and_parameters_preserved": true,
+  "primary_output_bytes_unchanged_by_verifier_format_repair": true,
+  "candidate_assignments": 0,
+  "ordinary_UBASH3A_spectrum_q01_assignments": 0,
+  "biological_absence_claim": false,
+  "new_laboratory_or_personal_genome_work": false,
+  "software_tests": {
+    "passed": 238,
+    "started_at_utc": "2026-09-15T00:31:21.196925+00:00",
+    "completed_at_utc": "2026-09-15T00:32:18.488296+00:00",
+    "exit_code": 0,
+    "log": "work/ubash3a-proteomics-spectra/post-parser-repair-test-suite.log",
+    "log_sha256": "48408ef3a475de2aff273a7aaacc819daf545b7101ceda42c49e8b21b523994c",
+    "reason": "Required final regression check after real-output dense-rank/native-scan and XML/PIN label parsing repairs; eight new regression tests."
+  },
+  "verified_report_hashes": {
+    "reports/ubash3a-proteomics-specificity-verification.json": "26702b8610ff3b58a0b861b61200e84ad4b57c6dbf02fe839e038974ebf09b50",
+    "reports/ubash3a-proteomics-comet-qualification.json": "68e6ff367a92cff81960894e8a900291d3a4c12945bbdca9be824c2a8e9106f7",
+    "reports/ubash3a-proteomics-search-verification.json": "0566cfe90dd897a1fb3b95e41b17c9f7393bb5127feafe45551b7ecc08fca926",
+    "reports/ubash3a-proteomics-scan-coverage.json": "78e77351e7d9ff0662910a5fa263111538ce20115be22f1a590d0bf52d45fa41",
+    "reports/ubash3a-proteomics-replay-verification.json": "366d4fa1f454dc9cf3998af5e2b232b42081c614f623da48644e0d9aea22e49f"
+  },
+  "relative_markdown_links_checked": 309,
+  "delivery_file_count_including_this_record": 94,
+  "delivery_files": {
+    "README.md": {
+      "sha256": "4c4d7ecdf0f8e40c1de529a09f78e9bee83b499bda04f3e334046cb535ba48a0",
+      "size_bytes": 29572
+    },
+    "config/ubash3a-proteomics-analysis-start.json": {
+      "sha256": "e33b7fd004c08e4e95ce21394524dfdc92917899944fe0334bf4c04424a75ce0",
+      "size_bytes": 1393
+    },
+    "config/ubash3a-proteomics-comet.params": {
+      "sha256": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+      "size_bytes": 9119
+    },
+    "config/ubash3a-proteomics-counting-scope.json": {
+      "sha256": "fc65513426adf5de64ae4556a62a3127246b10a7d33ead8e544e051661660b87",
+      "size_bytes": 2986
+    },
+    "config/ubash3a-proteomics-execution-order.json": {
+      "sha256": "acf5650fad28c6846b1f7abc26dfe8fc8f96dee5484550c7a635d0ea03f620f7",
+      "size_bytes": 1268
+    },
+    "config/ubash3a-proteomics-metadata-repair.json": {
+      "sha256": "089fd508da5363aacba9ce77576c9a9a0d7dc69b0779a1650d463117c0295097",
+      "size_bytes": 2901
+    },
+    "config/ubash3a-proteomics-output-parser-repair.json": {
+      "sha256": "447ae97a5e51bf402d2178c0491aa59ad7c2cdd7309f59fa07365e365f954c94",
+      "size_bytes": 4067
+    },
+    "config/ubash3a-proteomics-reference-lock.json": {
+      "sha256": "7fea437bb0c466a200d62a4035a5e5a0e2d6efab39d066bd6cf2d7908d40a49e",
+      "size_bytes": 493821
+    },
+    "config/ubash3a-proteomics-reproduction-support.json": {
+      "sha256": "657d178dcbb1e2944de4ae31cca1470b1da6a26cf46528bf8dad297a027d9ca4",
+      "size_bytes": 1340
+    },
+    "config/ubash3a-proteomics-search-database.json": {
+      "sha256": "fc151781477cab47054ad1c883c72b33fbd279bbea0f4e55b087a073f493be97",
+      "size_bytes": 1448
+    },
+    "config/ubash3a-proteomics-search-plan.json": {
+      "sha256": "f98d063cc2c8dcaea3ef8e14d2f07edee0d9bff4542625aa5711c951bc61ca07",
+      "size_bytes": 785
+    },
+    "config/ubash3a-proteomics-search-start.json": {
+      "sha256": "e4050d9201debc2829833d459e70efaaf6c39a60b4fb071633b551d5d7a0eaa5",
+      "size_bytes": 1972
+    },
+    "config/ubash3a-proteomics-sequence-handling.json": {
+      "sha256": "bbdae15c2349c315399089581d5f8c62a738cfa47969de97753a8478bff9b5b8",
+      "size_bytes": 1268
+    },
+    "config/ubash3a-proteomics-source-requests/pride-project-refresh.request.json": {
+      "sha256": "caeb48acf3f60c56934aae45c40c076efeb873c4ec50d53a7dbd5282c450ef20",
+      "size_bytes": 285
+    },
+    "config/ubash3a-proteomics-source-requests/uniprot-human-lookup.request.json": {
+      "sha256": "a3a0aa0c36dfc9a8ebe0ac8d15d3b78273a6040c4335362b25b85d5486990c8f",
+      "size_bytes": 423
+    },
+    "config/ubash3a-proteomics-source-requests/uniprot-human-page000.request.json": {
+      "sha256": "46ee8e819f0b321709a2e9a6678fdc1aba87bbb80e64bb7936f5b525b1629b8c",
+      "size_bytes": 401
+    },
+    "config/ubash3a-proteomics-source-requests/uniprot-human-proteins.request.json": {
+      "sha256": "7cf9ee5d428b7823a5f0f0dca0c4cbadbd467ddf7fcd7de229dee5616040d94d",
+      "size_bytes": 399
+    },
+    "config/ubash3a-proteomics-sources.json": {
+      "sha256": "ab3f9fcf6b929dd8e76fb91103ff314c3f596c14f0548cd7bcb8e16da5e964fb",
+      "size_bytes": 67583
+    },
+    "config/ubash3a-proteomics-specificity-plan.json": {
+      "sha256": "02bd15e399486e954d22d82435b32c82a7cf32b576d659b463a7d3c9a351d5c7",
+      "size_bytes": 1448
+    },
+    "config/ubash3a-proteomics-spectrum-download-start.json": {
+      "sha256": "f9d8f5e7363841578a9ac4b566ea91dff02afeb4ff5414eff79a79827aac6a0a",
+      "size_bytes": 367
+    },
+    "config/ubash3a-proteomics-spectrum-downloads.json": {
+      "sha256": "9842e327daa9f72cdc9dcd95e5d139fa889c6733b40056788fe79fb7d07b81d9",
+      "size_bytes": 20968
+    },
+    "config/ubash3a-proteomics-spectrum-selection.json": {
+      "sha256": "c70d1786b3a3ec3b716e507411e5df224caeee41527c1612d38618d75dac8337",
+      "size_bytes": 6724
+    },
+    "config/ubash3a-proteomics-tool-install.json": {
+      "sha256": "19c8f63d060b3330367b31ca6bce2b8ec1a98aae5308bf6fda85ef7ecbb42184",
+      "size_bytes": 2812
+    },
+    "config/ubash3a-proteomics-verifier-format-repair.json": {
+      "sha256": "b3928ef4c0dd42dac69bc40e9f0aed811af3fecad873b9cdab87d1913671368a",
+      "size_bytes": 4059
+    },
+    "config/ubash3a-proteomics-verifier-repair.json": {
+      "sha256": "537a5c54478e0c2e30d80330e4210e9a368e076d6fa496073f83adb84c33d8c0",
+      "size_bytes": 1257
+    },
+    "data/derived/ubash3a-proteomics-specificity/all-sequence-matches.csv": {
+      "sha256": "3c50749e51fafb90b206748a08f049733542ac0f85378cce3ab99134c6a97898",
+      "size_bytes": 3948
+    },
+    "data/derived/ubash3a-proteomics-specificity/candidate-decoy-collisions.csv": {
+      "sha256": "ac7a83c858ff5673a8f32247517412a2d8e29b26578c75a8edfc44192a85def4",
+      "size_bytes": 180
+    },
+    "data/derived/ubash3a-proteomics-specificity/candidate-specificity.csv": {
+      "sha256": "12c93c63fc6cc58ee4dc881380addcf1e57d6fb9c811ea3db3f5744d1abbc579",
+      "size_bytes": 1302
+    },
+    "data/derived/ubash3a-proteomics-specificity/experiment-raw-mapping.csv": {
+      "sha256": "e95054916618ab305ebe621efdb71f69a13cee8bb0848f02a5dcab0401231239",
+      "size_bytes": 44750
+    },
+    "data/derived/ubash3a-proteomics-specificity/experiment-search-metadata.csv": {
+      "sha256": "1feb1cd8db9cdab9de017bc69840b8ab1d894f5a45b0c102f2adb2204111c40b",
+      "size_bytes": 3546
+    },
+    "data/derived/ubash3a-proteomics-specificity/metadata-summary.json": {
+      "sha256": "72e955d8e020e8bbc595d63d22f4334632a303e6a052cf9b58797eeff019cee8",
+      "size_bytes": 609
+    },
+    "data/derived/ubash3a-proteomics-specificity/reference-summary.csv": {
+      "sha256": "ab031ff2cc431b7ef4df3bb8d21450e5d6f908369cde31e03f8621227af4ec7b",
+      "size_bytes": 1105
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/01BR1_PAGE_IOB.pep.xml.txt": {
+      "sha256": "5383d7759c343e3dc774deadd3dc15883314a76a1b4b01ce93d2547f2c0cc291",
+      "size_bytes": 9972
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/02BR1_PAGE_Core.pep.pep.xml.txt": {
+      "sha256": "548700b0eb692eba3a67ee6d79f367f29aa8a288444852fbad53bc39f4461ac8",
+      "size_bytes": 8662
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/03BR1_PAGE_AP.pep.xml.txt": {
+      "sha256": "299367db7c73c17bd23a13b219c107b9e898a5a8e799c453d771a1604be57388",
+      "size_bytes": 7013
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/04BR2_Nuclear_IOB.pep.xml.txt": {
+      "sha256": "00238937e1a8e6a0b4e458eb51d4bff5fb570e3e4333775affa7e759b239fa0e",
+      "size_bytes": 8944
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/05BR2_nonNuclear_IOB.pep.xml.txt": {
+      "sha256": "4cdc71999bf3e324c5cc59d8ad7ffb8eed92c70f47fab7c66d17a251bec00014",
+      "size_bytes": 8945
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/07BR3_1SCX_bRP_Core.pep.xml.txt": {
+      "sha256": "2d0424c166b7b993708dbb6eda2ca8e145fc0a8f74ee5006c076681ede289078",
+      "size_bytes": 8710
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/08BR3_2SCX_bRP_Core.pep.xml.txt": {
+      "sha256": "afc22cf034bb692d8d3ea2587cab9bb12c3e79d4dc05a6f72e66a10c3c8572f9",
+      "size_bytes": 8966
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/09BR3_1SCX_bRP_AP.pep.xml.txt": {
+      "sha256": "4d0c8a45f54e0edd04dbc210f9cfbb14bc90dbaa84550f4b132c8da4d4ab6742",
+      "size_bytes": 6541
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/10BR3_2SCX_bRP_AP.pep.xml.txt": {
+      "sha256": "04cdb3d2e3a3b0d0b7d873dcce1110164407469dd5afe7ea5b221c9adbe4114d",
+      "size_bytes": 6821
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/11BR4_GELFREE-PAGE_AP.pep.xml.txt": {
+      "sha256": "b5b41c491052a6c8e72cc4b9b3c4b549992178fdfe3b95203dc3c91e6c35015b",
+      "size_bytes": 9541
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/GetnetD_iTRAQ_RARO.pep.xml.txt": {
+      "sha256": "5aafdcf6d5769a2e19e1787d851731f999336a6ad8891804e9bc2c02f6876a45",
+      "size_bytes": 5850
+    },
+    "data/derived/ubash3a-proteomics-specificity/search-settings/NaiveCD4T_nuclear.pep.xml.txt": {
+      "sha256": "5658c01cd8e6d0c4830dc9ed54a191888d3bca7e77cbdda67b87958f1e257cf3",
+      "size_bytes": 5950
+    },
+    "data/derived/ubash3a-proteomics-specificity/specificity-summary.json": {
+      "sha256": "28a0935b6acc277e040f952d1139ee037317aba29761eeb5b205eeab8a584b40",
+      "size_bytes": 740
+    },
+    "data/derived/ubash3a-proteomics-specificity/ubash3a-search-database-members.csv": {
+      "sha256": "5a4ec01e61b59c2ce84d8892b5f731621254defc6a1ff6418927bd6b1921da5a",
+      "size_bytes": 11654
+    },
+    "data/derived/ubash3a-proteomics-spectra/candidate-all-reported-assignments.csv": {
+      "sha256": "132172f3bb47438af80caf82f0a7cb4812957ca00348c3ec3079ad587cc21a46",
+      "size_bytes": 555
+    },
+    "data/derived/ubash3a-proteomics-spectra/candidate-fragment-review.csv": {
+      "sha256": "277b9491f77e45fedcf30e8229e89c18a7fab24b6baa08c500d9badd4bf82f7b",
+      "size_bytes": 60
+    },
+    "data/derived/ubash3a-proteomics-spectra/candidate-search-summary.csv": {
+      "sha256": "9c05faee7c40c8f56b8b9e75b528db5fc7809b1c3b6e1ef522f0e5e038812ef0",
+      "size_bytes": 828
+    },
+    "data/derived/ubash3a-proteomics-spectra/file-search-summary.csv": {
+      "sha256": "2d5bb4088315841ce76e4a8458d8216c8db3d720a183f6adf7b81d02e2a697d5",
+      "size_bytes": 1169
+    },
+    "data/derived/ubash3a-proteomics-spectra/scan-coverage-audit.csv": {
+      "sha256": "0669786599ae5d4c9c498a0f2901426193e94afdc156ad10f0dd6de5736fa0e1",
+      "size_bytes": 4108
+    },
+    "data/derived/ubash3a-proteomics-spectra/search-summary.json": {
+      "sha256": "45021e96e1614f1577ec39f7c2b17cd3194134f9fdcf129ce658e62e6f411424",
+      "size_bytes": 4399
+    },
+    "data/derived/ubash3a-proteomics-spectra/ubash3a-spectrum-winners.csv": {
+      "sha256": "85661149f5a1f67e546f29634cf6ec1ac19b32188524f14634569b76386ded58",
+      "size_bytes": 1218
+    },
+    "docs/computational-followup-roadmap.md": {
+      "sha256": "a93c873816a1f04842ca0edcfe7ac4f5fc6348f23b59b19aaadaaf7f8ac84480",
+      "size_bytes": 6473
+    },
+    "docs/data-sources.md": {
+      "sha256": "274f1d07fd2bd1ce166fa381969bcc82a6f719ba4ca3d529a5d91ddf329c09be",
+      "size_bytes": 50328
+    },
+    "docs/evidence-log.md": {
+      "sha256": "3117dd92de024a4b4f0e2fa1b874636c9758b51baf5509dbcaca82001f55065f",
+      "size_bytes": 71584
+    },
+    "docs/research-plan.md": {
+      "sha256": "a7a688f695450c5280b4f78c4dfff4758f9c3261682bb9d2e9c87997f00d6b12",
+      "size_bytes": 26957
+    },
+    "docs/ubash3a-proteomics-reproduction.md": {
+      "sha256": "d11b197953978cc45e652ada3b395431087497048cff41fdffcdab23eaf6c446",
+      "size_bytes": 12383
+    },
+    "docs/ubash3a-proteomics-specificity-protocol.md": {
+      "sha256": "3d10fcf081c4a8e58a7d6568a450599de5130fdac059473fd23ff3ecf0c53988",
+      "size_bytes": 4273
+    },
+    "docs/ubash3a-proteomics-spectrum-protocol.md": {
+      "sha256": "f0e565c64104141e7d8352b259dc65d5c2aa0fc25b71355ca002f0d74ab305b6",
+      "size_bytes": 6747
+    },
+    "reports/ubash3a-proteomics-analysis.md": {
+      "sha256": "c5e67888b8491c6afcd23f729a01776fef1f6b974c2c424c3c1458fc34536101",
+      "size_bytes": 17151
+    },
+    "reports/ubash3a-proteomics-comet-qualification.json": {
+      "sha256": "68e6ff367a92cff81960894e8a900291d3a4c12945bbdca9be824c2a8e9106f7",
+      "size_bytes": 6225
+    },
+    "reports/ubash3a-proteomics-conversion.json": {
+      "sha256": "b3164e8ba201e06459b24c30e75bb42544fb457555ece9a612f6d9b6746737d6",
+      "size_bytes": 42253
+    },
+    "reports/ubash3a-proteomics-first-conversion.json": {
+      "sha256": "4cc5977da89bec69f31a379c41766285dedf122885c39b709b9f9213db13091a",
+      "size_bytes": 3690
+    },
+    "reports/ubash3a-proteomics-fragment-review.json": {
+      "sha256": "5c30570c926389506ad45de83d68eb6f0c0077af01a6240f33360054de894d74",
+      "size_bytes": 1115
+    },
+    "reports/ubash3a-proteomics-replay-verification.json": {
+      "sha256": "366d4fa1f454dc9cf3998af5e2b232b42081c614f623da48644e0d9aea22e49f",
+      "size_bytes": 8353
+    },
+    "reports/ubash3a-proteomics-scan-coverage.json": {
+      "sha256": "78e77351e7d9ff0662910a5fa263111538ce20115be22f1a590d0bf52d45fa41",
+      "size_bytes": 1192
+    },
+    "reports/ubash3a-proteomics-search-execution.json": {
+      "sha256": "f376e5497012e42af27850a0b37e0b913e88ac9f3f02223fa9f439b854d618cc",
+      "size_bytes": 25273
+    },
+    "reports/ubash3a-proteomics-search-verification.json": {
+      "sha256": "0566cfe90dd897a1fb3b95e41b17c9f7393bb5127feafe45551b7ecc08fca926",
+      "size_bytes": 1594
+    },
+    "reports/ubash3a-proteomics-specificity-verification.json": {
+      "sha256": "26702b8610ff3b58a0b861b61200e84ad4b57c6dbf02fe839e038974ebf09b50",
+      "size_bytes": 1073
+    },
+    "requirements-ubash3a-proteomics.txt": {
+      "sha256": "0a380dde0c8eb6740e11c6b2418eee6cdc04b0df24461aa03cfb9774ae28e749",
+      "size_bytes": 133
+    },
+    "scripts/ProteomicsRawMetadata/Program.cs": {
+      "sha256": "a8d8741d8f56d15001524cf4b71ecadcf768ec9d454287e436fd834a688d2ea4",
+      "size_bytes": 2198
+    },
+    "scripts/ProteomicsRawMetadata/ProteomicsRawMetadata.csproj": {
+      "sha256": "998ce04fc8238889fb94718f2016445f21e792543e07c967fa9c2d104b382217",
+      "size_bytes": 649
+    },
+    "scripts/analyze_ubash3a_proteomics_specificity.py": {
+      "sha256": "d2de5baba6ec9a011fb202a9b355e1cbecbafac336a34246bdaefc435b7a296c",
+      "size_bytes": 14367
+    },
+    "scripts/analyze_ubash3a_proteomics_spectra.py": {
+      "sha256": "e546c9f232b40d9546921d00f924215de0b5e7062bd2b09cdc235d91e63707b1",
+      "size_bytes": 17088
+    },
+    "scripts/audit_ubash3a_proteomics_scan_coverage.py": {
+      "sha256": "523f0671d830e7b128b3cbeb1d8beebc72a79c494cd4a873dde5d6ab5de83741",
+      "size_bytes": 7438
+    },
+    "scripts/build_ubash3a_proteomics_source_manifest.py": {
+      "sha256": "f27461a74cd111e09ef82bc028d6d198d38f17aee909db33ca1c614c8df362ed",
+      "size_bytes": 5920
+    },
+    "scripts/fetch_ubash3a_proteomics_spectra.py": {
+      "sha256": "78f64a326a0f4f85ee214212320ecace95a39af7c7c4fd90664cec89ed2a9c46",
+      "size_bytes": 4600
+    },
+    "scripts/prepare_ubash3a_proteomics_references.py": {
+      "sha256": "04660d9548d5fa0a8e244007757a6ffe919affa3a18b1e7fc841dbe40dde9147",
+      "size_bytes": 11039
+    },
+    "scripts/qualify_ubash3a_comet.py": {
+      "sha256": "16dcc7bf1416b78e16a20022a49d2f99e4a619aa538d84bc63fe6ce817c31947",
+      "size_bytes": 6823
+    },
+    "scripts/qualify_ubash3a_spectra.py": {
+      "sha256": "c83dcfb956f6097bc2eda953b70e72d025864d0e6984cebfa9cc1575e2892c8c",
+      "size_bytes": 12880
+    },
+    "scripts/qualify_ubash3a_spectra_as_ready.py": {
+      "sha256": "8d3d000a050da319058e3ccba8d9bae13841e92c4a2c4796d9d66861980e055a",
+      "size_bytes": 2134
+    },
+    "scripts/replay_ubash3a_proteomics.py": {
+      "sha256": "906924a408b1296418965b3fe9a41e9b32fe3a69a06294eca5c22c606a949cdd",
+      "size_bytes": 3862
+    },
+    "scripts/review_ubash3a_candidate_fragments.py": {
+      "sha256": "444af8c61efdc5fcb3ea5b9cc9583e1c7963a3a2f1bb49c6b67730f78b04ca5e",
+      "size_bytes": 10764
+    },
+    "scripts/run_ubash3a_proteomics_search.py": {
+      "sha256": "98afa2388b7b45ed8ece225f241f631f291c17634944cdf0afe853ad24ff3624",
+      "size_bytes": 7581
+    },
+    "scripts/ubash3a_proteomics_sources/fetch_skill_source.py": {
+      "sha256": "3084d465398c69e538a0ecda4d27982a744fd9117ad5e07e9389196852b749ec",
+      "size_bytes": 2483
+    },
+    "scripts/ubash3a_proteomics_sources/fetch_uniprot_pages.py": {
+      "sha256": "b3d5b88c31b0fa369d2458dfd1709622699155523040873ae118210cb94736e4",
+      "size_bytes": 4322
+    },
+    "scripts/verify_ubash3a_proteomics_search.py": {
+      "sha256": "da1e1f12b8c78ae9fb72592c7266b497514eaf69d763b360acc81f658dffd600",
+      "size_bytes": 14632
+    },
+    "scripts/verify_ubash3a_proteomics_specificity.py": {
+      "sha256": "585e06b4c3f199d20b8904c657070abcb8485ac80cf9c1a3f6c41ca034e99931",
+      "size_bytes": 5327
+    },
+    "scripts/verify_ubash3a_proteomics_stage.py": {
+      "sha256": "7178a223176ce0ebb19616939c36d018d03e0cb9b4866b0797d6bde6b9cdd173",
+      "size_bytes": 9950
+    },
+    "tests/test_ubash3a_proteomics_fdr.py": {
+      "sha256": "c95d4060f0b74a967f844ed5b3ea834a6db273f72aef8035843e0f0ae5a133d3",
+      "size_bytes": 7538
+    },
+    "tests/test_ubash3a_proteomics_specificity.py": {
+      "sha256": "9bf11307adbd892f2ad3134a6b74196d4b5f48c37ef75fe2022ecde5ccc9533c",
+      "size_bytes": 2769
+    },
+    "tests/test_ubash3a_spectra_qualification.py": {
+      "sha256": "1c26aac817cacd873e0f5f67565c732490fbaddec85f82630fbad3a3b41ca648",
+      "size_bytes": 1558
+    }
+  },
+  "self_excluded_from_file_hashes": "reports/ubash3a-proteomics-stage-verification.json",
+  "completion_note": "Both failed analysis/verifier attempts remain preserved as historical logs; completed independent verification, scan coverage and replay records define the final status. No spectrum search or biological threshold was changed to obtain the result."
+}

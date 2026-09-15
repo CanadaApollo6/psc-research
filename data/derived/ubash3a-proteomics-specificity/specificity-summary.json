@@ -1,0 +1,16 @@
+{
+  "analysis": "sequence specificity only; no new spectrum identifications",
+  "plan_sha256": "02bd15e399486e954d22d82435b32c82a7cf32b576d659b463a7d3c9a351d5c7",
+  "reference_lock_sha256": "7fea437bb0c466a200d62a4035a5e5a0e2d6efab39d066bd6cf2d7908d40a49e",
+  "reference_sets": 5,
+  "records": 615403,
+  "match_rows": 16,
+  "candidate_count": 4,
+  "all_parent_checks_pass": true,
+  "scope_limitations": [
+    "Unknown/ambiguous source residues are not expanded into possible sequences",
+    "Unannotated proteins, all population variants and other species are not exhaustive",
+    "Nested/overlapping peptide strings are not independent protein evidence",
+    "Conditional T29 translation does not establish RNA or protein existence"
+  ]
+}

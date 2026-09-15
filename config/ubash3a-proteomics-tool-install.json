@@ -1,0 +1,54 @@
+{
+  "planned_at_utc": "2026-09-14T22:28:50.775858+00:00",
+  "scope": "Isolated public-proteomics research tools; no system or existing Python package changes",
+  "Thermo_version_status": "Publisher labels this 2.0.0 build as a development release for public testing; conversion requires independent scan/content checks before interpreting search results.",
+  "sources": [
+    {
+      "tool": "ThermoRawFileParser",
+      "version": "v.2.0.0-dev",
+      "asset_name": "ThermoRawFileParser-v.2.0.0-dev-linux.zip",
+      "source_url": "https://github.com/CompOmics/ThermoRawFileParser/releases/download/v.2.0.0-dev/ThermoRawFileParser-v.2.0.0-dev-linux.zip",
+      "expected_bytes": 48627521,
+      "publisher_sha256": "19566762ce6759a93cee9aa4cef50de1e9ae2ad9078bd95826e8e733d4bb0d52",
+      "install_folder": "work/tools/thermo-raw-file-parser-2.0.0-dev",
+      "release_metadata_sha256": "54d1ead14fe44f874936245be95c38d1772bf6aac00b18c8bd05d1d1a6bd834c",
+      "installed_binary": "work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+      "binary_sha256": "867095af5e4a72471e17ef7ec37a5ae7f7224b07642c95deba6026fd939c1414",
+      "installed_at_utc": "2026-09-14T22:29:49.707489+00:00",
+      "runtime_check": {
+        "args": [
+          "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoRawFileParser",
+          "--version"
+        ],
+        "exit_code": 0,
+        "stdout": "2.0.0.0\n",
+        "stderr": "",
+        "at_utc": "2026-09-14T22:32:51.374657+00:00"
+      }
+    },
+    {
+      "tool": "Comet",
+      "version": "v2026.02.2",
+      "asset_name": "comet.linux.exe",
+      "source_url": "https://github.com/UWPR/Comet/releases/download/v2026.02.2/comet.linux.exe",
+      "expected_bytes": 7014400,
+      "publisher_sha256": "af515b6ed5a17efafff7277a6a9c73cee97e26d38f3c9b2a8da16adaa44e6d9e",
+      "install_folder": "work/tools/comet-2026.02.2",
+      "release_metadata_sha256": "f60e0546bf1a4d33a278fbae9e442869a24c490bc8cea80d1bf28417c02479e0",
+      "installed_binary": "work/tools/comet-2026.02.2/comet.linux.exe",
+      "binary_sha256": "af515b6ed5a17efafff7277a6a9c73cee97e26d38f3c9b2a8da16adaa44e6d9e",
+      "installed_at_utc": "2026-09-14T22:29:50.021869+00:00",
+      "runtime_check": {
+        "args": [
+          "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+          "-p"
+        ],
+        "exit_code": 0,
+        "stdout": " Comet version \"2026.02 rev. 2 (6edec91)\"\n (c) University of Washington\n\n Created:  comet.params.new\n\n",
+        "stderr": "",
+        "at_utc": "2026-09-14T22:32:51.379333+00:00"
+      }
+    }
+  ],
+  "status": "installed_pending_runtime_qualification"
+}

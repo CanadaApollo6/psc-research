@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-09-14T22:58:18.360001+00:00",
+  "before_public_raw_file_download_or_spectrum_scores": true,
+  "reason": "Publisher development-build MetadataWriter.cs calls CountScanOrder(rawFile) inside its per-scan loop, while WriterUtil.CountScanOrder itself traverses every scan. This is quadratic metadata work. The same writer also copies the MS1 display name onto the MS2 accession.",
+  "repair": "Disable only built-in metadata export (-m 2); retain original vendor-centroiding mzML conversion. Export counts and the complete MS2 scan-number list using an independently written one-pass loop through the same vendor API. Compare all IDs and counts with independently decoded mzML.",
+  "sequence_candidates_and_search_settings_changed": false,
+  "validator_dll": "work/tools/thermo-metadata-validator/ProteomicsRawMetadata.dll",
+  "validator_sha256": "a7b92b7284173f15a16dd92cfc841fa345b4a9d03a372ddbd9614cf0d18e859b",
+  "build": "Existing .NET SDK 10.0.401, net10.0 target, zero warnings/errors; no package dependencies downloaded",
+  "source_and_unchanged_method_hashes": {
+    "scripts/ProteomicsRawMetadata/Program.cs": "a8d8741d8f56d15001524cf4b71ecadcf768ec9d454287e436fd834a688d2ea4",
+    "scripts/ProteomicsRawMetadata/ProteomicsRawMetadata.csproj": "998ce04fc8238889fb94718f2016445f21e792543e07c967fa9c2d104b382217",
+    "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-MetadataWriter.cs": "302e71277278c341ae2c216cbdd90e95c76c4c2627fb2d06080cbf1c13b8c902",
+    "data/raw/ubash3a-proteomics-specificity/Thermo-v2dev-Writer-WriterUtil.cs": "98626dee106e666d823eae1a79f82cbf3904402f415c7ee4cef9b239bb3982cf",
+    "work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoFisher.CommonCore.Data.dll": "e00fb823ea88847c7ca0c10e3b9080baad63cc74d2e6d68a91dec468b16de4e9",
+    "work/tools/thermo-raw-file-parser-2.0.0-dev/ThermoFisher.CommonCore.RawFileReader.dll": "a9741618ace40dec01fa863fdae1f447add9533edf032da8ae254464f91a7c09",
+    "config/ubash3a-proteomics-comet.params": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+    "docs/ubash3a-proteomics-spectrum-protocol.md": "f0e565c64104141e7d8352b259dc65d5c2aa0fc25b71355ca002f0d74ab305b6"
+  },
+  "runtime_dependency_sha256": {
+    "work/tools/thermo-metadata-validator/ThermoFisher.CommonCore.Data.dll": "e00fb823ea88847c7ca0c10e3b9080baad63cc74d2e6d68a91dec468b16de4e9",
+    "work/tools/thermo-metadata-validator/ThermoFisher.CommonCore.RawFileReader.dll": "a9741618ace40dec01fa863fdae1f447add9533edf032da8ae254464f91a7c09",
+    "work/tools/thermo-metadata-validator/ProteomicsRawMetadata.runtimeconfig.json": "9950d4583cfc9a106857c0d5b8a75b53e8774852b57b80bc3823a74d44a4d87f",
+    "work/tools/thermo-metadata-validator/ProteomicsRawMetadata.deps.json": "7ed6649eb9504971930cde13bfc89070280eb4b67a14af30fb84865cdced0532"
+  },
+  "dependency_readback_at_utc": "2026-09-14T23:08:29.602560+00:00"
+}

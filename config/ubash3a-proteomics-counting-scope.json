@@ -1,0 +1,46 @@
+{
+  "recorded_at_utc": "2026-09-15T00:04:47.733572+00:00",
+  "before_any_candidate_score_inspection": true,
+  "public_search_in_progress": true,
+  "search_settings_changed": false,
+  "configured_spectrum_batch_size": 5000,
+  "observed_A5_r_loaded_query_batches": [
+    5005,
+    682
+  ],
+  "stdout_count_definition": "SearchUtils.cpp executeBatchLegacy prints session.queries.size after LoadAndPreprocessSpectra; Pipeline.cpp sums the same query-vector sizes across batches. These are engine-loaded queries, not original physical MS2 scans.",
+  "batch_limit_clarification": "The frozen protocol describes at most 5000 spectra per batch. The implemented parameter is a loader stopping threshold. CometPreprocess.cpp samples the query-vector size before scheduling work, then waits for active workers after the stopping check; multiple queries and outstanding work can give a reported query count slightly above 5000. The observed 5005-query batch does not imply a different parameter or omitted input.",
+  "source_locations": {
+    "CometPreprocess.cpp": "query counter and queued jobs lines 915-985; threshold lines 2398-2404",
+    "SearchUtils.cpp": "executeBatchLegacy lines 317-343",
+    "Pipeline.cpp": "complete batch traversal lines 161-195",
+    "FastaStrategy.cpp": "executeBatch delegates to executeBatchLegacy"
+  },
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/CometPreprocess.cpp",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-CometPreprocess.cpp",
+      "sha256": "0222e374214f70449345173c4897c8f0d32bf9c9e4bd22674f0b44707984a70e",
+      "retrieved_at_utc": "2026-09-15T00:01:40.919522+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/Pipeline.cpp",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-Pipeline.cpp",
+      "sha256": "65c1f415be59f87c2f84bb9d9090f27b4c5eda205ab0cd991d93c9aae7983536",
+      "retrieved_at_utc": "2026-09-15T00:02:16.959087+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/FastaStrategy.cpp",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-FastaStrategy.cpp",
+      "sha256": "4488b0d0278caf46c50dc4fab16eaca53d9df7599698086d03edf1930ff40ae2",
+      "retrieved_at_utc": "2026-09-15T00:02:37.009358+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/UWPR/Comet/6edec91/CometSearch/search/SearchUtils.cpp",
+      "local_path": "data/raw/ubash3a-proteomics-specificity/Comet-v2026.02.2-SearchUtils.cpp",
+      "sha256": "82ec497ec66cc843482092a9785ca68bef0caa09db3c65b1249c33a6e761f613",
+      "retrieved_at_utc": "2026-09-15T00:03:00.269860+00:00"
+    }
+  ],
+  "analysis_rule": "Report converted MS2 scans, loaded query totals, exported queries and physical scans with winners separately; never equate a missing exported assignment with proof of biological absence."
+}

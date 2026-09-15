@@ -1,0 +1,5 @@
+# Observed existing Python environment for this public-proteomics stage.
+biopython==1.88
+numpy==2.5.3
+pandas==3.0.5
+requests==2.34.2

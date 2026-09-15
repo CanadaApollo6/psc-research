@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-09-14T23:11:30.888324+00:00",
+  "failure": "Independent metadata verifier initially expected the entire analysis_summary wrapper to close within each 64-KiB prefix. The complete search_summary settings element is present, but an outer wrapper can extend further.",
+  "repair": "Parse the complete search_summary XML element directly with ElementTree; primary parser and all sequence classifications unchanged.",
+  "before_public_spectrum_download_or_scores": true,
+  "preserved_primary_hashes": {
+    "data/derived/ubash3a-proteomics-specificity/all-sequence-matches.csv": "3c50749e51fafb90b206748a08f049733542ac0f85378cce3ab99134c6a97898",
+    "data/derived/ubash3a-proteomics-specificity/candidate-specificity.csv": "12c93c63fc6cc58ee4dc881380addcf1e57d6fb9c811ea3db3f5744d1abbc579",
+    "data/derived/ubash3a-proteomics-specificity/experiment-raw-mapping.csv": "e95054916618ab305ebe621efdb71f69a13cee8bb0848f02a5dcab0401231239",
+    "data/derived/ubash3a-proteomics-specificity/experiment-search-metadata.csv": "1feb1cd8db9cdab9de017bc69840b8ab1d894f5a45b0c102f2adb2204111c40b",
+    "data/derived/ubash3a-proteomics-specificity/reference-summary.csv": "ab031ff2cc431b7ef4df3bb8d21450e5d6f908369cde31e03f8621227af4ec7b"
+  }
+}

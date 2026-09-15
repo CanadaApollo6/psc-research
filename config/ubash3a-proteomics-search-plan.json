@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-09-14T22:45:06.478265+00:00",
+  "before_any_new_public_spectrum_search": true,
+  "database_not_yet_built": true,
+  "parameter_file": "config/ubash3a-proteomics-comet.params",
+  "parameter_sha256": "0d8b20314f00919c883bdced538ebc37d562c8038fd02e9b357582ae58ac8044",
+  "protocol_sha256": "f0e565c64104141e7d8352b259dc65d5c2aa0fc25b71355ca002f0d74ab305b6",
+  "fdr": {
+    "estimator": "min(1,(decoy_wins+1)/target_wins)",
+    "ranking": "ascending best Comet expectation value",
+    "threshold": 0.01,
+    "score_ties": "same threshold; any target/decoy tie at best per-scan score treated as decoy",
+    "novel_class_fdr": "not reliably estimable for four overlapping strings"
+  },
+  "search_engine": "Comet v2026.02.2, classic FASTA concatenated-decoy mode"
+}

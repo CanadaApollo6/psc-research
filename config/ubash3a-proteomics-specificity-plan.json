@@ -1,0 +1,30 @@
+{
+  "frozen_at_utc": "2026-09-14T22:20:50.541073+00:00",
+  "before_new_candidate_matches_or_spectrum_scores": true,
+  "candidates": [
+    "RPNSSWKLGIFK",
+    "LGIFKIHLESGIR",
+    "IHLESGIR",
+    "IHLESGIRKP"
+  ],
+  "comparisons": [
+    "exact",
+    "I_L_equivalent"
+  ],
+  "planned_reference_sets": [
+    "UniProtKB organism_id:9606 with includeIsoform=true",
+    "GENCODE 50 comprehensive protein translations",
+    "cRAP common contaminant collection"
+  ],
+  "qualification_download_budget_bytes": 2000000000,
+  "spectrum_search_not_yet_frozen_or_started": true,
+  "input_pins": {
+    "docs/ubash3a-proteomics-specificity-protocol.md": "3d10fcf081c4a8e58a7d6568a450599de5130fdac059473fd23ff3ecf0c53988",
+    "data/derived/ubash3a-alternative-ending/tryptic-candidates.csv": "1039c9386f2de50f97d4097d779bad4fdd7d36b9266c3988328248468451c13d",
+    "data/derived/ubash3a-alternative-ending/proteins.fasta": "9b5707a5c8fd7106ea01f2761e22747136f49dc9e29586967281a8c5faa96a27",
+    "data/derived/ubash3a-consequences/proteins.fasta": "9d70e151c3c91023da0e86f57f3e125306d665826abb3f6cd3b66985e29dc379",
+    "data/derived/ubash3a-proteomics-readiness/PXD000376-file-inventory.csv": "855c6f1bbbad1c2ad3cda9ba97773ec670ad247f5cc8a1d51060dd00c40f2857",
+    "data/raw/ubash3a-proteomics-readiness/PXD000376-paper.html": "7c97d8d6dd1725087d2e30a3c60d6532f13ea7e6ff2c0fb105821cbc7e41288b"
+  },
+  "baseline_commit": "c7bccc3c84cf8559b92759cfcec063d3f194cecf"
+}

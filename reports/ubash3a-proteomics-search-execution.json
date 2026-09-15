@@ -1,0 +1,346 @@
+{
+  "complete_experiment": true,
+  "finished_at_utc": "2026-09-15T00:15:22.434576+00:00",
+  "files": [
+    {
+      "file_index": 1,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.mzML",
+      "input_sha256": "ee2cfad27a35f775eed1c7e26f6cc96bb3e0f6d817895e4ee3794caa19bfca33",
+      "started_at_utc": "2026-09-14T23:24:07.466562+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "c649a3a64cd350d836d69c948343f390aeea1090b685e97bf28e298c77c6bdc9",
+      "ended_at_utc": "2026-09-14T23:27:49.560328+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A1.stdout.txt": "1332b62082af9a2e5d0930d466692069c890c9a3fa692833ee44e275137bf443",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.txt": "f5ec8ff60813230d08ba5435776dc7b8e5c15836520282ba11eaac4f823d6ef5",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.pep.xml": "8824e1566187ee138d88f9ebd0bb592d86cbc34e80489272331029b9f3afdf6a",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1.pin": "66a39f6d488b2e0c96d5fc19af8e7e484ee243501dc9190845e25e1778f2d0ac"
+      }
+    },
+    {
+      "file_index": 2,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.mzML",
+      "input_sha256": "ec7f8845df087f42b3e9592efd839b9a4faff3f2d86785a97233cb22f06d960f",
+      "started_at_utc": "2026-09-14T23:27:49.603773+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "7d36d770f9d74b545eb8c1510c6062437ebd160732350cc3b56edaf038c2f6c6",
+      "ended_at_utc": "2026-09-14T23:31:30.629611+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A10.stdout.txt": "f0ad50d47140e8b2913f3ae8c852aa591d7c4c7a0deaaa5141162af79196e31b",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A10.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.txt": "ad8a681b0363cf3398b0855e9df9241d0a56c678d4be5a90b21efc19f89f1e2f",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.pep.xml": "d8017f0a7c92433e6bd3a83e2c5f9c01a4a43ed5a4b6100033f421091c6bf9b7",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A10.pin": "8026c1381e01ee182ca0e8c89544f7267e8887a8d427dc9e5f3989f4ca42b5c5"
+      }
+    },
+    {
+      "file_index": 3,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.mzML",
+      "input_sha256": "5897a10df71d3587ff4113172e93fe9b0dad443e0dc647939a8cefe40d862cb9",
+      "started_at_utc": "2026-09-14T23:31:30.669065+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "0509750080b32b083e5f8eebde000706025a912d46fe2dd559cbf4b5a5c60d94",
+      "ended_at_utc": "2026-09-14T23:34:41.098214+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A11.stdout.txt": "2ce771fc17c3f33ba423b9f1e1e7e93118ee3c227ce3e10d95b390f84792bc1c",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A11.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.txt": "5e3ba0469363b226eb28f04dafb0211ec4fd1f7aa742fb1b3164a4d68318d64e",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.pep.xml": "3df910beda42d612de66f8975a2a326f0a82816bb2f6573037b05a4afa1e5618",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A11.pin": "97584e556aedd320af8fdac53bccf2979420cac1b7b15b8428cc9d638d28a861"
+      }
+    },
+    {
+      "file_index": 4,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.mzML",
+      "input_sha256": "b89905128105f3269c651b180ee701fd6017a939685829a1b89647e70256e572",
+      "started_at_utc": "2026-09-14T23:34:41.135748+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "99e4ca582344d8c509d386e64ba6cd0d9137368299edaa64a9f394a0dda54031",
+      "ended_at_utc": "2026-09-14T23:38:18.479181+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A12.stdout.txt": "d77e5eb93e449f047fe09a885754f7310fdabc6f7f1e797f0df1518b30ee6f50",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A12.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.txt": "665b4af998d79690552dc7d6649fae17d732ff80d56ea694cd97590e258636e8",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.pep.xml": "9b02089b9da46df33caa65583210d97a4df1dbccfa6251a5e009fad4e67c4da7",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A12.pin": "a64863dc862c67deb72f49ec07a8fb378226df2cf234c509427fd45be5d0bd9c"
+      }
+    },
+    {
+      "file_index": 5,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.mzML",
+      "input_sha256": "b210599d967967e73609974618727507e145375896259e42158a53870303201c",
+      "started_at_utc": "2026-09-14T23:38:18.524322+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "29925dc7f4d568fb7778f1eb318af848aa8b78825d4dcffa8d15ba08daf32a2f",
+      "ended_at_utc": "2026-09-14T23:42:07.931278+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A1-A4_pool.stdout.txt": "461643762247d4d93a87aaf99103a2cd1aa951d3a3a2ce476053b0f9545ed355",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A1-A4_pool.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.txt": "32bd6c1dc3be1a011efd699e6ec0907cf919a9bce3b61f4d47f776dd54391ba9",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.pep.xml": "807293d7bce2a8d86a17b11eb46002d603f6498101d67e2e06668368ebf03bc3",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A1-A4_pool.pin": "84273aa95c8d8235f931dd9e6c577e8784872f89669ce9ddbeb0f5559ec1fea0"
+      }
+    },
+    {
+      "file_index": 6,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.mzML",
+      "input_sha256": "fe0291a23dd0b6bb332ba33c5953acb860dda6281238b17b4e07077980b368f7",
+      "started_at_utc": "2026-09-14T23:42:07.973573+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "4df1923099c27069160d1605c218d692bfcf994ecfbec3d3fe8554311cb21d0e",
+      "ended_at_utc": "2026-09-14T23:45:20.923680+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A2.stdout.txt": "c94fa9a1a446b29e8707eabf3f328e8246ea1d816524e7db3accce935b041ef6",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A2.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.txt": "ded9e3f404794a047d60d742336f9053653dc1817e961ff56148404cc48bf5c3",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.pep.xml": "d27cdae5c05579c28c6c3a3697b211da2c6d3fd0f7adcda340de426c756e8dc3",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A2.pin": "f7a6b1e259f6dad1d30ab74bfb4de6ab88e9e2a411bb83c6e11362ef9098c703"
+      }
+    },
+    {
+      "file_index": 7,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.mzML",
+      "input_sha256": "55116456653853cd4b1a8e1db85f1b09e4951e0a695702eac7376028ff95ff70",
+      "started_at_utc": "2026-09-14T23:45:20.967845+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "278fd90c3e6d9c05f1c3f9ba4aa7abfe92a449bdfc7d41327e38be87fad0c861",
+      "ended_at_utc": "2026-09-14T23:49:03.164438+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A3.stdout.txt": "3202ac31e8d81d24bfc8a9743e38f24ac24a6857c9635669eb554f2a20d4992c",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A3.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.txt": "b7a95acaf2645ad78e3a752ad79a12639564f4548a659abe31cd87fe84e475c5",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.pep.xml": "3ca8b65ad1a9a81b24b007e693b9ee0ea2243b99c0690c594d5f73231ee4c6ca",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A3.pin": "91c358da2d2b0fdc6e78892a6e503bf84bc355a5d74b171e94af18609ecd35eb"
+      }
+    },
+    {
+      "file_index": 8,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.mzML",
+      "input_sha256": "8cc9d4dd9d149ea37dd84ca390220874f3c5546397f484df09a1b46d92e1d3d5",
+      "started_at_utc": "2026-09-14T23:49:03.206424+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "cabf724541e49266afe7235a04306bb853f7985aff8e11c267e6babe7cf3c6c2",
+      "ended_at_utc": "2026-09-14T23:52:52.266062+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A4.stdout.txt": "06ed05196178c688a7ae14999e0585ea80112e558bbb15337a8465c5a088bb9b",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A4.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.txt": "5b02726b5e4653f86f3ab41961d40578d9a4b60fedcd8665a60b7028b4a2d20b",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.pep.xml": "62805153e3ef42bee051c8732264fe6f9055cb15042f271263cb15e13787d253",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A4.pin": "d9176a03ea306a6ca67871110dee85d22ca1a526ff02e99d5861d291d2502481"
+      }
+    },
+    {
+      "file_index": 9,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.mzML",
+      "input_sha256": "1dd34d96862336faa4984c33e646d6c80c82b088d70b3b6af8b3601f5823d090",
+      "started_at_utc": "2026-09-14T23:52:52.297351+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "bc0b87a0f74c3419ccde047f8dc62bca0c54af9a50d9cfb70d167d7aa92cd9c1",
+      "ended_at_utc": "2026-09-14T23:54:23.808334+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A5.stdout.txt": "e75717a5433df1b402e433256165be22adabcd5ae4d8406160bd14dacff917b1",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A5.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.txt": "8054169beffaf63dd8975d5ce9091fe2553fac55b54ea5d64b9081e291d94774",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.pep.xml": "b6398ae95b95310d38772c2a10637f767b4f021c7cdd157a8ee396d3eccf9cf0",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5.pin": "af56c21e7965e9ecc0a2959d9af2b1141c7be78e640180c0ef839b223c2eefaf"
+      }
+    },
+    {
+      "file_index": 10,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.mzML",
+      "input_sha256": "cf60d6aa8d862532e648b6fc212c031c365a530f9db1f2994579c7f2cea956f4",
+      "started_at_utc": "2026-09-14T23:54:23.837702+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "5f98c6c771459ff2ddb49815f48befadebfc2a002a08cc7261e2fcba5c301371",
+      "ended_at_utc": "2026-09-15T00:00:45.122899+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A5_r.stdout.txt": "899af4a8fdf945ffb26037afaafdcc2adb8645b674aa49572ed58646b3115ebd",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A5_r.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.txt": "998dcde2562f58ce57a958f22600d566564e5e37a525b2ea8db88ebe9f283066",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.pep.xml": "8dd589344b7a5e2a123ff860171ca88d830c35edf9e4ba1b9ab269928e315f29",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A5_r.pin": "1f880c201b2c54b0e6dacfba93bc0c153f0c942f72e9f0255ccb9ba959686fab"
+      }
+    },
+    {
+      "file_index": 11,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.mzML",
+      "input_sha256": "aed778fddc6e113448dfa151937c7ca8f94b80fdefc873a9aeb6151592ef6dd7",
+      "started_at_utc": "2026-09-15T00:00:45.176593+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "aae6ccaa40b384192b57c92ba0268855131c5071d98cc3ca6035a9771fc8872f",
+      "ended_at_utc": "2026-09-15T00:04:25.412788+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A6.stdout.txt": "22d0bca7a8c10389cbdd8090897e6125a0d7da92a9912ad1b0491266417b817b",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A6.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.txt": "0ee91afd5bc83da47ef7e79b5519eba823cfe59b174aa71f88c543eb91fa826b",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.pep.xml": "be4247688cc3cf05d2333b12fad9dd9eb8bb3778c6380c4830dc012470b7e237",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A6.pin": "efdff6072063883010fdd361d520de2c7b32de58e4d902d072940bdc1e071946"
+      }
+    },
+    {
+      "file_index": 12,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.mzML",
+      "input_sha256": "edebbd1987a26fe98250f0c6ae7f82525e7f4158aaf02cc42f015a4f883a9ba1",
+      "started_at_utc": "2026-09-15T00:04:25.455795+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "44d5583e072fe14f3604087e9ecc3885842c28558ab1672254995c3f06cee949",
+      "ended_at_utc": "2026-09-15T00:07:58.420281+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A7.stdout.txt": "256988961a8e7c353476fa10bbedd8ce6681e35134ad353bd7ed77cd573451c0",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A7.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.txt": "d092435dd5fad95fbb7179a074d1c9a85a3513f3187864ecf9bd151f8f65414c",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.pep.xml": "67bd4d48e16214e7144c88ff43c297ff33faf5102c5b5bacf8cefab61e4f4dc2",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A7.pin": "4f7cac66f82e7f67c0aaedd936cb73aa9338c60338f0bfc739ba66c68f71b0f6"
+      }
+    },
+    {
+      "file_index": 13,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.mzML",
+      "input_sha256": "4fcae32459669831714edf7fee6944f5ce16824d5b52c79a76bd71530dd7d19a",
+      "started_at_utc": "2026-09-15T00:07:58.460729+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "d0d4e0ddca5359d17eff20359c57286c6ffcc2390a96fc6cf49bb848a8df6df0",
+      "ended_at_utc": "2026-09-15T00:11:39.442696+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A8.stdout.txt": "482b3fae53695a60687c64c1018683075d8eb41528a71e87a47500f74b38028c",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A8.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.txt": "830cf15861e01042ed14a19adafd44d4a2f18cd45757db9dd6c8a4466c941fbb",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.pep.xml": "344306f4908bb33e0a62d3b3e1ac70bab603aabfa06a4b9cc1702d82c1ee564e",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A8.pin": "6ff6ea90543a2081afa99e2e1e0676b88008fa2d8e837a69bb5a1c9d64aa145f"
+      }
+    },
+    {
+      "file_index": 14,
+      "input_mzml": "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.mzML",
+      "input_sha256": "3a2f0a4d888e3bf9380e6d9ce0528f0c4c9a677d18dc944a5bf8cd63da1a6d5e",
+      "started_at_utc": "2026-09-15T00:11:39.484410+00:00",
+      "args": [
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/tools/comet-2026.02.2/comet.linux.exe",
+        "-P/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/config/ubash3a-proteomics-comet.params",
+        "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.mzML"
+      ],
+      "complete": true,
+      "conversion_receipt_sha256_before_search": "bae365e412db062d54f1ee705b45b960f11f3d8163d5833e4876972baf6d6179",
+      "ended_at_utc": "2026-09-15T00:15:22.409955+00:00",
+      "exit_code": 0,
+      "log_sha256": {
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A9.stdout.txt": "80466036aa874caec4dc60c57306082438fd820353256705b15efc8e9de7757e",
+        "work/ubash3a-proteomics-spectra/search-logs/naive_CD4_RPLC_A9.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "output_sha256": {
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.txt": "464800d4414ce576ea308bce28a6f032e3068fea4f0729d52adb662e4035211a",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.pep.xml": "b08202ea75f30da98f4660bbd77112daecfbdde58556be234ebf658e34fbd5ce",
+        "work/ubash3a-proteomics-spectra/converted/naive_CD4_RPLC_A9.pin": "6b31ded86c3b1e5b1d80375a08cd783f8d706116dd9d40bf1bf2ec5121d1b6ea"
+      }
+    }
+  ],
+  "file_count": 14,
+  "search_start_sha256": "e4050d9201debc2829833d459e70efaaf6c39a60b4fb071633b551d5d7a0eaa5",
+  "complete_conversion_record_sha256": "b3164e8ba201e06459b24c30e75bb42544fb457555ece9a612f6d9b6746737d6",
+  "interpretation": "Search execution complete; candidate assessment and error-control analysis are separate"
+}

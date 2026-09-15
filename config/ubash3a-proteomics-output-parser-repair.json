@@ -1,0 +1,44 @@
+{
+  "recorded_at_utc": "2026-09-15T00:18:10.105175+00:00",
+  "trigger": "First complete-experiment analysis stopped before producing summaries on duplicate rank-one rows for A1 exported scan 67, charge 2. XML also identifies the original instrument scan as 1127.",
+  "analysis_start_preserved": "config/ubash3a-proteomics-analysis-start.json",
+  "original_scripts": {
+    "scripts/analyze_ubash3a_proteomics_spectra.py": {
+      "original_backup": "work/ubash3a-proteomics-spectra/parser-repair-originals/analyze_ubash3a_proteomics_spectra.py",
+      "original_sha256": "7e6c86fb6d41b804a90167c8dc90d235fea14e2df620c2b0af83dd35d899c6b4"
+    },
+    "scripts/verify_ubash3a_proteomics_search.py": {
+      "original_backup": "work/ubash3a-proteomics-spectra/parser-repair-originals/verify_ubash3a_proteomics_search.py",
+      "original_sha256": "3539de6c2a55b15e6410f1df705001a0c7c2bd4c27e9e663b0186b0313fbe4bc"
+    },
+    "scripts/review_ubash3a_candidate_fragments.py": {
+      "original_backup": "work/ubash3a-proteomics-spectra/parser-repair-originals/review_ubash3a_candidate_fragments.py",
+      "original_sha256": "f03f5ba6e0a51cf1c03a1b2171a633bfa2b43014a973f5bad2bff7ea830c56f7"
+    },
+    "scripts/audit_ubash3a_proteomics_scan_coverage.py": {
+      "original_backup": "work/ubash3a-proteomics-spectra/parser-repair-originals/audit_ubash3a_proteomics_scan_coverage.py",
+      "original_sha256": "ac04a3772ba1eaa4c27aa228ef10d85d80c159969012c1f2b44c7afcdfb96b3e"
+    }
+  },
+  "failing_stage_log": "work/ubash3a-proteomics-spectra/analysis-stage-logs/analyze_ubash3a_proteomics_spectra.py.log",
+  "failing_stage_log_sha256": "b9e7da0425eb1a22e03ff94bf4b1afe5b846a1d1324a15907553c0b2c957b7c4",
+  "planned_repair": "Preserve dense XCorr rank and exported hit order separately; retain one deterministic representative of rank-one ties with decoy priority while applying the existing conservative tie rule. Join exported Comet scan IDs to original instrument IDs using spectrumNativeID and verify full scan/precursor/retention identity. Preserve both IDs in results; use original IDs for fragment lookup.",
+  "changed_search_files_parameters_or_error_thresholds": false,
+  "target_candidate_counts_or_scores_inspected_before_repair": false,
+  "repair_qualified_at_utc": "2026-09-15T00:24:17.038397+00:00",
+  "repaired_script_sha256": {
+    "scripts/analyze_ubash3a_proteomics_spectra.py": "e546c9f232b40d9546921d00f924215de0b5e7062bd2b09cdc235d91e63707b1",
+    "scripts/verify_ubash3a_proteomics_search.py": "3805d67b3677e64c08770232887132542376af38d0a351aa94b85fd3e34cce9c",
+    "scripts/review_ubash3a_candidate_fragments.py": "444af8c61efdc5fcb3ea5b9cc9583e1c7963a3a2f1bb49c6b67730f78b04ca5e",
+    "scripts/audit_ubash3a_proteomics_scan_coverage.py": "523f0671d830e7b128b3cbeb1d8beebc72a79c494cd4a873dde5d6ab5de83741"
+  },
+  "focused_regression_tests": 13,
+  "added_regression_tests": 6,
+  "complete_scan_identity_check": "reports/ubash3a-proteomics-scan-coverage.json",
+  "complete_scan_identity_check_sha256": "78e77351e7d9ff0662910a5fa263111538ce20115be22f1a590d0bf52d45fa41",
+  "queries_identity_checked": 55741,
+  "rank_one_representative_rule": "Within dense rank one, prefer a decoy-containing assignment, then lexical peptide, then original exported hit position. Existing any-reported-top-score-decoy and cross-charge expectation-tie rules remain conservative. Other tied assignments remain in complete exported/candidate tables and tie counts.",
+  "export_scope_clarification": "num_output_lines=5 exports up to five assignments; dense XCorr ranks can repeat. No additional assignment was discarded or target list changed.",
+  "native_identity_method": "Explicit spectrumNativeID supplies the original scan; the exported Comet scan is separately retained and every value is independently checked against its one-based complete mzML scan-inventory position. Precursor m/z and retention time differences must stay within text-format precision tolerances.",
+  "preserved_failed_stage_status": "work/ubash3a-proteomics-spectra/analysis-stage-status.json"
+}
