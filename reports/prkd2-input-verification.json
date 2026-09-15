@@ -1,0 +1,33 @@
+{
+  "all_checks_pass": true,
+  "publisher_table_cells": {
+    "B13": 1133.0,
+    "C13": 1037.0,
+    "D13": 9216.0,
+    "E13": 450.0,
+    "F13": 990.0,
+    "G13": 2064.0
+  },
+  "GWAS_source_rows_all_fields_checked": 4727,
+  "GWAS_prepared_rows_checked": 4570,
+  "QTL_checks": {
+    "QTD000021": {
+      "all_source_rows": 8409,
+      "distinct_full_variants": 7505,
+      "prepared_variants": 7505
+    },
+    "QTD000504": {
+      "all_source_rows": 7242,
+      "distinct_full_variants": 6261,
+      "prepared_variants": 6261
+    }
+  },
+  "reference_donors": 503,
+  "independently_reconstructed_LD_variants": 4513,
+  "LD_entries_checked": 20367169,
+  "maximum_LD_difference": 1.609823385706477e-14,
+  "signed_Z_vectors_checked": 3,
+  "kriging_Z_convention": "Finite-N adjustment z * sqrt((n-1)/(n-2+z*z)); the original fit input remains the raw signed Z",
+  "method": "Raw-source pandas/CSV joins, publisher XLSX XML cells, independent direct-dosage correlation and allele orientation",
+  "verifier_sha256": "f3b8fb68026a96baffe3559d24784c9f5ceaabaa6a601d254fea293c6ec769c8"
+}

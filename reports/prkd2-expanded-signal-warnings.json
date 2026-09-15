@@ -1,0 +1,290 @@
+[
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000021",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 11386,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 3504,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 1,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-06,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-07,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "n_approximation": 14890,
+    "gwas_component": 1,
+    "qtl_component": 2,
+    "p12": 1e-05,
+    "warnings": "snp overlap too small between datasets: too few snps with high posterior in one trait represented in other"
+  }
+]

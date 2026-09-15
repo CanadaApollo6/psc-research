@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "baselines": {
+    "prkd2": {
+      "rows": 12,
+      "variant_posteriors": 6882,
+      "maximum_numeric_difference": 1.6542323066914832e-14
+    },
+    "prkd2-expanded": {
+      "rows": 12,
+      "variant_posteriors": 7343,
+      "maximum_numeric_difference": 5.6066262743570405e-15
+    }
+  },
+  "verification_method": "Independent NumPy/SciPy formulas; no R result used as an input coefficient or weight",
+  "verifier_sha256": "a887c54838a83774791e64108f56030a6e65dba233c1bdacf5d4396b83778d9f"
+}

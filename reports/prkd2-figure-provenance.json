@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "reports/prkd2-baseline.csv": "a452936a1c8b7aa4e5c69c874c59de6d099cae3c1be943053c1d3f91eab2b183",
+    "reports/prkd2-expanded-baseline.csv": "597eec855d8c6b851abc8898c03062535f32abab85b979bd90e78399cbf3b8fb",
+    "reports/prkd2-expanded-signal-comparison.csv": "82f30f1861755ed14c6ab8feec5b1ef811ff5f3eb41e71380cf12ab8c10a4c7e",
+    "data/derived/prkd2-expanded-inputs/GWAS-PRKD2.csv.gz": "9f74bb7da877e2e8d0e6abecb6583245c83866a76c6e97324e80df2707b924fd",
+    "data/derived/prkd2-expanded-inputs/QTD000021-PRKD2.csv.gz": "bef94bab070cb5ea5910c34b06a9bb70fa58cc9d8040deaaf16633ee222cbbd4",
+    "data/derived/prkd2-expanded-inputs/QTD000504-PRKD2.csv.gz": "07c2dbc0da40b24354bb60117c6d0b3cddcbc1799a2ee16e422ec92d63bc1a17"
+  },
+  "outputs": {
+    "reports/figures/prkd2-evidence-coverage.png": "39d2b93911069c12fc7b7730db40fdce7318ef242504ad88079dfc5c45445703",
+    "reports/figures/prkd2-evidence-coverage.svg": "c0873703862f61bf60a609965dd67e4b6492747158f0c530d550d2d165572961",
+    "reports/figures/prkd2-regional-associations.png": "12f95258e9bdedbc12d08f20e93a85977aec3a3eebce5108ff7918e3aae379cd",
+    "reports/figures/prkd2-regional-associations.svg": "08da89e8d366b01a08cb836b149284807bc3c1ebe44334e50d936420c9e7929f"
+  },
+  "plot_script_sha256": "6e1251394fcc13f6e053220197ff4837b9d08f91491c3500a837ef599a8f24e7"
+}

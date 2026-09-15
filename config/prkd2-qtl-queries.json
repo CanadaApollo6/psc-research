@@ -1,0 +1,61 @@
+{
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "source_manifest_sha256": "7f4c611c5242cb7e68a0ad82f5534bbdf9fdcc27fe1f21ea5ba579266f998b00",
+  "reader_sha256": "a8ea62b5bc3250a57551d077c3d24ea1b424ddcb8c7f7608eb3fa69599709d83",
+  "pysam_version": "0.23.3",
+  "started_at_utc": "2026-09-15T03:51:55.733638+00:00",
+  "queries": [
+    {
+      "id": "QTD000021-PRKD2",
+      "file": "data/derived/prkd2-query-rows/QTD000021-PRKD2.tsv.gz",
+      "sha256": "71839a945ba1771fafe18bfdc538603d06102c425dabadf01b8537bf23dcbcc6",
+      "uncompressed_sha256": "f011ae92e476510895893280e70ad1b811817a804a2117245a60f08089a6185f",
+      "bytes": 246084,
+      "finished_at_utc": "2026-09-15T03:51:57.741513+00:00",
+      "rows": 8409,
+      "region": {
+        "gene_id": "ENSG00000105287",
+        "gene_name": "PRKD2",
+        "anchor": "rs313839",
+        "chromosome": "chr19",
+        "tss_grch38_1based": 46717127,
+        "start_grch38_0based": 45717126,
+        "end_grch38_exclusive": 47717127,
+        "start_grch37_0based": 46220384,
+        "end_grch37_exclusive": 48220384
+      },
+      "dataset_id": "QTD000021",
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "all_gene_rows_scanned": 321756,
+      "all_gene_bytes_scanned": 50886052,
+      "all_gene_stream_sha256": "f053fbe147ed769d8b70026691cf083ed2b9b8c98dc47a21b6c1b28eae98f3fc"
+    },
+    {
+      "id": "QTD000504-PRKD2",
+      "file": "data/derived/prkd2-query-rows/QTD000504-PRKD2.tsv.gz",
+      "sha256": "7202b5f02e9df014231019d39aeb8192dc652432d004af8b5331616db88edebc",
+      "uncompressed_sha256": "694477a01f806b8c9303806c4fc268d9599337be1152bef1440a44e776101511",
+      "bytes": 227695,
+      "finished_at_utc": "2026-09-15T03:52:04.441242+00:00",
+      "rows": 7242,
+      "region": {
+        "gene_id": "ENSG00000105287",
+        "gene_name": "PRKD2",
+        "anchor": "rs313839",
+        "chromosome": "chr19",
+        "tss_grch38_1based": 46717127,
+        "start_grch38_0based": 45717126,
+        "end_grch38_exclusive": 47717127,
+        "start_grch37_0based": 46220384,
+        "end_grch37_exclusive": 48220384
+      },
+      "dataset_id": "QTD000504",
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "all_gene_rows_scanned": 289560,
+      "all_gene_bytes_scanned": 47050532,
+      "all_gene_stream_sha256": "4cec11b897217fc512cd4b7936322dd83f1c9b959a722a52bd14759bd0997a4b"
+    }
+  ],
+  "ranges": [],
+  "finished_at_utc": "2026-09-15T03:52:06.441528+00:00"
+}

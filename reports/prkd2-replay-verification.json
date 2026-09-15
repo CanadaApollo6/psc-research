@@ -1,0 +1,111 @@
+{
+  "all_checks_pass": true,
+  "analysis": "prkd2",
+  "isolated_replay_directory": "work/prkd2/prkd2-replay-4juplil9",
+  "stages": [
+    {
+      "stage": "baseline",
+      "outputs_reproduced": 3,
+      "log_sha256": "c4f3d0cd8eb0c646264e60fbe1b787ff4032c9159aeab6a8301d8684bbf2d6f2"
+    },
+    {
+      "stage": "fit",
+      "outputs_reproduced": 15,
+      "log_sha256": "d9f52f4cb601fdc33e4dedf23ae1da08349ebfbf5a4c1a80f7253b173cf860b8"
+    },
+    {
+      "stage": "compare",
+      "outputs_reproduced": 3,
+      "log_sha256": "dd00fdb60cc6e40715d4bc1f66e05189fb4234eca3f6ce1d218fa4bc0051b27f"
+    }
+  ],
+  "outputs_reproduced": 21,
+  "verified_files": [
+    {
+      "file": "reports/prkd2-baseline.csv",
+      "sha256": "a452936a1c8b7aa4e5c69c874c59de6d099cae3c1be943053c1d3f91eab2b183"
+    },
+    {
+      "file": "reports/prkd2-baseline-variant-posteriors.csv.gz",
+      "sha256": "4ba1dcda250a95163f0159c79b682eb72ef967294ab9dd953b6d7a31b4c45c5c"
+    },
+    {
+      "file": "reports/prkd2-baseline-warnings.json",
+      "sha256": "fed190acbca5cc8bf3c6ff021900fcf31c07f078c3fcd92f71809e9fc413ea80"
+    },
+    {
+      "file": "reports/prkd2-LD-diagnostics-N11386.csv",
+      "sha256": "0b3b632cfcaf549988eae95922ca3864816cb1444cbd37fe675de2b5c65ee56a"
+    },
+    {
+      "file": "reports/prkd2-GWAS-pips-N11386.csv",
+      "sha256": "42b008e0c356073ced6819812cfe6a9ca8522e6656a970a8fc2cf62d8a3d434c"
+    },
+    {
+      "file": "reports/prkd2-GWAS-fit-N11386.json",
+      "sha256": "97b3c615b7f503dc5abf4c5eed60177fe1872c0bc2327a8eb120d01e08537e10"
+    },
+    {
+      "file": "reports/prkd2-LD-diagnostics-N3504.csv",
+      "sha256": "d5152ca37d4ea28e7374322eea49807b2074516f54ec3d8d8295d8d049d79fec"
+    },
+    {
+      "file": "reports/prkd2-GWAS-pips-N3504.csv",
+      "sha256": "c7cea0be18ad58dc8d7ed303fb55f4e50f470d635f58073d632cc3ea07b2ee05"
+    },
+    {
+      "file": "reports/prkd2-GWAS-fit-N3504.json",
+      "sha256": "4e5392d4c8a15e86cd6863d3346d9a58ba70415330d49b10e4c4b0ec5e8c1a7e"
+    },
+    {
+      "file": "reports/prkd2-LD-diagnostics-N14890.csv",
+      "sha256": "5b01363ae39fd077ea1c720154358ae1bee46417258544e554e97ba55a54834e"
+    },
+    {
+      "file": "reports/prkd2-GWAS-pips-N14890.csv",
+      "sha256": "b9c925cb488f7c59253bc7e671b7b1c3ff42f2d325ba40fac18d435f68297634"
+    },
+    {
+      "file": "reports/prkd2-GWAS-fit-N14890.json",
+      "sha256": "65a7b95692c9fd4be90178e250cfaa1f38492a34f7c5fdf33be95985b2e16616"
+    },
+    {
+      "file": "data/derived/prkd2-GWAS-component-bfs-N11386.csv.gz",
+      "sha256": "09585e059ea7206cc2e413fffa446cda1d5de4a5001e19c87a40bee7c75894fc"
+    },
+    {
+      "file": "data/derived/prkd2-GWAS-component-bfs-N3504.csv.gz",
+      "sha256": "e52ff96e28b8ebef05bab2aa6c4b469073573ee6d5a05f6ec10ed53249ab33b7"
+    },
+    {
+      "file": "data/derived/prkd2-GWAS-component-bfs-N14890.csv.gz",
+      "sha256": "559bcd971ca0915e146f8fc557daf7064a33e0f8e504b93d9d0ef0a6b81ed296"
+    },
+    {
+      "file": "data/raw/prkd2-ld/GWAS-PRKD2-N11386.rds",
+      "sha256": "da7606c43a4ab5c9923796c5a7703d2b2a3aeb6ab76b385d9bd1c865f69cc435"
+    },
+    {
+      "file": "data/raw/prkd2-ld/GWAS-PRKD2-N3504.rds",
+      "sha256": "5e481ae06a9ca4006c2addb0ed7fc6123f986af4aa3ee360e254954e72037160"
+    },
+    {
+      "file": "data/raw/prkd2-ld/GWAS-PRKD2-N14890.rds",
+      "sha256": "1734d58ac0dc236a0618abbc727c66593a7bac8126d3eee12eeb26eda01b6afa"
+    },
+    {
+      "file": "reports/prkd2-signal-comparison.csv",
+      "sha256": "035f49c7754ffbf81fb6e681dbd0acaf24d5a0b67b19402fd7a62829f4a3f02b"
+    },
+    {
+      "file": "reports/prkd2-signal-variant-posteriors.csv.gz",
+      "sha256": "bfa0782903bf5c946c5a3a373c024f4e0ce7270510c91808c913b27b142e94f8"
+    },
+    {
+      "file": "reports/prkd2-signal-warnings.json",
+      "sha256": "e09216e6213b7aca076f838975a361c5240072a9dc6a2d2c2da6b7fde878a71f"
+    }
+  ],
+  "method": "Fresh R processes; original code and prepared inputs; all output hashes including fitted RDS objects identical",
+  "replay_script_sha256": "6ac6d8803938217d3ebbd3f1f5cac15d8db74aacb968d33a73111a0839b57323"
+}

@@ -1,0 +1,175 @@
+{
+  "analysis": "PRKD2 PSC and monocyte shared-signal analysis v1",
+  "frozen_at_utc": "2026-09-15T03:49:32.579769+00:00",
+  "selection_status": "Requested after the existing rs313839 direction comparison; exploratory published-cohort reuse, no newly computed regional posteriors inspected",
+  "baseline_commit": "5d9c0fc4ed97d0f99dd8908738a3a5ead6a4cf40",
+  "regions": [
+    {
+      "gene_id": "ENSG00000105287",
+      "gene_name": "PRKD2",
+      "anchor": "rs313839",
+      "chromosome": "chr19",
+      "tss_grch38_1based": 46717127,
+      "start_grch38_0based": 45717126,
+      "end_grch38_exclusive": 47717127,
+      "start_grch37_0based": 46220384,
+      "end_grch37_exclusive": 48220384
+    }
+  ],
+  "datasets": [
+    {
+      "study_id": "QTS000002",
+      "dataset_id": "QTD000021",
+      "study_label": "BLUEPRINT",
+      "sample_group": "monocyte",
+      "tissue_id": "CL_0002057",
+      "tissue_label": "monocyte",
+      "condition_label": "naive",
+      "sample_size": "191",
+      "quant_method": "ge",
+      "ftp_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "ftp_cs_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000021/QTD000021.credible_sets.tsv.gz",
+      "ftp_lbf_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000021/QTD000021.lbf_variable.txt.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "cohort_label": "BLUEPRINT"
+    },
+    {
+      "study_id": "QTS000026",
+      "dataset_id": "QTD000504",
+      "study_label": "Schmiedel_2018",
+      "sample_group": "monocyte_naive",
+      "tissue_id": "CL_0002057",
+      "tissue_label": "monocyte",
+      "condition_label": "naive",
+      "sample_size": "91",
+      "quant_method": "ge",
+      "ftp_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "ftp_cs_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000504/QTD000504.credible_sets.tsv.gz",
+      "ftp_lbf_path": "ftp://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000026/QTD000504/QTD000504.lbf_variable.txt.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "cohort_label": "DICE"
+    }
+  ],
+  "regional_rule": "Exact Catalogue PRKD2 phenotype TSS +/- 1 Mb in both contexts, full nominal and published component evidence without significance filtering",
+  "gwas": {
+    "accession": "GCST004030",
+    "source_build": "GRCh37",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+    "source_bytes": 662022204,
+    "cases": 2871,
+    "controls": 12019,
+    "n": 14890,
+    "scope": "Discovery GWAS, not the 4796-case combined replication sample or later fine-mapping run",
+    "primary_platform": "all known platforms",
+    "other_platforms": "Use source-specific N and case fraction from publisher Supplementary Table 1 from the outset; preserve original fields",
+    "effect_input": "Primary marginal ABF uses reported P, control MAF and known case fraction; avoids assuming the undocumented scale of source SE accompanying OR",
+    "direction": "For signed-z reference-LD sensitivity, use inverse-normal two-sided P and source risk-allele orientation; preserve original OR/SE separately",
+    "minimum_maf": 0.01
+  },
+  "platform_counts": {
+    "both": {
+      "cases": 2871,
+      "controls": 12019,
+      "N": 14890
+    },
+    "omni": {
+      "cases": 2170,
+      "controls": 9216,
+      "N": 11386
+    },
+    "affy": {
+      "cases": 701,
+      "controls": 2803,
+      "N": 3504
+    }
+  },
+  "platform_count_provenance": {
+    "file": "coloc-Ji2017-MOESM245_ESM.xlsx",
+    "sheet": "Table 1",
+    "omni_cases_cells": [
+      "B13",
+      "C13"
+    ],
+    "omni_controls_cell": "D13",
+    "affy_total_cells": [
+      "E13",
+      "F13",
+      "G13"
+    ],
+    "affy_case_control_derivation": "Published overall discovery case/control counts minus the explicitly labelled Omni columns; sum checked against Affy totals"
+  },
+  "alignment": {
+    "variants": "Biallelic single-nucleotide substitutions only; retain all excluded indels, duplicate conflicts and missing mappings in the audit",
+    "build": "Unique reciprocal UCSC chain mapping, exact chromosome/position and allele set, explicit strand complement only from chain orientation",
+    "palindromic": "Require exact coordinate/alleles plus GWAS risk/control-frequency versus reference EUR frequency difference <= 0.15; otherwise exclude",
+    "qtl": "Exact GRCh38 REF/ALT; numeric Ensembl gene-version removal only; collapse rsID-only aliases, exclude conflicting rows",
+    "missing": "Unavailable is never a null result; do not substitute LD proxies"
+  },
+  "methods": {
+    "preferred": "Signal-wise coloc using complete published SuSiE log Bayes factors or coherent signed LD with documented sample/allele provenance",
+    "baseline": "Official coloc 5.2.3 marginal ABFs using all eligible platforms with per-variant N and case fraction; quantitative beta/SE; unit and estimated sdY; single-causal baseline, not a substitute for multiple-signal analysis",
+    "qtl_baseline": "Reported beta and SE, quantitative trait, sdY=1 for inverse-normalized expression; sensitivity estimates sdY from MAF/SE/N",
+    "priors": {
+      "p1": 0.0001,
+      "p2": 0.0001,
+      "p12_primary": 1e-06,
+      "p12_sensitivity": [
+        1e-07,
+        1e-05
+      ]
+    },
+    "reference_ld_sensitivity": "Use complete published QTL component vectors as preferred evidence in both cohorts. A BLUEPRINT EUR-LD refit is an optional documented technical comparison if no published component exists; no EUR-LD DICE fit.",
+    "susie": {
+      "L": 10,
+      "coverage": 0.95,
+      "min_abs_corr": 0.5,
+      "estimate_residual_variance": false,
+      "max_iter": 200,
+      "seed": 20260914
+    },
+    "ld_qc": "Exact SNP/allele order; symmetric finite signed r, unit diagonal and PSD; preserve diagnostics, convergence and missing credible sets. No arbitrary ridge chosen for favorable results.",
+    "coverage_gate": "At least 100 shared variants and >=90% of full marginal BF weight in each trait. For each published and fitted component separately require >=90% full component posterior weight overlap. Report excluded non-SNV and low-MAF weight before asserting adequate coverage; all failures remain unavailable.",
+    "interpretation": "Strong statistical support requires H4>=0.9 at p12=1e-6 and >=0.8 at p12=1e-7 and 1e-5, passed coverage and consistent usable component comparisons across scalar-N sensitivities. External-LD and sample-covariance limits remain even if thresholds pass. Do not treat failure as proof of different biology.",
+    "not_permitted": "No multiplication by AlphaGenome scores, no favorable-track selection, no back-calculation of incomplete BF vectors from credible-set-only PIPs, no clinical or mediation claim",
+    "published_qtl_components": "Retrieve all published 95% credible sets and full per-component BF vectors for exactly PRKD2 in both contexts. Retain every source component, including failed overlap; do not infer full vectors from credible sets alone.",
+    "gwas_signal_analysis": "External signed 503-EUR reference LD SuSiE, all eligible platforms; scalar N 11386 primary with 3504 and 14890 sensitivities; these do not reconstruct exact overlapping-platform covariance. Preserve all fits and LD mismatch diagnostics.",
+    "indels": "Retain every source indel and quantify its marginal/component weight. Primary matching is biallelic SNVs; no single-base liftover of an indel, rsID-only rescue or proxy substitution. Material omitted weight makes complete-locus interpretation unavailable."
+  },
+  "transfer_bounds": {
+    "minimum_seconds_between_indexed_queries": 2,
+    "maximum_gwas_range_requests": 80,
+    "maximum_gwas_range_bytes": 10000000,
+    "maximum_nominal_rows_per_region": 5000000,
+    "maximum_nominal_uncompressed_bytes_per_region": 2000000000,
+    "maximum_reference_uncompressed_bytes_per_region": 2000000000,
+    "maximum_reference_rows_per_region": 200000,
+    "maximum_published_bf_probe_bytes_per_file": 1000000,
+    "maximum_published_bf_compressed_bytes_per_file": 3000000000
+  },
+  "frozen_file_sha256": {
+    "data/raw/cd4-gene-phenotypes.tsv.gz": "c2f3647901119fc211db8e8a157dd567f70e0716d7e2a2d9baf263aa1405ea15",
+    "data/raw/coloc-hg19-to-hg38-chain.gz": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+    "data/raw/coloc-hg38-to-hg19-chain.gz": "14a712e8e147d9fc8e9d87d51977b46f6f8ddb93efbe5d0843d86b6205f587b1",
+    "data/raw/GCST004030-original-header.txt": "82fb5939a11d388780fac1d303fc83875ed5784e6f7490f50d21d78db3769888",
+    "data/raw/GCST004030.json": "26ce9435122ad7c435a86e38646d0dcd6a5b22466083c26bdbe96e20e765ccdc",
+    "data/raw/coloc-Ji2017-MOESM245_ESM.xlsx": "0725206aa2af2427495edd623145bd92db4ab48cba77439de958230a50efbac8",
+    "data/raw/qtl-eqtl-r7-metadata.data": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+    "config/qtl-followup-sources.json": "62dd8f6b71ac2d49814271dc96b84ac5a2dd0ae34b61ed0508344fa5db54b815",
+    "config/qtl-followup-queries.json": "78a3842d036d1c8ad3215aff3e11671a4ff36fdc0c89bb387887611f253be973",
+    "config/coloc-runtime.json": "8a0a71c0d23601d1182b0e847685609fd49f7925c8023f6a3a18abcc39e1a999",
+    "requirements-coloc-linux-64.lock": "d000826d5ecba9aa716d4fbe45af57976f67f7f13d0e2aa721d12330d0d21094",
+    "scripts/coloc_common.py": "f5bf68c806b4082024e82bd0ef209dfdbc8744c234d9adacd804338f2b6a1141",
+    "scripts/prepare_coloc_inputs.py": "b28533e570f89f1ffce345008bed2424165aae0d313a565324e8bf5c9f8f69c6",
+    "scripts/summarize_cd4_rna.py": "7d20afed35cdccadb5ad997d93602e936ab3a8b51235bde95e56e64b6f3f3dd2",
+    "scripts/run_coloc.R": "12f1bfe1d05a394f4d3ca04ad5e6364110210eb5749a2b49d165ccdd2ef63bfc",
+    "scripts/run_coloc_platform.R": "b554bec8bb5e87968bc3aae31f3248385111ebc38e12e0a3326c30f955e40e78",
+    "scripts/fetch_coloc_signal_bfs.py": "3325ba4368c12086d17b9075ae95740db87696f69f5fedc29d2e6f107fa45744"
+  },
+  "limits": [
+    "Same public PSC discovery GWAS and reused BLUEPRINT/DICE cohorts; this is not independent discovery or a model validation",
+    "GWAS original signed in-sample LD and overlapping-platform covariance remain unavailable",
+    "DICE ancestry is not assumed matched to 503 EUR reference donors",
+    "No mediation, disease-progression, protein-activity or treatment-benefit claim",
+    "SNP matching does not establish coverage of excluded indels; full pre-intersection and published-component evidence gates remain mandatory"
+  ]
+}

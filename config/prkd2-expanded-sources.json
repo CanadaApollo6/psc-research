@@ -1,0 +1,69 @@
+{
+  "plan_sha256": "c169474ec10b9a99a91121085031627f0d0075bfb86ddf17f40f0fcd18520092",
+  "started_at_utc": "2026-09-15T04:12:45.929756+00:00",
+  "files": [
+    {
+      "file": "data/raw/prkd2-Homo_sapiens.GRCh37.dna.chromosome.19.fa.gz",
+      "url": "https://ftp.ensembl.org/pub/grch37/release-115/fasta/homo_sapiens/dna/Homo_sapiens.GRCh37.dna.chromosome.19.fa.gz",
+      "sha256": "6face4cdee067e30b0b80e1a2c862a6001a6c92a4afac22c2210dbc96fd8ddb0",
+      "bytes": 16422893
+    },
+    {
+      "file": "data/raw/prkd2-CHECKSUMS",
+      "url": "https://ftp.ensembl.org/pub/grch37/release-115/fasta/homo_sapiens/dna/CHECKSUMS",
+      "sha256": "8a5bca0dde365da1c3affa35567da38705594a75d052df5ce6ffb709c1046425",
+      "bytes": 5009
+    },
+    {
+      "file": "data/raw/prkd2-GRCh37-region.txt",
+      "sha256": "526305466678938a67ae8df13d4f5032f71dffd4c035e1795899bb7c8c82068f",
+      "bytes": 2020001,
+      "build": "GRCh37",
+      "chromosome": "chr19",
+      "start_1based": 46210385,
+      "end_1based": 48230384,
+      "sequence_sha256": "a68d33c0537cfeffd6e76fd32b0f0ea5d3d284c7e3ed2c3b3e153b27241181b2",
+      "length": 2020000
+    },
+    {
+      "file": "data/raw/prkd2-GRCh38-region.txt",
+      "sha256": "453966ec69b05dd5e10c499f8e78f14a073da59400a0aecce2567f32de515d7d",
+      "bytes": 2020002,
+      "build": "GRCh38",
+      "chromosome": "chr19",
+      "start_1based": 45707127,
+      "end_1based": 47727127,
+      "sequence_sha256": "f637e6a1be3c75aa9dac2bb2665c71ab88e47ad7368d907cc1da7bd38cdc926e",
+      "length": 2020001
+    },
+    {
+      "file": "data/raw/prkd2-expanded-EUR-dosages.tsv.gz",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "sha256": "989b9f486520a87a73cee144290942919b5eb8b860df86b4bc77a4c9e667d9ea",
+      "bytes": 1029127,
+      "uncompressed_sha256": "a887f514b86b51976b79178acfc337ae4d72c86745838dd337b7eb8d04d81a64",
+      "all_reference_rows_scanned": 62899,
+      "all_reference_bytes_scanned": 639057578,
+      "all_reference_stream_sha256": "3ca0e04817176e7ecc0143ba8ebc34c3af527f80ddece6c3840f16bfad3f880d",
+      "status_counts": {
+        "retained_biallelic": 62557,
+        "symbolic_or_non_DNA": 44,
+        "multiallelic": 298
+      },
+      "source_index_sha256": "3a347dba71d8571ceadc6cd00d24119a87a04f040f211ae43cbc2cf3a1c748bd",
+      "start_0based": 46210384,
+      "end_exclusive": 48230384,
+      "donors": 503,
+      "source_build": "GRCh37",
+      "sample_bearing_file_excluded_from_Git": true
+    }
+  ],
+  "local_GRCh38_reference": {
+    "file": "work/ubash3a-raw-read-audit/GRCh38.primary.fa",
+    "sha256": "1e74081a49ceb9739cc14c812fbb8b3db978eb80ba8e5350beb80d8ad8dfef3b",
+    "compressed_source_receipt": "data/raw/ubash3a-raw-read-audit/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.receipt.json",
+    "compressed_source_receipt_sha256": "3b54ca7a0fdd9d0f5b68c4b13327c644fea41c7c188dc4654e66f93523e2f2e6"
+  },
+  "finished_at_utc": "2026-09-15T04:13:22.438507+00:00",
+  "fetcher_sha256": "d2f5f1873f1a2c6f95e82d1186d0cdb2d66609d2df6f92d905d46d81d85cb216"
+}

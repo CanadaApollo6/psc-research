@@ -1,0 +1,12 @@
+[
+  {
+    "dataset_id": "QTD000021",
+    "sd_mode": "estimated",
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  },
+  {
+    "dataset_id": "QTD000504",
+    "sd_mode": "estimated",
+    "warnings": "estimating sdY from maf and varbeta, please directly supply sdY if known"
+  }
+]

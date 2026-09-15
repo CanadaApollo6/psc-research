@@ -1,0 +1,36 @@
+{
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "source_manifest_sha256": "7f4c611c5242cb7e68a0ad82f5534bbdf9fdcc27fe1f21ea5ba579266f998b00",
+  "reader_sha256": "a8ea62b5bc3250a57551d077c3d24ea1b424ddcb8c7f7608eb3fa69599709d83",
+  "pysam_version": "0.23.3",
+  "started_at_utc": "2026-09-15T03:51:55.813105+00:00",
+  "queries": [
+    {
+      "id": "EUR-PRKD2",
+      "file": "data/raw/prkd2-EUR-PRKD2-dosages.tsv.gz",
+      "sha256": "87d456336f07581812bf0305014b2bee703617603f4ae16416c1c2ef00cdd04e",
+      "uncompressed_sha256": "52e9883fcf013fc520332be2fc89f76d06dd4d8521bd0b089cd3e1ca252664f7",
+      "bytes": 908325,
+      "finished_at_utc": "2026-09-15T03:52:14.929929+00:00",
+      "rows": 59599,
+      "region": {
+        "gene_id": "ENSG00000105287",
+        "gene_name": "PRKD2",
+        "anchor": "rs313839",
+        "chromosome": "chr19",
+        "tss_grch38_1based": 46717127,
+        "start_grch38_0based": 45717126,
+        "end_grch38_exclusive": 47717127,
+        "start_grch37_0based": 46220384,
+        "end_grch37_exclusive": 48220384
+      },
+      "source_url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+      "donors": 503,
+      "all_reference_rows_scanned": 62325,
+      "all_reference_bytes_scanned": 633225733,
+      "source_build": "GRCh37"
+    }
+  ],
+  "ranges": [],
+  "finished_at_utc": "2026-09-15T03:52:16.930295+00:00"
+}

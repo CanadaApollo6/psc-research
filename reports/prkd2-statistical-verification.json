@@ -1,0 +1,51 @@
+{
+  "all_checks_pass": true,
+  "baselines": {
+    "prkd2": {
+      "rows": 12,
+      "variant_posteriors": 6882,
+      "maximum_numeric_difference": 1.6542323066914832e-14
+    },
+    "prkd2-expanded": {
+      "rows": 12,
+      "variant_posteriors": 7343,
+      "maximum_numeric_difference": 5.6066262743570405e-15
+    }
+  },
+  "verification_method": "Independent NumPy/SciPy formulas; no R result used as an input coefficient or weight",
+  "published_PIP_checks": {
+    "QTD000021": {
+      "full_variants": 7505,
+      "published_credible_set_rows": 59,
+      "published_distinct_CS_variants": 56,
+      "components": [
+        "ENSG00000105287_L1",
+        "ENSG00000105287_L2"
+      ],
+      "maximum_PIP_difference": 8.104628079763643e-15
+    },
+    "QTD000504": {
+      "full_variants": 6261,
+      "published_credible_set_rows": 29,
+      "published_distinct_CS_variants": 23,
+      "components": [
+        "ENSG00000105287_L1",
+        "ENSG00000105287_L2"
+      ],
+      "maximum_PIP_difference": 6.938893903907228e-15
+    }
+  },
+  "components": {
+    "prkd2": {
+      "planned_rows_verified": 36,
+      "variant_posteriors_verified": 0,
+      "maximum_numeric_difference": 0.0
+    },
+    "prkd2-expanded": {
+      "planned_rows_verified": 36,
+      "variant_posteriors_verified": 0,
+      "maximum_numeric_difference": 0.0
+    }
+  },
+  "verifier_sha256": "a887c54838a83774791e64108f56030a6e65dba233c1bdacf5d4396b83778d9f"
+}

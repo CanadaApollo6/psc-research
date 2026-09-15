@@ -1,0 +1,38 @@
+{
+  "stage": "baseline",
+  "status": "complete",
+  "started_at_utc": "2026-09-15T04:23:57.572124+00:00",
+  "input_sha256": {
+    "config/prkd2-plan.json": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+    "config/prkd2-sources.json": "7f4c611c5242cb7e68a0ad82f5534bbdf9fdcc27fe1f21ea5ba579266f998b00",
+    "reports/prkd2-expanded-input-audit.json": "0d5f530e3ec0923f9960df7d8c99022a9b76ee776e2b0b3c5579bce02e3b8d4c",
+    "scripts/run_prkd2_expanded.R": "8b1c9b2cae948c1e3c88f1bf4f4184d6ff53e39d36bf09b64003822a8d2d216f",
+    "scripts/execute_prkd2_expanded.py": "1f4577985a77eede8e56f025f287271ff54c422a30fdf5160c6da8e46ad6c521",
+    "scripts/run_coloc.R": "12f1bfe1d05a394f4d3ca04ad5e6364110210eb5749a2b49d165ccdd2ef63bfc",
+    "scripts/run_coloc_platform.R": "b554bec8bb5e87968bc3aae31f3248385111ebc38e12e0a3326c30f955e40e78",
+    "config/prkd2-expanded-plan.json": "c169474ec10b9a99a91121085031627f0d0075bfb86ddf17f40f0fcd18520092",
+    "config/prkd2-expanded-sources.json": "34fe2f1f16ef491720df806b16a0dc5ecce8fdc1685c8c0df38ac002764c9eb6",
+    "reports/prkd2-normalization-verification.json": "e11500a5ed4dcca36973e2c8188918a2ce9575f01f82e08ca6dbe2e61de6401d",
+    "data/derived/prkd2-expanded-inputs/GWAS-PRKD2-ld.csv.gz": "349f9e7365d1f4e32bdb027141090a126e3ff7dc59ccb648f4ce373a0aba0344",
+    "data/derived/prkd2-expanded-inputs/GWAS-PRKD2.csv.gz": "9f74bb7da877e2e8d0e6abecb6583245c83866a76c6e97324e80df2707b924fd",
+    "data/derived/prkd2-expanded-inputs/GWAS-full-evidence.csv.gz": "e769d6b316e5587810fc6659a6d60b64e4ea89d824056cf8e081b65c7c6cec96",
+    "data/derived/prkd2-expanded-inputs/QTD000021-PRKD2.csv.gz": "bef94bab070cb5ea5910c34b06a9bb70fa58cc9d8040deaaf16633ee222cbbd4",
+    "data/derived/prkd2-expanded-inputs/QTD000021-full-evidence.csv.gz": "e83fb626cd46b25208cd854ec86186db2788b2d76dc7bf380767103f26a2a82a",
+    "data/derived/prkd2-expanded-inputs/QTD000504-PRKD2.csv.gz": "07c2dbc0da40b24354bb60117c6d0b3cddcbc1799a2ee16e422ec92d63bc1a17",
+    "data/derived/prkd2-expanded-inputs/QTD000504-full-evidence.csv.gz": "ae7a47b18e7e2e1cd621a5ad1c7ddf79653007b9e4e484ff6f2c7d0ce137bb39",
+    "data/raw/prkd2-expanded-ld/GWAS-PRKD2.f64": "77bbe9f9d476c7bffcb5252ea17b104b7394b0b66f16010c8e03fec143052d5a"
+  },
+  "R": "4.4.3",
+  "coloc": "5.2.3",
+  "susieR": "0.14.2",
+  "scheduling": "Each stage pins its complete inputs before execution; published BF transfers may continue during unrelated marginal/GWAS fitting stages.",
+  "exit_code": 0,
+  "finished_at_utc": "2026-09-15T04:23:58.873671+00:00",
+  "log_file": "work/prkd2/expanded-baseline.log",
+  "log_sha256": "c4f3d0cd8eb0c646264e60fbe1b787ff4032c9159aeab6a8301d8684bbf2d6f2",
+  "output_sha256": {
+    "reports/prkd2-expanded-baseline.csv": "597eec855d8c6b851abc8898c03062535f32abab85b979bd90e78399cbf3b8fb",
+    "reports/prkd2-expanded-baseline-variant-posteriors.csv.gz": "aa609be1835f26eaf2cceee301846b63c4daf6816646f651b50e7ed82b005a07",
+    "reports/prkd2-expanded-baseline-warnings.json": "fed190acbca5cc8bf3c6ff021900fcf31c07f078c3fcd92f71809e9fc413ea80"
+  }
+}

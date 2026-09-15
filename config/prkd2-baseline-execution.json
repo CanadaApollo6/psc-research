@@ -1,0 +1,35 @@
+{
+  "stage": "baseline",
+  "status": "complete",
+  "started_at_utc": "2026-09-15T04:00:39.457037+00:00",
+  "input_sha256": {
+    "config/prkd2-plan.json": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+    "config/prkd2-sources.json": "7f4c611c5242cb7e68a0ad82f5534bbdf9fdcc27fe1f21ea5ba579266f998b00",
+    "reports/prkd2-input-audit.json": "4e2e96a77f96d2cae425ff1dbfd19bc3a362983295adb40fb535db34a6bc0aee",
+    "scripts/run_prkd2.R": "044f6cbc30d26cbe0ce2e46179392b460343988d02a67bd4df1e6301517a5436",
+    "scripts/execute_prkd2.py": "cf0923752232d81ab74e367b7914cdf1db9f862d91ca35f948a5c884a0ca455d",
+    "scripts/run_coloc.R": "12f1bfe1d05a394f4d3ca04ad5e6364110210eb5749a2b49d165ccdd2ef63bfc",
+    "scripts/run_coloc_platform.R": "b554bec8bb5e87968bc3aae31f3248385111ebc38e12e0a3326c30f955e40e78",
+    "data/derived/prkd2-inputs/GWAS-PRKD2-ld.csv.gz": "febd903059f9574ed4163950647ad0d588a910168875aceec763b504090e639c",
+    "data/derived/prkd2-inputs/GWAS-PRKD2.csv.gz": "2ea3809b379fb6e99732841f35acfc5eee903f6c5da20f7c15b687afe9e76a76",
+    "data/derived/prkd2-inputs/GWAS-full-evidence.csv.gz": "b470383860d6672576fa3d4c8ce4ffce20e403d8b2d22aae2cb1503f4121445b",
+    "data/derived/prkd2-inputs/QTD000021-PRKD2.csv.gz": "5122573158ca83eb8ad99878894214ac471a0470a31f2c7532fae61101968f7c",
+    "data/derived/prkd2-inputs/QTD000021-full-evidence.csv.gz": "a98c9204a8039b0c50edb1e1fbf38426dfd2b525135064df8d17ca4cffbae773",
+    "data/derived/prkd2-inputs/QTD000504-PRKD2.csv.gz": "78d06b419a80d7809df4717c86185e4378f293186b78e6736d900ed7d74134a5",
+    "data/derived/prkd2-inputs/QTD000504-full-evidence.csv.gz": "709d3924dbda5c21f1dd8989ddc1ad6aed160cc344c6b33ee5345184725b56b3",
+    "data/raw/prkd2-ld/GWAS-PRKD2.f64": "725c077fd2f0fad29a8d35084e227779e737586477649ef8ef9069aabcb03c86"
+  },
+  "R": "4.4.3",
+  "coloc": "5.2.3",
+  "susieR": "0.14.2",
+  "scheduling": "Each stage pins its complete inputs before execution; published BF transfers may continue during unrelated marginal/GWAS fitting stages.",
+  "exit_code": 0,
+  "finished_at_utc": "2026-09-15T04:00:40.684829+00:00",
+  "log_file": "work/prkd2/baseline.log",
+  "log_sha256": "c4f3d0cd8eb0c646264e60fbe1b787ff4032c9159aeab6a8301d8684bbf2d6f2",
+  "output_sha256": {
+    "reports/prkd2-baseline.csv": "a452936a1c8b7aa4e5c69c874c59de6d099cae3c1be943053c1d3f91eab2b183",
+    "reports/prkd2-baseline-variant-posteriors.csv.gz": "4ba1dcda250a95163f0159c79b682eb72ef967294ab9dd953b6d7a31b4c45c5c",
+    "reports/prkd2-baseline-warnings.json": "fed190acbca5cc8bf3c6ff021900fcf31c07f078c3fcd92f71809e9fc413ea80"
+  }
+}

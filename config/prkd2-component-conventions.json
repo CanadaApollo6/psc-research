@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-09-15T04:02:54.956360+00:00",
+  "before_any_component_comparison": true,
+  "implementation": "coloc 5.2.3 coloc.bf_bf calls logbf_to_pp(last_is_null=TRUE). Full SuSiE vectors do not contain a null column. Add explicit named null with logBF=0 to each input ONLY for the official comparison; all real variants and input vectors remain unchanged. Compute evidence-overlap denominators over real variants only.",
+  "source_checked": "Installed pinned function bodies, logbf_to_pp and coloc.bf_bf",
+  "component_entrypoint": "scripts/execute_prkd2_signals.py compare",
+  "baseline_and_gwas_fitting_entrypoint": "scripts/execute_prkd2.py",
+  "unexecuted_comparison_function_in_initial_script": "Preserved in scripts/run_prkd2.R as the baseline/fitting code snapshot; superseded by run_prkd2_signals.R before use. No component posterior was computed with the earlier function.",
+  "code_sha256": {
+    "scripts/run_prkd2_signals.R": "4a67d3ddbd7104296881d572a30c6b7e99762bd7607b771f6c1ef1761a9d2879",
+    "scripts/execute_prkd2_signals.py": "290d0733d8261c12153f79b7b93c697d3eab830d2619e37deee7d0c9f07d838a"
+  }
+}

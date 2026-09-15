@@ -1,0 +1,19 @@
+{
+  "all_checks_pass": true,
+  "independent_normalization_checks": {
+    "GRCh37": 293,
+    "GRCh38": 3907
+  },
+  "total_normalizations": 4200,
+  "pysam": "0.23.3",
+  "bcftools": "1.21",
+  "GRCh37_publisher_BSD_checksum_and_blocks": [
+    "58845",
+    "16038"
+  ],
+  "GRCh38_prior_verified_decompression_matches": true,
+  "GRCh38_prior_reference_record_sha256": "c54963f7f639fcda7395b7171f98fb50569ddd1d6bd92e08d6d0b5a0f720fd4f",
+  "check_input_sha256": "bea12bf42445a64d433024e78c01240078afc04205ffe92f44078c9fcffe091f",
+  "expanded_source_manifest_sha256": "34fe2f1f16ef491720df806b16a0dc5ecce8fdc1685c8c0df38ac002764c9eb6",
+  "verifier_sha256": "27140380f6a497973f7f303b55ee0cff2b6d4e9cc58affd607c2f40ecb8afec2"
+}

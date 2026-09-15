@@ -1,0 +1,225 @@
+{
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "source_manifest_sha256": "7f4c611c5242cb7e68a0ad82f5534bbdf9fdcc27fe1f21ea5ba579266f998b00",
+  "reader_sha256": "a8ea62b5bc3250a57551d077c3d24ea1b424ddcb8c7f7608eb3fa69599709d83",
+  "pysam_version": "0.23.3",
+  "started_at_utc": "2026-09-15T03:51:55.725546+00:00",
+  "queries": [
+    {
+      "id": "GWAS-PRKD2",
+      "file": "data/derived/prkd2-query-rows/GWAS-PRKD2.txt.gz",
+      "sha256": "fd7d4073a887b22f42b420e82bc6e7b17366054e7e8ea2592a2fe3b7bff78ebe",
+      "uncompressed_sha256": "3ac43c899a3b77fbf0e3a8ba85e0ac9f424fdd350ec5f1835ccef534efb5f3ce",
+      "bytes": 124478,
+      "finished_at_utc": "2026-09-15T03:52:08.934679+00:00",
+      "rows": 4727,
+      "region": {
+        "gene_id": "ENSG00000105287",
+        "gene_name": "PRKD2",
+        "anchor": "rs313839",
+        "chromosome": "chr19",
+        "tss_grch38_1based": 46717127,
+        "start_grch38_0based": 45717126,
+        "end_grch38_exclusive": 47717127,
+        "start_grch37_0based": 46220384,
+        "end_grch37_exclusive": 48220384
+      },
+      "source_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "bracketing_first_coordinate": [
+        19,
+        45870879
+      ],
+      "bracketing_last_coordinate": [
+        19,
+        48473236
+      ]
+    }
+  ],
+  "ranges": [
+    {
+      "file": "prkd2-gwas-bytes-330978334-331043869.txt",
+      "start": 330978334,
+      "end": 331043869,
+      "sha256": "2382f6216e61003f915862c0138e3d0fc19326f67b2990b84144a9a5acfb7cc5",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:51:56.217269+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-496467501-496533036.txt",
+      "start": 496467501,
+      "end": 496533036,
+      "sha256": "ae61e1e7a8b09a78c4eccf0a12ba267d2f4a09ad1d22d261f1d183e71f244626",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:51:56.867875+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-579212084-579277619.txt",
+      "start": 579212084,
+      "end": 579277619,
+      "sha256": "86d8ac2eec4040de739d7786a026da97d77bfcb22b0a7a689741a26ac00dd605",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:51:57.735882+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-620584376-620649911.txt",
+      "start": 620584376,
+      "end": 620649911,
+      "sha256": "d968e04166c96e28ba4d0a796f8771e90d42c2aca7135f1ae4b3caa029c107ec",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:51:58.611473+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-599898230-599963765.txt",
+      "start": 599898230,
+      "end": 599963765,
+      "sha256": "a79fcbce788dfc5b0ed37c04ce7d0ffe04ced396b4a704d8067f78f945373d54",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:51:59.396918+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610241303-610306838.txt",
+      "start": 610241303,
+      "end": 610306838,
+      "sha256": "72cd05c0a3d21a24d1210a79488c3f11dc71df39aa673fd18a5d4dbf240d964a",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:00.300854+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-605069766-605135301.txt",
+      "start": 605069766,
+      "end": 605135301,
+      "sha256": "1d2efea819e9a7130591fd5f06f0249c4a36381133825abfe5f317a1b1d9b367",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:00.789747+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-607655534-607721069.txt",
+      "start": 607655534,
+      "end": 607721069,
+      "sha256": "c8b252e1012570f6ac906feeb8573499c79533b8ebad4b52c79ce2b61b5cb876",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:01.275766+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-608948418-609013953.txt",
+      "start": 608948418,
+      "end": 609013953,
+      "sha256": "59c4339549058a865c7cdb81515b8910a7b7017d79d0fddd01ad98225f5ae775",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:01.761089+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-609594860-609660395.txt",
+      "start": 609594860,
+      "end": 609660395,
+      "sha256": "c4397789662d1c3092269a1f4531ac4757b4bcc249d101c9adb98ca7ac2085ef",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:02.248023+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-609918081-609983616.txt",
+      "start": 609918081,
+      "end": 609983616,
+      "sha256": "8b63d0d71d0a86e6123ab334e751d0c5bd15893a307a23d324c48b1872fc644b",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:02.735333+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610079692-610145227.txt",
+      "start": 610079692,
+      "end": 610145227,
+      "sha256": "4a55a601aae82f069ab88efd48803d1aeea00d2d0f51c2fcf9c7ecfc4fcd9a71",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:03.224555+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-609998886-610064421.txt",
+      "start": 609998886,
+      "end": 610064421,
+      "sha256": "c6c58c42c7ad229c5e11cf9eeb3b95f8e313d0e9e997a98c42b628c9998c756f",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:03.712203+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-609958483-610024018.txt",
+      "start": 609958483,
+      "end": 610024018,
+      "sha256": "2c7bcdc22735f10c5d099b06b108e3d563aa6c00bbb9ea30032d23f561ad6151",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:04.204236+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-615412839-615478374.txt",
+      "start": 615412839,
+      "end": 615478374,
+      "sha256": "334c073615fa760df07df9c71310278dee9b398d6fcd27b2ea8198abcf078dc4",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:04.693597+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-612827071-612892606.txt",
+      "start": 612827071,
+      "end": 612892606,
+      "sha256": "f1890aac69999618ccb9f75d4acf7a2d8af3bc247962cd9e1ee27432da8dcdf6",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:05.180200+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-611534187-611599722.txt",
+      "start": 611534187,
+      "end": 611599722,
+      "sha256": "8a38289ef024eaa4ce39bdd7664a7aec9b28081e81f9dbdb57fe713d6e9a5090",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:05.669500+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610887745-610953280.txt",
+      "start": 610887745,
+      "end": 610953280,
+      "sha256": "b837919bf182446190ed09f4202f3d0a69b1ba08d252228a9d719f70983721a2",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:06.155062+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610564524-610630059.txt",
+      "start": 610564524,
+      "end": 610630059,
+      "sha256": "a5e439b6be7aca72d1334807751cce289a0b35a336d07a6b584a4fe4b38abdc5",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:06.646584+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610402913-610468448.txt",
+      "start": 610402913,
+      "end": 610468448,
+      "sha256": "123b43219ae335cba5104a8333e9b10429279e4a8318ca1ee8c872579aaa8182",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:07.134322+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610322108-610387643.txt",
+      "start": 610322108,
+      "end": 610387643,
+      "sha256": "f1afab41d0e84dc2ca9cf32ba57c7fd5753f708f4fe18611d98debebbb229816",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:07.623723+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-610362510-610428045.txt",
+      "start": 610362510,
+      "end": 610428045,
+      "sha256": "4b57d3998879244508c4c25d1ecc41eff2c0f57b91d938ac18dd7516baa86aa9",
+      "bytes": 65536,
+      "retrieved_at_utc": "2026-09-15T03:52:08.110179+00:00"
+    },
+    {
+      "file": "prkd2-gwas-bytes-609920597-610453698.txt",
+      "start": 609920597,
+      "end": 610453698,
+      "sha256": "3e202251f0ad736459d6e406b83fe2c4b4e32c212b2cb81104f90307d1d51a72",
+      "bytes": 533102,
+      "retrieved_at_utc": "2026-09-15T03:52:08.881870+00:00"
+    }
+  ],
+  "finished_at_utc": "2026-09-15T03:52:08.934972+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "QTD000021",
+      "source_rows": 8409,
+      "source_unique_variants": 7505,
+      "numeric_full_variants": 7505,
+      "eligible_snvs": 5664,
+      "gwas_overlap": 3768,
+      "sample_sizes": [
+        191
+      ]
+    },
+    {
+      "dataset_id": "QTD000504",
+      "source_rows": 7242,
+      "source_unique_variants": 6261,
+      "numeric_full_variants": 6261,
+      "eligible_snvs": 4488,
+      "gwas_overlap": 3114,
+      "sample_sizes": [
+        91
+      ]
+    }
+  ],
+  "gwas_source_rows": 4727,
+  "gwas_eligible_snvs": 4287,
+  "gwas_ld_variants": 4222,
+  "gwas_status_counts": {
+    "eligible": 4287,
+    "not_biallelic_snv": 426,
+    "palindromic_reference_frequency_unavailable": 14
+  },
+  "qtl_status_counts": {
+    "eligible": 10152,
+    "unavailable": 3614
+  },
+  "reference_status_counts": {
+    "mapped": 59599
+  },
+  "published_credible_set_rows": 88,
+  "prior_rs313839_qtl_rows_exactly_reproduced": true,
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "preparation_script_sha256": "a32a33bc5f68b1f78364f5d57b3d9c3c7713009732a46cb99ed3887db2669cbf",
+  "inputs": {
+    "data/derived/prkd2-inputs/GWAS-PRKD2-ld.csv.gz": "febd903059f9574ed4163950647ad0d588a910168875aceec763b504090e639c",
+    "data/derived/prkd2-inputs/GWAS-PRKD2.csv.gz": "2ea3809b379fb6e99732841f35acfc5eee903f6c5da20f7c15b687afe9e76a76",
+    "data/derived/prkd2-inputs/GWAS-full-evidence.csv.gz": "b470383860d6672576fa3d4c8ce4ffce20e403d8b2d22aae2cb1503f4121445b",
+    "data/derived/prkd2-inputs/QTD000021-PRKD2.csv.gz": "5122573158ca83eb8ad99878894214ac471a0470a31f2c7532fae61101968f7c",
+    "data/derived/prkd2-inputs/QTD000021-full-evidence.csv.gz": "a98c9204a8039b0c50edb1e1fbf38426dfd2b525135064df8d17ca4cffbae773",
+    "data/derived/prkd2-inputs/QTD000504-PRKD2.csv.gz": "78d06b419a80d7809df4717c86185e4378f293186b78e6736d900ed7d74134a5",
+    "data/derived/prkd2-inputs/QTD000504-full-evidence.csv.gz": "709d3924dbda5c21f1dd8989ddc1ad6aed160cc344c6b33ee5345184725b56b3"
+  }
+}

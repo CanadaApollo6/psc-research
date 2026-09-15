@@ -1,0 +1,43 @@
+{
+  "query_plan_sha256": "afa4d471dc5d25b2d87feb24d316025c63873569fe3b1f9a826e56868f2c992a",
+  "queries": [
+    {
+      "dataset_id": "QTD000021",
+      "source_id": "rs112445263",
+      "chromosome": "19",
+      "position": 46700099,
+      "ref": "C",
+      "alt": "A",
+      "full_gwas_bf_weight": 0.2036085516460931,
+      "queried_at_utc": "2026-09-15T04:32:03.927543+00:00",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "rows_at_position_all_genes": 0,
+      "rows_exact_alleles_all_genes": 0,
+      "rows_exact_alleles_PRKD2": 0,
+      "observed_allele_pairs": [],
+      "file": "data/derived/prkd2-query-rows/QTD000021-dominant-missing-variant.tsv.gz",
+      "sha256": "a5051b133a23ffcdd398fd3a8d196275606cde86a58840a405210515d2230b87",
+      "uncompressed_sha256": "bb7750ac4fd13a54913ea9d046f4022e3f4c9a711898a550a0b5ed00ab01b790"
+    },
+    {
+      "dataset_id": "QTD000504",
+      "source_id": "rs112445263",
+      "chromosome": "19",
+      "position": 46700099,
+      "ref": "C",
+      "alt": "A",
+      "full_gwas_bf_weight": 0.2036085516460931,
+      "queried_at_utc": "2026-09-15T04:32:06.738601+00:00",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "rows_at_position_all_genes": 0,
+      "rows_exact_alleles_all_genes": 0,
+      "rows_exact_alleles_PRKD2": 0,
+      "observed_allele_pairs": [],
+      "file": "data/derived/prkd2-query-rows/QTD000504-dominant-missing-variant.tsv.gz",
+      "sha256": "a5051b133a23ffcdd398fd3a8d196275606cde86a58840a405210515d2230b87",
+      "uncompressed_sha256": "bb7750ac4fd13a54913ea9d046f4022e3f4c9a711898a550a0b5ed00ab01b790"
+    }
+  ],
+  "filter_cause": "Not inferred from absence in aggregate files",
+  "reader_sha256": "53614343a886f513cd5af843513fea2f299f6552a7bda82123c2397d4625df4d"
+}

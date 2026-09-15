@@ -1,0 +1,27 @@
+{
+  "scope": "All top-20 omitted RNA edits in each cohort, compared with all regional GWAS source rows, including SNVs and non-SNVs",
+  "statistical_inputs_changed": false,
+  "candidate_counts": {
+    "all_source_rows_considered": 4727,
+    "SNV_rows": 4301,
+    "orientations_considered": 9454,
+    "reference_valid_orientations": 5101,
+    "reference_invalid_orientations": 4353,
+    "non_SNV_rows": 426
+  },
+  "target_rows": 40,
+  "status_counts": {
+    "no_full_allele_source_match": 38,
+    "possible_full_allele_source_match": 2
+  },
+  "interpretation": "Possible matches are candidates only; no match means no full-allele source record under these exact reference/reciprocal mapping rules. Filter causes are not inferred.",
+  "development_correction": "The preliminary uncommitted audit considered only non-SNV GWAS rows. This complete audit includes every source row; preliminary output is retained in the local work directory and was not used to change statistical inputs.",
+  "inputs": {
+    "data/derived/prkd2-gwas-alignment.csv.gz": "b470383860d6672576fa3d4c8ce4ffce20e403d8b2d22aae2cb1503f4121445b",
+    "data/derived/prkd2-missing-evidence.csv": "bbf4a024a33935920b2a73b79ae19b8182c0df8f1d4ca405652cfaccb05a049f",
+    "config/prkd2-expanded-sources.json": "34fe2f1f16ef491720df806b16a0dc5ecce8fdc1685c8c0df38ac002764c9eb6"
+  },
+  "output": "data/derived/prkd2-missing-allele-identity-audit.csv",
+  "output_sha256": "ed95068e9e3017126632e2a74377cd753d322843a92c8a91d95d3168268e0594",
+  "reader_sha256": "0243380ef4667bdeb89bbd2508b27f9bbac15c8c8130de494dc6890650c6fe09"
+}

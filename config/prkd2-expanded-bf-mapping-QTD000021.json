@@ -1,0 +1,16 @@
+{
+  "dataset_id": "QTD000021",
+  "rows": 7505,
+  "full_vector_source_sha256": "a50e050dcaff02ebfb79a317c0390e66dbeab24610163ffd331ebaff322b1687",
+  "all_original_columns_preserved": true,
+  "same_complete_variant_universe_as_nominal_source": true,
+  "all_mappings_agree_with_independently_checked_nominal_edits": true,
+  "normalization_status_counts": {
+    "mapped": 7505
+  },
+  "output_file": "data/derived/prkd2-expanded-published-bfs/QTD000021.csv.gz",
+  "output_sha256": "14fd27a87b4fabd3153aa5594f96227fa276ae8cca8b95a5997946dcdba55ac1",
+  "source_manifest_sha256": "34fe2f1f16ef491720df806b16a0dc5ecce8fdc1685c8c0df38ac002764c9eb6",
+  "normalization_verification_sha256": "e11500a5ed4dcca36973e2c8188918a2ce9575f01f82e08ca6dbe2e61de6401d",
+  "mapper_sha256": "0c4c2d5ee6cf58633aa85f7d5ec15ac0267231f68397cfa1990bb4691a7fa05b"
+}

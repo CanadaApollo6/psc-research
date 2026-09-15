@@ -1,0 +1,29 @@
+{
+  "status": "converged",
+  "scalar_n_approximation": 11386,
+  "actual_variant_N_range": [3504, 14890],
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "variants": 4222,
+  "min_eigenvalue": -1.80701573032872e-13,
+  "reference_rank": 502,
+  "estimated_ld_mismatch_s": 0.093647845568724,
+  "flagged_ld_diagnostic_variants": 1,
+  "warnings": "`aes_string()` was deprecated in ggplot2 3.0.0.\nℹ Please use tidy evaluation idioms with `aes()`.\nℹ See also `vignette(\"ggplot2-in-packages\")` for more information.\nℹ The deprecated feature was likely used in the susieR package.\n  Please report the issue at <https://github.com/stephenslab/susieR/issues>.",
+  "error": null,
+  "n_credible_sets": 1,
+  "iterations": 4,
+  "credible_sets": [
+    {
+      "component": 1,
+      "size": 12,
+      "snps": ["chr19:46695675:A:C", "chr19:46700002:A:G", "chr19:46700099:A:C", "chr19:46702450:A:G", "chr19:46705224:C:T", "chr19:46709086:C:T", "chr19:46711739:A:T", "chr19:46715865:C:T", "chr19:46718300:C:G", "chr19:46720692:A:G", "chr19:46731628:A:G", "chr19:46753285:C:T"],
+      "purity": {
+        "min.abs.corr": 0.823501334874155,
+        "mean.abs.corr": 0.904462032708979,
+        "median.abs.corr": 0.878491647678308
+      },
+      "log_bf": 7.13196267809858
+    }
+  ]
+}

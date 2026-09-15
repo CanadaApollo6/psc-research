@@ -1,0 +1,46 @@
+{
+  "plan_sha256": "c169474ec10b9a99a91121085031627f0d0075bfb86ddf17f40f0fcd18520092",
+  "datasets": [
+    {
+      "dataset_id": "QTD000021",
+      "numeric_full_variants": 7505,
+      "eligible_distinct_edits": 7505,
+      "equivalent_alias_rows_collapsed": 0,
+      "conflicting_edit_groups": 0,
+      "gwas_overlap": 4018
+    },
+    {
+      "dataset_id": "QTD000504",
+      "numeric_full_variants": 6261,
+      "eligible_distinct_edits": 6261,
+      "equivalent_alias_rows_collapsed": 0,
+      "conflicting_edit_groups": 0,
+      "gwas_overlap": 3325
+    }
+  ],
+  "GWAS_eligible_variants": 4570,
+  "GWAS_variant_classes": {
+    "SNV": 4277,
+    "non_SNV": 293
+  },
+  "GWAS_status_counts": {
+    "eligible": 4570,
+    "unavailable": 143,
+    "original_exclusion_preserved": 14
+  },
+  "GWAS_LD_variants": 4513,
+  "qtl_status_counts": {
+    "eligible": 13766
+  },
+  "normalization_checks_queued": 4200,
+  "original_SNP_LD_max_abs_difference": 0.0,
+  "inputs": {
+    "data/derived/prkd2-expanded-inputs/GWAS-PRKD2-ld.csv.gz": "349f9e7365d1f4e32bdb027141090a126e3ff7dc59ccb648f4ce373a0aba0344",
+    "data/derived/prkd2-expanded-inputs/GWAS-PRKD2.csv.gz": "9f74bb7da877e2e8d0e6abecb6583245c83866a76c6e97324e80df2707b924fd",
+    "data/derived/prkd2-expanded-inputs/GWAS-full-evidence.csv.gz": "e769d6b316e5587810fc6659a6d60b64e4ea89d824056cf8e081b65c7c6cec96",
+    "data/derived/prkd2-expanded-inputs/QTD000021-PRKD2.csv.gz": "bef94bab070cb5ea5910c34b06a9bb70fa58cc9d8040deaaf16633ee222cbbd4",
+    "data/derived/prkd2-expanded-inputs/QTD000021-full-evidence.csv.gz": "e83fb626cd46b25208cd854ec86186db2788b2d76dc7bf380767103f26a2a82a",
+    "data/derived/prkd2-expanded-inputs/QTD000504-PRKD2.csv.gz": "07c2dbc0da40b24354bb60117c6d0b3cddcbc1799a2ee16e422ec92d63bc1a17",
+    "data/derived/prkd2-expanded-inputs/QTD000504-full-evidence.csv.gz": "ae7a47b18e7e2e1cd621a5ad1c7ddf79653007b9e4e484ff6f2c7d0ce137bb39"
+  }
+}

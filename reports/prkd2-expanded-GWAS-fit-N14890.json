@@ -1,0 +1,29 @@
+{
+  "status": "converged",
+  "scalar_n_approximation": 14890,
+  "actual_variant_N_range": [3504, 14890],
+  "reference_donors": 503,
+  "in_sample_LD": false,
+  "variants": 4513,
+  "min_eigenvalue": -2.08422745706274e-13,
+  "reference_rank": 502,
+  "estimated_ld_mismatch_s": 0.0947678898115248,
+  "flagged_ld_diagnostic_variants": 1,
+  "warnings": [],
+  "error": null,
+  "n_credible_sets": 1,
+  "iterations": 4,
+  "credible_sets": [
+    {
+      "component": 1,
+      "size": 14,
+      "snps": ["chr19:46695675:A:C", "chr19:46700002:A:G", "chr19:46700099:A:C", "chr19:46702450:A:G", "chr19:46702686:A:AT", "chr19:46705224:C:T", "chr19:46709086:C:T", "chr19:46709870:A:AT", "chr19:46711739:A:T", "chr19:46715865:C:T", "chr19:46718300:C:G", "chr19:46720692:A:G", "chr19:46731628:A:G", "chr19:46753285:C:T"],
+      "purity": {
+        "min.abs.corr": 0.823501334874156,
+        "mean.abs.corr": 0.90780487029366,
+        "median.abs.corr": 0.880573096361556
+      },
+      "log_bf": 7.09180374165924
+    }
+  ]
+}

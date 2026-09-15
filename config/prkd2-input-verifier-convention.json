@@ -1,0 +1,8 @@
+{
+  "scope": "Verifier correction only; association inputs and R outputs unchanged",
+  "observed": "kriging_rss reports finite-N-adjusted signed Z, not the raw inverse-normal signed Z",
+  "verified_installed_behavior": "z_adjusted = z * sqrt((n-1)/(n-2+z*z)) in susieR 0.14.2",
+  "original_verifier_sha256": "a42b06f6b6fb8f4b682e2c8992f15e3877befee6cca3c9474a488e52520a76aa",
+  "first_log_sha256": "0c1dd137970c35298843c3eb5dc24e00001609ff0db57d4cb18b1d19aa1c1c43",
+  "installed_kriging_source_sha256": "bf8d8e0f8161e62092fa3fe9f9e89659034a634d70a4eb4babaf3c7970c5ee04"
+}

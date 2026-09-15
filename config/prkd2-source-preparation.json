@@ -1,0 +1,137 @@
+{
+  "sources": [
+    {
+      "id": "eqtl-r7-metadata",
+      "file": "qtl-eqtl-r7-metadata.data",
+      "url": "https://raw.githubusercontent.com/eQTL-Catalogue/eQTL-Catalogue-resources/65995fe96c8c6da1e750b51bac3b4c2f5ba9260f/data_tables/dataset_metadata_r7.tsv",
+      "max_bytes": 5000000,
+      "sha256": "70b0b6eac8a607568d11b3f2d8ad6cf6e9bb430ffafa4883627797d8967785ea",
+      "retrieved_at_utc": "2026-09-11T23:22:20.912218+00:00",
+      "bytes": 75969,
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "cd4-gene-phenotypes",
+      "file": "cd4-gene-phenotypes.tsv.gz",
+      "url": "https://zenodo.org/api/records/7808390/files/gene_counts_Ensembl_105_phenotype_metadata.tsv.gz/content",
+      "max_bytes": 3000000,
+      "publisher_checksum": "md5:b999b21dcffeecbfe0bf886a5a91997b",
+      "sha256": "c2f3647901119fc211db8e8a157dd567f70e0716d7e2a2d9baf263aa1405ea15",
+      "bytes": 1905386,
+      "retrieved_at_utc": "2026-09-12T10:33:55.317960+00:00",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "GCST004030-original-header",
+      "file": "GCST004030-original-header.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST004001-GCST005000/GCST004030/ipscsg2016.result.combined.full.with_header.txt",
+      "request_headers": {
+        "Range": "bytes=0-8191"
+      },
+      "max_bytes": 100000,
+      "sha256": "82fb5939a11d388780fac1d303fc83875ed5784e6f7490f50d21d78db3769888",
+      "bytes_after_decompression": 8192,
+      "retrieved_at_utc": "2026-09-11T22:51:45.197879+00:00",
+      "content_range": "bytes 0-8191/662022204",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "GCST004030",
+      "file": "GCST004030.json",
+      "url": "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST004030",
+      "sha256": "26ce9435122ad7c435a86e38646d0dcd6a5b22466083c26bdbe96e20e765ccdc",
+      "bytes_after_decompression": 4118,
+      "max_bytes": 4000000,
+      "retrieved_at_utc": "2026-09-11T22:47:48.485238+00:00",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "kgp-phase3-panel",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_call_samples_v3.20130502.ALL.panel",
+      "max_bytes": 5000000,
+      "sha256": "b4023dc6ee2d62ee89c8d4d347db4d348e65518d66d346574cdae7a4bbd76858",
+      "retrieved_at_utc": "2026-09-12T00:19:11.348025+00:00",
+      "bytes": 55156,
+      "file": "junction-kgp-phase3-panel.data",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "coloc-hg19-to-hg38-chain",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/hg19ToHg38.over.chain.gz",
+      "file": "coloc-hg19-to-hg38-chain.gz",
+      "max_bytes": 2000000,
+      "sha256": "5c0598e500ceb5a78c73086929e8ef993aec309bcafb595139b53d440b125a1d",
+      "bytes": 227698,
+      "retrieved_at_utc": "2026-09-12T11:16:53.125720+00:00",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "coloc-hg38-to-hg19-chain",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz",
+      "file": "coloc-hg38-to-hg19-chain.gz",
+      "max_bytes": 2000000,
+      "sha256": "14a712e8e147d9fc8e9d87d51977b46f6f8ddb93efbe5d0843d86b6205f587b1",
+      "bytes": 1246411,
+      "retrieved_at_utc": "2026-09-12T11:16:53.676128+00:00",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "QTD000021-index",
+      "file": "qtl-QTD000021-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "9e1da70c6e0c2a51459bcde4284a71f8a0cef040a3ec739ddcabeeece145cfcd",
+      "retrieved_at_utc": "2026-09-11T23:24:18.779348+00:00",
+      "bytes": 1935109,
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "QTD000021-header",
+      "file": "qtl-QTD000021-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000002/QTD000021/QTD000021.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "9072a4e3c32a36f7deeabf676ad4cb59a19d449ebae066cc2b55b3c9bb3354e2",
+      "retrieved_at_utc": "2026-09-11T23:32:16.293218+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "QTD000504-index",
+      "file": "qtl-QTD000504-index.tbi",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz.tbi",
+      "max_bytes": 10000000,
+      "sha256": "87f5f844563eab624d46f5c52f9b3ccee5b1dc758ab4ea1c25b044d7324495d0",
+      "retrieved_at_utc": "2026-09-11T23:27:35.387584+00:00",
+      "bytes": 1840152,
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "QTD000504-header",
+      "file": "qtl-QTD000504-header.bgz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000026/QTD000504/QTD000504.all.tsv.gz",
+      "max_bytes": 65536,
+      "sha256": "f06ef784a2ca2b02f5bb1b21d22a5633958693871f2b9c0118f0848b6b4fa30b",
+      "retrieved_at_utc": "2026-09-11T23:27:38.690651+00:00",
+      "bytes": 65536,
+      "request_headers": {
+        "Range": "bytes=0-65535"
+      },
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    },
+    {
+      "id": "coloc-Ji2017-MOESM245_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3745/MediaObjects/41588_2017_BFng3745_MOESM245_ESM.xlsx",
+      "file": "coloc-Ji2017-MOESM245_ESM.xlsx",
+      "max_bytes": 10000000,
+      "sha256": "0725206aa2af2427495edd623145bd92db4ab48cba77439de958230a50efbac8",
+      "bytes": 9676,
+      "retrieved_at_utc": "2026-09-12T11:43:13.296310+00:00",
+      "reuse": "Previously retrieved source, hash reverified for this analysis"
+    }
+  ],
+  "new_sources": [],
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b"
+}

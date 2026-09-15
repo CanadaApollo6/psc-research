@@ -1,0 +1,19 @@
+{
+  "dataset_id": "QTD000021",
+  "gene_id": "ENSG00000105287",
+  "url": "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/susie/QTS000002/QTD000021/QTD000021.lbf_variable.txt.gz",
+  "started_at_utc": "2026-09-15T03:52:47.116084+00:00",
+  "plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "reader_sha256": "6780be4f4ab584d655a0e3d5e983320c3f64b2dfd88dd83ee6d9acc483fcd940",
+  "stream_reader_sha256": "3325ba4368c12086d17b9075ae95740db87696f69f5fedc29d2e6f107fa45744",
+  "finished_at_utc": "2026-09-15T04:45:02.743426+00:00",
+  "compressed_archive_bytes": 2690735125,
+  "compressed_archive_sha256": "027825e9f5325b917ae3a803175585c7ce9ce78d83aa88e226495c795b9c0c38",
+  "archive_eof_verified": true,
+  "all_archive_rows_scanned": 45951905,
+  "retained_gene_rows": 7505,
+  "file": "data/derived/prkd2-query-rows/QTD000021-PRKD2-published-bfs.tsv.gz",
+  "sha256": "a50e050dcaff02ebfb79a317c0390e66dbeab24610163ffd331ebaff322b1687",
+  "uncompressed_sha256": "3865e86383110c39b0600e591d270cfe0e338045fed66246302fc13c40263fb9",
+  "bytes": 669122
+}

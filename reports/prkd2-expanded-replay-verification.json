@@ -1,0 +1,111 @@
+{
+  "all_checks_pass": true,
+  "analysis": "prkd2-expanded",
+  "isolated_replay_directory": "work/prkd2/prkd2-expanded-replay-w0f845ex",
+  "stages": [
+    {
+      "stage": "baseline",
+      "outputs_reproduced": 3,
+      "log_sha256": "c4f3d0cd8eb0c646264e60fbe1b787ff4032c9159aeab6a8301d8684bbf2d6f2"
+    },
+    {
+      "stage": "fit",
+      "outputs_reproduced": 15,
+      "log_sha256": "85239e970dd2f1bca0e935c22f146db8218681f9fade00ee71ddb7cca426eccf"
+    },
+    {
+      "stage": "compare",
+      "outputs_reproduced": 3,
+      "log_sha256": "dd00fdb60cc6e40715d4bc1f66e05189fb4234eca3f6ce1d218fa4bc0051b27f"
+    }
+  ],
+  "outputs_reproduced": 21,
+  "verified_files": [
+    {
+      "file": "reports/prkd2-expanded-baseline.csv",
+      "sha256": "597eec855d8c6b851abc8898c03062535f32abab85b979bd90e78399cbf3b8fb"
+    },
+    {
+      "file": "reports/prkd2-expanded-baseline-variant-posteriors.csv.gz",
+      "sha256": "aa609be1835f26eaf2cceee301846b63c4daf6816646f651b50e7ed82b005a07"
+    },
+    {
+      "file": "reports/prkd2-expanded-baseline-warnings.json",
+      "sha256": "fed190acbca5cc8bf3c6ff021900fcf31c07f078c3fcd92f71809e9fc413ea80"
+    },
+    {
+      "file": "reports/prkd2-expanded-LD-diagnostics-N11386.csv",
+      "sha256": "c9928a4f1c773b8443670555260635c455938e97ca0b8cc7da745acfeeb04496"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-pips-N11386.csv",
+      "sha256": "c4a974adf12730d2785a8ffa4cfbd4b855a0e061ea280c1e3bcfa09950467ce2"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-fit-N11386.json",
+      "sha256": "5f0236e59622bcafc1231612145ddc11068783bf706e516a4ae212eeecf1874a"
+    },
+    {
+      "file": "reports/prkd2-expanded-LD-diagnostics-N3504.csv",
+      "sha256": "5998b15222c72771214c4b8e06f00138077400ad7b13837826ff63d7d45b8ac4"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-pips-N3504.csv",
+      "sha256": "b01c9c5d198b5c2d2680fa366f728af863b931808d265c11b3548fc90f81b390"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-fit-N3504.json",
+      "sha256": "c2bab6588a48a6513d33810161af26839a2ad12d70ec5a20c0480fa9c90d11c1"
+    },
+    {
+      "file": "reports/prkd2-expanded-LD-diagnostics-N14890.csv",
+      "sha256": "07a678fe4ec196234d0b6764e52d759cc50ca64068d8e6049c2d36d8fbeaf78d"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-pips-N14890.csv",
+      "sha256": "469765b9335f8f5793a43b530794ca6797cc0244470acc5b1b279ea93bf73833"
+    },
+    {
+      "file": "reports/prkd2-expanded-GWAS-fit-N14890.json",
+      "sha256": "73b6c15f9993a5c93b833d3b089102eca738de76a6df657b92f937b47c6b1c2b"
+    },
+    {
+      "file": "data/derived/prkd2-expanded-GWAS-component-bfs-N11386.csv.gz",
+      "sha256": "07be2cd6f0d5e531e91fc4aa3ec3977aa1bfca1b0a8f19ac90e3e20fe59e1e09"
+    },
+    {
+      "file": "data/derived/prkd2-expanded-GWAS-component-bfs-N3504.csv.gz",
+      "sha256": "8a7edf38e30d4ad728831d0e936bea2c3aa459c75c05a35a094fea8958a5ca4d"
+    },
+    {
+      "file": "data/derived/prkd2-expanded-GWAS-component-bfs-N14890.csv.gz",
+      "sha256": "4e1c3c24313b6fcd3b82697cad737ce5ddd1d4c3b2382be5a17332537a35b5e8"
+    },
+    {
+      "file": "data/raw/prkd2-expanded-ld/GWAS-PRKD2-N11386.rds",
+      "sha256": "9cad2be68ef9e19e0e246b558ba9f1e7031ec7d030a7c6c9cde3cc3df3667c07"
+    },
+    {
+      "file": "data/raw/prkd2-expanded-ld/GWAS-PRKD2-N3504.rds",
+      "sha256": "e3576889c6f8b5f1242d2c05b079b1f306322acc6d5fe29840d7b6637db925ec"
+    },
+    {
+      "file": "data/raw/prkd2-expanded-ld/GWAS-PRKD2-N14890.rds",
+      "sha256": "f35ac81e35b04c297f9397845b42edbca5c26c296f43ca42a77023d54b805a8d"
+    },
+    {
+      "file": "reports/prkd2-expanded-signal-comparison.csv",
+      "sha256": "82f30f1861755ed14c6ab8feec5b1ef811ff5f3eb41e71380cf12ab8c10a4c7e"
+    },
+    {
+      "file": "reports/prkd2-expanded-signal-variant-posteriors.csv.gz",
+      "sha256": "bfa0782903bf5c946c5a3a373c024f4e0ce7270510c91808c913b27b142e94f8"
+    },
+    {
+      "file": "reports/prkd2-expanded-signal-warnings.json",
+      "sha256": "e09216e6213b7aca076f838975a361c5240072a9dc6a2d2c2da6b7fde878a71f"
+    }
+  ],
+  "method": "Fresh R processes; original code and prepared inputs; all output hashes including fitted RDS objects identical",
+  "replay_script_sha256": "6ac6d8803938217d3ebbd3f1f5cac15d8db74aacb968d33a73111a0839b57323"
+}

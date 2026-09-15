@@ -1,0 +1,25 @@
+{
+  "analysis": "PRKD2 complete-allele coverage repair and separately frozen extended comparison",
+  "frozen_at_utc": "2026-09-15T04:11:06.869048+00:00",
+  "selection_status": "Exploratory extension selected after all 12 SNP-only baseline comparisons failed the prospectively specified 90% evidence-coverage gate. Original SNP results and their locks remain unchanged. No expanded-model posterior has been computed.",
+  "original_plan_sha256": "6e3d484699d7f77c76eaede640b131f89f7d388a9961c1f209ebdaf4afaae51b",
+  "observed_baseline_sha256": "a452936a1c8b7aa4e5c69c874c59de6d099cae3c1be943053c1d3f91eab2b183",
+  "scope": "Same PRKD2 window, two cohorts and all statistical settings. Audit all 426 non-SNV GWAS rows, every nominal/published QTL allele and all existing SNP rows; do not select only large or favorable effects.",
+  "reference_sequence": "Pinned local Ensembl GRCh38 primary genome plus full chromosome 19 from Ensembl GRCh37 release 115. Extract the frozen region plus 10 kb padding on each side for exact sequence and normalization checks.",
+  "reference_dosages": "Same 503 EUR public 1000 Genomes phase-3 donors, whole padded chromosome-19 interval; retrieve full explicit biallelic alleles, including indels. Symbolic and multiallelic rows are documented exclusions. Require complete 503-donor calls for LD.",
+  "gwas_indel_identity": "Require exact original GRCh37 coordinate and unordered full allele pair in the public reference VCF, unambiguous VCF REF/ALT and risk-allele versus EUR frequency difference <=0.15. Normalize complete alleles, map every affected REF base and 100 flanking bases on each side uniquely and reciprocally, require identical flanks across builds, then normalize against GRCh38. No rsID-only join or anchor-only indel mapping.",
+  "snp_identity": "Preserve original SNP matching and frequency rules, adding direct GRCh38 reference-sequence and oriented-allele checks. Do not relax the 14 unresolved palindromic exclusions.",
+  "qtl_identity": "Normalize full source REF/ALT against GRCh38, verifying reference bases. Match equivalent edits, retaining original variant IDs and all source values. Exact alias duplicates may collapse only when all quantitative fields agree; conflicting duplicate normalized edits are excluded explicitly.",
+  "bf_identity": "Preserve complete published component vectors. Map all variant IDs by the same sequence normalization; any conflicting equivalent identities remain explicitly unmapped with weight retained in denominators. Do not sum or renormalize ambiguous duplicates to force overlap.",
+  "validation": "Cross-check normalization against installed bcftools; verify every accepted full-allele mapping and all allele signs, frequencies, numbers and source field preservation. Use independent Python calculations for ABFs and posterior/coverage checks against pinned official R.",
+  "statistics": "Same 12 baseline settings and full component-by-N-by-prior family, signed external LD, 90% full-evidence overlap and original interpretation thresholds. Explicit named null log-BF column for official coloc component comparisons. Original and expanded analyses are reported separately.",
+  "failure_rule": "Keep unresolved identities and all missing strong-variant weight. If complete-locus coverage remains inadequate, report unavailability; do not lower gates or invent effects.",
+  "bounds": {
+    "reference_padding_bases": 10000,
+    "reciprocal_flank_bases": 100,
+    "maximum_normalization_flank_bases": 10000,
+    "maximum_grch37_reference_compressed_bytes": 50000000,
+    "maximum_reference_vcf_rows": 250000,
+    "maximum_reference_vcf_uncompressed_bytes": 2500000000
+  }
+}
