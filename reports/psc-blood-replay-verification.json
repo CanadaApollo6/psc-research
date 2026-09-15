@@ -1,0 +1,144 @@
+{
+  "analysis_id": "psc-blood-replication-v1",
+  "verified_at_utc": "2026-09-15T23:11:35.750906+00:00",
+  "status": "passed_local_cached_input_clean_output_replay",
+  "scope": "Native project environment; rerun both assays into clean ignored directories, then integrate the replay outputs rather than reread original assay results. No network path is used by the analysis commands. This is local reproducibility, not a cross-platform bitwise guarantee.",
+  "commands": {
+    "rna": ".venv/bin/python scripts/analyze_psc_blood_rnaseq.py --plan config/psc-blood-rnaseq-plan.json --plan-sha256 da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1 --output-dir work/psc-blood-replay/rnaseq-aggregate --work-dir work/psc-blood-replay/rnaseq-patient",
+    "array": ".venv/bin/python scripts/analyze_psc_blood_array.py --plan config/psc-blood-array-plan.json --plan-sha256 5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3 --output-dir work/psc-blood-replay/array-aggregate --work-dir work/psc-blood-replay/array-patient",
+    "integration": ".venv/bin/python scripts/summarize_psc_blood_replication.py --plan work/psc-blood-replay/integration-plan.json --output-dir work/psc-blood-replay/integration-aggregate"
+  },
+  "exit_codes": {
+    "rna": 0,
+    "array": 0,
+    "integration": 0
+  },
+  "artifacts": [
+    {
+      "arm": "rnaseq",
+      "file": "rnaseq-feature-universe.csv",
+      "bytes": 12003678,
+      "original_sha256": "9e1e0f3c562b756f296eabe7d37fd7a6be08ab0600dd2366a0aa0e0eb364130a",
+      "replay_sha256": "9e1e0f3c562b756f296eabe7d37fd7a6be08ab0600dd2366a0aa0e0eb364130a",
+      "byte_identical": true
+    },
+    {
+      "arm": "rnaseq",
+      "file": "rnaseq-leave-one-plate-out.csv",
+      "bytes": 6527396,
+      "original_sha256": "def2b3a4afa621616be67be5d757fa0c18ccbade87b9e521e3480583910d083d",
+      "replay_sha256": "def2b3a4afa621616be67be5d757fa0c18ccbade87b9e521e3480583910d083d",
+      "byte_identical": true
+    },
+    {
+      "arm": "rnaseq",
+      "file": "rnaseq-output-manifest.json",
+      "bytes": 971,
+      "original_sha256": "fceb473f7ed889c0c50c694f2ab8d88331127a027acfe876eddc9af6ce13fa0c",
+      "replay_sha256": "fceb473f7ed889c0c50c694f2ab8d88331127a027acfe876eddc9af6ce13fa0c",
+      "byte_identical": true
+    },
+    {
+      "arm": "rnaseq",
+      "file": "rnaseq-primary.csv",
+      "bytes": 36725393,
+      "original_sha256": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5",
+      "replay_sha256": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5",
+      "byte_identical": true
+    },
+    {
+      "arm": "rnaseq",
+      "file": "rnaseq-qc.json",
+      "bytes": 12116,
+      "original_sha256": "2f953a2d6da893d192cb490d8273bdcafae4abfe57646e7ea081b1ab8546f83f",
+      "replay_sha256": "2f953a2d6da893d192cb490d8273bdcafae4abfe57646e7ea081b1ab8546f83f",
+      "byte_identical": true
+    },
+    {
+      "arm": "array",
+      "file": "array-analysis-audit.json",
+      "bytes": 8787,
+      "original_sha256": "d7a16fb704e36ed325da8bc63f2d8a38e108200226d0127b616040239dc12ca3",
+      "replay_sha256": "d7a16fb704e36ed325da8bc63f2d8a38e108200226d0127b616040239dc12ca3",
+      "byte_identical": true
+    },
+    {
+      "arm": "array",
+      "file": "array-contrast-summary.json",
+      "bytes": 949,
+      "original_sha256": "57ffa642e192a75617d229e27c92cb45ce8eea59d3c1d847718778895d0e951c",
+      "replay_sha256": "57ffa642e192a75617d229e27c92cb45ce8eea59d3c1d847718778895d0e951c",
+      "byte_identical": true
+    },
+    {
+      "arm": "array",
+      "file": "array-feature-join.csv.gz",
+      "bytes": 9405509,
+      "original_sha256": "b51bfbd0e2ac6aacb51b3ade569b2c772089d0e4bf9db4d4a0e5cc3d7a8e7ebc",
+      "replay_sha256": "b51bfbd0e2ac6aacb51b3ade569b2c772089d0e4bf9db4d4a0e5cc3d7a8e7ebc",
+      "byte_identical": true
+    },
+    {
+      "arm": "array",
+      "file": "array-gene-effects.csv.gz",
+      "bytes": 14234162,
+      "original_sha256": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434",
+      "replay_sha256": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434",
+      "byte_identical": true
+    },
+    {
+      "arm": "array",
+      "file": "array-gene-universe.csv.gz",
+      "bytes": 290900,
+      "original_sha256": "dad9096adb8da3d456e306815f779f36234c47ea679ce806eb5f9825fca7744e",
+      "replay_sha256": "dad9096adb8da3d456e306815f779f36234c47ea679ce806eb5f9825fca7744e",
+      "byte_identical": true
+    },
+    {
+      "arm": "integration",
+      "file": "cross-cohort-gene-results.csv.gz",
+      "bytes": 5712205,
+      "original_sha256": "421de2426e14e4a2636e8d0047c184d59eebf70ce2e96f6732631869fa2e7fc1",
+      "replay_sha256": "421de2426e14e4a2636e8d0047c184d59eebf70ce2e96f6732631869fa2e7fc1",
+      "byte_identical": true
+    },
+    {
+      "arm": "integration",
+      "file": "cross-platform-coverage.csv.gz",
+      "bytes": 822543,
+      "original_sha256": "01f42b9c49140894dba28d497bc2bc5490de09b9255f70a7bee329fe0a265c05",
+      "replay_sha256": "01f42b9c49140894dba28d497bc2bc5490de09b9255f70a7bee329fe0a265c05",
+      "byte_identical": true
+    }
+  ],
+  "all_checked_artifacts_byte_identical": true,
+  "integration_summary_changed_keys": [
+    "plan_sha256"
+  ],
+  "integration_summary_change_reason": "Expected plan hash difference: replay consumes byte-identical assay outputs at different ignored paths. Scientific summaries and output checksums are identical.",
+  "full_suite": {
+    "reported_tests_run": 322,
+    "errors": 7,
+    "failures": 0,
+    "individual_tests_passed": 319,
+    "class_setup_errors": 4,
+    "individual_test_errors": 3,
+    "baseline_environment_errors_unchanged": true,
+    "error_headers": [
+      "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+      "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+      "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+      "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+      "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+      "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+      "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+    ],
+    "log": "work/research-path/final-full-tests.log",
+    "log_sha256": "f0919bbc105f900e2a44481262b8bcee6c98a08b85bbd6d8ae0ba79ff91f98b3"
+  },
+  "new_analysis_synthetic_tests": {
+    "total": 67,
+    "passed": 67
+  },
+  "frozen_paths_unchanged": true
+}

@@ -1,0 +1,69 @@
+{
+  "analysis_id": "psc-blood-replication-assembly-v1",
+  "status": "frozen",
+  "allow_integration": true,
+  "frozen_at_utc": "2026-09-15T22:58:47.068040+00:00",
+  "methods_frozen_before_effects_in": "config/psc-blood-execution-freeze.json",
+  "purpose": "Mechanical source-result schema and hash receipt; no change to the pre-effect conjunction methods.",
+  "rna_results": "data/derived/psc-blood-rnaseq/rnaseq-primary.csv",
+  "array_results": "data/derived/psc-blood-array/array-gene-effects.csv.gz",
+  "crosswalk": "data/derived/gse84161-gene-map.csv.gz",
+  "schema": {
+    "rna_gene_id": "gene_id",
+    "rna_filter": "eligible",
+    "rna_pvalue": "pvalue",
+    "rna_effect": "log2FoldChange",
+    "rna_extra_columns": {
+      "source_gene_name": "rna_source_gene_name",
+      "padj": "rna_qvalue_bh",
+      "lfcSE": "rna_se",
+      "baseMean": "rna_base_mean",
+      "model_status": "rna_model_status",
+      "LFC_converged": "rna_LFC_converged",
+      "genewise_converged": "rna_genewise_converged",
+      "MAP_converged": "rna_MAP_converged",
+      "cooks_outlier": "rna_cooks_outlier",
+      "ci95_lower_log2fc": "rna_ci95_low",
+      "ci95_upper_log2fc": "rna_ci95_high",
+      "ols_effect_log2_cpm": "rna_ols_effect",
+      "ols_pvalue": "rna_ols_pvalue",
+      "ols_padj_bh": "rna_ols_qvalue_bh",
+      "ols_psc_alone_effect_log2_cpm": "rna_psc_alone_ols_effect",
+      "ols_psc_alone_pvalue": "rna_psc_alone_ols_pvalue",
+      "ols_pscuc_effect_log2_cpm": "rna_pscuc_ols_effect",
+      "ols_pscuc_pvalue": "rna_pscuc_ols_pvalue"
+    },
+    "array_gene_id": "entrez_id",
+    "array_contrast": "contrast",
+    "array_pvalue": "pvalue",
+    "array_effect": "estimate",
+    "array_extra_columns": {
+      "se": "se",
+      "padj": "qvalue_bh",
+      "welch_df": "df",
+      "welch_ci95_low": "ci95_low",
+      "welch_ci95_high": "ci95_high",
+      "hc3_p": "hc3_pvalue",
+      "hc3_bh_q": "hc3_qvalue_bh",
+      "gene_symbols_as_published_json": "source_symbols",
+      "eligible_probe_count": "probe_count"
+    },
+    "array_contrasts": {
+      "control": "PSC_vs_Control",
+      "uc": "PSC_vs_UC",
+      "pbc": "PSC_vs_PBC",
+      "cd": "PSC_vs_CD"
+    }
+  },
+  "input_sha256": {
+    "data/derived/psc-blood-rnaseq/rnaseq-primary.csv": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5",
+    "data/derived/psc-blood-array/array-gene-effects.csv.gz": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434",
+    "data/derived/gse84161-gene-map.csv.gz": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab",
+    "config/psc-blood-execution-freeze.json": "62ce2b14fe425ea33531de0a938395542edc7de0e9b660ecaa9274dabb47a236",
+    "config/psc-blood-rnaseq-plan.json": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1",
+    "config/psc-blood-array-plan.json": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3",
+    "config/psc-blood-sources.json": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec",
+    "docs/psc-blood-replication-protocol.md": "ec38521b1e673c9340db7009d5e833124f519501f95828d98b8f9e8b82467721",
+    "scripts/summarize_psc_blood_replication.py": "3ca194163f98cea61ee2908d85d838d5a13bbaf32997c405a01cb2c4e670ad0b"
+  }
+}

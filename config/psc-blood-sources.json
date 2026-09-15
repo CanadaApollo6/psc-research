@@ -1,0 +1,103 @@
+{
+  "manifest_id": "psc-blood-replication-sources-v1",
+  "created_at_utc": "2026-09-15T22:40:42.161004+00:00",
+  "source_files": [
+    {
+      "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_countsPSC.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.096011+00:00",
+      "bytes": 8136584,
+      "sha256": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff",
+      "source_scope": "complete source file"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_counts2.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_counts2.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.095730+00:00",
+      "bytes": 6560256,
+      "sha256": "4b30e2643d2e367da36d081d746b26ec6e6c0cf76c9a58ee0ce1b4ff8d6d1fc0",
+      "source_scope": "complete source file"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_read_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_read_counts.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.095480+00:00",
+      "bytes": 12612558,
+      "sha256": "28dcd8494b9d70d64684aed0d237bceeb55cb70faba1933d284c261018522f5e",
+      "source_scope": "complete source file"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.467229+00:00",
+      "bytes": 7290886,
+      "sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45",
+      "source_scope": "complete source file"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE119nnn/GSE119600/matrix/GSE119600_series_matrix.txt.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.097125+00:00",
+      "bytes": 69056692,
+      "sha256": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c",
+      "source_scope": "complete source file"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/GSE177044-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE177044&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-09-15T22:27:27.100323+00:00",
+      "bytes": 37759,
+      "sha256": "d7d31e912ab785d60049306e6090bda7546f61c84711718f537fcf289ab78aad",
+      "source_scope": "public metadata or article snapshot"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/GSE119600-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119600&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-09-15T22:27:27.285697+00:00",
+      "bytes": 14233,
+      "sha256": "de5979538cc6198c9ea015bd99d58aba497e12d65e5313718aa595230c040398",
+      "source_scope": "public metadata or article snapshot"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119600&targ=gsm&form=text&view=quick",
+      "retrieved_at_utc": "2026-09-15T22:28:21.223733+00:00",
+      "bytes": 1021400,
+      "sha256": "b73b6b8c31ce07c813e0b643971b077be8292dd06cd8736d0a71d3668b9a714e",
+      "source_scope": "public metadata or article snapshot"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE177044&targ=gsm&form=text&view=quick",
+      "retrieved_at_utc": "2026-09-15T22:28:46.590961+00:00",
+      "bytes": 3237310,
+      "sha256": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777",
+      "source_scope": "public metadata or article snapshot"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/PMC10832281.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10832281/fullTextXML",
+      "retrieved_at_utc": "2026-09-15T22:30:12.531147+00:00",
+      "bytes": 135437,
+      "sha256": "36c06440a730c0a9b8669b63367a87e5332fc4eab24690a32d04fd59c97b19c9",
+      "source_scope": "public metadata or article snapshot"
+    },
+    {
+      "path": "data/raw/public-data-discovery-options/PMC6510750.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6510750/fullTextXML",
+      "retrieved_at_utc": "2026-09-15T22:30:13.328965+00:00",
+      "bytes": 142993,
+      "sha256": "7813f3bcb267c5f25cf915f7c15c26ac9b98cb550b9ab3aef1dc683b9948d89b",
+      "source_scope": "public metadata or article snapshot"
+    }
+  ],
+  "reused_gene_crosswalk": {
+    "path": "data/derived/gse84161-gene-map.csv.gz",
+    "sha256": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab",
+    "original_source_manifest": "config/gse84161-gene-map-sources.json",
+    "original_source_manifest_sha256": "e1518e126fcd8a61e262ad68afe09e43025c66f2c21d49b26820128ad23c7154",
+    "annotation_release": "Ensembl116, June2026",
+    "full_source_relationship_rows": 91748,
+    "use": "Recompute reciprocalEnsembl-Entrez identity across complete relationship universe, never restrict first to expressed genes."
+  }
+}

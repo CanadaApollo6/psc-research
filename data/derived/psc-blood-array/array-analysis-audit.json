@@ -1,0 +1,240 @@
+{
+  "annotation_audit": {
+    "columns": [
+      "ID",
+      "Gene title",
+      "Gene symbol",
+      "Gene ID",
+      "UniGene title",
+      "UniGene symbol",
+      "UniGene ID",
+      "Nucleotide Title",
+      "GI",
+      "GenBank Accession",
+      "Platform_CLONEID",
+      "Platform_ORF",
+      "Platform_SPOTID",
+      "Chromosome location",
+      "Chromosome annotation",
+      "GO:Function",
+      "GO:Process",
+      "GO:Component",
+      "GO:Function ID",
+      "GO:Process ID",
+      "GO:Component ID",
+      "Platform_SEQUENCE"
+    ],
+    "metadata_as_published": [
+      "^Annotation",
+      "!Annotation_date = Aug 09 2016",
+      "!Annotation_platform = GPL10558",
+      "!Annotation_platform_title = Illumina HumanHT-12 V4.0 expression beadchip",
+      "!Annotation_platform_organism = Homo sapiens",
+      "#ID = ID from Platform data table",
+      "#Gene title = Entrez Gene name",
+      "#Gene symbol = Entrez Gene symbol",
+      "#Gene ID = Entrez Gene identifier",
+      "#UniGene title = Entrez UniGene name",
+      "#UniGene symbol = Entrez UniGene symbol",
+      "#UniGene ID = Entrez UniGene identifier",
+      "#Nucleotide Title = Entrez Nucleotide title",
+      "#GI = GenBank identifier",
+      "#GenBank Accession = GenBank accession",
+      "#Platform_CLONEID = CLONE_ID from Platform data table",
+      "#Platform_ORF = ORF from Platform data table",
+      "#Platform_SPOTID = SPOT_ID from Platform data table",
+      "#Chromosome location = Entrez gene chromosome and location",
+      "#Chromosome annotation = Entrez gene chromosome annotation",
+      "#GO:Function = Gene Ontology Function term",
+      "#GO:Process = Gene Ontology Process term",
+      "#GO:Component = Gene Ontology Component term",
+      "#GO:Function ID = Gene Ontology Function identifier",
+      "#GO:Process ID = Gene Ontology Process identifier",
+      "#GO:Component ID = Gene Ontology Component identifier",
+      "#Platform_SEQUENCE = SEQUENCE from Platform data table"
+    ],
+    "platform_accessions_as_published": [
+      "GPL10558"
+    ],
+    "row_count": 48107,
+    "table_format": "geo_annotation"
+  },
+  "code_sha256": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0",
+  "complete_sample_joins_and_expression_location": "ignored work/ only",
+  "duplicate_numeric_vectors_cause_exclusion": false,
+  "effect_rows": 82996,
+  "exact_duplicate_numeric_sample_vector_groups": 0,
+  "feature_audit": {
+    "eligible_measured_probes": 31252,
+    "ensembl_crosswalk_applied": false,
+    "join_status_counts": {
+      "matrix_and_platform": 47230,
+      "platform_only": 877
+    },
+    "mapped_gene_family_size": 20749,
+    "mapping_status_counts_all_platform_rows": {
+      "ambiguous_multiple_entrez": 13,
+      "single_unique_entrez": 31253,
+      "unmapped_no_entrez": 16841
+    },
+    "mapping_status_counts_measured_rows": {
+      "ambiguous_multiple_entrez": 13,
+      "single_unique_entrez": 31252,
+      "unmapped_no_entrez": 15965
+    },
+    "matrix_probe_count": 47230,
+    "platform_probe_count": 48107,
+    "probe_selection_uses_expression_or_effects": false,
+    "union_probe_count": 48107
+  },
+  "group_effects_computed": true,
+  "ignored_work_artifacts": [
+    {
+      "bytes": 279144,
+      "file": "array-adult-entrez-log2-axes.json",
+      "sha256": "6a392834aec2f5de69a270d3d0913ab0e00a689e924ce12ed4988d3fdf60dbba"
+    },
+    {
+      "bytes": 45647928,
+      "file": "array-adult-entrez-log2.npy",
+      "sha256": "d8d94e47174a5aea99d83562258d5616ec53bb0e39b5e60e4cd90217107ed0ea"
+    },
+    {
+      "bytes": 3,
+      "file": "array-duplicate-sample-vectors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 1515945,
+      "file": "array-sample-join.csv",
+      "sha256": "230e2bf04730478f99a8e08149aee62344d8eef76a9382f179e7c5539a4f7833"
+    },
+    {
+      "bytes": 68228,
+      "file": "array-sample-numeric-qc.csv",
+      "sha256": "9cbfb5313c5ef6df3931ab3ca67e142995589fb94db8d999d0132956d2460e86"
+    }
+  ],
+  "limitations": [
+    "Unadjusted established-disease whole-blood associations, not intrinsic PSC effects.",
+    "Exact adult age, sex, cell proportions, treatment, and batch covariates are unavailable.",
+    "The paper describes all PBC participants as female; no individual sex is imputed.",
+    "All deposited adults are retained; the paper's unnamed outliers are not inferred.",
+    "Distinct public sample labels do not independently certify distinct persons.",
+    "The cohort and gene expression have been published and used in earlier PSC analyses.",
+    "Array log2-intensity differences are not RNA-seq count-model coefficients.",
+    "Array Entrez identity alone does not establish an exact RNA Ensembl-gene match.",
+    "Reported BH families include every mapped gene, not only discovery hits."
+  ],
+  "methods": {
+    "gene_aggregation": "median_of_log2_probes",
+    "multiplicity": "BH_all_mapped_genes_per_contrast",
+    "nonfinite_or_nonpositive": "block",
+    "primary_test": "welch",
+    "probe_mapping": "unique_exact_entrez",
+    "sensitivity_test": "ols_hc3_normal",
+    "transform": "log2_no_shift"
+  },
+  "numeric_audit": {
+    "finite_max": 47771.99,
+    "finite_min": 37.50227,
+    "finite_quantiles_01_50_99": [
+      48.33941,
+      73.0333,
+      6721.527
+    ],
+    "log2_without_shift_valid": true,
+    "log_validity_scope": "all_cells_all_deposited_samples_all_probes",
+    "negative_cells": 0,
+    "nonfinite_cells": 0,
+    "positivity_proves_linear_source_scale": false,
+    "probe_rows": 47230,
+    "sample_columns": 370,
+    "source_cell_count": 17475100,
+    "zero_cells": 0
+  },
+  "outer_plan_sha256": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3",
+  "plan_frozen_at_utc": "2026-09-15T22:56:48.344790+00:00",
+  "platform_accession": "GPL10558",
+  "public_artifacts": [
+    {
+      "bytes": 949,
+      "file": "array-contrast-summary.json",
+      "sha256": "57ffa642e192a75617d229e27c92cb45ce8eea59d3c1d847718778895d0e951c"
+    },
+    {
+      "bytes": 9405509,
+      "file": "array-feature-join.csv.gz",
+      "sha256": "b51bfbd0e2ac6aacb51b3ade569b2c772089d0e4bf9db4d4a0e5cc3d7a8e7ebc"
+    },
+    {
+      "bytes": 14234162,
+      "file": "array-gene-effects.csv.gz",
+      "sha256": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434"
+    },
+    {
+      "bytes": 290900,
+      "file": "array-gene-universe.csv.gz",
+      "sha256": "dad9096adb8da3d456e306815f779f36234c47ea679ce806eb5f9825fca7744e"
+    }
+  ],
+  "sample_audit": {
+    "adult_group_counts": {
+      "CD": 48,
+      "Control": 47,
+      "PBC": 90,
+      "PSC": 45,
+      "UC": 45
+    },
+    "adult_samples_retained": 275,
+    "adults_with_exact_age": 0,
+    "adults_with_sex": 0,
+    "effect_based_sample_exclusions": 0,
+    "exact_metadata_field_join": true,
+    "exact_sample_accession_join": true,
+    "numeric_covariates_imputed": false,
+    "pediatric_group_counts": {
+      "CD": 47,
+      "UC": 48
+    },
+    "pediatric_samples_excluded": 95,
+    "person_level_identity_independently_confirmed": false,
+    "total_deposited_samples": 370,
+    "unique_exact_sample_titles": 370,
+    "unique_matrix_sample_accessions": 370
+  },
+  "source_quantity": "source_normalized_linear_intensity",
+  "sources": {
+    "platform_annotation": {
+      "bytes": 7290886,
+      "path": "data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.467229+00:00",
+      "sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45",
+      "source_scope": "complete source file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz"
+    },
+    "sample_metadata": {
+      "bytes": 1021400,
+      "path": "data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "retrieved_at_utc": "2026-09-15T22:28:21.223733+00:00",
+      "sha256": "b73b6b8c31ce07c813e0b643971b077be8292dd06cd8736d0a71d3668b9a714e",
+      "source_scope": "public metadata or article snapshot",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119600&targ=gsm&form=text&view=quick"
+    },
+    "series_matrix": {
+      "bytes": 69056692,
+      "path": "data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.097125+00:00",
+      "sha256": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c",
+      "source_scope": "complete source file",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE119nnn/GSE119600/matrix/GSE119600_series_matrix.txt.gz"
+    }
+  },
+  "stage": "completed_all_adult_contrasts",
+  "study_accession": "GSE119600",
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  }
+}

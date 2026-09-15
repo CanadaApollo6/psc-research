@@ -1,0 +1,47 @@
+{
+  "analysis_id": "psc-blood-replication-v1",
+  "status": "frozen_before_new_effects",
+  "frozen_at_utc": "2026-09-15T22:56:48.344790+00:00",
+  "new_gene_wise_effects_read_before_freeze": false,
+  "pre_effect_validation": {
+    "new_synthetic_tests_passed": 67,
+    "test_log": "work/research-path/blood-tests.log",
+    "test_log_sha256": "969eb5c8336165383ca3bb930fab385f33fdeb169fc364bfbeb65b70f54fcb15",
+    "rna_source_features": 63677,
+    "rna_primary_samples": 297,
+    "array_mapped_gene_family": 20749,
+    "source_full_human_reciprocal_mapping_genes": 25210,
+    "array_qualification_code_sha256": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0"
+  },
+  "sha256": {
+    "docs/psc-blood-replication-protocol.md": "ec38521b1e673c9340db7009d5e833124f519501f95828d98b8f9e8b82467721",
+    "docs/archive/psc-blood-replication-protocol-selection.md": "25a0f30850c2ac2ed4cc4e397f4447c8a42c1f5248cd07693bf98af801565214",
+    "config/psc-blood-path-selection.json": "3bd4bdacb44cfecd0968f72fb360cdcac85f3101c82d03968341e3aa63433286",
+    "config/psc-blood-rnaseq-plan.json": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1",
+    "config/psc-blood-array-plan.json": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3",
+    "config/psc-blood-sources.json": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec",
+    "scripts/analyze_psc_blood_rnaseq.py": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979",
+    "scripts/analyze_psc_blood_array.py": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0",
+    "scripts/summarize_psc_blood_replication.py": "3ca194163f98cea61ee2908d85d838d5a13bbaf32997c405a01cb2c4e670ad0b",
+    "scripts/plot_psc_blood_replication.py": "492e79e5aa4a936f435abea3fe355aadc0e511d39e8f4efd9fa3360e59d19aca",
+    "tests/test_psc_blood_rnaseq.py": "9f94cf4099eee61f60688bef5397c7861e68a11cfa32940cdbdc7efd1b75a8a4",
+    "tests/test_psc_blood_array.py": "0105b4163a71f1ce0ff1d7c327534bf5eb3c3d7b662fe7705d1c232e2fe4582a",
+    "tests/test_psc_blood_replication.py": "c2cce0f3a5856734d1de9c0f4b1508e5c909e9e01458603307a91c1036b7e053",
+    "requirements-psc-blood.lock": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "CPU_threads": 4,
+    "BLAS_threads_per_process": 1,
+    "GPU": false,
+    "environment_lock": "requirements-psc-blood.lock"
+  },
+  "execution_output_paths": {
+    "rnaseq_public": "data/derived/psc-blood-rnaseq",
+    "rnaseq_ignored_work": "work/psc-blood-rnaseq",
+    "array_public": "data/derived/psc-blood-array",
+    "array_ignored_work": "work/psc-blood-array",
+    "integration_public": "data/derived/psc-blood-replication"
+  },
+  "integration_inputs_note": "Assay output hashes are not knowable before execution. A separate mechanical assembly receipt will pin the completed files. Conjunction methods and implementation are already frozen here."
+}

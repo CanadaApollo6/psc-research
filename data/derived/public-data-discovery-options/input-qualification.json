@@ -1,0 +1,172 @@
+{
+  "retrieval_date_utc": "2026-09-15",
+  "status": "metadata_and_structure_only_no_effects",
+  "ranked_paths": [
+    "Norwegian PSC blood discovery and reused independent Polish disease-control cohort",
+    "Paired IL17A PSC/nonPSC cholangiocyte organoids",
+    "Pediatric/adult PSC liver-state specificity"
+  ],
+  "complete_blood_inputs": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_countsPSC.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.096011+00:00",
+      "file": "acquired/GSE177044_raw_countsPSC.csv.gz",
+      "bytes": 8136584,
+      "sha256": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_counts2.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.095730+00:00",
+      "file": "acquired/GSE177044_raw_counts2.csv.gz",
+      "bytes": 6560256,
+      "sha256": "4b30e2643d2e367da36d081d746b26ec6e6c0cf76c9a58ee0ce1b4ff8d6d1fc0"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_read_counts.csv.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.095480+00:00",
+      "file": "acquired/GSE177044_raw_read_counts.csv.gz",
+      "bytes": 12612558,
+      "sha256": "28dcd8494b9d70d64684aed0d237bceeb55cb70faba1933d284c261018522f5e"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.467229+00:00",
+      "file": "acquired/GPL10558.annot.gz",
+      "bytes": 7290886,
+      "sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE119nnn/GSE119600/matrix/GSE119600_series_matrix.txt.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.097125+00:00",
+      "file": "acquired/GSE119600_series_matrix.txt.gz",
+      "bytes": 69056692,
+      "sha256": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c"
+    }
+  ],
+  "source_cache_directory": "data/raw/public-data-discovery-options",
+  "total_recorded_response_bytes_all_scouts": 126129047,
+  "transfer_cap_bytes_after_authorization": 250000000,
+  "counts": {
+    "GSE177044_raw_read_counts.csv.gz": {
+      "gene_rows": 63677,
+      "sample_columns": 492,
+      "first_two_headers": [
+        "Geneid",
+        "gene_name"
+      ],
+      "all_values_finite": true,
+      "all_values_nonnegative": true,
+      "all_values_integer": true,
+      "missing_gene_ids": 0,
+      "duplicate_gene_id_rows": 0,
+      "duplicate_gene_symbol_rows": 7039,
+      "gene_id_namespace_counts": {
+        "Ensembl unversioned": 63677
+      },
+      "gzip_eof": true
+    },
+    "GSE177044_raw_counts2.csv.gz": {
+      "gene_rows": 63677,
+      "sample_columns": 246,
+      "first_two_headers": [
+        "Geneid",
+        "gene_name"
+      ],
+      "all_values_finite": true,
+      "all_values_nonnegative": true,
+      "all_values_integer": true,
+      "missing_gene_ids": 0,
+      "duplicate_gene_id_rows": 0,
+      "duplicate_gene_symbol_rows": 7039,
+      "gene_id_namespace_counts": {
+        "Ensembl unversioned": 63677
+      },
+      "gzip_eof": true
+    },
+    "GSE177044_raw_countsPSC.csv.gz": {
+      "gene_rows": 63677,
+      "sample_columns": 297,
+      "first_two_headers": [
+        "Geneid",
+        "gene_name"
+      ],
+      "all_values_finite": true,
+      "all_values_nonnegative": true,
+      "all_values_integer": true,
+      "missing_gene_ids": 0,
+      "duplicate_gene_id_rows": 0,
+      "duplicate_gene_symbol_rows": 7039,
+      "gene_id_namespace_counts": {
+        "Ensembl unversioned": 63677
+      },
+      "gzip_eof": true
+    },
+    "GSE119600_series_matrix.txt.gz": {
+      "probe_rows": 47230,
+      "sample_columns": 370,
+      "probe_id_duplicates": 0,
+      "all_values_finite": true,
+      "all_values_positive": true,
+      "global_quantiles": {
+        "min": 37.50227,
+        "p01": 48.33941,
+        "p25": 63.10118,
+        "p50": 73.0333,
+        "p75": 127.3934,
+        "p99": 6721.527,
+        "max": 47771.99
+      },
+      "noninteger_values": 17473620,
+      "gzip_eof": true,
+      "exact_geo_accession_set_match": true
+    },
+    "GPL10558.annot.gz": {
+      "annotation_rows": 48107,
+      "headers": [
+        "ID",
+        "Gene title",
+        "Gene symbol",
+        "Gene ID",
+        "UniGene title",
+        "UniGene symbol",
+        "UniGene ID",
+        "Nucleotide Title",
+        "GI",
+        "GenBank Accession",
+        "Platform_CLONEID",
+        "Platform_ORF",
+        "Platform_SPOTID",
+        "Chromosome location",
+        "Chromosome annotation",
+        "GO:Function",
+        "GO:Process",
+        "GO:Component",
+        "GO:Function ID",
+        "GO:Process ID",
+        "GO:Component ID",
+        "Platform_SEQUENCE"
+      ],
+      "first_column_duplicates": 0,
+      "all_array_probe_ids_present": true,
+      "matched_array_probe_rows": 47230,
+      "gzip_eof": true,
+      "namespace_nonempty_counts": {
+        "Gene symbol": 31265,
+        "Gene ID": 31265,
+        "UniGene symbol": 253,
+        "UniGene ID": 2484
+      }
+    }
+  },
+  "independence": "Norway/Germany and Polish recruitment are separate; Polish GSE119600 was already reused by original GSE177044 paper. Not untouched validation.",
+  "source_conventions": {
+    "rnaseq_build": "GRCh37",
+    "rnaseq_identifier_namespace": "unversioned Ensembl gene ID",
+    "rnaseq_original_software": "STAR 2.6.1d; FeatureCounts 1.6.4; nf-core/rnaseq 1.3",
+    "array_source_value_scale": "positive linear-range normalized intensity; quantile normalization declared",
+    "array_annotation_snapshot_date": "2016-08-22",
+    "organoid_build": "hg38 as published",
+    "organoid_source_software": "Cell Ranger 5.0.0; Seurat 4; Harmony"
+  },
+  "erratum": "A mistaken transient agent-message summary was immediately corrected before effects. Authoritative structure JSON/source bytes unchanged."
+}

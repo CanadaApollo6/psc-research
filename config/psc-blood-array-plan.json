@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "study_accession": "GSE119600",
+  "platform_accession": "GPL10558",
+  "status": "frozen",
+  "allow_effects": true,
+  "frozen_at_utc": "2026-09-15T22:56:48.344790+00:00",
+  "expected_total_samples": 370,
+  "expected_probe_count": 47230,
+  "expected_annotation_rows": 48107,
+  "expected_adult_counts": {
+    "PSC": 45,
+    "Control": 47,
+    "UC": 45,
+    "PBC": 90,
+    "CD": 48
+  },
+  "expected_child_counts": {
+    "UC": 48,
+    "CD": 47
+  },
+  "sources": {
+    "series_matrix": {
+      "path": "data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE119nnn/GSE119600/matrix/GSE119600_series_matrix.txt.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.097125+00:00",
+      "bytes": 69056692,
+      "sha256": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c",
+      "source_scope": "complete source file"
+    },
+    "platform_annotation": {
+      "path": "data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz",
+      "retrieved_at_utc": "2026-09-15T22:32:53.467229+00:00",
+      "bytes": 7290886,
+      "sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45",
+      "source_scope": "complete source file"
+    },
+    "sample_metadata": {
+      "path": "data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119600&targ=gsm&form=text&view=quick",
+      "retrieved_at_utc": "2026-09-15T22:28:21.223733+00:00",
+      "bytes": 1021400,
+      "sha256": "b73b6b8c31ce07c813e0b643971b077be8292dd06cd8736d0a71d3668b9a714e",
+      "source_scope": "public metadata or article snapshot"
+    }
+  },
+  "annotation": {
+    "probe_column": "ID",
+    "entrez_column": "Gene ID",
+    "symbol_column": "Gene symbol",
+    "table_format": "geo_annotation"
+  },
+  "methods": {
+    "transform": "log2_no_shift",
+    "probe_mapping": "unique_exact_entrez",
+    "gene_aggregation": "median_of_log2_probes",
+    "primary_test": "welch",
+    "sensitivity_test": "ols_hc3_normal",
+    "multiplicity": "BH_all_mapped_genes_per_contrast",
+    "nonfinite_or_nonpositive": "block"
+  },
+  "contrasts": [
+    "PSC_vs_Control",
+    "PSC_vs_UC",
+    "PSC_vs_PBC",
+    "PSC_vs_CD"
+  ],
+  "inference_limits": [
+    "Source-labeled adults, not independent exact ages.",
+    "No exact sample sex/age/treatment/batch covariates in public data; PBC female-only and groups differ in age.",
+    "Polish source cohort already used as external classifier dataset in RNA paper; this is new gene-level reanalysis, not untouched validation.",
+    "Gene-median normalized intensity is not RNA molecule count.",
+    "All deposited adults retained; no undocumented historic outlier removal reproduced."
+  ],
+  "source_quantity": "source_normalized_linear_intensity",
+  "code_sha256": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0"
+}

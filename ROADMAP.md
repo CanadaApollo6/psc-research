@@ -1,34 +1,44 @@
 # PSC research roadmap
 
-Updated September 15, 2026, after the [IBDverse original-model audit](reports/ibdverse-model-audit.md).
+Updated September 15, 2026 after the [two-cohort blood reanalysis](reports/psc-blood-replication.md).
 
-**Next compute priority: complete one qualified ETS2 program comparison in an independent public macrophage dataset.** PRKD2 now depends on specific study-data inputs. UBASH3A has a narrower public RNA-confirmation opportunity and a prepared laboratory question.
+**Next compute priority: a donor-level PSC-by-IL-17A response interaction in cholangiocyte organoids, not a blood classifier or another model sweep.** The completed blood analysis found 93 dependence-sensitive BH conjunction candidates, zero BY candidates and no additional disease-control conjunction support. It does not establish PSC-specific mechanisms. [Independent calculations](reports/psc-blood-independent-verification.json) and a [clean replay](reports/psc-blood-replay-verification.json) agree with the frozen results.
 
-This is the current execution roadmap. The [original four-direction roadmap](docs/computational-followup-roadmap.md), [research protocol and dated backlog](docs/research-plan.md), frozen analysis plans and completed reports remain the historical record. The next analyses below have not started; documenting them does not imply that a data request was sent or a laboratory experiment arranged.
+This is the current execution roadmap. The [original four-direction roadmap](docs/computational-followup-roadmap.md), [original protocol and dated backlog](docs/research-plan.md), frozen analysis plans and completed reports remain the historical record. The proposed organoid and reserve calibration analyses have **not** been run. No request to a researcher or laboratory experiment is implied.
 
 ## Current priorities
 
-| Priority | Branch | Useful work with public data and compute | What permits the next substantive result |
+| Priority | Question or branch | Next substantive action | Limits and prerequisites |
 |---|---|---|---|
-| 1 | **ETS2: program specificity and transfer** | Qualify an independent macrophage study, then compare the fixed ETS2 program with broad inflammation/stress programs using documented donor pairs and matched controls. GSE255234 is the first candidate; public raw-read reprocessing is a possible alternative to an ambiguous deposited matrix. | A complete, documented expression input and sample design, followed by a frozen dataset-specific analysis. This can test program behavior across conditions; it does not establish ETS2 causality. |
-| External-data priority | **PRKD2: shared genetic signal** | Run conditional and shared-signal analyses once the original model and covariance/component inputs qualify. The public-source recovery and mechanism audits are complete within their defined scopes. | Actual RNA model/sample records and suitable study LD/covariance or complete signal components, together with the unresolved PSC sample/covariance and coefficient-scale information. |
-| 2, bounded follow-up | **UBASH3A: observed RNA identity** | Inspect additional relevant CD4 sequencing libraries and independent datasets for reads linking the exact +29 junction to the complete RNA. Consider another protein search only in a suitable experiment with demonstrated ordinary UBASH3A coverage. | Informative original reads or spectra. The completed negative/low-coverage searches do not establish biological absence; RNA decay and protein production remain separate measurement needs. |
-| Later, conditional | **Additional loci and prediction screens** | Revisit a specific gene or model comparison when new data close an identified coverage, context or independence gap. | A concrete new source and a prospective question. Larger prediction sweeps alone do not resolve the existing evidence gaps. |
+| **1** | PSC cholangiocyte response to IL-17A | Complete GSE239283 matrix/feature/barcode qualification, freeze a donor-paired pseudobulk interaction, then estimate every donor's change. | Four PSC and four procedure-control donors. Age, sampling and clinical differences remain; cells are not independent replicates. |
+| Conditional follow-up | Disease-tissue relevance | Transfer a separately frozen response estimand to a qualified independent PSC liver cohort if the organoid result justifies it. | Do not use the same atlas as new replication or select a transfer endpoint after its effects. Small disease-control groups/stage differences remain. |
+| **Reserve** | ETS2 program context | Use the now-qualified MacroMap release for fixed program/comparator responses and held-out line/run tests under a new plan. | Healthy donor-derived macrophages test stimulus context, not PSC diagnosis or ETS2 dependence. |
+| External-data priority | PRKD2 shared genetic signal | Use qualified original model/covariance or complete-component inputs when available. | Existing expression associations and metadata do not fill the [remaining inputs](data/derived/ibdverse-model-audit/remaining-required-inputs.csv). |
+| Bounded/laboratory question | UBASH3A complete RNA/protein product | Retain the specific missing molecular observations and any narrowly justified new library follow-up. | Coverage-limited absence and model scores cannot establish a complete product or its absence. |
 
-## Next compute milestone: one qualified ETS2 comparison
+## Next compute milestone: donor-paired organoid interaction
 
-The [completed benchmark](reports/ets2-program-benchmark.md) shows that the published ETS2 program can be measured in PSC liver myeloid cells, but its behavior is context dependent. It has not been validated as an ETS2-specific disease-activity score. The next question is whether its response across independent macrophage conditions differs meaningfully from broader inflammatory and stress responses.
+The [source comparison](reports/public-data-discovery-options.md#2-donor-paired-psc-cholangiocyte-il-17a-response) verifies GSE239283: four PSC and four non-PSC donor keys, each with vehicle and 100 ng/mL IL-17A for 24 hours. There are 16 libraries and 46,343 cells. The complete cell metadata is acquired; the approximately 142-MB matrix was header-checked, not fully acquired or analyzed.
 
-1. **Qualify GSE255234.** The [public study record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255234) describes four donors and 16 control/LPS/heme samples. The [existing preparation](config/ets2-validation-gse255234-preparation.json) retains all 12 planned donor-paired comparisons. Resolve the deposited Ensembl-versus-described-RefSeq annotation mismatch, count-universe/filtering provenance, relevant sample QC and matched control backgrounds. Confirm H5 dose/time or retain that planned arm as unavailable under the existing rules; its name alone is not sufficient evidence.
-2. **Choose a documented expression input.** Use the deposited matrix only if it meets the existing assay requirements. GEO also lists raw sequencing in SRA. If the matrix provenance remains unresolved, first verify exact run/sample mappings, public accessibility, read layout, transfer size and compute needs. A separately frozen reprocessing plan could produce our own counts with a pinned reference and complete gene universe. This would be a new documented reanalysis, not a reconstruction of unknown historical processing.
-3. **Freeze the executable comparison before scoring.** Apply the [effective ETS2 validation rules](docs/ets2-validation-amendment.md): donor-level comparisons, control-only expression matching, complete arm accounting, fixed programs and broad comparators, explicit mapping coverage and deterministic settings. Preserve original and amended protocols; do not loosen a failed criterion after seeing effects.
-4. **Run and report every eligible planned comparison.** Deliver a source/sample manifest, mapping and assay QC, program and comparator results, unavailable contrasts, independent numerical checks and a reproducible report. Distinguish generic stimulation context from MEK pharmacology and direct ETS2 perturbation.
+1. Acquire and hash the complete matrix, feature and barcode files. Check integer counts, exact source library/donor joins and the released feature universe. Do not claim reconstruction of an unverified historical full library.
+2. Freeze the count filter, identifier rules, normalization, all-epithelial primary population, donor-level estimand, contrasts and missingness rules **before new effects**. Author-defined treatment-sensitive clusters are secondary, not outcome-selected primary populations.
+3. Estimate `mean(IL17 − vehicle in PSC donors) − mean(IL17 − vehicle in non-PSC donors)`. Use donor blocking and an interaction without a redundant disease main effect, or compare donor-level paired changes. Do not infer an interaction from unequal within-group DEG-list lengths.
+4. Show every donor-level change, uncertainty, fixed broad inflammatory/stress comparisons and leave-one-donor-out sensitivity. Four-versus-four donors limits power regardless of cell count.
+5. If the result warrants tissue follow-up, freeze that new endpoint and source choice separately. A concordant tissue association is not automatically causal validation.
 
-**Completion boundary:** one qualified public study analyzed under fixed rules, with all results and limitations reported. If no suitable input can be established within the frozen scope, finish with the precise failed criteria and source requirements. A weak or nonspecific program response is a useful result; an unqualified dataset is not a substitute for validation.
+The non-PSC donors are procedure controls, not healthy volunteers. Ex vivo IL-17A exposure is an intervention; PSC status and donor history are not randomized. A positive response interaction would not establish that IL-17 causes PSC or that IL-17 blockade benefits patients. Expected resources are about 145 MB of processed inputs, 4–8 CPU cores and 8–16 GB RAM; no new sequence model or GPU is needed.
 
-GSE84161 is a separate pharmacology opportunity. Its [30-array normalization and mapping](reports/gse84161-normalization-and-mapping.md) are complete, and the [supplement investigation](reports/gse84161-supplement-followup.md) identifies G-432 and G-573. Anonymous donor pairing and the actual array doses remain unresolved. No program scores or paired treatment contrasts have been calculated for it. Confirmation of those two details would unlock the planned analysis without repeating the completed normalization.
+## Reserve compute milestone: fixed ETS2 context calibration
 
-The [wider candidate inventory](reports/ets2-validation-readiness.md) remains available if the first route cannot qualify. Its older compound-identity uncertainty is superseded by the GSE84161 supplement follow-up. A separate direct primary-human ETS2 perturbation remains an evidence need; context calibration or MEK response cannot stand in for it.
+The [MacroMap qualification](reports/research-path-review.md) now establishes 58,243 released gene rows, 4,698 samples and 209 source lines, with 205 mapped HipSci identities. Eighteen strict non-PIC stimulation/time comparisons have 169–193 mapped-line control pairs. Preserve the two PIC rows as unavailable for a strict matched-background endpoint because the required mock-control identity is absent. Hold whole runs/lines out, stratify protocols, and learn any scaling/reference matching only in training controls. No program scores or held-out effects have been calculated.
+
+The [GSE255234 qualification](reports/ets2-study-qualification.md) resolves H5 as 5 µM heme for 6 h, alongside H10 and LPS, with four paired donors. It still does not satisfy the unchanged historical full-universe CPM provenance gate. Do not download roughly 73.7 GB of FASTQs merely to bypass that gate when a stronger reserve dataset is available. A separately declared released-universe rank estimand would be a new analysis, not a retrospective pass of the old one.
+
+For the separate GSE84161 inhibitor arrays, compound identities are resolved but anonymous donor pairing and actual array-dose provenance remain distinct questions. An unpaired/arm-mean analysis would need its own question and limits rather than guessed pairs.
+
+## Earlier branch-specific dependencies and completed foundation
+
+The retained sections below describe specific missing study inputs and experimental observations. They do not override the new first compute priority or imply that contacts have occurred.
 
 ## Existing information to request from study teams
 
@@ -70,9 +80,8 @@ PFKFB3/BCL2L11 remain parked after the [coverage follow-up](reports/variant-cove
 
 ## Execution order and decision rules
 
-1. Qualify and complete one ETS2 public-data comparison, or document exactly why the selected input cannot qualify.
-2. Pursue the focused PRKD2 and GSE84161 information requests as a separate external track when outreach is authorized. Existing ETS2 reproduction questions can accompany that track without blocking unrelated qualified work.
-3. Scope any additional UBASH3A public RNA audit separately, prioritizing diagnostic read evidence and independent donors. Use the prepared packet for a laboratory feasibility discussion when a collaborator is engaged.
-4. Reassess priorities after the first ETS2 result or a substantive external reply. Start no additional shared-cause fit, model sweep or expensive experimental program merely to replace an unresolved measurement with more computation.
-
-Each analysis needs a concrete question, eligible inputs, a prospective scope and a report that retains negative, unavailable and conflicting evidence. Completed analysis, proposed work, observational associations, model predictions and experimental results remain distinct. Changes to priorities do not rewrite the original scientific outputs or frozen analysis rules.
+1. Keep the completed blood result, its negative comparisons and all earlier frozen science unchanged. The result constrains a research decision; it is not a clinical recommendation.
+2. Run the organoid interaction only after its own source and method freeze. A weak result is valid; do not change populations, programs or thresholds to manufacture significance.
+3. Keep MacroMap as an informative reserve rather than repeating generic model scans or four-donor provenance audits indefinitely.
+4. Use public data and local compute first. Researcher contact, service enrollment, private-data access and laboratory arrangements require separate authorization.
+5. Preserve sample/donor dependence, source values and all unavailable or contradictory results. Retain source URLs, retrieval dates, build/annotation details and transformations. Validate numerics and replay, but do not equate check volume with biological independence.

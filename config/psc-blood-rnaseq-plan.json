@@ -1,0 +1,106 @@
+{
+  "analysis_id": "psc-blood-rnaseq-v1",
+  "status": "frozen",
+  "frozen_at_utc": "2026-09-15T22:56:48.344790+00:00",
+  "source_scope": "NorwegianGSE177044PSC+matchedcontrolstratum only; othercohort metadata retained for exclusion accounting",
+  "rnaseq": {
+    "counts": [
+      {
+        "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_countsPSC.csv.gz",
+        "retrieved_at_utc": "2026-09-15T22:32:53.096011+00:00",
+        "bytes": 8136584,
+        "sha256": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff",
+        "source_scope": "complete source file"
+      }
+    ],
+    "metadata": {
+      "path": "data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE177044&targ=gsm&form=text&view=quick",
+      "retrieved_at_utc": "2026-09-15T22:28:46.590961+00:00",
+      "bytes": 3237310,
+      "sha256": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777",
+      "source_scope": "public metadata or article snapshot"
+    },
+    "metadata_series": "GSE177044",
+    "expected_sample_count": 297,
+    "selection": {
+      "plates": [
+        "PS449",
+        "PS450",
+        "PS451",
+        "PS452",
+        "PS453"
+      ],
+      "source_disease_counts": {
+        "Control": 77,
+        "PSC": 43,
+        "PSCUC": 177
+      },
+      "metadata_samples": 1035
+    },
+    "filter": {
+      "min_count": 10,
+      "min_samples": 30
+    },
+    "model": {
+      "contrast": "PSC_vs_Control",
+      "covariates": [
+        "age_centered",
+        "sex",
+        "plate"
+      ],
+      "size_factors_fit_type": "ratio",
+      "fit_type": "parametric",
+      "dispersion_fallback": "mean_if_parametric_fails",
+      "refit_cooks": false,
+      "independent_filter": false,
+      "cooks_filter": true,
+      "alpha": 0.05,
+      "bh_family": "all_count_eligible_genes_NA_as_1_for_adjustment_only",
+      "lfc_shrinkage": false
+    },
+    "sensitivity": {
+      "transformation": "log2(1+CPM)",
+      "library_size": "all_source_features",
+      "covariance": "HC3",
+      "reference_distribution": "normal",
+      "leave_one_plate_out": "OLS_effect_sign_only",
+      "subgroup": "joint_three_level_diagnosis_OLS_HC3"
+    },
+    "software": {
+      "python": "3.12.14",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scipy": "1.18.1",
+      "pydeseq2": "0.5.4"
+    },
+    "n_cpus": 4,
+    "known_target_source_labels": [
+      "UBASH3A",
+      "ETS2",
+      "PRKD2",
+      "PFKFB3",
+      "BCL2L11",
+      "IFIT1",
+      "G0S2"
+    ],
+    "expected_feature_count": 63677,
+    "annotation_columns": [
+      "Geneid",
+      "gene_name"
+    ],
+    "script": {
+      "path": "scripts/analyze_psc_blood_rnaseq.py",
+      "sha256": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979"
+    }
+  },
+  "inference_limits": [
+    "Bulk blood diagnosis associations,not causal cell-intrinsic effects.",
+    "No pooledNorwayPSCvsGermanUC comparison;cohort/batchconfounded.",
+    "PSCwithUC andPSCalone pooledinprimary,then separatelyprespecifiedOLSsensitivities.",
+    "No measuredbloodcellcomposition,medicationsorcompleteclinicalseverityadjustment.",
+    "No hidden normalization fallback or sourcecountreplacement."
+  ],
+  "allow_effects": true
+}

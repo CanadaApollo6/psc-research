@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-09-15T22:42:20.218987+00:00",
+  "checks": {
+    "rna_rows_match": true,
+    "array_probe_rows_match": true,
+    "annotation_rows_match": true,
+    "source_hashes_present": true,
+    "primary_input_sum": true,
+    "polish_adult_sum": true,
+    "organoid_cells_match_header": true,
+    "organoid_donor_keys": true,
+    "completed_scope_excludes_effects": true,
+    "no_stale_false_numbers": true
+  },
+  "report_sha256": "fd5eaffd3febb883469cc1f70fb422a33c69c3b1450fe38926d74d0b9d995ac7",
+  "input_qualification_sha256": "681559fe65df02b4be6c45acfa21a8e19437206fc345b6bddbb8076a0d453745",
+  "note": "These checks confirm report/source consistency, not biological results; original input logic was not changed."
+}

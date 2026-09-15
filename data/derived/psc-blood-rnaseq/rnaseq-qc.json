@@ -1,0 +1,457 @@
+{
+  "all_zero_features": 25283,
+  "analysis": "GSE177044_Norwegian_PSC_vs_Control",
+  "complete_primary_sample_join": true,
+  "count_file_samples": 297,
+  "design": {
+    "age_center": 46.57912457912458,
+    "columns": [
+      "Intercept",
+      "disease_PSC",
+      "age_centered",
+      "sex_male",
+      "plate_PS450",
+      "plate_PS451",
+      "plate_PS452",
+      "plate_PS453"
+    ],
+    "condition_number": 68.4879451598675,
+    "disease_nuisance_r_squared": 0.07537894343894902,
+    "disease_reference": "Control",
+    "disease_residual_sum_squares": 52.73764544829699,
+    "max_leverage": 0.0697812528957577,
+    "n_columns": 8,
+    "n_samples": 297,
+    "plate_by_disease": {
+      "PS449": {
+        "Control": 22,
+        "PSC": 42
+      },
+      "PS450": {
+        "Control": 13,
+        "PSC": 58
+      },
+      "PS451": {
+        "Control": 25,
+        "PSC": 59
+      },
+      "PS452": {
+        "Control": 12,
+        "PSC": 44
+      },
+      "PS453": {
+        "Control": 5,
+        "PSC": 17
+      }
+    },
+    "plate_reference": "PS449",
+    "rank": 8,
+    "residual_df": 289,
+    "sex_by_disease": {
+      "female": {
+        "Control": 26,
+        "PSC": 55
+      },
+      "male": {
+        "Control": 51,
+        "PSC": 165
+      }
+    },
+    "sex_reference": "female"
+  },
+  "eligible_features": 15045,
+  "excluded_metadata_samples": 738,
+  "filter": {
+    "min_count": 10,
+    "min_samples": 30
+  },
+  "interpretation_limits": [
+    "observational_total_blood_association_not_causal_or_cell_intrinsic",
+    "PSC_vs_UC_country_plate_confounding_precludes_a_pooled_contrast",
+    "source_participant_labels_not_independently_verified_donor_identities",
+    "cell_composition_treatment_and_disease_severity_not_adjusted",
+    "known_source_targets_and_prior_candidates_are_not_new_discoveries",
+    "missing_statistical_result_is_not_a_biological_null",
+    "PyDESeq2_Cooks_filter_only_checks_samples_in_at_least_3_identical_full_design_rows_including_age",
+    "leave_one_plate_out_fits_share_samples_and_are_not_independent_replications",
+    "source_gene_name_is_as_published_unreconciled_not_an_identifier_map"
+  ],
+  "leave_one_plate_out": {
+    "PS449": {
+      "age_center": 46.7038626609442,
+      "columns": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS451",
+        "plate_PS452",
+        "plate_PS453"
+      ],
+      "condition_number": 59.43134218433447,
+      "disease_nuisance_r_squared": 0.05325413929608669,
+      "disease_reference": "Control",
+      "disease_residual_sum_squares": 39.7795792973876,
+      "max_leverage": 0.07958705016259995,
+      "n_columns": 7,
+      "n_samples": 233,
+      "plate_by_disease": {
+        "PS450": {
+          "Control": 13,
+          "PSC": 58
+        },
+        "PS451": {
+          "Control": 25,
+          "PSC": 59
+        },
+        "PS452": {
+          "Control": 12,
+          "PSC": 44
+        },
+        "PS453": {
+          "Control": 5,
+          "PSC": 17
+        }
+      },
+      "plate_reference": "PS450",
+      "rank": 7,
+      "residual_df": 226,
+      "sex_by_disease": {
+        "female": {
+          "Control": 12,
+          "PSC": 44
+        },
+        "male": {
+          "Control": 43,
+          "PSC": 134
+        }
+      },
+      "sex_reference": "female",
+      "status": "estimable"
+    },
+    "PS450": {
+      "age_center": 46.57079646017699,
+      "columns": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS451",
+        "plate_PS452",
+        "plate_PS453"
+      ],
+      "condition_number": 54.96537430267508,
+      "disease_nuisance_r_squared": 0.07944815077756473,
+      "disease_reference": "Control",
+      "disease_residual_sum_squares": 42.23133439264696,
+      "max_leverage": 0.07677731755246267,
+      "n_columns": 7,
+      "n_samples": 226,
+      "plate_by_disease": {
+        "PS449": {
+          "Control": 22,
+          "PSC": 42
+        },
+        "PS451": {
+          "Control": 25,
+          "PSC": 59
+        },
+        "PS452": {
+          "Control": 12,
+          "PSC": 44
+        },
+        "PS453": {
+          "Control": 5,
+          "PSC": 17
+        }
+      },
+      "plate_reference": "PS449",
+      "rank": 7,
+      "residual_df": 219,
+      "sex_by_disease": {
+        "female": {
+          "Control": 21,
+          "PSC": 43
+        },
+        "male": {
+          "Control": 43,
+          "PSC": 119
+        }
+      },
+      "sex_reference": "female",
+      "status": "estimable"
+    },
+    "PS451": {
+      "age_center": 47.31455399061033,
+      "columns": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS450",
+        "plate_PS452",
+        "plate_PS453"
+      ],
+      "condition_number": 55.26939942184331,
+      "disease_nuisance_r_squared": 0.09624201122652376,
+      "disease_reference": "Control",
+      "disease_residual_sum_squares": 35.52235625357532,
+      "max_leverage": 0.0806342461071369,
+      "n_columns": 7,
+      "n_samples": 213,
+      "plate_by_disease": {
+        "PS449": {
+          "Control": 22,
+          "PSC": 42
+        },
+        "PS450": {
+          "Control": 13,
+          "PSC": 58
+        },
+        "PS452": {
+          "Control": 12,
+          "PSC": 44
+        },
+        "PS453": {
+          "Control": 5,
+          "PSC": 17
+        }
+      },
+      "plate_reference": "PS449",
+      "rank": 7,
+      "residual_df": 206,
+      "sex_by_disease": {
+        "female": {
+          "Control": 20,
+          "PSC": 35
+        },
+        "male": {
+          "Control": 32,
+          "PSC": 126
+        }
+      },
+      "sex_reference": "female",
+      "status": "estimable"
+    },
+    "PS452": {
+      "age_center": 46.058091286307054,
+      "columns": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS450",
+        "plate_PS451",
+        "plate_PS453"
+      ],
+      "condition_number": 55.14084251254516,
+      "disease_nuisance_r_squared": 0.08330393622597787,
+      "disease_reference": "Control",
+      "disease_residual_sum_squares": 43.51453514346396,
+      "max_leverage": 0.07686835711157938,
+      "n_columns": 7,
+      "n_samples": 241,
+      "plate_by_disease": {
+        "PS449": {
+          "Control": 22,
+          "PSC": 42
+        },
+        "PS450": {
+          "Control": 13,
+          "PSC": 58
+        },
+        "PS451": {
+          "Control": 25,
+          "PSC": 59
+        },
+        "PS453": {
+          "Control": 5,
+          "PSC": 17
+        }
+      },
+      "plate_reference": "PS449",
+      "rank": 7,
+      "residual_df": 234,
+      "sex_by_disease": {
+        "female": {
+          "Control": 26,
+          "PSC": 45
+        },
+        "male": {
+          "Control": 39,
+          "PSC": 131
+        }
+      },
+      "sex_reference": "female",
+      "status": "estimable"
+    },
+    "PS453": {
+      "age_center": 46.36727272727273,
+      "columns": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS450",
+        "plate_PS451",
+        "plate_PS452"
+      ],
+      "condition_number": 57.37463918219637,
+      "disease_nuisance_r_squared": 0.07713135914788816,
+      "disease_reference": "Control",
+      "disease_residual_sum_squares": 49.04962928979807,
+      "max_leverage": 0.047473348412945926,
+      "n_columns": 7,
+      "n_samples": 275,
+      "plate_by_disease": {
+        "PS449": {
+          "Control": 22,
+          "PSC": 42
+        },
+        "PS450": {
+          "Control": 13,
+          "PSC": 58
+        },
+        "PS451": {
+          "Control": 25,
+          "PSC": 59
+        },
+        "PS452": {
+          "Control": 12,
+          "PSC": 44
+        }
+      },
+      "plate_reference": "PS449",
+      "rank": 7,
+      "residual_df": 268,
+      "sex_by_disease": {
+        "female": {
+          "Control": 25,
+          "PSC": 53
+        },
+        "male": {
+          "Control": 47,
+          "PSC": 150
+        }
+      },
+      "sex_reference": "female",
+      "status": "estimable"
+    }
+  },
+  "missing_source_names": 0,
+  "model": {
+    "alpha": 0.05,
+    "bh_family": "all_count_eligible_genes_NA_as_1_for_adjustment_only",
+    "contrast": "PSC_vs_Control",
+    "cooks_filter": true,
+    "covariates": [
+      "age_centered",
+      "sex",
+      "plate"
+    ],
+    "dispersion_fallback": "mean_if_parametric_fails",
+    "fit_type": "parametric",
+    "independent_filter": false,
+    "lfc_shrinkage": false,
+    "refit_cooks": false,
+    "size_factors_fit_type": "ratio"
+  },
+  "negative_binomial": {
+    "LFC_converged_false": 7,
+    "MAP_converged_false": 9,
+    "bh_family_size": 15045,
+    "bh_missing_test_policy": "source_pvalue_NA_preserved_correction_input_one",
+    "cooks_distance_cutoff": 2.5732117935997865,
+    "cooks_filter_eligible_samples": 34,
+    "cooks_filter_sample_rule": "at_least_3_identical_full_design_rows_including_age",
+    "cooks_filtered_features": 4,
+    "dispersion_fallback_used": false,
+    "dispersion_trend": "parametric",
+    "finite_pvalues": 15041,
+    "fitted_features": 15045,
+    "genewise_converged_false": 16,
+    "method": "PyDESeq2_NB_Wald_PSC_minus_Control",
+    "normalization_basis_genes_positive_in_every_sample": 7955,
+    "normalization_convention": "exp(median(log(count/geometric_mean)))_over_eligible_positive_everywhere_genes",
+    "pydeseq2_original_bh_family_size": 15041,
+    "size_factor_max": 1.8599260131807773,
+    "size_factor_min": 0.176027159100924,
+    "warnings": []
+  },
+  "ols_finite_pvalues": 15045,
+  "plan_sha256": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1",
+  "raw_count_validity": "all_values_finite_nonnegative_integers_no_imputation_no_replacement",
+  "script_sha256": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979",
+  "selected_samples": 297,
+  "sensitivity": {
+    "covariance": "HC3",
+    "leave_one_plate_out": "OLS_effect_sign_only",
+    "library_size": "all_source_features",
+    "reference_distribution": "normal",
+    "subgroup": "joint_three_level_diagnosis_OLS_HC3",
+    "transformation": "log2(1+CPM)"
+  },
+  "software": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pydeseq2": "0.5.4",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "source_disease_counts": {
+    "Control": 77,
+    "PSC": 43,
+    "PSCUC": 177
+  },
+  "source_features": 63677,
+  "source_metadata_samples": 1035,
+  "sources": {
+    "counts": [
+      {
+        "bytes": 8136584,
+        "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+        "retrieved_at_utc": "2026-09-15T22:32:53.096011+00:00",
+        "sha256": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff",
+        "source_scope": "complete source file",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE177nnn/GSE177044/suppl/GSE177044_raw_countsPSC.csv.gz"
+      }
+    ],
+    "metadata": {
+      "bytes": 3237310,
+      "path": "data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "retrieved_at_utc": "2026-09-15T22:28:46.590961+00:00",
+      "sha256": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777",
+      "source_scope": "public metadata or article snapshot",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE177044&targ=gsm&form=text&view=quick"
+    }
+  },
+  "subgroup_sensitivity": {
+    "columns": [
+      "Intercept",
+      "diagnosis_PSC_alone",
+      "diagnosis_PSCUC",
+      "age_centered",
+      "sex_male",
+      "plate_PS450",
+      "plate_PS451",
+      "plate_PS452",
+      "plate_PS453"
+    ],
+    "condition_number": 68.5288565312656,
+    "interpretation": "sensitivity_shared_controls_not_independent_replications",
+    "max_leverage": 0.07329628087163259,
+    "n_columns": 9,
+    "n_samples": 297,
+    "rank": 9,
+    "residual_df": 288,
+    "shared_control_and_nuisance_coefficients": true,
+    "source_disease_counts": {
+      "Control": 77,
+      "PSC": 43,
+      "PSCUC": 177
+    }
+  },
+  "versionless_id_status_counts": {
+    "unique_versionless_id": 63677
+  }
+}

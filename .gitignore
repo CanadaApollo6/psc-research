@@ -15,3 +15,7 @@ work/
 data/derived/gse84161-array-qc/signal-distributions.pdf
 data/derived/gse84161-array-qc/rle-boxplots.pdf
 .DS_Store
+# Exact uncompressed aggregate blood CSVs are regenerated; version their lossless gzip copies.
+data/derived/psc-blood-rnaseq/rnaseq-feature-universe.csv
+data/derived/psc-blood-rnaseq/rnaseq-primary.csv
+data/derived/psc-blood-rnaseq/rnaseq-leave-one-plate-out.csv

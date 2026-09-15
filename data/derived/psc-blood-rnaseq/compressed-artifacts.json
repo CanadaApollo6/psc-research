@@ -1,0 +1,29 @@
+{
+  "transformation": "gzip only; exact uncompressed SHA-256 verified; no scientific values or frozen files changed",
+  "files": [
+    {
+      "file": "rnaseq-feature-universe.csv.gz",
+      "bytes": 1447349,
+      "sha256": "10e035f3cc5b4def886421342f16f07f177f543d7f586d7bb74058f1c865d1e6",
+      "uncompressed_file": "rnaseq-feature-universe.csv",
+      "uncompressed_bytes": 12003678,
+      "uncompressed_sha256": "9e1e0f3c562b756f296eabe7d37fd7a6be08ab0600dd2366a0aa0e0eb364130a"
+    },
+    {
+      "file": "rnaseq-primary.csv.gz",
+      "bytes": 7395931,
+      "sha256": "a4b244fb78a68fd41874d5707030d791e496370be549ee39b088a2ca981ea8e4",
+      "uncompressed_file": "rnaseq-primary.csv",
+      "uncompressed_bytes": 36725393,
+      "uncompressed_sha256": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5"
+    },
+    {
+      "file": "rnaseq-leave-one-plate-out.csv.gz",
+      "bytes": 1419970,
+      "sha256": "9ac6de98b7bd46798880950b689f99d1f4dc13fbb9ffdd6e6726a5f0d20d6243",
+      "uncompressed_file": "rnaseq-leave-one-plate-out.csv",
+      "uncompressed_bytes": 6527396,
+      "uncompressed_sha256": "def2b3a4afa621616be67be5d757fa0c18ccbade87b9e521e3480583910d083d"
+    }
+  ]
+}

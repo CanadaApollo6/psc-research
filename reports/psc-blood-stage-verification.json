@@ -1,0 +1,229 @@
+{
+  "analysis_id": "psc-blood-replication-v1",
+  "status": "complete_with_explicit_scientific_and_historical_environment_limits",
+  "completed_at_utc": "2026-09-15T23:23:19.746549+00:00",
+  "biological_breakthrough_claimed": false,
+  "clinical_recommendation_produced": false,
+  "result": {
+    "shared_gene_family": 11074,
+    "primary_BH_threshold_genes": 93,
+    "primary_BY_threshold_genes": 0,
+    "UC_support_BH_threshold_genes": 0,
+    "all_disease_support_BH_threshold_genes": 0,
+    "prespecified_benchmarks_passing_primary": 0
+  },
+  "independent_numerical_verification": {
+    "status": "passed",
+    "checks": 236,
+    "array_comparisons": 82996,
+    "RNA_HC3_gene_subset": 27,
+    "independent_NB_likelihood_refit": false
+  },
+  "local_replay": {
+    "artifacts_byte_identical": 12,
+    "changed_integration_summary_fields": [
+      "plan_sha256"
+    ]
+  },
+  "tests": {
+    "new_analysis_tests_passed": 67,
+    "full_suite_reported_tests": 322,
+    "individual_passes": 319,
+    "test_errors": 3,
+    "class_setup_errors": 4,
+    "baseline_error_identities_unchanged": true,
+    "new_errors": 0,
+    "final_regression_log_sha256": "f7b41f93b2599e387f913faa31a39e860ae38421357ab2e310d290480e83faa6"
+  },
+  "environment_lock_matches_final_export": true,
+  "native_syntax_check_exit_code": 0,
+  "cached_source_check_exit_code": 0,
+  "local_documentation_links_checked": 183,
+  "broken_local_links": 0,
+  "preexisting_tracked_files": {
+    "baseline_count": 1310,
+    "changed": [
+      ".gitignore",
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md"
+    ],
+    "deleted": [],
+    "all_prior_scientific_files_byte_preserved": true
+  },
+  "frozen_new_analysis_paths_unchanged": true,
+  "sample_level_expression_and_joins": "ignored work/ and data/raw/ only",
+  "next_analysis": {
+    "study": "GSE239283",
+    "question": "Donor-level PSC-by-IL17A response interaction",
+    "executed": false,
+    "requires_separate_execution_freeze": true
+  },
+  "public_artifacts": [
+    {
+      "path": "data/derived/psc-blood-array/array-analysis-audit.json",
+      "bytes": 8787,
+      "sha256": "d7a16fb704e36ed325da8bc63f2d8a38e108200226d0127b616040239dc12ca3"
+    },
+    {
+      "path": "data/derived/psc-blood-array/array-contrast-summary.json",
+      "bytes": 949,
+      "sha256": "57ffa642e192a75617d229e27c92cb45ce8eea59d3c1d847718778895d0e951c"
+    },
+    {
+      "path": "data/derived/psc-blood-array/array-feature-join.csv.gz",
+      "bytes": 9405509,
+      "sha256": "b51bfbd0e2ac6aacb51b3ade569b2c772089d0e4bf9db4d4a0e5cc3d7a8e7ebc"
+    },
+    {
+      "path": "data/derived/psc-blood-array/array-gene-effects.csv.gz",
+      "bytes": 14234162,
+      "sha256": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434"
+    },
+    {
+      "path": "data/derived/psc-blood-array/array-gene-universe.csv.gz",
+      "bytes": 290900,
+      "sha256": "dad9096adb8da3d456e306815f779f36234c47ea679ce806eb5f9825fca7744e"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/bh-candidates-with-diagnostics.csv.gz",
+      "bytes": 51273,
+      "sha256": "fc483a5ccbe1630a697beb27a1696e9c86ff19a7d0513c2dbc8c1c40e09790c5"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/cross-cohort-gene-results.csv.gz",
+      "bytes": 5712205,
+      "sha256": "421de2426e14e4a2636e8d0047c184d59eebf70ce2e96f6732631869fa2e7fc1"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/cross-platform-coverage.csv.gz",
+      "bytes": 822543,
+      "sha256": "01f42b9c49140894dba28d497bc2bc5490de09b9255f70a7bee329fe0a265c05"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/diagnostics.json",
+      "bytes": 2691,
+      "sha256": "c93b80f663662163cc25cc85294afaf893b59f6fe35fe19521e0466a10f96631"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/prespecified-benchmarks.csv.gz",
+      "bytes": 4666,
+      "sha256": "50d0e257cdb88a17fcb00328c995ba157129d993999e4894b71f1599503ecd2f"
+    },
+    {
+      "path": "data/derived/psc-blood-replication/summary.json",
+      "bytes": 1421,
+      "sha256": "63e3a55f18f3364b5a1e2222fb5e9d0f7f5d93f66da228497d3c2f5e21f99c08"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/compressed-artifacts.json",
+      "bytes": 1206,
+      "sha256": "4332bb981adc14950dd1e26e39cd6421283273c0104c0fe3a15c47656e2f5272"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/rnaseq-feature-universe.csv.gz",
+      "bytes": 1447349,
+      "sha256": "10e035f3cc5b4def886421342f16f07f177f543d7f586d7bb74058f1c865d1e6"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/rnaseq-leave-one-plate-out.csv.gz",
+      "bytes": 1419970,
+      "sha256": "9ac6de98b7bd46798880950b689f99d1f4dc13fbb9ffdd6e6726a5f0d20d6243"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/rnaseq-output-manifest.json",
+      "bytes": 971,
+      "sha256": "fceb473f7ed889c0c50c694f2ab8d88331127a027acfe876eddc9af6ce13fa0c"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/rnaseq-primary.csv.gz",
+      "bytes": 7395931,
+      "sha256": "a4b244fb78a68fd41874d5707030d791e496370be549ee39b088a2ca981ea8e4"
+    },
+    {
+      "path": "data/derived/psc-blood-rnaseq/rnaseq-qc.json",
+      "bytes": 12116,
+      "sha256": "2f953a2d6da893d192cb490d8273bdcafae4abfe57646e7ea081b1ab8546f83f"
+    },
+    {
+      "path": "docs/psc-blood-reproduction.md",
+      "bytes": 11512,
+      "sha256": "9229310ce271206c60dddaca524ac7af85fecbb14c906debb5706e564386dba6"
+    },
+    {
+      "path": "reports/ets2-study-qualification.md",
+      "bytes": 10221,
+      "sha256": "768894e5c26d5fab5bb5bee3783f714cbc6f6d0a480e7279d86b8a69d4a7b4b4"
+    },
+    {
+      "path": "reports/figures/psc-blood-replication.png",
+      "bytes": 252553,
+      "sha256": "9cf1a3efbd48da641b94f9ea2054066d29c749bfe24932f5feba222ca1bc740b"
+    },
+    {
+      "path": "reports/figures/psc-blood-replication.svg",
+      "bytes": 122380,
+      "sha256": "9b9897da7332b6961dfedec72794e85f5a5be6ca38341c8cb434f5df7b023a2b"
+    },
+    {
+      "path": "reports/psc-blood-independent-verification.json",
+      "bytes": 82462,
+      "sha256": "90d9722d757e1eddf246b28d37df1a8d28eaa7a829e6d6ae9e2dcdcb399eec63"
+    },
+    {
+      "path": "reports/psc-blood-method-review.md",
+      "bytes": 5061,
+      "sha256": "79d67fc379219dd6ed5b82667f129767ccdd4726e18bb95d95d94223cf9f0fb0"
+    },
+    {
+      "path": "reports/psc-blood-replay-verification.json",
+      "bytes": 6802,
+      "sha256": "acabb930961c7c22a9ba6a3f941f5771cafd66313ce14523af5d849762b34ec1"
+    },
+    {
+      "path": "reports/psc-blood-replication.md",
+      "bytes": 16191,
+      "sha256": "780bc7a43ee4aff25498323142a10eeca7a8fff857b08f137e9610e3134d37c5"
+    },
+    {
+      "path": "reports/psc-blood-source-processing.json",
+      "bytes": 1196,
+      "sha256": "83e77179ccd35e087eea91bab84e59c0479f627c466794eb5eb09ef62c585a51"
+    },
+    {
+      "path": "reports/public-data-discovery-options.md",
+      "bytes": 25650,
+      "sha256": "fd5eaffd3febb883469cc1f70fb422a33c69c3b1450fe38926d74d0b9d995ac7"
+    },
+    {
+      "path": "reports/research-path-review.md",
+      "bytes": 25102,
+      "sha256": "257938de160a0837a7a87ea6dc5243ca72ce7fac20cb1084843d598946b140a0"
+    },
+    {
+      "path": "reports/research-state-and-strategy.md",
+      "bytes": 5035,
+      "sha256": "cc81094d41717bbfaf70aae18f9b0d2d6eb4000d1a99b3e5b93afa5745c24c92"
+    },
+    {
+      "path": "scripts/acquire_psc_blood_inputs.py",
+      "bytes": 3263,
+      "sha256": "5968d0430755312bb1394a1240f0dab4b1adf3e03dbf28aca9aaa732dab8e925"
+    },
+    {
+      "path": "scripts/package_psc_blood_results.py",
+      "bytes": 1827,
+      "sha256": "9b2603da5600024100b19fb519ef9ad23cba13d0194d6e3e20919c7ad5bf4bfe"
+    },
+    {
+      "path": "scripts/report_psc_blood_diagnostics.py",
+      "bytes": 5983,
+      "sha256": "2a9f198c67d151106de88581c0bb7d247b088af186645ac2146eed2e6559e935"
+    },
+    {
+      "path": "scripts/verify_psc_blood_replication.py",
+      "bytes": 46586,
+      "sha256": "1c6d731f5db6130ae09401b92fd802d4ba10a6f8737c7b6f35b5498e9f973bae"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "outputs": {
+    "rnaseq-feature-universe.csv": {
+      "bytes": 12003678,
+      "sha256": "9e1e0f3c562b756f296eabe7d37fd7a6be08ab0600dd2366a0aa0e0eb364130a"
+    },
+    "rnaseq-leave-one-plate-out.csv": {
+      "bytes": 6527396,
+      "sha256": "def2b3a4afa621616be67be5d757fa0c18ccbade87b9e521e3480583910d083d"
+    },
+    "rnaseq-primary.csv": {
+      "bytes": 36725393,
+      "sha256": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5"
+    },
+    "rnaseq-qc.json": {
+      "bytes": 12116,
+      "sha256": "2f953a2d6da893d192cb490d8273bdcafae4abfe57646e7ea081b1ab8546f83f"
+    }
+  },
+  "plan_sha256": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1",
+  "sample_values_in_public_outputs": false,
+  "sample_work_files": [
+    "sample-selection-audit.csv",
+    "selected-samples.csv",
+    "design-matrix.csv",
+    "sample-normalization.csv"
+  ],
+  "script_sha256": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979"
+}

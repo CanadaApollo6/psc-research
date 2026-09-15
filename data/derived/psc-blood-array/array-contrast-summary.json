@@ -1,0 +1,42 @@
+[
+  {
+    "contrast": "PSC_vs_Control",
+    "hc3_bh_q_le_0_05": 2570,
+    "hc3_estimable": 20749,
+    "mapped_gene_family_size": 20749,
+    "n_case": 45,
+    "n_reference": 47,
+    "welch_bh_q_le_0_05": 2410,
+    "welch_estimable": 20749
+  },
+  {
+    "contrast": "PSC_vs_UC",
+    "hc3_bh_q_le_0_05": 426,
+    "hc3_estimable": 20749,
+    "mapped_gene_family_size": 20749,
+    "n_case": 45,
+    "n_reference": 45,
+    "welch_bh_q_le_0_05": 315,
+    "welch_estimable": 20749
+  },
+  {
+    "contrast": "PSC_vs_PBC",
+    "hc3_bh_q_le_0_05": 169,
+    "hc3_estimable": 20749,
+    "mapped_gene_family_size": 20749,
+    "n_case": 45,
+    "n_reference": 90,
+    "welch_bh_q_le_0_05": 135,
+    "welch_estimable": 20749
+  },
+  {
+    "contrast": "PSC_vs_CD",
+    "hc3_bh_q_le_0_05": 2005,
+    "hc3_estimable": 20749,
+    "mapped_gene_family_size": 20749,
+    "n_case": 45,
+    "n_reference": 48,
+    "welch_bh_q_le_0_05": 1830,
+    "welch_estimable": 20749
+  }
+]

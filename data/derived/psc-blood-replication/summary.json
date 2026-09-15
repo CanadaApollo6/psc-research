@@ -1,0 +1,49 @@
+{
+  "shared_gene_family": 11074,
+  "rna_coverage_status": {
+    "rna_low_count": 48632,
+    "eligible_shared_family": 11074,
+    "no_unambiguous_cross_platform_identity": 3390,
+    "not_measured_on_array": 581
+  },
+  "families": {
+    "replication": {
+      "q_bh_le_0_05": 93,
+      "q_by_le_0_05": 0,
+      "passing_up_in_psc": 84,
+      "passing_down_in_psc": 9,
+      "status_counts": {
+        "concordant": 6085,
+        "discordant_or_zero_direction": 4986,
+        "unavailable_constituent": 3
+      }
+    },
+    "uc_support": {
+      "q_bh_le_0_05": 0,
+      "q_by_le_0_05": 0,
+      "passing_up_in_psc": 0,
+      "passing_down_in_psc": 0,
+      "status_counts": {
+        "discordant_or_zero_direction": 7569,
+        "concordant": 3502,
+        "unavailable_constituent": 3
+      }
+    },
+    "all_disease_support": {
+      "q_bh_le_0_05": 0,
+      "q_by_le_0_05": 0,
+      "passing_up_in_psc": 0,
+      "passing_down_in_psc": 0,
+      "status_counts": {
+        "discordant_or_zero_direction": 8943,
+        "concordant": 2128,
+        "unavailable_constituent": 3
+      }
+    }
+  },
+  "output_sha256": {
+    "cross-cohort-gene-results.csv.gz": "421de2426e14e4a2636e8d0047c184d59eebf70ce2e96f6732631869fa2e7fc1",
+    "cross-platform-coverage.csv.gz": "01f42b9c49140894dba28d497bc2bc5490de09b9255f70a7bee329fe0a265c05"
+  },
+  "plan_sha256": "16393ed199601e4765ddea5203324b3911a4e9d6f72f2384466b790347ade58c"
+}

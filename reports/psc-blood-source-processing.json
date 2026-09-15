@@ -1,0 +1,19 @@
+{
+  "study_accession": "GSE177044",
+  "extracted_at_utc": "2026-09-15T23:20:47.613608+00:00",
+  "source_metadata_path": "data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+  "source_metadata_sha256": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777",
+  "source_processing_declarations_as_published": [
+    "!Sample_data_processing = Alignment with STAR v2.6.1d",
+    "!Sample_data_processing = Assembly: GRCh37",
+    "!Sample_data_processing = Feature counting with FeatureCounts from the subread package v1.6.4",
+    "!Sample_data_processing = Genome_build: GRCh37"
+  ],
+  "source_alignment_assembly": "GRCh37",
+  "source_aligner": "STAR v2.6.1d",
+  "source_gene_counter": "FeatureCounts, subread v1.6.4",
+  "count_annotation_release": "Not independently resolved here; no release number is invented.",
+  "reanalysis_scope": "Use deposited integer gene counts without realignment. Reconcile stable gene IDs against the complete pinned Ensembl116 relationship export; this is not coordinate lift-over or allele harmonization.",
+  "array_annotation_snapshot": "GPL10558.annot.gz internal Annotation_date Aug09 2016",
+  "effect_dependent_transformation": false
+}

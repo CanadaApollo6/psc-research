@@ -1,0 +1,64 @@
+{
+  "scope": "Descriptive accounting of frozen results/sensitivities; no new significance family or amended primary analysis.",
+  "shared_family": 11074,
+  "bh_candidates": 93,
+  "rna_primary_bh_q_le_0_05": 3309,
+  "rna_ols_primary_bh_q_le_0_05": 5298,
+  "all_shared_fit_flags": {
+    "rna_LFC_converged": 5,
+    "rna_MAP_converged": 8,
+    "rna_genewise_converged": 16
+  },
+  "bh_candidate_fit_flags": {
+    "rna_LFC_converged": 0,
+    "rna_MAP_converged": 1,
+    "rna_genewise_converged": 1
+  },
+  "bh_candidate_any_nonconvergence": 2,
+  "flagged_bh_candidates": [
+    {
+      "ensembl_gene_id": "ENSG00000163931",
+      "hgnc_symbol": "TKT",
+      "rna_LFC_converged": true,
+      "rna_MAP_converged": true,
+      "rna_genewise_converged": false
+    },
+    {
+      "ensembl_gene_id": "ENSG00000054267",
+      "hgnc_symbol": "ARID4B",
+      "rna_LFC_converged": true,
+      "rna_MAP_converged": false,
+      "rna_genewise_converged": true
+    }
+  ],
+  "bh_candidate_ols_direction_match": 92,
+  "bh_candidate_ols_bh_q_le_0_05_and_direction_match": 55,
+  "bh_candidate_all_five_plate_omissions_match_full_ols_direction": 89,
+  "bh_candidate_both_subgroup_ols_directions_match_nb": 90,
+  "bh_candidate_no_fit_flags_and_both_ols_and_five_omission_sign_checks": 88,
+  "bh_candidate_max_cooks_any_sample_above_package_cutoff": 0,
+  "cooks_caveat": "Package filters only 34 samples with >=3 identical full design rows including continuous age; all-sample Cook values are diagnostics, not retrospectively imposed exclusions.",
+  "lowest_primary_bh_q": 0.0158799916824766,
+  "lowest_primary_by_q": 0.1570470216079355,
+  "lowest_uc_support_bh_q": 1.0,
+  "lowest_all_disease_support_bh_q": 1.0,
+  "benchmark_source_identity": {
+    "UBASH3A": "ENSG00000160185",
+    "ETS2": "ENSG00000157557",
+    "PRKD2": "ENSG00000105287",
+    "PFKFB3": "ENSG00000170525",
+    "BCL2L11": "ENSG00000153094",
+    "IFIT1": "ENSG00000185745",
+    "G0S2": "ENSG00000123689"
+  },
+  "benchmark_role": "Already named project/source benchmarks, not discoveries. All seven have unambiguous reciprocal IDs and pass measured-family eligibility.",
+  "worker_runtime_warning_counts": {
+    "RuntimeWarning: invalid value encountered in divide": 3,
+    "RuntimeWarning: invalid value encountered in matmul": 1,
+    "RuntimeWarning: invalid value encountered in multiply": 3,
+    "RuntimeWarning: invalid value encountered in subtract": 3,
+    "RuntimeWarning: overflow encountered in exp": 6,
+    "RuntimeWarning: overflow encountered in multiply": 3
+  },
+  "warnings_caveat": "Joblib worker warnings appear in the outer stderr log; the RNA QC main-process captured-warning list is empty and does not imply a warning-free fit."
+}

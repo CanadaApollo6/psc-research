@@ -1,0 +1,2722 @@
+{
+  "verification_id": "psc-blood-independent-v1",
+  "prepared_at_utc": "2026-09-15T22:48:18.824243+00:00",
+  "scope": "Independent checks of source identity, sample joins, array transformation/testing, RNA normalization/HC3 sensitivity and complete cross-study conjunction families; not an independent negative-binomial model refit.",
+  "method_independence": "Do not import any of analyze_psc_blood_array.py, analyze_psc_blood_rnaseq.py, summarize_psc_blood_replication.py. Use source parsers plus scipy/statsmodels instead.",
+  "rna_subset_rule": "For count-eligible unique source gene IDs, take first20 under ascending SHA256(\"psc-blood-independent-v1:\"+gene_id); add every source row with exact original gene_name in UBASH3A,ETS2,PRKD2,PFKFB3,BCL2L11,IFIT1,G0S2. No effect ranks/signs used.",
+  "array_scope": "All mapped genes/all4 contrasts, source adult samples only; exact original-GPL Entrez eligible probes, log2 each positive source intensity then within-gene median.",
+  "rna_scope": "All source genes/count filtering/library totals/ratio factors/sample design; HC3 for deterministic20 plus known7 (and subgroup/leave-plate checks on same subset); all NB Wald P/effect-SE/cooks/missingness consistency, not NB refit.",
+  "identity_scope": "Full Ensembl116 original relationship columns, reciprocal mapping before restricting to source matrices; full shared family eligibility, constituent-P availability/status, max-P sign agreement and BH/BY with statsmodels.",
+  "numerical_tolerances": {
+    "array_float_rtol": 1e-09,
+    "array_float_atol": 1e-10,
+    "rna_hc3_rtol": 1e-07,
+    "rna_hc3_atol": 1e-09,
+    "p_adjustment_rtol": 1e-09,
+    "p_adjustment_atol": 1e-12,
+    "source_and_discrete_fields": "exact"
+  },
+  "source_manifest_at_preparation_sha256": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec",
+  "protocol_at_preparation_sha256": "5a12953ddbeae58d0bbbbf20ca00a44b80e75184db8b6f64b0509ddd9302b5a1",
+  "last_checked_at_utc": "2026-09-15T23:05:02.427156+00:00",
+  "status": "passed",
+  "effects_inspected_or_computed": true,
+  "NB_refit_performed": false,
+  "source_patient_matrices_versioned": false,
+  "implementation_sha256": "1c6d731f5db6130ae09401b92fd802d4ba10a6f8737c7b6f35b5498e9f973bae",
+  "python": "3.12.14 (main, Aug 14 2026, 15:34:45) [Clang 22.1.3 ]",
+  "verification_implementation_repairs": [
+    "Closed a missing bracket before numerical execution.",
+    "Adapted draft expected_gene_count key to frozen expected_feature_count; unchanged63677 criterion.",
+    "Joined coverage by preserved source gene_id; annotation-side ensembl_gene_id is intentionally blank outside the snapshot. No analysis output or numerical tolerance changed."
+  ],
+  "crosswalk_limit": "Reparsed all original relationship fields from the complete pinned Ensembl116 export; not fresh upstream identity validation.",
+  "array_annotation_snapshot": "GEO GPL10558.annot.gz Aug2016 reannotation, as frozen; not a manufacturer-original annotation claim.",
+  "input_plan_sha256": {
+    "config/psc-blood-sources.json": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec",
+    "config/psc-blood-array-plan.json": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3",
+    "config/psc-blood-rnaseq-plan.json": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1"
+  },
+  "checks": [
+    {
+      "check": "execution_freeze_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "execution_pinned_sha256:docs/psc-blood-replication-protocol.md",
+      "passed": true,
+      "observed": "ec38521b1e673c9340db7009d5e833124f519501f95828d98b8f9e8b82467721",
+      "expected": "ec38521b1e673c9340db7009d5e833124f519501f95828d98b8f9e8b82467721"
+    },
+    {
+      "check": "execution_pinned_sha256:docs/archive/psc-blood-replication-protocol-selection.md",
+      "passed": true,
+      "observed": "25a0f30850c2ac2ed4cc4e397f4447c8a42c1f5248cd07693bf98af801565214",
+      "expected": "25a0f30850c2ac2ed4cc4e397f4447c8a42c1f5248cd07693bf98af801565214"
+    },
+    {
+      "check": "execution_pinned_sha256:config/psc-blood-path-selection.json",
+      "passed": true,
+      "observed": "3bd4bdacb44cfecd0968f72fb360cdcac85f3101c82d03968341e3aa63433286",
+      "expected": "3bd4bdacb44cfecd0968f72fb360cdcac85f3101c82d03968341e3aa63433286"
+    },
+    {
+      "check": "execution_pinned_sha256:config/psc-blood-rnaseq-plan.json",
+      "passed": true,
+      "observed": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1",
+      "expected": "da3a43d0bd73e1cee649358b83179372f2695d584bb8fcac98b9bdc43d401be1"
+    },
+    {
+      "check": "execution_pinned_sha256:config/psc-blood-array-plan.json",
+      "passed": true,
+      "observed": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3",
+      "expected": "5c562f5045d55dbcf4744733a9de0bbc024e1b4514d4b43f2be95a68b48a1ef3"
+    },
+    {
+      "check": "execution_pinned_sha256:config/psc-blood-sources.json",
+      "passed": true,
+      "observed": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec",
+      "expected": "e0b0e683b90814e86fd15c41da05ae0e4a69226df7d8e49b3887922093f9fbec"
+    },
+    {
+      "check": "execution_pinned_sha256:scripts/analyze_psc_blood_rnaseq.py",
+      "passed": true,
+      "observed": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979",
+      "expected": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979"
+    },
+    {
+      "check": "execution_pinned_sha256:scripts/analyze_psc_blood_array.py",
+      "passed": true,
+      "observed": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0",
+      "expected": "75412a0c9892bd47655f2bb2c90fb568063da09c091c7c0885d212c6a34e94e0"
+    },
+    {
+      "check": "execution_pinned_sha256:scripts/summarize_psc_blood_replication.py",
+      "passed": true,
+      "observed": "3ca194163f98cea61ee2908d85d838d5a13bbaf32997c405a01cb2c4e670ad0b",
+      "expected": "3ca194163f98cea61ee2908d85d838d5a13bbaf32997c405a01cb2c4e670ad0b"
+    },
+    {
+      "check": "execution_pinned_sha256:scripts/plot_psc_blood_replication.py",
+      "passed": true,
+      "observed": "492e79e5aa4a936f435abea3fe355aadc0e511d39e8f4efd9fa3360e59d19aca",
+      "expected": "492e79e5aa4a936f435abea3fe355aadc0e511d39e8f4efd9fa3360e59d19aca"
+    },
+    {
+      "check": "execution_pinned_sha256:tests/test_psc_blood_rnaseq.py",
+      "passed": true,
+      "observed": "9f94cf4099eee61f60688bef5397c7861e68a11cfa32940cdbdc7efd1b75a8a4",
+      "expected": "9f94cf4099eee61f60688bef5397c7861e68a11cfa32940cdbdc7efd1b75a8a4"
+    },
+    {
+      "check": "execution_pinned_sha256:tests/test_psc_blood_array.py",
+      "passed": true,
+      "observed": "0105b4163a71f1ce0ff1d7c327534bf5eb3c3d7b662fe7705d1c232e2fe4582a",
+      "expected": "0105b4163a71f1ce0ff1d7c327534bf5eb3c3d7b662fe7705d1c232e2fe4582a"
+    },
+    {
+      "check": "execution_pinned_sha256:tests/test_psc_blood_replication.py",
+      "passed": true,
+      "observed": "c2cce0f3a5856734d1de9c0f4b1508e5c909e9e01458603307a91c1036b7e053",
+      "expected": "c2cce0f3a5856734d1de9c0f4b1508e5c909e9e01458603307a91c1036b7e053"
+    },
+    {
+      "check": "execution_pinned_sha256:requirements-psc-blood.lock",
+      "passed": true,
+      "observed": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0",
+      "expected": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0"
+    },
+    {
+      "check": "array_assay_plan_frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_assay_plan_frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+      "passed": true,
+      "observed": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff",
+      "expected": "d7ba09dab9da6ce78bace86c1e868f2312c1906d4d32d679f8cd7127caf6b6ff"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+      "passed": true,
+      "observed": 8136584,
+      "expected": 8136584
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/acquired/GSE177044_raw_counts2.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/acquired/GSE177044_raw_counts2.csv.gz",
+      "passed": true,
+      "observed": "4b30e2643d2e367da36d081d746b26ec6e6c0cf76c9a58ee0ce1b4ff8d6d1fc0",
+      "expected": "4b30e2643d2e367da36d081d746b26ec6e6c0cf76c9a58ee0ce1b4ff8d6d1fc0"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/acquired/GSE177044_raw_counts2.csv.gz",
+      "passed": true,
+      "observed": 6560256,
+      "expected": 6560256
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/acquired/GSE177044_raw_read_counts.csv.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/acquired/GSE177044_raw_read_counts.csv.gz",
+      "passed": true,
+      "observed": "28dcd8494b9d70d64684aed0d237bceeb55cb70faba1933d284c261018522f5e",
+      "expected": "28dcd8494b9d70d64684aed0d237bceeb55cb70faba1933d284c261018522f5e"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/acquired/GSE177044_raw_read_counts.csv.gz",
+      "passed": true,
+      "observed": 12612558,
+      "expected": 12612558
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "passed": true,
+      "observed": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45",
+      "expected": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/acquired/GPL10558.annot.gz",
+      "passed": true,
+      "observed": 7290886,
+      "expected": 7290886
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "passed": true,
+      "observed": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c",
+      "expected": "bef0f89eab904937ba63e1cfe89ee33e4478e57d91b18f3d897950e45b62176c"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/acquired/GSE119600_series_matrix.txt.gz",
+      "passed": true,
+      "observed": 69056692,
+      "expected": 69056692
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/GSE177044-series.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/GSE177044-series.txt",
+      "passed": true,
+      "observed": "d7d31e912ab785d60049306e6090bda7546f61c84711718f537fcf289ab78aad",
+      "expected": "d7d31e912ab785d60049306e6090bda7546f61c84711718f537fcf289ab78aad"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/GSE177044-series.txt",
+      "passed": true,
+      "observed": 37759,
+      "expected": 37759
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/GSE119600-series.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/GSE119600-series.txt",
+      "passed": true,
+      "observed": "de5979538cc6198c9ea015bd99d58aba497e12d65e5313718aa595230c040398",
+      "expected": "de5979538cc6198c9ea015bd99d58aba497e12d65e5313718aa595230c040398"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/GSE119600-series.txt",
+      "passed": true,
+      "observed": 14233,
+      "expected": 14233
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "passed": true,
+      "observed": "b73b6b8c31ce07c813e0b643971b077be8292dd06cd8736d0a71d3668b9a714e",
+      "expected": "b73b6b8c31ce07c813e0b643971b077be8292dd06cd8736d0a71d3668b9a714e"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/GSE119600-samples-quick.txt",
+      "passed": true,
+      "observed": 1021400,
+      "expected": 1021400
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "passed": true,
+      "observed": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777",
+      "expected": "d3e80796c588725be656251c0d600becc3a0f214230722a9d94e544b4e5ed777"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/GSE177044-samples-quick.txt",
+      "passed": true,
+      "observed": 3237310,
+      "expected": 3237310
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/PMC10832281.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/PMC10832281.xml",
+      "passed": true,
+      "observed": "36c06440a730c0a9b8669b63367a87e5332fc4eab24690a32d04fd59c97b19c9",
+      "expected": "36c06440a730c0a9b8669b63367a87e5332fc4eab24690a32d04fd59c97b19c9"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/PMC10832281.xml",
+      "passed": true,
+      "observed": 135437,
+      "expected": 135437
+    },
+    {
+      "check": "source_exists:data/raw/public-data-discovery-options/PMC6510750.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:data/raw/public-data-discovery-options/PMC6510750.xml",
+      "passed": true,
+      "observed": "7813f3bcb267c5f25cf915f7c15c26ac9b98cb550b9ab3aef1dc683b9948d89b",
+      "expected": "7813f3bcb267c5f25cf915f7c15c26ac9b98cb550b9ab3aef1dc683b9948d89b"
+    },
+    {
+      "check": "source_size:data/raw/public-data-discovery-options/PMC6510750.xml",
+      "passed": true,
+      "observed": 142993,
+      "expected": 142993
+    },
+    {
+      "check": "source_exists:scripts/analyze_psc_blood_rnaseq.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_sha256:scripts/analyze_psc_blood_rnaseq.py",
+      "passed": true,
+      "observed": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979",
+      "expected": "e6123e70526c709979358f6c9e7017253a69ea5e1d19b6286f16496a125fb979"
+    },
+    {
+      "check": "complete_crosswalk_sha256",
+      "passed": true,
+      "observed": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab",
+      "expected": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab"
+    },
+    {
+      "check": "array_all_source_sample_records",
+      "passed": true,
+      "observed": 370,
+      "expected": 370
+    },
+    {
+      "check": "RNA_all_source_sample_records",
+      "passed": true,
+      "observed": 1035,
+      "expected": 1035
+    },
+    {
+      "check": "RNA_unique_metadata_titles",
+      "passed": true,
+      "observed": 1035,
+      "expected": 1035
+    },
+    {
+      "check": "RNA_header_identifier_columns:GSE177044_raw_countsPSC.csv.gz",
+      "passed": true,
+      "observed": [
+        "Geneid",
+        "gene_name"
+      ],
+      "expected": [
+        "Geneid",
+        "gene_name"
+      ]
+    },
+    {
+      "check": "RNA_header_unique_samples:GSE177044_raw_countsPSC.csv.gz",
+      "passed": true,
+      "observed": 297,
+      "expected": 297
+    },
+    {
+      "check": "RNA_header_identifier_columns:GSE177044_raw_counts2.csv.gz",
+      "passed": true,
+      "observed": [
+        "Geneid",
+        "gene_name"
+      ],
+      "expected": [
+        "Geneid",
+        "gene_name"
+      ]
+    },
+    {
+      "check": "RNA_header_unique_samples:GSE177044_raw_counts2.csv.gz",
+      "passed": true,
+      "observed": 246,
+      "expected": 246
+    },
+    {
+      "check": "RNA_header_identifier_columns:GSE177044_raw_read_counts.csv.gz",
+      "passed": true,
+      "observed": [
+        "Geneid",
+        "gene_name"
+      ],
+      "expected": [
+        "Geneid",
+        "gene_name"
+      ]
+    },
+    {
+      "check": "RNA_header_unique_samples:GSE177044_raw_read_counts.csv.gz",
+      "passed": true,
+      "observed": 492,
+      "expected": 492
+    },
+    {
+      "check": "RNA_all_header_samples_unique",
+      "passed": true,
+      "observed": 1035,
+      "expected": 1035
+    },
+    {
+      "check": "RNA_all_headers_exact_metadata_join",
+      "passed": true,
+      "observed": {
+        "items": 1035,
+        "sha256": "1be4a75601d47a5dee6c1ee67e185209261983bb88d3dc2eb445f0c3141a5d29"
+      },
+      "expected": {
+        "items": 1035,
+        "sha256": "1be4a75601d47a5dee6c1ee67e185209261983bb88d3dc2eb445f0c3141a5d29"
+      }
+    },
+    {
+      "check": "RNA_Norway_count",
+      "passed": true,
+      "observed": 297,
+      "expected": 297
+    },
+    {
+      "check": "RNA_Norway_plates",
+      "passed": true,
+      "observed": [
+        "PS449",
+        "PS450",
+        "PS451",
+        "PS452",
+        "PS453"
+      ],
+      "expected": [
+        "PS449",
+        "PS450",
+        "PS451",
+        "PS452",
+        "PS453"
+      ]
+    },
+    {
+      "check": "RNA_Norway_diagnosis_counts",
+      "passed": true,
+      "observed": {
+        "PSCUC": 177,
+        "Control": 77,
+        "PSC": 43
+      },
+      "expected": {
+        "PSCUC": 177,
+        "Control": 77,
+        "PSC": 43
+      }
+    },
+    {
+      "check": "RNA_plate_selection_matches_primary_header",
+      "passed": true,
+      "observed": {
+        "items": 297,
+        "sha256": "56401d5a78ae45dc07dc2d005c887a8e338cb35fbd335d8d6fd1d5c6295a18d4"
+      },
+      "expected": {
+        "items": 297,
+        "sha256": "56401d5a78ae45dc07dc2d005c887a8e338cb35fbd335d8d6fd1d5c6295a18d4"
+      }
+    },
+    {
+      "check": "RNA_design_rank",
+      "passed": true,
+      "observed": 8,
+      "expected": 8
+    },
+    {
+      "check": "array_header_unique_GSMs",
+      "passed": true,
+      "observed": 370,
+      "expected": 370
+    },
+    {
+      "check": "array_complete_header_to_metadata_join",
+      "passed": true,
+      "observed": {
+        "items": 370,
+        "sha256": "ccc4c7ab496b47ce69d5f00a4e5fecf76dc499c1798067e6f78be25222a6db0f"
+      },
+      "expected": {
+        "items": 370,
+        "sha256": "ccc4c7ab496b47ce69d5f00a4e5fecf76dc499c1798067e6f78be25222a6db0f"
+      }
+    },
+    {
+      "check": "array_adult_counts",
+      "passed": true,
+      "observed": {
+        "PBC": 90,
+        "PSC": 45,
+        "Control": 47,
+        "CD": 48,
+        "UC": 45
+      },
+      "expected": {
+        "PSC": 45,
+        "Control": 47,
+        "UC": 45,
+        "PBC": 90,
+        "CD": 48
+      }
+    },
+    {
+      "check": "array_child_count",
+      "passed": true,
+      "observed": 95,
+      "expected": 95
+    },
+    {
+      "check": "array_series_metadata_GSM_order",
+      "passed": true,
+      "observed": {
+        "items": 370,
+        "sha256": "ccc4c7ab496b47ce69d5f00a4e5fecf76dc499c1798067e6f78be25222a6db0f"
+      },
+      "expected": {
+        "items": 370,
+        "sha256": "ccc4c7ab496b47ce69d5f00a4e5fecf76dc499c1798067e6f78be25222a6db0f"
+      }
+    },
+    {
+      "check": "array_series_age group_row_count",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "array_series_age group_exact_join",
+      "passed": true,
+      "observed": {
+        "items": 370,
+        "sha256": "9f8393501a1a4d2ddceafff4ac396ce2093763b3d38e393143817b641d431873"
+      },
+      "expected": {
+        "items": 370,
+        "sha256": "9f8393501a1a4d2ddceafff4ac396ce2093763b3d38e393143817b641d431873"
+      }
+    },
+    {
+      "check": "array_series_condition_row_count",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "array_series_condition_exact_join",
+      "passed": true,
+      "observed": {
+        "items": 370,
+        "sha256": "57f7b2ff62b8795d5ae65be6566479d9fcc5c2ec6f3eda9872813e48d5eeb8b9"
+      },
+      "expected": {
+        "items": 370,
+        "sha256": "57f7b2ff62b8795d5ae65be6566479d9fcc5c2ec6f3eda9872813e48d5eeb8b9"
+      }
+    },
+    {
+      "check": "array_platform_rows",
+      "passed": true,
+      "observed": 48107,
+      "expected": 48107
+    },
+    {
+      "check": "crosswalk_full_relationship_rows",
+      "passed": true,
+      "observed": 91748,
+      "expected": 91748
+    },
+    {
+      "check": "crosswalk_full_ensembl_universe",
+      "passed": true,
+      "observed": 86411,
+      "expected": 86411
+    },
+    {
+      "check": "crosswalk_invalid_ensembl_ids",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "crosswalk_invalid_nonblank_entrez_ids",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "check": "array_all_gene_medians_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_effect_contrast_set",
+      "passed": true,
+      "observed": [
+        "PSC_vs_CD",
+        "PSC_vs_Control",
+        "PSC_vs_PBC",
+        "PSC_vs_UC"
+      ],
+      "expected": [
+        "PSC_vs_CD",
+        "PSC_vs_Control",
+        "PSC_vs_PBC",
+        "PSC_vs_UC"
+      ]
+    },
+    {
+      "check": "array_effect_total_rows",
+      "passed": true,
+      "observed": 82996,
+      "expected": 82996
+    },
+    {
+      "check": "array_full_gene_universe",
+      "passed": true,
+      "observed": {
+        "items": 20749,
+        "sha256": "3236fefa6a87f7547f5dbc9fe9793e18a78231dff6d245d34ee5f343bb819803"
+      },
+      "expected": {
+        "items": 20749,
+        "sha256": "3236fefa6a87f7547f5dbc9fe9793e18a78231dff6d245d34ee5f343bb819803"
+      }
+    },
+    {
+      "check": "array_unique_ids:PSC_vs_Control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_family_exact:PSC_vs_Control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_effect:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_SE:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_t:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.7763568394002505e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_df:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.105427357601002e-14,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_P:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_BH_full_family:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.5543122344752192e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_low:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_high:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.3306690738754696e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_se:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_z:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_p:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_bh_q:PSC_vs_Control",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.3306690738754696e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_unique_ids:PSC_vs_UC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_family_exact:PSC_vs_UC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_effect:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_SE:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_t:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.7763568394002505e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_df:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.105427357601002e-14,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_P:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 9.43689570931383e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_BH_full_family:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.3322676295501878e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_low:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_high:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_se:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_z:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_p:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_bh_q:PSC_vs_UC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.3306690738754696e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_unique_ids:PSC_vs_PBC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_family_exact:PSC_vs_PBC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_effect:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_SE:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_t:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.7763568394002505e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_df:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 9.947598300641403e-14,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_P:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 6.661338147750939e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_BH_full_family:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.4432899320127035e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_low:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.6653345369377348e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_high:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_se:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_z:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_p:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_bh_q:PSC_vs_PBC",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 4.440892098500626e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_unique_ids:PSC_vs_CD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_family_exact:PSC_vs_CD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "array_effect:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_SE:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_t:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.7763568394002505e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_df:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.526512829121202e-14,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_P:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.326672684688674e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_BH_full_family:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.2212453270876722e-15,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_low:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_Welch_CI_high:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_se:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_z:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_p:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_hc3_bh_q:PSC_vs_CD",
+      "passed": true,
+      "values": 20749,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.3306690738754696e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "array_complete_annotation_matrix_union",
+      "passed": true,
+      "observed": {
+        "items": 48107,
+        "sha256": "d71b147f4fe21c670d5287f2fe579194b878b7f99b9fe23f5666737a7fdcc053"
+      },
+      "expected": {
+        "items": 48107,
+        "sha256": "d71b147f4fe21c670d5287f2fe579194b878b7f99b9fe23f5666737a7fdcc053"
+      }
+    },
+    {
+      "check": "RNA_full_source_gene_rows",
+      "passed": true,
+      "observed": 63677,
+      "expected": 63677
+    },
+    {
+      "check": "RNA_unique_source_gene_ids",
+      "passed": true,
+      "observed": 63677,
+      "expected": 63677
+    },
+    {
+      "check": "RNA_count_column_order",
+      "passed": true,
+      "observed": {
+        "items": 297,
+        "sha256": "2c4972851cf9da619f815f2b9991395eb6b6a70207de48ae0a21338d953ce2b2"
+      },
+      "expected": {
+        "items": 297,
+        "sha256": "2c4972851cf9da619f815f2b9991395eb6b6a70207de48ae0a21338d953ce2b2"
+      }
+    },
+    {
+      "check": "RNA_source_finite_nonnegative_integer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_full_unfiltered_library_totals_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_version_removal_no_collisions",
+      "passed": true,
+      "observed": 63677,
+      "expected": 63677
+    },
+    {
+      "check": "RNA_output_unique_source_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_full_output_gene_family",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_reported_versionless_ids",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "b17e4e2b19f1ec529043ebd0b8feb1a43f4d73eeaf7135f8db2c4754620b2362"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "b17e4e2b19f1ec529043ebd0b8feb1a43f4d73eeaf7135f8db2c4754620b2362"
+      }
+    },
+    {
+      "check": "RNA_count_eligibility_all_genes",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "e24abda95887d007d75f229ac90adc9cafc9acf2f6058f37653edf6673d79d26"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "e24abda95887d007d75f229ac90adc9cafc9acf2f6058f37653edf6673d79d26"
+      }
+    },
+    {
+      "check": "RNA_source_gene_names_preserved",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "bb68fec3f45d1d6be5ff553c863a108ae917dcf164a81fe18253facaab8a1b40"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "bb68fec3f45d1d6be5ff553c863a108ae917dcf164a81fe18253facaab8a1b40"
+      }
+    },
+    {
+      "check": "RNA_normalization_sample_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_reported_design_column_names",
+      "passed": true,
+      "observed": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS450",
+        "plate_PS451",
+        "plate_PS452",
+        "plate_PS453"
+      ],
+      "expected": [
+        "Intercept",
+        "disease_PSC",
+        "age_centered",
+        "sex_male",
+        "plate_PS450",
+        "plate_PS451",
+        "plate_PS452",
+        "plate_PS453"
+      ]
+    },
+    {
+      "check": "RNA_reported_design_sample_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_complete_design_matrix",
+      "passed": true,
+      "values": 2376,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.552713678800501e-15,
+      "rtol": 0,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_unfiltered_full_library_sums",
+      "passed": true,
+      "values": 297,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 0,
+      "atol": 0
+    },
+    {
+      "check": "RNA_count_eligible_library_sums",
+      "passed": true,
+      "values": 297,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 0,
+      "atol": 0
+    },
+    {
+      "check": "RNA_Cook_filter_sample_eligibility",
+      "passed": true,
+      "observed": {
+        "items": 297,
+        "sha256": "feec2741ae53f9a5a3f74d1864991b567cb791b33579f724aacce4eb51b0df79"
+      },
+      "expected": {
+        "items": 297,
+        "sha256": "feec2741ae53f9a5a3f74d1864991b567cb791b33579f724aacce4eb51b0df79"
+      }
+    },
+    {
+      "check": "RNA_ratio_has_all_positive_eligible_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_ratio_size_factors_all_samples",
+      "passed": true,
+      "values": 297,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-15,
+      "rtol": 1e-10,
+      "atol": 1e-11
+    },
+    {
+      "check": "RNA_baseMean_all_eligible_genes",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.9103830456733704e-11,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    },
+    {
+      "check": "RNA_all_NB_Wald_stat_from_effect_SE",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.509903313490213e-14,
+      "rtol": 1e-08,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_all_available_NB_P_from_Wald_z",
+      "passed": true,
+      "values": 15041,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.3314683517128287e-15,
+      "rtol": 1e-08,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_primary_BH_full_eligible_family",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1618310480354666e-15,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_Cook_filtered_P_remains_missing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_Cook_filtered_status_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_available_Wald_has_tested_status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_unavailable_Wald_status_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_ineligible_P_not_imputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_ineligible_status_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_Cook_mask_implies_filtered_sample_distance_above_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_Cook_max_subset_le_all_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:effect_log2_cpm",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.716050021144838e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_effect_log2_cpm",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 6.50868248186498e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_effect_log2_cpm",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 5.398459457239824e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:hc3_se",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.8449465006019636e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_hc3_se",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.0935696792557792e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_hc3_se",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.094746681142624e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:normal_z",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.8399504969911504e-13,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_normal_z",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.574918139293004e-13,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_normal_z",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.4225066397320916e-13,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:pvalue",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1468603844377867e-13,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_pvalue",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.0669243266647754e-13,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_pvalue",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 6.827871601444713e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:ci95_lower",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1046719095020308e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_ci95_lower",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.734723475976807e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_ci95_lower",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1129985821867194e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_HC3_subset:ci95_upper",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.2177758801357186e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_psc_alone_ci95_upper",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.5424107263916085e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_subgroup_subset:ols_pscuc_ci95_upper",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.091488011084607e-14,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_ols_BH_full_eligible_family",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.616520261710669e-16,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_ols_psc_alone_BH_full_eligible_family",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.0985817250629424e-15,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_ols_pscuc_BH_full_eligible_family",
+      "passed": true,
+      "values": 15045,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 9.861902960928148e-16,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "RNA_statsmodels_leave_one_plate_subset:PS449",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.744332538995309e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_leave_one_plate_subset:PS450",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.6237011735142914e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_leave_one_plate_subset:PS451",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 5.1209037010835345e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_leave_one_plate_subset:PS452",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.5265566588595902e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "RNA_statsmodels_leave_one_plate_subset:PS453",
+      "passed": true,
+      "values": 27,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.2890357104520263e-15,
+      "rtol": 1e-07,
+      "atol": 1e-09
+    },
+    {
+      "check": "joint_unique_Ensembl_gene_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "joint_complete_eligible_shared_family",
+      "passed": true,
+      "observed": {
+        "items": 11074,
+        "sha256": "8afec79c948a4b76bd02b1ab130537a88aa9c12a2f9485082f8df2a5932cbe6b"
+      },
+      "expected": {
+        "items": 11074,
+        "sha256": "8afec79c948a4b76bd02b1ab130537a88aa9c12a2f9485082f8df2a5932cbe6b"
+      }
+    },
+    {
+      "check": "joint_reciprocal_Entrez_identity",
+      "passed": true,
+      "observed": {
+        "items": 11074,
+        "sha256": "df67f66d6c40906a7a16bf2776d096682bcacfc9ceacdb4c34fe729e0efecde7"
+      },
+      "expected": {
+        "items": 11074,
+        "sha256": "df67f66d6c40906a7a16bf2776d096682bcacfc9ceacdb4c34fe729e0efecde7"
+      }
+    },
+    {
+      "check": "joint_RNA_P_preserved",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_RNA_effect_preserved",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.1102230246251565e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_control_P",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_control_effect",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 3.3306690738754696e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_uc_P",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 6.661338147750939e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_uc_effect",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_pbc_P",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.771561172376096e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_pbc_effect",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_cd_P",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.326672684688674e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_array_cd_effect",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 2.220446049250313e-16,
+      "rtol": 1e-09,
+      "atol": 1e-10
+    },
+    {
+      "check": "joint_summary_shared_family",
+      "passed": true,
+      "observed": 11074,
+      "expected": 11074
+    },
+    {
+      "check": "joint_replication_maxP_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 8.881784197001252e-16,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_replication_missingness_sign_status",
+      "passed": true,
+      "observed": {
+        "items": 11074,
+        "sha256": "a3f8d2cef2cc806329c274eca69be2616589d02502e8aedd4c4ab375fb2b4d10"
+      },
+      "expected": {
+        "items": 11074,
+        "sha256": "a3f8d2cef2cc806329c274eca69be2616589d02502e8aedd4c4ab375fb2b4d10"
+      }
+    },
+    {
+      "check": "joint_replication_bh_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.9685642005384807e-14,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_replication_by_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 1.946776073680212e-13,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_summary_counts:replication",
+      "passed": true,
+      "observed": {
+        "q_bh_le_0_05": 93,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 84,
+        "passing_down_in_psc": 9,
+        "status_counts": {
+          "concordant": 6085,
+          "discordant_or_zero_direction": 4986,
+          "unavailable_constituent": 3
+        }
+      },
+      "expected": {
+        "q_bh_le_0_05": 93,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 84,
+        "passing_down_in_psc": 9,
+        "status_counts": {
+          "discordant_or_zero_direction": 4986,
+          "concordant": 6085,
+          "unavailable_constituent": 3
+        }
+      }
+    },
+    {
+      "check": "joint_uc_support_maxP_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.771561172376096e-16,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_uc_support_missingness_sign_status",
+      "passed": true,
+      "observed": {
+        "items": 11074,
+        "sha256": "0aaa9985a8defab56950893c4633c638c610ad797010e8ed3556182c3eb0136f"
+      },
+      "expected": {
+        "items": 11074,
+        "sha256": "0aaa9985a8defab56950893c4633c638c610ad797010e8ed3556182c3eb0136f"
+      }
+    },
+    {
+      "check": "joint_uc_support_bh_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_uc_support_by_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_summary_counts:uc_support",
+      "passed": true,
+      "observed": {
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 7569,
+          "concordant": 3502,
+          "unavailable_constituent": 3
+        }
+      },
+      "expected": {
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 7569,
+          "concordant": 3502,
+          "unavailable_constituent": 3
+        }
+      }
+    },
+    {
+      "check": "joint_all_disease_support_maxP_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 7.771561172376096e-16,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_all_disease_support_missingness_sign_status",
+      "passed": true,
+      "observed": {
+        "items": 11074,
+        "sha256": "02fa06839ca736518e80fb7bb4d33f79f7dc6e59678a1089e9924f44dede502e"
+      },
+      "expected": {
+        "items": 11074,
+        "sha256": "02fa06839ca736518e80fb7bb4d33f79f7dc6e59678a1089e9924f44dede502e"
+      }
+    },
+    {
+      "check": "joint_all_disease_support_bh_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_all_disease_support_by_full_family",
+      "passed": true,
+      "values": 11074,
+      "shape_matches": true,
+      "missingness_matches": true,
+      "max_abs_error": 0.0,
+      "rtol": 1e-09,
+      "atol": 1e-12
+    },
+    {
+      "check": "joint_summary_counts:all_disease_support",
+      "passed": true,
+      "observed": {
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 8943,
+          "concordant": 2128,
+          "unavailable_constituent": 3
+        }
+      },
+      "expected": {
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 8943,
+          "concordant": 2128,
+          "unavailable_constituent": 3
+        }
+      }
+    },
+    {
+      "check": "joint_full_coverage_unique_source_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "joint_full_RNA_coverage_set",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "46ed66262facdc5d02bbec1a41b3eb483e384e4bd6ef2aac2afa204859256fd8"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "46ed66262facdc5d02bbec1a41b3eb483e384e4bd6ef2aac2afa204859256fd8"
+      }
+    },
+    {
+      "check": "joint_missing_annotation_IDs_preserved_separately",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "260d8f520087373276e9a979b09fa7e8b1eec66172cc5b5e44a8da25b8e908c8"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "260d8f520087373276e9a979b09fa7e8b1eec66172cc5b5e44a8da25b8e908c8"
+      }
+    },
+    {
+      "check": "joint_eligibility_all_source_genes",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "05d192cb30af87ae18ece811577ecf3e068463fd1898c185dd1cd5cdd1883da4"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "05d192cb30af87ae18ece811577ecf3e068463fd1898c185dd1cd5cdd1883da4"
+      }
+    },
+    {
+      "check": "joint_complete_family_status",
+      "passed": true,
+      "observed": {
+        "items": 63677,
+        "sha256": "9b2606bc9082fa645e44d24fea6091935c11ab8cddff60a64df8e1b5260a6501"
+      },
+      "expected": {
+        "items": 63677,
+        "sha256": "9b2606bc9082fa645e44d24fea6091935c11ab8cddff60a64df8e1b5260a6501"
+      }
+    }
+  ],
+  "execution_freeze": {
+    "path": "config/psc-blood-execution-freeze.json",
+    "sha256": "62ce2b14fe425ea33531de0a938395542edc7de0e9b660ecaa9274dabb47a236"
+  },
+  "source_design_verification": {
+    "rna_headers": [
+      {
+        "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_countsPSC.csv.gz",
+        "samples": 297,
+        "header_sha256": "5e1a5771e6a3ed1de4db1a9eb14c3bf3508df9f89062f7029c0b374ed4f1a662"
+      },
+      {
+        "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_counts2.csv.gz",
+        "samples": 246,
+        "header_sha256": "a2d8b78b63d91e5a637afff42565628b39bff8d7bf725c2e4a432cc845dbb0f3"
+      },
+      {
+        "path": "data/raw/public-data-discovery-options/acquired/GSE177044_raw_read_counts.csv.gz",
+        "samples": 492,
+        "header_sha256": "515db19ebfe12ceed02fb31dd973ae3f10069f83b793b20592d8fb984335fb6a"
+      }
+    ],
+    "rna_design_columns": [
+      "Intercept",
+      "disease_PSC",
+      "age_centered",
+      "sex_male",
+      "plate_PS450",
+      "plate_PS451",
+      "plate_PS452",
+      "plate_PS453"
+    ],
+    "rna_design_sha256": "d9db037b11a413ead58271777825dc6ffed7cde551a0d84dcad23862a5960247",
+    "rna_sample_ids_sha256": "b8779f76538b3582877a48e3d4917ed61a1c9742156457cb15fd6dee01295ff9",
+    "array_GSM_header_sha256": "21072f6710f66e73ab117384eb64d60a3442c6e291b7c887d00a0a68edcb0122",
+    "array_adult_GSM_order_sha256": "d48c7983674df73609802ec238f77f68374df3d6f451b88e53b08133f4ade3ef",
+    "cooks_filter_eligible_sample_count": 34,
+    "cooks_filter_threshold_F99": 2.5732117935997865,
+    "crosswalk": {
+      "rows": 91748,
+      "ensembl_ids": 86411,
+      "reciprocal_pairs": 25210
+    }
+  },
+  "array_verification": {
+    "all_genes": 20749,
+    "all_contrasts": 4,
+    "scipy_Welch_comparisons": 82996,
+    "eligible_probes": 31252,
+    "probe_order_sha256": "59710cb8eafb0e06f7e41692c422e54199ecca6973bae0eeda8f907be10678d4",
+    "gene_order_sha256": "196aa7fd5b7cc13fbeb7bf2ff71a265390faa9e0b501c2e9228e180363752bb7",
+    "adult_gene_matrix_sha256": "4275dce8cdf250959ec688b7e900f5ddae16c0fbdd573f2b68aa32835c6727a2"
+  },
+  "rna_verification": {
+    "source_genes": 63677,
+    "eligible_genes": 15045,
+    "ratio_all_positive_genes": 7955,
+    "deterministic_genes": 20,
+    "benchmark_source_rows": 7,
+    "model_refit_subset_genes": 27,
+    "subset": [
+      {
+        "source_gene_id": "ENSG00000105287",
+        "source_gene_name": "PRKD2",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000110395",
+        "source_gene_name": "CBL",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000119673",
+        "source_gene_name": "ACOT2",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000122435",
+        "source_gene_name": "TRMT13",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000123689",
+        "source_gene_name": "G0S2",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000128040",
+        "source_gene_name": "SPINK2",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000132842",
+        "source_gene_name": "AP3B1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000143156",
+        "source_gene_name": "NME7",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000144136",
+        "source_gene_name": "SLC20A1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000153094",
+        "source_gene_name": "BCL2L11",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000157557",
+        "source_gene_name": "ETS2",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000160185",
+        "source_gene_name": "UBASH3A",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000165795",
+        "source_gene_name": "NDRG2",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000169288",
+        "source_gene_name": "MRPL1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000170525",
+        "source_gene_name": "PFKFB3",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000170631",
+        "source_gene_name": "ZNF16",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000179222",
+        "source_gene_name": "MAGED1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000185745",
+        "source_gene_name": "IFIT1",
+        "eligible": true,
+        "reason": "prespecified_benchmark"
+      },
+      {
+        "source_gene_id": "ENSG00000196227",
+        "source_gene_name": "FAM217B",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000197070",
+        "source_gene_name": "ARRDC1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000198060",
+        "source_gene_name": "MARCH5",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000210049",
+        "source_gene_name": "MT-TF",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000237037",
+        "source_gene_name": "NDUFA6-AS1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000250568",
+        "source_gene_name": "RP11-333E13.2",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000251661",
+        "source_gene_name": "RP11-326C3.11",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000252220",
+        "source_gene_name": "RNU6-977P",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      },
+      {
+        "source_gene_id": "ENSG00000270755",
+        "source_gene_name": "RP11-138E2.1",
+        "eligible": true,
+        "reason": "deterministic_SHA256_first20"
+      }
+    ],
+    "NB_refit_performed": false,
+    "NB_available_P_checks": 15041,
+    "cooks_filtered_genes": 4,
+    "unavailable_Wald_genes": 4,
+    "cooks_filter_eligible_samples": 34,
+    "convergence_and_warnings": {
+      "genewise_converged": {
+        "source_value_counts": {
+          "true": 15029,
+          "false": 16
+        },
+        "false_with_finite_P": 16,
+        "false_with_primary_BH_le_0_05": 10
+      },
+      "MAP_converged": {
+        "source_value_counts": {
+          "true": 15036,
+          "false": 9
+        },
+        "false_with_finite_P": 9,
+        "false_with_primary_BH_le_0_05": 5
+      },
+      "LFC_converged": {
+        "source_value_counts": {
+          "true": 15038,
+          "false": 7
+        },
+        "false_with_finite_P": 3,
+        "false_with_primary_BH_le_0_05": 0
+      },
+      "any_false_flag_with_finite_P": 28,
+      "any_false_flag_genes": 32,
+      "interpretation": "Finite Wald arithmetic is not evidence of fit convergence. Source convergence flags are retained; no gene excluded post-effect by verifier.",
+      "genewise_dispersions": {
+        "nonfinite": 0,
+        "nonpositive_finite": 0
+      },
+      "fitted_dispersions": {
+        "nonfinite": 0,
+        "nonpositive_finite": 0
+      },
+      "dispersions": {
+        "nonfinite": 0,
+        "nonpositive_finite": 0
+      },
+      "runtime_logs": {
+        "work/research-path/rnaseq-run.log": {
+          "sha256": "f608958847b672ea981a272901f29759ba0f1904e7dcc394f8ae39480b188f25",
+          "warning_lines": [
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:378: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:230: RuntimeWarning: invalid value encountered in subtract",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:382: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: invalid value encountered in divide",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:232: RuntimeWarning: invalid value encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:378: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:232: RuntimeWarning: invalid value encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:230: RuntimeWarning: invalid value encountered in subtract",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:382: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: overflow encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: invalid value encountered in divide",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:378: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:232: RuntimeWarning: invalid value encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:230: RuntimeWarning: invalid value encountered in subtract",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:382: RuntimeWarning: overflow encountered in exp",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: overflow encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: invalid value encountered in divide",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: overflow encountered in multiply",
+            "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/pydeseq2/utils.py:385: RuntimeWarning: invalid value encountered in matmul"
+          ]
+        },
+        "work/psc-blood-rnaseq/pydeseq2-fit.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "warning_lines": []
+        }
+      },
+      "flagged_source_genes": [
+        {
+          "source_gene_id": "ENSG00000078369",
+          "source_gene_name": "GNB1",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000116685",
+          "source_gene_name": "KIAA2013",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000077549",
+          "source_gene_name": "CAPZB",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000159658",
+          "source_gene_name": "EFCAB14",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000198160",
+          "source_gene_name": "MIER1",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000054267",
+          "source_gene_name": "ARID4B",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000065675",
+          "source_gene_name": "PRKCQ",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000107864",
+          "source_gene_name": "CPEB3",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000107938",
+          "source_gene_name": "EDRF1",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000137497",
+          "source_gene_name": "NUMA1",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000111641",
+          "source_gene_name": "NOP2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000189182",
+          "source_gene_name": "KRT77",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000090382",
+          "source_gene_name": "LYZ",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000134900",
+          "source_gene_name": "TPP2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000140497",
+          "source_gene_name": "SCAMP2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000136381",
+          "source_gene_name": "IREB2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000167984",
+          "source_gene_name": "NLRC3",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000187870",
+          "source_gene_name": "RNFT1P3",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000264198",
+          "source_gene_name": "RP11-94L15.2",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000179218",
+          "source_gene_name": "CALR",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000160888",
+          "source_gene_name": "IER2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000090013",
+          "source_gene_name": "BLVRB",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000142541",
+          "source_gene_name": "RPL13A",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000169967",
+          "source_gene_name": "MAP3K2",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000230803",
+          "source_gene_name": "AC097532.2",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000150551",
+          "source_gene_name": "LYPD1",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000089006",
+          "source_gene_name": "SNX5",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000128228",
+          "source_gene_name": "SDF2L1",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000179750",
+          "source_gene_name": "APOBEC3B",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000163931",
+          "source_gene_name": "TKT",
+          "false_flags": [
+            "genewise_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000109452",
+          "source_gene_name": "INPP4B",
+          "false_flags": [
+            "MAP_converged"
+          ]
+        },
+        {
+          "source_gene_id": "ENSG00000170561",
+          "source_gene_name": "IRX2",
+          "false_flags": [
+            "LFC_converged"
+          ]
+        }
+      ]
+    },
+    "source_counts_replaced": false,
+    "full_source_gene_id_sha256": "9784e9199c9f7177e3cbfb03868fd4c9afe0b966b22d577091fa51ac049e628c"
+  },
+  "conjunction_verification": {
+    "complete_shared_family": 11074,
+    "complete_RNA_coverage_rows": 63677,
+    "gene_family_sha256": "02c48d0c2134d3de65845ada9e943de08e0c1f0877eb7d5f5ae03aa407da2ef7",
+    "coverage_status_counts": {
+      "rna_low_count": 48632,
+      "no_unambiguous_cross_platform_identity": 3390,
+      "not_measured_on_array": 581,
+      "eligible_shared_family": 11074
+    },
+    "families": {
+      "replication": {
+        "family_size": 11074,
+        "q_bh_le_0_05": 93,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 84,
+        "passing_down_in_psc": 9,
+        "status_counts": {
+          "discordant_or_zero_direction": 4986,
+          "concordant": 6085,
+          "unavailable_constituent": 3
+        },
+        "corrections_checked": [
+          "statsmodels fdr_bh",
+          "statsmodels fdr_by"
+        ],
+        "BH_passing_with_any_RNA_convergence_flag_false": 2,
+        "BH_passing_flagged_gene_details": [
+          {
+            "ensembl_gene_id": "ENSG00000054267",
+            "source_gene_name": "ARID4B",
+            "false_convergence_flags": "MAP_converged",
+            "independent_conjunction_BH_q": 0.020798789515897004
+          },
+          {
+            "ensembl_gene_id": "ENSG00000163931",
+            "source_gene_name": "TKT",
+            "false_convergence_flags": "genewise_converged",
+            "independent_conjunction_BH_q": 0.015879991682476644
+          }
+        ]
+      },
+      "uc_support": {
+        "family_size": 11074,
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 7569,
+          "concordant": 3502,
+          "unavailable_constituent": 3
+        },
+        "corrections_checked": [
+          "statsmodels fdr_bh",
+          "statsmodels fdr_by"
+        ],
+        "BH_passing_with_any_RNA_convergence_flag_false": 0,
+        "BH_passing_flagged_gene_details": []
+      },
+      "all_disease_support": {
+        "family_size": 11074,
+        "q_bh_le_0_05": 0,
+        "q_by_le_0_05": 0,
+        "passing_up_in_psc": 0,
+        "passing_down_in_psc": 0,
+        "status_counts": {
+          "discordant_or_zero_direction": 8943,
+          "concordant": 2128,
+          "unavailable_constituent": 3
+        },
+        "corrections_checked": [
+          "statsmodels fdr_bh",
+          "statsmodels fdr_by"
+        ],
+        "BH_passing_with_any_RNA_convergence_flag_false": 0,
+        "BH_passing_flagged_gene_details": []
+      }
+    },
+    "NB_component_not_refit": true
+  },
+  "verified_output_sha256": {
+    "data/derived/psc-blood-array/array-analysis-audit.json": "d7a16fb704e36ed325da8bc63f2d8a38e108200226d0127b616040239dc12ca3",
+    "data/derived/psc-blood-array/array-contrast-summary.json": "57ffa642e192a75617d229e27c92cb45ce8eea59d3c1d847718778895d0e951c",
+    "data/derived/psc-blood-array/array-feature-join.csv.gz": "b51bfbd0e2ac6aacb51b3ade569b2c772089d0e4bf9db4d4a0e5cc3d7a8e7ebc",
+    "data/derived/psc-blood-array/array-gene-effects.csv.gz": "9fb75d4769d46a5b4d881f7b732973b1703f890f9a4e1b55d399e0dedf2d8434",
+    "data/derived/psc-blood-array/array-gene-universe.csv.gz": "dad9096adb8da3d456e306815f779f36234c47ea679ce806eb5f9825fca7744e",
+    "data/derived/psc-blood-rnaseq/rnaseq-feature-universe.csv": "9e1e0f3c562b756f296eabe7d37fd7a6be08ab0600dd2366a0aa0e0eb364130a",
+    "data/derived/psc-blood-rnaseq/rnaseq-leave-one-plate-out.csv": "def2b3a4afa621616be67be5d757fa0c18ccbade87b9e521e3480583910d083d",
+    "data/derived/psc-blood-rnaseq/rnaseq-output-manifest.json": "fceb473f7ed889c0c50c694f2ab8d88331127a027acfe876eddc9af6ce13fa0c",
+    "data/derived/psc-blood-rnaseq/rnaseq-primary.csv": "561dcb05089c9380897240668fa7656609152f5311fbe667af03971be081d1f5",
+    "data/derived/psc-blood-rnaseq/rnaseq-qc.json": "2f953a2d6da893d192cb490d8273bdcafae4abfe57646e7ea081b1ab8546f83f",
+    "data/derived/psc-blood-replication/bh-candidates-with-diagnostics.csv.gz": "fc483a5ccbe1630a697beb27a1696e9c86ff19a7d0513c2dbc8c1c40e09790c5",
+    "data/derived/psc-blood-replication/cross-cohort-gene-results.csv.gz": "421de2426e14e4a2636e8d0047c184d59eebf70ce2e96f6732631869fa2e7fc1",
+    "data/derived/psc-blood-replication/cross-platform-coverage.csv.gz": "01f42b9c49140894dba28d497bc2bc5490de09b9255f70a7bee329fe0a265c05",
+    "data/derived/psc-blood-replication/diagnostics.json": "c93b80f663662163cc25cc85294afaf893b59f6fe35fe19521e0466a10f96631",
+    "data/derived/psc-blood-replication/prespecified-benchmarks.csv.gz": "50d0e257cdb88a17fcb00328c995ba157129d993999e4894b71f1599503ecd2f",
+    "data/derived/psc-blood-replication/summary.json": "63e3a55f18f3364b5a1e2222fb5e9d0f7f5d93f66da228497d3c2f5e21f99c08"
+  },
+  "checks_total": 236,
+  "checks_failed": 0,
+  "completed_at_utc": "2026-09-15T23:05:08.184379+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "selected_at_utc": "2026-09-15T22:37:25.627856+00:00",
+  "question": "Cross-cohort reproducibility of PSC whole-blood associations, with secondary disease-control contrasts",
+  "primary_sources": [
+    "GSE177044 Norwegian PSC case-control stratum",
+    "GSE119600 deposited source-labeled adult arrays"
+  ],
+  "not_selected": [
+    "new AlphaGenome sweep",
+    "PRKD2 shared-cause fit without missing study inputs",
+    "expanded coverage-limited UBASH3A protein search",
+    "GSE255234 as main PSC-discovery endpoint",
+    "MacroMap as replacement for a disease cohort"
+  ],
+  "reason": "Direct PSC phenotypes; within-plate controls and external study/platform comparison add biological independence. Source narratives and known gene results were seen; no newly calculated gene/group effect yet.",
+  "protocol_sha256": "25a0f30850c2ac2ed4cc4e397f4447c8a42c1f5248cd07693bf98af801565214",
+  "execution_not_yet_frozen": true,
+  "data_in_progress": "Exact source/schema and structural qualification before executable plan.",
+  "limitations": [
+    "whole-blood composition",
+    "Polish age/sex/medication confounding",
+    "independent study families not identity-verified disjoint donors",
+    "prior published external classifier use",
+    "case-control cohorts do not establish causality or clinical utility"
+  ]
+}

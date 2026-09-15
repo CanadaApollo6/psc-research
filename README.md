@@ -4,17 +4,24 @@ Independent computational research into **primary sclerosing cholangitis (PSC)**
 
 Original project code and documentation are licensed under the [MIT License](LICENSE). Imported third-party data, published material, dependencies and model outputs retain their applicable licenses and terms; the MIT license does not relicense them. See [data provenance and source terms](docs/data-sources.md) and the individual source/run manifests.
 
-## Current roadmap — September 15, 2026
+## Current result and next decision — September 15, 2026
 
-**Next compute milestone: one qualified ETS2 program comparison in an independent public macrophage study.** The [current ROADMAP](ROADMAP.md) separates work we can do with public data from missing study inputs and laboratory measurements. The original four computational stages and subsequent PRKD2 audits are complete within their recorded scopes; the next analyses below have not started.
+**Completed: a fixed two-cohort PSC blood reanalysis.** Among 11,074 shared genes, 93 meet the same-direction BH conjunction criterion. None passes the BY sensitivity or either stronger disease-control conjunction. This is a limited observational association result, **not an established PSC-specific signature or biological breakthrough**. None of the seven preselected benchmarks passes the primary criterion.
 
-| Branch | Next useful step | Current dependency |
-|---|---|---|
-| **ETS2 — first compute priority** | Qualify GSE255234 and compare the fixed program with broad inflammation/stress responses. If needed, evaluate public raw-read reprocessing with a documented reference and sample map. | Resolve count/annotation and sample-design requirements before scoring. For the separate, already-normalized GSE84161 arrays, confirm anonymous donor pairing and actual array doses; compound identities are resolved. |
-| **PRKD2 — external data priority** | Perform a qualified conditional/shared-signal comparison once the required inputs arrive. | Actual RNA model/covariate records and suitable study LD/covariance or complete components, plus PSC sample/covariance and coefficient-scale provenance. The [exact missing-input list](data/derived/ibdverse-model-audit/remaining-required-inputs.csv) is ready. |
-| **UBASH3A — bounded follow-up and laboratory question** | Seek direct +29 RNA linkage in additional relevant public CD4 libraries and independent datasets; consider protein searches only where assay coverage is informative. | Complete RNA identity, decay and protein production need suitable measurements. The [laboratory brief](docs/ubash3a-cd4-experiment-brief.md) is prepared; the experiment is unperformed and further protein-structure modeling is deferred. |
+- [Findings, limits and next decision](reports/psc-blood-replication.md)
+- [Protocol](docs/psc-blood-replication-protocol.md), [reproduction guide](docs/psc-blood-reproduction.md), and [complete gene results](data/derived/psc-blood-replication/cross-cohort-gene-results.csv.gz)
+- [Independent numerical verification](reports/psc-blood-independent-verification.json) and [byte-identical clean replay](reports/psc-blood-replay-verification.json)
 
-Existing files or author clarifications could unlock more computation without a new experiment. Demonstrating a cellular mechanism requires appropriate experimental evidence. No researchers have been contacted. The [ROADMAP](ROADMAP.md) contains the prioritized sequence, concrete completion criteria, study-team requests, laboratory needs and links to completed stages. Older roadmaps and protocols below remain the historical record.
+**Next compute priority: test the donor-level disease-by-IL-17A response in PSC cholangiocyte organoids (GSE239283).** Its four PSC and four non-PSC donors—not its 46,343 cells—are the biological units. The [updated roadmap](ROADMAP.md) requires a separate execution freeze before that analysis; it has not been run.
+
+| Branch | Current decision |
+|---|---|
+| **PSC disease data** | Blood analysis complete. Move next to a paired organoid perturbation interaction rather than a blood classifier or candidate-score sweep. |
+| **ETS2 program calibration** | Reserve context arm. [MacroMap qualification](reports/research-path-review.md) is favorable; [GSE255234 qualification](reports/ets2-study-qualification.md) resolves treatment identities but not its historical full-universe CPM gate. Neither has new program effects here. |
+| **PRKD2** | Still requires actual study model/covariance or complete-component inputs for a qualified shared-signal analysis. Blood expression does not repair that dependency. |
+| **UBASH3A** | Earlier coverage-limited RNA/protein evidence and the prepared experimental question remain distinct from a demonstrated complete product. No open-ended search restart. |
+
+The [research assessment](reports/research-state-and-strategy.md) and [public-data comparison](reports/public-data-discovery-options.md) explain the choice. Original genetic/model studies and their frozen results remain below; no researcher contact, service enrollment or paid compute was used for this analysis.
 
 ## First research question
 
