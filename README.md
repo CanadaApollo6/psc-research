@@ -2,6 +2,20 @@
 
 Independent computational research into **primary sclerosing cholangitis (PSC)** using public genetics, gene-expression data, and regulatory-sequence models.
 
+Original project code and documentation are licensed under the [MIT License](LICENSE). Imported third-party data, published material, dependencies and model outputs retain their applicable licenses and terms; the MIT license does not relicense them. See [data provenance and source terms](docs/data-sources.md) and the individual source/run manifests.
+
+## Current roadmap — September 15, 2026
+
+**Next compute milestone: one qualified ETS2 program comparison in an independent public macrophage study.** The [current ROADMAP](ROADMAP.md) separates work we can do with public data from missing study inputs and laboratory measurements. The original four computational stages and subsequent PRKD2 audits are complete within their recorded scopes; the next analyses below have not started.
+
+| Branch | Next useful step | Current dependency |
+|---|---|---|
+| **ETS2 — first compute priority** | Qualify GSE255234 and compare the fixed program with broad inflammation/stress responses. If needed, evaluate public raw-read reprocessing with a documented reference and sample map. | Resolve count/annotation and sample-design requirements before scoring. For the separate, already-normalized GSE84161 arrays, confirm anonymous donor pairing and actual array doses; compound identities are resolved. |
+| **PRKD2 — external data priority** | Perform a qualified conditional/shared-signal comparison once the required inputs arrive. | Actual RNA model/covariate records and suitable study LD/covariance or complete components, plus PSC sample/covariance and coefficient-scale provenance. The [exact missing-input list](data/derived/ibdverse-model-audit/remaining-required-inputs.csv) is ready. |
+| **UBASH3A — bounded follow-up and laboratory question** | Seek direct +29 RNA linkage in additional relevant public CD4 libraries and independent datasets; consider protein searches only where assay coverage is informative. | Complete RNA identity, decay and protein production need suitable measurements. The [laboratory brief](docs/ubash3a-cd4-experiment-brief.md) is prepared; the experiment is unperformed and further protein-structure modeling is deferred. |
+
+Existing files or author clarifications could unlock more computation without a new experiment. Demonstrating a cellular mechanism requires appropriate experimental evidence. No researchers have been contacted. The [ROADMAP](ROADMAP.md) contains the prioritized sequence, concrete completion criteria, study-team requests, laboratory needs and links to completed stages. Older roadmaps and protocols below remain the historical record.
+
 ## First research question
 
 **Can AlphaGenome help connect PSC-associated DNA variants to the genes and cell types they affect?**
