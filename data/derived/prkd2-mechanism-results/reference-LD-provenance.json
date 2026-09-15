@@ -1,0 +1,56 @@
+{
+  "source": {
+    "file": "data/raw/prkd2-expanded-EUR-dosages.tsv.gz",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+    "sha256": "989b9f486520a87a73cee144290942919b5eb8b860df86b4bc77a4c9e667d9ea",
+    "bytes": 1029127,
+    "uncompressed_sha256": "a887f514b86b51976b79178acfc337ae4d72c86745838dd337b7eb8d04d81a64",
+    "all_reference_rows_scanned": 62899,
+    "all_reference_bytes_scanned": 639057578,
+    "all_reference_stream_sha256": "3ca0e04817176e7ecc0143ba8ebc34c3af527f80ddece6c3840f16bfad3f880d",
+    "status_counts": {
+      "retained_biallelic": 62557,
+      "symbolic_or_non_DNA": 44,
+      "multiallelic": 298
+    },
+    "source_index_sha256": "3a347dba71d8571ceadc6cd00d24119a87a04f040f211ae43cbc2cf3a1c748bd",
+    "start_0based": 46210384,
+    "end_exclusive": 48230384,
+    "donors": 503,
+    "source_build": "GRCh37",
+    "sample_bearing_file_excluded_from_Git": true
+  },
+  "calculation": "Pearson correlation of exact GRCh37 ALT allele dosages, pairwise complete donors; square gives r2.",
+  "selected_GRCh37_and_GRCh38_REF_ALT_agree": true,
+  "allele_identity_crosswalk": [
+    {
+      "selected_rsid": "rs112445263",
+      "source_rsid_as_published": ".",
+      "source_chromosome": "19",
+      "position_GRCh37_1based": 47203356,
+      "reference": "C",
+      "alternate": "A",
+      "match_basis": "Exact GRCh37 chromosome, position, REF and ALT; source rsID absent if dot"
+    },
+    {
+      "selected_rsid": "rs62134782",
+      "source_rsid_as_published": ".",
+      "source_chromosome": "19",
+      "position_GRCh37_1based": 47205419,
+      "reference": "C",
+      "alternate": "G",
+      "match_basis": "Exact GRCh37 chromosome, position, REF and ALT; source rsID absent if dot"
+    },
+    {
+      "selected_rsid": "rs313839",
+      "source_rsid_as_published": ".",
+      "source_chromosome": "19",
+      "position_GRCh37_1based": 47221557,
+      "reference": "C",
+      "alternate": "G",
+      "match_basis": "Exact GRCh37 chromosome, position, REF and ALT; source rsID absent if dot"
+    }
+  ],
+  "interpretation": "503 public 1000 Genomes phase 3 EUR donors. Descriptive reference LD, not study LD, phasing evidence or a colocalisation posterior.",
+  "sample_bearing_outputs_written": false
+}

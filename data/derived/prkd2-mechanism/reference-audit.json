@@ -1,0 +1,50 @@
+{
+  "start0": 46192838,
+  "end0": 47241414,
+  "width": 1048576,
+  "sequence_sha256": "41609e193fb26186b491cb47df1d1f151912d49bb748c8601fbfff7ec429394a",
+  "exact_model_ensembl_sequence_match": true,
+  "ensembl_reference_source": {
+    "file": "data/raw/prkd2-GRCh38-region.txt",
+    "sha256": "453966ec69b05dd5e10c499f8e78f14a073da59400a0aecce2567f32de515d7d",
+    "bytes": 2020002,
+    "build": "GRCh38",
+    "chromosome": "chr19",
+    "start_1based": 45707127,
+    "end_1based": 47727127,
+    "sequence_sha256": "f637e6a1be3c75aa9dac2bb2665c71ab88e47ad7368d907cc1da7bd38cdc926e",
+    "length": 2020001
+  },
+  "model_fai_source": {
+    "id": "GRCh38.p13.genome.fa",
+    "file": "GRCh38.p13.genome.fa.fai",
+    "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa.fai",
+    "request_headers": {},
+    "sha256": "9293fb33f63b7f09d8fadc055d78e401d07c76de0211243fba778780ff836ff9",
+    "retrieved_at_utc": "2026-09-11T22:22:00.940878+00:00",
+    "max_bytes": 2000000,
+    "bytes_after_decompression": 22027
+  },
+  "model_gencode_source": {
+    "id": "match-model-gencode-v46",
+    "file": "match-model-gencode-v46.feather",
+    "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/gencode.v46.annotation.gtf.gz.feather",
+    "max_bytes": 350000000,
+    "sha256": "7b10f643d96e1142ef058d9c08487f4360552cea29c8339f195a5a96489dbb4c",
+    "bytes": 333040258,
+    "retrieved_at_utc": "2026-09-12T04:18:52.114218+00:00"
+  },
+  "frozen_QTL_TSS_1based": 46717127,
+  "ensembl_target": {
+    "gene_id": "ENSG00000105287",
+    "gene_name": "PRKD2",
+    "gene_version": 15,
+    "biotype": "protein_coding",
+    "strand": -1,
+    "tss_grch38_1based": 46717144,
+    "gene_start_grch38_1based": 46673661,
+    "gene_end_grch38_1based": 46717144,
+    "in_model_transcript_tss_universe": true
+  },
+  "model_TSS_coordinate_convention": "positive Start, negative exclusive End, matching original model extractor"
+}

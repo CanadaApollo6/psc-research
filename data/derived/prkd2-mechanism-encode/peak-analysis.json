@@ -1,0 +1,212 @@
+{
+  "plan_sha256": "5c46354a7df6ed2a6e20ec78169c1a858dfb87c92b107677f243d9bacc46afd3",
+  "input_sha256": "06d8cabbf84d09214ed3f713de430c731c2d8bf4a14c00722a8ea057a46e7368",
+  "qualification_sha256": "d707e127d8a8287aba42395f06d72951d3414115ff471eef74aa7963c6562d04",
+  "files": [
+    {
+      "file_accession": "ENCFF560PQQ",
+      "experiment": "ENCSR000ASJ",
+      "url": "https://www.encodeproject.org/files/ENCFF560PQQ/@@download/ENCFF560PQQ.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:39.385114+00:00",
+      "finished_at_utc": "2026-09-15T19:05:40.671290+00:00",
+      "bytes": 2222727,
+      "publisher_md5": "c1791ff8f21cc180431fea1dffa18d29",
+      "computed_md5": "c1791ff8f21cc180431fea1dffa18d29",
+      "sha256": "b50655fff12b5215cb08d7fa875089f7714660337016d7bf286417c0f1141d14",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "2222727",
+        "ETag": "\"c1791ff8f21cc180431fea1dffa18d29\"",
+        "Last-Modified": "Sat, 09 Feb 2019 23:13:25 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF560PQQ.bed.gz",
+      "total_source_rows": 88668,
+      "chr19_source_rows": 3395,
+      "regional_rows": 74,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF493TKQ",
+      "experiment": "ENCSR000ASM",
+      "url": "https://www.encodeproject.org/files/ENCFF493TKQ/@@download/ENCFF493TKQ.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:40.741939+00:00",
+      "finished_at_utc": "2026-09-15T19:05:41.880791+00:00",
+      "bytes": 2499540,
+      "publisher_md5": "2be356b5488eca075e1aa4e256b85335",
+      "computed_md5": "2be356b5488eca075e1aa4e256b85335",
+      "sha256": "0a3d121d2ab91aa8d240512ab1d8af76b91b3eeaefa2a970d96739f91f16afb5",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "2499540",
+        "ETag": "\"2be356b5488eca075e1aa4e256b85335\"",
+        "Last-Modified": "Sat, 09 Feb 2019 10:00:06 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF493TKQ.bed.gz",
+      "total_source_rows": 97307,
+      "chr19_source_rows": 4089,
+      "regional_rows": 90,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF112PES",
+      "experiment": "ENCSR000ASN",
+      "url": "https://www.encodeproject.org/files/ENCFF112PES/@@download/ENCFF112PES.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:41.948623+00:00",
+      "finished_at_utc": "2026-09-15T19:05:43.004829+00:00",
+      "bytes": 1463977,
+      "publisher_md5": "9016f7f30e545354f5e3549676775c66",
+      "computed_md5": "9016f7f30e545354f5e3549676775c66",
+      "sha256": "28aa92be53de192b7380f4c22625fff84e8583d4189ef406338625418c0a00ad",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "1463977",
+        "ETag": "\"9016f7f30e545354f5e3549676775c66\"",
+        "Last-Modified": "Sun, 10 Feb 2019 02:46:19 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF112PES.bed.gz",
+      "total_source_rows": 54104,
+      "chr19_source_rows": 3681,
+      "regional_rows": 52,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF651GXK",
+      "experiment": "ENCSR000DWL",
+      "url": "https://www.encodeproject.org/files/ENCFF651GXK/@@download/ENCFF651GXK.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:43.044415+00:00",
+      "finished_at_utc": "2026-09-15T19:05:43.975624+00:00",
+      "bytes": 624226,
+      "publisher_md5": "5f89b85671f845d839cd6e8def6cd8a0",
+      "computed_md5": "5f89b85671f845d839cd6e8def6cd8a0",
+      "sha256": "93e9a9a688e3804a068ab87ad3fe24fe3e195641df5fb13b80d837dbb6b612ec",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "624226",
+        "ETag": "\"5f89b85671f845d839cd6e8def6cd8a0\"",
+        "Last-Modified": "Sat, 09 Feb 2019 19:23:38 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF651GXK.bed.gz",
+      "total_source_rows": 30677,
+      "chr19_source_rows": 1857,
+      "regional_rows": 32,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF037QHE",
+      "experiment": "ENCSR000EPK",
+      "url": "https://www.encodeproject.org/files/ENCFF037QHE/@@download/ENCFF037QHE.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:43.997128+00:00",
+      "finished_at_utc": "2026-09-15T19:05:45.035845+00:00",
+      "bytes": 1252114,
+      "publisher_md5": "901a4e69d0ab86be4d91ee3e6a251c8a",
+      "computed_md5": "901a4e69d0ab86be4d91ee3e6a251c8a",
+      "sha256": "cae54f1e10c55d274c7bc7e3deebd6c8d51eedd16fa7905f8c04e1139491c56e",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "1252114",
+        "ETag": "\"901a4e69d0ab86be4d91ee3e6a251c8a\"",
+        "Last-Modified": "Fri, 13 Nov 2020 13:53:38 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF037QHE.bed.gz",
+      "total_source_rows": 113785,
+      "chr19_source_rows": 4899,
+      "regional_rows": 116,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF933WTT",
+      "experiment": "ENCSR012PII",
+      "url": "https://www.encodeproject.org/files/ENCFF933WTT/@@download/ENCFF933WTT.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:45.108273+00:00",
+      "finished_at_utc": "2026-09-15T19:05:46.100368+00:00",
+      "bytes": 1073472,
+      "publisher_md5": "4ed334c91166a9a35b6929c14fd7ccb1",
+      "computed_md5": "4ed334c91166a9a35b6929c14fd7ccb1",
+      "sha256": "94e24f28ada84e38cf0251bad8ae10eed66586094ca7088221e07f240fa20211",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "1073472",
+        "ETag": "\"4ed334c91166a9a35b6929c14fd7ccb1\"",
+        "Last-Modified": "Sat, 09 Feb 2019 17:20:51 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF933WTT.bed.gz",
+      "total_source_rows": 58985,
+      "chr19_source_rows": 3245,
+      "regional_rows": 71,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF150UHK",
+      "experiment": "ENCSR073CPU",
+      "url": "https://www.encodeproject.org/files/ENCFF150UHK/@@download/ENCFF150UHK.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:46.139783+00:00",
+      "finished_at_utc": "2026-09-15T19:05:47.015333+00:00",
+      "bytes": 178422,
+      "publisher_md5": "4d95e3fb613c514097e9a474a48e03d9",
+      "computed_md5": "4d95e3fb613c514097e9a474a48e03d9",
+      "sha256": "5ee79fe3d2571f06fb7cb3be596a24e373e991a0109d8a1044f9837659d975ca",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "178422",
+        "ETag": "\"4d95e3fb613c514097e9a474a48e03d9\"",
+        "Last-Modified": "Thu, 09 Oct 2025 07:14:10 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF150UHK.bed.gz",
+      "total_source_rows": 8758,
+      "chr19_source_rows": 657,
+      "regional_rows": 9,
+      "gzip_eof_verified": true
+    },
+    {
+      "file_accession": "ENCFF366GZW",
+      "experiment": "ENCSR400VWA",
+      "url": "https://www.encodeproject.org/files/ENCFF366GZW/@@download/ENCFF366GZW.bed.gz",
+      "started_at_utc": "2026-09-15T19:05:47.022067+00:00",
+      "finished_at_utc": "2026-09-15T19:05:48.154620+00:00",
+      "bytes": 2327783,
+      "publisher_md5": "48714d5fd352a55ce2cf1803becfc7b0",
+      "computed_md5": "48714d5fd352a55ce2cf1803becfc7b0",
+      "sha256": "1cbcc9a254240bb2397390a42fa439832255e94d22862b6e2e0b9693a114fe62",
+      "response_headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "2327783",
+        "ETag": "\"48714d5fd352a55ce2cf1803becfc7b0\"",
+        "Last-Modified": "Sat, 09 Feb 2019 17:22:53 GMT"
+      },
+      "file": "data/raw/prkd2-mechanism/peaks/ENCFF366GZW.bed.gz",
+      "total_source_rows": 139532,
+      "chr19_source_rows": 5574,
+      "regional_rows": 132,
+      "gzip_eof_verified": true
+    }
+  ],
+  "total_compressed_bytes": 11642261,
+  "total_source_rows": 591816,
+  "coordinate_convention": "BED zero-based half-open; edited base [position1-1,position1), flank [position1-251,position1+250)",
+  "points": [
+    {
+      "label": "rs112445263",
+      "kind": "anchor",
+      "point1": 46700099
+    },
+    {
+      "label": "rs313839",
+      "kind": "anchor",
+      "point1": 46718300
+    },
+    {
+      "label": "rs62134782",
+      "kind": "comparison",
+      "point1": 46702162
+    },
+    {
+      "label": "PRKD2_fixed_QTL_TSS",
+      "kind": "fixed TSS context",
+      "point1": 46717127
+    }
+  ],
+  "summary_rows": 32,
+  "regional_peaks": 576,
+  "source_scope": "Fixed eight experiments; three donor identifiers with extensive assay reuse. No allele-specific assay or direct gene-link measurement.",
+  "analysis_script_sha256": "25a74987cec4fa40c71b21e0b9e44e4054283136ea8b293813c6c8a025410388"
+}

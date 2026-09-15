@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "purpose": "Exploratory public-data PRKD2 regulatory mechanism study after the original IBDverse recovery; not a causal-probability or independent model-accuracy benchmark",
+  "scope": "Recommended directions 1 and 2: variant predictions and measured regulatory context. Additional blood/gut QTL contexts are not part of this execution.",
+  "anchors": [
+    {"rsid": "rs112445263", "position_grch38_1based": 46700099, "reference": "C", "alternate": "A", "role": "newly recovered association", "expected_alt_minus_ref_rna_sign": 1},
+    {"rsid": "rs313839", "position_grch38_1based": 46718300, "reference": "C", "alternate": "G", "role": "previously modeled direction control", "expected_alt_minus_ref_rna_sign": 1}
+  ],
+  "prior_knowledge": "The original IBDverse associations, previous rs313839 prediction, all preceding source problems, and the fact that monocyte ENCODE experiments exist are known. New prediction scores and target peak overlaps have not been inspected.",
+  "region": {"chromosome": "chr19", "target_gene_id": "ENSG00000105287", "target_gene": "PRKD2", "tss_grch38_1based": 46717127, "width": 1048576, "center": "PRKD2 TSS; identical interval for every selected variant"},
+  "model": {
+    "client_version": "0.9.0",
+    "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+    "selection": "ALL_FOLDS",
+    "reference": "GRCh38.p13",
+    "primary_ontology": "CL:0001054",
+    "supporting_ontologies": ["CL:0000576", "CL:0000624", "CL:0000236"],
+    "scorers": ["RNA_SEQ", "RNA_SEQ_ACTIVE", "SPLICE_SITES", "SPLICE_SITE_USAGE", "DNASE", "DNASE_ACTIVE", "ATAC", "ATAC_ACTIVE", "CAGE", "CAGE_ACTIVE", "CHIP_HISTONE", "CHIP_HISTONE_ACTIVE"],
+    "metadata": "Fetch fresh metadata before input lock. Freeze exact track identities for each modality. Preserve unavailable contexts instead of substituting tissues.",
+    "gene_universe": "Ensembl release 116 gene-level TSSs inside the common interval intersected with genes whose model GENCODE v46 transcript TSSs are in that interval; retain all biotypes and missing prediction records.",
+    "gene_ranking": "Median absolute signed RNA_SEQ raw effect across all frozen primary CD14-monocyte tracks, descending; tie by Ensembl gene ID. Also report each track, signed median, sign disagreements, primary target rank, active score and nearest-TSS baseline.",
+    "primary_expression_comparison": "For each anchor, PRKD2 absolute effect minus the median of its selected comparison variants' absolute effects. Descriptive only, with no significance or calibrated effect threshold. Missing comparators remain missing.",
+    "regulatory_scores": "Report every frozen primary and generic-monocyte ATAC/DNASE/CAGE track, plus H3K27ac, H3K4me1 and H3K4me3 histone tracks. Keep local 501-bp or 2001-bp scorer masks and scale distinct from gene RNA effects. Missing tracks are not zeros.",
+    "splicing": "Gene-wide maximum absolute scores are nonsigned flags; they do not establish a changed splice form or its direction.",
+    "anchor_tracks": "For both anchors regardless of scores, retain reference and alternate predicted RNA/accessibility/CAGE/histone tracks in available primary/generic monocyte ontologies using the same common interval. Extract the variant-centered plus/minus 2500 bp and PRKD2 TSS plus/minus 2500 bp for descriptive plots; no effect-selected cropping.",
+    "maximum_score_requests": 6,
+    "maximum_anchor_track_requests": 2
+  },
+  "comparison_selection": {
+    "source": "Previously frozen full PSC regional evidence and verified GRCh38 allele mapping; no new prediction, RNA effect or chromatin overlap may influence selection",
+    "count_per_anchor": 2,
+    "eligible": "Unique literal rsID, full-edit-verified SNV, both Ensembl GRCh38 and model reference agree, PSC P>=0.1, finite source control MAF, same strand-collapsed substitution class and CpG status as anchor",
+    "maximum_anchor_distance_bp": 100000,
+    "maximum_absolute_tss_distance_difference_bp": 25000,
+    "maximum_source_control_maf_difference": 0.10,
+    "ordering": "Increasing sum of absolute source-control-MAF difference/0.10 plus absolute difference in distances to PRKD2 TSS/25000; then increasing genomic separation; then numeric rsID. Anchor order as above; never reuse a comparison variant.",
+    "shortfall": "Do not relax criteria or replace anchor. Report available comparison count; anchor predictions still address the mechanistic question.",
+    "interpretation": "Low PSC association is a comparison selection criterion, not proof of molecular inactivity. No claim of genetic independence; any available reference LD is descriptive and missing LD remains explicit. Risk allele is not transferred between variants."
+  },
+  "measured_regulation": {
+    "source": "ENCODE REST via the encode-skill rest_request.py; retain full JSON and exact request receipts",
+    "search": "Released human primary CD14-positive monocyte experiments; DNase-seq, ATAC-seq and histone ChIP-seq for H3K27ac, H3K4me1, H3K4me3",
+    "selection": "Before inspecting regional signal or peaks, select first two qualifying experiments per assay/mark in accession order. Prefer GRCh38 released BED peaks using IDR thresholded, optimal IDR thresholded, replicated, pseudoreplicated IDR thresholded, then peaks output classes; ties by combined-replicate count then file accession. Retain all replicates/source donors in metadata. Never select on target overlap.",
+    "exclude": "Nonhuman or nonprimary/non-CD14 context, missing assembly or wrong assembly, revoked/nonreleased files, experiment or selected-file audit ERROR; keep warning and NOT_COMPLIANT flags explicit",
+    "limits": {"maximum_experiments": 10, "maximum_compressed_bytes_per_peak_file": 50000000, "maximum_total_compressed_peak_bytes": 300000000},
+    "interval_comparisons": "For all anchors and comparisons, report exact edited-base overlap and plus/minus 250-bp overlap with peaks; separately annotate fixed PRKD2 TSS plus/minus 250 bp. BED is zero-based half-open. Preserve whole peak files and all regional peaks in the common interval.",
+    "training_overlap": "Crosswalk experiment, file, biosample and donor accessions against pinned AlphaGenome published training metadata and fresh model metadata. Same training experiment is contextual consistency, not independent validation; unknown overlap is unknown.",
+    "interpretation": "Accessible or histone-marked DNA indicates measured regulatory context, not an allele effect or a proven enhancer-to-gene connection. Absence of a peak is not proof of no regulatory function."
+  },
+  "verification": "Independent source/coordinate/allele and score aggregation checks; full repository tests after new import logic; re-run derived calculations from pinned data; preserve prior tracked scientific files and all negative/unavailable outcomes.",
+  "completion": "A reproducible all-variant/all-gene model comparison, measured-regulatory overlap and source/training audit, figures and an evidence-ranked report. Explicitly distinguish predictions, measured associations, regulatory context and unresolved causality. No new H4 posterior, intervention inference or outreach."
+}

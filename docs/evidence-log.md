@@ -1,5 +1,16 @@
 # Evidence and decisions
 
+## 2026-09-15 — PRKD2 regulatory mechanism follow-up
+
+The [completed mechanism report](../reports/prkd2-regulatory-mechanism.md) follows a prospective local plan and preserves the earlier original-source associations and coverage results. Three ALL_FOLDS score requests and two REF/ALT track requests use a common 1,048,576-bp interval and 50 fixed genes. Matching yields zero comparisons for rs112445263 and one for rs313839; criteria were not relaxed.
+
+- PRKD2 RNA scores are −0.001706064 for rs112445263 C→A (rank 12/50), +0.027515948 for rs313839 C→G (rank 1/50), and +0.001164734 for comparison rs62134782 C→G (rank 19/50). The new anchor's prediction opposes the recovered positive A-effect RNA association; the older anchor agrees. Small predictions have no calibrated biological threshold, and ranks are not causal probabilities.
+- The full RNA table retains all 750 fixed variant–gene–track values. Three raw primary RNA strands collapse to one gene-level primary track under the official merge. Monocyte ATAC model tracks are unavailable; rs313839 has no returned PRKD2 splice row because it is outside the gene-body mask. Neither missing output is treated as zero. Regulatory modalities have mixed signs.
+- Eight ENCODE peak files contain 591,816 original rows. Exact and ±250-bp overlap counts are 0/8 for the new anchor, 6/8 for the older anchor and 0/8 for the comparison. The panel represents three donor identifiers; six files have portal WARNING/NOT_COMPLIANT flags. Two experiments are published training sources and seven share donors with published monocyte training sources, limiting independent validation.
+- The complete 142-experiment CD14 inventory includes two snATAC-seq experiments, outside the frozen exact bulk-ATAC assay definition. Computed ENCODE audit flags, absent from embedded object responses, were recovered before peak downloads; the selected panel did not change.
+- Exact public phase-3 EUR allele dosages give anchor r²=0.857392 in 503 donors. This is reference LD, not study covariance or proof that either variant is causal. A tagging explanation is plausible; source-specific cell states or unmodeled effects remain alternatives.
+- Independent component reconstruction verifies 129,294 numerical scores and the same number of quantiles, 16 raw arrays, all primary ranks, reference DNA, original BED overlaps and reference LD. All 274 tests pass; the original catalog rebuild is unchanged; 17 derived files replay exactly offline. Earlier scientific outputs remain intact. No new H4 posterior, additional IBDverse context screen, intervention claim or outreach is part of this stage.
+
 ## 2026-09-11 — Scope and current results
 
 The primary independent project is regulatory variant interpretation. A liver-atlas metadata audit is available as a secondary resource. The first four-variant AlphaGenome run is now complete; its results are below and in the [pilot report](../reports/first-alphagenome-pilot.md). No liver-atlas expression-matrix analyses, new gene discoveries, treatment effects, or personal risk estimates have been produced.

@@ -1,0 +1,199 @@
+{
+  "retrieved_at_utc": "2026-09-15T18:41:39.979391+00:00",
+  "model": "ALL_FOLDS",
+  "client_version": "0.9.0",
+  "client_commit": "aa6fc8f6faadcb8c910fa2b85b57386fbd5c7b5d",
+  "server_build": "Not exposed by this response",
+  "prediction_requests": 0,
+  "files": [
+    {
+      "modality": "atac",
+      "file": "data/raw/prkd2-mechanism/model-metadata/atac.csv",
+      "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+      "rows": 167,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "data_source",
+        "endedness",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "cage",
+      "file": "data/raw/prkd2-mechanism/model-metadata/cage.csv",
+      "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+      "rows": 546,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "data_source",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "dnase",
+      "file": "data/raw/prkd2-mechanism/model-metadata/dnase.csv",
+      "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+      "rows": 305,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "data_source",
+        "endedness",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "rna_seq",
+      "file": "data/raw/prkd2-mechanism/model-metadata/rna_seq.csv",
+      "sha256": "1098ccca476dc0a65490535a99cf42e81ec23d41f87430c208aa731ef811c828",
+      "rows": 667,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "gtex_tissue",
+        "data_source",
+        "endedness",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "chip_histone",
+      "file": "data/raw/prkd2-mechanism/model-metadata/chip_histone.csv",
+      "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+      "rows": 1116,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "histone_mark",
+        "data_source",
+        "endedness",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "chip_tf",
+      "file": "data/raw/prkd2-mechanism/model-metadata/chip_tf.csv",
+      "sha256": "59c8183387491392d2e0475e9e19798e1498cb02c71135ef25ecc68c57eb6548",
+      "rows": 1617,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "transcription_factor",
+        "data_source",
+        "endedness",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    },
+    {
+      "modality": "splice_sites",
+      "file": "data/raw/prkd2-mechanism/model-metadata/splice_sites.csv",
+      "sha256": "7d18141b6a3c3948549b6d910bd5fbe84ef0b4b097e698f14ff5b8980e854d1a",
+      "rows": 4,
+      "columns": [
+        "name",
+        "strand"
+      ]
+    },
+    {
+      "modality": "splice_site_usage",
+      "file": "data/raw/prkd2-mechanism/model-metadata/splice_site_usage.csv",
+      "sha256": "e67e10e9f925153adee779ad23800d5cf1e449b7dd9e36065ba284eae4242771",
+      "rows": 734,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "gtex_tissue",
+        "data_source"
+      ]
+    },
+    {
+      "modality": "splice_junctions",
+      "file": "data/raw/prkd2-mechanism/model-metadata/splice_junctions.csv",
+      "sha256": "b267def50614f21c3b1dd526f4ddac56649b7206b1327c11cbe46bfbf60724f6",
+      "rows": 367,
+      "columns": [
+        "name",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "biosample_life_stage",
+        "gtex_tissue",
+        "data_source",
+        "Assay title"
+      ]
+    },
+    {
+      "modality": "contact_maps",
+      "file": "data/raw/prkd2-mechanism/model-metadata/contact_maps.csv",
+      "sha256": "7fdee7e729069ec58445d02b4744ad95b9096fd8ec79fe672a1805312dbf7110",
+      "rows": 28,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "data_source"
+      ]
+    },
+    {
+      "modality": "procap",
+      "file": "data/raw/prkd2-mechanism/model-metadata/procap.csv",
+      "sha256": "5556030afb1a9d9183085485fafd423052923d9dda95a349a35ad96e704ea9d1",
+      "rows": 12,
+      "columns": [
+        "name",
+        "strand",
+        "Assay title",
+        "ontology_curie",
+        "biosample_name",
+        "biosample_type",
+        "data_source",
+        "genetically_modified",
+        "nonzero_mean"
+      ]
+    }
+  ]
+}

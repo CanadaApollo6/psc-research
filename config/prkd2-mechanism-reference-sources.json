@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "id": "ensembl-common-window-genes.json",
+      "url": "https://rest.ensembl.org/overlap/region/human/19:46192839-47241414?feature=gene;content-type=application/json",
+      "request_headers": {},
+      "request_body": null,
+      "requested_at_utc": "2026-09-15T18:50:46.363438+00:00",
+      "retrieved_at_utc": "2026-09-15T18:51:01.174493+00:00",
+      "status_code": 200,
+      "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "24723"
+      },
+      "max_bytes": 5000000,
+      "bytes": 24723,
+      "file": "data/raw/prkd2-mechanism/references/ensembl-common-window-genes.json",
+      "sha256": "2d580238c1b3b3de492e793a17f3e5ccf257f807f891141da7a598b948fd65d3"
+    },
+    {
+      "id": "ensembl-release.json",
+      "url": "https://rest.ensembl.org/info/data?content-type=application/json",
+      "request_headers": {},
+      "request_body": null,
+      "requested_at_utc": "2026-09-15T18:50:41.157549+00:00",
+      "retrieved_at_utc": "2026-09-15T18:50:46.362248+00:00",
+      "status_code": 200,
+      "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "18"
+      },
+      "max_bytes": 5000000,
+      "bytes": 18,
+      "file": "data/raw/prkd2-mechanism/references/ensembl-release.json",
+      "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c"
+    },
+    {
+      "id": "model-GRCh38.p13-common-window.range",
+      "url": "https://storage.googleapis.com/alphagenome/reference/gencode/hg38/GRCh38.p13.genome.fa",
+      "request_headers": {
+        "Range": "bytes=2745614376-2746680427"
+      },
+      "request_body": null,
+      "requested_at_utc": "2026-09-15T18:50:40.785558+00:00",
+      "retrieved_at_utc": "2026-09-15T18:50:41.152879+00:00",
+      "status_code": 206,
+      "response_headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "1066052",
+        "Content-Range": "bytes 2745614376-2746680427/3321586957",
+        "ETag": "\"edee5408303f6c1c6bae1c76ffd23671\"",
+        "Last-Modified": "Thu, 18 Dec 2025 19:04:53 GMT"
+      },
+      "max_bytes": 1100000,
+      "bytes": 1066052,
+      "file": "data/raw/prkd2-mechanism/references/model-GRCh38.p13-common-window.range",
+      "sha256": "c7a2d2bbf490b151e1d8423c0d57fc90239c6614f0d697f2cf0ac8f45ef49b04"
+    },
+    {
+      "id": "selected-ensembl-variants.json",
+      "url": "https://rest.ensembl.org/variation/human",
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      "request_body": {
+        "ids": [
+          "rs112445263",
+          "rs313839",
+          "rs62134782"
+        ]
+      },
+      "requested_at_utc": "2026-09-15T18:51:01.851712+00:00",
+      "retrieved_at_utc": "2026-09-15T18:51:02.363662+00:00",
+      "status_code": 200,
+      "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "1563"
+      },
+      "max_bytes": 5000000,
+      "bytes": 1563,
+      "file": "data/raw/prkd2-mechanism/references/selected-ensembl-variants.json",
+      "sha256": "2d71330b8063e4a891856766112cfe78a8a30641ca59fb435e7f8d82a54bd095"
+    }
+  ]
+}

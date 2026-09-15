@@ -1,0 +1,1142 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-09-15T18:58:53.662072+00:00",
+  "execution_sha256": "21e3079c986870cda0f8c9c1dfcd58ead081c6c968ddeca8a906ee55773d0474",
+  "scores": [
+    {
+      "rsid": "rs112445263",
+      "role": "anchor",
+      "status": "complete",
+      "started_at_utc": "2026-09-15T18:58:54.063183+00:00",
+      "rows": 43221,
+      "file": "rs112445263-scores.csv.gz",
+      "sha256": "2fd8d1accd3ba4949a1a88c9c7774344fa0febfc07e384ab8202604bc44a42bd",
+      "components": [
+        {
+          "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs112445263-component-00.npz",
+          "values_sha256": "47a8375f5c84b991c16e3c3c76a5832bc66231996758026b8e03c879254e4edd",
+          "genes": {
+            "file": "rs112445263-component-00-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs112445263-component-00-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskActiveScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs112445263-component-01.npz",
+          "values_sha256": "f2c62bb6eca8f661e3d795c209102570d5f11635111a277405e4509d2002954f",
+          "genes": {
+            "file": "rs112445263-component-01-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs112445263-component-01-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+          "modality": "SPLICE_SITES",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            2
+          ],
+          "values_file": "rs112445263-component-02.npz",
+          "values_sha256": "71751f8bde53b256e3b54b273e4bcda3c6f5661aa3fe8da596e3ab7a7e77e570",
+          "genes": {
+            "file": "rs112445263-component-02-genes.csv",
+            "sha256": "dcc882f0b393b082213f5094d24a136fc26f1f407d432c2c24cf4f921b098d4b",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-02-tracks.csv",
+            "sha256": "c1d7ed8cb3fbd5ba7883c8e83e8a50f508dd73cf134f4a324f685128281e782b",
+            "rows": 2
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+          "modality": "SPLICE_SITE_USAGE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            367
+          ],
+          "values_file": "rs112445263-component-03.npz",
+          "values_sha256": "d3fbb04553e1de0f7556c0ab9144cbf3f72aabff5f84c65bc52d324c522f0eeb",
+          "genes": {
+            "file": "rs112445263-component-03-genes.csv",
+            "sha256": "dcc882f0b393b082213f5094d24a136fc26f1f407d432c2c24cf4f921b098d4b",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-03-tracks.csv",
+            "sha256": "f5e4f1175b0e5d42a88eaa7d7d7a204f3a6784361301f9545b434d4523fed7cc",
+            "rows": 367
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs112445263-component-04.npz",
+          "values_sha256": "607684f3d9a30f84c37ecade25d63700ab39afb122f6c9a76079d44c5020b37d",
+          "genes": {
+            "file": "rs112445263-component-04-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-04-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs112445263-component-05.npz",
+          "values_sha256": "5b0c6fe652f6036ce09c2db2f1394c7f93f28c64b111a6366744d656ec3c4e09",
+          "genes": {
+            "file": "rs112445263-component-05-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-05-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs112445263-component-06.npz",
+          "values_sha256": "cdd9e55ed32982b51f2672f16e24ab2765b896dd3f82bf2518e797a8f6733259",
+          "genes": {
+            "file": "rs112445263-component-06-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-06-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs112445263-component-07.npz",
+          "values_sha256": "47cefb051dc8ec5f06182ed4eb0d07fd619c4267e89bfafaa7bd5761248d0eba",
+          "genes": {
+            "file": "rs112445263-component-07-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-07-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs112445263-component-08.npz",
+          "values_sha256": "e51aad13c21b02c44b834006bc64519d28270285f2d0cfbee6b4fdf142a83ab7",
+          "genes": {
+            "file": "rs112445263-component-08-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-08-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs112445263-component-09.npz",
+          "values_sha256": "c42551055795c125129d075bfa5d096f1d7b277110162f15322470bcbcf194b1",
+          "genes": {
+            "file": "rs112445263-component-09-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-09-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs112445263-component-10.npz",
+          "values_sha256": "70ee6f6d5e30b3109ade1d00107cada173a69b1918670471d8ee18baaf8d6cf1",
+          "genes": {
+            "file": "rs112445263-component-10-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-10-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=ACTIVE_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46700099:C>A",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs112445263-component-11.npz",
+          "values_sha256": "ca343d2ece82cd5a7b1ea3035e907cf4092815ddb692ae73fc755d4e9088d578",
+          "genes": {
+            "file": "rs112445263-component-11-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs112445263-component-11-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        }
+      ],
+      "finished_at_utc": "2026-09-15T18:58:56.079994+00:00"
+    },
+    {
+      "rsid": "rs313839",
+      "role": "anchor",
+      "status": "complete",
+      "started_at_utc": "2026-09-15T18:58:56.080315+00:00",
+      "rows": 42852,
+      "file": "rs313839-scores.csv.gz",
+      "sha256": "18dbfe957242d9c350481efbed2e973fa89dad9c1780170384aee63f4b8dcce6",
+      "components": [
+        {
+          "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs313839-component-00.npz",
+          "values_sha256": "1ad9110c935e02816073fc40f647146a39ce06f837e1555774b3dd1c58e941b2",
+          "genes": {
+            "file": "rs313839-component-00-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs313839-component-00-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskActiveScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs313839-component-01.npz",
+          "values_sha256": "a5d651df6832571a4eea4ced47e42e552a4b0f010203e51592dab9abe1ee5c2d",
+          "genes": {
+            "file": "rs313839-component-01-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs313839-component-01-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+          "modality": "SPLICE_SITES",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            0,
+            2
+          ],
+          "values_file": "rs313839-component-02.npz",
+          "values_sha256": "9d5d506b73ce3bb72a1036f7067dccffb6eae8119959c2bd7021a87b3539fd1d",
+          "genes": {
+            "file": "rs313839-component-02-genes.csv",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "rows": 0
+          },
+          "tracks": {
+            "file": "rs313839-component-02-tracks.csv",
+            "sha256": "c1d7ed8cb3fbd5ba7883c8e83e8a50f508dd73cf134f4a324f685128281e782b",
+            "rows": 2
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+          "modality": "SPLICE_SITE_USAGE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            0,
+            367
+          ],
+          "values_file": "rs313839-component-03.npz",
+          "values_sha256": "fd85e7314f5ff9ce2c030e55de4740fd210b539e5e6a25c6ceac2d180d4cd866",
+          "genes": {
+            "file": "rs313839-component-03-genes.csv",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "rows": 0
+          },
+          "tracks": {
+            "file": "rs313839-component-03-tracks.csv",
+            "sha256": "f5e4f1175b0e5d42a88eaa7d7d7a204f3a6784361301f9545b434d4523fed7cc",
+            "rows": 367
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs313839-component-04.npz",
+          "values_sha256": "09a3a8ac517cfca5c4a67480f6160e8df8aee6f749164ad65b198a83aefef2bf",
+          "genes": {
+            "file": "rs313839-component-04-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-04-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs313839-component-05.npz",
+          "values_sha256": "5410ec763917c86b3ebdf3d5f77814055883740c48614dc3619d56d7f8d429b4",
+          "genes": {
+            "file": "rs313839-component-05-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-05-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs313839-component-06.npz",
+          "values_sha256": "6415f5de1cfe3efbdbe7d1706034d1a80ad8bb9a4684109e58348995a6e14ed3",
+          "genes": {
+            "file": "rs313839-component-06-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-06-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs313839-component-07.npz",
+          "values_sha256": "89392403a92230a38b61afccadf9298cd6518baa6d68d6db1d8274c1d002b699",
+          "genes": {
+            "file": "rs313839-component-07-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-07-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs313839-component-08.npz",
+          "values_sha256": "d9d0c69dd83971f16707a86822c84f6f45db44e1029eff1e563b58b3d374af57",
+          "genes": {
+            "file": "rs313839-component-08-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-08-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs313839-component-09.npz",
+          "values_sha256": "5e38f7e65194d1d427fca95bfd413405856756867f7d883c454e8225126ce523",
+          "genes": {
+            "file": "rs313839-component-09-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-09-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs313839-component-10.npz",
+          "values_sha256": "d774fb5c88cc1df2d89e7207c5bfb2b25f35cd352f8a7e38ca2e4f5e75d75320",
+          "genes": {
+            "file": "rs313839-component-10-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-10-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=ACTIVE_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46718300:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs313839-component-11.npz",
+          "values_sha256": "50f3fd04e994c221babde1236e15bebbe463319a163a515affa873d0e16082bc",
+          "genes": {
+            "file": "rs313839-component-11-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs313839-component-11-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        }
+      ],
+      "finished_at_utc": "2026-09-15T18:58:58.106759+00:00"
+    },
+    {
+      "rsid": "rs62134782",
+      "role": "comparison",
+      "status": "complete",
+      "started_at_utc": "2026-09-15T18:58:58.107254+00:00",
+      "rows": 43221,
+      "file": "rs62134782-scores.csv.gz",
+      "sha256": "aea921c0acc95385326f60cb0147914b072e726b4315b86400a6c007af1045d8",
+      "components": [
+        {
+          "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs62134782-component-00.npz",
+          "values_sha256": "cf56ae6f608b6bae4d2370f18d6b0626dd9d4fe16d6ceba9d45ad4b8551abb48",
+          "genes": {
+            "file": "rs62134782-component-00-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs62134782-component-00-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskActiveScorer(requested_output=RNA_SEQ)",
+          "modality": "RNA_SEQ",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            52,
+            371
+          ],
+          "values_file": "rs62134782-component-01.npz",
+          "values_sha256": "e6c57062d054c115a6f71beed4b970a651ff359d9618768f1d8cdb6fec7ea477",
+          "genes": {
+            "file": "rs62134782-component-01-genes.csv",
+            "sha256": "f26cf86bb0b54de22876515908f5eaab73572775850b447875c3f74b8a5ec07f",
+            "rows": 52
+          },
+          "tracks": {
+            "file": "rs62134782-component-01-tracks.csv",
+            "sha256": "628d8b96177f7108e38383e3ad3c28f269c4e931293253511c482e967831a1a5",
+            "rows": 371
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+          "modality": "SPLICE_SITES",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            2
+          ],
+          "values_file": "rs62134782-component-02.npz",
+          "values_sha256": "d61075e55eee44bd1696c799be2a914d4196c3beae293fd5e2a17fbbb95aec28",
+          "genes": {
+            "file": "rs62134782-component-02-genes.csv",
+            "sha256": "dcc882f0b393b082213f5094d24a136fc26f1f407d432c2c24cf4f921b098d4b",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-02-tracks.csv",
+            "sha256": "c1d7ed8cb3fbd5ba7883c8e83e8a50f508dd73cf134f4a324f685128281e782b",
+            "rows": 2
+          }
+        },
+        {
+          "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+          "modality": "SPLICE_SITE_USAGE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            367
+          ],
+          "values_file": "rs62134782-component-03.npz",
+          "values_sha256": "e36d0ad575c90a590de692ac4e28cd41a25d006231ad3bd6200459c35cd37db1",
+          "genes": {
+            "file": "rs62134782-component-03-genes.csv",
+            "sha256": "dcc882f0b393b082213f5094d24a136fc26f1f407d432c2c24cf4f921b098d4b",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-03-tracks.csv",
+            "sha256": "f5e4f1175b0e5d42a88eaa7d7d7a204f3a6784361301f9545b434d4523fed7cc",
+            "rows": 367
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs62134782-component-04.npz",
+          "values_sha256": "8f315adf61d755a5665bfd62afbbcd422e457ec4ae47eae7c0261cbb736bebde",
+          "genes": {
+            "file": "rs62134782-component-04-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-04-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "DNASE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            305
+          ],
+          "values_file": "rs62134782-component-05.npz",
+          "values_sha256": "1b177ba695e548cd085ff99bd234ab4d74e566fe74bd9db14bd489951fd2f3e3",
+          "genes": {
+            "file": "rs62134782-component-05-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-05-tracks.csv",
+            "sha256": "a4e3000c4c7d20a6280e26b21eb304e88247840cd1cd64617047f94b5dd6ea86",
+            "rows": 305
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs62134782-component-06.npz",
+          "values_sha256": "d2e076f0ef3499bfffbffd62a406517ccce04a8ade19c924e1516b8273755377",
+          "genes": {
+            "file": "rs62134782-component-06-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-06-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "ATAC",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            167
+          ],
+          "values_file": "rs62134782-component-07.npz",
+          "values_sha256": "51965a06d76a33240ed304a0b0f54bce5377c2c1a0933c2dd574fb8e7acc24ff",
+          "genes": {
+            "file": "rs62134782-component-07-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-07-tracks.csv",
+            "sha256": "59cf9e8cf53263cc30819ce0983affeb789396756d1a328a2ddd57d1f03ed228",
+            "rows": 167
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs62134782-component-08.npz",
+          "values_sha256": "88a78dc5ffe86a63897122beb6ddf0bbe97943a4c15521b751be71f44fe28fdc",
+          "genes": {
+            "file": "rs62134782-component-08-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-08-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CAGE, width=501, aggregation_type=ACTIVE_SUM)",
+          "modality": "CAGE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            546
+          ],
+          "values_file": "rs62134782-component-09.npz",
+          "values_sha256": "cdbde647cf2c7270101dbe6a6d6f1ca81fdf12ff8866b26d78fa9ebe4676664a",
+          "genes": {
+            "file": "rs62134782-component-09-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-09-tracks.csv",
+            "sha256": "1a5824908e5d22d49a5a1ee4e7fafd524dee1822d0f1fd2886540f77f89441c3",
+            "rows": 546
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=DIFF_LOG2_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs62134782-component-10.npz",
+          "values_sha256": "163a8a15b6c126b7121267bce08a07c5fdf06291d545bf8e0c6843741a7853f7",
+          "genes": {
+            "file": "rs62134782-component-10-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-10-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        },
+        {
+          "scorer": "CenterMaskScorer(requested_output=CHIP_HISTONE, width=2001, aggregation_type=ACTIVE_SUM)",
+          "modality": "CHIP_HISTONE",
+          "variant": "chr19:46702162:C>G",
+          "interval": "chr19:46192838-47241414:.",
+          "shape": [
+            1,
+            1116
+          ],
+          "values_file": "rs62134782-component-11.npz",
+          "values_sha256": "db7a61125feb8cc7f9aad27efc7764f2100c1740ac0770efce8ffd5eff6ba24a",
+          "genes": {
+            "file": "rs62134782-component-11-genes.csv",
+            "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+            "rows": 1
+          },
+          "tracks": {
+            "file": "rs62134782-component-11-tracks.csv",
+            "sha256": "ea6d44aeda280990885a698ada68ba960bbbb98303c838a455f64f0cd1ba8356",
+            "rows": 1116
+          }
+        }
+      ],
+      "finished_at_utc": "2026-09-15T18:59:00.516437+00:00"
+    }
+  ],
+  "anchor_tracks": [
+    {
+      "rsid": "rs112445263",
+      "status": "complete",
+      "started_at_utc": "2026-09-15T18:59:00.517080+00:00",
+      "outputs": [
+        {
+          "rsid": "rs112445263",
+          "allele": "REF",
+          "modality": "rna_seq",
+          "metadata_file": "rs112445263-REF-rna_seq-metadata.csv",
+          "metadata_sha256": "35401c3a5e9c66a8671db41b48e3f538fb20ff5d2f052194a5c796f921cf5adb",
+          "values_file": "rs112445263-REF-rna_seq.npz",
+          "values_sha256": "4f13eb27a6b6257c34b4cb3db4fcdce2f5f9c2a1c1e3734745c95d7eda3838ad",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "REF",
+          "modality": "dnase",
+          "metadata_file": "rs112445263-REF-dnase-metadata.csv",
+          "metadata_sha256": "9fe813a63ec9930898129e76b91b1201ccd79161dff1fa09354ad2920e329c2c",
+          "values_file": "rs112445263-REF-dnase.npz",
+          "values_sha256": "c8508f1c7000a740dd198ba37177f65a2903fe288beb5438243b964ab1fe2f93",
+          "shape": [
+            1048576,
+            1
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "REF",
+          "modality": "cage",
+          "metadata_file": "rs112445263-REF-cage-metadata.csv",
+          "metadata_sha256": "088b5d4ef9ee836f71645957048598a97377b9e4678054e20304f1ae250e3380",
+          "values_file": "rs112445263-REF-cage.npz",
+          "values_sha256": "7f06381fd33ee60ee1adb5f145778fbb881b666be10c6792c6d7271b64a87684",
+          "shape": [
+            1048576,
+            2
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "REF",
+          "modality": "chip_histone",
+          "metadata_file": "rs112445263-REF-chip_histone-metadata.csv",
+          "metadata_sha256": "28ab704dfc8125235ef6d117505f48933db946bd73c41722dc68eeb9bbeb3cbf",
+          "values_file": "rs112445263-REF-chip_histone.npz",
+          "values_sha256": "ee638f5b68010cb10320955fc641b49ec72d647fe388f0335cd62d255a28124a",
+          "shape": [
+            8192,
+            11
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 128
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "ALT",
+          "modality": "rna_seq",
+          "metadata_file": "rs112445263-ALT-rna_seq-metadata.csv",
+          "metadata_sha256": "35401c3a5e9c66a8671db41b48e3f538fb20ff5d2f052194a5c796f921cf5adb",
+          "values_file": "rs112445263-ALT-rna_seq.npz",
+          "values_sha256": "9ccdf994b7d4bb8ec07c0155009fcdc13ba8098c7e502f83cb5367cff52c8a7a",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "ALT",
+          "modality": "dnase",
+          "metadata_file": "rs112445263-ALT-dnase-metadata.csv",
+          "metadata_sha256": "9fe813a63ec9930898129e76b91b1201ccd79161dff1fa09354ad2920e329c2c",
+          "values_file": "rs112445263-ALT-dnase.npz",
+          "values_sha256": "9dd3a4bade9dacaf55f46052bd8e771dd35a765ca799cf1312c38b8b95893190",
+          "shape": [
+            1048576,
+            1
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "ALT",
+          "modality": "cage",
+          "metadata_file": "rs112445263-ALT-cage-metadata.csv",
+          "metadata_sha256": "088b5d4ef9ee836f71645957048598a97377b9e4678054e20304f1ae250e3380",
+          "values_file": "rs112445263-ALT-cage.npz",
+          "values_sha256": "619e3feea6d96bc3dc5fb827ff0b910e2dcf93ef10051a4567d1b32667acf2cd",
+          "shape": [
+            1048576,
+            2
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs112445263",
+          "allele": "ALT",
+          "modality": "chip_histone",
+          "metadata_file": "rs112445263-ALT-chip_histone-metadata.csv",
+          "metadata_sha256": "28ab704dfc8125235ef6d117505f48933db946bd73c41722dc68eeb9bbeb3cbf",
+          "values_file": "rs112445263-ALT-chip_histone.npz",
+          "values_sha256": "f440eb813867263187a982e066b618a9ba6ccb870aa36362d540a3934b91c5a2",
+          "shape": [
+            8192,
+            11
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 128
+        }
+      ],
+      "finished_at_utc": "2026-09-15T18:59:04.225976+00:00"
+    },
+    {
+      "rsid": "rs313839",
+      "status": "complete",
+      "started_at_utc": "2026-09-15T18:59:04.226679+00:00",
+      "outputs": [
+        {
+          "rsid": "rs313839",
+          "allele": "REF",
+          "modality": "rna_seq",
+          "metadata_file": "rs313839-REF-rna_seq-metadata.csv",
+          "metadata_sha256": "35401c3a5e9c66a8671db41b48e3f538fb20ff5d2f052194a5c796f921cf5adb",
+          "values_file": "rs313839-REF-rna_seq.npz",
+          "values_sha256": "4f13eb27a6b6257c34b4cb3db4fcdce2f5f9c2a1c1e3734745c95d7eda3838ad",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "REF",
+          "modality": "dnase",
+          "metadata_file": "rs313839-REF-dnase-metadata.csv",
+          "metadata_sha256": "9fe813a63ec9930898129e76b91b1201ccd79161dff1fa09354ad2920e329c2c",
+          "values_file": "rs313839-REF-dnase.npz",
+          "values_sha256": "c8508f1c7000a740dd198ba37177f65a2903fe288beb5438243b964ab1fe2f93",
+          "shape": [
+            1048576,
+            1
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "REF",
+          "modality": "cage",
+          "metadata_file": "rs313839-REF-cage-metadata.csv",
+          "metadata_sha256": "088b5d4ef9ee836f71645957048598a97377b9e4678054e20304f1ae250e3380",
+          "values_file": "rs313839-REF-cage.npz",
+          "values_sha256": "7f06381fd33ee60ee1adb5f145778fbb881b666be10c6792c6d7271b64a87684",
+          "shape": [
+            1048576,
+            2
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "REF",
+          "modality": "chip_histone",
+          "metadata_file": "rs313839-REF-chip_histone-metadata.csv",
+          "metadata_sha256": "28ab704dfc8125235ef6d117505f48933db946bd73c41722dc68eeb9bbeb3cbf",
+          "values_file": "rs313839-REF-chip_histone.npz",
+          "values_sha256": "ee638f5b68010cb10320955fc641b49ec72d647fe388f0335cd62d255a28124a",
+          "shape": [
+            8192,
+            11
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 128
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "ALT",
+          "modality": "rna_seq",
+          "metadata_file": "rs313839-ALT-rna_seq-metadata.csv",
+          "metadata_sha256": "35401c3a5e9c66a8671db41b48e3f538fb20ff5d2f052194a5c796f921cf5adb",
+          "values_file": "rs313839-ALT-rna_seq.npz",
+          "values_sha256": "2d9d98b1cd44409706461708f7a05942d0ffcaff8355f84271fee5d29188d8fd",
+          "shape": [
+            1048576,
+            3
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "ALT",
+          "modality": "dnase",
+          "metadata_file": "rs313839-ALT-dnase-metadata.csv",
+          "metadata_sha256": "9fe813a63ec9930898129e76b91b1201ccd79161dff1fa09354ad2920e329c2c",
+          "values_file": "rs313839-ALT-dnase.npz",
+          "values_sha256": "337569ffd9d458b10a7b369349f24d7c11e25fbdacffb6a7605635dd38adda24",
+          "shape": [
+            1048576,
+            1
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "ALT",
+          "modality": "cage",
+          "metadata_file": "rs313839-ALT-cage-metadata.csv",
+          "metadata_sha256": "088b5d4ef9ee836f71645957048598a97377b9e4678054e20304f1ae250e3380",
+          "values_file": "rs313839-ALT-cage.npz",
+          "values_sha256": "acd3644d63037a5f5625db88639a96ae2ba7ce1a6600cf7855a878a11a6de9f8",
+          "shape": [
+            1048576,
+            2
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 1
+        },
+        {
+          "rsid": "rs313839",
+          "allele": "ALT",
+          "modality": "chip_histone",
+          "metadata_file": "rs313839-ALT-chip_histone-metadata.csv",
+          "metadata_sha256": "28ab704dfc8125235ef6d117505f48933db946bd73c41722dc68eeb9bbeb3cbf",
+          "values_file": "rs313839-ALT-chip_histone.npz",
+          "values_sha256": "b0249acbe943f1682108e087734d04a7e5a2fd6621d29a5fd29c634ec16fc874",
+          "shape": [
+            8192,
+            11
+          ],
+          "dtype": "float32",
+          "chromosome": "chr19",
+          "start0": 46192838,
+          "end0": 47241414,
+          "resolution": 128
+        }
+      ],
+      "finished_at_utc": "2026-09-15T18:59:07.918366+00:00"
+    }
+  ],
+  "finished_at_utc": "2026-09-15T18:59:07.919151+00:00"
+}

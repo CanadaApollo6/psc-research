@@ -1,0 +1,143 @@
+experiment,assay_title,histone_mark,selected_group,search_audit_levels,status
+ENCSR000ASI,Histone ChIP-seq,H2AFZ,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ASJ,Histone ChIP-seq,H3K27ac,H3K27ac,INTERNAL_ACTION;WARNING,selected by prespecified accession/metadata order
+ENCSR000ASK,Histone ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ASL,Histone ChIP-seq,H3K36me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ASM,Histone ChIP-seq,H3K4me1,H3K4me1,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,selected by prespecified accession/metadata order
+ENCSR000ASN,Histone ChIP-seq,H3K4me3,H3K4me3,INTERNAL_ACTION;WARNING,selected by prespecified accession/metadata order
+ENCSR000ASO,Histone ChIP-seq,H3K79me2,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ASP,Histone ChIP-seq,H3K9me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ASQ,Histone ChIP-seq,H4K20me1,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ATE,Histone ChIP-seq,H3K4me2,,ERROR;INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ATF,Histone ChIP-seq,H3K9ac,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ATN,TF ChIP-seq,CTCF,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000AUU,Control ChIP-seq,,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000CKW,CAGE,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR000CTY,polyA minus RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR000CUC,polyA plus RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR000CVN,small RNA-seq,,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000DWK,Control ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR000DWL,Histone ChIP-seq,H3K4me3,H3K4me3,INTERNAL_ACTION;WARNING,selected by prespecified accession/metadata order
+ENCSR000DWM,Histone ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR000ELE,DNase-seq,,DNase-seq,ERROR;INTERNAL_ACTION,experiment audit ERROR
+ENCSR000EPK,DNase-seq,,DNase-seq,INTERNAL_ACTION,selected by prespecified accession/metadata order
+ENCSR009WQK,snATAC-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR012PII,Histone ChIP-seq,H3K27ac,H3K27ac,INTERNAL_ACTION;WARNING,selected by prespecified accession/metadata order
+ENCSR017BUL,WGBS,,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR065SKV,Histone ChIP-seq,H3K27ac,H3K27ac,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR071LSL,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR072WBA,total RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR073CPU,DNase-seq,,DNase-seq,INTERNAL_ACTION,selected by prespecified accession/metadata order
+ENCSR077ETS,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR080XUB,Histone ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR083DZB,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR086KHK,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR101KYT,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR102GGG,Histone ChIP-seq,H3K27ac,H3K27ac,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR103ZWK,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR154CBP,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR158GGH,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR162KZY,TF ChIP-seq,CTCF,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR162RMW,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR165PMH,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR167XYG,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR173UJQ,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR182QBE,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR191YDG,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR197UDN,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR199APR,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR201XLV,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR213GEE,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR223HHH,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR229QWH,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR231COZ,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR236EYO,intact Hi-C,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR236JVK,Histone ChIP-seq,H3K9me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR241BNZ,DNase-seq,,DNase-seq,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR244XWL,Histone ChIP-seq,H3K36me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR245YME,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR252NGG,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR264LON,polyA plus RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR267NWZ,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR277ZHX,DNase-seq,,DNase-seq,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR284ZZR,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR288RCG,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR297FIU,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR310WXY,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR319HLH,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR343TXL,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR351BFL,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR364YDG,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR365IQY,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR369WFK,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR376UDG,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR378EPS,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR384HOK,polyA plus RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR386IID,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR400VWA,Histone ChIP-seq,H3K4me1,H3K4me1,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,selected by prespecified accession/metadata order
+ENCSR405UWS,total RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR406DUQ,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR410OWB,snATAC-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR417AIG,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR418PAC,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR444GJM,Control ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR444SKT,intact Hi-C,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR451UAB,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR452DCM,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR464ETX,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR465SUK,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR467YDA,polyA plus RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR476KXY,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR487WNP,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR491DPW,DNase-seq,,DNase-seq,,later accession after two qualifying experiments
+ENCSR500ZQD,DNase-seq,,DNase-seq,,later accession after two qualifying experiments
+ENCSR509FRR,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR514NZF,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR527GTR,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR539ZYY,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR555VYM,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR561MDN,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR601HWV,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR609PYW,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR617NSY,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR623ARV,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR629GFF,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR638OAH,polyA plus RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR660UYR,Control ChIP-seq,,,,outside prespecified assay/mark scope
+ENCSR663IRI,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR665QZU,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR674JIL,DNase-seq,,DNase-seq,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR677ZMY,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR685BBN,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR690NZN,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR695AUY,DNase-seq,,DNase-seq,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR698REG,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR699PTC,total RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR700VUT,DNase-seq,,DNase-seq,,later accession after two qualifying experiments
+ENCSR707HMU,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR769FIE,total RNA-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR781KKA,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR787IEM,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR790KDX,Mint-ChIP-seq,H3K36me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR796FCS,Histone ChIP-seq,H3K4me3,H3K4me3,INTERNAL_ACTION;WARNING,later accession after two qualifying experiments
+ENCSR799KCK,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR813FVY,Mint-ChIP-seq,H3K4me1,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR821CPA,Mint-ChIP-seq,H3K27ac,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR867UMZ,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR889CFS,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR889VGA,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR905LVO,total RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR905UNZ,Mint-ChIP-seq,H3K4me3,,INTERNAL_ACTION;NOT_COMPLIANT;WARNING,outside prespecified assay/mark scope
+ENCSR906STR,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR913VNJ,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR916HXX,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR921XFY,total RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR943TGB,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR943WGU,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR956AOH,DNase-seq,,DNase-seq,,later accession after two qualifying experiments
+ENCSR958CUX,Control Mint-ChIP-seq,,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR968ACN,polyA plus RNA-seq,,,INTERNAL_ACTION,outside prespecified assay/mark scope
+ENCSR974QPL,DNase-seq,,DNase-seq,INTERNAL_ACTION,later accession after two qualifying experiments
+ENCSR985RAJ,Mint-ChIP-seq,H3K27me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR991KBE,Mint-ChIP-seq,H3K9me3,,INTERNAL_ACTION;WARNING,outside prespecified assay/mark scope
+ENCSR992MUF,polyA plus RNA-seq,,,INTERNAL_ACTION;NOT_COMPLIANT,outside prespecified assay/mark scope

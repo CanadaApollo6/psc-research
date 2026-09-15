@@ -1,0 +1,315 @@
+{
+  "completed_at_utc": "2026-09-15T19:03:43.180394+00:00",
+  "plan_sha256": "5c46354a7df6ed2a6e20ec78169c1a858dfb87c92b107677f243d9bacc46afd3",
+  "selection_sha256": "8e2eb055b7d666fa09b3facac1dfbb76d24b8ea61de3bdf7773fb304e1537a9e",
+  "reason": "Embedded ENCODE object responses do not include computed audit fields. Recover them through exact File search and the full Experiment search, before peak download or regional peak inspection.",
+  "selection_changed": false,
+  "new_prediction_scores_inspected_by_this_step": false,
+  "selected": [
+    {
+      "experiment": "ENCSR000ASJ",
+      "group": "H3K27ac",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF560PQQ",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 2222727,
+      "publisher_md5": "c1791ff8f21cc180431fea1dffa18d29",
+      "download_url": "https://www.encodeproject.org/files/ENCFF560PQQ/@@download/ENCFF560PQQ.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASJ.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF560PQQ.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR000ASM",
+      "group": "H3K4me1",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF493TKQ",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 2499540,
+      "publisher_md5": "2be356b5488eca075e1aa4e256b85335",
+      "download_url": "https://www.encodeproject.org/files/ENCFF493TKQ/@@download/ENCFF493TKQ.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "NOT_COMPLIANT",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "NOT_COMPLIANT",
+        "WARNING"
+      ],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASM.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF493TKQ.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR000ASN",
+      "group": "H3K4me3",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF112PES",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 1463977,
+      "publisher_md5": "9016f7f30e545354f5e3549676775c66",
+      "download_url": "https://www.encodeproject.org/files/ENCFF112PES/@@download/ENCFF112PES.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASN.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF112PES.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR000DWL",
+      "group": "H3K4me3",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF651GXK",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 624226,
+      "publisher_md5": "5f89b85671f845d839cd6e8def6cd8a0",
+      "download_url": "https://www.encodeproject.org/files/ENCFF651GXK/@@download/ENCFF651GXK.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS609ENC"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000DWL.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF651GXK.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR000EPK",
+      "group": "DNase-seq",
+      "assay_title": "DNase-seq",
+      "file_accession": "ENCFF037QHE",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 1252114,
+      "publisher_md5": "901a4e69d0ab86be4d91ee3e6a251c8a",
+      "download_url": "https://www.encodeproject.org/files/ENCFF037QHE/@@download/ENCFF037QHE.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION"
+      ],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS477CHZ"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000EPK.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF037QHE.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR012PII",
+      "group": "H3K27ac",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF933WTT",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 1073472,
+      "publisher_md5": "4ed334c91166a9a35b6929c14fd7ccb1",
+      "download_url": "https://www.encodeproject.org/files/ENCFF933WTT/@@download/ENCFF933WTT.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "WARNING"
+      ],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS945EIT"
+      ],
+      "donor_ids": [
+        "ENCDO190HXC"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR012PII.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF933WTT.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR073CPU",
+      "group": "DNase-seq",
+      "assay_title": "DNase-seq",
+      "file_accession": "ENCFF150UHK",
+      "file_format": "bed",
+      "file_format_type": "bed3+",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 178422,
+      "publisher_md5": "4d95e3fb613c514097e9a474a48e03d9",
+      "download_url": "https://www.encodeproject.org/files/ENCFF150UHK/@@download/ENCFF150UHK.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION"
+      ],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS122AWE",
+        "ENCBS440HXN"
+      ],
+      "donor_ids": [
+        "ENCDO550JMB"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR073CPU.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF150UHK.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    },
+    {
+      "experiment": "ENCSR400VWA",
+      "group": "H3K4me1",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF366GZW",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 2327783,
+      "publisher_md5": "48714d5fd352a55ce2cf1803becfc7b0",
+      "download_url": "https://www.encodeproject.org/files/ENCFF366GZW/@@download/ENCFF366GZW.bed.gz",
+      "experiment_audit_levels": [
+        "INTERNAL_ACTION",
+        "NOT_COMPLIANT",
+        "WARNING"
+      ],
+      "file_audit_levels": [
+        "INTERNAL_ACTION",
+        "NOT_COMPLIANT"
+      ],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS945EIT"
+      ],
+      "donor_ids": [
+        "ENCDO190HXC"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR400VWA.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF366GZW.json",
+      "qualified": true,
+      "qualification_note": "Computed audit search checked; embedded object frame omitted audit fields."
+    }
+  ],
+  "source_sha256": {
+    "config/prkd2-mechanism-encode-selection.json": "8e2eb055b7d666fa09b3facac1dfbb76d24b8ea61de3bdf7773fb304e1537a9e",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments-limit200.json": "659ec252fa371db0f3afce61ae17a6cb7f3ab76b0c5dbfee2040a478e16bdb06",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF560PQQ.json": "08f7211b1303abf1a43da1b03a105bc3b520841f1733374db7d0604bfccbb473",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF560PQQ-receipt.json": "f0722618ca5cb29bfc51447572ea7a1f95fce73fdc8a45e6b1778c44411bc66b",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF560PQQ.json": "2e24c7a21bcda51557eb0aa824107a57a24dda59aaa7e9f3617787e187410feb",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF493TKQ.json": "715f8004ad89c4f8628b450bbdc51dd358c7ca3199ff01d6e040b2fdd27a4229",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF493TKQ-receipt.json": "8f9eed4ad5f5d2142573c5ea67058c63320501ba91d996564a91d9fd76746fce",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF493TKQ.json": "870c3cddd9c1deb6feccc836ae218ff4cc4369f13e9250ae9800782d67302988",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF112PES.json": "ec3981f13c17fb17d5adb60f92f8fed71617d5088f95d84c0b310d074dbdd5e9",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF112PES-receipt.json": "2a1e8425c100e3f2a38b66a71fd4c668dbcd00fbc49520abcbefd117627e0e97",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF112PES.json": "e3a6a36d24e92ede08ccd30e3a290d61849bbde97f9439118ad40544b5d2fd5b",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF651GXK.json": "4f5c580ea2b17966cb7e355e3dfc92ee6fca8d3f308e41f5e729fc2267113e10",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF651GXK-receipt.json": "c29911cff97acf351b65cedd938016e2099ffa61737c56c0ed82967ee1904ac8",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF651GXK.json": "a46526dc93f505542bbfa32e9c9d4f53d7524c1c8ca9e533d18dea94316af188",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF037QHE.json": "31476c760ff677f22f602eacf7b28ac8796f570f069b3b6dfadd104214ce75ad",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF037QHE-receipt.json": "c77e4fdc108062ea140fd83516c2ec3d837e28109881757a81562b16d08075ec",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF037QHE.json": "9e545cc7adb14e057ef8b803c7c01f0733f82aaab73d3270b438a5a582d3d01b",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF933WTT.json": "ac6d9cdd3090c96597fbe2e5a19fde12ecab07a9ba7f0b7244928052bada8ff7",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF933WTT-receipt.json": "ed62a4390cafe73f61afa6d825664d0f83ceca0382fa146ade81b65d982a992f",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF933WTT.json": "c4a3661a7f033c228984265f30d833ec1a4d470837a4dc9008ec57784f15b4be",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF150UHK.json": "b089972e043d0cf6eb915000af81a8e677f8e21fd88e0e9180501039cd539ff5",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF150UHK-receipt.json": "b400fad369c8d55bc861ed1b029783b8d10310ae299db2e797cb25f6215a02a2",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF150UHK.json": "f27c9e261d943125812781eb42ce94cfd270c2c98bc39260dc53f8dacd2509e7",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF366GZW.json": "b615e67919b3fbab37d4bed19b6628119f2e79b38e3fcf5032156250ea0619d4",
+    "data/raw/prkd2-mechanism/encode/selected-file-audit-ENCFF366GZW-receipt.json": "0540300b4e52d0c74eb1b3a72d20abb87dbf26ab40030b900e8d43d7db1fe7b9",
+    "config/prkd2-mechanism-encode-requests/selected-file-audit-ENCFF366GZW.json": "c27322a83476d1d2d06eb6bb225eb047aae7aad435c5fe45775c8868a83549d0"
+  },
+  "script_sha256": "76b5912361a01829e4ac33144dd59312657c26f13d344a56f289d87c2948badd"
+}

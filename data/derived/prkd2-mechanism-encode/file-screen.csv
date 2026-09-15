@@ -1,0 +1,372 @@
+experiment,file_accession,assembly,file_status,file_format,output_type,file_size,audit_levels,eligible,reason,biological_replicates
+ENCSR000ASJ,ENCFF000CEE,hg19,archived,bigBed,peaks,2246938,,False,file not released; file not GRCh38; not BED,
+ENCSR000ASJ,ENCFF000CEF,hg19,archived,bam,alignments,1045097054,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF000CEG,hg19,archived,bam,alignments,923673505,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF000CEH,hg19,archived,bigWig,signal,313486090,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASJ,ENCFF000CEN,,released,fastq,reads,977664702,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF000CEO,,released,fastq,reads,852314344,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF001TAO,hg19,archived,bed,peaks,1183619,,False,file not released; file not GRCh38,
+ENCSR000ASJ,ENCFF014BCD,GRCh38,released,bam,alignments,877642366,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF552MVN,GRCh38,released,bigWig,signal p-value,1087209942,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASJ,ENCFF184QLM,GRCh38,released,bigBed,pseudoreplicated peaks,3197787,,False,not BED; not an eligible peak output,1
+ENCSR000ASJ,ENCFF541EYI,GRCh38,released,bam,unfiltered alignments,1183796670,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF055REK,GRCh38,released,bigWig,signal p-value,960342044,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF573JCY,GRCh38,released,bigWig,signal p-value,1006172817,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF037MPE,GRCh38,released,bed,pseudoreplicated peaks,1648675,,False,not an eligible peak output,1
+ENCSR000ASJ,ENCFF471QGU,GRCh38,released,bed,pseudoreplicated peaks,2147653,,False,not an eligible peak output,1;2
+ENCSR000ASJ,ENCFF013PCD,GRCh38,released,bigBed,pseudoreplicated peaks,3974778,,False,not BED; not an eligible peak output,1;2
+ENCSR000ASJ,ENCFF108MNE,GRCh38,released,bigBed,pseudoreplicated peaks,3513487,,False,not BED; not an eligible peak output,2
+ENCSR000ASJ,ENCFF495FGR,GRCh38,released,bigBed,replicated peaks,3945741,,False,not BED,1;2
+ENCSR000ASJ,ENCFF356TSV,GRCh38,released,bam,unfiltered alignments,1058077889,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF760YJS,GRCh38,released,bam,unfiltered alignments,1206721228,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF329AXT,GRCh38,released,bam,alignments,824790496,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF835ZFV,GRCh38,released,bam,alignments,902859415,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF138WOV,GRCh38,released,bigBed,peaks,5840931,,False,not BED,2
+ENCSR000ASJ,ENCFF766KYV,GRCh38,released,bed,peaks,2488488,,True,,1;2
+ENCSR000ASJ,ENCFF068QTF,GRCh38,released,bigBed,peaks,5507300,,False,not BED,1
+ENCSR000ASJ,ENCFF039XWV,GRCh38,released,bed,peaks,2120227,,True,,1
+ENCSR000ASJ,ENCFF377OXS,GRCh38,released,bigBed,peaks,6334751,,False,not BED,1;2
+ENCSR000ASJ,ENCFF381GZG,GRCh38,released,bigWig,signal p-value,534644895,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF526GZE,GRCh38,released,bigWig,fold change over control,653216814,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASJ,ENCFF107BDD,GRCh38,released,bed,peaks,2216004,,True,,2
+ENCSR000ASJ,ENCFF395ENI,GRCh38,released,bigWig,signal p-value,689031714,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASJ,ENCFF560PQQ,GRCh38,released,bed,replicated peaks,2222727,,True,,1;2
+ENCSR000ASJ,ENCFF239LOH,GRCh38,released,bigBed,replicated peaks,4174446,,False,not BED,1;2
+ENCSR000ASJ,ENCFF612JMQ,GRCh38,released,bigWig,fold change over control,392289394,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF434ASF,GRCh38,released,bigWig,signal p-value,607700559,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF800NRR,GRCh38,released,bigWig,fold change over control,430844802,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF072KCY,hg19,archived,tagAlign,alignments,191906822,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASJ,ENCFF840HBF,hg19,archived,bigWig,signal p-value,562372535,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASJ,ENCFF806FPS,hg19,archived,bigWig,fold change over control,554929298,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASJ,ENCFF626EZM,hg19,archived,bed,peaks,2546520,,False,file not released; file not GRCh38,
+ENCSR000ASJ,ENCFF231RHP,hg19,released,bam,unfiltered alignments,1205315397,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF615XCI,hg19,released,bam,alignments,825167107,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF725BPA,hg19,released,bam,unfiltered alignments,1056819528,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF643HON,hg19,released,bam,alignments,903276965,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF035ZPH,hg19,released,bigBed,peaks,6411507,,False,file not GRCh38; not BED,1;2
+ENCSR000ASJ,ENCFF688OAN,hg19,released,bigWig,signal p-value,788949549,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF842AUY,hg19,released,bed,peaks,2225956,,False,file not GRCh38,1
+ENCSR000ASJ,ENCFF213TOG,hg19,released,bed,peaks,2285893,,False,file not GRCh38,2
+ENCSR000ASJ,ENCFF258LKG,hg19,released,bigBed,peaks,5721046,,False,file not GRCh38; not BED,1
+ENCSR000ASJ,ENCFF931PZJ,hg19,released,bigWig,fold change over control,847667453,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASJ,ENCFF122ILD,hg19,released,bed,peaks,2554659,,False,file not GRCh38,1;2
+ENCSR000ASJ,ENCFF500PMX,hg19,released,bigBed,peaks,5977111,,False,file not GRCh38; not BED,2
+ENCSR000ASJ,ENCFF670GNZ,hg19,released,bigWig,signal p-value,786194277,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF195PCP,hg19,released,bigWig,signal p-value,1055284730,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASJ,ENCFF177PWL,hg19,released,bigWig,fold change over control,568537157,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF468QFA,hg19,released,bigWig,fold change over control,531631071,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF221DZR,hg19,released,bed,replicated peaks,2242863,,False,file not GRCh38,1;2
+ENCSR000ASJ,ENCFF954GIU,hg19,released,bigBed,replicated peaks,4171094,,False,file not GRCh38; not BED,1;2
+ENCSR000ASJ,ENCFF078DZN,GRCh38,released,bigWig,fold change over control,584069004,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF892OTG,GRCh38,released,bed,pseudoreplicated peaks,1781118,,False,not an eligible peak output,2
+ENCSR000ASJ,ENCFF840NSV,GRCh38,released,bed,replicated peaks,2130842,,True,,1;2
+ENCSR000ASJ,ENCFF068YQE,GRCh38,released,bam,unfiltered alignments,1037885305,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASJ,ENCFF872QFO,GRCh38,released,bam,alignments,961474733,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF948MET,GRCh38,released,bigWig,fold change over control,640680663,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASJ,ENCFF184NWF,GRCh38,released,bigWig,fold change over control,937676936,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF000CDA,hg19,archived,bigBed,peaks,2701168,,False,file not released; file not GRCh38; not BED,
+ENCSR000ASM,ENCFF000CDB,hg19,archived,bam,alignments,758332969,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF000CDC,hg19,archived,bam,alignments,576595477,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF000CDD,hg19,archived,bigWig,signal,186749381,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASM,ENCFF000CDK,,released,fastq,reads,553303057,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF000CDL,,released,fastq,reads,752366171,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF001TAJ,hg19,archived,bed,peaks,1764934,,False,file not released; file not GRCh38,
+ENCSR000ASM,ENCFF506SDE,GRCh38,released,bam,unfiltered alignments,687410084,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF537IBB,GRCh38,released,bam,unfiltered alignments,927500379,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF319SPU,hg19,released,bam,unfiltered alignments,686725037,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF614MTV,hg19,released,bam,unfiltered alignments,926262212,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF925THW,hg19,released,bam,alignments,511440270,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF632HSE,GRCh38,released,bam,alignments,511214904,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF272HBX,GRCh38,released,bam,alignments,485907951,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF177IQB,hg19,released,bam,alignments,486134565,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF894FTZ,hg19,archived,tagAlign,alignments,123575920,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASM,ENCFF278JTQ,hg19,archived,bigWig,fold change over control,383390700,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASM,ENCFF560XPC,hg19,archived,bigWig,signal p-value,514768235,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASM,ENCFF109IVL,GRCh38,released,bigBed,peaks,5951014,,False,not BED,1
+ENCSR000ASM,ENCFF767HQL,GRCh38,released,bed,peaks,2228223,,True,,1
+ENCSR000ASM,ENCFF783HWY,GRCh38,released,bed,peaks,2088471,,True,,2
+ENCSR000ASM,ENCFF382HJD,GRCh38,released,bed,peaks,2148108,,True,,1;2
+ENCSR000ASM,ENCFF714XMS,GRCh38,released,bigBed,peaks,5637164,,False,not BED,2
+ENCSR000ASM,ENCFF905MED,GRCh38,released,bigBed,peaks,5821690,,False,not BED,1;2
+ENCSR000ASM,ENCFF239AZO,GRCh38,released,bigWig,signal p-value,512773925,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF130AJQ,GRCh38,released,bigWig,signal p-value,534896751,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF864HZP,GRCh38,released,bigWig,signal p-value,570584476,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF392IIK,GRCh38,released,bigWig,fold change over control,227901266,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF579IKK,GRCh38,released,bigWig,fold change over control,392778983,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF625MFI,GRCh38,released,bigWig,fold change over control,236780666,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF493TKQ,GRCh38,released,bed,replicated peaks,2499540,,True,,1;2
+ENCSR000ASM,ENCFF673ZGJ,GRCh38,released,bigBed,replicated peaks,4683293,,False,not BED,1;2
+ENCSR000ASM,ENCFF573MNS,GRCh38,released,bam,alignments,545801058,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF404PQG,GRCh38,released,bigWig,signal p-value,913786916,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF070MLY,GRCh38,released,bigWig,fold change over control,542579250,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF432JAG,GRCh38,released,bed,pseudoreplicated peaks,2517593,,False,not an eligible peak output,1;2
+ENCSR000ASM,ENCFF245BTL,GRCh38,released,bigBed,pseudoreplicated peaks,4645105,,False,not BED; not an eligible peak output,1;2
+ENCSR000ASM,ENCFF936EOS,hg19,released,bigBed,peaks,5986084,,False,file not GRCh38; not BED,1
+ENCSR000ASM,ENCFF107UXX,hg19,released,bigBed,peaks,5804982,,False,file not GRCh38; not BED,1;2
+ENCSR000ASM,ENCFF350DMJ,hg19,released,bigWig,signal p-value,512765261,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF600ZBT,hg19,released,bigBed,peaks,5639869,,False,file not GRCh38; not BED,2
+ENCSR000ASM,ENCFF388GOF,hg19,released,bed,peaks,2242929,,False,file not GRCh38,1
+ENCSR000ASM,ENCFF284BLP,hg19,released,bed,peaks,2089227,,False,file not GRCh38,2
+ENCSR000ASM,ENCFF666FZP,hg19,released,bed,peaks,2147267,,False,file not GRCh38,1;2
+ENCSR000ASM,ENCFF848ZXB,hg19,released,bigWig,signal p-value,540092301,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF432WWX,hg19,released,bigWig,fold change over control,238622043,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF954MCG,hg19,released,bigBed,replicated peaks,4678714,,False,file not GRCh38; not BED,1;2
+ENCSR000ASM,ENCFF551WTT,hg19,released,bigWig,signal p-value,569619951,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF339FZJ,hg19,released,bigWig,fold change over control,226884150,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF731YSQ,hg19,released,bigWig,fold change over control,393486257,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASM,ENCFF608BGQ,hg19,released,bed,replicated peaks,2496808,,False,file not GRCh38,1;2
+ENCSR000ASM,ENCFF669AVC,GRCh38,released,bigWig,fold change over control,333427334,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF719NSJ,GRCh38,released,bed,replicated peaks,2448357,,True,,1;2
+ENCSR000ASM,ENCFF506HQE,GRCh38,released,bigWig,signal p-value,857605454,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF698WWK,GRCh38,released,bigBed,pseudoreplicated peaks,4332555,,False,not BED; not an eligible peak output,2
+ENCSR000ASM,ENCFF871RRU,GRCh38,released,bam,unfiltered alignments,910107226,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF232WBI,GRCh38,released,bam,unfiltered alignments,674887760,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF141KHX,GRCh38,released,bam,alignments,518360426,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF128NER,GRCh38,released,bigWig,signal p-value,827468099,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASM,ENCFF281FSL,GRCh38,released,bigWig,fold change over control,350456312,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASM,ENCFF535JDY,GRCh38,released,bed,pseudoreplicated peaks,2135003,,False,not an eligible peak output,1
+ENCSR000ASM,ENCFF747JTP,GRCh38,released,bed,pseudoreplicated peaks,2282612,,False,not an eligible peak output,2
+ENCSR000ASM,ENCFF063EOQ,GRCh38,released,bigBed,pseudoreplicated peaks,4165878,,False,not BED; not an eligible peak output,1
+ENCSR000ASM,ENCFF885SIK,GRCh38,released,bigBed,replicated peaks,4520937,,False,not BED,1;2
+ENCSR000ASN,ENCFF000CDM,hg19,archived,bigBed,peaks,1826150,,False,file not released; file not GRCh38; not BED,
+ENCSR000ASN,ENCFF000CDN,hg19,archived,bam,alignments,785614264,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF000CDO,hg19,archived,bam,alignments,891228442,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF000CDP,hg19,archived,bigWig,signal,225954434,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASN,ENCFF000CDX,,released,fastq,reads,876159551,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF000CDZ,,released,fastq,reads,807561114,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF001TAL,hg19,archived,bed,peaks,1048252,,False,file not released; file not GRCh38,
+ENCSR000ASN,ENCFF144PKE,GRCh38,released,bam,alignments,1766785209,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF640GCK,GRCh38,released,bam,alignments,536059354,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF284CAJ,GRCh38,released,bigWig,signal p-value,1063643018,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF587XGD,GRCh38,released,bigWig,fold change over control,1195542570,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF626LBY,GRCh38,released,bigWig,signal p-value,1239008068,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF992KDU,GRCh38,released,bed,pseudoreplicated peaks,1306590,,False,not an eligible peak output,1
+ENCSR000ASN,ENCFF938FAI,GRCh38,released,bed,pseudoreplicated peaks,1436297,,False,not an eligible peak output,1;2
+ENCSR000ASN,ENCFF153KWL,GRCh38,released,bigBed,pseudoreplicated peaks,2782198,,False,not BED; not an eligible peak output,1
+ENCSR000ASN,ENCFF761VEY,GRCh38,released,bam,unfiltered alignments,957693569,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF994YEY,GRCh38,released,bigWig,signal p-value,894306851,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF367ZHA,GRCh38,released,bigWig,fold change over control,365987136,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF399MSH,,released,fastq,reads,1104738908,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF673FDJ,GRCh38,released,bed,pseudoreplicated peaks,1223320,,False,not an eligible peak output,2
+ENCSR000ASN,ENCFF807WDX,GRCh38,released,bigBed,pseudoreplicated peaks,2972681,,False,not BED; not an eligible peak output,1;2
+ENCSR000ASN,ENCFF947JHS,GRCh38,released,bigBed,replicated peaks,2978380,,False,not BED,1;2
+ENCSR000ASN,ENCFF794SXN,GRCh38,released,bam,unfiltered alignments,981654127,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF644LDL,GRCh38,released,bam,unfiltered alignments,2608119990,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF393WAI,GRCh38,released,bam,alignments,500116972,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF521ESS,GRCh38,released,bam,alignments,1706198401,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF532BXQ,GRCh38,released,bed,peaks,1117050,,True,,1
+ENCSR000ASN,ENCFF925SJT,GRCh38,released,bed,peaks,1221406,,True,,1;2
+ENCSR000ASN,ENCFF640ZHV,GRCh38,released,bed,peaks,1287341,,True,,2
+ENCSR000ASN,ENCFF695OZQ,GRCh38,released,bigBed,peaks,3738106,,False,not BED,2
+ENCSR000ASN,ENCFF506IQH,GRCh38,released,bigBed,peaks,3304605,,False,not BED,1
+ENCSR000ASN,ENCFF517YIG,GRCh38,released,bigBed,peaks,3517377,,False,not BED,1;2
+ENCSR000ASN,ENCFF152AQH,GRCh38,released,bigWig,signal p-value,790275591,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF702TBF,GRCh38,released,bigWig,signal p-value,481153100,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF468NQS,GRCh38,released,bigWig,fold change over control,749082609,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF308XMM,GRCh38,released,bigWig,signal p-value,806422736,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF691MBD,GRCh38,released,bigBed,replicated peaks,3069602,,False,not BED,1;2
+ENCSR000ASN,ENCFF696WCD,GRCh38,released,bigWig,fold change over control,245262240,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF032QOM,GRCh38,released,bigWig,fold change over control,849246058,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF112PES,GRCh38,released,bed,replicated peaks,1463977,,True,,1;2
+ENCSR000ASN,ENCFF483COQ,hg19,archived,bigWig,fold change over control,434088096,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASN,ENCFF504ZTG,hg19,archived,tagAlign,alignments,152420539,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASN,ENCFF411JJZ,hg19,archived,bigWig,signal p-value,563615443,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR000ASN,ENCFF783WER,hg19,released,bam,alignments,500125226,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF920GNB,hg19,released,bam,unfiltered alignments,968159506,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF780BNB,hg19,released,bam,unfiltered alignments,2584355067,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF921RIQ,hg19,released,bam,alignments,1706266347,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF324KBU,hg19,released,bigWig,fold change over control,847638962,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF816SGF,hg19,released,bigBed,peaks,3369206,,False,file not GRCh38; not BED,1
+ENCSR000ASN,ENCFF828TXC,hg19,released,bigBed,peaks,3732644,,False,file not GRCh38; not BED,2
+ENCSR000ASN,ENCFF584CWR,hg19,released,bigWig,fold change over control,243974260,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF026BNA,hg19,released,bed,replicated peaks,1467132,,False,file not GRCh38,1;2
+ENCSR000ASN,ENCFF202JKC,hg19,released,bigBed,replicated peaks,3071626,,False,file not GRCh38; not BED,1;2
+ENCSR000ASN,ENCFF120BSU,hg19,released,bed,peaks,1145061,,False,file not GRCh38,1
+ENCSR000ASN,ENCFF810DXC,hg19,released,bed,peaks,1287106,,False,file not GRCh38,2
+ENCSR000ASN,ENCFF872DLG,hg19,released,bed,peaks,1222841,,False,file not GRCh38,1;2
+ENCSR000ASN,ENCFF171ORL,hg19,released,bigWig,fold change over control,747321146,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF113NDO,hg19,released,bigBed,peaks,3516501,,False,file not GRCh38; not BED,1;2
+ENCSR000ASN,ENCFF853OEH,hg19,released,bigWig,signal p-value,796817692,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF994LAU,hg19,released,bigWig,signal p-value,518312285,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000ASN,ENCFF417ADS,hg19,released,bigWig,signal p-value,806624008,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1;2
+ENCSR000ASN,ENCFF439PJT,GRCh38,released,bigWig,fold change over control,1071694901,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF269UZP,GRCh38,released,bigBed,pseudoreplicated peaks,2650031,,False,not BED; not an eligible peak output,2
+ENCSR000ASN,ENCFF667OYF,GRCh38,released,bam,unfiltered alignments,2541715123,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000ASN,ENCFF247CME,GRCh38,released,bed,replicated peaks,1444645,,True,,1;2
+ENCSR000DWL,ENCFF001FYA,hg19,archived,bam,alignments,794051214,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF001FYB,hg19,archived,bigBed,hotspots,1176013,,False,file not released; file not GRCh38; not BED; not an eligible peak output,1
+ENCSR000DWL,ENCFF001FYC,hg19,archived,bigBed,peaks,1340038,,False,file not released; file not GRCh38; not BED,1
+ENCSR000DWL,ENCFF001FYD,hg19,archived,bigWig,raw signal,74773662,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF001FYS,,released,fastq,reads,928941088,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF001XHF,hg19,archived,bed,hotspots,668674,,False,file not released; file not GRCh38; not an eligible peak output,1
+ENCSR000DWL,ENCFF001XHG,hg19,archived,bed,peaks,677008,,False,file not released; file not GRCh38,1
+ENCSR000DWL,ENCFF534BNC,GRCh38,released,bam,unfiltered alignments,918043020,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF102ZIF,GRCh38,released,bed,pseudoreplicated peaks,760276,,False,not an eligible peak output,1
+ENCSR000DWL,ENCFF809HTN,GRCh38,released,bigBed,pseudoreplicated peaks,1790027,,False,not BED; not an eligible peak output,1
+ENCSR000DWL,ENCFF014MGB,GRCh38,released,bam,alignments,662602989,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF764OBU,GRCh38,released,bam,alignments,629429056,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF226IHP,GRCh38,released,bam,unfiltered alignments,927927260,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF651GXK,GRCh38,released,bed,peaks,624226,,True,,1
+ENCSR000DWL,ENCFF082YWL,GRCh38,released,bigBed,peaks,1958717,,False,not BED,1
+ENCSR000DWL,ENCFF981SBZ,GRCh38,released,bigBed,pseudoreplicated peaks,1780184,,False,not BED; not an eligible peak output,1
+ENCSR000DWL,ENCFF022GMN,GRCh38,released,bigWig,signal p-value,255412804,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF227YKR,GRCh38,released,bigWig,fold change over control,189943323,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF755NQZ,GRCh38,released,bed,pseudoreplicated peaks,757586,,False,not an eligible peak output,1
+ENCSR000DWL,ENCFF712TBW,hg19,released,bam,unfiltered alignments,926575360,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF999HNW,hg19,released,bam,alignments,629721619,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF485XYG,hg19,released,bigWig,fold change over control,191483621,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF918UFN,hg19,released,bed,peaks,623273,,False,file not GRCh38,1
+ENCSR000DWL,ENCFF071NVM,hg19,released,bigBed,peaks,1955165,,False,file not GRCh38; not BED,1
+ENCSR000DWL,ENCFF331RTL,hg19,released,bigWig,signal p-value,255503692,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF736HIT,hg19,released,bed,pseudoreplicated peaks,755652,,False,file not GRCh38; not an eligible peak output,1
+ENCSR000DWL,ENCFF351RFD,hg19,released,bigBed,pseudoreplicated peaks,1776711,,False,file not GRCh38; not BED; not an eligible peak output,1
+ENCSR000DWL,ENCFF704SGA,GRCh38,released,bigWig,signal p-value,297366604,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000DWL,ENCFF510BSJ,GRCh38,released,bigWig,fold change over control,205739991,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR000EPK,ENCFF000AGH,hg19,archived,bigBed,peaks,1880150,,False,file not released; file not GRCh38; not BED,2
+ENCSR000EPK,ENCFF001DYW,hg19,archived,bigBed,hotspots,4847792,,False,file not released; file not GRCh38; not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF001DYZ,hg19,archived,bigBed,peaks,2822595,,False,file not released; file not GRCh38; not BED,2
+ENCSR000EPK,ENCFF001DZG,,released,fastq,reads,123129410,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF001DZJ,hg19,archived,bam,alignments,2888515207,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF001DZM,hg19,archived,bigWig,raw signal,264746556,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF001SRV,hg19,archived,bed,peaks,1334500,,False,file not released; file not GRCh38,2
+ENCSR000EPK,ENCFF001WQE,hg19,archived,bed,hotspots,2508145,,False,file not released; file not GRCh38; not an eligible peak output,2
+ENCSR000EPK,ENCFF001WQG,hg19,archived,bed,peaks,1637249,,False,file not released; file not GRCh38,2
+ENCSR000EPK,ENCFF001DZH,,released,fastq,reads,3606334750,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF387IFB,GRCh38,released,bigBed,peaks,1682751,,False,not BED,2
+ENCSR000EPK,ENCFF520YSK,GRCh38,released,bigBed,hotspots,2741733,,False,not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF250SRZ,GRCh38,released,bed,FDR cut rate,206887035,,False,not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF867ZDN,GRCh38,released,bed,hotspots,1692937,,False,not an eligible peak output,2
+ENCSR000EPK,ENCFF581KXE,GRCh38,released,bed,peaks,1148036,,True,,2
+ENCSR000EPK,ENCFF422ALH,hg19,released,bed,FDR cut rate,206534153,,False,file not GRCh38; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF459BUQ,hg19,released,bed,hotspots,1690175,,False,file not GRCh38; not an eligible peak output,2
+ENCSR000EPK,ENCFF289XSM,hg19,released,bed,peaks,1145579,,False,file not GRCh38,2
+ENCSR000EPK,ENCFF013XLI,hg19,released,bigBed,peaks,1678432,,False,file not GRCh38; not BED,2
+ENCSR000EPK,ENCFF864WPF,hg19,released,bigBed,hotspots,2735088,,False,file not GRCh38; not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF543QYF,GRCh38,released,bam,unfiltered alignments,3736053557,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF078UVY,GRCh38,archived,bam,alignments,3042211943,,False,file not released; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF579HEP,GRCh38,archived,bed,hotspots,1435694,,False,file not released; not an eligible peak output,2
+ENCSR000EPK,ENCFF669OTR,GRCh38,archived,bed,peaks,1137152,,False,file not released,2
+ENCSR000EPK,ENCFF342MTF,GRCh38,archived,bigBed,peaks,1739840,,False,file not released; not BED,2
+ENCSR000EPK,ENCFF490JAP,GRCh38,archived,bigBed,hotspots,2342607,,False,file not released; not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF560DOD,GRCh38,released,bam,alignments,3013830440,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF659BVQ,GRCh38,released,bigWig,read-depth normalized signal,646088009,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF038AUV,GRCh38,archived,bed,peaks,1153571,,False,file not released,2
+ENCSR000EPK,ENCFF820PCI,GRCh38,archived,bed,hotspots,1645297,,False,file not released; not an eligible peak output,2
+ENCSR000EPK,ENCFF055EZF,GRCh38,archived,bigBed,peaks,1707914,,False,file not released; not BED,2
+ENCSR000EPK,ENCFF924KSD,GRCh38,archived,bigBed,hotspots,2706783,,False,file not released; not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF757YRW,hg19,released,bam,unfiltered alignments,3716692886,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF617IIG,hg19,archived,bigBed,peaks,1680640,,False,file not released; file not GRCh38; not BED,2
+ENCSR000EPK,ENCFF227VKS,hg19,released,bam,alignments,3024288178,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF398USK,hg19,released,bigWig,read-depth normalized signal,643453886,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF105IEG,hg19,archived,bed,hotspots,1639876,,False,file not released; file not GRCh38; not an eligible peak output,2
+ENCSR000EPK,ENCFF110FXW,hg19,archived,bed,peaks,1148786,,False,file not released; file not GRCh38,2
+ENCSR000EPK,ENCFF608LPI,hg19,archived,bigBed,hotspots,2674551,,False,file not released; file not GRCh38; not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF151LVQ,GRCh38,archived,bed,peaks,1500895,,False,file not released,2
+ENCSR000EPK,ENCFF546XJZ,GRCh38,released,starch,peaks,1084441,,False,not BED,2
+ENCSR000EPK,ENCFF975UDE,GRCh38,released,bam,unfiltered alignments,4681081277,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF562EJV,GRCh38,released,bigBed,FDR cut rate,211420971,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF254VNR,GRCh38,released,bam,alignments,2958701621,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF771GZH,GRCh38,released,bed,peaks,997841,,True,,2
+ENCSR000EPK,ENCFF037QHE,GRCh38,released,bed,peaks,1252114,,True,,2
+ENCSR000EPK,ENCFF788LFH,GRCh38,released,bigBed,peaks,2026177,,False,not BED,2
+ENCSR000EPK,ENCFF389PZY,GRCh38,released,bigWig,read-depth normalized signal,619118579,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF410CBB,GRCh38,released,bed,footprints,1366890,,False,not an eligible peak output,2
+ENCSR000EPK,ENCFF134HTP,GRCh38,released,bigBed,footprints,1598481,,False,not BED; not an eligible peak output,2
+ENCSR000EPK,ENCFF627CFM,GRCh38,released,bed,FDR cut rate,206767741,,False,not an eligible peak output; unknown file size or transfer cap,2
+ENCSR000EPK,ENCFF195VNB,GRCh38,released,bigBed,peaks,1647492,,False,not BED,2
+ENCSR000EPK,ENCFF066BIA,GRCh38,released,bed,peaks,3662585,,True,,2
+ENCSR000EPK,ENCFF342YEA,GRCh38,released,bigBed,peaks,6270392,,False,not BED,2
+ENCSR000EPK,ENCFF484PDN,GRCh38,released,bed,peaks,3183357,,True,,2
+ENCSR000EPK,ENCFF337HVI,GRCh38,released,bigBed,peaks,5474417,,False,not BED,2
+ENCSR000EPK,ENCFF365KPE,GRCh38,released,bed,hotspots,2023799,,False,not an eligible peak output,2
+ENCSR000EPK,ENCFF358EHK,GRCh38,released,bigWig,read-depth normalized signal,502791488,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR012PII,ENCFF406DEQ,GRCh38,released,bam,alignments,902583682,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF626UTP,GRCh38,released,bigWig,signal p-value,428974649,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF765EVS,,released,fastq,reads,251426970,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF511CWO,,released,fastq,reads,1154529710,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF045GRC,hg19,released,bam,unfiltered alignments,1561303430,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF267RXI,GRCh38,released,bam,unfiltered alignments,1563561240,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF452ZIB,hg19,released,bam,alignments,821523625,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF680VNR,GRCh38,released,bam,alignments,821184384,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF294JUQ,hg19,archived,tagAlign,alignments,135401363,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF848QWQ,hg19,archived,bigWig,signal p-value,474263077,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF025QOB,hg19,archived,bigWig,fold change over control,399368282,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF109MIW,hg19,archived,bed,peaks,2967168,,False,file not released; file not GRCh38,1
+ENCSR012PII,ENCFF700YVZ,hg19,archived,bed,peaks,1128771,,False,file not released; file not GRCh38,1
+ENCSR012PII,ENCFF310YRX,GRCh38,released,bigBed,peaks,3058449,,False,not BED,1
+ENCSR012PII,ENCFF601NLG,GRCh38,released,bigWig,fold change over control,324915494,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF805KSN,GRCh38,released,bigBed,pseudoreplicated peaks,2472107,,False,not BED; not an eligible peak output,1
+ENCSR012PII,ENCFF754MVG,GRCh38,released,bigWig,signal p-value,412590169,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF933WTT,GRCh38,released,bed,peaks,1073472,,True,,1
+ENCSR012PII,ENCFF544QYY,GRCh38,released,bed,pseudoreplicated peaks,1181726,,False,not an eligible peak output,1
+ENCSR012PII,ENCFF706YSV,hg19,released,bed,pseudoreplicated peaks,1181097,,False,file not GRCh38; not an eligible peak output,1
+ENCSR012PII,ENCFF816YAW,hg19,released,bigBed,peaks,3056931,,False,file not GRCh38; not BED,1
+ENCSR012PII,ENCFF442PAD,hg19,released,bed,peaks,1073850,,False,file not GRCh38,1
+ENCSR012PII,ENCFF127PBY,hg19,released,bigWig,signal p-value,413060489,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF439NLA,hg19,released,bigBed,pseudoreplicated peaks,2469879,,False,file not GRCh38; not BED; not an eligible peak output,1
+ENCSR012PII,ENCFF437JSB,hg19,released,bigWig,fold change over control,324714302,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF182UAN,GRCh38,released,bam,unfiltered alignments,1522826533,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF116NCG,GRCh38,released,bigWig,fold change over control,359439809,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR012PII,ENCFF505MRR,GRCh38,released,bed,pseudoreplicated peaks,1188387,,False,not an eligible peak output,1
+ENCSR012PII,ENCFF300JJI,GRCh38,released,bigBed,pseudoreplicated peaks,2457907,,False,not BED; not an eligible peak output,1
+ENCSR073CPU,ENCFF658VRW,,released,fastq,reads,334942182,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF784RDA,,released,fastq,reads,327700507,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR073CPU,ENCFF541WQI,,released,fastq,reads,381255960,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF579QKF,,released,fastq,reads,2629285300,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF192ZVD,,released,fastq,reads,364020061,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF736YZI,,released,fastq,reads,354620664,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR073CPU,ENCFF411XNS,,released,fastq,reads,428390820,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF771YKC,,released,fastq,reads,2681412108,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF722RAX,GRCh38,archived,bed,peaks,311946,,False,file not released,1
+ENCSR073CPU,ENCFF621IEY,GRCh38,released,bed,peaks,506916,,True,,2
+ENCSR073CPU,ENCFF632TAE,GRCh38,archived,bigBed,peaks,770923,,False,file not released; not BED,1
+ENCSR073CPU,ENCFF612UYQ,GRCh38,released,bigBed,peaks,1017463,,False,not BED,2
+ENCSR073CPU,ENCFF051JYU,GRCh38,archived,bed,peaks,179666,,False,file not released,1
+ENCSR073CPU,ENCFF887YFF,GRCh38,released,bed,peaks,291531,,True,,2
+ENCSR073CPU,ENCFF003XLY,GRCh38,archived,bigBed,peaks,507288,,False,file not released; not BED,1
+ENCSR073CPU,ENCFF299GXQ,GRCh38,released,bigBed,peaks,669663,,False,not BED,2
+ENCSR073CPU,ENCFF445WZP,GRCh38,archived,bigWig,read-depth normalized signal,292117704,,False,file not released; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR073CPU,ENCFF200OOT,GRCh38,released,bigWig,read-depth normalized signal,596693950,,False,not BED; not an eligible peak output; unknown file size or transfer cap,2
+ENCSR073CPU,ENCFF984RWB,GRCh38,archived,bed,hotspots,279990,,False,file not released; not an eligible peak output,1
+ENCSR073CPU,ENCFF498YLJ,GRCh38,released,bed,hotspots,354910,,False,not an eligible peak output,2
+ENCSR073CPU,ENCFF260BIM,GRCh38,released,bed,hotspots,278402,,False,not an eligible peak output,1
+ENCSR073CPU,ENCFF117EKH,GRCh38,released,bigWig,read-depth normalized signal,291536221,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR073CPU,ENCFF312EOW,GRCh38,released,bed,peaks,310524,,True,,1
+ENCSR073CPU,ENCFF152GHT,GRCh38,released,bigBed,peaks,767881,,False,not BED,1
+ENCSR073CPU,ENCFF150UHK,GRCh38,released,bed,peaks,178422,,True,,1
+ENCSR073CPU,ENCFF849DQE,GRCh38,released,bigBed,peaks,504324,,False,not BED,1
+ENCSR073CPU,ENCFF325UUF,GRCh38,released,bigBed,footprints,553848,,False,not BED; not an eligible peak output,2
+ENCSR073CPU,ENCFF451QLX,GRCh38,released,bed,footprints,355015,,False,not an eligible peak output,2
+ENCSR073CPU,ENCFF548ZFW,GRCh38,released,bigBed,footprints,116602,,False,not BED; not an eligible peak output,2
+ENCSR073CPU,ENCFF613QKQ,GRCh38,released,bed,footprints,57622,,False,not an eligible peak output,2
+ENCSR400VWA,ENCFF999HST,hg19,archived,tagAlign,alignments,190240660,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF858VSO,,released,fastq,reads,365497626,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF076WOE,,released,fastq,reads,1030219843,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF402BCW,,released,fastq,reads,205825464,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF453PCL,hg19,released,bam,unfiltered alignments,1818205164,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF165PQI,GRCh38,released,bam,unfiltered alignments,1820875763,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF703QII,hg19,released,bam,alignments,1248411524,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF247XHV,GRCh38,released,bam,alignments,1247918279,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF292RJP,hg19,archived,tagAlign,alignments,184870370,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR400VWA,ENCFF614OXS,hg19,archived,bigWig,fold change over control,435017276,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR400VWA,ENCFF109PBC,hg19,archived,bigWig,signal p-value,465717412,,False,file not released; file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,
+ENCSR400VWA,ENCFF782WGQ,hg19,archived,bed,peaks,2369150,,False,file not released; file not GRCh38,
+ENCSR400VWA,ENCFF658GEZ,hg19,archived,bed,peaks,2355145,,False,file not released; file not GRCh38,
+ENCSR400VWA,ENCFF366GZW,GRCh38,released,bed,peaks,2327783,,True,,1
+ENCSR400VWA,ENCFF577YZK,GRCh38,released,bigWig,fold change over control,391660797,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF926LRP,GRCh38,released,bigBed,pseudoreplicated peaks,5633269,,False,not BED; not an eligible peak output,1
+ENCSR400VWA,ENCFF979QTE,GRCh38,released,bigBed,peaks,6276808,,False,not BED,1
+ENCSR400VWA,ENCFF237EQI,GRCh38,released,bigWig,signal p-value,415232136,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF346VAP,GRCh38,released,bed,pseudoreplicated peaks,2933816,,False,not an eligible peak output,1
+ENCSR400VWA,ENCFF563WHD,hg19,released,bigBed,peaks,6443740,,False,file not GRCh38; not BED,1
+ENCSR400VWA,ENCFF929UOK,hg19,released,bigWig,fold change over control,395641741,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF435YMN,hg19,released,bed,peaks,2386805,,False,file not GRCh38,1
+ENCSR400VWA,ENCFF940RGW,hg19,released,bigWig,signal p-value,422793129,,False,file not GRCh38; not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF498NWJ,hg19,released,bed,pseudoreplicated peaks,3023941,,False,file not GRCh38; not an eligible peak output,1
+ENCSR400VWA,ENCFF158WJC,hg19,released,bigBed,pseudoreplicated peaks,5776599,,False,file not GRCh38; not BED; not an eligible peak output,1
+ENCSR400VWA,ENCFF446EKY,GRCh38,released,bigWig,signal p-value,490198541,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF396RZF,GRCh38,released,bam,alignments,1336073141,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF135CCA,GRCh38,released,bigWig,fold change over control,428162107,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF258RIC,GRCh38,released,bigBed,pseudoreplicated peaks,5649824,,False,not BED; not an eligible peak output,1
+ENCSR400VWA,ENCFF357HZH,GRCh38,released,bam,unfiltered alignments,1772975243,,False,not BED; not an eligible peak output; unknown file size or transfer cap,1
+ENCSR400VWA,ENCFF928CYN,GRCh38,released,bed,pseudoreplicated peaks,2980331,,False,not an eligible peak output,1

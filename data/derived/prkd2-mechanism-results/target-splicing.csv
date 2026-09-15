@@ -1,0 +1,22 @@
+rsid,gene_id,modality,track_name,max_absolute_score,status
+rs112445263,ENSG00000105287,SPLICE_SITES,donor,0.0068359375,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITES,acceptor,0.0048828125,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 polyA plus RNA-seq,0.00390625,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 total RNA-seq,0.00390625,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 polyA plus RNA-seq,0.00390625,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 total RNA-seq,0.00390625,available; unsigned
+rs112445263,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0001054 polyA plus RNA-seq,0.00390625,available; unsigned
+rs313839,ENSG00000105287,SPLICE_SITES,donor,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITES,acceptor,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 polyA plus RNA-seq,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 total RNA-seq,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 polyA plus RNA-seq,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 total RNA-seq,,not returned; variant outside target gene mask
+rs313839,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0001054 polyA plus RNA-seq,,not returned; variant outside target gene mask
+rs62134782,ENSG00000105287,SPLICE_SITES,donor,0.0042419434,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITES,acceptor,0.00390625,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 polyA plus RNA-seq,0.00390625,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000236 total RNA-seq,0.00390625,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 polyA plus RNA-seq,0.00390625,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0000624 total RNA-seq,0.00390625,available; unsigned
+rs62134782,ENSG00000105287,SPLICE_SITE_USAGE,usage_CL:0001054 polyA plus RNA-seq,0.00390625,available; unsigned

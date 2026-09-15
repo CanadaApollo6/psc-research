@@ -1,0 +1,4 @@
+rsid,gene_id,ensembl_116_name,signed_rna_median,absolute_rna_median,rna_active_median,primary_tracks,opposed_signs_across_primary_tracks,nearest_tss_distance_bp,fixed_gene_count,status,model_rank,nearest_tss_rank,role,substitution,expected_alt_minus_ref_rna_sign,source_direction_agrees,selected_comparison_count,absolute_effect_minus_comparison_median
+rs112445263,ENSG00000105287,PRKD2,-0.0017060637,0.0017060637,0.3922908,1,False,17045,50,available,12,3,anchor,C>A,1,False,0,
+rs313839,ENSG00000105287,PRKD2,0.027515948,0.027515948,0.40326282,1,False,1156,50,available,1,1,anchor,C>G,1,True,1,0.0263512136
+rs62134782,ENSG00000105287,PRKD2,0.0011647344,0.0011647344,0.39274916,1,False,14982,50,available,19,3,comparison,C>G,,,0,

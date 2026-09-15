@@ -1,0 +1,15 @@
+{
+  "script_sha256": "bc503eeb9676ff6ee20a1a511d53a7db3c093c2aaa763d16cbb790caca863de2",
+  "model_run_sha256": "ca511decd55250073585ba3b8760cfaac302793ef1cce42fa86da3fb3974a66b",
+  "summary_sha256": "7bc5844898ae1408e09ade1cae7b651d35fea149db6ad95b4a80e231eca39743",
+  "crop_rule": "Prespecified \u00b12500 bp, inclusive integer bases; all intersecting model bins retained.",
+  "outputs": {
+    "fixed-crop-summary.csv": "5e36377c723ca40d746c1676fadcf69971ac9d3605184edec455c99c8cc0c16f",
+    "overview.pdf": "5a3ac7a7542743705e89bc3445c4476587fa371351993f777a4f65ee4a7d9ac4",
+    "overview.png": "fbcef83aed50a1944d1940e331ca43ad4b32fb94aafe4468d3948d2784d7c8d0",
+    "rs112445263-fixed-tracks.pdf": "d5467d5056d3996cf5a2281a6c8edcc200fcc48e556eb97244451467a9c5bf5a",
+    "rs112445263-fixed-tracks.png": "ee2f4ab8bbd4b8d311c82be722a58a8057d8f8d44fb872650eab78eb0795b4b8",
+    "rs313839-fixed-tracks.pdf": "49eefabe3783f6fef4288d3a734a8271c14051249b96e8e29863622b775f8bcf",
+    "rs313839-fixed-tracks.png": "f0bfbbfb72dad8a1a83c6d5cbb19c16d2f59268a1fcb510c1774e55c108d3196"
+  }
+}

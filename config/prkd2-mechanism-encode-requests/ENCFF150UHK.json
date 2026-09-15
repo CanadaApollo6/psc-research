@@ -1,0 +1,16 @@
+{
+  "base_url": "https://www.encodeproject.org",
+  "path": "files/ENCFF150UHK/",
+  "params": {
+    "format": "json",
+    "frame": "embedded"
+  },
+  "headers": {
+    "Accept": "application/json"
+  },
+  "timeout_sec": 45,
+  "save_raw": true,
+  "raw_output_path": "/home/riels/Documents/Codex/2026-09-11/hello-astra-this-is-a-health/outputs/psc-research/data/raw/prkd2-mechanism/encode/ENCFF150UHK.json",
+  "max_items": 2,
+  "max_depth": 1
+}

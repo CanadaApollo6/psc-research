@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "model_numerical_cells_exact_float32": 129294,
+  "quantile_cells_exact_float32": 129294,
+  "raw_prediction_arrays_verified": 16,
+  "fixed_gene_rank_rows": 150,
+  "whole_BED_rows_independently_parsed": 591816,
+  "independent_point_file_checks": 32,
+  "reference_LD_cells_independently_verified": 9,
+  "reference_sequence_bases": 1048576,
+  "source_edit_identities_checked": 3,
+  "source_gene_universe_reconstructed": 50,
+  "prior_tracked_files": 1143,
+  "intentional_navigation_updates": [
+    "README.md",
+    "docs/evidence-log.md",
+    "docs/research-plan.md"
+  ],
+  "verifier_sha256": "f34d4b510877ec3584ed11b6e326a7c0d4b5419165877fca0b7fd4531de90d34",
+  "model_run_sha256": "ca511decd55250073585ba3b8760cfaac302793ef1cce42fa86da3fb3974a66b",
+  "limits": "Checks numerical transport, joins, coordinates and deterministic summaries, not biological causality or model accuracy."
+}

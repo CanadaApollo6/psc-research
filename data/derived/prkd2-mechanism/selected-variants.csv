@@ -1,0 +1,4 @@
+rsid,position_grch38_1based,position_grch37_1based,reference,alternate,triplet,mutation_class,cpg,source_control_maf,source_psc_pvalue,distance_to_frozen_tss,source_row,snp,role,matched_anchor,expected_alt_minus_ref_rna_sign,chromosome,interval_start0,interval_end0,ensembl_recorded_alleles,reference_verified
+rs112445263,46700099,47203356,C,A,CCT,C>A,False,0.16,2.45089447866115e-08,17028,3015,chr19:46700099:A:C,anchor,rs112445263,1,chr19,46192838,47241414,C/A/T,True
+rs313839,46718300,47221557,C,G,ACC,C>G,False,0.16,2.11865164971472e-08,1173,3063,chr19:46718300:C:G,anchor,rs313839,1,chr19,46192838,47241414,C/G,True
+rs62134782,46702162,47205419,C,G,CCT,C>G,False,0.24,0.301416420561143,14965,3017,chr19:46702162:C:G,comparison,rs313839,,chr19,46192838,47241414,C/A/G/T,True

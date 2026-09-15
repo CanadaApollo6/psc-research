@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "replay_directory": "work/prkd2-mechanism-replay-20260915T192752Z",
+  "network_or_model_requests": 0,
+  "exact_files": 17,
+  "files": [
+    {
+      "file": "data/derived/prkd2-mechanism-results/all-gene-RNA-effects.csv",
+      "sha256": "01434fe5bd8cf7f62c189518cde9194ec086d7e25deb9e1edeef02af15a1ff36"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/gene-universe-accounting.csv",
+      "sha256": "9c22051b30d11d5cc5bbfb8152912cf92e45bcc0157d32463aea8630c81ea564"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/primary-gene-ranks.csv",
+      "sha256": "e3f2e1f0a3cc799e8760fd72c20faf4fa6ae2a5da70e23bce4e42e83541501fd"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/reference-LD-provenance.json",
+      "sha256": "2b85f9efd3ce768cca8c7fc877a61aa6b697c0d3b4162a7df2d458156f35f962"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/reference-LD.csv",
+      "sha256": "53107fafe9a5bf71e9f9d8038916ccb1bfd61abd205e1d687f68dc22d4371c6d"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/regulatory-scores.csv",
+      "sha256": "6cc7cb61cf0ee48cb5170c816c13a2761e0f7e9108ef9544df129857affb4477"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/summary.json",
+      "sha256": "7bc5844898ae1408e09ade1cae7b651d35fea149db6ad95b4a80e231eca39743"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/target-splicing.csv",
+      "sha256": "da2ad6978c763f955ceab34b6298c87ee9285172eba506b93e8b35d2dcbad55a"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-results/target-summary.csv",
+      "sha256": "19c2f9357a18299fcf5efe02cd6b28930e7b99574a811953cf00f1ca051be01d"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-training/published-monocyte-training-tracks.csv",
+      "sha256": "11bc0115dd0ec31db063792143dc694c2cb80adda440ff73a4d6d3b1f9f96cef"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-training/selected-peak-training-overlap.csv",
+      "sha256": "1716daf78e90c1b9291cb27a5936b6300203a2acb56956f7870d57a16de2cbe8"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-training/training-audit.json",
+      "sha256": "21e818e9a8a88d68b411d047f502e1d610809d47c9bb84c247e79115ee100299"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-training/training-experiment-specimens.csv",
+      "sha256": "27b309318930fc672af7e59e40ab39140dfb2943e4d0e79f205c72d89f0b0c4a"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-encode/peak-analysis.json",
+      "sha256": "76fa4d3d3054ed6cd211f58abaaaad43009d0e0e232b13bc235e9b35fb7da55d"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-encode/peak-overlap-summary.csv",
+      "sha256": "a5be8d49c909774d5bc1641b85e61283fbcf61d810ff1b264e0f954bdf9a6ee8"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-encode/point-nearby-peaks.csv",
+      "sha256": "7a549118cf071daeaf9accd36eeb91b28f7e88c34f520d1091073d6e3d0faf0d"
+    },
+    {
+      "file": "data/derived/prkd2-mechanism-encode/regional-peaks.csv",
+      "sha256": "27555e53da4bd3fd9007ebcb8e66f983bf0822ae81ff786af3959f592ae3ada9"
+    }
+  ],
+  "replay_script_sha256": "e9d7fdae8cd0d5e62a572f9e95b2f3b2ed173082bfa82501a1d0ab30de8e2f1b"
+}

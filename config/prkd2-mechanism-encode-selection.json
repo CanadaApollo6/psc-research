@@ -1,0 +1,318 @@
+{
+  "locked_at_utc": "2026-09-15T18:55:25.728611+00:00",
+  "plan_sha256": "5c46354a7df6ed2a6e20ec78169c1a858dfb87c92b107677f243d9bacc46afd3",
+  "peak_downloads_or_regional_inspection": false,
+  "all_released_cd14_experiments": 142,
+  "assay_counts": {
+    "CAGE": 1,
+    "Control ChIP-seq": 4,
+    "Control Mint-ChIP-seq": 8,
+    "DNase-seq": 39,
+    "Histone ChIP-seq": 21,
+    "Mint-ChIP-seq": 41,
+    "TF ChIP-seq": 2,
+    "WGBS": 1,
+    "intact Hi-C": 2,
+    "polyA minus RNA-seq": 1,
+    "polyA plus RNA-seq": 7,
+    "small RNA-seq": 1,
+    "snATAC-seq": 2,
+    "total RNA-seq": 12
+  },
+  "selected": [
+    {
+      "experiment": "ENCSR000ASJ",
+      "group": "H3K27ac",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF560PQQ",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 2222727,
+      "publisher_md5": "c1791ff8f21cc180431fea1dffa18d29",
+      "download_url": "https://www.encodeproject.org/files/ENCFF560PQQ/@@download/ENCFF560PQQ.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASJ.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF560PQQ.json"
+    },
+    {
+      "experiment": "ENCSR000ASM",
+      "group": "H3K4me1",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF493TKQ",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 2499540,
+      "publisher_md5": "2be356b5488eca075e1aa4e256b85335",
+      "download_url": "https://www.encodeproject.org/files/ENCFF493TKQ/@@download/ENCFF493TKQ.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASM.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF493TKQ.json"
+    },
+    {
+      "experiment": "ENCSR000ASN",
+      "group": "H3K4me3",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF112PES",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "replicated peaks",
+      "assembly": "GRCh38",
+      "bytes": 1463977,
+      "publisher_md5": "9016f7f30e545354f5e3549676775c66",
+      "download_url": "https://www.encodeproject.org/files/ENCFF112PES/@@download/ENCFF112PES.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS188BKX",
+        "ENCBS865RXK"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000ASN.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF112PES.json"
+    },
+    {
+      "experiment": "ENCSR000DWL",
+      "group": "H3K4me3",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF651GXK",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 624226,
+      "publisher_md5": "5f89b85671f845d839cd6e8def6cd8a0",
+      "download_url": "https://www.encodeproject.org/files/ENCFF651GXK/@@download/ENCFF651GXK.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS609ENC"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000DWL.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF651GXK.json"
+    },
+    {
+      "experiment": "ENCSR000EPK",
+      "group": "DNase-seq",
+      "assay_title": "DNase-seq",
+      "file_accession": "ENCFF037QHE",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 1252114,
+      "publisher_md5": "901a4e69d0ab86be4d91ee3e6a251c8a",
+      "download_url": "https://www.encodeproject.org/files/ENCFF037QHE/@@download/ENCFF037QHE.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        2
+      ],
+      "biosample_ids": [
+        "ENCBS477CHZ"
+      ],
+      "donor_ids": [
+        "ENCDO265AAA"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR000EPK.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF037QHE.json"
+    },
+    {
+      "experiment": "ENCSR012PII",
+      "group": "H3K27ac",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF933WTT",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 1073472,
+      "publisher_md5": "4ed334c91166a9a35b6929c14fd7ccb1",
+      "download_url": "https://www.encodeproject.org/files/ENCFF933WTT/@@download/ENCFF933WTT.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS945EIT"
+      ],
+      "donor_ids": [
+        "ENCDO190HXC"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR012PII.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF933WTT.json"
+    },
+    {
+      "experiment": "ENCSR073CPU",
+      "group": "DNase-seq",
+      "assay_title": "DNase-seq",
+      "file_accession": "ENCFF150UHK",
+      "file_format": "bed",
+      "file_format_type": "bed3+",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 178422,
+      "publisher_md5": "4d95e3fb613c514097e9a474a48e03d9",
+      "download_url": "https://www.encodeproject.org/files/ENCFF150UHK/@@download/ENCFF150UHK.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS122AWE",
+        "ENCBS440HXN"
+      ],
+      "donor_ids": [
+        "ENCDO550JMB"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR073CPU.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF150UHK.json"
+    },
+    {
+      "experiment": "ENCSR400VWA",
+      "group": "H3K4me1",
+      "assay_title": "Histone ChIP-seq",
+      "file_accession": "ENCFF366GZW",
+      "file_format": "bed",
+      "file_format_type": "narrowPeak",
+      "output_type": "peaks",
+      "assembly": "GRCh38",
+      "bytes": 2327783,
+      "publisher_md5": "48714d5fd352a55ce2cf1803becfc7b0",
+      "download_url": "https://www.encodeproject.org/files/ENCFF366GZW/@@download/ENCFF366GZW.bed.gz",
+      "experiment_audit_levels": [],
+      "file_audit_levels": [],
+      "biological_replicates": [
+        1
+      ],
+      "biosample_ids": [
+        "ENCBS945EIT"
+      ],
+      "donor_ids": [
+        "ENCDO190HXC"
+      ],
+      "experiment_metadata_file": "data/raw/prkd2-mechanism/encode/ENCSR400VWA.json",
+      "file_metadata_file": "data/raw/prkd2-mechanism/encode/ENCFF366GZW.json"
+    }
+  ],
+  "selected_counts": {
+    "DNase-seq": 2,
+    "H3K27ac": 2,
+    "H3K4me1": 2,
+    "H3K4me3": 2
+  },
+  "total_selected_bytes": 11642261,
+  "empty_ATAC_interpretation": "Direct ATAC search returned 404; complete successful all-assay CD14 inventory independently counts ATAC experiments.",
+  "metadata_source_format": "Full API JSON parsed and reserialized by the installed ENCODE skill; not byte-identical HTTP wire bodies.",
+  "metadata_sha256": {
+    "data/raw/prkd2-mechanism/encode/search-dnase-receipt.json": "e907b9b25c46ba1aea02886cb42d8fba32a705626cb170819c14b8d2eedb0a4f",
+    "data/raw/prkd2-mechanism/encode/search-atac-receipt.json": "dc9c6e9c62158f8d65a153aa22094b416def7d9b502680b3ee06f08bb52d6354",
+    "data/raw/prkd2-mechanism/encode/search-histone-receipt.json": "53d873784c950cd50c562fa61e41907e74a95c0359a1ac4ccc8ca1f5747ee76c",
+    "data/raw/prkd2-mechanism/encode/search-dnase.json": "af5ff58caa0c59d99869fb95019b0119fcf8be4da639d013bf5ba3d9fd9ccf6b",
+    "data/raw/prkd2-mechanism/encode/search-dnase-receipt-retry1.json": "6c605291bc7bf82198c40fa24d4f4dd493a39cad780db0eb7faf6b4b6df3ed90",
+    "data/raw/prkd2-mechanism/encode/search-atac-receipt-retry1.json": "b5b869bd4eea79dda7d64b737dba28e92b43973fdb62d418b763251bed6caebc",
+    "data/raw/prkd2-mechanism/encode/search-histone.json": "5087f09ea241361677166381b7e343b31842dd7cc6f4af3b0a00f8179d9fdf96",
+    "data/raw/prkd2-mechanism/encode/search-histone-receipt-retry1.json": "11a72355fe98c58c8b7b69a216b55e9c00a68ce615b20b4a7eaea6202ba4b305",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments.json": "ad4df7918ddcf0503421281e92a321375a8d471aee68f2b93d7920eb757a224d",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments-receipt.json": "fd6034e12a8569bcddb25f2ddb4d6c3edf026a5d5fe6a9a8fc4077377abc0143",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments-from100-receipt.json": "3542ef6018a9d14be10f8733aa753f4a904b2e20e0b8cafe58ae190392204050",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments-limit200.json": "659ec252fa371db0f3afce61ae17a6cb7f3ab76b0c5dbfee2040a478e16bdb06",
+    "data/raw/prkd2-mechanism/encode/all-released-cd14-experiments-limit200-receipt.json": "008a9191986f123bbf187a2ef7d9df568053854429b7fbc5a8e69d8f06034654",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASJ.json": "faa972ed421b569782f6715a09ca8daa9ae337c5eaf2a87fd24265d68dd4b431",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASJ-receipt.json": "4188f50eb03eb7171278a62a33fd2135570736623012123e5c8c3f27b9066ffd",
+    "data/raw/prkd2-mechanism/encode/ENCFF560PQQ.json": "c285f706afcfb94cbeb5ffc390bab11c459a4cc09d66fc49b5f83b65afe8819b",
+    "data/raw/prkd2-mechanism/encode/ENCFF560PQQ-receipt.json": "00e378740702a83528564d38da2623ef05637c3864aa0970af57a59fa4bbf57e",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASM.json": "20767e693cc94368e13282e3e10306cf918a109af5418c9a68cbb17f8995ab05",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASM-receipt.json": "efb05f0721a4d8a481edd10edeaec9970976c96041a4c3487a47389ad68d9528",
+    "data/raw/prkd2-mechanism/encode/ENCFF493TKQ.json": "4c2dcaf6e762fedd5c5cd40a3f6d363c55731e332b18f11f663e408700dbdff5",
+    "data/raw/prkd2-mechanism/encode/ENCFF493TKQ-receipt.json": "99616abf23322db7b87626aa4b0134eaceb7afc8f5b93b4a20bf31af4456857d",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASN.json": "941b3122db31ff1d5153d0e7a9fd884d4e6a57df4ae0fda9a799935b1a4b586c",
+    "data/raw/prkd2-mechanism/encode/ENCSR000ASN-receipt.json": "fdf8a3d69865d6b236e23a38e7ca01af2024279a06cd56fe97116a1bc0998478",
+    "data/raw/prkd2-mechanism/encode/ENCFF112PES.json": "fd109d2b61dfc63805cb94be2557f7339defe4cf76a473b76a73d3bd59a620e1",
+    "data/raw/prkd2-mechanism/encode/ENCFF112PES-receipt.json": "90b90a82d5002ed043a1e381a59921645340ed12e51ea6ecc10a80e14d746817",
+    "data/raw/prkd2-mechanism/encode/ENCSR000DWL.json": "2402c84c882180f9725eb1efbd5be7f9ccfa0b77969144a941950ba72d3c023d",
+    "data/raw/prkd2-mechanism/encode/ENCSR000DWL-receipt.json": "d2eb644e1f44d648814ef407a74c323cdefa9f33c021f4706054417897152b9e",
+    "data/raw/prkd2-mechanism/encode/ENCFF651GXK.json": "4dd3f4ac16713a347825da4d6ff6e38a62b4deaa47d47bc8681e7360cc95888b",
+    "data/raw/prkd2-mechanism/encode/ENCFF651GXK-receipt.json": "602a9266710bbf33bb7dd7ecc080c71efe891b5cd2603a50a9bf4283b4a63428",
+    "data/raw/prkd2-mechanism/encode/ENCSR000EPK.json": "fa97c3bea9881ec92d48fc5c38989900536735120a122a294933a9cd111195dd",
+    "data/raw/prkd2-mechanism/encode/ENCSR000EPK-receipt.json": "b0e3b42e73cbe908392245861c1f08f0fe9db6723f47075aa9b451e34f2e1c46",
+    "data/raw/prkd2-mechanism/encode/ENCFF037QHE.json": "668c207baf74384b9ea29e0efe71eed9a01005b073ae1cad0f280973f9420bf9",
+    "data/raw/prkd2-mechanism/encode/ENCFF037QHE-receipt.json": "d50dbc5b663ce91c110fe5f007268e66ca70b62a2aa17736143107c7f3ee15bb",
+    "data/raw/prkd2-mechanism/encode/ENCSR012PII.json": "0fdd1fe486e4ee84191e51e8bef94c2107e9ee74dc31002e05fff532af868589",
+    "data/raw/prkd2-mechanism/encode/ENCSR012PII-receipt.json": "682700d7f0e50aa12446be1e3567536e681d0fd02153c4e6f693b62c4b16b733",
+    "data/raw/prkd2-mechanism/encode/ENCFF933WTT.json": "755d42c608c86293234b99fcb0a5a758de8883f0ac33fc9a3adbf8dce42823aa",
+    "data/raw/prkd2-mechanism/encode/ENCFF933WTT-receipt.json": "f05cd0b287ccb0ed14e50ad01df0a5b52c3a63fc99ecf9678f3dc636a6b9198c",
+    "data/raw/prkd2-mechanism/encode/ENCSR073CPU.json": "fad211c5f3bc3fee95ffbca68d953c61a2ca8b7a79606048175b2af3cfd28a7f",
+    "data/raw/prkd2-mechanism/encode/ENCSR073CPU-receipt.json": "67e5e2177f02e227dfc2bff653a1eae940af4d21b7272c1073ec26826a082c1d",
+    "data/raw/prkd2-mechanism/encode/ENCFF150UHK.json": "605d72a0a4605b681f5040923447332ea3b88c2649674e6e7b0a43765d3fbaa6",
+    "data/raw/prkd2-mechanism/encode/ENCFF150UHK-receipt.json": "88d7a829425c5695f8c9f1ffc9931cc43d23796ef2446ffda8e308121b99fa87",
+    "data/raw/prkd2-mechanism/encode/ENCSR400VWA.json": "4ad1155529389c055d5f0d45c8c4403b824b1ec40857a96f5c4a3dde0f442f70",
+    "data/raw/prkd2-mechanism/encode/ENCSR400VWA-receipt.json": "70ccba4af2b73d47664927a25305fff180905e6076d074a147b276ffa330fdda",
+    "data/raw/prkd2-mechanism/encode/ENCFF366GZW.json": "068c04872d3bf20f1463cff457030e52640e24dff91e5aa367da2e1e72ca831d",
+    "data/raw/prkd2-mechanism/encode/ENCFF366GZW-receipt.json": "190e33bba5407c81cc4a6f1faa3d6e6c4a55e67615d4db4e63ff90b0568b2ceb",
+    "config/prkd2-mechanism-encode-requests/all-released-cd14-experiments.json": "5f406ddcb38072a5e252a1b7e72693fea167aba55df007c415b6ed23d94f9515",
+    "config/prkd2-mechanism-encode-requests/all-released-cd14-experiments-from100.json": "6342ad754281039bd86ba04f9e181f4a40fdf0e022871775048b9847cb032b65",
+    "config/prkd2-mechanism-encode-requests/all-released-cd14-experiments-limit200.json": "0ada73dd62a260ab928a239655f67029942f4176bba0694b7715ed80e68d73b6",
+    "config/prkd2-mechanism-encode-requests/ENCSR000ASJ.json": "54b86efe77d350471d02f906e436aa98d590aaab75a74567d031aa5518c87df3",
+    "config/prkd2-mechanism-encode-requests/ENCFF560PQQ.json": "7048521b928f59ad75eed87d995661d7161a0ba0cf4a7e1a34537033d9806e75",
+    "config/prkd2-mechanism-encode-requests/ENCSR000ASM.json": "1203db0dad073eda999db8b749fc676455468b087a737854ac42895b1551e3aa",
+    "config/prkd2-mechanism-encode-requests/ENCFF493TKQ.json": "dc16bf2b141d77a896489d2986cb05de22c73b3aa78523cfbd9d43f8311cf986",
+    "config/prkd2-mechanism-encode-requests/ENCSR000ASN.json": "ea004afb310b41f711a53686b4e7a5df48af602cb3bf72f628ba853d1f4d616a",
+    "config/prkd2-mechanism-encode-requests/ENCFF112PES.json": "69cd1d0b8b7d34fd4d115e68de7555604cab16cb27586f00848452a0fa3b39a0",
+    "config/prkd2-mechanism-encode-requests/ENCSR000DWL.json": "c1f3eaf036958d7299765ef670bdcb184ed082d2527b56aecd6093de1bb151a5",
+    "config/prkd2-mechanism-encode-requests/ENCFF651GXK.json": "e947635b99755096e4c73203ea325392240e1f8e026b681d679cae4f70592273",
+    "config/prkd2-mechanism-encode-requests/ENCSR000EPK.json": "3095d021187e15c145a9f5e96ce97888839d4429964c5cbaaa38f6ae5af337f8",
+    "config/prkd2-mechanism-encode-requests/ENCFF037QHE.json": "ead43e5a37394210a8697b3903dbdbd5112184ce39ff427e0a1e931df535ed5c",
+    "config/prkd2-mechanism-encode-requests/ENCSR012PII.json": "032746dc48f520496c2b50a5ec6a9303b4acde32a03b184eeb18dbc19b1df425",
+    "config/prkd2-mechanism-encode-requests/ENCFF933WTT.json": "89b3df8922ad66a3055406705e273988fc1aa30680e503f6375d52778598ff29",
+    "config/prkd2-mechanism-encode-requests/ENCSR073CPU.json": "133f780c3f7f7a428e24eae3a5bcd55a7ad57bfb40d11da7217f3714935f1910",
+    "config/prkd2-mechanism-encode-requests/ENCFF150UHK.json": "9b66e0112017c85e4cad3e6676748434a9cfb664dcee7e64904a037128e85c13",
+    "config/prkd2-mechanism-encode-requests/ENCSR400VWA.json": "ba0d12d64a342a89fc518779aedf8404b50b1a580a32138c316b8f1c2da0131c",
+    "config/prkd2-mechanism-encode-requests/ENCFF366GZW.json": "c748a2307bd517a51f5a22a2ea8c754c4906b18242d94f94792e891a1979c2f6",
+    "data/derived/prkd2-mechanism-encode/experiment-screen.csv": "82a5c0e42cdb3b8779e9a7ba1414841f7ab8e2d1998989672cb8362838eca85e",
+    "data/derived/prkd2-mechanism-encode/file-screen.csv": "70b4958a38c83faa7f27bd61cc07d7b3991320546d63c2deaa57157ff6a57aa4",
+    "data/derived/prkd2-mechanism-encode/source-replicate-identities.csv": "d84079134c99d602a8f065ab981c74c9231b7a499c37a146af9130d27f03bf6b"
+  },
+  "selection_script_sha256": "32be945ea4514aecd530b3daaaee974e92a45f0d30be7de95f0fe6c8c00b6589"
+}
