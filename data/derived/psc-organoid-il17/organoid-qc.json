@@ -1,0 +1,301 @@
+{
+  "allocation_count": 70,
+  "allocation_minimum_possible_two_sided_fraction": 0.02857142857142857,
+  "analysis": "GSE239283_donor_paired_PSC_by_IL17_interaction",
+  "cells_per_library_max": 7051,
+  "cells_per_library_min": 464,
+  "code_pins": [
+    {
+      "path": "scripts/analyze_psc_organoid_il17.py",
+      "sha256": "4da3c90c9d785aa52e8e91efd34755d0c6e137eee3bef55e7c48f9a3e89c5d3f"
+    },
+    {
+      "path": "tests/test_psc_organoid_il17.py",
+      "sha256": "f2aac630c01df804176043a208133330fa53ad115ccd0529e65b54a1cb117c57"
+    },
+    {
+      "path": "scripts/qualify_psc_organoid_inputs.py",
+      "sha256": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e"
+    },
+    {
+      "path": "tests/test_psc_organoid_inputs.py",
+      "sha256": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+    },
+    {
+      "path": "reports/psc-organoid-method-design.md",
+      "sha256": "7d7c3ce797bcc3bcd28ecc64c17492b057ae18415de147dcb00b22efbd8af752"
+    },
+    {
+      "path": "reports/psc-organoid-input-qualification.md",
+      "sha256": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5"
+    },
+    {
+      "path": "docs/psc-organoid-il17-protocol.md",
+      "sha256": "08810339c47c022d41421ff7f0c8fd700dfde0272d9b7d2bded16cd0172819da"
+    },
+    {
+      "path": "requirements-psc-blood.lock",
+      "sha256": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0"
+    },
+    {
+      "path": "scripts/verify_psc_organoid_il17.py",
+      "sha256": "aa64f26a1b10e3fafd9584bfd32f2b3589e635aaba744bfc767067bab3563854"
+    },
+    {
+      "path": "tests/test_verify_psc_organoid_il17.py",
+      "sha256": "168beed21fd5425a2bdec46e6eabfad62c9abefb725aec198b0b0e061af4ff32"
+    },
+    {
+      "path": "reports/psc-organoid-independent-review.md",
+      "sha256": "14a4597653d66c5f0c7be6547496711a928329ae425792f29c7ea142bd38d8ae"
+    }
+  ],
+  "count_quantity": "raw_RNA_counts",
+  "derived_input_pins": {
+    "count_quantity_qualification": {
+      "path": "data/derived/psc-organoid-input-qualification.json",
+      "sha256": "1658188a59a83adcfb059161dbd0daed78fc8938d8335dce8a7fcb0bc9198e99"
+    },
+    "counts": {
+      "bytes": 770152,
+      "path": "work/psc-organoid-inputs/raw-rna-pseudobulk.tsv.gz",
+      "separator": "\t",
+      "sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+    },
+    "features": {
+      "bytes": 1479227,
+      "path": "work/psc-organoid-inputs/raw-rna-features.tsv",
+      "separator": "\t",
+      "sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+    },
+    "libraries": {
+      "bytes": 2565,
+      "path": "work/psc-organoid-inputs/raw-rna-libraries.tsv",
+      "separator": "\t",
+      "sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+    }
+  },
+  "design": {
+    "columns": [
+      "Intercept",
+      "donor_PSC_6",
+      "donor_PSC_8",
+      "donor_PSC_9",
+      "donor_nonPSC_2",
+      "donor_nonPSC_3",
+      "donor_nonPSC_4",
+      "donor_nonPSC_5",
+      "treatment_IL17",
+      "disease_PSC:treatment_IL17"
+    ],
+    "condition_number": 11.405426813161668,
+    "cooks_eligible_libraries_at_3_identical_rows": 0,
+    "donors_by_disease": {
+      "PSC": 4,
+      "nonPSC": 4
+    },
+    "experimental_unit": "donor",
+    "leverage_max": 0.6250000000000003,
+    "leverage_min": 0.6249999999999998,
+    "libraries_by_disease_and_treatment": {
+      "PSC": {
+        "CNT": 4,
+        "IL17": 4
+      },
+      "nonPSC": {
+        "CNT": 4,
+        "IL17": 4
+      }
+    },
+    "max_identical_full_design_rows": 1,
+    "n_columns": 10,
+    "n_donors": 8,
+    "n_libraries": 16,
+    "no_disease_main_effect": true,
+    "rank": 10,
+    "residual_df": 6
+  },
+  "donor_values_in_public_outputs": false,
+  "donors": 8,
+  "effects_computed": true,
+  "eligible_features": 17897,
+  "feature_namespace": "unversioned_Ensembl_gene_ID_as_original_GEO_processed_export",
+  "feature_universe_description": "All 36601 identical unique Ensembl feature rows of the sixteen original Cell Ranger processed RNA exports, summed only across the exact 46343 published retained cells. Complete released raw universe, not reconstructed historical filtered RNA or merged SCT.",
+  "filter": {
+    "min_count": 10,
+    "min_libraries": 4
+  },
+  "fit_warning_count": 0,
+  "interpretation_limits": [
+    "eight_donors_not_cells_or_libraries_are_independent_units",
+    "four_vs_four_small_n_NB_Wald_calibration_limited",
+    "all_zero_required_count_arm_makes_group_log_response_boundary_or_unidentified_not_a_finite_Wald_test",
+    "zero_total_individual_donor_pairs_flagged_without_new_filter_or_donor_exclusion",
+    "PSC_status_not_randomized_and_nonPSC_are_procedure_controls_not_healthy_volunteers",
+    "donor_blocking_does_not_remove_age_by_treatment_or_clinical_response_confounding",
+    "published_IL17_responses_known_not_untouched_validation",
+    "all_released_cells_no_treatment_selected_clusters",
+    "released_feature_universe_not_a_claim_about_complete_historical_raw_libraries",
+    "BH_requires_dependence_conditions_BY_sensitivity_uses_same_family",
+    "within_group_significance_or_DEG_count_differences_do_not_test_interaction",
+    "Cook_distances_diagnostic_only_no_automatic_exclusion_or_count_replacement",
+    "Welch_and_NB_are_different_expression_scales_not_independent_replications",
+    "leaveout_ranges_not_confidence_intervals_or_independent_replications",
+    "allocation_fraction_not_randomized_disease_causal_P_or_discovery_criterion",
+    "ex_vivo_response_not_treatment_efficacy_or_a_PSC_cause"
+  ],
+  "libraries": 16,
+  "model": {
+    "alpha": 0.05,
+    "cooks_filter": false,
+    "count_boundary_rule": "group_response_needs_both_arms_positive_interaction_needs_all4_arms_positive",
+    "dependence_sensitivity": "BY_same_family",
+    "design": "Intercept+donor+treatment_IL17+disease_PSC:treatment_IL17",
+    "dispersion_fallback": "builtin_mean_if_parametric_fails",
+    "fit_type": "parametric",
+    "independent_filter": false,
+    "lfc_shrinkage": false,
+    "multiplicity": "BH_all_fixed_eligible_features_NA_as_1_correction_only",
+    "primary_contrast": "PSC_response_minus_nonPSC_response",
+    "refit_cooks": false,
+    "size_factors_fit_type": "ratio",
+    "zero_total_donor_pairs": "flag_only_no_new_feature_filter"
+  },
+  "negative_binomial": {
+    "LFC_converged_false": 0,
+    "MAP_converged_false": 67,
+    "automatic_cooks_exclusions": 0,
+    "cooks_cutoff_diagnostic_only": 7.874118533565625,
+    "cooks_eligible_libraries": 0,
+    "count_boundary_unavailable": {
+      "PSC_treatment": 0,
+      "interaction": 3,
+      "nonPSC_treatment": 3
+    },
+    "dispersion_fallback_used": false,
+    "dispersion_fit_type": "parametric",
+    "finite_pvalues": {
+      "PSC_treatment": 17897,
+      "interaction": 17894,
+      "nonPSC_treatment": 17894
+    },
+    "fixed_family_size": 17897,
+    "genewise_converged_false": 118,
+    "native_unmasked_finite_pvalues": {
+      "PSC_treatment": 17897,
+      "interaction": 17897,
+      "nonPSC_treatment": 17897
+    },
+    "normalization": "exp(median(log_ratios))_no_fallback",
+    "normalization_basis_features": 17463
+  },
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "ratio_basis_positive_in_all_16_libraries": 17463,
+  "raw_count_gate_passed": true,
+  "released_cells": 46343,
+  "released_features": 36601,
+  "released_library_total_max": 95818240,
+  "released_library_total_min": 40434995,
+  "script_sha256": "4da3c90c9d785aa52e8e91efd34755d0c6e137eee3bef55e7c48f9a3e89c5d3f",
+  "sensitivity": {
+    "allocation": "all_70_4v4_labels_absolute_mean_change_difference_descriptive_only",
+    "allocation_tie_atol": 1e-12,
+    "allocation_tie_rtol": 1e-12,
+    "leaveout": "one_donor_out_effect_and_sign_only_fixed_features",
+    "library_size": "all_unfiltered_released_features",
+    "test": "Welch_t_with_Satterthwaite_df",
+    "transformation": "log2(CPM+1)",
+    "unit": "one_IL17_minus_CNT_change_per_donor"
+  },
+  "software": {
+    "anndata": "0.13.3.post0",
+    "formulaic": "1.2.2",
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pydeseq2": "0.5.4",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "source_pins": [
+    {
+      "bytes": 4265,
+      "path": "data/raw/psc-organoid-il17/GSE239283-series.txt",
+      "retrieved_at_utc": "2026-09-15T22:27:26.392999+00:00",
+      "sha256": "9d4272909db6033ceac85315ebfaa68bcd4db96b4e5047bf521eb474a7f8cfc2",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239283&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 4473,
+      "path": "data/raw/psc-organoid-il17/GSE239283-family.soft.gz",
+      "retrieved_at_utc": "2026-09-15T22:27:52.211315+00:00",
+      "sha256": "c403f41250c2320bc70f258037081004ece5c3770064252fc3b1390b9c9f1d40",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/soft/GSE239283_family.soft.gz"
+    },
+    {
+      "bytes": 2239262,
+      "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_metadata.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T22:35:28.035108+00:00",
+      "sha256": "319739ce31587080c69f3892304281b701daf1bae7089b6974b1182312bf0ace",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_metadata.tsv.gz"
+    },
+    {
+      "bytes": 135583,
+      "path": "data/raw/psc-organoid-il17/PMC11150034.xml",
+      "retrieved_at_utc": "2026-09-15T22:30:14.166042+00:00",
+      "sha256": "6903bd9b6f603375d934c1208aa11a6d834f675da9d9a05a8270fa1219f228d6",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11150034/fullTextXML"
+    },
+    {
+      "bytes": 1280,
+      "path": "data/raw/psc-organoid-il17/GSE239283-suppl-listing.html",
+      "retrieved_at_utc": "2026-09-15T22:29:45.627177+00:00",
+      "sha256": "6459f4f0c2ac100dbf17b0ec46758806767841e882f3d4808f502237d6a51fa2",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/"
+    },
+    {
+      "bytes": 135599,
+      "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_genes.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:11.787906+00:00",
+      "sha256": "b3f1b4c141d90c7d6445484fc312db7c2c4efc39f5f712ca3cc40ca10ae53f96",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_genes.tsv.gz"
+    },
+    {
+      "bytes": 219359,
+      "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_barcodes.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:12.020989+00:00",
+      "sha256": "5691998ebcd984ff169bab1340dfeadb9de2de66d0a1d6ec772f8c220afc5ce9",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 142381971,
+      "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_matrix.mtx.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:14.328392+00:00",
+      "sha256": "48ff435b1e6ac6374932fe8a38953b925b6f6c1fbd9875296b772ef983b38b9c",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_matrix.mtx.gz"
+    },
+    {
+      "bytes": 3674,
+      "path": "data/raw/psc-organoid-il17/filelist.txt",
+      "retrieved_at_utc": "2026-09-15T23:50:00.564168+00:00",
+      "sha256": "0ba40aef7dc8c3ffba10a493da2febaeb73281083f447feb0ec44ea5e6166efb",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/filelist.txt"
+    },
+    {
+      "bytes": 3961515,
+      "path": "data/raw/psc-organoid-il17/A900-methods.docx",
+      "retrieved_at_utc": "2026-09-15T23:41:39.298338+00:00",
+      "sha256": "b839464e46e3e74ce8bd03168c11b6736271e0df0ff6bb3e0bcde0e6ae39d69a",
+      "url": "https://links.lww.com/HC9/A900"
+    },
+    {
+      "bytes": 730408960,
+      "path": "data/raw/psc-organoid-il17/GSE239283_RAW.tar",
+      "retrieved_at_utc": "2026-09-15T23:50:55.565035+00:00",
+      "sha256": "eaac0234ea17cc610464385b81453a7322c610f410a8456482514e0b3288551b",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_RAW.tar"
+    }
+  ],
+  "status": "complete",
+  "welch_finite_pvalues": 17897
+}

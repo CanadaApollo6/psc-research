@@ -1,0 +1,144 @@
+{
+  "limits": [
+    "Computational replay, not independent biological replication.",
+    "Frozen models and source bytes unchanged.",
+    "Private donor-level files and replay copies remain ignored."
+  ],
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "primary_command": ".venv/bin/python scripts/analyze_psc_organoid_il17.py --plan config/psc-organoid-il17-execution-freeze.json --plan-sha256 89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b --output-dir data/derived/psc-organoid-il17 --work-dir work/psc-organoid-il17-primary > work/psc-organoid-plan/primary.log 2>&1",
+  "private": [
+    {
+      "file": "NB-all-native-feature-estimates-and-flags.csv.gz",
+      "identical": true,
+      "replay_sha256": "576dc620040c68d0c6c239cc33b3600c5d391975085848985538baf01ba063df",
+      "sha256": "576dc620040c68d0c6c239cc33b3600c5d391975085848985538baf01ba063df"
+    },
+    {
+      "file": "NB-natural-log-coefficients.csv.gz",
+      "identical": true,
+      "replay_sha256": "bd81efa79bffc966586f26666ffe396b867858bb86f7ac977235fc560859bdca",
+      "sha256": "bd81efa79bffc966586f26666ffe396b867858bb86f7ac977235fc560859bdca"
+    },
+    {
+      "file": "all-70-allocation-effects.csv.gz",
+      "identical": true,
+      "replay_sha256": "191e5006acc40911e0dcf8041bf3a907474e867633c722fab8ca714519593e8c",
+      "sha256": "191e5006acc40911e0dcf8041bf3a907474e867633c722fab8ca714519593e8c"
+    },
+    {
+      "file": "all-70-allocation-labels.csv",
+      "identical": true,
+      "replay_sha256": "9d655a70206929535b1270b859a13a0750daa404ad666c81a9b74d05b2c864de",
+      "sha256": "9d655a70206929535b1270b859a13a0750daa404ad666c81a9b74d05b2c864de"
+    },
+    {
+      "file": "all-cooks-distances.csv.gz",
+      "identical": true,
+      "replay_sha256": "10f23514420a3a860c4327b24210c86ea29a8e15e03dada8d68cc842bdd08aa4",
+      "sha256": "10f23514420a3a860c4327b24210c86ea29a8e15e03dada8d68cc842bdd08aa4"
+    },
+    {
+      "file": "all-donor-leaveout-effects.csv.gz",
+      "identical": true,
+      "replay_sha256": "996eaa3f00e562c1d3edfa3c88c1eda0dd704c3e6881786dea5d2c6d674eaef7",
+      "sha256": "996eaa3f00e562c1d3edfa3c88c1eda0dd704c3e6881786dea5d2c6d674eaef7"
+    },
+    {
+      "file": "design-matrix.csv",
+      "identical": true,
+      "replay_sha256": "066b68aa3bde001b0531df13c7ff1464264b7525cd80dbc582f5c7bba5ffe353",
+      "sha256": "066b68aa3bde001b0531df13c7ff1464264b7525cd80dbc582f5c7bba5ffe353"
+    },
+    {
+      "file": "donor-paired-log2cpm-changes.csv.gz",
+      "identical": true,
+      "replay_sha256": "e79fc296f49688922ec91747f73dc2beea4d07b2537ec73f72396e3b0ca3bcdd",
+      "sha256": "e79fc296f49688922ec91747f73dc2beea4d07b2537ec73f72396e3b0ca3bcdd"
+    },
+    {
+      "file": "execution-plan.json",
+      "identical": true,
+      "replay_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+      "sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b"
+    },
+    {
+      "file": "fit-warnings.json",
+      "identical": true,
+      "replay_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "library-normalization.csv",
+      "identical": true,
+      "replay_sha256": "612a61d9d222ce5057e51e28bb3db66f2137855f3a3cfb2bb7e1cf03d7d37ee5",
+      "sha256": "612a61d9d222ce5057e51e28bb3db66f2137855f3a3cfb2bb7e1cf03d7d37ee5"
+    },
+    {
+      "file": "pydeseq2-fit.log",
+      "identical": true,
+      "replay_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "selected-libraries.csv",
+      "identical": true,
+      "replay_sha256": "2f2fea09c3a95eb61523adc92b01b611cdc130b12af8feeb169fc7c5f8349f62",
+      "sha256": "2f2fea09c3a95eb61523adc92b01b611cdc130b12af8feeb169fc7c5f8349f62"
+    }
+  ],
+  "private_artifact_count": 13,
+  "public": [
+    {
+      "file": "organoid-allocations.csv.gz",
+      "identical": true,
+      "replay_sha256": "ef2a5a9e82b671e087c91b80c369bb7b1247d7f8aff0e0c375f38d8968fa2bc0",
+      "sha256": "ef2a5a9e82b671e087c91b80c369bb7b1247d7f8aff0e0c375f38d8968fa2bc0"
+    },
+    {
+      "file": "organoid-feature-universe.csv.gz",
+      "identical": true,
+      "replay_sha256": "6518f965b5175379d3d8f2f481d07a1bff3c6f4e57fd75241a0ef911415fefd7",
+      "sha256": "6518f965b5175379d3d8f2f481d07a1bff3c6f4e57fd75241a0ef911415fefd7"
+    },
+    {
+      "file": "organoid-leave-one-donor-out.csv.gz",
+      "identical": true,
+      "replay_sha256": "8b42308dabcd8879229aead40b3765578afcbd229d4a353437e26f10276f2f2f",
+      "sha256": "8b42308dabcd8879229aead40b3765578afcbd229d4a353437e26f10276f2f2f"
+    },
+    {
+      "file": "organoid-output-manifest.json",
+      "identical": true,
+      "replay_sha256": "43c382dcf1ae6d11adac1e07a53a59c8a5000f4e617985fb222018328a0ce88a",
+      "sha256": "43c382dcf1ae6d11adac1e07a53a59c8a5000f4e617985fb222018328a0ce88a"
+    },
+    {
+      "file": "organoid-primary.csv.gz",
+      "identical": true,
+      "replay_sha256": "e67f93981938326d63dfc6d7adc8f1d792fcc993a170a7f156d7d7e4d8d8aae0",
+      "sha256": "e67f93981938326d63dfc6d7adc8f1d792fcc993a170a7f156d7d7e4d8d8aae0"
+    },
+    {
+      "file": "organoid-qc.json",
+      "identical": true,
+      "replay_sha256": "0b05f4a88e849ba160de31932254ed839b42bc5c8ae86d9c15380b5be4bc0824",
+      "sha256": "0b05f4a88e849ba160de31932254ed839b42bc5c8ae86d9c15380b5be4bc0824"
+    },
+    {
+      "file": "organoid-welch.csv.gz",
+      "identical": true,
+      "replay_sha256": "09c08b39783bf8daa2c1dbac129e1d14c4fa059060a6d8c9ff6913edfc4ea923",
+      "sha256": "09c08b39783bf8daa2c1dbac129e1d14c4fa059060a6d8c9ff6913edfc4ea923"
+    },
+    {
+      "file": "organoid-within-group.csv.gz",
+      "identical": true,
+      "replay_sha256": "228c3643f84acf7a2305884207d96eb93bd1b46c484ea0fb44bdc291d58745f4",
+      "sha256": "228c3643f84acf7a2305884207d96eb93bd1b46c484ea0fb44bdc291d58745f4"
+    }
+  ],
+  "public_artifact_count": 8,
+  "replay_command": ".venv/bin/python scripts/analyze_psc_organoid_il17.py --plan config/psc-organoid-il17-execution-freeze.json --plan-sha256 89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b --output-dir data/derived/psc-organoid-il17-replay --work-dir work/psc-organoid-il17-replay > work/psc-organoid-plan/replay.log 2>&1",
+  "schema_version": 1,
+  "status": "all_public_and_private_artifacts_byte_identical"
+}

@@ -1,0 +1,36 @@
+{
+  "donor_level_outputs": "ignored_work_directory_only",
+  "outputs": {
+    "organoid-allocations.csv.gz": {
+      "bytes": 691569,
+      "sha256": "ef2a5a9e82b671e087c91b80c369bb7b1247d7f8aff0e0c375f38d8968fa2bc0"
+    },
+    "organoid-feature-universe.csv.gz": {
+      "bytes": 411264,
+      "sha256": "6518f965b5175379d3d8f2f481d07a1bff3c6f4e57fd75241a0ef911415fefd7"
+    },
+    "organoid-leave-one-donor-out.csv.gz": {
+      "bytes": 1060095,
+      "sha256": "8b42308dabcd8879229aead40b3765578afcbd229d4a353437e26f10276f2f2f"
+    },
+    "organoid-primary.csv.gz": {
+      "bytes": 3085229,
+      "sha256": "e67f93981938326d63dfc6d7adc8f1d792fcc993a170a7f156d7d7e4d8d8aae0"
+    },
+    "organoid-qc.json": {
+      "bytes": 12261,
+      "sha256": "0b05f4a88e849ba160de31932254ed839b42bc5c8ae86d9c15380b5be4bc0824"
+    },
+    "organoid-welch.csv.gz": {
+      "bytes": 2133159,
+      "sha256": "09c08b39783bf8daa2c1dbac129e1d14c4fa059060a6d8c9ff6913edfc4ea923"
+    },
+    "organoid-within-group.csv.gz": {
+      "bytes": 4109976,
+      "sha256": "228c3643f84acf7a2305884207d96eb93bd1b46c484ea0fb44bdc291d58745f4"
+    }
+  },
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "script_sha256": "4da3c90c9d785aa52e8e91efd34755d0c6e137eee3bef55e7c48f9a3e89c5d3f",
+  "source_values_mutated": false
+}

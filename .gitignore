@@ -23,3 +23,5 @@ data/derived/psc-blood-rnaseq/rnaseq-leave-one-plate-out.csv
 # Reproducible organoid preflight/replay caches; publish the primary aggregate run.
 data/derived/psc-organoid-il17-validation/
 data/derived/psc-organoid-il17-replay/
+data/derived/psc-organoid-il17-summary-replay/
+data/derived/psc-organoid-il17-figure-replay/

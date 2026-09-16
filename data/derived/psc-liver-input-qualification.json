@@ -1,0 +1,1617 @@
+{
+  "NoPSC_atlas": {
+    "annotation_qualification": {
+      "SINGLE_NUC": {
+        "all_bundle_fields_inspected": false,
+        "categorical_level_counts": [
+          2,
+          11
+        ],
+        "complete_fields": [
+          "PSC vs. Disease Controls",
+          "Cell type classification"
+        ],
+        "donor_identity_join": "Not established; observation row order is not a stable barcode/donor identity.",
+        "rows": 72990
+      },
+      "SPATIAL": {
+        "all_bundle_fields_inspected": false,
+        "categorical_level_counts": [
+          2,
+          5,
+          3,
+          2,
+          3,
+          13
+        ],
+        "complete_fields": [
+          "PSC vs. Disease Controls",
+          "PSC vs. Disease Controls subtypes",
+          "Disease stage",
+          "Sample location",
+          "Spatial classification (coarse)",
+          "Spatial classification (fine)"
+        ],
+        "donor_identity_join": "Not established; anatomical location and disease categories are not donor identifiers.",
+        "rows": 45998
+      },
+      "interpretation": "Rows are browser observations, not independent donors. No compartment effect or cell-composition effect was estimated."
+    },
+    "artifacts": {
+      "annotation_schema": "work/psc-liver-qualification/atlas/annotation-schema-summary.json",
+      "cache_pins": "data/raw/psc-liver-qualification/atlas/cache-reuse.json",
+      "feature_menu_counts": "work/psc-liver-qualification/atlas/feature-menu-summary.json",
+      "prospective_plan": "work/psc-liver-qualification/atlas/plan.json",
+      "provenance_inputs": "work/psc-liver-qualification/atlas/provenance-inputs.json",
+      "raw_receipts": "data/raw/psc-liver-qualification/atlas/request-ledger.jsonl"
+    },
+    "browser_metadata_inventory": [
+      {
+        "bytes": 200534,
+        "complete_response": true,
+        "kind": "Browser search-menu labels, not a raw-count manifest",
+        "label_count": 25539,
+        "modality": "SINGLE_NUC",
+        "observed_non_gene_menu_labels": [
+          "Total RNA count",
+          "Total RNA features"
+        ],
+        "retrieved_utc": "2026-09-16T00:25:15.639005+00:00",
+        "schema": "UTF-8 newline-separated labels; no values",
+        "sha256": "2cd9109da5d9043abf4f356b89bce0781f60366073f70bc5dd07e7dc01c0511c",
+        "status": 200,
+        "unique_labels": 25539,
+        "url": "https://riim-data.sigma2.no//NoPSC_Liver_Atlas/SINGLE_NUC/list",
+        "verified_full_counting_feature_universe": false
+      },
+      {
+        "annotation_row_count": 72990,
+        "complete_categorical_fields": 2,
+        "complete_response": false,
+        "declared_field_count": 6,
+        "declared_full_response_bytes": 1314400,
+        "kind": "Partial browser annotation bootstrap, not expression matrix",
+        "modality": "SINGLE_NUC",
+        "retained_prefix_bytes": 146317,
+        "retrieved_utc": "2026-09-16T00:26:26.534278+00:00",
+        "schema_file": "work/psc-liver-qualification/atlas/annotation-schema-summary.json",
+        "sha256_of_retained_prefix_only": "9b110a11c90eb7a7d6f48cc195640d56bc615c8a16ec8ecaec7d61346c8a20a0",
+        "status": 200,
+        "stop": "Closed before Total RNA count continuous payload; remaining fields not inspected.",
+        "url": "https://riim-data.sigma2.no//NoPSC_Liver_Atlas/SINGLE_NUC/data"
+      },
+      {
+        "bytes": 120215,
+        "complete_response": true,
+        "kind": "Browser search-menu labels, not a raw-count manifest",
+        "label_count": 17319,
+        "modality": "SPATIAL",
+        "observed_non_gene_menu_labels": [
+          "Total RNA count",
+          "Total RNA features"
+        ],
+        "retrieved_utc": "2026-09-16T00:25:16.445295+00:00",
+        "schema": "UTF-8 newline-separated labels; no values",
+        "sha256": "a5bade62665b1af6a11ae5b51d8231e5691bd8398c0cbbdf18a0bf4c14b78f7a",
+        "status": 200,
+        "unique_labels": 17319,
+        "url": "https://riim-data.sigma2.no//NoPSC_Liver_Atlas/SPATIAL/list",
+        "verified_full_counting_feature_universe": false
+      },
+      {
+        "annotation_row_count": 45998,
+        "complete_categorical_fields": 6,
+        "complete_response": false,
+        "declared_field_count": 14,
+        "declared_full_response_bytes": 1749037,
+        "kind": "Partial browser annotation bootstrap, not expression matrix",
+        "modality": "SPATIAL",
+        "retained_prefix_bytes": 276568,
+        "retrieved_utc": "2026-09-16T00:26:27.473642+00:00",
+        "schema_file": "work/psc-liver-qualification/atlas/annotation-schema-summary.json",
+        "sha256_of_retained_prefix_only": "72c9af9da93655457f5588775fd96579221d88c0d23c5176ed37f76d40847d4d",
+        "status": 200,
+        "stop": "Closed before Total RNA count continuous payload; remaining fields not inspected.",
+        "url": "https://riim-data.sigma2.no//NoPSC_Liver_Atlas/SPATIAL/data"
+      }
+    ],
+    "bulk_download_performed": false,
+    "completed_utc": "2026-09-16T00:31:42.702681+00:00",
+    "count_export_qualified": false,
+    "decision": "PARK: no usable original-count bulk inventory established",
+    "donor_map_qualified": false,
+    "exact_blocker": "The inspected linked browser HTML/client exposes bootstrap annotations, a search-label list, individual-variable display requests, and five labeled differential-expression spreadsheets. It supplies no linked complete original-count file manifest, measurement provenance, feature/barcode axes, or verified donor-to-observation map. The inspected annotation prefixes have no donor-ID or barcode field; the uninspected tails are not evidence of absence. Original counts plus full counting features plus donor-resolved annotation remain unqualified.",
+    "full_feature_download_qualified": false,
+    "linked_downloads_not_acquired": [
+      {
+        "byte_size": null,
+        "link_text": "Supplementary Table 2: Differentially expressed genes between parenchyma subclusters pare.1-pare.5",
+        "payload_read": false,
+        "source": "cached nuclear and spatial HTML (identical SHA-256)",
+        "type_as_labeled": "Differential-expression summary, not raw counts or donor-level measurements",
+        "url": "https://riim-data.no/NoPSC_Liver_Atlas/supp.table.2-pare.deg.xlsx"
+      },
+      {
+        "byte_size": null,
+        "link_text": "Supplementary Table 3: Differentially expressed genes identified by Pseudobulk analysis between PSC and disease control parenchyma subclusters pare.1-pare.5",
+        "payload_read": false,
+        "source": "cached nuclear and spatial HTML (identical SHA-256)",
+        "type_as_labeled": "Differential-expression summary, not raw counts or donor-level measurements",
+        "url": "https://riim-data.no/NoPSC_Liver_Atlas/supp.table.3-pare.pseudo.deg.xlsx"
+      },
+      {
+        "byte_size": null,
+        "link_text": "Supplementary Table 4: Differentially expressed genes between fibrosis1 subclusters fibro1.1-fibro1-5",
+        "payload_read": false,
+        "source": "cached nuclear and spatial HTML (identical SHA-256)",
+        "type_as_labeled": "Differential-expression summary, not raw counts or donor-level measurements",
+        "url": "https://riim-data.no/NoPSC_Liver_Atlas/supp.table.4-fibro1.deg.xlsx"
+      },
+      {
+        "byte_size": null,
+        "link_text": "Supplementary Table 5: Differentially expressed genes identified by Pseudobulk analysis between PSC and disease control fibro1 subclusters fibro1.1-fibro1.5",
+        "payload_read": false,
+        "source": "cached nuclear and spatial HTML (identical SHA-256)",
+        "type_as_labeled": "Differential-expression summary, not raw counts or donor-level measurements",
+        "url": "https://riim-data.no/NoPSC_Liver_Atlas/supp.table.5-fibro1.pseudo.deg.xlsx"
+      },
+      {
+        "byte_size": null,
+        "link_text": "Supplementary Table 6: Differentially expressed genes between 9 major snRNA-seq cell clusters",
+        "payload_read": false,
+        "source": "cached nuclear and spatial HTML (identical SHA-256)",
+        "type_as_labeled": "Differential-expression summary, not raw counts or donor-level measurements",
+        "url": "https://riim-data.no/NoPSC_Liver_Atlas/supp.table.6-snRNAseq.deg.xlsx"
+      }
+    ],
+    "privacy_and_scope": {
+      "aggregate_only_findings": true,
+      "closed_organoid_files_changed": false,
+      "contacts_or_accounts": 0,
+      "credentials_used": false,
+      "matrices_requested": 0,
+      "named_gene_expression_payloads_requested": 0,
+      "new_effects_computed": false,
+      "new_files_confined_to_assigned_ignored_trees": true,
+      "patient_level_joins_written": false,
+      "raw_reads_requested": 0
+    },
+    "reopen_only_if": "A normal public linked release supplies complete original counts with declared assay/units, full feature identifiers, stable observation/barcode axis, anonymous donor mapping, disease groups and file URLs/sizes. Request authorization through parent before downloading bulk files.",
+    "request_stopping_boundary": {
+      "all_new_javascript_and_failed_body_bytes_counted": true,
+      "body_cap_bytes": 10000000,
+      "bulk_stop_rule": "If a future usable bulk manifest is supplied, report URLs and sizes and obtain parent authorization before any bulk transfer.",
+      "cached_bodies_verified": 6,
+      "cached_verified_body_bytes_excluded_from_new_byte_cap": 237666,
+      "conservative_bound_if_aborted_GETs_transmitted_full_advertised_bodies": 3420890,
+      "failed_HTTP_responses": 0,
+      "network_requests_finished": true,
+      "new_GET_requests": 6,
+      "new_HEAD_requests": 2,
+      "new_body_bytes_read_and_retained": 780338,
+      "new_requests_including_HEAD": 8,
+      "not_requested": [
+        "Any /gene/{variable_name} endpoint",
+        "Any expression matrix or raw-read archive",
+        "Any DEG spreadsheet payload",
+        "Any unlinked or guessed export endpoint",
+        "Any protected/private endpoint",
+        "Article supplemental file containing published effects"
+      ],
+      "reason": "No linked usable bulk-count inventory was found. Strict metadata stream guard closed both bootstrap responses before the first continuous payload (Total RNA count); no relaxation or repeat requests followed.",
+      "request_cap": 16
+    },
+    "source_design": {
+      "DOI": "10.1097/HEP.0000000000001432",
+      "Norwegian_biobank_overlap_with_GSE159676": "Unresolved; no direct disjointness evidence found in inspected sources.",
+      "allele_conventions": "Not applicable to this metadata qualification.",
+      "control_context": "Cirrhotic disease controls, not healthy controls.",
+      "donor_counts_source": "Cached article and section 3 of the pinned frontier review; not newly verified through a donor table.",
+      "human_genome_build": "Not established by this pass.",
+      "measurement_caution": "The article describes SCTransform normalization. This is not proof of the quantity served by the browser. No individual-variable values were requested or inferred to be original UMI counts.",
+      "modality_overlap": "Nuclear donors are a subset of the spatial collection; modalities are not independent replication.",
+      "nuclear_reported_donors": {
+        "ALD": 2,
+        "MASH": 2,
+        "PSC": 12,
+        "total": 16
+      },
+      "source_methods_versions": {
+        "Harmony": "1.2.0",
+        "Loupe browser": "7.0.1",
+        "SCTransform": "0.4.1",
+        "Seurat": "5.0.5"
+      },
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13089832/fullTextXML",
+      "spatial_reported_donors": {
+        "ALD": 3,
+        "MASH": 4,
+        "PSC": 23,
+        "total": 30
+      }
+    },
+    "title": "NoPSC liver atlas: one bounded public export qualification",
+    "usable_bulk_inventory": [],
+    "validation": {
+      "cached_source_hashes_verified": 6,
+      "new_retained_response_hashes_verified": 6,
+      "offline_audit_command": ".venv/bin/python work/psc-liver-qualification/atlas/audit_metadata.py",
+      "offline_audit_exit_code": 0
+    }
+  },
+  "closed_organoid_preservation": {
+    "closed_versioned_organoid_pins_unchanged": true,
+    "no_organoid_files_written_by_this_script": true,
+    "pins": {
+      "data/derived/psc-organoid-input-qualification.json": "1658188a59a83adcfb059161dbd0daed78fc8938d8335dce8a7fcb0bc9198e99",
+      "reports/psc-organoid-input-qualification.md": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5",
+      "scripts/qualify_psc_organoid_inputs.py": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e",
+      "tests/test_psc_organoid_inputs.py": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+    },
+    "prior_organoid_material_pins_unchanged": true,
+    "prior_organoid_source_and_ignored_artifact_pins_checked": 67
+  },
+  "datasets": {
+    "GSE159676": {
+      "blocked_future_interfaces": [
+        "PSC versus NASH: six PSC paired-biopsy source blocks, never twelve independent PSC donors",
+        "PSC versus control-style liver: also requires control five/six reconciliation",
+        "PSC versus other source diagnoses: also requires PBC/sarcoidosis source-version reconciliation"
+      ],
+      "eligible_for_automatic_expression_analysis": false,
+      "feature_annotation": {
+        "annotation_columns": [
+          "ID",
+          "Gene title",
+          "Gene symbol",
+          "Gene ID",
+          "UniGene title",
+          "UniGene symbol",
+          "UniGene ID",
+          "Nucleotide Title",
+          "GI",
+          "GenBank Accession",
+          "Platform_CLONEID",
+          "Platform_ORF",
+          "Platform_SPOTID",
+          "Chromosome location",
+          "Chromosome annotation",
+          "GO:Function",
+          "GO:Process",
+          "GO:Component",
+          "GO:Function ID",
+          "GO:Process ID",
+          "GO:Component ID"
+        ],
+        "annotation_date_as_submitted": "Aug 09 2016",
+        "annotation_feature_rows": 33297,
+        "annotation_platform_as_submitted": "GPL6244",
+        "current_gene_identifier_reconciliation_performed": false,
+        "entrez_ids_with_multiple_measurement_features": 591,
+        "join_status_counts": {
+          "multiple_entrez_ids": 115,
+          "no_entrez_id": 125,
+          "one_entrez_id": 16806
+        },
+        "measurement_feature_rows": 17046,
+        "multiple_features_per_gene_not_collapsed": true,
+        "unique_entrez_ids_among_one_id_features": 16020,
+        "unreleased_measurements_not_imputed": true
+      },
+      "metadata_structure": {
+        "ab_region_meaning_provided_by_GEO": false,
+        "clinical_age_sex_stage_treatment_ibd_batch_values_in_GEO": 0,
+        "covariates_linked_to_matrix_columns_from_GEO": [
+          "condition",
+          "tissue_or_source_name",
+          "platform"
+        ],
+        "exact_metadata_join_rows": 33,
+        "group_level_covariates_assigned_to_individuals": false,
+        "identifier_uniqueness": {
+          "geo_accession": {
+            "distinct_values": 33,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 33
+          },
+          "library_name_as_submitted": {
+            "distinct_values": 0,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 0
+          },
+          "title_as_submitted": {
+            "distinct_values": 33,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 33
+          }
+        },
+        "join_rule": "matrix GSM header = source GSM accession; shared metadata values agree exactly",
+        "measurement_columns": 33,
+        "original_condition_counts": {
+          "Alcohol related": 1,
+          "Autoimmune hepatitis": 3,
+          "Haemochromatosis": 1,
+          "Liver tissue healthy": 6,
+          "Non alcoholic steatohepatitis": 7,
+          "Primary biliary cirrhosis": 3,
+          "Primary sclerosing cholangitis": 12
+        },
+        "platform_counts": {
+          "GPL6244": 33
+        },
+        "psc_complete_ab_blocks": 6,
+        "psc_source_number_blocks": 6,
+        "relation_identity_counts": {
+          "BioSample": {
+            "distinct": 0,
+            "records": 0
+          },
+          "SRA": {
+            "distinct": 0,
+            "records": 0
+          }
+        },
+        "sample_characteristic_key_counts": {
+          "condition": 33
+        },
+        "source_name_counts": {
+          "Liver tissue": 33
+        },
+        "source_processing_declarations": [
+          "Standard Affymetrix GeneChip protocol"
+        ],
+        "value_column_declarations": [
+          "Quantile normalized"
+        ]
+      },
+      "numeric_qc": {
+        "abs_gt_100_is_numerical_integrity_flag_not_exclusion_rule": true,
+        "abs_gt_100_min_max": [
+          671.0,
+          2958313.0
+        ],
+        "abs_le_100_min_max": [
+          1.170617,
+          12.92883
+        ],
+        "absolute_value_threshold_audit": {
+          "100": {
+            "cells": 4829,
+            "columns": 33,
+            "features": 3912
+          },
+          "1000": {
+            "cells": 4828,
+            "columns": 33,
+            "features": 3912
+          },
+          "100000": {
+            "cells": 4577,
+            "columns": 33,
+            "features": 3732
+          },
+          "1000000": {
+            "cells": 3038,
+            "columns": 33,
+            "features": 2603
+          },
+          "20": {
+            "cells": 4829,
+            "columns": 33,
+            "features": 3912
+          }
+        },
+        "absolute_values_over_float64_exact_integer_limit": 0,
+        "all_zero_columns": 0,
+        "all_zero_feature_rows": 0,
+        "cells": 562518,
+        "column_order_sha256": "853ef4923e8d4081bfede4ad40de590152d232096fb8eed7714b823ccdf67a89",
+        "columns": 33,
+        "constant_finite_feature_rows": 0,
+        "duplicate_feature_label_extra_rows": 0,
+        "duplicate_feature_label_groups": 0,
+        "exact_duplicate_column_groups": 0,
+        "exact_duplicate_columns_beyond_first": 0,
+        "exact_duplicate_numeric_row_groups": 127,
+        "expression_scale_qualified": false,
+        "feature_order_sha256": "d440ac7268daaf332c8ab2607f7600fa80f6303b96de49c2f2bc10f2a720fc20",
+        "features": 17046,
+        "finite_cells": 562518,
+        "float64_numeric_sha256": "f60ff247dcf4b1581a510bdfddfc7899a2a2ffb64b38492a5ccc9a3aa732873d",
+        "global_quantile_method": "numpy.quantile(method=linear); finite cells only; all features/samples pooled",
+        "global_quantiles": {
+          "0": 1.170617,
+          "0.001": 2.983167547,
+          "0.01": 3.6019821800000003,
+          "0.25": 5.0381985,
+          "0.5": 5.9946845,
+          "0.75": 7.0630445,
+          "0.99": 12.005299799999998,
+          "0.999": 2591051.089000038,
+          "1": 2958313.0
+        },
+        "integer_value_cells": 4830,
+        "integer_value_cells_gt_100": 4829,
+        "literal_audit": {
+          "decimal_point_literals": 557688,
+          "exponent_literals": 0,
+          "invalid_literals": 0,
+          "missing_literals": 0,
+          "tokens": 562518,
+          "unsigned_integer_literals": 4830
+        },
+        "negative_cells": 0,
+        "nonfinite_cells": 0,
+        "noninteger_cells": 557688,
+        "numeric_row_duplicates_are_not_assumed_to_be_duplicate_features": true,
+        "quantity": "submitted_processed_array_RMA_declared_by_methods",
+        "unique_feature_labels": 17046,
+        "zero_cells": 0
+      },
+      "platform_metadata": {
+        "annotation_update_declarations": [
+          "June 03, 2009: annotation table updated with netaffx build 28",
+          "June 18, 2012: annotation table updated with netaffx build 32",
+          "July 01, 2016: annotation table updated with netaffx build 35"
+        ],
+        "coordinates_used_or_lifted": false,
+        "data_row_count_as_submitted": 33297,
+        "genome_build_used_for_analysis": null,
+        "title": "[HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]"
+      },
+      "quick_matrix_crosscheck": {
+        "cached_quick_cells_checked": 660,
+        "no_quick_preview_used_as_full_feature_universe": true,
+        "numerical_disagreements": 0,
+        "quick_cells_abs_gt_100_also_in_full_matrix": 9
+      },
+      "reopen_requirements": [
+        "Source-corrected processed values or separately authorized raw-array reconstruction; no guessed decimal repair",
+        "Explicit anonymous donor/block and inclusion rules consistent with six PSC patients/two biopsies",
+        "Resolve or predefine the unresolved control count and diagnosis conflicts without source relabeling",
+        "Freeze platform-feature selection, gene-ID reconciliation and multiple-feature aggregation",
+        "Preserve unavailable clinical/stage/batch covariates and uncertain atlas overlap"
+      ],
+      "source_methods": {
+        "GEO_aggregate": {
+          "all_pre_table_VALUE_definition_counts": {
+            "Quantile normalized": 33
+          },
+          "all_source_data_row_count_values": {
+            "17046": 33
+          },
+          "characteristic_key_inventory": [
+            "condition"
+          ],
+          "published_disease_label_counts": {
+            "Alcohol related": 1,
+            "Autoimmune hepatitis": 3,
+            "Haemochromatosis": 1,
+            "Liver tissue healthy": 6,
+            "Non alcoholic steatohepatitis": 7,
+            "Primary biliary cirrhosis": 3,
+            "Primary sclerosing cholangitis": 12
+          },
+          "records": 33,
+          "unique_GSMs": 33,
+          "unique_titles": 33
+        },
+        "clinical_covariates": {
+          "available_GEO_sample_fields": [
+            "condition (published original disease label)"
+          ],
+          "do_not_transfer": "F0-F4 counts elsewhere in HAL Human liver tissue samples concern a separate BIO-ICAN NAFLD RT-qPCR cohort, not the Norwegian microarrays; FISH cohorts are also separate. Do not attach their stages to GSE159676.",
+          "exact_sample_linked_age_sex_fibrosis_stage_batch_recovered": false,
+          "procurement_type": "Explants or diagnostic biopsies at cohort level; no sample-specific procurement field.",
+          "sources": [
+            {
+              "location": "All 33 !Sample_characteristics_ch1 fields",
+              "source": "GSE159676_samples"
+            },
+            {
+              "location": "physical PDF page44, Human liver tissue samples; distinguishes FISH, RT-qPCR and array collections",
+              "source": "adult_HAL_proof"
+            }
+          ]
+        },
+        "compartment": {
+          "description": "Human bulk RNA extracted from fresh/frozen liver tissue obtained from explants or diagnostic biopsies. Healthy-style controls are tumor-free tissue from livers with colorectal cancer metastasis, not healthy volunteer biopsies. Human array Methods do not describe sorting or microdissection; GSE159676 is not the cultured/sorted portal-fibroblast experiments elsewhere in this paper.",
+          "sources": [
+            {
+              "location": "line 9, !Series_overall_design",
+              "source": "GSE159676_series"
+            },
+            {
+              "location": "physical PDF page 44, printed page 42/120, Supplementary Materials & methods/Human liver tissue samples, lines 49-60; repeats at physical page 101",
+              "source": "adult_HAL_proof"
+            }
+          ],
+          "whole_tissue_status": "Bulk liver-tissue preparation is described; source does not explicitly call every adult specimen whole liver or specify anatomical region. Do not invent a portal-only compartment."
+        },
+        "independence": {
+          "control_count": "GEO deposits six control-style samples. Both GEO series prose and HAL human-sample Methods say five control patients. No duplication, exclusion, or sixth-donor explanation was recovered. Preserve all six source records and the unresolved patient count.",
+          "deposited_PSC_samples": 12,
+          "disease_label_disagreement": "GEO has three Primary biliary cirrhosis records and no sarcoidosis label. HAL Methods instead states primary biliary cholangitis n=2 and sarcoidosis n=1 (other disease totals still eight). Preserve both sources; do not relabel a PBC sample as sarcoidosis without an explicit sample-linked correction.",
+          "ignored_work_join": "work/psc-liver-qualification/methods/adult-paired-biopsy-source-join.json",
+          "other_reported_patients": {
+            "NASH": 7,
+            "alcoholic liver disease": 1,
+            "autoimmune hepatitis": 3,
+            "haemochromatosis": 1,
+            "normal liver": 5,
+            "primary biliary cholangitis": 2,
+            "sarcoidosis": 1
+          },
+          "overlap_with_other_cohorts": "Norwegian PSC biobank provenance is explicit. Person-level overlap with later Norwegian liver atlases was not resolved.",
+          "pairing_rule_status": "The six source numeric a/b blocks are supported by the manuscript 6x2 design. No separate explicit GSM-to-person table was recovered; inferred title-based crosswalk is retained only in ignored work.",
+          "region_status": "a/b anatomical site, spatial separation, collection date and whether pieces differ in disease stage are not documented in inspected source Methods or GEO. They cannot be assigned named regions or treated as independent replication.",
+          "reported_PSC_patients": 6,
+          "reported_biopsies_per_PSC_patient": 2,
+          "sources": [
+            {
+              "location": "physical PDF page 44 (printed42, supplement7), lines49-60; same statement physical101",
+              "source": "adult_HAL_proof"
+            },
+            {
+              "location": "All ^SAMPLE blocks; !Sample_title and !Sample_characteristics_ch1, with table contents skipped",
+              "source": "GSE159676_samples"
+            },
+            {
+              "location": "line9, !Series_overall_design",
+              "source": "GSE159676_series"
+            }
+          ],
+          "statement": "The public author manuscript explicitly reports PSC (n=6 patients, 2 biopsies/patient). GEO titles contain six matching numeric a/b pairs. Twelve PSC arrays must not be treated as twelve independent patients.",
+          "verified_title_based_paired_blocks": 6
+        },
+        "paper": {
+          "doi": "10.1002/hep.32456",
+          "full_methods_source": "Public HAL author proof, HEP-21-2383.R1_Proof_hi.pdf; deposited HAL record hal-03667547v1 supplies this file. It is not silently claimed to be the final publisher supplement. The DOI publisher response was an abstract page, not a full-methods article.",
+          "location": "resultList.result[0]",
+          "pmid": "35278227",
+          "source": "adult_pmid_metadata",
+          "title": "Portal fibroblasts with mesenchymal stem cell features form a reservoir of proliferative myofibroblasts in liver fibrosis"
+        },
+        "pipeline": {
+          "GEO_VALUE_definition_verbatim": "Quantile normalized",
+          "GEO_processing_verbatim": "Standard Affymetrix GeneChip protocol",
+          "RMA_named": true,
+          "RNA_extraction": "GEO: RNeasy Mini Kit or Micro Kit (Qiagen), total RNA from frozen liver tissue",
+          "annotation_release": null,
+          "annotation_release_status": "hugene10sttranscriptcluster.db named, but no package version, release date or annotation database snapshot documented.",
+          "exact_R_oligo_RMA_annotation_package_versions": null,
+          "feature_prefilter_status": "GEO metadata gives !Sample_data_row_count=17046 for every sample. No source rule explaining the deposited 17,046-feature selection, duplicate-gene handling, transcript-cluster target level or final export was recovered from relevant Methods. Neither RMA nor the annotation package name explains this by itself.",
+          "numerical_diagnostics": "The parent performs deposited-value numerical qualification separately. This Methods audit does not inspect or correct expression values; the quantile declaration does not certify numerical scale/integrity.",
+          "platform": "Affymetrix Human Gene 1.0 ST, GPL6244",
+          "quantile_and_log2_status": "Quantile normalization is explicitly declared by the pre-table #VALUE = Quantile normalized metadata in all 33 GEO sample records. HAL Methods names RMA. Log2 output scale, RMA target level and exact rma settings are not separately stated in inspected source Methods/metadata. Conventional RMA log2 summaries are not proof of the deposited file scale or an executed historical export; do not apply an inferred transform or repair.",
+          "quantile_declaration_source": {
+            "location": "All 33 pre-table #VALUE headers outside !sample_table_begin/end; first line 36, last line 1924",
+            "metadata_only_work_file": "work/psc-liver-qualification/methods/GSE159676-value-column-metadata.json",
+            "quote": "#VALUE = Quantile normalized",
+            "source": "GSE159676_samples"
+          },
+          "quantile_normalization_declared": true,
+          "source_normalization": "HAL Methods explicitly names R oligo to import CEL files and rma to normalize. It describes background-adjusted normalized probe intensities summarized per gene, then annotation with hugene10sttranscriptcluster.db.",
+          "sources": [
+            {
+              "location": "physical PDF page46, printed44/120, supplement9, Microarray analyses lines20-35; repeats at physical103",
+              "source": "adult_HAL_proof"
+            },
+            {
+              "location": "All !Sample_extract_protocol_ch1, !Sample_data_processing, !Sample_platform_id, !Sample_data_row_count fields",
+              "source": "GSE159676_samples"
+            },
+            {
+              "location": "All 33 pre-table #VALUE headers outside !sample_table_begin/end; first line 36, last line 1924",
+              "metadata_only_work_file": "work/psc-liver-qualification/methods/GSE159676-value-column-metadata.json",
+              "quote": "#VALUE = Quantile normalized",
+              "source": "GSE159676_samples"
+            }
+          ]
+        }
+      },
+      "status": "hold_expression_use_numeric_integrity_and_unresolved_source_identity"
+    },
+    "GSE303271": {
+      "eligible_for_automatic_expression_analysis": false,
+      "feasible_future_interfaces": [
+        {
+          "contrast": "PSC versus AIH",
+          "source_samples": {
+            "AIH": 30,
+            "PSC": 17
+          }
+        },
+        {
+          "contrast": "ASC versus AIH",
+          "source_samples": {
+            "AIH": 30,
+            "ASC": 17
+          }
+        },
+        {
+          "contrast": "PSC versus ASC",
+          "source_samples": {
+            "ASC": 17,
+            "PSC": 17
+          }
+        }
+      ],
+      "feature_universe": {
+        "GTF_release_and_count_options_recovered": false,
+        "complete_released_labels": 41096,
+        "current_gene_identifier_reconciliation_performed": false,
+        "genome_build_declared": "GRCh38",
+        "historical_annotation_reconstructed": false,
+        "identifier_namespace": "Submitted gene-name-style labels; no independent ID reconciliation",
+        "labels_preserved_verbatim": true
+      },
+      "interface_conditions": [
+        "Freeze original source diagnoses without pooling ASC into PSC",
+        "Use patient-level bulk-biopsy interpretation, not cell-specific causality or healthy-control inference",
+        "Do not invent missing patient crosswalk, clinical covariates, annotation release or batch",
+        "Freeze exact feature/gene reconciliation, QC and normalization rules before later scoring or contrasts"
+      ],
+      "metadata_structure": {
+        "clinical_age_sex_stage_treatment_ibd_batch_values_in_GEO": 0,
+        "covariates_linked_to_matrix_columns_from_GEO": [
+          "condition",
+          "tissue_or_source_name",
+          "platform"
+        ],
+        "exact_metadata_join_rows": 64,
+        "group_level_covariates_assigned_to_individuals": false,
+        "identifier_uniqueness": {
+          "geo_accession": {
+            "distinct_values": 64,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 64
+          },
+          "library_name_as_submitted": {
+            "distinct_values": 64,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 64
+          },
+          "title_as_submitted": {
+            "distinct_values": 64,
+            "duplicate_groups": 0,
+            "nonmissing_rows": 64
+          }
+        },
+        "join_rule": "count header = GEO title = explicit library name",
+        "measurement_columns": 64,
+        "original_condition_counts": {
+          "AIH": 30,
+          "ASC": 17,
+          "PSC": 17
+        },
+        "platform_counts": {
+          "GPL24676": 64
+        },
+        "relation_identity_counts": {
+          "BioSample": {
+            "distinct": 64,
+            "records": 64
+          },
+          "SRA": {
+            "distinct": 64,
+            "records": 64
+          }
+        },
+        "sample_characteristic_key_counts": {
+          "sample group": 64,
+          "tissue": 64
+        },
+        "source_name_counts": {
+          "Liver": 64
+        },
+        "source_processing_declarations": [
+          "Assembly: GRCh38",
+          "Gene counts were quantified with \u2018FeatureCounts\u2019 (v1.6.4)",
+          "Reads were aligned to reference (GRCh38) with \u2018STAR\u2019 (v2.7.2b)",
+          "Supplementary files format and content: tab-delimited text file includes raw count per sample"
+        ],
+        "value_column_declarations": []
+      },
+      "numeric_qc": {
+        "absolute_values_over_float64_exact_integer_limit": 0,
+        "all_zero_columns": 0,
+        "all_zero_feature_rows": 998,
+        "cells": 2630144,
+        "column_order_sha256": "634be4076b962bf9d548c8d3dc6d691519a762ffde6317e1db48375639895ab2",
+        "columns": 64,
+        "constant_finite_feature_rows": 998,
+        "count_compatible": true,
+        "duplicate_feature_label_extra_rows": 0,
+        "duplicate_feature_label_groups": 0,
+        "exact_duplicate_column_groups": 0,
+        "exact_duplicate_columns_beyond_first": 0,
+        "exact_duplicate_numeric_row_groups": 207,
+        "feature_order_sha256": "e3909c4e7f2b5820ccd910b50ea4304f6ba0fe3e2396590822122834b5ec672c",
+        "features": 41096,
+        "finite_cells": 2630144,
+        "float64_numeric_sha256": "315ae0c5afe42ed87e27fa29566c282ed9cca92c96435d7be4955d052aae6cf7",
+        "global_quantile_method": "numpy.quantile(method=linear); finite cells only; all features/samples pooled",
+        "global_quantiles": {
+          "0": 0.0,
+          "0.001": 0.0,
+          "0.01": 0.0,
+          "0.25": 0.0,
+          "0.5": 6.0,
+          "0.75": 532.0,
+          "0.99": 45060.56999999983,
+          "0.999": 386385.12199997716,
+          "1": 69516760.0
+        },
+        "library_total_counts_min_median_max": [
+          40155767.0,
+          143139304.5,
+          350237961.0
+        ],
+        "literal_audit": {
+          "decimal_point_literals": 0,
+          "exact_literal_abs_gt_float64_integer_limit": 0,
+          "exact_literal_negative_values": 0,
+          "exact_literal_noninteger_values": 0,
+          "exponent_literals": 0,
+          "invalid_literals": 0,
+          "missing_literals": 0,
+          "tokens": 2630144,
+          "unsigned_integer_literals": 2630144
+        },
+        "negative_cells": 0,
+        "nonfinite_cells": 0,
+        "noninteger_cells": 0,
+        "numeric_row_duplicates_are_not_assumed_to_be_duplicate_features": true,
+        "positive_features_per_library_min_median_max": [
+          22171,
+          25351.0,
+          30893
+        ],
+        "quantity": "submitted_raw_gene_counts",
+        "unique_feature_labels": 41096,
+        "zero_cells": 998756
+      },
+      "root_analysis_freeze_still_required": true,
+      "source_methods": {
+        "GEO_aggregate": {
+          "all_source_data_row_count_values": {
+            "0": 64
+          },
+          "characteristic_key_inventory": [
+            "sample group",
+            "tissue"
+          ],
+          "published_disease_label_counts": {
+            "AIH": 30,
+            "ASC": 17,
+            "PSC": 17
+          },
+          "records": 64,
+          "unique_GSMs": 64,
+          "unique_titles": 64
+        },
+        "clinical_covariates": {
+          "available_GEO_sample_fields": [
+            "tissue: Liver",
+            "sample group: AIH / ASC / PSC"
+          ],
+          "do_not_transfer": "Neither cohort-level summaries nor fibrosis labels from other assays may be assigned to individual RNA samples. Library-name numbers and GEO submission/update dates are not a documented batch variable.",
+          "exact_sample_linked_age_sex_fibrosis_stage_batch_recovered": false,
+          "paper_context": "Study recruits pediatric-onset AILD. Sex recorded for all samples; pathology reports assigned fibrosis stages; 41 available patients had independent blinded pathology review. These statements do not join any GSM to age, sex or fibrosis.",
+          "sources": [
+            {
+              "location": "Methods/Sex as a biological variable; Methods/Study approval and study cohort information",
+              "source": "pediatric_xml"
+            },
+            {
+              "location": "All 64 !Sample_characteristics_ch1 fields",
+              "source": "GSE303271_family"
+            },
+            {
+              "location": "5-page file; section/title inventory only",
+              "source": "pediatric_supplement_pdf"
+            },
+            {
+              "location": "xl/workbook.xml and xl/_rels/workbook.xml.rels; figure2a (xl/worksheets/sheet1.xml), row 1 only",
+              "source": "pediatric_workbook_manifest"
+            }
+          ],
+          "supplement_limit": "The retrieved Supplemental data PDF has five figure/caption pages, not identifiable clinical tables. The Supporting data values workbook metadata lists 27 figure-labelled sheets and no clinical-table-labelled sheet. Only figure2a header was extracted; it lists UMAP1 and UMAP2, whose values were not inspected. Other figure sheets were not read, so absence of covariates everywhere in that workbook is not established."
+        },
+        "compartment": {
+          "description": "Bulk RNA from cryopreserved whole liver tissue samples obtained from clinically indicated diagnostic liver biopsies. Whole-biopsy tissue, not a whole organ and not isolated/sorted cholangiocytes, fibroblasts or portal mesenchymal stem cells.",
+          "sources": [
+            {
+              "location": "line 8, !Series_overall_design",
+              "source": "GSE303271_series"
+            },
+            {
+              "location": "body/sec[@sec-type='methods']/sec[title='RNA-Seq data generation and analysis']/sec[title='RNA-Seq data acquisition.']/p[1]",
+              "source": "pediatric_xml"
+            }
+          ]
+        },
+        "independence": {
+          "label_warning": "GEO has 17 PSC, 17 ASC and 30 AIH. The paper uses 34 PSC; no explicit ASC-to-PSC recoding rule or expansion of ASC was found in inspected paper text. Preserve the 17 ASC records separately.",
+          "paired_regions": "No paired-region scheme is declared for this bulk deposit in inspected sources. The two-patient MERSCOPE experiment is a separate assay and must not be treated as additional independent bulk donors.",
+          "reported_patients": 64,
+          "sources": [
+            {
+              "location": "Methods/RNA-Seq data acquisition paragraph 1; Methods/Data availability",
+              "source": "pediatric_xml"
+            },
+            {
+              "location": "All ^SAMPLE blocks, !Sample_title, !Sample_description and !Sample_characteristics_ch1 fields",
+              "source": "GSE303271_family"
+            }
+          ],
+          "statement": "Article Data availability explicitly says RNA-Seq data from 64 patients; RNA acquisition says excess biopsies from 34 PSC and 30 AIH patients. This supports a patient-level collection, but GEO does not provide a separate person-level crosswalk or visit key. Unique GSM/title/library labels alone do not establish person-level independence."
+        },
+        "paper": {
+          "doi": "10.1172/jci.insight.199226",
+          "location": "article/front/article-meta/article-id and title-group",
+          "pmcid": "PMC13460812.1",
+          "pmid": "42024458",
+          "source": "pediatric_xml",
+          "title": "Macrophage signaling associates with fibrogenic program activation in periductal fibroblasts in pediatric primary sclerosing cholangitis"
+        },
+        "pipeline": {
+          "RNA_extraction": "miRNeasy Mini Kit (Qiagen); Agilent integrity confirmation in paper; RNALater storage at -80 C",
+          "alignment": "STAR v2.7.2b",
+          "annotation_release": null,
+          "annotation_release_status": "No annotation provider/release, GTF filename or checksum documented in inspected GEO or relevant paper Methods. GRCh38 and featureCounts versions do not identify an annotation release.",
+          "assembly": "GRCh38",
+          "count_options_status": "Strandedness, feature-assignment options, multi-mapping/overlap rules and executed command were not recovered.",
+          "deposited_quantity_statement": "GEO explicitly describes a tab-delimited raw count per sample file. This Methods task did not download/read that count matrix.",
+          "library_platform": "GEO GPL24676, Illumina NovaSeq 6000, paired-end RNA-seq",
+          "paper_downstream_only": "DEseq2 v1.26 normalizes gene counts and generates a variance-stabilized matrix; this is a paper analysis step, not evidence that the raw-count download is already transformed.",
+          "quantification": "FeatureCounts v1.6.4",
+          "source_read_description_disagreement": "GEO extract protocol says 100 base pair paired end reads at a depth of 50 million reads; paper says 101 bp paired-end reads at a read depth of 50 million bp. Both literal source descriptions are retained, not silently reconciled.",
+          "sources": [
+            {
+              "location": "!Sample_extract_protocol_ch1, !Sample_data_processing, !Sample_instrument_model (same in all 64 samples)",
+              "source": "GSE303271_family"
+            },
+            {
+              "location": "Methods/RNA-Seq data generation and analysis/RNA-Seq data acquisition paragraphs 1-2",
+              "source": "pediatric_xml"
+            }
+          ]
+        }
+      },
+      "status": "qualified_submitted_count_interface_with_metadata_and_annotation_limits",
+      "submitted_count_sum_not_equated_to_reads_or_unique_fragments": true
+    }
+  },
+  "ignored_artifact_pins": [
+    {
+      "bytes": 5939,
+      "path": "work/psc-liver-qualification/matrix-qc.json",
+      "sha256": "093f07c4264124c163958a2c35b400c0cabaf03508ddf33310bba65fd22e094e"
+    },
+    {
+      "bytes": 3502,
+      "path": "work/psc-liver-qualification/sample-structure.json",
+      "sha256": "0643e8a9183317645bda0fbd4fbb008879c3a20799f396402c45a198edc663e6"
+    },
+    {
+      "bytes": 21041280,
+      "path": "work/psc-liver-qualification/GSE303271-submitted-float64.npy",
+      "sha256": "4a19908237dfaeb2f6c713fd6c7f60743d9b31b556a643c9c0dfcab7159003d7"
+    },
+    {
+      "bytes": 554657,
+      "path": "work/psc-liver-qualification/GSE303271-features-as-submitted.tsv",
+      "sha256": "19b297c4c860c1b3fd956fba7c0351159aa17c1d866d51426a91908a7fd623ab"
+    },
+    {
+      "bytes": 21095,
+      "path": "work/psc-liver-qualification/GSE303271-column-qc.json",
+      "sha256": "0919eda241b666a576ec481eb3b794bf68cbffb2dbfae387c4efc37df6be731e"
+    },
+    {
+      "bytes": 3,
+      "path": "work/psc-liver-qualification/GSE303271-numeric-anomalies.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 3,
+      "path": "work/psc-liver-qualification/GSE303271-exact-duplicate-column-groups.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 61623,
+      "path": "work/psc-liver-qualification/GSE303271-sample-source-join.json",
+      "sha256": "30427a566b9e857a5f98dfb389eace558bb1a6c088d6da4f8bfaf423f85463f0"
+    },
+    {
+      "bytes": 4500272,
+      "path": "work/psc-liver-qualification/GSE159676-submitted-float64.npy",
+      "sha256": "a7664e8fa9296d5fa59704687b02b0db555ee9937be4711bc64ebe3a9c276f4d"
+    },
+    {
+      "bytes": 227578,
+      "path": "work/psc-liver-qualification/GSE159676-features-as-submitted.tsv",
+      "sha256": "b15fbfb80afd8535bf12b75e5656e55ac43e0f98de177dc35a25c729a6b595a5"
+    },
+    {
+      "bytes": 11205,
+      "path": "work/psc-liver-qualification/GSE159676-column-qc.json",
+      "sha256": "fd988f883860b560aa1be78d746e80afb25118c2330329c6435fd29d1a1d2cf3"
+    },
+    {
+      "bytes": 1366639,
+      "path": "work/psc-liver-qualification/GSE159676-numeric-anomalies.json",
+      "sha256": "8d0909e2f2b27d71f7a095372ae47ebd092e62af28d7879f4e42fc29199caa3d"
+    },
+    {
+      "bytes": 3,
+      "path": "work/psc-liver-qualification/GSE159676-exact-duplicate-column-groups.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "bytes": 33297,
+      "path": "work/psc-liver-qualification/GSE159676-sample-source-join.json",
+      "sha256": "c20c243aa4b9ffc511836123cd9ce7c6f7c664ff554fbecdca75e9f85d2c3339"
+    },
+    {
+      "bytes": 36975353,
+      "path": "work/psc-liver-qualification/GSE159676-probe-annotation-join.json",
+      "sha256": "abadf3c65f8676a356da46955b9e2b2ea2718727979fbb5ef22fb7d7a866ee08"
+    },
+    {
+      "bytes": 3,
+      "path": "work/psc-liver-qualification/GSE159676-quick-matrix-disagreements.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  ],
+  "provenance": {
+    "acquisition_budget": {
+      "atlas_conservative_full_advertised_prefix_GET_charge": 3420890,
+      "atlas_limit_bytes": 10000000,
+      "atlas_new_retained_body_bytes": 780338,
+      "conservative_atlas_inclusive_budget_charge": 26376304,
+      "copied_cache_bodies_charged_as_new_bytes": false,
+      "main_limit_bytes": 58000000,
+      "main_new_body_bytes": 13915055,
+      "methods_limit_bytes": 12000000,
+      "methods_new_body_bytes": 9040359,
+      "new_body_bytes_read_and_retained_total": 23735752,
+      "overall_limit_bytes": 80000000,
+      "oversize_header_only_refusals": [
+        {
+          "declared_bytes": 8741123588,
+          "retained_body_bytes": 0,
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL6nnn/GPL6244/soft/GPL6244_family.soft.gz"
+        }
+      ],
+      "within_all_allocations": true
+    },
+    "atlas_findings_path": "work/psc-liver-qualification/atlas/findings.json",
+    "atlas_findings_sha256": "be3737bbdfc3767258528f235150991ddbfe9a38e6b8f9ba101137689542cc68",
+    "input_pins": [
+      {
+        "bytes": 126677,
+        "path": "data/raw/psc-frontier-review/PMC13089832-metallothionein.xml",
+        "sha256": "c575bf15f391a423d54124d46d6ab1ddcacb932aec0121041518dd3b9aac4c25"
+      },
+      {
+        "bytes": 126031,
+        "path": "data/raw/psc-frontier-review/PMC13460812-pediatric-psc.xml",
+        "sha256": "fb88c54836b4520a44345fe84db25743185e7cdf208800ece09290ce8cdf98be"
+      },
+      {
+        "bytes": 27400,
+        "path": "data/raw/psc-frontier-review/nopsc-index.js",
+        "sha256": "9da4b3b392a1f44364b5d94556e6e8daa5a67249f8529a9f22cfd8135e4530a6"
+      },
+      {
+        "bytes": 1202,
+        "path": "data/raw/psc-frontier-review/nopsc-loader.js",
+        "sha256": "4dfe4a69af281267498c81b41c8a3b5edaab580858e971584830b6656be544b7"
+      },
+      {
+        "bytes": 1141,
+        "path": "data/raw/psc-frontier-review/nopsc-settings.js",
+        "sha256": "bb2796ecb921a76e58b71d96df914ebf40b40e98295be2ee43f56a193702fa15"
+      },
+      {
+        "bytes": 40623,
+        "path": "data/raw/psc-frontier-review/nopsc-single-nuc-index.html",
+        "sha256": "e8019ecae13eab33396fbc7e929f888ffce78ebca01946fbd90c0e6a0b4a5971"
+      },
+      {
+        "bytes": 40623,
+        "path": "data/raw/psc-frontier-review/nopsc-spatial-index.html",
+        "sha256": "e8019ecae13eab33396fbc7e929f888ffce78ebca01946fbd90c0e6a0b4a5971"
+      },
+      {
+        "bytes": 1447676,
+        "path": "data/raw/psc-liver-qualification/GPL6244-platform-quick.txt",
+        "sha256": "a34086ea351b545d46384f0c301c751e4931cb7a1cf5b995b53a4a32e71780d5"
+      },
+      {
+        "bytes": 7193437,
+        "path": "data/raw/psc-liver-qualification/GPL6244.annot.gz",
+        "sha256": "99ee70f87e02c75ff1c8dc57b6c40c0482c7ef2760e004301315ac34344ac6dc"
+      },
+      {
+        "bytes": 603,
+        "path": "data/raw/psc-liver-qualification/GSE159676-matrix-listing.html",
+        "sha256": "d2aaefefb47c7fee544bcbc8d99746e415124396b5c4b4c544ce1d79b4cc0d4f"
+      },
+      {
+        "bytes": 72599,
+        "path": "data/raw/psc-liver-qualification/GSE159676-samples-quick.txt",
+        "sha256": "488000d4e1e141f2f1a721ae4e694eccb3e414a841814591ba2a1da27f10d7bc"
+      },
+      {
+        "bytes": 4071,
+        "path": "data/raw/psc-liver-qualification/GSE159676-series.txt",
+        "sha256": "6032af657abb36e12d3212500ae76e0411d63f3be82fe6d087af7b77d1d5dd16"
+      },
+      {
+        "bytes": 2252130,
+        "path": "data/raw/psc-liver-qualification/GSE159676_series_matrix.txt.gz",
+        "sha256": "431071d39c24db9ba985873e916f03ef992ed8b5e0de1b4b1e5fe2f298fc186f"
+      },
+      {
+        "bytes": 4234,
+        "path": "data/raw/psc-liver-qualification/GSE303271-family.soft.gz",
+        "sha256": "0fb2b4ec538119140201de84bbe459d3c4be5672a6d9ffc13591aa2e7474ce36"
+      },
+      {
+        "bytes": 3685,
+        "path": "data/raw/psc-liver-qualification/GSE303271-series.txt",
+        "sha256": "e398c915458462e3a081af2f5c9eea8b5b27682cd21af7cf6d0cba9b27191b8c"
+      },
+      {
+        "bytes": 3021812,
+        "path": "data/raw/psc-liver-qualification/GSE303271_raw_counts.txt.gz",
+        "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046"
+      },
+      {
+        "bytes": 13516,
+        "path": "data/raw/psc-liver-qualification/atlas/01-utils.js",
+        "sha256": "b54f4dd37a5ce43463b0dff4bd683aadde02d8fa8c90dd85924c3d04773b0a41"
+      },
+      {
+        "bytes": 23188,
+        "path": "data/raw/psc-liver-qualification/atlas/02-ui.js",
+        "sha256": "cad07d100cd7ac95ec76a06b29a2808225ea1889f38293551893d88e7408e1c4"
+      },
+      {
+        "bytes": 200534,
+        "path": "data/raw/psc-liver-qualification/atlas/05-single_nuc-feature-list.txt",
+        "sha256": "2cd9109da5d9043abf4f356b89bce0781f60366073f70bc5dd07e7dc01c0511c"
+      },
+      {
+        "bytes": 120215,
+        "path": "data/raw/psc-liver-qualification/atlas/06-spatial-feature-list.txt",
+        "sha256": "a5bade62665b1af6a11ae5b51d8231e5691bd8398c0cbbdf18a0bf4c14b78f7a"
+      },
+      {
+        "bytes": 146317,
+        "path": "data/raw/psc-liver-qualification/atlas/07-single_nuc-annotation-bootstrap.bin",
+        "sha256": "9b110a11c90eb7a7d6f48cc195640d56bc615c8a16ec8ecaec7d61346c8a20a0"
+      },
+      {
+        "bytes": 276568,
+        "path": "data/raw/psc-liver-qualification/atlas/08-spatial-annotation-bootstrap.bin",
+        "sha256": "72c9af9da93655457f5588775fd96579221d88c0d23c5176ed37f76d40847d4d"
+      },
+      {
+        "bytes": 6304417,
+        "path": "data/raw/psc-liver-qualification/methods/adult-HAL-proof.pdf",
+        "sha256": "29e24c4823c208f330d39303cc5dbf3ec9ab95c152c8240361e43c1e0d56de94"
+      },
+      {
+        "bytes": 535,
+        "path": "data/raw/psc-liver-qualification/methods/adult-hal-metadata.json",
+        "sha256": "799a6d95120e7fba816b0d0961676eda4755ccf75e10c26672ae1d6f2673071f"
+      },
+      {
+        "bytes": 13469,
+        "path": "data/raw/psc-liver-qualification/methods/adult-pmid35278227-metadata.json",
+        "sha256": "a58d20361f385e217c5655d3955d542b4b513d28985115a30f6e82e85cd41362"
+      },
+      {
+        "bytes": 247757,
+        "path": "data/raw/psc-liver-qualification/methods/adult-publisher-doi.html",
+        "sha256": "53d5e5e0106b5df4439800d6c2494ab5fea310ffa6b343beba5ce793ce8c74cd"
+      },
+      {
+        "bytes": 207530,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-jci.html",
+        "sha256": "124df53b6334493b3ec1d35d743ca242aedc0bd9c045abe058b711962af401d7"
+      },
+      {
+        "bytes": 21893,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-sd2-response",
+        "sha256": "3cdd9fc46e5ba1c3e2ed8edbeadf5fe9c58f12fdc89b49501ddb30389f66f5a0"
+      },
+      {
+        "bytes": 2152284,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-supplement-render.pdf",
+        "sha256": "1adfa92d9a2c98d95a640c688858a83a867b8af719de12bb2b25927a89da6030"
+      },
+      {
+        "bytes": 23003,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-supplement.pdf",
+        "sha256": "65c5b80f865872651a933c9eefd298346077beaf6adbf8b1a4e3bd9d5bfafa65"
+      },
+      {
+        "bytes": 0,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-supporting-data.xlsx",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 65536,
+        "path": "data/raw/psc-liver-qualification/methods/pediatric-xlsx-zip-tail.bin",
+        "sha256": "6d08f074f25521f72da64e1d0800e16bf06fd7f0aa31cb03a4b8f8bd510e24fa"
+      },
+      {
+        "bytes": 4312,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl___rels__workbook.xml.rels",
+        "sha256": "28c253eb6a2fd924f113bc4fe7f46c8d7c856a9efeba484c631a171e9b3b64b2"
+      },
+      {
+        "bytes": 30,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl___rels__workbook.xml.rels-local-header.bin",
+        "sha256": "167b142341e9428c7300e4284ebe0f1473854124bfecf91d5432a4aad3b61aca"
+      },
+      {
+        "bytes": 383,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl___rels__workbook.xml.rels-member-range.bin",
+        "sha256": "9ed0455928dd2036a8fac952a03861b173fb823c5d3af0544f97eb6e79c6cf04"
+      },
+      {
+        "bytes": 4444,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__workbook.xml",
+        "sha256": "fafb46fcb5385dca03f947a58c1b5a4a4ce1299c2e722f2b19ddec1b13f47508"
+      },
+      {
+        "bytes": 30,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__workbook.xml-local-header.bin",
+        "sha256": "34828b01b2c9deb40e28a1d9d510d538a6ac4c08ff06716bce6741d5a819d0e3"
+      },
+      {
+        "bytes": 706,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__workbook.xml-member-range.bin",
+        "sha256": "d4cffb0e9d207cc7232fadf1595c307d620313ff2548f3129227e5c4d26c07e3"
+      },
+      {
+        "bytes": 11078,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__worksheets__sheet1.xml",
+        "sha256": "78c32ebd283831b47303f6b212ffd931bb15fc0cf38267d3a8076dc1a54a2397"
+      },
+      {
+        "bytes": 30,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__worksheets__sheet1.xml-local-header.bin",
+        "sha256": "61aef2d6de43f534b1c85657a87245de70a36e44de562517b2dd3de35f33d8ab"
+      },
+      {
+        "bytes": 2756,
+        "path": "data/raw/psc-liver-qualification/methods/xlsx-xl__worksheets__sheet1.xml-member-range.bin",
+        "sha256": "fe6c70326ea67d43eaec5db5c3c31e6c0a34c42d80391d10e39fe1afd6cbeba6"
+      },
+      {
+        "bytes": 603,
+        "path": "data/raw/public-data-discovery-options/GSE159676-matrix-listing.html",
+        "sha256": "d2aaefefb47c7fee544bcbc8d99746e415124396b5c4b4c544ce1d79b4cc0d4f"
+      },
+      {
+        "bytes": 72599,
+        "path": "data/raw/public-data-discovery-options/GSE159676-samples-quick.txt",
+        "sha256": "488000d4e1e141f2f1a721ae4e694eccb3e414a841814591ba2a1da27f10d7bc"
+      },
+      {
+        "bytes": 4071,
+        "path": "data/raw/public-data-discovery-options/GSE159676-series.txt",
+        "sha256": "6032af657abb36e12d3212500ae76e0411d63f3be82fe6d087af7b77d1d5dd16"
+      },
+      {
+        "bytes": 4234,
+        "path": "data/raw/public-data-discovery-options/GSE303271-family.soft.gz",
+        "sha256": "0fb2b4ec538119140201de84bbe459d3c4be5672a6d9ffc13591aa2e7474ce36"
+      },
+      {
+        "bytes": 3685,
+        "path": "data/raw/public-data-discovery-options/GSE303271-series.txt",
+        "sha256": "e398c915458462e3a081af2f5c9eea8b5b27682cd21af7cf6d0cba9b27191b8c"
+      }
+    ],
+    "main_manifest": {
+      "path": "data/raw/psc-liver-qualification/source-manifest.json",
+      "sha256": "b2e42b2ab9d7bc2db400c0299a1a56a5f85a9455720d403dbd17b6dd0e3ebe6e"
+    },
+    "main_sources": [
+      {
+        "acquisition": "verified_cache_copy",
+        "bytes": 3685,
+        "file": "GSE303271-series.txt",
+        "new_bytes": 0,
+        "retrieved_at_utc": "2026-09-15T22:27:26.581660+00:00",
+        "sha256": "e398c915458462e3a081af2f5c9eea8b5b27682cd21af7cf6d0cba9b27191b8c",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303271&targ=self&form=text&view=full",
+        "usable": true
+      },
+      {
+        "acquisition": "verified_cache_copy",
+        "bytes": 4234,
+        "file": "GSE303271-family.soft.gz",
+        "new_bytes": 0,
+        "retrieved_at_utc": "2026-09-15T22:27:52.316000+00:00",
+        "sha256": "0fb2b4ec538119140201de84bbe459d3c4be5672a6d9ffc13591aa2e7474ce36",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/soft/GSE303271_family.soft.gz",
+        "usable": true
+      },
+      {
+        "acquisition": "verified_cache_copy",
+        "bytes": 4071,
+        "file": "GSE159676-series.txt",
+        "new_bytes": 0,
+        "retrieved_at_utc": "2026-09-15T22:27:26.755070+00:00",
+        "sha256": "6032af657abb36e12d3212500ae76e0411d63f3be82fe6d087af7b77d1d5dd16",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159676&targ=self&form=text&view=full",
+        "usable": true
+      },
+      {
+        "acquisition": "verified_cache_copy",
+        "bytes": 72599,
+        "file": "GSE159676-samples-quick.txt",
+        "new_bytes": 0,
+        "retrieved_at_utc": "2026-09-15T22:28:19.327716+00:00",
+        "sha256": "488000d4e1e141f2f1a721ae4e694eccb3e414a841814591ba2a1da27f10d7bc",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159676&targ=gsm&form=text&view=quick",
+        "usable": true
+      },
+      {
+        "acquisition": "verified_cache_copy",
+        "bytes": 603,
+        "file": "GSE159676-matrix-listing.html",
+        "new_bytes": 0,
+        "retrieved_at_utc": "2026-09-15T22:30:42.881023+00:00",
+        "sha256": "d2aaefefb47c7fee544bcbc8d99746e415124396b5c4b4c544ce1d79b4cc0d4f",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159676/matrix/",
+        "usable": true
+      },
+      {
+        "acquisition": "complete_GET",
+        "bytes": 3021812,
+        "file": "GSE303271_raw_counts.txt.gz",
+        "new_bytes": 3021812,
+        "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/suppl/GSE303271_raw_counts.txt.gz",
+        "retrieved_at_utc": "2026-09-16T00:24:24.155938+00:00",
+        "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046",
+        "status": 200,
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/suppl/GSE303271_raw_counts.txt.gz",
+        "usable": true
+      },
+      {
+        "acquisition": "complete_GET",
+        "bytes": 2252130,
+        "file": "GSE159676_series_matrix.txt.gz",
+        "new_bytes": 2252130,
+        "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159676/matrix/GSE159676_series_matrix.txt.gz",
+        "retrieved_at_utc": "2026-09-16T00:24:24.434993+00:00",
+        "sha256": "431071d39c24db9ba985873e916f03ef992ed8b5e0de1b4b1e5fe2f298fc186f",
+        "status": 200,
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159676/matrix/GSE159676_series_matrix.txt.gz",
+        "usable": true
+      },
+      {
+        "acquisition": "complete_GET",
+        "bytes": 7193437,
+        "file": "GPL6244.annot.gz",
+        "new_bytes": 7193437,
+        "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL6nnn/GPL6244/annot/GPL6244.annot.gz",
+        "retrieved_at_utc": "2026-09-16T00:24:24.774208+00:00",
+        "sha256": "99ee70f87e02c75ff1c8dc57b6c40c0482c7ef2760e004301315ac34344ac6dc",
+        "status": 200,
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL6nnn/GPL6244/annot/GPL6244.annot.gz",
+        "usable": true
+      },
+      {
+        "acquisition": "complete_GET",
+        "bytes": 0,
+        "failure": "Content-Length exceeds remaining authorized allocation",
+        "file": "GPL6244_family.soft.gz",
+        "new_bytes": 0,
+        "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL6nnn/GPL6244/soft/GPL6244_family.soft.gz",
+        "retrieved_at_utc": "2026-09-16T00:24:24.877903+00:00",
+        "status": 200,
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL6nnn/GPL6244/soft/GPL6244_family.soft.gz",
+        "usable": false
+      },
+      {
+        "acquisition": "complete_GET",
+        "bytes": 1447676,
+        "file": "GPL6244-platform-quick.txt",
+        "new_bytes": 1447676,
+        "response_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244&targ=self&form=text&view=quick",
+        "retrieved_at_utc": "2026-09-16T00:29:34.507675+00:00",
+        "sha256": "a34086ea351b545d46384f0c301c751e4931cb7a1cf5b995b53a4a32e71780d5",
+        "status": 200,
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244&targ=self&form=text&view=quick",
+        "usable": true
+      }
+    ],
+    "methods": {
+      "bounded_search_stopping_point": "Original GEO metadata; pediatric XML Methods plus linked supplement/header inventory; DOI/Europe PMC identity, HAL manuscript+supplement Methods; publisher abstract route. No researcher contact, access enrollment or broad resource crawling. Other expression/figure sheets were not inspected.",
+      "findings_path": "data/raw/psc-liver-qualification/methods/findings.json",
+      "findings_sha256": "4104f8e141b09be3142e6a2bd7fff12fead02973e4ca507c96bc93a089fe0549",
+      "provenance": {
+        "cumulative_download_cap_bytes": 12000000,
+        "format_warnings": [
+          {
+            "actual_type": "HTML landing page; not PDF; use pediatric-supplement-render.pdf",
+            "path": "data/raw/psc-liver-qualification/methods/pediatric-supplement.pdf"
+          },
+          {
+            "actual_type": "zero-byte refusal artifact because declared 16,250,061-byte body exceeds bound; not an XLSX input",
+            "path": "data/raw/psc-liver-qualification/methods/pediatric-supporting-data.xlsx"
+          }
+        ],
+        "new_receipts_include_all_zero_body_and_range_requests": true,
+        "new_receipts_path": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+        "new_receipts_sha256": "c17446de10098135d6ff71cdd849d54013bebc8691bf51fcd0c50c2da31dc0f2",
+        "new_response_body_bytes": 9040359,
+        "new_response_count": 16,
+        "reused_receipts_path": "data/raw/psc-liver-qualification/methods/reused-source-receipts.json",
+        "reused_source_count": 5,
+        "workbook_inspection": "ZIP directory and workbook/relationship members; figure2a row1 schema only (UMAP1/UMAP2). No coordinate values read. Tail also contains uninspected compressed neighboring member bytes; not unpacked as expression."
+      },
+      "source_catalog": {
+        "GSE159676_samples": {
+          "bytes": 72599,
+          "kind": "reused primary source",
+          "original_receipt_file": "data/raw/public-data-discovery-options/source-receipts.json",
+          "original_receipt_file_sha256": "c03289f360af2973ba8c88cc9ffcb3ad319898d0526cb3cc113cedd649743271",
+          "original_receipt_index_zero_based": 13,
+          "original_receipt_sha256_canonical_json": "c4a61f30a7dc18b59c9c149307230db8ae41c966b729acec0b57b2e5b704f28d",
+          "path": "data/raw/public-data-discovery-options/GSE159676-samples-quick.txt",
+          "retrieved_at_utc": "2026-09-15T22:28:19.327716+00:00",
+          "sha256": "488000d4e1e141f2f1a721ae4e694eccb3e414a841814591ba2a1da27f10d7bc",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159676&targ=gsm&form=text&view=quick"
+        },
+        "GSE159676_series": {
+          "bytes": 4071,
+          "kind": "reused primary source",
+          "original_receipt_file": "data/raw/public-data-discovery-options/source-receipts.json",
+          "original_receipt_file_sha256": "c03289f360af2973ba8c88cc9ffcb3ad319898d0526cb3cc113cedd649743271",
+          "original_receipt_index_zero_based": 6,
+          "original_receipt_sha256_canonical_json": "f7a83768523827d75a53e3696b4bf55174229a659f4e8c8aa1e9c681815fe872",
+          "path": "data/raw/public-data-discovery-options/GSE159676-series.txt",
+          "retrieved_at_utc": "2026-09-15T22:27:26.755070+00:00",
+          "sha256": "6032af657abb36e12d3212500ae76e0411d63f3be82fe6d087af7b77d1d5dd16",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159676&targ=self&form=text&view=full"
+        },
+        "GSE303271_family": {
+          "bytes": 4234,
+          "kind": "reused primary source",
+          "original_receipt_file": "data/raw/public-data-discovery-options/source-receipts.json",
+          "original_receipt_file_sha256": "c03289f360af2973ba8c88cc9ffcb3ad319898d0526cb3cc113cedd649743271",
+          "original_receipt_index_zero_based": 11,
+          "original_receipt_sha256_canonical_json": "1ca7b5e445d1f82790d6ab03e9737b665c40b15dbc9ddf8f77a7b43cc885d798",
+          "path": "data/raw/public-data-discovery-options/GSE303271-family.soft.gz",
+          "retrieved_at_utc": "2026-09-15T22:27:52.316000+00:00",
+          "sha256": "0fb2b4ec538119140201de84bbe459d3c4be5672a6d9ffc13591aa2e7474ce36",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/soft/GSE303271_family.soft.gz"
+        },
+        "GSE303271_series": {
+          "bytes": 3685,
+          "kind": "reused primary source",
+          "original_receipt_file": "data/raw/public-data-discovery-options/source-receipts.json",
+          "original_receipt_file_sha256": "c03289f360af2973ba8c88cc9ffcb3ad319898d0526cb3cc113cedd649743271",
+          "original_receipt_index_zero_based": 5,
+          "original_receipt_sha256_canonical_json": "1aeb5dfe703cbb55e839c7d658a1cf45a5eb9143efb55f0d61f4ecbc37eaca1e",
+          "path": "data/raw/public-data-discovery-options/GSE303271-series.txt",
+          "retrieved_at_utc": "2026-09-15T22:27:26.581660+00:00",
+          "sha256": "e398c915458462e3a081af2f5c9eea8b5b27682cd21af7cf6d0cba9b27191b8c",
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303271&targ=self&form=text&view=full"
+        },
+        "adult_HAL_metadata": {
+          "bytes": 535,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/adult-hal-metadata.json",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 1,
+          "response_url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-03667547&wt=json&fl=title_s,uri_s,fileMain_s,files_s,docid,doiId_s",
+          "retrieved_at_utc": "2026-09-16T00:24:38.096272+00:00",
+          "sha256": "799a6d95120e7fba816b0d0961676eda4755ccf75e10c26672ae1d6f2673071f",
+          "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-03667547&wt=json&fl=title_s,uri_s,fileMain_s,files_s,docid,doiId_s"
+        },
+        "adult_HAL_proof": {
+          "bytes": 6304417,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/adult-HAL-proof.pdf",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 3,
+          "response_url": "https://hal.science/hal-03667547/file/HEP-21-2383.R1_Proof_hi.pdf",
+          "retrieved_at_utc": "2026-09-16T00:25:27.656052+00:00",
+          "sha256": "29e24c4823c208f330d39303cc5dbf3ec9ab95c152c8240361e43c1e0d56de94",
+          "url": "https://hal.science/hal-03667547/file/HEP-21-2383.R1_Proof_hi.pdf"
+        },
+        "adult_pmid_metadata": {
+          "bytes": 13469,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/adult-pmid35278227-metadata.json",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 0,
+          "response_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35278227&format=json&resultType=core",
+          "retrieved_at_utc": "2026-09-16T00:23:41.757599+00:00",
+          "sha256": "a58d20361f385e217c5655d3955d542b4b513d28985115a30f6e82e85cd41362",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35278227&format=json&resultType=core"
+        },
+        "adult_publisher_abstract": {
+          "bytes": 247757,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/adult-publisher-doi.html",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 6,
+          "response_url": "https://journals.lww.com/hep/abstract/10.1002/hep.32456~portal-fibroblasts-with-mesenchymal-stem-cell-features-form?redirectionsource=fulltextview",
+          "retrieved_at_utc": "2026-09-16T00:26:48.815125+00:00",
+          "sha256": "53d5e5e0106b5df4439800d6c2494ab5fea310ffa6b343beba5ce793ce8c74cd",
+          "url": "https://doi.org/10.1002/hep.32456"
+        },
+        "pediatric_publisher_html": {
+          "bytes": 207530,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/pediatric-jci.html",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 2,
+          "response_url": "https://insight.jci.org/articles/view/199226",
+          "retrieved_at_utc": "2026-09-16T00:24:38.692844+00:00",
+          "sha256": "124df53b6334493b3ec1d35d743ca242aedc0bd9c045abe058b711962af401d7",
+          "url": "https://insight.jci.org/articles/view/199226"
+        },
+        "pediatric_sdval_link_page": {
+          "bytes": 21893,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/pediatric-sd2-response",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 7,
+          "response_url": "https://insight.jci.org/articles/view/199226/sd/2",
+          "retrieved_at_utc": "2026-09-16T00:28:12.815692+00:00",
+          "sha256": "3cdd9fc46e5ba1c3e2ed8edbeadf5fe9c58f12fdc89b49501ddb30389f66f5a0",
+          "url": "https://insight.jci.org/articles/view/199226/sd/2"
+        },
+        "pediatric_supplement_pdf": {
+          "bytes": 2152284,
+          "kind": "new primary source",
+          "path": "data/raw/psc-liver-qualification/methods/pediatric-supplement-render.pdf",
+          "receipt_file": "data/raw/psc-liver-qualification/methods/new-source-receipts.json",
+          "receipt_index_zero_based": 5,
+          "response_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/199000/199226/jci.insight.199226.sd.pdf",
+          "retrieved_at_utc": "2026-09-16T00:26:48.082264+00:00",
+          "sha256": "1adfa92d9a2c98d95a640c688858a83a867b8af719de12bb2b25927a89da6030",
+          "url": "https://insight.jci.org/articles/view/199226/sd/pdf/render/1"
+        },
+        "pediatric_workbook_manifest": {
+          "full_archive_downloaded": false,
+          "full_archive_sha256": null,
+          "kind": "bounded remote ZIP metadata/header extraction",
+          "members": [
+            {
+              "extracted_at_utc": "2026-09-16T00:31:08.493598+00:00",
+              "extracted_bytes": 4444,
+              "extracted_path": "data/raw/psc-liver-qualification/methods/xlsx-xl__workbook.xml",
+              "local_header_receipt_filename": "xlsx-xl__workbook.xml-local-header.bin",
+              "member": "xl/workbook.xml",
+              "member_metadata": {
+                "compressed_size": 661,
+                "compression": 8,
+                "crc32": 1023918209,
+                "local_header_offset": 16246113,
+                "name": "xl/workbook.xml",
+                "uncompressed_size": 4444
+              },
+              "member_range_receipt_filename": "xlsx-xl__workbook.xml-member-range.bin",
+              "sha256": "fafb46fcb5385dca03f947a58c1b5a4a4ce1299c2e722f2b19ddec1b13f47508",
+              "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/199000/199226/jci.insight.199226.sdval.xlsx"
+            },
+            {
+              "extracted_at_utc": "2026-09-16T00:31:08.607538+00:00",
+              "extracted_bytes": 4312,
+              "extracted_path": "data/raw/psc-liver-qualification/methods/xlsx-xl___rels__workbook.xml.rels",
+              "local_header_receipt_filename": "xlsx-xl___rels__workbook.xml.rels-local-header.bin",
+              "member": "xl/_rels/workbook.xml.rels",
+              "member_metadata": {
+                "compressed_size": 327,
+                "compression": 8,
+                "crc32": 1776237951,
+                "local_header_offset": 16246819,
+                "name": "xl/_rels/workbook.xml.rels",
+                "uncompressed_size": 4312
+              },
+              "member_range_receipt_filename": "xlsx-xl___rels__workbook.xml.rels-member-range.bin",
+              "sha256": "28c253eb6a2fd924f113bc4fe7f46c8d7c856a9efeba484c631a171e9b3b64b2",
+              "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/199000/199226/jci.insight.199226.sdval.xlsx"
+            },
+            {
+              "extracted_at_utc": "2026-09-16T00:32:17.416432+00:00",
+              "extracted_bytes": 11078,
+              "extracted_path": "data/raw/psc-liver-qualification/methods/xlsx-xl__worksheets__sheet1.xml",
+              "local_header_receipt_filename": "xlsx-xl__worksheets__sheet1.xml-local-header.bin",
+              "member": "xl/worksheets/sheet1.xml",
+              "member_metadata": {
+                "compressed_size": 2702,
+                "compression": 8,
+                "crc32": 2979810096,
+                "local_header_offset": 2023,
+                "name": "xl/worksheets/sheet1.xml",
+                "uncompressed_size": 11078
+              },
+              "member_range_receipt_filename": "xlsx-xl__worksheets__sheet1.xml-member-range.bin",
+              "sha256": "78c32ebd283831b47303f6b212ffd931bb15fc0cf38267d3a8076dc1a54a2397",
+              "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/199000/199226/jci.insight.199226.sdval.xlsx"
+            }
+          ],
+          "original_archive_size_from_HTTP": 16250061,
+          "url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/199000/199226/jci.insight.199226.sdval.xlsx"
+        },
+        "pediatric_xml": {
+          "bytes": 126031,
+          "kind": "reused primary source",
+          "original_receipt_file": "data/raw/psc-frontier-review/source-ledger.json",
+          "original_receipt_file_sha256": "429d025e938720d22e63250b28fc5d1bed8409f7bc5a7f8c0f5a9969144ed831",
+          "original_receipt_index_zero_based": 17,
+          "original_receipt_sha256_canonical_json": "b14c4888b0726426409d8edd1157940005632a05f42579565324cd4b291b9bcf",
+          "path": "data/raw/psc-frontier-review/PMC13460812-pediatric-psc.xml",
+          "retrieved_at_utc": "2026-09-15T23:45:33.465216+00:00",
+          "sha256": "fb88c54836b4520a44345fe84db25743185e7cdf208800ece09290ce8cdf98be",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13460812/fullTextXML"
+        }
+      }
+    },
+    "verified_unique_input_paths": 46
+  },
+  "qualification_type": "public_liver_input_only_no_effect_analysis",
+  "schema_version": 1,
+  "scope": {
+    "allele_conventions": "not applicable; no variants assessed",
+    "analysis_freeze_owned_by_root": true,
+    "clinical_recommendations": false,
+    "features_or_samples_excluded": false,
+    "genes_aggregated": false,
+    "models_fit": false,
+    "new_gene_alias_corrections": false,
+    "primary_gene_contrasts_computed": false,
+    "raw_reads_or_CEL_arrays_acquired": false,
+    "source_joins_and_expression_publicly_exported": false,
+    "source_values_repaired": false,
+    "target_or_program_scores_computed": false
+  },
+  "software": {
+    "Python": "3.12.14",
+    "new_dependencies_installed": false,
+    "numpy": "2.5.3",
+    "qualifier_script_sha256": "2e870af8031489d3bb49adf6533fb04f16cb671cf43db7be816154b4c3f88137",
+    "requests": "2.34.2",
+    "runtime": "repository .venv",
+    "tests_sha256": "24059bd1eb0487b48ee2c9d2af64f77b5cdda7965ad7aa0d5fe17b8e0ef8851e"
+  },
+  "transformations": [
+    "Lossless gzip decompression and delimited-text parsing; complete gzip CRC and end-marker checks",
+    "Exact matrix-to-GEO and probe-to-historical-annotation joins; no fuzzy or case-folded mapping",
+    "RNA original numeric literals checked with Decimal before float64 QC copies",
+    "Original PSC a/b title blocks parsed without assigning anatomical regions",
+    "All released features/samples retained; no normalization, aggregation, imputation or correction"
+  ],
+  "validation": {
+    "independent_audit_check_status_counts": {
+      "PASS": 82
+    },
+    "independent_audit_path": "work/psc-liver-qualification/independent-audit/independent-verification.json",
+    "independent_audit_scope": "Separate stdlib source parser, no import/inspection of qualifier script",
+    "independent_audit_script_pin": {
+      "bytes": 29229,
+      "path": "work/psc-liver-qualification/independent-audit/audit_sources_stdlib.py",
+      "sha256": "32ccbed9ad62f78656da5a8eae116370d106896bdea0a747831e7bd759a9a2eb"
+    },
+    "independent_audit_sha256": "5cdf74b214568eca898ed1b64fcc407424052dc2de0f91f4a12563bc35dcc82b",
+    "primary_QC_not_an_effect_analysis": true
+  }
+}

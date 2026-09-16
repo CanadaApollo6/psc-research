@@ -4,24 +4,27 @@ Independent computational research into **primary sclerosing cholangitis (PSC)**
 
 Original project code and documentation are licensed under the [MIT License](LICENSE). Imported third-party data, published material, dependencies and model outputs retain their applicable licenses and terms; the MIT license does not relicense them. See [data provenance and source terms](docs/data-sources.md) and the individual source/run manifests.
 
-## Current result and next decision — September 15, 2026
+## Current result and next decision — September 16, 2026
 
-**Completed: a fixed two-cohort PSC blood reanalysis.** Among 11,074 shared genes, 93 meet the same-direction BH conjunction criterion. None passes the BY sensitivity or either stronger disease-control conjunction. This is a limited observational association result, **not an established PSC-specific signature or biological breakthrough**. None of the seven preselected benchmarks passes the primary criterion.
+**Completed: donor-level PSC organoid IL-17A reanalysis.** Eight genes pass the fixed NB interaction BH correction; six also pass BY. None passes the full-family donor-change Welch sensitivity. Directions persist in all donor-omission summaries, but these are **model-dependent candidate interactions**, not confirmed mechanisms or treatments. The study has only four PSC and four procedure-control donors.
 
-- [Findings, limits and next decision](reports/psc-blood-replication.md)
-- [Protocol](docs/psc-blood-replication-protocol.md), [reproduction guide](docs/psc-blood-reproduction.md), and [complete gene results](data/derived/psc-blood-replication/cross-cohort-gene-results.csv.gz)
-- [Independent numerical verification](reports/psc-blood-independent-verification.json) and [byte-identical clean replay](reports/psc-blood-replay-verification.json)
+- [Organoid findings and limits](reports/psc-organoid-il17.md), [figure](reports/figures/psc-organoid-il17.png), and [complete gene results](data/derived/psc-organoid-il17/organoid-primary.csv.gz)
+- [Frozen protocol](docs/psc-organoid-il17-protocol.md), [source qualification](reports/psc-organoid-input-qualification.md), and [reproduction guide](docs/psc-organoid-reproduction.md)
+- [397 independent numerical checks](reports/psc-organoid-independent-verification.json), [eight-public-file clean replay](reports/psc-organoid-replay-verification.json), and [independent results review](reports/psc-organoid-results-review.md)
 
-**Next compute priority: test the donor-level disease-by-IL-17A response in PSC cholangiocyte organoids (GSE239283).** Its four PSC and four non-PSC donors—not its 46,343 cells—are the biological units. The [updated roadmap](ROADMAP.md) requires a separate execution freeze before that analysis; it has not been run.
+**Previous blood result is unchanged:** 93 of 11,074 shared genes meet the fixed cross-cohort BH conjunction, none meets BY or stronger disease-control support, and none of seven fixed benchmarks passes. This is not an established PSC-specific signature. See the [blood report](reports/psc-blood-replication.md) and [reproduction guide](docs/psc-blood-reproduction.md).
+
+**Next: separately frozen MacroMap stimulus-context analysis, then an externally fixed pediatric liver disease-control panel.** These questions were queued regardless of the organoid outcome. Source/method preparation is not an executed result.
 
 | Branch | Current decision |
 |---|---|
-| **PSC disease data** | Blood analysis complete. Move next to a paired organoid perturbation interaction rather than a blood classifier or candidate-score sweep. |
-| **ETS2 program calibration** | Reserve context arm. [MacroMap qualification](reports/research-path-review.md) is favorable; [GSE255234 qualification](reports/ets2-study-qualification.md) resolves treatment identities but not its historical full-universe CPM gate. Neither has new program effects here. |
-| **PRKD2** | Still requires actual study model/covariance or complete-component inputs for a qualified shared-signal analysis. Blood expression does not repair that dependency. |
-| **UBASH3A** | Earlier coverage-limited RNA/protein evidence and the prepared experimental question remain distinct from a demonstrated complete product. No open-ended search restart. |
+| **PSC disease data** | Blood and organoid analyses complete. GSE303271 counts qualify with limits; gene/program identity preparation is active. Keep 17 PSC, 17 ASC and 30 AIH separate. |
+| **ETS2 context** | MacroMap methods are under independent review; an executable runner and separate freeze precede real scores. Healthy-derived context is not PSC validation or proof of ETS2 dependence. |
+| **Adult liver / new atlas** | GSE159676 is held: six PSC patients sampled twice, mixed-scale values and label conflicts. NoPSC atlas is parked pending a qualified full-count/donor export. See [liver qualification](reports/psc-liver-input-qualification.md). |
+| **BACH2 genotype** | Bounded donor/genotype/count-interface qualification is active; no expression effects or translation validation yet. |
+| **Model / external evidence** | [Current capability audit](reports/model-capabilities-and-psc-use.md) distinguishes public AFDB retrieval from new inference access. PRKD2 covariance/model and UBASH3A complete-product gaps remain. |
 
-The [research assessment](reports/research-state-and-strategy.md) and [public-data comparison](reports/public-data-discovery-options.md) explain the choice. Original genetic/model studies and their frozen results remain below; no researcher contact, service enrollment or paid compute was used for this analysis.
+The [active agenda](docs/psc-analysis-agenda.md), [roadmap](ROADMAP.md) and [bounded frontier review](reports/psc-analysis-frontier-review.md) define the next work and stopping rules. GSE255234's historical full-universe CPM gate is not silently relaxed. Earlier scientific results remain below. No researcher contact, service enrollment, paid compute or clinical recommendation occurred.
 
 ## First research question
 

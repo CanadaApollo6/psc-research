@@ -1,0 +1,2675 @@
+{
+  "checks": [
+    {
+      "check": "source:library_totals",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "source:retained_cells",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "universe:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "universe:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "universe:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "universe:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "universe:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "universe:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "universe:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "universe:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "universe:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "frozen_work_plan",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "design:column_names",
+      "kind": "exact",
+      "values": 11
+    },
+    {
+      "check": "design:entries",
+      "kind": "exact",
+      "values": 160
+    },
+    {
+      "check": "selected:library_id",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:donor_id",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:disease",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:treatment",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:n_cells",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:total_released_counts",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:features_positive_in_library",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_accession",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_title",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_condition",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_Sample",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_Treatment",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_conditionTreatment",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_original_cells",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_cells_not_in_released_subset",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_full_library_total",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_unselected_cells_total",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:source_nCount_RNA_total",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "selected:technical_merge_suffix",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "manifest:plan",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "manifest:public_set",
+      "kind": "exact",
+      "values": 7
+    },
+    {
+      "check": "manifest:privacy",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "manifest:no_mutation",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:status",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:effects_computed",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:plan_sha256",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:donors",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:libraries",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:released_cells",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:released_features",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:eligible_features",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:ratio_basis_positive_in_all_16_libraries",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:raw_count_gate_passed",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:count_quantity",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:donor_values_in_public_outputs",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:script",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "manifest:script",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:rank",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:residual_df",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:n_columns",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:n_libraries",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:n_donors",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:max_identical_full_design_rows",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "qc:design:cooks_eligible_libraries_at_3_identical_rows",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "atol": 2e-10,
+      "check": "qc:leverage",
+      "finite_values": 2,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.3306690738754696e-16,
+      "rtol": 2e-08,
+      "values": 2
+    },
+    {
+      "atol": 1e-12,
+      "check": "normalization:size_factor",
+      "finite_values": 16,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 1e-12,
+      "values": 16
+    },
+    {
+      "atol": 1e-12,
+      "check": "normalization:design_leverage",
+      "finite_values": 16,
+      "kind": "numeric",
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "rtol": 1e-12,
+      "values": 16
+    },
+    {
+      "atol": 1e-12,
+      "check": "normalization:fitted_feature_library_total",
+      "finite_values": 16,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 1e-12,
+      "values": 16
+    },
+    {
+      "atol": 1e-12,
+      "check": "normalization:unfiltered_released_library_total",
+      "finite_values": 16,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 1e-12,
+      "values": 16
+    },
+    {
+      "check": "normalization:no_cook_exclusion",
+      "kind": "exact",
+      "values": 16
+    },
+    {
+      "check": "NB:coefficient_names",
+      "kind": "exact",
+      "values": 11
+    },
+    {
+      "check": "interaction:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "interaction:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "interaction:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "interaction:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "interaction:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "interaction:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "interaction:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "check": "welch:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "welch:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "welch:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "welch:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "welch:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "welch:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "welch:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "welch:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "welch:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "welch:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "check": "leaveout:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "leaveout:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "leaveout:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "leaveout:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "leaveout:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "leaveout:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "leaveout:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "check": "allocations:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "allocations:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "allocations:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "allocations:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "allocations:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocations:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocations:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "allocations:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocations:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "allocations:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "check": "within:contrast_order",
+      "kind": "exact",
+      "values": 73202
+    },
+    {
+      "check": "nonPSC_treatment:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "nonPSC_treatment:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "check": "PSC_treatment:all_source_IDs",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:annotation:source_feature_id",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:annotation:source_gene_label",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:annotation:source_feature_type",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:eligibility",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:libraries_count_ge_threshold",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:libraries_nonzero",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:all_zero_released",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:mean_raw_count",
+      "finite_values": 36601,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 36601
+    },
+    {
+      "check": "PSC_treatment:excluded_status",
+      "kind": "exact",
+      "values": 18704
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:log2FoldChange",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:lfcSE",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.1086244689504383e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:stat",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.217248937900877e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "interaction:pvalue",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:baseMean",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "interaction:q_bh",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.7763568394002505e-14,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "interaction:q_by",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.4424906541753444e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:ci95_lower_log2fc",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.217248937900877e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:ci95_upper_log2fc",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.217248937900877e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:pydeseq2_unmasked_log2FoldChange",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:pydeseq2_unmasked_lfcSE",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 4.440892098500626e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "interaction:pydeseq2_unmasked_stat",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.217248937900877e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "interaction:pydeseq2_unmasked_pvalue",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "interaction:pydeseq2_unmasked_finite_family_padj",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.787459069646502e-14,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "check": "interaction:test_status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "interaction:count_support",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "interaction:zero_required_arms",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:log2FoldChange",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:lfcSE",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.886579864025407e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:stat",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.687538997430238e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "nonPSC_treatment:pvalue",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:baseMean",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "nonPSC_treatment:q_bh",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.106226635438361e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "nonPSC_treatment:q_by",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 9.880984919163893e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:ci95_lower_log2fc",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 5.773159728050814e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:ci95_upper_log2fc",
+      "finite_values": 17894,
+      "kind": "numeric",
+      "maximum_absolute_difference": 5.329070518200751e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:pydeseq2_unmasked_log2FoldChange",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:pydeseq2_unmasked_lfcSE",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.0658141036401503e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "nonPSC_treatment:pydeseq2_unmasked_stat",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.842170943040401e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "nonPSC_treatment:pydeseq2_unmasked_pvalue",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.1102230246251565e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "nonPSC_treatment:pydeseq2_unmasked_finite_family_padj",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.106226635438361e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "check": "nonPSC_treatment:test_status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "nonPSC_treatment:count_support",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "nonPSC_treatment:zero_required_arms",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:log2FoldChange",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:lfcSE",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.5543122344752192e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:stat",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.0658141036401503e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "PSC_treatment:pvalue",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:baseMean",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "PSC_treatment:q_bh",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "PSC_treatment:q_by",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.328271240363392e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:ci95_lower_log2fc",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.6645352591003757e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:ci95_upper_log2fc",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:pydeseq2_unmasked_log2FoldChange",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:pydeseq2_unmasked_lfcSE",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.5543122344752192e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "PSC_treatment:pydeseq2_unmasked_stat",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.0658141036401503e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "PSC_treatment:pydeseq2_unmasked_pvalue",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 6.661338147750939e-16,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "PSC_treatment:pydeseq2_unmasked_finite_family_padj",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "check": "PSC_treatment:test_status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "PSC_treatment:count_support",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "PSC_treatment:zero_required_arms",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:count_sum_nonPSC_CNT",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:count_sum_nonPSC_IL17",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:n_zero_total_donor_pairs_nonPSC",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:count_sum_PSC_CNT",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:count_sum_PSC_IL17",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "count_arm_support:n_zero_total_donor_pairs_PSC",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "NB:treatment_interaction_covariance_log2",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.7319479184152442e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "check": "NB:significance:bh",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "NB:significance:by",
+      "kind": "exact",
+      "values": 36601
+    },
+    {
+      "check": "dispersion:fallback_flag",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:qc:normalization_basis_features",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:qc:fixed_family_size",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:qc:automatic_cooks_exclusions",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:qc:cooks_eligible_libraries",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:dispersion_type",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "NB:no_automatic_exclusion",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:genewise_dispersions",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:fitted_dispersions",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:dispersions",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:_genewise_converged",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:_MAP_converged",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:_LFC_converged",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:_outlier_genes",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "native_flag:non_zero",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "NB:nonconvergence:genewise_converged",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:nonconvergence:MAP_converged",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:nonconvergence:LFC_converged",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "Cook:feature_axis",
+      "kind": "exact",
+      "values": 17898
+    },
+    {
+      "atol": 2e-10,
+      "check": "Cook:diagnostic_cutoff",
+      "finite_values": 1,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 1
+    },
+    {
+      "atol": 2e-10,
+      "check": "Cook:max_cooks_distance",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Cook:n_libraries_cooks_above_diagnostic_cutoff",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Cook:n_nonfinite_cooks",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "check": "NB:finite_family:interaction",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:native_finite_family:interaction",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:boundary_unavailable:interaction",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:finite_family:nonPSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:native_finite_family:nonPSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:boundary_unavailable:nonPSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:finite_family:PSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:native_finite_family:PSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "NB:boundary_unavailable:PSC_treatment",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "donor_changes:axis",
+      "kind": "exact",
+      "values": 17899
+    },
+    {
+      "check": "donor_changes:disease",
+      "kind": "exact",
+      "values": 8
+    },
+    {
+      "atol": 2e-10,
+      "check": "donor_changes:all_values",
+      "finite_values": 143176,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "rtol": 2e-08,
+      "values": 143176
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:mean_change_PSC",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:mean_change_nonPSC",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:effect_log2_cpm",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.6645352591003757e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:se",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 1.2212453270876722e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:t",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 8.171241461241152e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:df",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 9.814371537686384e-14,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "Welch:pvalue",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.098321516541546e-14,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "Welch:q_bh_sensitivity",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 5.412337245047638e-15,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 5e-324,
+      "check": "Welch:q_by_sensitivity",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-07,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:ci95_lower",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 4.163336342344337e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:ci95_upper",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.885780586188048e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:n_PSC_donors",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "Welch:n_nonPSC_donors",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "check": "Welch:status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "Welch:finite_count",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:full_effect_log2_cpm",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.6645352591003757e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:minimum_leaveout_effect",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.942091015256665e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:maximum_leaveout_effect",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.942091015256665e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:n_estimable_omissions",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:n_same_nonzero_sign",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:n_opposite_sign",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:n_zero_effect",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "check": "leaveout:status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "leaveout:feature_axis",
+      "kind": "exact",
+      "values": 17898
+    },
+    {
+      "atol": 2e-10,
+      "check": "leaveout:all_values",
+      "finite_values": 143176,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.247402347028583e-15,
+      "rtol": 2e-08,
+      "values": 143176
+    },
+    {
+      "check": "allocation:feature_axis",
+      "kind": "exact",
+      "values": 17898
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:all_values",
+      "finite_values": 1252790,
+      "kind": "numeric",
+      "maximum_absolute_difference": 3.552713678800501e-15,
+      "rtol": 2e-08,
+      "values": 1252790
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:observed_mean_change_difference",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 2.6645352591003757e-15,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:n_allocations",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:n_as_or_more_extreme",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:descriptive_tail_fraction",
+      "finite_values": 17897,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 17897
+    },
+    {
+      "check": "allocation:status",
+      "kind": "exact",
+      "values": 17897
+    },
+    {
+      "check": "allocation:labels:0",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:0",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:1",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:1",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:2",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:2",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:3",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:3",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:4",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:4",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:5",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:5",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:6",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:6",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:7",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:7",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:8",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:8",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:9",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:9",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:10",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:10",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:11",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:11",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:12",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:12",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:13",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:13",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:14",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:14",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:15",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:15",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:16",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:16",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:17",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:17",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:18",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:18",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:19",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:19",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:20",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:20",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:21",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:21",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:22",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:22",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:23",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:23",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:24",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:24",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:25",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:25",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:26",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:26",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:27",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:27",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:28",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:28",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:29",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:29",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:30",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:30",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:31",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:31",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:32",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:32",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:33",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:33",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:34",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:34",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:35",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:35",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:36",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:36",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:37",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:37",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:38",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:38",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:39",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:39",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:40",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:40",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:41",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:41",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:42",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:42",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:43",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:43",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:44",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:44",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:45",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:45",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:46",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:46",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:47",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:47",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:48",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:48",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:49",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:49",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:50",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:50",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:51",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:51",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:52",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:52",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:53",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:53",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:54",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:54",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:55",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:55",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:56",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:56",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:57",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:57",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:58",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:58",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:59",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:59",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:60",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:60",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:61",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:61",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:62",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:62",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:63",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:63",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:64",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:64",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:65",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:65",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:66",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:66",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:67",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:67",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:68",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:68",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:labels:69",
+      "kind": "exact",
+      "values": 4
+    },
+    {
+      "check": "allocation:observed:69",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "allocation:qc_count",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "atol": 2e-10,
+      "check": "allocation:resolution",
+      "finite_values": 1,
+      "kind": "numeric",
+      "maximum_absolute_difference": 0.0,
+      "rtol": 2e-08,
+      "values": 1
+    },
+    {
+      "check": "NB:warning_count",
+      "kind": "exact",
+      "values": 1
+    },
+    {
+      "check": "plan:unchanged_after_verification",
+      "kind": "exact",
+      "values": 1
+    }
+  ],
+  "conditional_fixed_dispersion_NB": {
+    "criteria": {
+      "maximum_contrast_difference_in_native_SE": 0.02,
+      "maximum_twice_objective_improvement": 0.001
+    },
+    "dispersion_estimation_repeated": false,
+    "results": [
+      {
+        "maximum_contrast_difference_in_native_SE": 2.228148542894703e-06,
+        "maximum_natural_log_coefficient_difference": 1.1490192071608035e-06,
+        "newton_decrement": 9.366945341410418e-12,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000177731",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.964508555829525e-10
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 1.593470086814013e-05,
+        "maximum_natural_log_coefficient_difference": 1.2643072737072991e-06,
+        "newton_decrement": 2.2620475122999173e-09,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000115616",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 2.8194335754960775e-10
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 1.0202513475972933e-05,
+        "maximum_natural_log_coefficient_difference": 8.430528330716225e-07,
+        "newton_decrement": 1.6356460160468599e-09,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000112697",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.1641532182693481e-10
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 4.161783765701834e-06,
+        "maximum_natural_log_coefficient_difference": 4.2708304565097777e-07,
+        "newton_decrement": 5.19044335922536e-11,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000048471",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 2.091837814077735e-11
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 6.274510378495309e-06,
+        "maximum_natural_log_coefficient_difference": 3.3385722172755983e-06,
+        "newton_decrement": 1.0393248297924712e-13,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000138621",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.53431756189093e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 8.033555774834673e-06,
+        "maximum_natural_log_coefficient_difference": 6.395248017265764e-07,
+        "newton_decrement": 8.756533008410796e-10,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000084112",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 6.912159733474255e-11
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 5.595259567854649e-06,
+        "maximum_natural_log_coefficient_difference": 4.73012664953254e-07,
+        "newton_decrement": 7.049270431215445e-10,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000104375",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 5.638867150992155e-11
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 4.104060283910923e-06,
+        "maximum_natural_log_coefficient_difference": 1.8791196180548142e-06,
+        "newton_decrement": 1.0026897486837533e-09,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000213246",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.3606040738523006e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 1.0157941061411322e-05,
+        "maximum_natural_log_coefficient_difference": 1.3505389595824813e-06,
+        "newton_decrement": 4.899097699365663e-11,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000164002",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.1004885891452432e-10
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 1.5778006392683367e-05,
+        "maximum_natural_log_coefficient_difference": 5.339019097314046e-06,
+        "newton_decrement": 8.793543787784566e-10,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000170412",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 9.564246283844113e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 8.184870443231246e-05,
+        "maximum_natural_log_coefficient_difference": 2.3013853556574926e-05,
+        "newton_decrement": 3.1747446082768646e-14,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000124915",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.4837041817372665e-08
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 1.271658303116246e-05,
+        "maximum_natural_log_coefficient_difference": 2.946817914017963e-06,
+        "newton_decrement": 5.2488087989082236e-11,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000187231",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.5788828022778034e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 4.919624501407139e-05,
+        "maximum_natural_log_coefficient_difference": 4.83696730108063e-06,
+        "newton_decrement": 2.2322184397812354e-08,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000188636",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 2.8967406251467764e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 3.534294410643371e-05,
+        "maximum_natural_log_coefficient_difference": 3.508397301579813e-06,
+        "newton_decrement": 8.568660494651276e-09,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000174306",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.8053469830192626e-09
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 3.984337924969147e-06,
+        "maximum_natural_log_coefficient_difference": 4.7527140719164085e-07,
+        "newton_decrement": 4.641029008901291e-11,
+        "optimizer_success": true,
+        "source_feature_id": "ENSG00000180354",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.6370904631912708e-11
+      },
+      {
+        "maximum_contrast_difference_in_native_SE": 3.112879032310685e-06,
+        "maximum_natural_log_coefficient_difference": 1.5137707837842296e-05,
+        "newton_decrement": 5.906075691994317e-07,
+        "optimizer_success": false,
+        "source_feature_id": "ENSG00000166441",
+        "status": "conditional_optimization_agrees",
+        "twice_objective_improvement": 1.4431861927732825e-08
+      }
+    ],
+    "ridge": 1e-06,
+    "selection_before_effects": true
+  },
+  "conditional_refit_selection": {
+    "rule": "first16_by_sha256_utf8(PSC-organoid-conditional-NB-v1: concatenated_with_exact_source_ID)_among_eligible_genes_with_all16_counts>=10",
+    "source_feature_ids": [
+      "ENSG00000177731",
+      "ENSG00000115616",
+      "ENSG00000112697",
+      "ENSG00000048471",
+      "ENSG00000138621",
+      "ENSG00000084112",
+      "ENSG00000104375",
+      "ENSG00000213246",
+      "ENSG00000164002",
+      "ENSG00000170412",
+      "ENSG00000124915",
+      "ENSG00000187231",
+      "ENSG00000188636",
+      "ENSG00000174306",
+      "ENSG00000180354",
+      "ENSG00000166441"
+    ]
+  },
+  "counts": {
+    "donors": 8,
+    "eligible": 17897,
+    "features": 36601,
+    "libraries": 16,
+    "ratio_basis": 17463,
+    "retained_cells": 46343,
+    "unfiltered_RNA_total": 1128543232
+  },
+  "design": {
+    "identical_row_replicates": 1,
+    "leverage": 0.625,
+    "rank": 10,
+    "residual_df": 6
+  },
+  "dispersion_fit_type": "parametric",
+  "full_dispersion_model_refitted": false,
+  "independent_analysis_helpers_imported": false,
+  "limits": [
+    "raw_assay_provenance_relies_on_reviewed_pinned_qualification_not_integer_values",
+    "no_recovery_of_historical_RNA_metadata_feature_universe",
+    "conditional_Wald_reconstruction_not_independent_dispersion_estimation",
+    "no_small_sample_calibration_or_observational_exchangeability_proof",
+    "eight_donors_not_cells_libraries_genes_or_omissions_are_replicates",
+    "not_a_causal_or_clinical_validation"
+  ],
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "private_array_receipts": {
+    "NB-all-native-feature-estimates-and-flags.csv.gz": {
+      "bytes": 967608,
+      "sha256": "576dc620040c68d0c6c239cc33b3600c5d391975085848985538baf01ba063df"
+    },
+    "NB-natural-log-coefficients.csv.gz": {
+      "bytes": 1775566,
+      "sha256": "bd81efa79bffc966586f26666ffe396b867858bb86f7ac977235fc560859bdca"
+    },
+    "all-70-allocation-effects.csv.gz": {
+      "bytes": 11798378,
+      "sha256": "191e5006acc40911e0dcf8041bf3a907474e867633c722fab8ca714519593e8c"
+    },
+    "all-70-allocation-labels.csv": {
+      "bytes": 4377,
+      "sha256": "9d655a70206929535b1270b859a13a0750daa404ad666c81a9b74d05b2c864de"
+    },
+    "all-cooks-distances.csv.gz": {
+      "bytes": 2760023,
+      "sha256": "10f23514420a3a860c4327b24210c86ea29a8e15e03dada8d68cc842bdd08aa4"
+    },
+    "all-donor-leaveout-effects.csv.gz": {
+      "bytes": 1402541,
+      "sha256": "996eaa3f00e562c1d3edfa3c88c1eda0dd704c3e6881786dea5d2c6d674eaef7"
+    },
+    "design-matrix.csv": {
+      "bytes": 671,
+      "sha256": "066b68aa3bde001b0531df13c7ff1464264b7525cd80dbc582f5c7bba5ffe353"
+    },
+    "donor-paired-log2cpm-changes.csv.gz": {
+      "bytes": 1334059,
+      "sha256": "e79fc296f49688922ec91747f73dc2beea4d07b2537ec73f72396e3b0ca3bcdd"
+    },
+    "execution-plan.json": {
+      "bytes": 13936,
+      "sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b"
+    },
+    "fit-warnings.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "library-normalization.csv": {
+      "bytes": 1246,
+      "sha256": "612a61d9d222ce5057e51e28bb3db66f2137855f3a3cfb2bb7e1cf03d7d37ee5"
+    },
+    "selected-libraries.csv": {
+      "bytes": 2565,
+      "sha256": "2f2fea09c3a95eb61523adc92b01b611cdc130b12af8feeb169fc7c5f8349f62"
+    }
+  },
+  "public_manifest_sha256": "43c382dcf1ae6d11adac1e07a53a59c8a5000f4e617985fb222018328a0ce88a",
+  "schema_version": 1,
+  "status": "independent_numerical_verification_passed",
+  "verification_time_utc": "2026-09-16T01:04:19.238664+00:00",
+  "verifier_sha256": "aa64f26a1b10e3fafd9584bfd32f2b3589e635aaba744bfc767067bab3563854"
+}

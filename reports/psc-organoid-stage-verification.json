@@ -1,0 +1,178 @@
+{
+  "aggregate_summary_sha256": "e982034aefec5c63183fafdc65fa0f7b33125b3ca0e6cef53f17db503349494a",
+  "clean_replay_exit_code": 0,
+  "execution_plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "frozen_code_and_review_preservation": [
+    {
+      "path": "scripts/analyze_psc_organoid_il17.py",
+      "sha256": "4da3c90c9d785aa52e8e91efd34755d0c6e137eee3bef55e7c48f9a3e89c5d3f",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_psc_organoid_il17.py",
+      "sha256": "f2aac630c01df804176043a208133330fa53ad115ccd0529e65b54a1cb117c57",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/qualify_psc_organoid_inputs.py",
+      "sha256": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_psc_organoid_inputs.py",
+      "sha256": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/psc-organoid-method-design.md",
+      "sha256": "7d7c3ce797bcc3bcd28ecc64c17492b057ae18415de147dcb00b22efbd8af752",
+      "unchanged": true
+    },
+    {
+      "path": "reports/psc-organoid-input-qualification.md",
+      "sha256": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5",
+      "unchanged": true
+    },
+    {
+      "path": "docs/psc-organoid-il17-protocol.md",
+      "sha256": "08810339c47c022d41421ff7f0c8fd700dfde0272d9b7d2bded16cd0172819da",
+      "unchanged": true
+    },
+    {
+      "path": "requirements-psc-blood.lock",
+      "sha256": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/verify_psc_organoid_il17.py",
+      "sha256": "aa64f26a1b10e3fafd9584bfd32f2b3589e635aaba744bfc767067bab3563854",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_verify_psc_organoid_il17.py",
+      "sha256": "168beed21fd5425a2bdec46e6eabfad62c9abefb725aec198b0b0e061af4ff32",
+      "unchanged": true
+    },
+    {
+      "path": "reports/psc-organoid-independent-review.md",
+      "sha256": "14a4597653d66c5f0c7be6547496711a928329ae425792f29c7ea142bd38d8ae",
+      "unchanged": true
+    }
+  ],
+  "full_repository_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "error_headers": [
+      "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+      "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+      "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+      "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+      "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+      "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+      "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+    ],
+    "errors": 7,
+    "exit_code": 1,
+    "failure_status": "same_seven_historical_missing_input_or_R_runtime_errors",
+    "log_sha256": "7ed3c9a3deba6355287d720aa0c976f651ce1667ef1775d8aafad3474b60aed8",
+    "new_organoid_errors": 0,
+    "reported_tests": 583,
+    "scope_note": "Current workspace includes parallel pre-effect branches; count is a dated full-workspace snapshot, not only committed organoid tests."
+  },
+  "independent_verifier_exit_code": 0,
+  "limits": [
+    "No independent full dispersion-pipeline refit.",
+    "Nine conditional optimizer flags false; all sixteen separate predeclared numerical criteria pass.",
+    "No primary candidate is in the sixteen-feature conditional optimizer panel.",
+    "No biological replication, small-n calibration proof, causal inference or clinical recommendation."
+  ],
+  "liver_source_qualification_pins": {
+    "data/derived/psc-liver-input-qualification.json": "3c10ec1199725c19a3de37a0e532a66dac15b9e106fc11c9973a209760bfa4de",
+    "reports/psc-liver-input-qualification.md": "179b55b4b62f73467476d7fcb39d47da80dee46c5b3c2da056803f4aa677c3b3",
+    "scripts/qualify_psc_liver_inputs.py": "2e870af8031489d3bb49adf6533fb04f16cb671cf43db7be816154b4c3f88137",
+    "tests/test_psc_liver_inputs.py": "24059bd1eb0487b48ee2c9d2af64f77b5cdda7965ad7aa0d5fe17b8e0ef8851e"
+  },
+  "numerical_checks": 397,
+  "pre_effect_checkpoint_commit": "52013ec",
+  "presentation_replay": [
+    {
+      "file": "bh-candidates-with-diagnostics.csv.gz",
+      "identical": true,
+      "primary_sha256": "b8a5d9d6844dc5d31b417d3e2f475e9f3e6e628c0025463958d1b03d099e0515",
+      "replay_sha256": "b8a5d9d6844dc5d31b417d3e2f475e9f3e6e628c0025463958d1b03d099e0515"
+    },
+    {
+      "file": "masked-contrasts.csv.gz",
+      "identical": true,
+      "primary_sha256": "2a5126d6e30a51463f608a074a13dd1adf472c2ed409cf5438de863ba634b40e",
+      "replay_sha256": "2a5126d6e30a51463f608a074a13dd1adf472c2ed409cf5438de863ba634b40e"
+    },
+    {
+      "file": "native-flagged-features.csv.gz",
+      "identical": true,
+      "primary_sha256": "44a2b6c6966528b3ec48e2631b266f463916274be27d04c9613c45caac2956d1",
+      "replay_sha256": "44a2b6c6966528b3ec48e2631b266f463916274be27d04c9613c45caac2956d1"
+    },
+    {
+      "file": "report-output-manifest.json",
+      "identical": true,
+      "primary_sha256": "ad9d490dd5e496a925637f63bc87ce93b717cd35f66956f30682e886e342c3d2",
+      "replay_sha256": "ad9d490dd5e496a925637f63bc87ce93b717cd35f66956f30682e886e342c3d2"
+    },
+    {
+      "file": "summary.json",
+      "identical": true,
+      "primary_sha256": "e982034aefec5c63183fafdc65fa0f7b33125b3ca0e6cef53f17db503349494a",
+      "replay_sha256": "e982034aefec5c63183fafdc65fa0f7b33125b3ca0e6cef53f17db503349494a"
+    },
+    {
+      "file": "psc-organoid-il17.png",
+      "identical": true,
+      "primary_sha256": "7245b18e03ac1be4472b1e18f14b58a936029b4917b8e3ec3ada79f3192d90fb",
+      "replay_sha256": "7245b18e03ac1be4472b1e18f14b58a936029b4917b8e3ec3ada79f3192d90fb"
+    },
+    {
+      "file": "psc-organoid-il17.svg",
+      "identical": true,
+      "primary_sha256": "f7491f87d9b81301e13c81da4d29ddca9ae1ba014a3c74ab7b3efd6c2f8df946",
+      "replay_sha256": "f7491f87d9b81301e13c81da4d29ddca9ae1ba014a3c74ab7b3efd6c2f8df946"
+    }
+  ],
+  "presentation_replay_files": 7,
+  "primary_exit_code": 0,
+  "prior_scientific_files_preserved": {
+    "changed_allowed_navigation_paths": [
+      ".gitignore",
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md"
+    ],
+    "initial_tracked_files": 1310,
+    "non_navigation_changes": []
+  },
+  "privacy": {
+    "donor_expression_and_fit_arrays_versioned": false,
+    "personal_motivation_or_credentials_versioned": false,
+    "replay_caches_versioned": false,
+    "source_raw_caches_versioned": false
+  },
+  "private_replay_files": 13,
+  "public_primary_replay_files": 8,
+  "publication_checks": {
+    "broken_local_document_links": 0,
+    "generated_SVG_excluded_only_from_whitespace_check": true,
+    "generated_SVG_original_and_replay_bytes_preserved": true,
+    "local_document_links": 251,
+    "secret_pattern_or_personal_motivation_findings": 0,
+    "staged_paths": 32,
+    "unfinished_parallel_branches_staged": false
+  },
+  "recorded_at_utc": "2026-09-16T01:43:12.582910+00:00",
+  "schema_version": 1,
+  "status": "organoid_results_verified_replayed_and_reported",
+  "targeted_tests": {
+    "aggregate_reporter": 17,
+    "all_pass": true,
+    "independent_verifier": 24,
+    "source_and_analysis": 84
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "BH_candidate_sensitivities": {
+    "Welch_BH": 0,
+    "all_eight_leaveout_signs_match_full_paired_change": 8,
+    "allocation_fraction_max": 0.1142857142857142,
+    "allocation_fraction_min": 0.0285714285714285,
+    "any_Cook_above_diagnostic_cutoff": 0,
+    "any_native_nonconvergence": 0,
+    "same_NB_and_Welch_nonzero_direction": 8
+  },
+  "diagnostics": {
+    "LFC_nonconverged": 0,
+    "MAP_nonconverged": 67,
+    "any_native_nonconvergence": 185,
+    "automatic_cook_exclusions": 0,
+    "boundary_masks_by_contrast": {
+      "interaction": 3,
+      "nonPSC_treatment": 3
+    },
+    "dispersion_fit_type": "parametric",
+    "eligible_with_cook_above_diagnostic_cutoff": 0,
+    "eligible_with_nonfinite_cook": 0,
+    "eligible_with_zero_total_donor_pair": 143,
+    "fit_warning_count": 0,
+    "genewise_nonconverged": 118,
+    "masked_raw_package_q_le_0_05": 1
+  },
+  "feature_coverage": {
+    "all_zero_released": 7641,
+    "eligible": 17897,
+    "excluded_low_count": 18704,
+    "normalization_basis": 17463,
+    "released": 36601
+  },
+  "interaction": {
+    "BH": {
+      "count": 8,
+      "negative": 4,
+      "positive": 4
+    },
+    "BY": {
+      "count": 6,
+      "negative": 4,
+      "positive": 2
+    },
+    "family_size": 17897,
+    "finite_pvalues": 17894,
+    "minimum_BH": 0.0010595357862591
+  },
+  "interpretation_limits": [
+    "Four PSC and four procedure-control donors; not cell-level replication or healthy-volunteer controls.",
+    "NB interaction is a log2 ratio of treatment ratios; positive does not alone mean induction in PSC.",
+    "Welch compares equal-donor log2(CPM+1) changes; it is a different estimand, not independent replication.",
+    "Leaveout sign stability is descriptive and is not an NB refit, confidence interval or new discovery rule.",
+    "Allocation fractions are descriptive; disease labels were not randomized.",
+    "BH/BY depend on valid constituent model P values; small-n calibration and clinical response confounding remain.",
+    "Native optimizer flags are retained, not used for a new post-effect family or exclusion.",
+    "Conditional NB coefficient agreement does not refit dispersions or establish biological replication.",
+    "No inference about PSC causation, disease specificity, treatment benefit or equivalence."
+  ],
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "reporting_software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "python": "3.12.14"
+  },
+  "schema_version": 1,
+  "status": "aggregate_reporting_only_no_new_models",
+  "units": {
+    "donors": 8,
+    "libraries": 16,
+    "released_cells": 46343
+  },
+  "verification": {
+    "checks": 397,
+    "conditional_optimizer_success_false": 9,
+    "conditional_panel_selected": 16,
+    "conditional_panel_status": {
+      "conditional_optimization_agrees": 16
+    },
+    "full_dispersion_model_refitted": false,
+    "maximum_contrast_difference_in_native_SE": 8.184870443231246e-05,
+    "maximum_newton_decrement": 5.906075691994317e-07,
+    "maximum_twice_objective_improvement": 1.4837041817372665e-08,
+    "status": "independent_numerical_verification_passed"
+  },
+  "welch_sensitivity": {
+    "BH": {
+      "count": 0,
+      "negative": 0,
+      "positive": 0
+    },
+    "BY": {
+      "count": 0,
+      "negative": 0,
+      "positive": 0
+    },
+    "family_size": 17897,
+    "finite_pvalues": 17897,
+    "minimum_BH": 0.2370060543216822
+  },
+  "within_group": {
+    "PSC_treatment": {
+      "BH": {
+        "count": 615,
+        "negative": 197,
+        "positive": 418
+      },
+      "BY": {
+        "count": 298,
+        "negative": 82,
+        "positive": 216
+      },
+      "family_size": 17897,
+      "finite_pvalues": 17897,
+      "minimum_BH": 1.9778346746274744e-157
+    },
+    "nonPSC_treatment": {
+      "BH": {
+        "count": 164,
+        "negative": 35,
+        "positive": 129
+      },
+      "BY": {
+        "count": 87,
+        "negative": 7,
+        "positive": 80
+      },
+      "family_size": 17897,
+      "finite_pvalues": 17894,
+      "minimum_BH": 4.108238847134201e-138
+    }
+  }
+}

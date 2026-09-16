@@ -1,0 +1,34 @@
+{
+  "independent_verification_sha256": "30852357b68254ae3a1e93ab4f6bdfdc18463db87d9c923eb20395981536d34a",
+  "new_tests_or_models": false,
+  "outputs": {
+    "bh-candidates-with-diagnostics.csv.gz": {
+      "bytes": 4464,
+      "sha256": "b8a5d9d6844dc5d31b417d3e2f475e9f3e6e628c0025463958d1b03d099e0515"
+    },
+    "masked-contrasts.csv.gz": {
+      "bytes": 725,
+      "sha256": "2a5126d6e30a51463f608a074a13dd1adf472c2ed409cf5438de863ba634b40e"
+    },
+    "native-flagged-features.csv.gz": {
+      "bytes": 31148,
+      "sha256": "44a2b6c6966528b3ec48e2631b266f463916274be27d04c9613c45caac2956d1"
+    },
+    "psc-organoid-il17.png": {
+      "bytes": 277291,
+      "sha256": "7245b18e03ac1be4472b1e18f14b58a936029b4917b8e3ec3ada79f3192d90fb"
+    },
+    "psc-organoid-il17.svg": {
+      "bytes": 2103255,
+      "sha256": "f7491f87d9b81301e13c81da4d29ddca9ae1ba014a3c74ab7b3efd6c2f8df946"
+    },
+    "summary.json": {
+      "bytes": 4116,
+      "sha256": "e982034aefec5c63183fafdc65fa0f7b33125b3ca0e6cef53f17db503349494a"
+    }
+  },
+  "patient_level_inputs_read": false,
+  "plan_sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b",
+  "report_script_sha256": "54619a3d153050ff75b1a6fd62f65c225e3efe635ca5c69afd5a47f34dc40150",
+  "source_public_manifest_sha256": "43c382dcf1ae6d11adac1e07a53a59c8a5000f4e617985fb222018328a0ce88a"
+}
