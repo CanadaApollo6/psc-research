@@ -1,0 +1,16 @@
+{
+  "CI_reference": "scipy.special.betainc inverted with scipy.optimize.brentq",
+  "CI_standardized_critical_relative": "1e-9",
+  "P_reference": "positive Decimal incomplete-beta series, 100 digits, float log-gamma normalization",
+  "P_relative": "1e-10",
+  "logarithms": "direct Decimal.ln of exact rational Q/products; no author log series",
+  "maximum_matrix_coordinates": 50000000,
+  "moments_SD_SE_df_relative": "1e-10",
+  "native_availability_only": "scipy.special.stdtr/stdtrit; no scipy.stats import",
+  "points_relative": "1e-10",
+  "reference_decimal_digits": 4000,
+  "schema_version": 1,
+  "scope": "one scientific primary, independent verification, mechanical replay; no extra endpoint",
+  "source_integer_digits": 100,
+  "zero_and_sign": "exact; no absolute epsilon, no zero replacement"
+}

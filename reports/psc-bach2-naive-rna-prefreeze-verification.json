@@ -1,0 +1,70 @@
+{
+  "author_tests": 80,
+  "explicit_documentary_only_handoff_update": {
+    "final_report_sha256": "6977df9331df447f524e1704e07236d66ce314d446c7eae90b84df5a7a111dc3",
+    "old_acceptance_and_handoff_preserved": true,
+    "old_report_sha256": "957a92b56fc37ae1543736b71f0325ba71d070cbe1202ed7132bf04896e9b80d",
+    "operative_scientific_code_plan_tests_runtime_unchanged": true,
+    "sha256": "7d3955e3dd0c4353b8cff4ea46545ada5f63dbadc50be517aa01d8f568293a65"
+  },
+  "independent_method_synthetic_replay": {
+    "additional_reviewer_receipt_byte_identical": true,
+    "native_artifacts_byte_identical": 4,
+    "real_study_source_used": false
+  },
+  "independent_method_tests": 46,
+  "interpretation": "same-cohort observation check; not original-UMI certification, independent biological validation or clinical recommendation",
+  "native_authorization_source_only_conformance": {
+    "actual_use_requires_pushed_root_checkpoint": true,
+    "mechanical_replay": true,
+    "primary": true
+  },
+  "native_plan_sha256": "b6826aa5adb6a3ff26c6f81f5fb16017df5e9580487a96afc2ff491554257b06",
+  "prior_access_disclosure": {
+    "archive_members_decoded": 0,
+    "new_BACH2_selected_population_quantities_computed": 0,
+    "production_preparation_did_not_open_archives_or_quantity_JSON": true,
+    "reviewer_loaded_closed_qualification_JSON_with_historical_donor_technical_totals": true,
+    "reviewer_root_authorized_opaque_compressed_archive_hashes": 8,
+    "those_totals_extracted_compared_selected_on_or_analyzed": false
+  },
+  "public_schema_sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af",
+  "root_bounded_native_tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 167,
+    "skips": 0
+  },
+  "root_default_author_and_auditor_metadata_checks": {
+    "output_write_attempts": 0,
+    "real_study_quantity_open_attempts": 0,
+    "status": "pass"
+  },
+  "runtime_installed_distribution_files_checked": {
+    "numpy": 929,
+    "scipy": 1433
+  },
+  "runtime_sha256": "4e824ecf01cba865acc06363c49274e4a594e30fbf32d53606a77ca7d97b0d30",
+  "schema_version": 1,
+  "selection_sha256": "63e01409919ae4bd7ab016417a6f285666395464a31a9c53d0129bac381a6257",
+  "separate_audit_acceptance_sha256": "dc7d62bbd4dca51ada501b8e6120c5b33df2e57f2370f8600efd8aacda4b3882",
+  "separate_audit_handoff_sha256": "1011dd3974a5a7300f1da5b61aab0c03b09917df7a3834d18206121f34d62fd1",
+  "separate_execution_auditor_tests": 41,
+  "source_manifest_sha256": "10ddbcbbf9ab9b1a413361da403d934e63e5353f3b7dfb3635e7af06aabf7d26",
+  "source_selection_independently_verified": {
+    "RNA_positions": 36601,
+    "annotation_and_receipt_pins": 55,
+    "donors": 8,
+    "expected_archive_pins": 8,
+    "expected_matrix_pins": 8,
+    "retained_keys": 55460,
+    "selected_six_field_rows": 16659
+  },
+  "status": "ROOT_ACCEPTED_PRE_EFFECT_METHOD_AND_REAL_OUTPUT_AUDITOR_NO_REAL_BACH2_VALUES",
+  "worker_guarded_repository_suite_not_root_rerun": {
+    "errors": 7,
+    "errors_are_same_historical_ETS2_GSE84161_cache_Rscript_blockers": true,
+    "failures": 0,
+    "tests": 1145
+  }
+}

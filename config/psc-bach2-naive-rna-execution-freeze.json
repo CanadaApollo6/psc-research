@@ -1,0 +1,192 @@
+{
+  "authorizer": "root",
+  "candidate_canonical_object_sha256": "57d59202ab934fda7f7713f700a556b015acf49b6861f8a391b670081f54a6cb",
+  "candidate_source_file_sha256": "b54c4fc47a93afc48b6463410902e467e459049cef759dc3ba50d8fb6149d627",
+  "compiled_plan": {
+    "bytes": 421827,
+    "path": "work/psc-bach2-naive-rna-plan/candidate-v4/plan.json",
+    "preparation_status_intentionally_unchanged_not_itself_authorization": true,
+    "sha256": "b6826aa5adb6a3ff26c6f81f5fb16017df5e9580487a96afc2ff491554257b06"
+  },
+  "completion_required": "last-written authenticated exact inventory; no failure marker; all payload bytes/SHA and eight provenance bindings",
+  "estimand": {
+    "all_eight_required": true,
+    "contrast": "equal-donor mean SNP minus equal-donor mean noSNP",
+    "diagnostics": "all eight donor omissions, point only; private donor quantities, aggregate public extrema/signs only",
+    "donor_quantity": "log2(1 + 1000000 * selected_cell_BACH2_RNA / selected_cell_all36601_RNA)",
+    "inference": "one nominal two-sided actual-df Welch 95% CI/P; no multiplicity or genome-wide claim",
+    "whole_endpoint_failure_without_source_or_population_rescue": true,
+    "zero_B_retained": true
+  },
+  "execution_gate": {
+    "actual_real_BACH2_values_accessed_before_this_freeze": false,
+    "execution_before_checkpoint": "FORBIDDEN",
+    "native_authorizations_may_be_used_only_after_this_checkpoint_is_committed_and_pushed": true,
+    "one_scientific_primary_plus_independent_audit_and_mechanical_replay_only": true
+  },
+  "frozen_at_UTC": "2026-09-16T07:32:28.725857+00:00",
+  "independent_audit": {
+    "adapter": "scripts/verify_psc_bach2_naive_rna_execution.py",
+    "adapter_sha256": "2bea2df61ad4b2ef73083a0e569051ab3d0fbba9427486e72c4e4e5be1064d4b",
+    "exact_criteria": "nonzero quantities relative1e-10; exactzero/sign/constancy/availability; standardizedCI relative1e-9; no absolute epsilon",
+    "fresh_primary_audit_output": "work/psc-bach2-naive-rna-execution-review/primary-v1-audit",
+    "fresh_replay_audit_output": "work/psc-bach2-naive-rna-execution-review/replay-v1-audit",
+    "per_run_audit_seal": "exact pinned seal_bindings() schema in dedicated root namespace; only actual completion hash deferred until run exists",
+    "protocol": "config/psc-bach2-naive-rna-verification-protocol.json",
+    "protocol_sha256": "bc8fd9c9e464283bf2f2e6697574d395011fa3b07aae063c75736646261e2ad6"
+  },
+  "native_output_inventory": [
+    "authorization.used.json",
+    "completion.json",
+    "measurements.private.json",
+    "public-aggregate.json"
+  ],
+  "native_per_destination_authorizations": {
+    "primary-v1": {
+      "bytes": 897,
+      "path": "work/psc-bach2-naive-rna-freeze/primary-v1.json",
+      "sha256": "b9703443a6585517e39ab5dc57d6287d5ccad34b3280e306acd268bc9244c886"
+    },
+    "replay-v1": {
+      "bytes": 896,
+      "path": "work/psc-bach2-naive-rna-freeze/replay-v1.json",
+      "sha256": "dd99adc6a35846c87048af773b64a87a31fe0f10c2a933099f60fcdd5462808f"
+    }
+  },
+  "private_outer_ledger": {
+    "bytes": 31634,
+    "deferred_expected_matrix_and_archive_payload_pins": 16,
+    "path": "work/psc-bach2-naive-rna-freeze/private-seal-ledger.json",
+    "quantity_payloads_opened_to_build_ledger": 0,
+    "sealed_metadata_files": 102,
+    "sha256": "74f1e45eb1c452cb9deaffebafc013f938b94bd2cfd2ce83c820b437240f511d"
+  },
+  "public_code_protocol_review_and_schema_pins": [
+    {
+      "bytes": 853,
+      "path": ".gitignore",
+      "sha256": "dc509753817813b5b66e04adb35767ea56f1a3ae7a305c4985a3d977121ed81e"
+    },
+    {
+      "bytes": 16316,
+      "path": "reports/psc-bach2-followup-design-review.md",
+      "sha256": "eef554dbbef39aab08feff1a41b9238eff317c10d5cd62a46b46e77b14e5c368"
+    },
+    {
+      "bytes": 48905,
+      "path": "scripts/analyze_psc_bach2_naive_rna.py",
+      "sha256": "ba7ca52b0ed357e9a1c245f99aefaad8b4d7ac107ccf04b5ef1c4664b399b1ec"
+    },
+    {
+      "bytes": 34629,
+      "path": "tests/test_psc_bach2_naive_rna.py",
+      "sha256": "7263c3cd5c8d656647bf85ae87abe19a0e7e7cb9569445dae46240ba07145e1b"
+    },
+    {
+      "bytes": 19047,
+      "path": "reports/psc-bach2-naive-rna-method-design.md",
+      "sha256": "6977df9331df447f524e1704e07236d66ce314d446c7eae90b84df5a7a111dc3"
+    },
+    {
+      "bytes": 35414,
+      "path": "scripts/verify_psc_bach2_naive_rna.py",
+      "sha256": "15fcd8d2926a0bb83c076aa707c5fa50e175763f905039b90ed2e2802e73a18d"
+    },
+    {
+      "bytes": 33404,
+      "path": "tests/test_verify_psc_bach2_naive_rna.py",
+      "sha256": "87f78b012ca6c5c4cd4bae0a42c951bc282a349c9feae60fe54869617e39d2d1"
+    },
+    {
+      "bytes": 10498,
+      "path": "reports/psc-bach2-naive-rna-independent-review.md",
+      "sha256": "dc6e5e76f92d14c865c0fc4ad60f7ee29d8bf7d8c496434da98857f352ecb3e3"
+    },
+    {
+      "bytes": 49126,
+      "path": "scripts/verify_psc_bach2_naive_rna_execution.py",
+      "sha256": "2bea2df61ad4b2ef73083a0e569051ab3d0fbba9427486e72c4e4e5be1064d4b"
+    },
+    {
+      "bytes": 30695,
+      "path": "tests/test_verify_psc_bach2_naive_rna_execution.py",
+      "sha256": "409bb9716a29cec55b363cad8d23745282b07c73582e101124207271130a7dab"
+    },
+    {
+      "bytes": 13898,
+      "path": "reports/psc-bach2-naive-rna-execution-verification-design.md",
+      "sha256": "5f5c1843e7c328fd952a7c65633cc0d6496d2d5950cf33b4736d296f8a16213b"
+    },
+    {
+      "bytes": 16244,
+      "path": "docs/psc-bach2-naive-rna-protocol.md",
+      "sha256": "be7ddc33e19e5491433a57e2179c11c6ddadd86bf3c10d97e0853e4175a8cc64"
+    },
+    {
+      "bytes": 803,
+      "path": "config/psc-bach2-naive-rna-verification-protocol.json",
+      "sha256": "bc8fd9c9e464283bf2f2e6697574d395011fa3b07aae063c75736646261e2ad6"
+    },
+    {
+      "bytes": 1793,
+      "path": "config/psc-bach2-naive-rna-public-schema.json",
+      "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+    },
+    {
+      "bytes": 3063,
+      "path": "reports/psc-bach2-naive-rna-prefreeze-verification.json",
+      "sha256": "8955295f740ab93057412c52c999de41dcb161862577bd3826c8e6998f62faf3"
+    }
+  ],
+  "publication": {
+    "not_formal_differential_privacy": true,
+    "recursive_aggregate_only_validation_required": true,
+    "schema": "config/psc-bach2-naive-rna-public-schema.json",
+    "schema_sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af",
+    "source_joins_donor_quantities_individual_omissions_arrays_and_plots_private": true
+  },
+  "replay_rule": "same scientific payloads exactly; only explicit destination/native authorization/provenance and consequent completion hashes differ",
+  "reproduction": "Public schema/protocol copies byte-identical to pinned ignored originals; exact ignored inputs/selection/acceptances/runtime paths must be restored. Clone alone is incomplete.",
+  "runtime": {
+    "command_interface": ".venv/bin/python -B",
+    "environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONHASHSEED": "0"
+    },
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "python_executable_sha256": "8f9781a98200d9ecda7e00464e4c64b1327abae788ae8e6979d5c859311410c7",
+    "runtime_sha256": "4e824ecf01cba865acc06363c49274e4a594e30fbf32d53606a77ca7d97b0d30",
+    "scipy": "1.18.1",
+    "verified_installed_distribution_files": 2362
+  },
+  "schema_version": 1,
+  "selection_sha256": "63e01409919ae4bd7ab016417a6f285666395464a31a9c53d0129bac381a6257",
+  "source": {
+    "ADT_rows_excluded": 38,
+    "RNA_denominator_rows": 36601,
+    "accession": "E-MTAB-14013",
+    "donors": 8,
+    "groups": {
+      "SNP": 4,
+      "noSNP": 4
+    },
+    "male_PSC_same_cohort": true,
+    "quantity_is_released_source_format_not_certified_untouched_UMIs": true,
+    "retained_cells": 55460,
+    "selected_C0_C1_cells": 16659,
+    "target": [
+      "ENSG00000112182",
+      "BACH2",
+      "Gene Expression"
+    ],
+    "target_source_feature_row_one_based_NOT_genomic_coordinate": 12314
+  },
+  "source_manifest_sha256": "10ddbcbbf9ab9b1a413361da403d934e63e5353f3b7dfb3635e7af06aabf7d26",
+  "status": "FROZEN_PRE_EFFECT_ONE_FIXED_BACH2_NAIVE_CD4_RELEASED_RNA_CHECK",
+  "stop_rule": "After fixed endpoint, diagnostics, independent audit, replay and complete aggregate reporting, close regardless of sign/P/precision/sparsity/influence. No new gene/state/cohort/model search."
+}

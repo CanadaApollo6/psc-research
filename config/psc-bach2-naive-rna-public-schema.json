@@ -1,0 +1,55 @@
+{
+  "QC": {
+    "BACH2_positive_selected_cells": "integer",
+    "RNA_rows": "integer:36601",
+    "donors": "integer:8",
+    "retained_cells": "integer:55460",
+    "selected_cells": "integer:16659",
+    "source_and_membership_gates": "literal:passed",
+    "zero_BACH2_donors_retained": "integer"
+  },
+  "contrast": {
+    "CI95": "two-decimal-strings-or-null",
+    "P_two_sided": "decimal-string-or-null",
+    "SE": "decimal-string",
+    "SNP_minus_noSNP": "decimal-string",
+    "df": "decimal-string-or-null",
+    "inference_status": "enum:unavailable_zero_SE|unavailable_nonfinite_inference|CI_available_P_unavailable_numeric_tail|available_nominal_Welch"
+  },
+  "endpoint": "literal:ENSG00000112182/BACH2; fixed pooled C0+C1 naive CD4; eight source donors",
+  "groups": {
+    "SNP": {
+      "mean": "decimal-string",
+      "n": "integer:4",
+      "sample_sd": "decimal-string"
+    },
+    "noSNP": {
+      "mean": "decimal-string",
+      "n": "integer:4",
+      "sample_sd": "decimal-string"
+    }
+  },
+  "leave_one_donor_out": {
+    "count": "integer:8",
+    "full_point_sign": "integer:-1/0/1",
+    "maximum": "decimal-string",
+    "minimum": "decimal-string",
+    "negative_count": "integer",
+    "positive_count": "integer",
+    "strict_sign_reversal_count": "integer",
+    "zero_count": "integer"
+  },
+  "provenance": {
+    "authorization_sha256": "sha256",
+    "candidate_sha256": "sha256",
+    "implementation_sha256": "sha256",
+    "plan_sha256": "sha256",
+    "public_schema_sha256": "sha256",
+    "runtime_sha256": "sha256",
+    "selection_sha256": "sha256",
+    "source_manifest_sha256": "sha256"
+  },
+  "quantity": "literal:mean donor log2(1+1000000*released_BACH2_RNA/all36601_released_RNA_units)",
+  "schema_version": "integer:1",
+  "status": "literal:fixed_endpoint_complete"
+}
