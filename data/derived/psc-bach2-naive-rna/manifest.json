@@ -1,0 +1,152 @@
+{
+  "authority": {
+    "bytes": 2815,
+    "path": "work/psc-bach2-naive-rna-freeze/root-reporting-handoff.json",
+    "sha256": "53f636477b1f8c33c44308b3b48ab3f3a9b448f53422dc17f1e07fbdd935fab6"
+  },
+  "inputs": {
+    "independent_verification": {
+      "bytes": 1849,
+      "path": "work/psc-bach2-naive-rna-execution-review/primary-v1-audit/aggregate-verification.json",
+      "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+    },
+    "outer_freeze": {
+      "bytes": 8423,
+      "path": "config/psc-bach2-naive-rna-execution-freeze.json",
+      "sha256": "df5cc30e11fd79424d8b8c429f4c62e48c46cda657afb4601d35d7e316fc346e"
+    },
+    "primary_completion": {
+      "bytes": 1528,
+      "path": "work/psc-bach2-naive-rna-plan/runs/primary-v1/completion.json",
+      "sha256": "850ff604b819fb0aae660fabc9a42248d511a5a334b07764afdb46d3dd961c4f"
+    },
+    "public_aggregate": {
+      "bytes": 5391,
+      "path": "work/psc-bach2-naive-rna-plan/runs/primary-v1/public-aggregate.json",
+      "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+    },
+    "public_schema": {
+      "bytes": 1793,
+      "path": "config/psc-bach2-naive-rna-public-schema.json",
+      "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+    },
+    "replay_verification": {
+      "bytes": 2782,
+      "path": "work/psc-bach2-naive-rna-freeze/root-mechanical-replay-verification.json",
+      "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+    }
+  },
+  "payloads": {
+    "data/derived/psc-bach2-naive-rna/aggregate-verification.json": {
+      "bytes": 1849,
+      "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+    },
+    "data/derived/psc-bach2-naive-rna/endpoint.csv": {
+      "bytes": 2701,
+      "sha256": "263cb393835945a349a6ad52ec3fbef74951ddd356888695a6c9de93891711b3"
+    },
+    "data/derived/psc-bach2-naive-rna/groups.csv": {
+      "bytes": 2989,
+      "sha256": "e1110c9cc9dd313ea5a80527f54a9c5ccbc4b8fb56e50b77bd0a7513359374c1"
+    },
+    "data/derived/psc-bach2-naive-rna/influence-qc.json": {
+      "bytes": 2119,
+      "sha256": "f19640a43e20ae3fd858af95330757014245a6b4e6c02992574f084546f09429"
+    },
+    "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json": {
+      "bytes": 2782,
+      "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+    },
+    "data/derived/psc-bach2-naive-rna/public-aggregate.json": {
+      "bytes": 5391,
+      "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+    },
+    "data/derived/psc-bach2-naive-rna/public-schema.json": {
+      "bytes": 1793,
+      "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+    },
+    "data/derived/psc-bach2-naive-rna/reporting-info.json": {
+      "bytes": 1170,
+      "sha256": "a156232bbbb09dcb82620e38af6811356ac3b2c9c3995620913bdd8aa864f86e"
+    },
+    "reports/figures/psc-bach2-naive-rna.png": {
+      "bytes": 54560,
+      "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484"
+    },
+    "reports/figures/psc-bach2-naive-rna.svg": {
+      "bytes": 46433,
+      "sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781"
+    }
+  },
+  "reporter": {
+    "bytes": 23798,
+    "path": "scripts/report_psc_bach2_naive_rna.py",
+    "sha256": "e8b99851784f862c235e826f49c50f671dc05623884ae4ece439fb02ca775aa2"
+  },
+  "schema_version": 1,
+  "schemas": {
+    "endpoint.csv": {
+      "columns": [
+        "schema_version",
+        "status",
+        "endpoint",
+        "quantity",
+        "SNP_minus_noSNP",
+        "SE",
+        "df",
+        "CI95_lower",
+        "CI95_upper",
+        "P_two_sided",
+        "inference_status",
+        "provenance.authorization_sha256",
+        "provenance.candidate_sha256",
+        "provenance.implementation_sha256",
+        "provenance.plan_sha256",
+        "provenance.public_schema_sha256",
+        "provenance.runtime_sha256",
+        "provenance.selection_sha256",
+        "provenance.source_manifest_sha256"
+      ],
+      "rows": 1
+    },
+    "groups.csv": {
+      "columns": [
+        "schema_version",
+        "status",
+        "endpoint",
+        "quantity",
+        "group",
+        "n",
+        "mean",
+        "sample_sd",
+        "provenance.authorization_sha256",
+        "provenance.candidate_sha256",
+        "provenance.implementation_sha256",
+        "provenance.plan_sha256",
+        "provenance.public_schema_sha256",
+        "provenance.runtime_sha256",
+        "provenance.selection_sha256",
+        "provenance.source_manifest_sha256"
+      ],
+      "grid": [
+        "SNP",
+        "noSNP"
+      ],
+      "rows": 2
+    },
+    "influence-qc.json": {
+      "keys": [
+        "QC",
+        "endpoint",
+        "leave_one_donor_out",
+        "provenance",
+        "quantity",
+        "schema_version",
+        "status"
+      ],
+      "nested_fields": "Exact corresponding public-schema.json subtrees"
+    },
+    "public-aggregate.json": "Exact byte copy; recursively validated against public-schema.json and frozen provenance"
+  },
+  "status": "COMPLETE_FIXED_AGGREGATE_PRESENTATION_MANIFEST"
+}

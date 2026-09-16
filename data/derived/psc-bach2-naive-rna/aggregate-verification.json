@@ -1,0 +1,32 @@
+{
+  "adapter_sha256": "2bea2df61ad4b2ef73083a0e569051ab3d0fbba9427486e72c4e4e5be1064d4b",
+  "additional_analyses": 0,
+  "comparisons": {
+    "all_aggregate_numbers_status_QC_provenance_agree": true,
+    "all_private_metadata_and_units_agree": true,
+    "complete_matrix_streams_checked": 8,
+    "donor_records_checked": 8,
+    "public_nested_allowlist_passed": true,
+    "whole_donor_LOO_points_checked": 8
+  },
+  "completion_sha256": "850ff604b819fb0aae660fabc9a42248d511a5a334b07764afdb46d3dd961c4f",
+  "donor_quantities_or_IDs_or_LOO_values_disclosed": false,
+  "numeric_payloads_parsed": 2,
+  "protocol_sha256": "bc8fd9c9e464283bf2f2e6697574d395011fa3b07aae063c75736646261e2ad6",
+  "provenance": {
+    "authorization_sha256": "b9703443a6585517e39ab5dc57d6287d5ccad34b3280e306acd268bc9244c886",
+    "candidate_sha256": "b54c4fc47a93afc48b6463410902e467e459049cef759dc3ba50d8fb6149d627",
+    "implementation_sha256": "ba7ca52b0ed357e9a1c245f99aefaad8b4d7ac107ccf04b5ef1c4664b399b1ec",
+    "plan_sha256": "b6826aa5adb6a3ff26c6f81f5fb16017df5e9580487a96afc2ff491554257b06",
+    "public_schema_sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af",
+    "runtime_sha256": "4e824ecf01cba865acc06363c49274e4a594e30fbf32d53606a77ca7d97b0d30",
+    "selection_sha256": "63e01409919ae4bd7ab016417a6f285666395464a31a9c53d0129bac381a6257",
+    "source_manifest_sha256": "10ddbcbbf9ab9b1a413361da403d934e63e5353f3b7dfb3635e7af06aabf7d26"
+  },
+  "real_matrix_streams_checked": 8,
+  "root_seal_sha256": "053220f4f1a97adea7bde81c670ab5b87d25c595ed9767297cba780e53c97ce1",
+  "schema_version": 1,
+  "scope": "one fixed BACH2 pooled C0+C1 endpoint; independent verification, not biological replication",
+  "status": "INDEPENDENT_REAL_OUTPUT_AUDIT_PASS",
+  "verifier_sha256": "15fcd8d2926a0bb83c076aa707c5fa50e175763f905039b90ed2e2802e73a18d"
+}

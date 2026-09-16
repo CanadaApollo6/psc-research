@@ -1,0 +1,179 @@
+{
+  "biological_breakthrough_or_clinical_recommendation": false,
+  "claim_all_possible_PSC_science_exhausted": false,
+  "completed_questions": [
+    {
+      "branch": "blood",
+      "replay": "reports/psc-blood-replay-verification.json",
+      "result": "reports/psc-blood-replication.md",
+      "scope": "236 numerical/mapping/normalization/conjunction checks; not an independent full negative-binomial fit.",
+      "verification": "reports/psc-blood-independent-verification.json"
+    },
+    {
+      "branch": "organoid_IL17",
+      "replay": "reports/psc-organoid-replay-verification.json",
+      "result": "reports/psc-organoid-il17.md",
+      "scope": "397 checks including16 prospectively hash-selected fits with native fixed dispersions; not full dispersion/candidate-fit recalibration.",
+      "verification": "reports/psc-organoid-independent-verification.json"
+    },
+    {
+      "branch": "MacroMap",
+      "replay": "reports/macromap-replay-verification.json",
+      "result": "reports/macromap-program-context.md",
+      "scope": "All80cells/160models and endpoints; source-to-score8fold0contexts,rawnormalization8samples,andCIL6hresponseintervalsubset; no false full-source audit claim.",
+      "verification": "reports/macromap-independent-verification.json"
+    },
+    {
+      "branch": "liver",
+      "replay": "reports/psc-liver-program-replay-verification.json",
+      "result": "reports/psc-liver-programs.md",
+      "scope": "Complete raw/cache/native output audit; no comparison to an unsaved native logCPM matrix. All12nativefilesbyte-identical.",
+      "verification": "reports/psc-liver-program-independent-verification.json"
+    },
+    {
+      "branch": "BACH2",
+      "replay": "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json",
+      "result": "reports/psc-bach2-naive-rna.md",
+      "scope": "Complete8-matrix and native-output reconstruction; private measurements byte-identical; public only authorization SHA changes. Not all4nativefilesbyte-identical.",
+      "verification": "data/derived/psc-bach2-naive-rna/aggregate-verification.json"
+    }
+  ],
+  "documentation_links": {
+    "actual_local_link_references_excluding_code": 1326,
+    "documents": 128,
+    "false_positive_excluded": "MacroMap inline mathematical P_out_of_fold[m](true stimulus) is code, not a Markdown link.",
+    "historical_document_preserved_from_original_baseline": true,
+    "historical_missing_ignored_targets": [
+      {
+        "document": "docs/ets2-validation-context-search.md",
+        "exists": false,
+        "href": "../work/ets2-context-search/source-notes.md"
+      },
+      {
+        "document": "docs/ets2-validation-context-search.md",
+        "exists": false,
+        "href": "../data/raw/ets2-validation/context/"
+      }
+    ],
+    "new_milestone_broken": 0,
+    "new_milestone_links": 337,
+    "no_clean_whole_repository_link_claim": true
+  },
+  "final_milestone_policy": "This receipt records completed science, reporting and final validation. Coordinating agent must separately authenticate the staged inventory and inspect the final commit and push before marking the persistent goal complete. The actual commit/push result is not fabricated inside its own prospective staged receipt.",
+  "final_native_regression": {
+    "clean_repository_suite_claim": false,
+    "command": ".venv/bin/python -B -m unittest discover -s tests -v",
+    "error_headers": [
+      "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+      "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+      "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+      "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+      "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+      "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+      "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+    ],
+    "errors": 7,
+    "exit_code": 1,
+    "failures": 0,
+    "log_sha256": "b8d6793cc54c79d083ba16957158b6b6e004130546f445b4ae72c786bc0c43bb",
+    "missing_historical_dependencies": [
+      "data/raw/ets2-benchmark/ets2-primary-article.xml",
+      "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "work/gse84161-normalization/runtime/bin/Rscript"
+    ],
+    "same_as_baseline_error_headers": true,
+    "tests_run": 1202
+  },
+  "preservation": {
+    "BACH2_sealed_metadata_files": 102,
+    "all175_pins_match_after_tests": true,
+    "final_branch_native_and_source_integrity": {
+      "BACH2_completion_rechecked_against_original_record": "850ff604b819fb0aae660fabc9a42248d511a5a334b07764afdb46d3dd961c4f",
+      "additional_root_liver_completion_sha256": "b3b4e5d35dc48c2fa52604dadc0f45dd6c10f2c7a45567e924935140d49ce524",
+      "frozen_final_branch_source_payloads_total": 18,
+      "native_artifacts_total": 16,
+      "native_hash_command_record": {
+        "files": 33,
+        "opaque_hashes_only_no_quantity_parsing": true,
+        "roles": {
+          "BACH2_completed_native_payload": 3,
+          "BACH2_frozen_source_payload": 16,
+          "BACH2_native_completion": 1,
+          "liver_completed_native_artifact": 11,
+          "liver_frozen_source_payload": 2
+        },
+        "status": "ALL_FROZEN_SOURCE_AND_FINAL_NATIVE_PINS_UNCHANGED"
+      },
+      "scope": "33 opaque native-command hashes plus the liver completion checked against its original recorded digest; no values parsed or numerical analysis rerun.",
+      "total_actual_unique_files_checked": 34
+    },
+    "liver_sealed_metadata_files": 73,
+    "only_live_navigation_changes_since_prior_results_commit": [
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md",
+      "docs/psc-analysis-agenda.md"
+    ],
+    "only_permitted_original_changes": [
+      ".gitignore",
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md"
+    ],
+    "original_files_checked": 1310,
+    "original_missing": []
+  },
+  "prior_liver_results_commit_push_inspected": "7b32bd6e16558ac182b84c2737c421ab24745f2e",
+  "privacy_and_scope": {
+    "aggregates_not_formal_differential_privacy": true,
+    "independent_numerical_verification_and_replay_not_biological_replication": true,
+    "no_contacts_enrollment_paid_compute_or_clinical_recommendation": true,
+    "no_new_donor_cell_or_individual_omission_publication": true,
+    "original_frozen_science_not_repaired_for_historical_test_errors": true
+  },
+  "prospective_freezes_unchanged": [
+    {
+      "bytes": 2957,
+      "path": "config/psc-blood-execution-freeze.json",
+      "sha256": "62ce2b14fe425ea33531de0a938395542edc7de0e9b660ecaa9274dabb47a236"
+    },
+    {
+      "bytes": 13936,
+      "path": "config/psc-organoid-il17-execution-freeze.json",
+      "sha256": "89650c5f72875cd26913ada15f6874194b4f4694fd05b182418b1bf00d44a58b"
+    },
+    {
+      "bytes": 10430,
+      "path": "config/macromap-program-context-execution-freeze.json",
+      "sha256": "7a26c93bde72a7f4ffeb4256da6f06d50e2df1b3a8f69b6da73a9f19bd6127df"
+    },
+    {
+      "bytes": 9247,
+      "path": "config/psc-liver-program-freeze.json",
+      "sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d"
+    },
+    {
+      "bytes": 6859,
+      "path": "config/psc-liver-program-execution-seal.json",
+      "sha256": "59eb70cb6a539d84799300332c1ece54bf5384e9655d26884dacf06b62df7c53"
+    },
+    {
+      "bytes": 8423,
+      "path": "config/psc-bach2-naive-rna-execution-freeze.json",
+      "sha256": "df5cc30e11fd79424d8b8c429f4c62e48c46cda657afb4601d35d7e316fc346e"
+    }
+  ],
+  "remaining_frontier": {
+    "GSE159676": "HOLD_mixed_scale_person_biopsy_labels_unresolved",
+    "GSE255234": "PARK_incremental_discrimination_not_invented_access_failure",
+    "GSE303012": "PARK_incremental_discrimination_not_invented_access_failure",
+    "NoPSC": "PARK_full_count_feature_barcode_donor_overlap_inventory_unqualified",
+    "PRKD2": "external_executed_model_covariance_or_complete_signals_required",
+    "UBASH3A": "qualified_complete_RNA_stability_isoform_protein_measurements_required",
+    "epithelial_IL17_transfer": "HOLD_complete_qualified_directed_source_unavailable",
+    "new_AlphaGenome_AlphaFold_inference": "unverified_in_checked_setup_not_global_or_permanent_unavailability"
+  },
+  "schema_version": 1,
+  "status": "FIVE_ADMITTED_ANALYSES_NUMERICALLY_COMPLETE_FULLY_REPORTED_FINITE_PHASE_CLOSED"
+}

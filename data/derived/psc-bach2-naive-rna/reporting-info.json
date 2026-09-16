@@ -1,0 +1,23 @@
+{
+  "data_precision": "Original decimal strings; JSON exact source bytes. Display rounding only in figures.",
+  "figure": {
+    "contrast_count": 1,
+    "date_metadata": null,
+    "donor_or_cell_points": false,
+    "dpi": 160,
+    "font": "DejaVuSans.ttf",
+    "font_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "interval": "nominal two-sided actual-df Welch 95% CI, not group SD",
+    "matplotlib": "3.11.2",
+    "svg_fonts": "paths",
+    "svg_hashsalt": "psc-bach2-naive-rna-public-report-v1"
+  },
+  "interpretation": "Donors, not cells, are replicates. Released RNA units are not certified untouched UMIs. No independent biological replication.",
+  "new_statistical_calculations": 0,
+  "privacy": "Aggregate n=4 groups are not formal differential privacy or a guarantee against inferential disclosure.",
+  "private_or_source_quantity_payloads_read": 0,
+  "python": "3.12.14 (main, Aug 14 2026, 15:34:45) [Clang 22.1.3 ]",
+  "schema_version": 1,
+  "source_verification_scope": "Copied pinned audit/replay receipts; reporter does not recheck matrices or private outputs.",
+  "status": "PRESENTATION_ONLY_APPROVED_PUBLIC_AGGREGATE"
+}

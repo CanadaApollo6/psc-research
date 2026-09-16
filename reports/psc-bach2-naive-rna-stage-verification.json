@@ -1,0 +1,319 @@
+{
+  "Markdown_local_links": {
+    "actual_local_link_references_excluding_code": 1326,
+    "documents": 128,
+    "false_positive_excluded": "MacroMap inline mathematical P_out_of_fold[m](true stimulus) is code, not a Markdown link.",
+    "historical_document_preserved_from_original_baseline": true,
+    "historical_missing_ignored_targets": [
+      {
+        "document": "docs/ets2-validation-context-search.md",
+        "exists": false,
+        "href": "../work/ets2-context-search/source-notes.md"
+      },
+      {
+        "document": "docs/ets2-validation-context-search.md",
+        "exists": false,
+        "href": "../data/raw/ets2-validation/context/"
+      }
+    ],
+    "new_milestone_broken": 0,
+    "new_milestone_links": 337,
+    "no_clean_whole_repository_link_claim": true
+  },
+  "actual_root_PNG_view": true,
+  "all12published_file_hashes_match": true,
+  "all49CSVscalar_comparisons_match": true,
+  "complete_publicJSON_and_influenceQC_preserved": true,
+  "final_native_regression": {
+    "clean_repository_suite_claim": false,
+    "command": ".venv/bin/python -B -m unittest discover -s tests -v",
+    "error_headers": [
+      "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+      "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+      "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+      "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+      "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+      "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+      "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+    ],
+    "errors": 7,
+    "exit_code": 1,
+    "failures": 0,
+    "log_sha256": "b8d6793cc54c79d083ba16957158b6b6e004130546f445b4ae72c786bc0c43bb",
+    "missing_historical_dependencies": [
+      "data/raw/ets2-benchmark/ets2-primary-article.xml",
+      "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "work/ets2-independent-search/GSE84161-family-soft.txt",
+      "work/gse84161-normalization/runtime/bin/Rscript"
+    ],
+    "same_as_baseline_error_headers": true,
+    "tests_run": 1202
+  },
+  "independent_aggregate_result_checks": 34,
+  "independent_source_only_reporter_review": "PIN_SPECIFIC_REPORTING_SOURCE_REVIEW_PASS_NO_PUBLICATION_APPROVAL",
+  "milestone_file_pins_excluding_this_receipt": [
+    {
+      "bytes": 39190,
+      "path": "README.md",
+      "sha256": "9e18a07aaf2e61cf3a2f3a5cc20e8f2668fb6d7958a2a7f51abf4a2025a58381"
+    },
+    {
+      "bytes": 17584,
+      "path": "ROADMAP.md",
+      "sha256": "c9c9eee8cb0bb6d2c7df8cd52094fef34665c7f2b945dfc7ca6f56b6447db6f2"
+    },
+    {
+      "bytes": 1849,
+      "path": "data/derived/psc-bach2-naive-rna/aggregate-verification.json",
+      "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+    },
+    {
+      "bytes": 999,
+      "path": "data/derived/psc-bach2-naive-rna/completion.json",
+      "sha256": "785b9ebd45de81daafb3ef5d694d7830427fe632de52796a8441d6c8a9b85226"
+    },
+    {
+      "bytes": 2701,
+      "path": "data/derived/psc-bach2-naive-rna/endpoint.csv",
+      "sha256": "263cb393835945a349a6ad52ec3fbef74951ddd356888695a6c9de93891711b3"
+    },
+    {
+      "bytes": 2989,
+      "path": "data/derived/psc-bach2-naive-rna/groups.csv",
+      "sha256": "e1110c9cc9dd313ea5a80527f54a9c5ccbc4b8fb56e50b77bd0a7513359374c1"
+    },
+    {
+      "bytes": 2119,
+      "path": "data/derived/psc-bach2-naive-rna/influence-qc.json",
+      "sha256": "f19640a43e20ae3fd858af95330757014245a6b4e6c02992574f084546f09429"
+    },
+    {
+      "bytes": 5178,
+      "path": "data/derived/psc-bach2-naive-rna/manifest.json",
+      "sha256": "08b91286dd1c4fd71427ccea700a18ee21448ce0804e57e23465e98c666379f3"
+    },
+    {
+      "bytes": 2782,
+      "path": "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json",
+      "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+    },
+    {
+      "bytes": 5391,
+      "path": "data/derived/psc-bach2-naive-rna/public-aggregate.json",
+      "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+    },
+    {
+      "bytes": 1793,
+      "path": "data/derived/psc-bach2-naive-rna/public-schema.json",
+      "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+    },
+    {
+      "bytes": 1170,
+      "path": "data/derived/psc-bach2-naive-rna/reporting-info.json",
+      "sha256": "a156232bbbb09dcb82620e38af6811356ac3b2c9c3995620913bdd8aa864f86e"
+    },
+    {
+      "bytes": 126595,
+      "path": "docs/evidence-log.md",
+      "sha256": "eba0eb07f17b9ab37e8b21b92b0f1330ea74dfe38720002fa1095742de11d44e"
+    },
+    {
+      "bytes": 7707,
+      "path": "docs/psc-analysis-agenda.md",
+      "sha256": "544c1fc759c4ea6c69f4c91981c572d537f6cbdaa701a266acb9fedd3f662c35"
+    },
+    {
+      "bytes": 9907,
+      "path": "docs/psc-bach2-naive-rna-reproduction.md",
+      "sha256": "33bc709ecbd53d9a9d6506ea79f7b689a4f40b0210ca73eeda4095a254ed34ee"
+    },
+    {
+      "bytes": 54560,
+      "path": "reports/figures/psc-bach2-naive-rna.png",
+      "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484"
+    },
+    {
+      "bytes": 46433,
+      "path": "reports/figures/psc-bach2-naive-rna.svg",
+      "sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781"
+    },
+    {
+      "bytes": 7668,
+      "path": "reports/psc-bach2-naive-rna-presentation-replay-verification.json",
+      "sha256": "278a14ba39da37fa6be7a236bf7dee2ef8a887c72d0f39a300e5eb7776212370"
+    },
+    {
+      "bytes": 10862,
+      "path": "reports/psc-bach2-naive-rna-reporting-design.md",
+      "sha256": "a69bc11cd223c31002f7c02fef80aad53e011786b8c9e3645d12271f46322146"
+    },
+    {
+      "bytes": 9259,
+      "path": "reports/psc-bach2-naive-rna-results-review.md",
+      "sha256": "1f57fc342a3eeca0dd5e0fc3bd3b43a74fa7db6fc96b4d4c9a262fe68c49383f"
+    },
+    {
+      "bytes": 13551,
+      "path": "reports/psc-bach2-naive-rna.md",
+      "sha256": "f38dac55c3cf873a9e1b14689552d7ed57ad32afd94cbf05184547df350b5600"
+    },
+    {
+      "bytes": 6513,
+      "path": "reports/psc-computational-frontier-summary.md",
+      "sha256": "285bec4f5ebfbc283b1e42dbf9a75d4a86940cbc2040fc97756885a4ee559dbc"
+    },
+    {
+      "bytes": 8762,
+      "path": "reports/psc-computational-frontier-verification.json",
+      "sha256": "dc48ee7510fa2be7a32930f028fa3341ab90831d372bff6245758f4ae7386bd0"
+    },
+    {
+      "bytes": 23798,
+      "path": "scripts/report_psc_bach2_naive_rna.py",
+      "sha256": "e8b99851784f862c235e826f49c50f671dc05623884ae4ece439fb02ca775aa2"
+    },
+    {
+      "bytes": 16611,
+      "path": "tests/test_report_psc_bach2_naive_rna.py",
+      "sha256": "8c5b7d4daa434f6b12230ee177161a4aa819100e03c918b90bfe124c3e51aab7"
+    }
+  ],
+  "new_public_text_identity_and_credential_scan": {
+    "limit": "Heuristic token scan complements exact typed aggregate schemas; not a guarantee against inferential disclosure.",
+    "new_actual_selected_barcode_hits": 0,
+    "new_actual_source_unit_identifier_hits": 0,
+    "new_credential_pattern_hits": 0,
+    "preexisting_identifier_tokens_in_unchanged_historical_navigation": [
+      {
+        "distinct_tokens": 1,
+        "path": "docs/evidence-log.md"
+      }
+    ],
+    "scope": "Entire new public files and only added/replaced lines of existing navigation; pre-existing source-qualification history is preserved, not erased.",
+    "text_files": 24
+  },
+  "pre_effect_commit": "a1b0a6e1d880f9b97c49bdbc0358aef7db408a47",
+  "presentation_replay": {
+    "actual_hashes": 24,
+    "byte_identical_files": 11,
+    "only_completion_changed_leaf": "origin_preview_directory"
+  },
+  "preservation": {
+    "BACH2_sealed_metadata_files": 102,
+    "all175_pins_match_after_tests": true,
+    "final_branch_native_and_source_integrity": {
+      "BACH2_completion_rechecked_against_original_record": "850ff604b819fb0aae660fabc9a42248d511a5a334b07764afdb46d3dd961c4f",
+      "additional_root_liver_completion_sha256": "b3b4e5d35dc48c2fa52604dadc0f45dd6c10f2c7a45567e924935140d49ce524",
+      "frozen_final_branch_source_payloads_total": 18,
+      "native_artifacts_total": 16,
+      "native_hash_command_record": {
+        "files": 33,
+        "opaque_hashes_only_no_quantity_parsing": true,
+        "roles": {
+          "BACH2_completed_native_payload": 3,
+          "BACH2_frozen_source_payload": 16,
+          "BACH2_native_completion": 1,
+          "liver_completed_native_artifact": 11,
+          "liver_frozen_source_payload": 2
+        },
+        "status": "ALL_FROZEN_SOURCE_AND_FINAL_NATIVE_PINS_UNCHANGED"
+      },
+      "scope": "33 opaque native-command hashes plus the liver completion checked against its original recorded digest; no values parsed or numerical analysis rerun.",
+      "total_actual_unique_files_checked": 34
+    },
+    "liver_sealed_metadata_files": 73,
+    "only_live_navigation_changes_since_prior_results_commit": [
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md",
+      "docs/psc-analysis-agenda.md"
+    ],
+    "only_permitted_original_changes": [
+      ".gitignore",
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md"
+    ],
+    "original_files_checked": 1310,
+    "original_missing": []
+  },
+  "prior_liver_results_commit_pushed_and_inspected": "7b32bd6e16558ac182b84c2737c421ab24745f2e",
+  "publication_payload_pins": [
+    {
+      "bytes": 1849,
+      "path": "data/derived/psc-bach2-naive-rna/aggregate-verification.json",
+      "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+    },
+    {
+      "bytes": 999,
+      "path": "data/derived/psc-bach2-naive-rna/completion.json",
+      "sha256": "785b9ebd45de81daafb3ef5d694d7830427fe632de52796a8441d6c8a9b85226"
+    },
+    {
+      "bytes": 2701,
+      "path": "data/derived/psc-bach2-naive-rna/endpoint.csv",
+      "sha256": "263cb393835945a349a6ad52ec3fbef74951ddd356888695a6c9de93891711b3"
+    },
+    {
+      "bytes": 2989,
+      "path": "data/derived/psc-bach2-naive-rna/groups.csv",
+      "sha256": "e1110c9cc9dd313ea5a80527f54a9c5ccbc4b8fb56e50b77bd0a7513359374c1"
+    },
+    {
+      "bytes": 2119,
+      "path": "data/derived/psc-bach2-naive-rna/influence-qc.json",
+      "sha256": "f19640a43e20ae3fd858af95330757014245a6b4e6c02992574f084546f09429"
+    },
+    {
+      "bytes": 5178,
+      "path": "data/derived/psc-bach2-naive-rna/manifest.json",
+      "sha256": "08b91286dd1c4fd71427ccea700a18ee21448ce0804e57e23465e98c666379f3"
+    },
+    {
+      "bytes": 2782,
+      "path": "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json",
+      "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+    },
+    {
+      "bytes": 5391,
+      "path": "data/derived/psc-bach2-naive-rna/public-aggregate.json",
+      "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+    },
+    {
+      "bytes": 1793,
+      "path": "data/derived/psc-bach2-naive-rna/public-schema.json",
+      "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+    },
+    {
+      "bytes": 1170,
+      "path": "data/derived/psc-bach2-naive-rna/reporting-info.json",
+      "sha256": "a156232bbbb09dcb82620e38af6811356ac3b2c9c3995620913bdd8aa864f86e"
+    },
+    {
+      "bytes": 54560,
+      "path": "reports/figures/psc-bach2-naive-rna.png",
+      "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484"
+    },
+    {
+      "bytes": 46433,
+      "path": "reports/figures/psc-bach2-naive-rna.svg",
+      "sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781"
+    }
+  ],
+  "root_reporter_errors": 0,
+  "root_reporter_failures": 0,
+  "root_reporter_tests": 27,
+  "root_separate_publication_approved": true,
+  "schema_version": 1,
+  "status": "ROOT_COMPLETED_SCIENCE_REPORTING_AND_PRESERVATION_READY_FOR_FINAL_RESULTS_MILESTONE",
+  "stop": "Five admitted questions fully reported; no new gene/state/cohort/model/source rescue. Future work requires new qualifying inputs or a justified discriminating question. Root must inspect final commit/push before goal completion.",
+  "unresolved_new_scientific_or_reporting_blockers": [],
+  "whitespace": {
+    "XML_parses": true,
+    "all_non_generated_SVG_text": "pass",
+    "generated_coordinate_trailing_space_lines": 982,
+    "only_generated_SVG": "reports/figures/psc-bach2-naive-rna.svg",
+    "preserved_approved_SVG_sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781",
+    "reason": "Preserve byte-authenticated Matplotlib path-coordinate output; do not hand-edit a verified generated artifact for a style-only check."
+  }
+}

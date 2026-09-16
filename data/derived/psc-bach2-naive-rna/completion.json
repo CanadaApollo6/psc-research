@@ -1,0 +1,23 @@
+{
+  "allowed_inventory": [
+    "data/derived/psc-bach2-naive-rna/aggregate-verification.json",
+    "data/derived/psc-bach2-naive-rna/completion.json",
+    "data/derived/psc-bach2-naive-rna/endpoint.csv",
+    "data/derived/psc-bach2-naive-rna/groups.csv",
+    "data/derived/psc-bach2-naive-rna/influence-qc.json",
+    "data/derived/psc-bach2-naive-rna/manifest.json",
+    "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json",
+    "data/derived/psc-bach2-naive-rna/public-aggregate.json",
+    "data/derived/psc-bach2-naive-rna/public-schema.json",
+    "data/derived/psc-bach2-naive-rna/reporting-info.json",
+    "reports/figures/psc-bach2-naive-rna.png",
+    "reports/figures/psc-bach2-naive-rna.svg"
+  ],
+  "manifest": {
+    "bytes": 5178,
+    "sha256": "08b91286dd1c4fd71427ccea700a18ee21448ce0804e57e23465e98c666379f3"
+  },
+  "origin_preview_directory": "work/psc-bach2-naive-rna-reporting/preview-v1",
+  "schema_version": 1,
+  "status": "COMPLETE_APPROVED_PUBLIC_PRESENTATION"
+}

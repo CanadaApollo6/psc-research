@@ -1,0 +1,209 @@
+{
+  "PNG_visual_inspection": {
+    "findings": "Readable single contrast and full nominal CI crossing zero; units and four-donor arms correct; all labels and footnotes visible, no clipping; no individual points. Same Matplotlib figure emits SVG.",
+    "path": "work/psc-bach2-naive-rna-reporting/preview-v1/reports/figures/psc-bach2-naive-rna.png",
+    "pixel_identity_vs_SVG_claimed": false,
+    "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484",
+    "status": "ROOT_ACTUAL_PNG_VISUAL_ACCEPTED"
+  },
+  "actual_replay_hashes_checked": 24,
+  "byte_identical_payload_and_manifest_count": 11,
+  "complete_aggregate_influence_QC_preserved": true,
+  "endpoint_row_count": 1,
+  "exact_source_CSV_scalar_checks": 49,
+  "exact_source_JSON_preserved": true,
+  "files": [
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/aggregate-verification.json",
+      "preview": {
+        "bytes": 1849,
+        "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+      },
+      "root_replay": {
+        "bytes": 1849,
+        "sha256": "f8d70ba6bfa6abef270697c6f7e809b77a5360198dfeaec0c46767f763eacf65"
+      }
+    },
+    {
+      "byte_identical": false,
+      "path": "data/derived/psc-bach2-naive-rna/completion.json",
+      "preview": {
+        "bytes": 999,
+        "sha256": "785b9ebd45de81daafb3ef5d694d7830427fe632de52796a8441d6c8a9b85226"
+      },
+      "root_replay": {
+        "bytes": 1003,
+        "sha256": "dfdb99fd2a3e8584ec86cca3e6a4aead869f994bcee51e2e4b2fb56c3a1be87d"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/endpoint.csv",
+      "preview": {
+        "bytes": 2701,
+        "sha256": "263cb393835945a349a6ad52ec3fbef74951ddd356888695a6c9de93891711b3"
+      },
+      "root_replay": {
+        "bytes": 2701,
+        "sha256": "263cb393835945a349a6ad52ec3fbef74951ddd356888695a6c9de93891711b3"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/groups.csv",
+      "preview": {
+        "bytes": 2989,
+        "sha256": "e1110c9cc9dd313ea5a80527f54a9c5ccbc4b8fb56e50b77bd0a7513359374c1"
+      },
+      "root_replay": {
+        "bytes": 2989,
+        "sha256": "e1110c9cc9dd313ea5a80527f54a9c5ccbc4b8fb56e50b77bd0a7513359374c1"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/influence-qc.json",
+      "preview": {
+        "bytes": 2119,
+        "sha256": "f19640a43e20ae3fd858af95330757014245a6b4e6c02992574f084546f09429"
+      },
+      "root_replay": {
+        "bytes": 2119,
+        "sha256": "f19640a43e20ae3fd858af95330757014245a6b4e6c02992574f084546f09429"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/manifest.json",
+      "preview": {
+        "bytes": 5178,
+        "sha256": "08b91286dd1c4fd71427ccea700a18ee21448ce0804e57e23465e98c666379f3"
+      },
+      "root_replay": {
+        "bytes": 5178,
+        "sha256": "08b91286dd1c4fd71427ccea700a18ee21448ce0804e57e23465e98c666379f3"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/mechanical-replay-verification.json",
+      "preview": {
+        "bytes": 2782,
+        "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+      },
+      "root_replay": {
+        "bytes": 2782,
+        "sha256": "2d6a7c4718929ed29bf62ce00c2599e984491b01c33cbdc13c1b6bf4d9a2ffa4"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/public-aggregate.json",
+      "preview": {
+        "bytes": 5391,
+        "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+      },
+      "root_replay": {
+        "bytes": 5391,
+        "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/public-schema.json",
+      "preview": {
+        "bytes": 1793,
+        "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+      },
+      "root_replay": {
+        "bytes": 1793,
+        "sha256": "b1a305315aeba1080b8c15ccf33b6d86641d5071e51d7e5d72bed6a983cc97af"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "data/derived/psc-bach2-naive-rna/reporting-info.json",
+      "preview": {
+        "bytes": 1170,
+        "sha256": "a156232bbbb09dcb82620e38af6811356ac3b2c9c3995620913bdd8aa864f86e"
+      },
+      "root_replay": {
+        "bytes": 1170,
+        "sha256": "a156232bbbb09dcb82620e38af6811356ac3b2c9c3995620913bdd8aa864f86e"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "reports/figures/psc-bach2-naive-rna.png",
+      "preview": {
+        "bytes": 54560,
+        "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484"
+      },
+      "root_replay": {
+        "bytes": 54560,
+        "sha256": "d165eebcc641373ecbe32cc1b95264bddbbd1aca8249234d31cc699ed7330484"
+      }
+    },
+    {
+      "byte_identical": true,
+      "path": "reports/figures/psc-bach2-naive-rna.svg",
+      "preview": {
+        "bytes": 46433,
+        "sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781"
+      },
+      "root_replay": {
+        "bytes": 46433,
+        "sha256": "9b49e473bf30d3034c51d598fceae82dd826287532237dc0db74ba1c51b2f781"
+      }
+    }
+  ],
+  "group_row_count": 2,
+  "independent_source_review": {
+    "independent_of_reporter": true,
+    "same_scientific_audit_reviewer": true,
+    "sha256": "768e02ab057f7bac60e34ccea4b5cfd12647b50691c50377bd820f7acd6cf0d9",
+    "source_only_no_test_or_visual_execution_by_reviewer": true,
+    "status": "PIN_SPECIFIC_REPORTING_SOURCE_REVIEW_PASS_NO_PUBLICATION_APPROVAL"
+  },
+  "new_statistics": 0,
+  "only_presentation_completion_changed_leaf": [
+    "origin_preview_directory"
+  ],
+  "presentation_inventory_count": 12,
+  "presentation_replay_not_scientific_replay": true,
+  "privacy_scope": "Exact approved public snapshot, recursive public schema and pinned audit/replay metadata copies. No donor/cell/individual omission values published. Small-group aggregates are not formal differential privacy. Cooperative filesystem, not adversarial concurrent-filesystem certification.",
+  "private_quantity_or_source_payloads_read_by_reporter": 0,
+  "publication_approval_sha256": "e0b794b0bebab41b03ccdba794daaed789b9c7ced524ab975894a309c17406e9",
+  "publication_completion_sha256": "785b9ebd45de81daafb3ef5d694d7830427fe632de52796a8441d6c8a9b85226",
+  "published_actual_hashes_checked": 12,
+  "published_all_exact_approved_preview_bytes": true,
+  "reporter": {
+    "bytes": 23798,
+    "path": "scripts/report_psc_bach2_naive_rna.py",
+    "sha256": "e8b99851784f862c235e826f49c50f671dc05623884ae4ece439fb02ca775aa2"
+  },
+  "root_aggregate_interpretation_review": {
+    "bytes": 9259,
+    "checks": 34,
+    "path": "reports/psc-bach2-naive-rna-results-review.md",
+    "sha256": "1f57fc342a3eeca0dd5e0fc3bd3b43a74fa7db6fc96b4d4c9a262fe68c49383f",
+    "unresolved_blockers": 0
+  },
+  "root_input_authority": {
+    "bytes": 2815,
+    "path": "work/psc-bach2-naive-rna-freeze/root-reporting-handoff.json",
+    "sha256": "53f636477b1f8c33c44308b3b48ab3f3a9b448f53422dc17f1e07fbdd935fab6"
+  },
+  "schema_version": 1,
+  "scientific_analysis_rerun": false,
+  "status": "ROOT_VERIFIED_COMPLETE_AGGREGATE_PRESENTATION_PUBLISHED",
+  "tests": {
+    "bytes": 16611,
+    "errors": 0,
+    "failures": 0,
+    "path": "tests/test_report_psc_bach2_naive_rna.py",
+    "root_run": 27,
+    "sha256": "8c5b7d4daa434f6b12230ee177161a4aa819100e03c918b90bfe124c3e51aab7"
+  }
+}

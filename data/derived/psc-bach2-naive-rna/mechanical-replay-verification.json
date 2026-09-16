@@ -1,0 +1,89 @@
+{
+  "biological_replication": false,
+  "completion_changed_fields": [
+    [
+      "output_directory"
+    ],
+    [
+      "payloads",
+      "authorization.used.json",
+      "bytes"
+    ],
+    [
+      "payloads",
+      "authorization.used.json",
+      "sha256"
+    ],
+    [
+      "payloads",
+      "public-aggregate.json",
+      "sha256"
+    ],
+    [
+      "provenance",
+      "authorization_sha256"
+    ]
+  ],
+  "donor_quantities_or_IDs_or_omission_values_exported": false,
+  "exact_four_file_inventories_authenticated": 2,
+  "native_authorization_changed_fields": [
+    [
+      "output_directory"
+    ]
+  ],
+  "no_new_endpoint_or_model": true,
+  "outer_freeze_sha256": "df5cc30e11fd79424d8b8c429f4c62e48c46cda657afb4601d35d7e316fc346e",
+  "plan_sha256": "b6826aa5adb6a3ff26c6f81f5fb16017df5e9580487a96afc2ff491554257b06",
+  "postrun_unchanged_outer_seals": 102,
+  "prefreeze_commit": "a1b0a6e1d880f9b97c49bdbc0358aef7db408a47",
+  "primary_completion_sha256": "850ff604b819fb0aae660fabc9a42248d511a5a334b07764afdb46d3dd961c4f",
+  "primary_payload_hashes": {
+    "authorization.used.json": {
+      "bytes": 897,
+      "sha256": "b9703443a6585517e39ab5dc57d6287d5ccad34b3280e306acd268bc9244c886"
+    },
+    "measurements.private.json": {
+      "bytes": 20989,
+      "sha256": "02f178398d2d49cfb11eb4381b5be8e5c20154ad3aa91819c04ba3f3e879f1a9"
+    },
+    "public-aggregate.json": {
+      "bytes": 5391,
+      "sha256": "3f9383678afc4a576c12f89225e3148ca07ff65486c8187e8579f4dfd4ac9837"
+    }
+  },
+  "replay_completion_sha256": "a2cfd68384b605399397bffe66a4a3f27e5d1ec83905967658584a65280c0711",
+  "replay_payload_hashes": {
+    "authorization.used.json": {
+      "bytes": 896,
+      "sha256": "dd99adc6a35846c87048af773b64a87a31fe0f10c2a933099f60fcdd5462808f"
+    },
+    "measurements.private.json": {
+      "bytes": 20989,
+      "sha256": "02f178398d2d49cfb11eb4381b5be8e5c20154ad3aa91819c04ba3f3e879f1a9"
+    },
+    "public-aggregate.json": {
+      "bytes": 5391,
+      "sha256": "4f2fc9c13865d99341f435d8c71afbdbd20363bb7b52ee86fbe4ba154281fd53"
+    }
+  },
+  "schema_version": 1,
+  "scientific_payload_checks": [
+    {
+      "all_fields_exact": true,
+      "artifact": "measurements.private.json",
+      "byte_identical": true,
+      "changed_leaves": [],
+      "sha256": "02f178398d2d49cfb11eb4381b5be8e5c20154ad3aa91819c04ba3f3e879f1a9"
+    },
+    {
+      "all_scientific_fields_and_other_provenance_exact": true,
+      "artifact": "public-aggregate.json",
+      "canonical_scientific_projection_sha256": "fd6ab0b21704ef666d7f27c628a47ade2cd3fa075d79fbd5cb0301dd77375d75",
+      "only_changed_leaf": [
+        "provenance",
+        "authorization_sha256"
+      ]
+    }
+  ],
+  "status": "EXACT_SCIENTIFIC_REPLAY_WITH_ONLY_DECLARED_DESTINATION_AUTHORIZATION_PROVENANCE_DIFFERENCES"
+}
