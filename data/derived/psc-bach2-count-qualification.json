@@ -1,0 +1,268 @@
+{
+  "additional_metadata_body_bytes": 0,
+  "additional_metadata_budget_bytes": 1000000,
+  "archive_integrity": {
+    "members": [
+      {
+        "canonical_path": "sample05_filtered_feature_bc_matrix",
+        "offset_data": 512,
+        "pax_headers": {},
+        "size_bytes": 0,
+        "source_path": "sample05_filtered_feature_bc_matrix",
+        "type": "directory"
+      },
+      {
+        "canonical_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+        "offset_data": 1024,
+        "pax_headers": {},
+        "size_bytes": 24126,
+        "source_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+        "type": "regular_file"
+      },
+      {
+        "canonical_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+        "offset_data": 26112,
+        "pax_headers": {},
+        "size_bytes": 333835,
+        "source_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+        "type": "regular_file"
+      },
+      {
+        "canonical_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+        "offset_data": 360960,
+        "pax_headers": {},
+        "size_bytes": 26530656,
+        "source_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+        "type": "regular_file"
+      }
+    ],
+    "no_source_member_paths_extracted": true,
+    "outer_gzip": {
+      "archive_sha256": "5c57cc1c8eb48ce0208062b92fcd056b39e0f90e8eb6cb712ccd0d76f95dda29",
+      "gzip_CRC_ISIZE_and_EOF_passed": true,
+      "tar_sha256": "96de2de1d7600902db0bb92c70c76a762335108dc9c44168b37d61f04f5f895b",
+      "uncompressed_bytes": 26900480
+    },
+    "tar_member_headers_paths_types_and_zero_trailer_passed": true
+  },
+  "expression_effects_programs_or_model_fits": false,
+  "feature_axis": {
+    "column_convention": [
+      "feature ID",
+      "feature name",
+      "feature type"
+    ],
+    "columns": 3,
+    "duplicate_feature_name_rows": 10,
+    "ensembl_human_gene_shaped_IDs": 36601,
+    "ensembl_human_gene_shaped_versioned_IDs": 0,
+    "feature_types_as_published": {
+      "Antibody Capture": 38,
+      "Gene Expression": 36601
+    },
+    "full_deposited_axis_read": true,
+    "independent_gene_identifier_reconciliation": false,
+    "original_pre_gene_filter_universe_proven": false,
+    "rows": 36639,
+    "unique_feature_ids": 36639,
+    "unique_feature_names": 36629
+  },
+  "fixed_metadata_sha256": "0ba598b3edd30dc7f2ba76f0e7779725e60cce50daa01a0e2e04faebcec7c26c",
+  "matrix": {
+    "all_zero_feature_rows": 18255,
+    "comment_lines_as_published": [
+      "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+    ],
+    "dimensions": {
+      "barcodes": 4703,
+      "features": 36639,
+      "stored_entries_declared": 6835238
+    },
+    "duplicate_coordinates": 0,
+    "exact_numeric_before_float": true,
+    "explicit_zero_entries": 0,
+    "export_metadata_as_published": {
+      "format_version": 2,
+      "software_version": "cellranger-6.1.1"
+    },
+    "features_with_any_positive_entry": 18384,
+    "finite_nonnegative_values": true,
+    "fractional_entries": 0,
+    "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+    "maximum_stored_value_exact": "21236",
+    "minimum_stored_value_exact": "1",
+    "numeric_compatibility_is_not_original_UMI_provenance": true,
+    "stored_entries_by_feature_type": {
+      "Antibody Capture": 120304,
+      "Gene Expression": 6714934
+    },
+    "stored_entries_observed": 6835238,
+    "strict_column_major_order": true,
+    "sum_exact_by_feature_type": {
+      "Antibody Capture": "13473321",
+      "Gene Expression": "20228805"
+    },
+    "zero_total_barcodes_by_feature_type": {
+      "Antibody Capture": 0,
+      "Gene Expression": 0
+    }
+  },
+  "nested_member_integrity": {
+    "barcodes": {
+      "compressed_bytes": 24126,
+      "compressed_sha256": "10be353bd3a91d5d3f3b7e529cb61d6adf6a6958364fcb8cfcfa199695951123",
+      "decoded_bytes": 89357,
+      "decoded_path": "work/psc-bach2-count-qualification/members/barcodes.txt",
+      "decoded_sha256": "e525aa11efa85b8b1db589cd784fb3d9d015649cea166c01e8e1c1ad121849ad",
+      "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+      "source_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+      "source_payload_matches_tar": true
+    },
+    "features": {
+      "compressed_bytes": 333835,
+      "compressed_sha256": "6a5c7c67b3c8e1b348e51f783c7316f7ee54d763b0a2096b5c9784b02be4ceb8",
+      "decoded_bytes": 1480573,
+      "decoded_path": "work/psc-bach2-count-qualification/members/features.txt",
+      "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+      "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+      "source_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+      "source_payload_matches_tar": true
+    },
+    "matrix": {
+      "compressed_bytes": 26530656,
+      "compressed_sha256": "988c9ae4d7d5ba8e4c675217c2193ff5def27344550ecaba2a574a5f3fda0b90",
+      "decoded_bytes": 85682856,
+      "decoded_path": "work/psc-bach2-count-qualification/members/matrix.txt",
+      "decoded_sha256": "650f7bdd9e726fd2a2bc4ee0bba2ce99812a520764c8b9b7475577ca8fdd1084",
+      "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+      "source_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+      "source_payload_matches_tar": true
+    }
+  },
+  "new_archive_body_bytes": 26893378,
+  "official_format_definition_requests": [
+    {
+      "body_bytes": 0,
+      "complete_response": false,
+      "error": "ValueError: Non-200 definition response; no body read",
+      "http_statuses": [
+        429
+      ],
+      "response_url": null,
+      "retrieved_at_utc": "2026-09-16T02:13:10.924672+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://www.10xgenomics.com/support/software/cell-ranger/6.1/analysis/outputs/cr-outputs-mex-matrices"
+    },
+    {
+      "body_bytes": 0,
+      "complete_response": false,
+      "error": "ValueError: Non-200 definition response; no body read",
+      "http_statuses": [
+        403
+      ],
+      "response_url": null,
+      "retrieved_at_utc": "2026-09-16T02:10:06.003162+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/6.1/output/matrices"
+    }
+  ],
+  "prior_four_metadata_deliverable_hashes_unchanged": true,
+  "ready_for_expression_analysis": false,
+  "remaining_seven_archives": {
+    "additional_published_bytes": 298421791,
+    "authorization_received": false,
+    "downloaded": false
+  },
+  "retained_metadata_join": {
+    "RNA_SCT_count_margin_columns_present": [],
+    "RNA_SCT_margin_reproduction_available": false,
+    "fixed_retained_metadata_rows": 4278,
+    "matched_retained_barcodes": 4278,
+    "matrix_barcodes": 4703,
+    "matrix_barcodes_outside_fixed_retained_metadata": 425,
+    "retained_barcodes_missing_from_matrix": 0,
+    "retention_is_membership_not_an_expression_contrast": true,
+    "rule": "Exact SDRF-linked archive basename; remove only the matching sample_name + '_' metadata prefix; no global barcode-only join",
+    "unique_retained_metadata_barcodes": 4278
+  },
+  "scope": "One smallest filtered archive; structural, assay and fixed-barcode qualification only",
+  "source": {
+    "additional_metadata_body_bytes": 0,
+    "archive_path": "data/raw/psc-bach2-qualification/counts/sample05_filtered_feature_bc_matrix.tar.gz",
+    "authorized_archive_bytes": 26893378,
+    "body_bytes": 26893378,
+    "complete": true,
+    "completed_at_utc": "2026-09-16T02:03:20.451411+00:00",
+    "error": null,
+    "requests": [
+      {
+        "headers": {
+          "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+          "Connection": "close",
+          "Content-Length": "0",
+          "Date": "Wed, 16 Sep 2026 02:00:40 GMT",
+          "Expires": "0",
+          "Keep-Alive": "timeout=60",
+          "Location": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample05_filtered_feature_bc_matrix.tar.gz",
+          "Pragma": "no-cache",
+          "Vary": "Access-Control-Request-Headers",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-XSS-Protection": "1; mode=block",
+          "strict-transport-security": "max-age=300; includeSubDomains"
+        },
+        "method": "GET",
+        "status": 302,
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample05_filtered_feature_bc_matrix.tar.gz"
+      },
+      {
+        "headers": {
+          "Accept-Ranges": "bytes",
+          "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+          "Access-Control-Allow-Methods": "GET,OPTIONS",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Content-Length": "26893378",
+          "Content-Type": "application/x-gzip",
+          "Date": "Wed, 16 Sep 2026 02:00:41 GMT",
+          "ETag": "\"19a5c42-6163a97629b00\"",
+          "Last-Modified": "Tue, 16 Apr 2024 18:06:04 GMT",
+          "Server": "Apache"
+        },
+        "method": "GET",
+        "status": 200,
+        "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample05_filtered_feature_bc_matrix.tar.gz"
+      }
+    ],
+    "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample05_filtered_feature_bc_matrix.tar.gz",
+    "sha256": "5c57cc1c8eb48ce0208062b92fcd056b39e0f90e8eb6cb712ccd0d76f95dda29",
+    "started_at_utc": "2026-09-16T02:00:40.224546+00:00",
+    "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample05_filtered_feature_bc_matrix.tar.gz"
+  },
+  "source_quantity_assessment": {
+    "Methods_IDF_alignment_reference_as_published": "GRCh38 human reference genome (release 93)",
+    "Methods_IDF_alignment_software_as_published": "Cellranger 3.0.2",
+    "RNA_SCT_margins_in_fixed_metadata": "absent",
+    "RNA_feature_rows_require_separation_from_ADT": true,
+    "RNA_original_count_likelihood_gate_certified": false,
+    "actual_export_reference_manifest_in_archive": null,
+    "declared_export_metadata": {
+      "format_version": 2,
+      "software_version": "cellranger-6.1.1"
+    },
+    "exporter_vs_Methods_version_disagreement_preserved": true,
+    "integer_values_or_filename_alone_are_not_sufficient": true,
+    "no_normalization_or_historical_gene_filter_applied": true,
+    "normalized_or_SCT_layer_label_in_archive": null,
+    "remaining_archives_alone_cannot_supply": [
+      "missing historical RNA/SCT margins",
+      "an explicit original-RNA-count export record if the same source layout is repeated"
+    ],
+    "remaining_archives_can_check": [
+      "all-eight source dimensions/types/exporter comments",
+      "complete retained-barcode membership",
+      "fixed-compartment measured feature coverage after separate authorization"
+    ],
+    "status": "Cell Ranger MEX-form RNA-feature count interface is supported; untouched original UMI versus later SCT/export lineage is not certified"
+  }
+}

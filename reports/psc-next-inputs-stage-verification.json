@@ -1,0 +1,63 @@
+{
+  "BACH2_first_archive_validation": {
+    "RNA_ADT_margin_comparisons": 9406,
+    "aggregate_comparisons": 24,
+    "barcode_field_comparisons": 14109,
+    "feature_field_comparisons": 146556,
+    "independent_tests": 7,
+    "native_tests": 30,
+    "new_archive_bytes": 26893378,
+    "new_metadata_body_bytes": 0,
+    "original_UMI_lineage_certified": false
+  },
+  "BACH2_metadata_validation": {
+    "clinical_aggregate_comparisons": 22,
+    "independent_source_checks": 104,
+    "metadata_aggregate_comparisons": 69,
+    "native_tests": 30,
+    "new_body_bytes": 9203580
+  },
+  "closed_file_pins": {
+    "data/derived/psc-bach2-count-qualification.json": "2d779efa722d71e3caee3caa79334be3b7251841d2292be4ffaef5fbdf2e7676",
+    "data/derived/psc-bach2-input-qualification.json": "a5cd64ecb179021da52d8631fb64c8f9d7cb38049ef85d316083a7e10c7e35c2",
+    "data/derived/psc-liver-program-inputs.json": "14afd9c313138b39f039876a4b2b67e7e1cefe599340b2ea2e190f4e6914e30a",
+    "reports/psc-bach2-count-qualification.md": "d1fec8f695f9de3acb2d685c0d20704db867d163dd28678d731f9e790bec2a00",
+    "reports/psc-bach2-input-qualification.md": "25a1e06e5aed7fa84eac65a802e52a4af267e83fb39c8ee5cd75819f0c9eb963",
+    "reports/psc-liver-program-inputs.md": "7e77ce6439da2df34fc673e7d96519623c0b6fb5fda9e515ef02f5d253c07035",
+    "scripts/prepare_psc_liver_program_inputs.py": "bb7165a4e3138919b92cc06009c3212bf79097c42690e12ff273bbbc97f2b866",
+    "scripts/qualify_psc_bach2_counts.py": "6baef106dcc2701f6c25474432ca0e307104754ae542a72d57240785c8ff84e9",
+    "scripts/qualify_psc_bach2_inputs.py": "435960457502dac99cdf3dea155e68dceb19b1d7c647a26bc6d72a73c34ba74d",
+    "tests/test_psc_bach2_counts.py": "5ea0ef8a397a98f3de14d56ee9af1033053fdd7a2cce21722fb9d73cf686c9a0",
+    "tests/test_psc_bach2_inputs.py": "76ac6de93ee1d7bd1ac841670eb42e923021f965e610c7e1322d53b61619e94e",
+    "tests/test_psc_liver_program_inputs.py": "13cc0064212e7096be0ccb2cfe0f307f82375602c46da57361125bd2e1764f25"
+  },
+  "liver_identifier_validation": {
+    "independent_identifier_checks": 965516,
+    "independent_source_tests": 7,
+    "native_tests": 30,
+    "public_and_private_replay_files": 12,
+    "source_checks": 4750
+  },
+  "new_followup_boundary": {
+    "additional_metadata_cap_bytes": 1000000,
+    "authorization_scope": "Cohort payload/assay/barcode qualification only, using fresh separate files. No RNA likelihood, normalization, score, genotype/state gene contrast or model authorized.",
+    "raw_feature_archives_or_reads_authorized": false,
+    "remaining_seven_filtered_archives_authorized_bytes": 298421791
+  },
+  "recorded_at_utc": "2026-09-16T03:04:06.007998+00:00",
+  "root_checks": {
+    "BACH2_tests_exit_code": 0,
+    "BACH2_tests_log_sha256": "5d0ae28bb203d43684b6f977c56937c901c97ceaeb4bbce6a7cace8a7f09089a",
+    "BACH2_tests_reported": 60,
+    "liver_identifier_readonly_verify_exit_code": 0,
+    "liver_identifier_verify_log_sha256": "21ef5844b05929ff492f571040d9c7093f7209a1eb9947e17a9cee11e2d6cfa4"
+  },
+  "schema_version": 1,
+  "scope_limits": [
+    "Current reference mapping does not reconstruct GSE303271 historical GTF or sample clinical covariates.",
+    "BACH2 clinical slash fields do not establish absence of IBD or medication. No verified row-level clinical bridge.",
+    "Cell Ranger6.1.1 declared by first MEX differs from Methods3.0.2/reference93. No RNA/SCT source margins are available.",
+    "All source RNA/ADT axes, patient joins and expression matrices remain ignored."
+  ],
+  "status": "source_and_identifier_preparation_only_no_expression_results"
+}

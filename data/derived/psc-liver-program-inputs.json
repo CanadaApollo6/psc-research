@@ -1,0 +1,1061 @@
+{
+  "candidate_matching_reference_pools": {
+    "exact_symbol_ensembl_bijection": {
+      "ID_qualified_feature_rows": 37778,
+      "abundance_bins_or_draws_created": false,
+      "background_candidate_genes": 34833,
+      "background_ensembl_ids_source_order_sha256": "bb57ebc2458d52dfcd1932d5663e78a603a034db156a75bf47230d53ffcd12f1",
+      "background_source_labels_source_order_sha256": "c71105f829f521ab1f1662b9960186e0328189eb412a0f9960d5d9def5dd4460",
+      "counts_normalization_denominator_not_filtered_by_this_pool": true,
+      "eight_original_mapped_program_union_genes": 2944,
+      "includes_ID_eligible_rows_regardless_of_count_or_detection": true,
+      "matching_pool_sufficiency_observed": false,
+      "pool_status_counts": {
+        "eligible_background_candidate": 34833,
+        "excluded_ETS2": 1,
+        "excluded_original_program_union": 2944,
+        "identity_not_qualified": 3318
+      },
+      "released_feature_axis_rows": 41096
+    },
+    "plus_reciprocal_entrez": {
+      "ID_qualified_feature_rows": 22562,
+      "abundance_bins_or_draws_created": false,
+      "background_candidate_genes": 19730,
+      "background_ensembl_ids_source_order_sha256": "fd9436110ebdbb11a7f898f48c5697cadafe87ca2272e2391dd291a86e44a09c",
+      "background_source_labels_source_order_sha256": "7b1e51606a3b779b4926fac2ff3a748d538c26a9ed7c81e0672ff43bf979b7ac",
+      "counts_normalization_denominator_not_filtered_by_this_pool": true,
+      "eight_original_mapped_program_union_genes": 2831,
+      "includes_ID_eligible_rows_regardless_of_count_or_detection": true,
+      "matching_pool_sufficiency_observed": false,
+      "pool_status_counts": {
+        "eligible_background_candidate": 19730,
+        "excluded_ETS2": 1,
+        "excluded_original_program_union": 2831,
+        "identity_not_qualified": 18534
+      },
+      "released_feature_axis_rows": 41096
+    }
+  },
+  "closed_material_preservation": {
+    "all_checked_pins_unchanged": true,
+    "closed_liver_ignored_artifact_pins": 16,
+    "closed_liver_source_pins": 46,
+    "closed_liver_versioned_files": 4,
+    "closed_organoid_source_and_artifact_pins": 67,
+    "closed_organoid_versioned_files": 4,
+    "closed_versioned_pins": {
+      "data/derived/psc-liver-input-qualification.json": "3c10ec1199725c19a3de37a0e532a66dac15b9e106fc11c9973a209760bfa4de",
+      "data/derived/psc-organoid-input-qualification.json": "1658188a59a83adcfb059161dbd0daed78fc8938d8335dce8a7fcb0bc9198e99",
+      "reports/psc-liver-input-qualification.md": "179b55b4b62f73467476d7fcb39d47da80dee46c5b3c2da056803f4aa677c3b3",
+      "reports/psc-organoid-input-qualification.md": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5",
+      "scripts/qualify_psc_liver_inputs.py": "2e870af8031489d3bb49adf6533fb04f16cb671cf43db7be816154b4c3f88137",
+      "scripts/qualify_psc_organoid_inputs.py": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e",
+      "tests/test_psc_liver_inputs.py": "24059bd1eb0487b48ee2c9d2af64f77b5cdda7965ad7aa0d5fe17b8e0ef8851e",
+      "tests/test_psc_organoid_inputs.py": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+    },
+    "no_closed_tree_writes_by_this_script": true
+  },
+  "feature_identifier_status_counts": {
+    "exact_symbol_ensembl_bijection": {
+      "eligible": 37778,
+      "ensembl_has_multiple_symbols": 1,
+      "no_exact_reference_symbol": 209,
+      "symbol_has_multiple_ensembl": 3108
+    },
+    "plus_reciprocal_entrez": {
+      "eligible": 22562,
+      "ensembl_has_multiple_symbols": 1,
+      "entrez_has_multiple_ensembl": 107,
+      "multiple_entrez_for_ensembl": 328,
+      "no_entrez_relation": 14781,
+      "no_exact_reference_symbol": 209,
+      "symbol_has_multiple_ensembl": 3108
+    }
+  },
+  "ignored_artifact_pins": [
+    {
+      "bytes": 3750,
+      "path": "work/psc-liver-program-inputs/annotation-summary.json",
+      "sha256": "e1368087bf5b7daaa1464c89a26e7f3728ccd7a8e1462e01744b1e24424b200e"
+    },
+    {
+      "bytes": 21875165,
+      "path": "work/psc-liver-program-inputs/feature-identifier-audit.json",
+      "sha256": "e469b26496ca7bee552bce9a23d20c5a9a9e2301a22a3bcb6732102efe13d556"
+    },
+    {
+      "bytes": 196579,
+      "path": "work/psc-liver-program-inputs/complete-original-source-programs.json",
+      "sha256": "f021f3d8d885765f47eaf071727087a73a8e0b1b0f7832816d8f085f0b246798"
+    },
+    {
+      "bytes": 4306127,
+      "path": "work/psc-liver-program-inputs/program-member-identifier-audit.json",
+      "sha256": "04d6365a040ca39404a1ca7c4ff5c7fdbec6aeb732c500bfadcc967d14d414e7"
+    },
+    {
+      "bytes": 16315,
+      "path": "work/psc-liver-program-inputs/program-coverage.json",
+      "sha256": "091b80c2fb6d9ad3f677232147a642fc9f9aa9b3ed95ea9a33e1e5251382f4e8"
+    },
+    {
+      "bytes": 8300464,
+      "path": "work/psc-liver-program-inputs/complete-reference-pool-audit.csv",
+      "sha256": "12acc4a1538c0bd77cd0e5a3b81ad15ace9aa5686a6c4185fc062a0a310ee61b"
+    },
+    {
+      "bytes": 682694,
+      "path": "work/psc-liver-program-inputs/qualified-program-feature-indices.csv",
+      "sha256": "19d80e6bcca82ebd4d782fde8986fc3aa4699aa3bddd548e0b5c8b9e0ad9de60"
+    },
+    {
+      "bytes": 23691,
+      "path": "work/psc-liver-program-inputs/preparation-summary.json",
+      "sha256": "0c776d9d56e383ad0cf4afcd0cc0a3a66d2d51040c269df33d1782f87500b3a1"
+    }
+  ],
+  "inference_boundaries": {
+    "GSE159676": "HOLD expression use; unreconciled mixed-scale integer literals and six paired PSC patients, not twelve independent patients. No adult expression use or repair here.",
+    "NoPSC_atlas": "PARK; no qualified full-count/full-feature/barcode/donor export. No atlas-derived gene subset used here.",
+    "current_reference_not_historical_GTF_or_biological_locus_reconstruction": true,
+    "donor_and_covariate_limits": "64 patients are asserted in the article. Independent person/visit crosswalk and sample-linked age/sex/treatment/stage/batch covariates remain unavailable. ASC remains separate from PSC.",
+    "historical_counting_annotation": "Paper declares GRCh38, STAR 2.7.2b and FeatureCounts 1.6.4; exact GTF/provider/release/checksum and count-assignment settings remain unavailable.",
+    "multiple_Ensembl_relations_do_not_prove_independent_biological_loci": true,
+    "no_specificity_causality_transfer_replication_or_clinical_claim": true,
+    "reference_has_no_coordinates_biotypes_or_assembly_region_fields": true,
+    "root_identity_policy_choice_required_before_matching_or_effects": true,
+    "root_normalization_matching_and_analysis_freeze_not_written_here": true,
+    "sample_design_retained_from_closed_qualification": {
+      "AIH": 30,
+      "ASC": 17,
+      "PSC": 17,
+      "tissue": "whole-biopsy bulk liver, not sorted macrophages or cholangiocytes"
+    }
+  },
+  "mapping_gates": {
+    "mapping_gate_pass_is_not_expression_or_matching_readiness": true,
+    "minimum_mapped_fraction": 0.8,
+    "minimum_mapped_genes": 10,
+    "nonoverlap_requires_parent_coverage_gate_and_separate_minimum_ten_retained_genes": true,
+    "source_denominators_not_redefined": true
+  },
+  "policy_record": {
+    "bytes": 3068,
+    "path": "work/psc-liver-program-inputs/scope.json",
+    "sha256": "96fb803753dbb254fa808807f73d740a51e7f4f2fa949226975079f6a2478288"
+  },
+  "preparation_id": "gse303271-external-fixed-programs-identifier-preparation-v1",
+  "program_coverage": [
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 1,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 927,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "83572f728c3128946d45881cb10fceae6fcfc78a27ff8d77d7576a7b33a2be3b",
+      "mapped_fraction_of_original_intended_members": 0.9147788565264293,
+      "mapped_source_members": 848,
+      "mapped_unique_ensembl_ids": 848,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 79,
+      "program_id": "ets2_g1_dn",
+      "raw_original_source_members": 928,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 2,
+        "ensembl_present_without_hgnc_symbol": 6,
+        "exact_reference_symbol_absent_from_submitted_labels": 2,
+        "excluded_ETS2": 1,
+        "mapped": 848,
+        "symbol_has_multiple_ensembl": 69
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 1,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 927,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "34baeb91c33ecdc37d05f1ddce72ec35c682fc2302090194c29fa881bd99ffa8",
+      "mapped_fraction_of_original_intended_members": 0.889967637540453,
+      "mapped_source_members": 825,
+      "mapped_unique_ensembl_ids": 825,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 102,
+      "program_id": "ets2_g1_dn",
+      "raw_original_source_members": 928,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 2,
+        "ensembl_present_without_hgnc_symbol": 6,
+        "entrez_has_multiple_ensembl": 3,
+        "exact_reference_symbol_absent_from_submitted_labels": 2,
+        "excluded_ETS2": 1,
+        "mapped": 825,
+        "multiple_entrez_for_ensembl": 6,
+        "no_entrez_relation": 14,
+        "symbol_has_multiple_ensembl": 69
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 668,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "50dbc3546fa5b8d2460cafeec42e183ea8236ab32077e713f7c721a4c92d17eb",
+      "mapped_fraction_of_original_intended_members": 0.9161676646706587,
+      "mapped_source_members": 612,
+      "mapped_unique_ensembl_ids": 612,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 56,
+      "program_id": "ets2_g1_up",
+      "raw_original_source_members": 668,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 2,
+        "ensembl_present_without_hgnc_symbol": 14,
+        "exact_reference_symbol_absent_from_submitted_labels": 2,
+        "mapped": 612,
+        "symbol_has_multiple_ensembl": 38
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 668,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "2fe9f3624eaa90a2a6ab0fae5a49b151d2f808f428e95382029c4dc52d7b2be5",
+      "mapped_fraction_of_original_intended_members": 0.8023952095808383,
+      "mapped_source_members": 536,
+      "mapped_unique_ensembl_ids": 536,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 132,
+      "program_id": "ets2_g1_up",
+      "raw_original_source_members": 668,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 2,
+        "ensembl_present_without_hgnc_symbol": 14,
+        "entrez_has_multiple_ensembl": 2,
+        "exact_reference_symbol_absent_from_submitted_labels": 2,
+        "mapped": 536,
+        "multiple_entrez_for_ensembl": 6,
+        "no_entrez_relation": 68,
+        "symbol_has_multiple_ensembl": 38
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 875,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "6bbfa55d41aebb9918fc80007410a2f0a0994f42b51bb1ea3f67d78b36eb02a6",
+      "mapped_fraction_of_original_intended_members": 0.9245714285714286,
+      "mapped_source_members": 809,
+      "mapped_unique_ensembl_ids": 809,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 66,
+      "program_id": "ets2_g2_dn",
+      "raw_original_source_members": 875,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 1,
+        "ensembl_present_without_hgnc_symbol": 6,
+        "exact_reference_symbol_absent_from_submitted_labels": 1,
+        "mapped": 809,
+        "symbol_has_multiple_ensembl": 58
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 875,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "7f18733a8424cdceae015652bf94342fd3203d1140713c27a07a3270ac0db915",
+      "mapped_fraction_of_original_intended_members": 0.9017142857142857,
+      "mapped_source_members": 789,
+      "mapped_unique_ensembl_ids": 789,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 86,
+      "program_id": "ets2_g2_dn",
+      "raw_original_source_members": 875,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_id_absent_from_reference_snapshot": 1,
+        "ensembl_present_without_hgnc_symbol": 6,
+        "entrez_has_multiple_ensembl": 3,
+        "exact_reference_symbol_absent_from_submitted_labels": 1,
+        "mapped": 789,
+        "multiple_entrez_for_ensembl": 6,
+        "no_entrez_relation": 11,
+        "symbol_has_multiple_ensembl": 58
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 141,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "62b9eed4c5b468143af4f1304f010bca6c50abb416362fd45e88b6fa2eae67bb",
+      "mapped_fraction_of_original_intended_members": 0.8936170212765957,
+      "mapped_source_members": 126,
+      "mapped_unique_ensembl_ids": 126,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 15,
+      "program_id": "chr21_dn",
+      "raw_original_source_members": 141,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_present_without_hgnc_symbol": 1,
+        "mapped": 126,
+        "symbol_has_multiple_ensembl": 14
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 141,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "e13c29a119858563c015f929a5ae094099113c4697f6317802001a129ccf771b",
+      "mapped_fraction_of_original_intended_members": 0.8652482269503546,
+      "mapped_source_members": 122,
+      "mapped_unique_ensembl_ids": 122,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 19,
+      "program_id": "chr21_dn",
+      "raw_original_source_members": 141,
+      "source_namespace": "Ensembl_gene_id",
+      "status_counts": {
+        "ensembl_present_without_hgnc_symbol": 1,
+        "mapped": 122,
+        "no_entrez_relation": 4,
+        "symbol_has_multiple_ensembl": 14
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 815,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "351b038df25386c63eb01565deb137f3ca999938f71e1d2e02b4adac7cf6b7c2",
+      "mapped_fraction_of_original_intended_members": 0.9202453987730062,
+      "mapped_source_members": 750,
+      "mapped_unique_ensembl_ids": 750,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 65,
+      "program_id": "inflammation",
+      "raw_original_source_members": 815,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 750,
+        "no_exact_reference_symbol": 3,
+        "symbol_has_multiple_ensembl": 62
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 815,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "800e4a7885cb87d25d374cf618112529ea4db3f70bd654dcdbb127ef6324e164",
+      "mapped_fraction_of_original_intended_members": 0.912883435582822,
+      "mapped_source_members": 744,
+      "mapped_unique_ensembl_ids": 744,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 71,
+      "program_id": "inflammation",
+      "raw_original_source_members": 815,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "entrez_has_multiple_ensembl": 2,
+        "mapped": 744,
+        "multiple_entrez_for_ensembl": 2,
+        "no_entrez_relation": 2,
+        "no_exact_reference_symbol": 3,
+        "symbol_has_multiple_ensembl": 62
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 139,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "743d69e7a54de8bd7d4d036173f0b2adc956f6af715d5d1bd6de2d00d187ab9d",
+      "mapped_fraction_of_original_intended_members": 0.8705035971223022,
+      "mapped_source_members": 121,
+      "mapped_unique_ensembl_ids": 121,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 18,
+      "program_id": "interferon_gamma",
+      "raw_original_source_members": 139,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 121,
+        "no_exact_reference_symbol": 2,
+        "symbol_has_multiple_ensembl": 16
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 139,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "f59ae2eabfeadd81469edb7e9946ba6bb1a6075d2a02375b63db81e98f2515b4",
+      "mapped_fraction_of_original_intended_members": 0.8489208633093526,
+      "mapped_source_members": 118,
+      "mapped_unique_ensembl_ids": 118,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 21,
+      "program_id": "interferon_gamma",
+      "raw_original_source_members": 139,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "entrez_has_multiple_ensembl": 2,
+        "mapped": 118,
+        "multiple_entrez_for_ensembl": 1,
+        "no_exact_reference_symbol": 2,
+        "symbol_has_multiple_ensembl": 16
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 436,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "7a5aba58e439fa31c978b1deacd71d59f9b8ddf626d9ebc856fadd36cb79e36b",
+      "mapped_fraction_of_original_intended_members": 0.9243119266055045,
+      "mapped_source_members": 403,
+      "mapped_unique_ensembl_ids": 403,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 33,
+      "program_id": "oxidative_stress",
+      "raw_original_source_members": 436,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 403,
+        "no_exact_reference_symbol": 2,
+        "symbol_has_multiple_ensembl": 31
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 436,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "b7020e249e363998539b78217d92af9cce651da6a819f35917a4855c56982e01",
+      "mapped_fraction_of_original_intended_members": 0.9174311926605505,
+      "mapped_source_members": 400,
+      "mapped_unique_ensembl_ids": 400,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 36,
+      "program_id": "oxidative_stress",
+      "raw_original_source_members": 436,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 400,
+        "multiple_entrez_for_ensembl": 2,
+        "no_entrez_relation": 1,
+        "no_exact_reference_symbol": 2,
+        "symbol_has_multiple_ensembl": 31
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 588,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_ensembl_ids_sha256": "698ee2c6087f09e9be9c89bd5cffad362aafe3969aa4b8e06ef41aabc054b8cf",
+      "mapped_fraction_of_original_intended_members": 0.9251700680272109,
+      "mapped_source_members": 544,
+      "mapped_unique_ensembl_ids": 544,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 44,
+      "program_id": "apoptotic_signaling",
+      "raw_original_source_members": 588,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 544,
+        "no_exact_reference_symbol": 1,
+        "symbol_has_multiple_ensembl": 43
+      }
+    },
+    {
+      "effects_authorized": false,
+      "excluded_ETS2_members": 0,
+      "gate_basis": "original intended source-member denominator; annotation mapping only",
+      "intended_source_members_after_ETS2_exclusion": 588,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_ensembl_ids_sha256": "4c298c189196e5753e26bc7c3122e37dfb786bbd4bbd91f9600eabd589ebc1ae",
+      "mapped_fraction_of_original_intended_members": 0.9217687074829932,
+      "mapped_source_members": 542,
+      "mapped_unique_ensembl_ids": 542,
+      "mapping_gate_pass": true,
+      "not_mapped_intended_members": 46,
+      "program_id": "apoptotic_signaling",
+      "raw_original_source_members": 588,
+      "source_namespace": "HGNC_symbol",
+      "status_counts": {
+        "mapped": 542,
+        "multiple_entrez_for_ensembl": 1,
+        "no_entrez_relation": 1,
+        "no_exact_reference_symbol": 1,
+        "symbol_has_multiple_ensembl": 43
+      }
+    },
+    {
+      "derived_from": "ets2_g1_dn",
+      "effects_authorized": false,
+      "gate_basis": "unchanged parent coverage gate plus separate ten-gene minimum; no new coverage denominator",
+      "intended_source_members_after_ETS2_exclusion": 927,
+      "interface": "exact_symbol_ensembl_bijection",
+      "mapped_comparator_union_ensembl_ids": 1532,
+      "mapped_ensembl_ids_sha256": "db671727c3a66cb3ace9c4b1437d48cf746662b067545a0a651c99517bcafde2",
+      "mapped_unique_ensembl_ids": 695,
+      "mapping_gate_pass": true,
+      "overlap_removed": 153,
+      "parent_mapped_unique_ensembl_ids": 848,
+      "parent_mapping_fraction_used_for_gate": 0.9147788565264293,
+      "program_id": "ets2_g1_dn_without_comparators",
+      "retained_fraction_of_original_intended_parent": 0.749730312837109
+    },
+    {
+      "derived_from": "ets2_g1_dn",
+      "effects_authorized": false,
+      "gate_basis": "unchanged parent coverage gate plus separate ten-gene minimum; no new coverage denominator",
+      "intended_source_members_after_ETS2_exclusion": 927,
+      "interface": "plus_reciprocal_entrez",
+      "mapped_comparator_union_ensembl_ids": 1520,
+      "mapped_ensembl_ids_sha256": "be5b0ef4a3e2a6220026e84d34d80f5ad227067d958235878a796205ae3bc039",
+      "mapped_unique_ensembl_ids": 673,
+      "mapping_gate_pass": true,
+      "overlap_removed": 152,
+      "parent_mapped_unique_ensembl_ids": 825,
+      "parent_mapping_fraction_used_for_gate": 0.889967637540453,
+      "program_id": "ets2_g1_dn_without_comparators",
+      "retained_fraction_of_original_intended_parent": 0.7259978425026968
+    }
+  ],
+  "prospective_identifier_interfaces": {
+    "exact_symbol_ensembl_bijection": "Require exact case-sensitive submitted label to one HGNC-symbol Ensembl116 ID over the complete crosswalk, one symbol for that Ensembl ID, and one submitted feature row for that ID. Report all Entrez relationships; do not use Entrez as an unrequested RNA bridge.",
+    "plus_reciprocal_entrez": "Also require one Ensembl-to-Entrez and one Entrez-to-Ensembl relationship in the complete reference. A stricter cross-namespace interface is reported separately, not chosen by its coverage.",
+    "root_decision_boundary": "Neither interface is an analysis freeze. Root chooses the identity/matching policy before effects. No claim that the exact historical counting GTF or biological locus allocation is reconstructed."
+  },
+  "schema_version": 1,
+  "scope": {
+    "aliases_guessed": false,
+    "ambiguous_IDs_collapsed": false,
+    "atlas_mapped_program_subsets_reused": false,
+    "expression_matching_performed": false,
+    "historical_counting_GTF_reconstructed": false,
+    "missing_genes_zero_filled": false,
+    "network_requests": 0,
+    "no_numeric_counts_parsed": true,
+    "normalization_performed": false,
+    "organoid_derived_genes_used": false,
+    "root_method_and_analysis_freeze_required": true,
+    "scores_or_effects_computed": false
+  },
+  "software": {
+    "inference_model_version": "not applicable; no model used",
+    "native_command": ".venv/bin/python",
+    "new_dependencies_installed": false,
+    "python": "3.12.14",
+    "script": "scripts/prepare_psc_liver_program_inputs.py",
+    "script_sha256": "bb7165a4e3138919b92cc06009c3212bf79097c42690e12ff273bbbc97f2b866",
+    "tests": "tests/test_psc_liver_program_inputs.py",
+    "tests_sha256": "13cc0064212e7096be0ccb2cfe0f307f82375602c46da57361125bd2e1764f25"
+  },
+  "source_feature_axis": {
+    "ID_eligibility_not_a_count_normalization_universe": true,
+    "all_original_source_rows_preserved": true,
+    "complete_raw_count_values_not_parsed_in_this_task": true,
+    "feature_label_order_sha256": "e3909c4e7f2b5820ccd910b50ea4304f6ba0fe3e2396590822122834b5ec672c",
+    "gene_name_style_rows": 41096,
+    "literal_Ensembl_ID_rows": 0,
+    "released_source_rows": 41096
+  },
+  "source_input_pins": {
+    "config/ets2-program-plan.json": {
+      "bytes": 10598,
+      "sha256": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9"
+    },
+    "config/ets2-validation-amended-rules.json": {
+      "bytes": 11396,
+      "sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b"
+    },
+    "config/gse84161-gene-map-sources.json": {
+      "bytes": 7879,
+      "sha256": "e1518e126fcd8a61e262ad68afe09e43025c66f2c21d49b26820128ad23c7154"
+    },
+    "data/derived/ets2-program-membership.csv": {
+      "bytes": 1669240,
+      "sha256": "b6e468f000802e6f1ec6baa53722e8a7d3e0f98d6df4aa2bb49ef886efc199a3"
+    },
+    "data/derived/ets2-source-gene-sets.csv": {
+      "bytes": 965247,
+      "sha256": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524"
+    },
+    "data/derived/gse84161-gene-map.csv.gz": {
+      "bytes": 1328327,
+      "sha256": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab"
+    },
+    "data/derived/psc-liver-input-qualification.json": {
+      "bytes": 78519,
+      "sha256": "3c10ec1199725c19a3de37a0e532a66dac15b9e106fc11c9973a209760bfa4de"
+    },
+    "data/raw/psc-liver-qualification/GSE303271_raw_counts.txt.gz": {
+      "bytes": 3021812,
+      "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046"
+    },
+    "reports/ets2-program-audit.json": {
+      "bytes": 37753,
+      "sha256": "c2589587f3f217d44623c52db9787d8c8d71834fbf1f070799235d42a993d69a"
+    },
+    "reports/gse84161-mapping-audit.json": {
+      "bytes": 35244,
+      "sha256": "dcd792e85681d49fddbac46a02f29c4a9fe617ae4f7657ad77607ac267b8c83c"
+    },
+    "reports/gse84161-normalization-verification.json": {
+      "bytes": 15132,
+      "sha256": "d84273d454da66a9e4c47c517eacd601503e474c3805d2b33d5e3275368edd88"
+    },
+    "work/psc-liver-qualification/GSE303271-features-as-submitted.tsv": {
+      "bytes": 554657,
+      "sha256": "19b297c4c860c1b3fd956fba7c0351159aa17c1d866d51426a91908a7fd623ab"
+    }
+  },
+  "source_provenance": {
+    "SC_SN_copies_agree_but_are_not_independent_biological_sources": true,
+    "complete_intended_memberships_after_ETS2_exclusion": 4589,
+    "complete_original_memberships_recovered_from_verified_exports_not_old_mapped_fields": true,
+    "complete_original_source_memberships_including_ETS2": 4590,
+    "context_only_audit_snapshots_not_identifier_inputs": [
+      "docs/evidence-log.md",
+      "reports/macromap-program-design.md",
+      "work/macromap-design/preparation/source-only-readiness.json"
+    ],
+    "context_snapshot_boundary": "Historical read receipts remain in source-audit/findings.json; live contextual documents are not inputs to this mapping and do not freeze unrelated parent updates.",
+    "count_file_previous_acquisition": {
+      "acquisition": "complete_GET",
+      "bytes": 3021812,
+      "file": "GSE303271_raw_counts.txt.gz",
+      "new_bytes": 3021812,
+      "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/suppl/GSE303271_raw_counts.txt.gz",
+      "retrieved_at_utc": "2026-09-16T00:24:24.155938+00:00",
+      "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046",
+      "status": 200,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303271/suppl/GSE303271_raw_counts.txt.gz",
+      "usable": true
+    },
+    "fixed_source_programs": [
+      {
+        "excluded_target_gene_count": 1,
+        "intended_source_denominator": 927,
+        "ordered_intended_values_sha256_LF_terminated": "b00e04af876baef8920f3dd3faa451e202662a8e976db7b1b3e56641244e62a7",
+        "ordered_original_values_sha256_LF_terminated": "807904447aff88d11c15fd1cef7db43f083c0ee238e95caca995597a3385720e",
+        "program_id": "ets2_g1_dn",
+        "role": "primary",
+        "source_column": "ETS2g1_DN",
+        "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "source_namespace": "Ensembl_gene_id",
+        "source_unique_before_exclusion": 928
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 668,
+        "ordered_intended_values_sha256_LF_terminated": "d0c7aa7db6ff73bb1d52357417e7a77c2ecf212de1671027e559021ffb5466a2",
+        "ordered_original_values_sha256_LF_terminated": "d0c7aa7db6ff73bb1d52357417e7a77c2ecf212de1671027e559021ffb5466a2",
+        "program_id": "ets2_g1_up",
+        "role": "opposite-direction companion",
+        "source_column": "ETS2g1_UP",
+        "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "source_namespace": "Ensembl_gene_id",
+        "source_unique_before_exclusion": 668
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 875,
+        "ordered_intended_values_sha256_LF_terminated": "8ca84583f936b7d3a53bdbb2743c8ab419a4ff38efbffcf7befd1041a8a3ad82",
+        "ordered_original_values_sha256_LF_terminated": "8ca84583f936b7d3a53bdbb2743c8ab419a4ff38efbffcf7befd1041a8a3ad82",
+        "program_id": "ets2_g2_dn",
+        "role": "related-guide companion, not independent validation",
+        "source_column": "ETS2g2_DN",
+        "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "source_namespace": "Ensembl_gene_id",
+        "source_unique_before_exclusion": 875
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 141,
+        "ordered_intended_values_sha256_LF_terminated": "3efde2f918526d8a2d370f394020c23acdbdfcbb7ec4c058084ac858e937c74d",
+        "ordered_original_values_sha256_LF_terminated": "3efde2f918526d8a2d370f394020c23acdbdfcbb7ec4c058084ac858e937c74d",
+        "program_id": "chr21_dn",
+        "role": "enhancer-deletion companion",
+        "source_column": "CHR21_DN",
+        "source_member": "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "source_namespace": "Ensembl_gene_id",
+        "source_unique_before_exclusion": 141
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 815,
+        "ordered_intended_values_sha256_LF_terminated": "55afd019c2a4b24b0b049598ec96ad9ac06caeb97ce9d214a0e358629b70bdc6",
+        "ordered_original_values_sha256_LF_terminated": "55afd019c2a4b24b0b049598ec96ad9ac06caeb97ce9d214a0e358629b70bdc6",
+        "program_id": "inflammation",
+        "role": "biological comparison; not a mechanistically exclusive negative control",
+        "source_column": "GOBP_INFLAMMATORY_RESPONSE",
+        "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+        "source_namespace": "exact_HGNC_symbol",
+        "source_unique_before_exclusion": 815
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 139,
+        "ordered_intended_values_sha256_LF_terminated": "5e9e4c6e64a0c5ae5729e06a67cbafe9b091d1ebe9b069137cc4c8ec6be3b489",
+        "ordered_original_values_sha256_LF_terminated": "5e9e4c6e64a0c5ae5729e06a67cbafe9b091d1ebe9b069137cc4c8ec6be3b489",
+        "program_id": "interferon_gamma",
+        "role": "biological comparison; not a mechanistically exclusive negative control",
+        "source_column": "GOBP_RESPONSE_TO_INTERFERON_GAMMA",
+        "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+        "source_namespace": "exact_HGNC_symbol",
+        "source_unique_before_exclusion": 139
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 436,
+        "ordered_intended_values_sha256_LF_terminated": "293cb7a05aeedf32113b3b051f98dfc8c2e0c7a652a767b79512518203da2283",
+        "ordered_original_values_sha256_LF_terminated": "293cb7a05aeedf32113b3b051f98dfc8c2e0c7a652a767b79512518203da2283",
+        "program_id": "oxidative_stress",
+        "role": "biological comparison; not a mechanistically exclusive negative control",
+        "source_column": "GOBP_RESPONSE_TO_OXIDATIVE_STRESS",
+        "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+        "source_namespace": "exact_HGNC_symbol",
+        "source_unique_before_exclusion": 436
+      },
+      {
+        "excluded_target_gene_count": 0,
+        "intended_source_denominator": 588,
+        "ordered_intended_values_sha256_LF_terminated": "bf0cfa1f9ed053f140a82f907c6ec314b9b1fd18b5bb7b54cb1de1daf19e921f",
+        "ordered_original_values_sha256_LF_terminated": "bf0cfa1f9ed053f140a82f907c6ec314b9b1fd18b5bb7b54cb1de1daf19e921f",
+        "program_id": "apoptotic_signaling",
+        "role": "biological comparison; not a mechanistically exclusive negative control",
+        "source_column": "GOBP_APOPTOTIC_SIGNALING_PATHWAY",
+        "source_member": "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+        "source_namespace": "exact_HGNC_symbol",
+        "source_unique_before_exclusion": 588
+      }
+    ],
+    "legacy_source_statistic_preview_disclosure": "Initial schema previews in this task and its source audit also displayed existing legacy source-statistic strings. They were not converted, summarized, selected on or used for new conclusions. All preparation/audit code uses identifier and provenance fields only. No new liver expression quantities were inspected.",
+    "no_fresh_network_requests": true,
+    "original_ETS2_archive": {
+      "bytes": 34636310,
+      "currently_present": false,
+      "historical_source_record": {
+        "bytes": 34636310,
+        "file": "ets2-public-release.zip",
+        "id": "ets2-public-release.zip",
+        "max_bytes": 40000000,
+        "retrieved_at_utc": "2026-09-12T14:21:34.543387+00:00",
+        "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+        "url": "https://zenodo.org/api/records/10707942/files/JamesLeeLab/ETS2manuscript_Stankey_CT_et_al_2024-v1.0.zip/content"
+      },
+      "path": "data/raw/ets2-benchmark/ets2-public-release.zip",
+      "reread": false,
+      "sha256": "f1da61f2d58b31b1ce1cc418486222a8701698adda76324a10f5f48ecc53239c",
+      "source_manifest": "config/ets2-benchmark-sources.json"
+    },
+    "original_archive_member_pins": {
+      "RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv": {
+        "bytes": 18837392,
+        "member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_CRISPR/GOBP_genesets.csv",
+        "sha256": "2a104869fdb5d11b2c61c11bdd166e4c3989fc12525fe4b53e06e08d975a1bf4"
+      },
+      "RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv": {
+        "bytes": 59700,
+        "member": "JamesLeeLab-ETS2manuscript_Stankey_CT_et_al_2024-34a9f49/RNA-seq/RNAseq_biopsies/ets2_genesetsENSG_MASTER.csv",
+        "sha256": "ed042a565382c230603d42b338b440107b74617dd4ee90cc9a8a690d1e94e229"
+      }
+    },
+    "reference_completeness_limit": "Pinned success stamp and independent historical count support the full returned export. Neither guarantees absence of a remote backend omission. Exact reconstructed bytes are not a fresh server retrieval.",
+    "reference_count_response_reconstruction": {
+      "basis": "Pinned response_content from historical source manifest, not an independent server count today",
+      "candidate_bytes": 6,
+      "candidate_sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+      "direct_historical_raw_cache_reread": false,
+      "exact_pin_match": true,
+      "expected_bytes": 6,
+      "expected_sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+      "original_raw_path": "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv",
+      "original_raw_path_present": false,
+      "reconstructed_output": {
+        "bytes": 6,
+        "path": "work/psc-liver-program-inputs/source-audit/ensembl116-biomart-count.reconstructed.tsv",
+        "sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646"
+      }
+    },
+    "reference_genome_build_status": "Not encoded in this identifier-only relation export; no genomic coordinates used or newly validated",
+    "reference_historical_count_response": {
+      "bytes": 6,
+      "id": "ensembl116_human_gene_crosswalk_count",
+      "meaning": "BioMart count-mode response for unique Ensembl gene IDs under the same no-filter attribute query; the count response has no success footer.",
+      "path": "data/raw/gse84161/gene-map/ensembl116-biomart-count.tsv",
+      "response_content": "86411",
+      "retrieved_at_utc": "2026-09-12T17:40:57Z",
+      "sha256": "85d066339934f91d1cfc89e2125de445fc2b8b4e3cf7126a8a76edadc6a68646",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "values_read": false
+    },
+    "reference_historical_raw_response": {
+      "archive_release": "Ensembl 116, June 2026",
+      "attributes": [
+        "ensembl_gene_id",
+        "entrezgene_id",
+        "hgnc_symbol"
+      ],
+      "bytes": 2236970,
+      "header": [
+        "Gene stable ID",
+        "NCBI gene (formerly Entrezgene) ID",
+        "HGNC symbol"
+      ],
+      "id": "ensembl116_human_gene_crosswalk",
+      "path": "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+      "query_id": "ensembl116_hsapiens_gene_ensembl_ensg_entrez_hgnc_full_v1",
+      "relationship_rows_excluding_header_and_success_stamp": 91748,
+      "response_success_stamp": "[success]",
+      "retrieved_at_utc": "2026-09-12T17:40:41Z",
+      "server_success_stamp_present": true,
+      "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+      "unique_ensembl_gene_ids": 86411,
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "values_read": false
+    },
+    "reference_query": {
+      "attributes": [
+        "ensembl_gene_id",
+        "entrezgene_id",
+        "hgnc_symbol"
+      ],
+      "count_query_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"1\" completionStamp=\"1\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/><Attribute name=\"hgnc_symbol\"/></Dataset></Query>",
+      "dataset": "hsapiens_gene_ensembl",
+      "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "filters": [],
+      "formatter": "TSV",
+      "full_query_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"\" completionStamp=\"1\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/><Attribute name=\"hgnc_symbol\"/></Dataset></Query>",
+      "header": "1",
+      "interface": "default",
+      "method": "GET",
+      "query_boundary": "No filters; complete human gene dataset; uniqueRows=0 preserves relationship rows. The response footer is checked separately from the count-mode response.",
+      "unique_rows": "0",
+      "virtual_schema": "default"
+    },
+    "reference_raw_response_reconstruction": {
+      "candidate_bytes": 2236970,
+      "candidate_sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+      "construction": "UTF-8; pinned header; tab-separated *_original fields; original crosswalk_row_number order; LF after each line; terminal [success] plus LF",
+      "direct_historical_raw_cache_reread": false,
+      "exact_pin_match": true,
+      "expected_bytes": 2236970,
+      "expected_sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167",
+      "new_network_retrieval": false,
+      "original_raw_path": "data/raw/gse84161/gene-map/ensembl116-human-gene-crosswalk.tsv",
+      "original_raw_path_present": false,
+      "reconstructed_output": {
+        "bytes": 2236970,
+        "path": "work/psc-liver-program-inputs/source-audit/ensembl116-human-gene-crosswalk.reconstructed.tsv",
+        "sha256": "a60cf0e0ac5782e7c39269a577d1ee24be08d26c100324fe2c38b77a7f81f167"
+      },
+      "status": "exact_historical_bytes_reconstructed_from_pinned_export"
+    },
+    "source_audit": {
+      "bytes": 49919,
+      "path": "work/psc-liver-program-inputs/source-audit/findings.json",
+      "sha256": "a11fae6df4a3fb42ce547d95605be4782ba5dab3d17317b8e4762d29f5eaf1fb"
+    },
+    "source_audit_checks_passed": 4750,
+    "source_audit_tests_passed": 7,
+    "source_audit_verification": {
+      "bytes": 3312,
+      "path": "work/psc-liver-program-inputs/source-audit/verification.json",
+      "sha256": "d7dc95c645f19216a1375aa0c9f70147e79daecc7d540446a818995271891ffd"
+    }
+  },
+  "source_study": "GSE303271",
+  "status": "identifier_only_preparation_root_analysis_freeze_required",
+  "transformations": [
+    "Verify fixed source byte pins before any preparation.",
+    "Read only raw gzip header and first field; verify exact complete feature axis against the closed qualification.",
+    "Build both directions of every identifier relationship from all 91,748 human reference rows before any program or measured-feature restriction.",
+    "Preserve all original program source_value strings and SC/SN source copies; strip only terminal numeric versions from valid source Ensembl IDs, if any.",
+    "Exclude the original fixed ETS2 Ensembl ID or literal ETS2 symbol, preserving excluded membership records.",
+    "Require exact case-sensitive symbol/Ensembl bijection and one source row; report the additional reciprocal Entrez interface separately.",
+    "Retain missing/ambiguous mappings with null mapped feature indexes, never zero-fill or choose one ambiguous locus.",
+    "Subtract the four mapped generic-comparator unions from the mapped primary under each interface, preserving the parent denominator and coverage gate.",
+    "Enumerate every source row in each ID-only pool audit; exclude all eight original mapped programs and ETS2 from candidate backgrounds without abundance/detection/protein-coding filters."
+  ],
+  "validation": {
+    "checked_artifacts": [
+      {
+        "bytes": 4771,
+        "path": "work/psc-liver-program-inputs/identifier-tests-final.log",
+        "sha256": "a037c6beb6bdc269e418d1b57829164a9b6663238b18e83ecfd3594c2c022e1d"
+      },
+      {
+        "bytes": 106412,
+        "path": "work/psc-liver-program-inputs/repository-tests.log",
+        "sha256": "5cb0079f6c9c302fec86ce466a4cea8e21968cdde42cebae6f5995b160d6d239"
+      },
+      {
+        "bytes": 157,
+        "path": "work/psc-liver-program-inputs/closed-liver-readonly-verify.log",
+        "sha256": "13475d53799d85b1e375a34547cdddb0b3b5cb62630a9b37e50c1ccb364b4145"
+      },
+      {
+        "bytes": 3312,
+        "path": "work/psc-liver-program-inputs/source-audit/verification.json",
+        "sha256": "d7dc95c645f19216a1375aa0c9f70147e79daecc7d540446a818995271891ffd"
+      },
+      {
+        "bytes": 49919,
+        "path": "work/psc-liver-program-inputs/source-audit/findings.json",
+        "sha256": "a11fae6df4a3fb42ce547d95605be4782ba5dab3d17317b8e4762d29f5eaf1fb"
+      },
+      {
+        "bytes": 30358,
+        "path": "work/psc-liver-program-inputs/source-audit/run_source_audit.py",
+        "sha256": "abb9443103395043d1f16ec2ff2757ffd20300d707383b3811f2573a8ce69e1a"
+      },
+      {
+        "bytes": 9463,
+        "path": "work/psc-liver-program-inputs/source-audit/test_source_audit.py",
+        "sha256": "8edbfae521985e44d1681dab56ae45046509832bc04488f1537f8e8b57097ac4"
+      },
+      {
+        "bytes": 39639,
+        "path": "work/psc-liver-program-inputs/independent-audit/independent-verification.json",
+        "sha256": "63a402a4639d45f324044468e9add7269f89d213d80baa15085496fe86f2f093"
+      },
+      {
+        "bytes": 37531,
+        "path": "work/psc-liver-program-inputs/independent-audit/verify_identifiers.py",
+        "sha256": "7fd9e758961a19e44bfbe37348e73f55dcccb3cc3cc2e33d330962bdf0b6a54b"
+      },
+      {
+        "bytes": 716,
+        "path": "work/psc-liver-program-inputs/independent-audit/audit-artifact-hashes.json",
+        "sha256": "fc9b545751d024876176712893f02f0336c3946fd913dc08e391502dcd792dc7"
+      },
+      {
+        "bytes": 934,
+        "path": "work/psc-liver-program-inputs/context-snapshot-boundary.json",
+        "sha256": "686d029f2f7053aeb18daa49bff571de334375212e9190e163e49177afde5c5c"
+      },
+      {
+        "bytes": 3283,
+        "path": "work/psc-liver-program-inputs/pre-validation-replay.json",
+        "sha256": "4bbbdf0f0be0ff3be78443fb343a0cab601c37e9eb590e1e1ed4addc3d91f1c1"
+      }
+    ],
+    "closed_liver_read_only_verifier": {
+      "closed_liver_versioned_files": 4,
+      "closed_organoid_versioned_files": 4,
+      "command": ".venv/bin/python scripts/qualify_psc_liver_inputs.py --verify",
+      "exit_code": 0,
+      "liver_ignored_artifact_pins": 16,
+      "liver_source_pins": 46,
+      "no_closed_outputs_rebuilt": true,
+      "prior_organoid_material_pins": 67
+    },
+    "context_snapshot_boundary": "The parent updated docs/evidence-log.md and reports/macromap-program-design.md after source-audit snapshot. These were contextual reading, not identifier inputs or frozen source tables. Original receipts are retained; this task did not edit either document.",
+    "independent_identifier_audit": {
+      "all_features_compared": 41096,
+      "all_original_members_compared": 4590,
+      "all_pool_rows_compared": 82192,
+      "all_qualified_index_rows_compared": 9657,
+      "checks_passed": 965516,
+      "failed_checks": 0,
+      "no_producer_import_or_execution": true,
+      "shared_Entrez_ambiguities_hidden_by_subset_but_retained_by_whole_reference": 61
+    },
+    "native_python": ".venv/bin/python",
+    "offline_preparation_replay": {
+      "eight_ignored_preparation_artifacts_identical": true,
+      "four_versioned_files_identical": true,
+      "stage": "before embedding this validation receipt; the final published-byte replay is recorded in completion-receipt.json"
+    },
+    "original_source_audit": {
+      "checks_passed": 4750,
+      "direct_cached_historical_raw_reread": false,
+      "exact_historical_BioMart_bytes_reconstructed": true,
+      "independent_tests_passed": 7,
+      "offline_result_replay_byte_identical": true
+    },
+    "repository_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "error_test_labels": [
+        "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+        "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+        "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+        "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+        "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+        "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+        "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+      ],
+      "errors": 7,
+      "exit_code": 1,
+      "failures": 0,
+      "missing_history_not_repaired": true,
+      "note": "Repository-wide count reflects concurrent parent-owned work; the 30 new task tests all passed.",
+      "tests_run": 606,
+      "unrelated_missing_historical_paths": [
+        "data/raw/ets2-benchmark/ets2-primary-article.xml",
+        "data/raw/ets2-benchmark/ets2-public-release.zip",
+        "work/ets2-independent-search/GSE84161-family-soft.txt",
+        "work/gse84161-normalization/runtime/bin/Rscript"
+      ]
+    },
+    "schema_version": 1,
+    "status": "identifier_preparation_validated_with_separate_unrelated_repository_errors",
+    "unit_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -p test_psc_liver_program_inputs.py -v",
+      "exit_code": 0,
+      "includes_synthetic_failed_program_gate_pool_exclusion": true,
+      "tests_run": 30
+    }
+  },
+  "whole_human_reference": {
+    "biological_locus_or_primary_assembly_allocation_known_from_crosswalk": false,
+    "distinct_nonblank_hgnc_symbols": 41777,
+    "ensembl_entrez_status_counts": {
+      "entrez_has_multiple_ensembl": 5498,
+      "multiple_entrez_for_ensembl": 784,
+      "no_entrez_relation": 54919,
+      "reciprocal_one_to_one": 25210
+    },
+    "ensembl_symbol_cardinality": {
+      "0": 39060,
+      "1": 47349,
+      "2": 2
+    },
+    "reference_release": "Ensembl 116, June 2026, pinned full-human BioMart relationships",
+    "relationship_rows": 91748,
+    "symbols_with_multiple_ensembl": 3148,
+    "symbols_with_one_ensembl": 38629,
+    "unique_ensembl_ids": 86411,
+    "whole_reference_built_before_program_or_source_feature_restriction": true
+  }
+}

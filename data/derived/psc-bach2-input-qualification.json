@@ -1,0 +1,1091 @@
+{
+  "E-MTAB-14013": {
+    "barcode_join": {
+      "bare_barcodes_shared_across_samples": 1769,
+      "distinct_bare_barcodes": 53659,
+      "full_barcodes_unique": true,
+      "matrix_barcode_membership_verified": false,
+      "matrix_retention_denominator_verified": false,
+      "rule": "derive sample_name from explicitly linked filtered archive basename; remove only sample_name + '_' from metadata barcode",
+      "sample_plus_stripped_barcode_unique": true
+    },
+    "clinical_qualification": {
+      "birth_year_is_not_age_at_sampling": true,
+      "clinical_group_imbalance_known": true,
+      "clinical_patient_to_accession_individual_join": "Numbering and genotype group pattern agree, but explicit cross-resource patient/sample key is not supplied. Candidate only; not merged.",
+      "groups_as_published": {
+        "homozygous": {
+          "IBD status": {
+            "/": 1,
+            "PSC-assoc. colitis": 3
+          },
+          "MELD-Score": {
+            "maximum_as_published": "11,8",
+            "minimum_as_published": "6,0"
+          },
+          "gender": {
+            "cis": 4
+          },
+          "immunosuppr. therapy": {
+            "/": 3,
+            "Vedolizumab": 1
+          },
+          "other autoimmune disease": {
+            "/": 4
+          },
+          "source_rows": 4,
+          "transient elastography [kPa]": {
+            "maximum_as_published": "20",
+            "minimum_as_published": "5,3"
+          },
+          "year of birth": {
+            "maximum_as_published": "1987",
+            "minimum_as_published": "1969"
+          }
+        },
+        "non-carrier": {
+          "IBD status": {
+            "/": 3,
+            "Crohn's disease": 1
+          },
+          "MELD-Score": {
+            "maximum_as_published": "6,0",
+            "minimum_as_published": "6,0"
+          },
+          "gender": {
+            "cis": 4
+          },
+          "immunosuppr. therapy": {
+            "/": 4
+          },
+          "other autoimmune disease": {
+            "/": 4
+          },
+          "source_rows": 4,
+          "transient elastography [kPa]": {
+            "maximum_as_published": "7,8",
+            "minimum_as_published": "4,7"
+          },
+          "year of birth": {
+            "maximum_as_published": "1979",
+            "minimum_as_published": "1966"
+          }
+        }
+      },
+      "number_conversion": "Decimal comma changed to point for ordering ranges only. Source range endpoint strings remain unchanged.",
+      "remaining_unresolved": [
+        "exact sample-linked clinical crosswalk",
+        "sampling dates/age at collection",
+        "ancestry",
+        "technical run/batch and genotype-batch balance",
+        "complete medications/dose/timing and interpretation of '/'",
+        "clinical matching/selection and participant overlap"
+      ],
+      "slash_meaning": "Literal '/' retained; no legend in Table S2 defines it as absence versus unavailable/not applicable.",
+      "source": "Document S1, Table S2, PDF page 8, related to Figure 2A-J"
+    },
+    "counts_or_gene_features_inspected": false,
+    "donors_by_source_genotype": {
+      "SNP": 4,
+      "noSNP": 4
+    },
+    "metadata_columns": [
+      "sample_name",
+      "sex",
+      "condition",
+      "seurat_clusters",
+      "paper_clusters",
+      "paper_clusters_short",
+      "UMAP_1",
+      "UMAP_2",
+      "barcode"
+    ],
+    "missing_required_fields": {
+      "barcode": 0,
+      "condition": 0,
+      "paper_clusters": 0,
+      "paper_clusters_short": 0,
+      "sample_name": 0,
+      "seurat_clusters": 0,
+      "sex": 0
+    },
+    "retained_cells": 55460,
+    "retained_cells_by_source_genotype": {
+      "SNP": 30609,
+      "noSNP": 24851
+    },
+    "retained_donors": 8,
+    "retained_samples": 8,
+    "sex_counts_cells": {
+      "male": 55460
+    },
+    "state_annotations_include_naive_activation_subclusters": false,
+    "states": [
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1933,
+        "min_cells_per_donor": 290,
+        "paper_clusters": "C0: CD4+ TN RTE",
+        "paper_clusters_short": "C0",
+        "retained_cells": 9320,
+        "seurat_clusters": [
+          "0"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1609,
+        "min_cells_per_donor": 440,
+        "paper_clusters": "C1: CD4+ TN mature",
+        "paper_clusters_short": "C1",
+        "retained_cells": 7339,
+        "seurat_clusters": [
+          "1"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1872,
+        "min_cells_per_donor": 297,
+        "paper_clusters": "C2: CD4+ TCM",
+        "paper_clusters_short": "C2",
+        "retained_cells": 6203,
+        "seurat_clusters": [
+          "2"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1334,
+        "min_cells_per_donor": 217,
+        "paper_clusters": "C3: CD8+ TN",
+        "paper_clusters_short": "C3",
+        "retained_cells": 5774,
+        "seurat_clusters": [
+          "3"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1957,
+        "min_cells_per_donor": 98,
+        "paper_clusters": "C4: CD8+ TC",
+        "paper_clusters_short": "C4",
+        "retained_cells": 4286,
+        "seurat_clusters": [
+          "4"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 3
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1854,
+        "min_cells_per_donor": 30,
+        "paper_clusters": "C5: CD8+ TC term. diff.",
+        "paper_clusters_short": "C5",
+        "retained_cells": 4089,
+        "seurat_clusters": [
+          "5"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 1173,
+        "min_cells_per_donor": 174,
+        "paper_clusters": "C6: CD8+ TEM TC1",
+        "paper_clusters_short": "C6",
+        "retained_cells": 3615,
+        "seurat_clusters": [
+          "6"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 562,
+        "min_cells_per_donor": 199,
+        "paper_clusters": "C7: CD4+ TEM TH2",
+        "paper_clusters_short": "C7",
+        "retained_cells": 2981,
+        "seurat_clusters": [
+          "7"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 579,
+        "min_cells_per_donor": 97,
+        "paper_clusters": "C8: CD8+ TEM NK-like",
+        "paper_clusters_short": "C8",
+        "retained_cells": 2512,
+        "seurat_clusters": [
+          "8"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 3,
+            "noSNP": 2
+          },
+          "50": {
+            "SNP": 3,
+            "noSNP": 2
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 888,
+        "min_cells_per_donor": 2,
+        "paper_clusters": "C9: CD4+ TC",
+        "paper_clusters_short": "C9",
+        "retained_cells": 2146,
+        "seurat_clusters": [
+          "9"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 550,
+        "min_cells_per_donor": 76,
+        "paper_clusters": "C10: CD4+ TEM TH1",
+        "paper_clusters_short": "C10",
+        "retained_cells": 1807,
+        "seurat_clusters": [
+          "10"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 407,
+        "min_cells_per_donor": 119,
+        "paper_clusters": "C11: CD4+ TEM TH17",
+        "paper_clusters_short": "C11",
+        "retained_cells": 1802,
+        "seurat_clusters": [
+          "11"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 4
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 248,
+        "min_cells_per_donor": 76,
+        "paper_clusters": "C12: CD4+ TREG naive",
+        "paper_clusters_short": "C12",
+        "retained_cells": 1358,
+        "seurat_clusters": [
+          "12"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 3
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 278,
+        "min_cells_per_donor": 23,
+        "paper_clusters": "C13: \u03b3\u03b4 T cells",
+        "paper_clusters_short": "C13",
+        "retained_cells": 1068,
+        "seurat_clusters": [
+          "13"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 4
+          },
+          "50": {
+            "SNP": 4,
+            "noSNP": 2
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 203,
+        "min_cells_per_donor": 41,
+        "paper_clusters": "C14: CD4+ TREG effector",
+        "paper_clusters_short": "C14",
+        "retained_cells": 814,
+        "seurat_clusters": [
+          "14"
+        ]
+      },
+      {
+        "donors_at_cell_count_threshold": {
+          "20": {
+            "SNP": 4,
+            "noSNP": 3
+          },
+          "50": {
+            "SNP": 3,
+            "noSNP": 1
+          }
+        },
+        "donors_with_cells": 8,
+        "max_cells_per_donor": 70,
+        "min_cells_per_donor": 19,
+        "paper_clusters": "C15: MAIT",
+        "paper_clusters_short": "C15",
+        "retained_cells": 346,
+        "seurat_clusters": [
+          "16"
+        ]
+      }
+    ],
+    "umap_values_parsed_or_interpreted": false
+  },
+  "E-MTAB-14103": {
+    "age_max": 59,
+    "age_min": 18,
+    "age_nonmissing": 12,
+    "age_units": [
+      "year"
+    ],
+    "count_header_and_sample_columns_inspected": false,
+    "cross_accession_participant_join_established": false,
+    "distinct_accession_local_individual_labels": 12,
+    "genetic_replication_eligible": false,
+    "genotype_nonmissing": 0,
+    "metadata_columns": [
+      "Source Name",
+      "Characteristics[organism]",
+      "Characteristics[age]",
+      "Unit[time unit]",
+      "Term Source REF",
+      "Term Accession Number",
+      "Characteristics[developmental stage]",
+      "Characteristics[sex]",
+      "Characteristics[organism part]",
+      "Characteristics[individual]",
+      "Characteristics[disease]",
+      "Material Type",
+      "Protocol REF",
+      "Protocol REF",
+      "Protocol REF",
+      "Extract Name",
+      "Material Type",
+      "Comment[LIBRARY_LAYOUT]",
+      "Comment[LIBRARY_SELECTION]",
+      "Comment[LIBRARY_SOURCE]",
+      "Comment[LIBRARY_STRAND]",
+      "Comment[LIBRARY_STRATEGY]",
+      "Protocol REF",
+      "Performer",
+      "Assay Name",
+      "Technology Type",
+      "Protocol REF",
+      "Protocol REF",
+      "Derived Array Data File",
+      "Factor Value[sex]"
+    ],
+    "processed_files": [
+      "count_table.txt"
+    ],
+    "scope": "metadata and count-file HEAD only",
+    "sex_counts": {
+      "female": 3,
+      "male": 9
+    },
+    "source_samples": 12
+  },
+  "allele_conventions": {
+    "ALT": null,
+    "REF": null,
+    "genomic_coordinate": null,
+    "genomic_strand": null,
+    "genotyping_assay_as_published": "TaqMan C__88670967_10",
+    "not_inferred_from_RNA_reference": true,
+    "paper_design_labels": [
+      "homozygous carrier",
+      "non-carrier"
+    ],
+    "risk_nucleotide": null,
+    "source_genotype_labels": [
+      "SNP",
+      "noSNP"
+    ],
+    "variant_as_published": "rs56258221",
+    "variant_build": null
+  },
+  "authorized_new_body_budget_bytes": 15000000,
+  "count_file_interfaces": {
+    "E-MTAB-14013": {
+      "all_head_lengths_match_inventory": true,
+      "files": [
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"33ed727-6163a97aee640\"",
+          "file": "sample01_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 54449959,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:06:09 GMT",
+          "published_bytes": 54449959,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample01_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample01_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"2a7a109-6163a967db940\"",
+          "file": "sample02_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 44540169,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:05:49 GMT",
+          "published_bytes": 44540169,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample02_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample02_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"2969e3d-6163a96ab8000\"",
+          "file": "sample03_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 43425341,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:05:52 GMT",
+          "published_bytes": 43425341,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample03_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample03_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"2304c54-6163a98383a80\"",
+          "file": "sample04_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 36719700,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:06:18 GMT",
+          "published_bytes": 36719700,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample04_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample04_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"19a5c42-6163a97629b00\"",
+          "file": "sample05_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 26893378,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:06:04 GMT",
+          "published_bytes": 26893378,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample05_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample05_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"22f9b52-6163a97164fc0\"",
+          "file": "sample06_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 36674386,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:05:59 GMT",
+          "published_bytes": 36674386,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample06_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample06_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"1c41b63-6163a96d946c0\"",
+          "file": "sample07_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 29629283,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:05:55 GMT",
+          "published_bytes": 29629283,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample07_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample07_filtered_feature_bc_matrix.tar.gz"
+        },
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"32874a9-6163a9734d440\"",
+          "file": "sample08_filtered_feature_bc_matrix.tar.gz",
+          "head_content_length": 52982953,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 16 Apr 2024 18:06:01 GMT",
+          "published_bytes": 52982953,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample08_filtered_feature_bc_matrix.tar.gz",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample08_filtered_feature_bc_matrix.tar.gz"
+        }
+      ],
+      "files_count": 8,
+      "total_published_bytes": 325315169
+    },
+    "E-MTAB-14103": {
+      "all_head_lengths_match_inventory": true,
+      "files": [
+        {
+          "body_downloaded": false,
+          "content_sha256": null,
+          "etag_not_a_content_hash": "\"28ebfd-618f8da701b00\"",
+          "file": "count_table.txt",
+          "head_content_length": 2681853,
+          "head_matches_inventory": true,
+          "head_status": 200,
+          "last_modified": "Tue, 21 May 2024 15:55:56 GMT",
+          "published_bytes": 2681853,
+          "resolved_public_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/103/E-MTAB-14103/Files/count_table.txt",
+          "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14103/count_table.txt"
+        }
+      ],
+      "files_count": 1,
+      "total_published_bytes": 2681853
+    }
+  },
+  "count_or_read_body_bytes": 0,
+  "decision": "E-MTAB-14013 metadata join qualifies; count and feature payload qualification requires separate authorization. E-MTAB-14103 genotype replication is blocked.",
+  "methods_by_accession_as_published": {
+    "E-MTAB-14013": {
+      "P-MTAB-142877": {
+        "description_as_published": "Fresh blood samples from people with PSC were collected via the YAEL outpatient service of the I. Department of Medicine. All patients and donors participating in this study provided written informed consent according to the ethical guidelines of the Institutional Review Board of the medical faculty of the University of Hamburg (PV4081).",
+        "type": "sample collection protocol"
+      },
+      "P-MTAB-142878": {
+        "description_as_published": "The scRNA-Seq library was prepared using the Chromium Next GEM Single Cell 5' Reagent Kit v2, according to the manufacturer\u2019s instructions (10x Genomics, USA). FACS-sorted cells were washed once with PBS containing 0.04% bovine serum albumin (BSA) and resuspended in PBS. 20,000 cells were used for GEM generation through the 10x Chromium Controller using the Chromium Next GEM Chip K Single Cell Kit (10x Genomics, USA). Briefly, droplet preparation was followed by reverse transcription and cell barcoding, the emulsions were resolved and cDNA was purified using Dynabeads MyOne SILANE (ThermoFisher Scientific, USA) followed by a PCR amplification with additional use of a primer for amplification of antibody derived tags (ADTs).",
+        "type": "nucleic acid extraction protocol"
+      },
+      "P-MTAB-142879": {
+        "description_as_published": "Amplified cDNA was used for construction of 5\u2032 gene expression library and ADT library using the dual index strategy following the manufacturer\u2019s instructions. Quality control and quantification of the generated libraries was conducted using a 2100 Bioanalyzer Instrument (Agilent Technologies, USA) and a QuBit 3.0 Fluorometer (ThermoFisher Scientific, USA), respectively.",
+        "type": "nucleic acid library construction protocol"
+      },
+      "P-MTAB-142880": {
+        "description_as_published": "The libraries were sequenced on an Illumina NovaSeq6000 to a minimum sequencing depth of 20,000 reads per cell for gene expression library, as well as a minimum sequencing depth of 5,000 reads for TCR- and ADT-libraries using read lengths of 100 bp read 1 (26 cycles), 8bp i5 index (10 cycles), 8 bp i7 index (10 cycles), 100 bp read 2 (90 cycles).",
+        "type": "nucleic acid sequencing protocol"
+      },
+      "P-MTAB-142881": {
+        "description_as_published": "Reads were aligned against the GRCh38 human reference genome (release 93) and summarized using the Cellranger pipeline (version 3.0.2, 10x Genomics, USA).",
+        "type": "high throughput sequence alignment protocol"
+      },
+      "P-MTAB-142882": {
+        "description_as_published": "For each sample, genes not observed in at least 1 % of all cells were dropped. Low quality or damaged cells were excluded using a combination of multiple sample dependent quality measures: minimum UMI count (mean 1234, range 800-2000), minimum and maximum number of expressed genes (mean 756, range 450-1000, and mean 2625, range 2500-3000 respectively), and mitochondrial transcript percentage (mean 6 %, range 5-7.5 %). Additionally, we filtered out doublet cell candidates using Scrublet, adjusting its estimated doublet threshold as needed. For normalization we used Seurat\u2019s SCTransform function.",
+        "type": "normalization data transformation protocol"
+      }
+    },
+    "E-MTAB-14103": {
+      "P-MTAB-143691": {
+        "description_as_published": "12 liver biopsies from people with Primary Sclerosing Cholangitis (PSC) who had undergone liver biopsy between 2011 and 2016 at the University Medical Center Hamburg-Eppendorf, Germany were included. Biopsies were taken according to the standard procedure in our center via TruCut needle biopsy during a mini-laparoscopic procedure.",
+        "type": "sample collection protocol"
+      },
+      "P-MTAB-143692": {
+        "description_as_published": "RNA quality was assessed using Bioanalyzer, and samples with and RNA integrity number >7 were included for RNA sequencing.",
+        "type": "nucleic acid extraction protocol"
+      },
+      "P-MTAB-143693": {
+        "description_as_published": "Up to 1ug RNA was used to synthesize mRNA libraries using TruSeq stranded mRNA library Preparation Kit (Illumina)",
+        "type": "nucleic acid library construction protocol"
+      },
+      "P-MTAB-143694": {
+        "description_as_published": "A Illumina Hiseq 4000 was used for sequencing at the sequencing center of the University of Kiel.",
+        "type": "nucleic acid sequencing protocol"
+      },
+      "P-MTAB-143695": {
+        "description_as_published": "To filter the data, a threshold of \u226510 counts in all samples was set. We used DESeq2 for normalization and differential gene expression analysis.",
+        "type": "normalization data transformation protocol"
+      },
+      "P-MTAB-143696": {
+        "description_as_published": "We used FastQC (version 0.11.5) for a general quality check of the raw fastq files. TruSeq2-PE adapter and low quality read trimming was performed with Trimmomatic (version 0.36) using the options ILLUMINACLIP:TruSeq2-PE.fa:2:30:10:2:falseSLIDINGWINDOW:4:15. Subsequently, the reads were aligned against the ensemble 87 reference genome and ensemble 87 reference annotation with STAR (version 2.7.3a)",
+        "type": "high throughput sequence alignment protocol"
+      }
+    }
+  },
+  "new_body_bytes": 9203580,
+  "next_authorization": {
+    "filtered_archive_bytes": 325315169,
+    "filtered_archive_count": 8,
+    "not_in_scope": "No full count or raw-read bodies acquired in this qualification.",
+    "permission_received": false,
+    "purpose": "Archive integrity, full feature/assay type, original count quantity and retained-barcode membership only, before any separately frozen endpoint effects."
+  },
+  "qualification_limits": [
+    "Source SNP/noSNP and homozygous/noncarrier labels do not provide nucleotide genotype, REF/ALT, strand or coordinate conventions.",
+    "GRCh38 release 93 describes alignment, not a verified rs56258221 coordinate.",
+    "All eight CITE-seq donors are male PSC cases. Table S2 reveals genotype-group clinical imbalance, but its patient-number to accession-individual crosswalk is unconfirmed and technical confounding remains unresolved.",
+    "Source phenotype discovery and CITE-seq states are reused; this is not an independent cohort or isogenic genotype experiment.",
+    "5-prime polyA RNA cannot validate a miRNA translation mechanism. ADT feature contents are not inspected.",
+    "Filename conventions and HEAD lengths do not prove original integer UMI quantity, a complete feature universe, barcode membership, or intact archive contents.",
+    "Methods 56,209 retained cells and Figure 2 / metadata 55,460 are both preserved; no silent reconciliation.",
+    "The public scRNA annotation has 16 major states, not the four later naive activation subclusters.",
+    "Metadata paper C15 MAIT maps to source Seurat 16, not 15. Metadata C9 CD4+ TC differs from the Methods C9 NKT label; do not silently correct either.",
+    "CITE-seq Methods say TotalSeq A but the key resource table names TotalSeq-C. Actual deposited RNA/ADT feature contents are unverified.",
+    "Bulk source Methods mention 47 sequencing-summary samples while the selected liver study has 12; the scopes are unreconciled.",
+    "Bulk SDRF has one age 18 against Methods >18 inclusion, and library strand 'not applicable' versus Methods stranded mRNA. Preserve both.",
+    "Numeric individual labels are accession-local; no cross-study donor or genotype mapping is inferred."
+  ],
+  "ready_for_expression_analysis": false,
+  "schema_version": 1,
+  "scope": "Public source-only input qualification; no expression analysis",
+  "source_pins": [
+    {
+      "bytes": 220098,
+      "name": "bach2-functional-fulltext",
+      "path": "data/raw/psc-frontier-review/genetics-scout/05-bach2-functional-fulltext.body",
+      "retrieved_at_utc": "2026-09-15T23:43:49.077308+00:00",
+      "reused": true,
+      "sha256": "5264a252293b4855fa8acac3d23b021ad3ba55a2d444872b84918397efd9ef34",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293351/fullTextXML"
+    },
+    {
+      "bytes": 17193,
+      "name": "bach2-e-mtab-14013-metadata",
+      "path": "data/raw/psc-frontier-review/genetics-scout/09-bach2-e-mtab-14013-metadata.body",
+      "retrieved_at_utc": "2026-09-15T23:45:02.061730+00:00",
+      "reused": true,
+      "sha256": "76bc9181bff079f9e3150b3c6cda84441ab25d40ed8c96d7e668abf9ce4b9294",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-14013"
+    },
+    {
+      "bytes": 15503,
+      "name": "bach2-e-mtab-14103-metadata",
+      "path": "data/raw/psc-frontier-review/genetics-scout/10-bach2-e-mtab-14103-metadata.body",
+      "retrieved_at_utc": "2026-09-15T23:45:02.498322+00:00",
+      "reused": true,
+      "sha256": "ad92149f57b36b8b8fe04585269f10c42b6ece5be376ae0c613499a8920caa62",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-14103"
+    },
+    {
+      "bytes": 0,
+      "name": "bach2-e-mtab-14013-sdrf",
+      "path": "data/raw/psc-frontier-review/genetics-scout/11-bach2-e-mtab-14013-sdrf.body",
+      "retrieved_at_utc": "2026-09-15T23:45:54.289421+00:00",
+      "reused": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/E-MTAB-14013.sdrf.txt"
+    },
+    {
+      "bytes": 0,
+      "name": "bach2-e-mtab-14103-sdrf",
+      "path": "data/raw/psc-frontier-review/genetics-scout/12-bach2-e-mtab-14103-sdrf.body",
+      "retrieved_at_utc": "2026-09-15T23:45:54.759984+00:00",
+      "reused": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14103/E-MTAB-14103.sdrf.txt"
+    },
+    {
+      "bytes": 3989,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "E-MTAB-14013.sdrf.txt",
+      "path": "data/raw/psc-bach2-qualification/01-E-MTAB-14013.sdrf.txt.body",
+      "response_body_sha256": "58273fa29690bdcaff0060161519ff6bbbee9e2af0df4bef03ef91a94184b10d",
+      "retrieved_at_utc": "2026-09-16T01:18:04.075192+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/E-MTAB-14013.sdrf.txt"
+    },
+    {
+      "bytes": 4942,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "E-MTAB-14013.idf.txt",
+      "path": "data/raw/psc-bach2-qualification/02-E-MTAB-14013.idf.txt.body",
+      "response_body_sha256": "623815e067889105645f44eb03e5b18699c187283b1524646d7f2a9910ef9091",
+      "retrieved_at_utc": "2026-09-16T01:18:04.902787+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/E-MTAB-14013.idf.txt"
+    },
+    {
+      "bytes": 4442,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "E-MTAB-14103.sdrf.txt",
+      "path": "data/raw/psc-bach2-qualification/03-E-MTAB-14103.sdrf.txt.body",
+      "response_body_sha256": "baab4a6264a4a1e93a6e8730d7c60c951fe9f05724e7828c565fb7440421940a",
+      "retrieved_at_utc": "2026-09-16T01:18:05.694344+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14103/E-MTAB-14103.sdrf.txt"
+    },
+    {
+      "bytes": 3455,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "E-MTAB-14103.idf.txt",
+      "path": "data/raw/psc-bach2-qualification/04-E-MTAB-14103.idf.txt.body",
+      "response_body_sha256": "6b28eac02b5a109d5a1576bed9e29a08c5f5a752581f87c9c98430f9cb210b43",
+      "retrieved_at_utc": "2026-09-16T01:18:06.499704+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14103/E-MTAB-14103.idf.txt"
+    },
+    {
+      "bytes": 5914294,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "scrna_meta.tsv",
+      "path": "data/raw/psc-bach2-qualification/05-scrna_meta.tsv.body",
+      "response_body_sha256": "0ba598b3edd30dc7f2ba76f0e7779725e60cce50daa01a0e2e04faebcec7c26c",
+      "retrieved_at_utc": "2026-09-16T01:18:21.339743+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/scrna_meta.tsv"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample02_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/06-sample02_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:47.425326+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample02_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample01_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/07-sample01_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:48.545037+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample01_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample08_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/08-sample08_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:49.720027+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample08_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample03_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/09-sample03_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:50.655242+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample03_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample05_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/10-sample05_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:51.523641+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample05_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample07_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/11-sample07_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:52.625181+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample07_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample04_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/12-sample04_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:53.550703+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample04_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "sample06_filtered_feature_bc_matrix.tar.gz-head",
+      "path": "data/raw/psc-bach2-qualification/13-sample06_filtered_feature_bc_matrix.tar.gz-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:54.459064+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample06_filtered_feature_bc_matrix.tar.gz"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "count_table.txt-head",
+      "path": "data/raw/psc-bach2-qualification/14-count_table.txt-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:18:55.271451+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14103/count_table.txt"
+    },
+    {
+      "bytes": 0,
+      "complete_response": false,
+      "error": null,
+      "evidence_status": "request_incomplete_or_failed",
+      "http_status": 404,
+      "method": "HEAD",
+      "name": "supplement-mmc1-head",
+      "path": "data/raw/psc-bach2-qualification/15-supplement-mmc1-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:19:16.307340+00:00",
+      "reused": false,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11293351/bin/mmc1.pdf"
+    },
+    {
+      "bytes": 322986,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_source_response",
+      "http_status": 200,
+      "method": "GET",
+      "name": "paper-supplement-link-page",
+      "path": "data/raw/psc-bach2-qualification/16-paper-supplement-link-page.body",
+      "response_body_sha256": "4097b8e496f86c452a50a474ade12d159b63013e52bca88b2ffb6c6a355b7837",
+      "retrieved_at_utc": "2026-09-16T01:19:44.927644+00:00",
+      "reused": false,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11293351/"
+    },
+    {
+      "bytes": 21364,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "not_requested_supplement_format_excluded",
+      "http_status": 200,
+      "method": "GET",
+      "name": "supplement-mmc1-published-link",
+      "path": "data/raw/psc-bach2-qualification/17-supplement-mmc1-published-link.body",
+      "response_body_sha256": "b9aee24f5c8632d9a0e3e82e91197fcfb97f5ad2a03aeed7ef66da0984f4eb32",
+      "retrieved_at_utc": "2026-09-16T01:23:22.826402+00:00",
+      "reused": false,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11293351/bin/mmc1.pdf"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "publisher-mmc1-head",
+      "path": "data/raw/psc-bach2-qualification/18-publisher-mmc1-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:25:04.804870+00:00",
+      "reused": false,
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2666379124003240-mmc1.pdf"
+    },
+    {
+      "bytes": 0,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "headers_only_not_content_validation",
+      "http_status": 200,
+      "method": "HEAD",
+      "name": "europepmc-supplements-head",
+      "path": "data/raw/psc-bach2-qualification/19-europepmc-supplements-head.body",
+      "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at_utc": "2026-09-16T01:25:07.393415+00:00",
+      "reused": false,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11293351/supplementaryFiles"
+    },
+    {
+      "bytes": 2928108,
+      "complete_response": true,
+      "error": null,
+      "evidence_status": "complete_pdf_source",
+      "http_status": 200,
+      "method": "GET",
+      "name": "publisher-mmc1.pdf",
+      "path": "data/raw/psc-bach2-qualification/20-publisher-mmc1.pdf.body",
+      "response_body_sha256": "5d37298b5a7efa1b0708f25fd2842c6eb1b0b129f4abfe3467cfb466de7d11ba",
+      "retrieved_at_utc": "2026-09-16T01:27:25.090566+00:00",
+      "reused": false,
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2666379124003240-mmc1.pdf"
+    }
+  ],
+  "supplement_text_provenance": {
+    "command": "pdftotext -layout data/raw/psc-bach2-qualification/20-publisher-mmc1.pdf.body work/psc-bach2-qualification/supplement-layout.txt",
+    "interpretation_scope": "Table S2 clinical parameters only; no source expression result pages interpreted",
+    "recorded_at_utc": "2026-09-16T01:31:23.026429+00:00",
+    "selected_text_page_1based": 8,
+    "source_pdf_bytes": 2928108,
+    "source_pdf_path": "data/raw/psc-bach2-qualification/20-publisher-mmc1.pdf.body",
+    "source_pdf_sha256": "5d37298b5a7efa1b0708f25fd2842c6eb1b0b129f4abfe3467cfb466de7d11ba",
+    "text_path": "work/psc-bach2-qualification/supplement-layout.txt",
+    "text_sha256": "f943d3ead2f74929170821eb6c4ef0e2dbe7c9415cbd1c205b45be1f200b3fbe",
+    "tool": "pdftotext 26.08.0 (Poppler)"
+  }
+}
