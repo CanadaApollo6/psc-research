@@ -1,0 +1,314 @@
+{
+  "acquisition_accounting": {
+    "conservative_accounting_charge_bytes": 1150648,
+    "ecm_logical_acquisitions": 2,
+    "fallback_status": "No substitute endpoint authorized or acquired. Root decision requested; default HOLD.",
+    "il17_status": "HOLD_missing_complete_published_membership_and_conditions",
+    "known_followed_redirect_hops": 4,
+    "known_redirect_body_declared_bytes": 134,
+    "lost_attempt_body_cap_reserve_bytes": 820000,
+    "main_logical_acquisitions": 10,
+    "maximum_new_public_bytes": 5000000,
+    "network_acquisition_closed": true,
+    "qualified_programs": [
+      "reactome_ecm_organization"
+    ],
+    "retained_response_body_bytes": 330514,
+    "retrieved_date_utc": "2026-09-16",
+    "schema_version": 1,
+    "scope": "Source qualification only; no liver/organoid expression, normalization, scores, effects or endpoint execution.",
+    "source_semantic_outcomes": [
+      {
+        "capture_name": "nograles-il17-up.html",
+        "qualification": "not_a_gene_set",
+        "reason": "Official MSigDB response says Gene Set Not Found; HTTP200 does not qualify a signature."
+      },
+      {
+        "capture_name": "nograles-article-search.json",
+        "qualification": "search_only",
+        "reason": "First10 of15 hits; no target article in this page; no full membership."
+      },
+      {
+        "capture_name": "nograles-target-article-search.json",
+        "qualification": "bibliography_abstract_only",
+        "reason": "One exact target found PMID18684158/PMC2724264/DOI10.1111/j.1365-2133.2008.08769.x. No complete list/dose/duration in abstract."
+      },
+      {
+        "capture_name": "nograles-article.html",
+        "qualification": "access_challenge_not_article",
+        "reason": "HTTP200 serves Google reCAPTCHA challenge. No challenge solving or retry bypass attempted."
+      },
+      {
+        "capture_name": "nograles-article.xml",
+        "qualification": "not_available_at_endpoint",
+        "reason": "EuropePMC fullTextXML HTTP404, zero-byte response; not evidence of article text."
+      },
+      {
+        "capture_name": "nograles-europepmc.html",
+        "qualification": "access_challenge_not_article",
+        "reason": "HTTP403 with Cloudflare challenge; no challenge solving or circumvention attempted."
+      },
+      {
+        "capture_name": "msigdb-il17-search.html",
+        "qualification": "login_not_search_result",
+        "reason": "Ordinary search URL redirected to login. No credentials, registration or login used; no gene-set result retrieved."
+      },
+      {
+        "capture_name": "chiricozzi-il17a-response.html",
+        "qualification": "not_a_gene_set",
+        "reason": "Final bounded candidate lookup returned official Gene Set Not Found; no membership or experimental conditions retrieved."
+      }
+    ],
+    "transfer_limit": "This is not an exact wire-transfer audit: first two local output-path failures lost response status/body counts and any redirect history. The full700k+120k body read caps are charged conservatively. Known later redirect Content-Length134 is charged although its body was not retained. No payload truncation in retained captures. Request limit counts top-level logical acquisitions, not redirect hops.",
+    "unqualified_requested_programs": [
+      "epithelial_il17a_alone_response"
+    ]
+  },
+  "ignored_audit_paths": {
+    "ecm_all_source_rows": "work/psc-liver-external-programs/ecm-scout/source-members.tsv",
+    "ecm_official_symbol_projection": "work/psc-liver-external-programs/ecm-scout/official-symbol-projection.tsv",
+    "ecm_request_ledger": "work/psc-liver-external-programs/ecm-scout/request-ledger.jsonl",
+    "initial_capture_error_log": "work/psc-liver-external-programs/il17-scout/initial-acquisition-path-failures.log",
+    "main_request_ledger": "data/raw/psc-liver-external-programs/il17-scout/request-ledger.jsonl",
+    "source_pass": "work/psc-liver-external-programs/source-pass-completion.json"
+  },
+  "ignored_audit_pins": [
+    {
+      "bytes": 3171,
+      "path": "work/psc-liver-external-programs/source-pass-completion.json",
+      "sha256": "788ed7217c0a9fa524d77e434b7c9b87b0cefcb12e00e956a43d68f07683466e"
+    },
+    {
+      "bytes": 16539,
+      "path": "data/raw/psc-liver-external-programs/il17-scout/request-ledger.jsonl",
+      "sha256": "20d6b917477191d82ee10a7566ff9154befcfe13b6985ffef20b4359f9f045eb"
+    },
+    {
+      "bytes": 2745,
+      "path": "work/psc-liver-external-programs/ecm-scout/request-ledger.jsonl",
+      "sha256": "a776416ffb05da33408e21c07e328d21af1ff18f6c6a415ffdcb4bf2cffb3ec6"
+    },
+    {
+      "bytes": 173027,
+      "path": "work/psc-liver-external-programs/ecm-scout/source-members.tsv",
+      "sha256": "5223f183d38daa677d257a4f685a9c7c2aa31a16a696fc167778c705a1c477c6"
+    },
+    {
+      "bytes": 116479,
+      "path": "work/psc-liver-external-programs/ecm-scout/official-symbol-projection.tsv",
+      "sha256": "a53f51f65dfe0dec6199f5ef57415ced0a41d34146bb4315c6ed8e6b09c6c361"
+    },
+    {
+      "bytes": 2018,
+      "path": "work/psc-liver-external-programs/il17-scout/initial-acquisition-path-failures.log",
+      "sha256": "efe7160c4660818b587b38b9f9a088316cf629d39ad3c2ff05c2e22adfa4f130"
+    },
+    {
+      "bytes": 1744,
+      "path": "work/psc-liver-external-programs/il17-scout/source-semantic-outcomes.json",
+      "sha256": "180b978c7c59e1a7eb016181aa3e0a9cb65cfb02afec0646fac41a693361b11c"
+    }
+  ],
+  "membership_output": {
+    "bytes": 125834,
+    "path": "data/derived/psc-liver-external-program-membership.csv",
+    "rows": 321,
+    "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202"
+  },
+  "missingness_policy": "No source member is dropped. The absent IL17 program is unavailable, not an empty list or zero score. Later tissue mapping must retain the321-member denominator and report every unresolved member under a separately fixed policy; this source task does not authorize aliases, ambiguity collapse or zero-fill.",
+  "programs": [
+    {
+      "allele_conventions": "Not applicable to gene-set membership.",
+      "biological_interpretation_limits": [
+        "UNSIGNED constitutive canonical pathway membership. Constitutive here means non-perturbation pathway membership, not ubiquitous or stable expression in all cells.",
+        "Not a proven fibrosis-response signature; not an epithelial IL17A perturbation; not fibrosis-specific or PSC-specific.",
+        "No member-level direction, treatment effect, perturbation dose or duration, differential-expression threshold, or experimental donor count is provided. None is invented.",
+        "The page's brief description is Extracellular matrix organization; its full description and source publication fields are empty. No further mechanistic claim is inferred.",
+        "MSigDB maps 340 original Ensembl gene IDs to 321 symbols/NCBI IDs. All original source rows are retained; duplicate mappings are not independent genes.",
+        "Identifier mappings and gene descriptions remain exactly as displayed by MSigDB after HTML entity decoding and whitespace normalization. No independent gene-identifier reconciliation, coordinate mapping, or liver/organoid coverage calculation was done.",
+        "Reactome release 95 and MSigDB 2026.1.Hs are pinned by this archived official page; the downloadable JSON filename independently pins MSigDB 2026.1.Hs. An Ensembl annotation release/genome build is not stated and is not inferred.",
+        "The live URL is mutable. These complete archived response bytes and SHA-256 values freeze the qualified source release."
+      ],
+      "collection": "C2:CP:REACTOME",
+      "conditions": {
+        "cell_type": null,
+        "differential_expression_threshold": null,
+        "dose": null,
+        "duration": null,
+        "experimental_donor_n": null,
+        "treatment": null,
+        "type": "non_perturbation_curated_pathway"
+      },
+      "direction": "UNSIGNED",
+      "direction_encoding": "UNSIGNED is a local status label for absent published perturbation-response directions. It is not a publisher literal and not an inferred positive response.",
+      "ensembl_release": null,
+      "exact_source_id": "R-HSA-1474244",
+      "expected_member_count": 321,
+      "expected_source_identifier_count": 340,
+      "extra_source_ids_beyond_official_symbols": 19,
+      "genome_build": null,
+      "genome_build_status": "Not declared by this gene-set source; no coordinates inferred.",
+      "many_to_one_symbol_groups": 12,
+      "mapping_authority": "MSigDB source projection only; not independently reconciled to current reference or liver features.",
+      "member_namespace": "MSigDB_geneSymbols",
+      "membership_definition": "Exactly the complete official MSigDB geneSymbols array in original JSON order; not a local subset or raw Reactome participant universe.",
+      "membership_index_encoding": "source_member_index is one-based official JSON geneSymbols order; original_source_row_indices are one-based HTML340-row table indexes.",
+      "membership_weight": "1",
+      "msigdb_systematic_id": "M610",
+      "msigdb_version": "2026.1.Hs",
+      "official_program_name": "REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION",
+      "organism": "Homo sapiens",
+      "program_id": "reactome_ecm_organization",
+      "published_response_directions_available": false,
+      "reactome_release": "95",
+      "scoring_authorized": false,
+      "source_disposition_header": "attachment; filename=\"REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION.v2026.1.Hs.json\";",
+      "source_id_duplicate_count": 0,
+      "source_identifier_namespace": "Human_Ensembl_Gene_ID",
+      "source_keys": {
+        "html": "ecm_html",
+        "json": "ecm_json"
+      },
+      "source_mapping_coverage_is_not_liver_coverage": true,
+      "status": "qualified_complete_official_pathway_membership_source_only",
+      "unmapped_source_identifier_count": 0,
+      "weighting_scope": "Each official symbol has one equal unit of unsigned membership. Multiple published source Ensembl IDs do not increase that symbol weight. No response coefficients, effect weights, liver-value selection or scoring formula are supplied."
+    }
+  ],
+  "prospective_independence": "Sources and complete membership fixed without reading liver expression, liver effects or the eight organoid interaction candidates for selection. Existing frozen organoid files remain unchanged.",
+  "qualification_date_utc": "2026-09-16",
+  "qualification_status": "partial_ECM_qualified_epithelial_IL17A_response_HOLD",
+  "reproduction": {
+    "build": ".venv/bin/python scripts/qualify_psc_liver_external_programs.py --build",
+    "network_behavior": "Offline only. There is no acquisition mode or authorization to extend the closed source pass.",
+    "tests": ".venv/bin/python -m unittest discover -s tests -p test_qualify_psc_liver_external_programs.py -v",
+    "verify": ".venv/bin/python scripts/qualify_psc_liver_external_programs.py --verify"
+  },
+  "schema_version": 1,
+  "scope": "Source qualification only; no liver/organoid expression, normalization, scores, effects or endpoint execution.",
+  "source_pass_closed": true,
+  "sources": {
+    "ecm_html": {
+      "bytes": 197895,
+      "complete": true,
+      "final_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION.html",
+      "path": "data/raw/psc-liver-external-programs/ecm-scout/01-msigdb-ecm.html",
+      "retrieved_at_utc": "2026-09-16T02:16:29.722831+00:00",
+      "sha256": "0bce8c070ad8e24961cd22fabd57da8cf26161f7ece5d3da49715812ac1895a6",
+      "status": 200,
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION.html"
+    },
+    "ecm_json": {
+      "bytes": 3006,
+      "complete": true,
+      "final_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?geneSetName=REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION&fileType=json",
+      "path": "data/raw/psc-liver-external-programs/ecm-scout/02-msigdb-ecm.json",
+      "retrieved_at_utc": "2026-09-16T02:17:25.700864+00:00",
+      "sha256": "2046e084f1c36c74cf107c8448d19bb4f47bb2bf37b45b2388fd3d1b837b6540",
+      "status": 200,
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?geneSetName=REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION&fileType=json"
+    },
+    "nograles_bibliographic_search": {
+      "bytes": 9389,
+      "complete": true,
+      "evidence_scope": "Bibliography and abstract only; not a qualified membership input.",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Th17+cytokines%22+AND+TITLE%3Akeratinocyte&format=json&resultType=core&pageSize=5",
+      "path": "data/raw/psc-liver-external-programs/il17-scout/nograles-target-article-search.json",
+      "retrieved_at_utc": "2026-09-16T02:24:22.424140+00:00",
+      "sha256": "3534d5ccb7edf2acf4d2124c3c92bf924001b2a1bad1fdb5423a1cf5fe84cb66",
+      "status": 200,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Th17+cytokines%22+AND+TITLE%3Akeratinocyte&format=json&resultType=core&pageSize=5"
+    }
+  },
+  "transformations": [
+    "Decode official HTML as ISO-8859-1 and JSON as UTF-8; decode HTML entities and collapse visible formatting whitespace only.",
+    "Parse all340 displayed source IDs and all321 official JSON symbols; fail on missing, repeated, malformed or conflicting source IDs and missing/extra official symbols.",
+    "Use321 official JSON symbols as members; retain every original source ID and row index in the CSV projection. Do not select among alternative source IDs.",
+    "Preserve published NCBI IDs as literal strings; no alias/current-annotation/locus reconciliation.",
+    "Give each official symbol membership_weight1 and directionUNSIGNED; this is not an upregulated response weight.",
+    "No tissue mapping, expression filtering, normalization, expression matching, scores, statistical tests or biological effect estimation."
+  ],
+  "unavailable_requested_programs": [
+    {
+      "available_source_evidence": {
+        "doi": "10.1111/j.1365-2133.2008.08769.x",
+        "evidence_level": "Bibliographic metadata and abstract only; not full experimental conditions or membership.",
+        "pmcid": "PMC2724264",
+        "pmid": "18684158",
+        "publication": "Nograles et al. 2008",
+        "title": "Th17 cytokines interleukin (IL)-17 and IL-22 modulate distinct inflammatory and keratinocyte-response pathways."
+      },
+      "bounded_pass_findings": "Full article/supplement not captured; PMC challenge, EuropePMC HTML403/fullTextXML404; two candidate MSigDB names not found; keyword search redirected to login. These are access/name-specific findings, not proof no published response list exists.",
+      "fallback_authorization": "None. Do not replace this endpoint with pathway members, a selected gene subset or organoid candidates. Root must decide whether to keep HOLD or authorize a separately bounded changed source endpoint.",
+      "member_count": null,
+      "membership_is_not_empty_or_zero": true,
+      "missing_inputs": [
+        "Complete published source member list and directions",
+        "Explicit IL17A-alone perturbation identity and comparator",
+        "Dose, duration, epithelial culture model and experimental replication",
+        "Source identifier namespace/version and list construction criteria"
+      ],
+      "program_id": "epithelial_il17a_alone_response",
+      "published_directions": null,
+      "scoring_authorized": false,
+      "status": "HOLD_no_complete_qualified_response_source",
+      "weighting": null
+    }
+  ],
+  "validation": {
+    "independent_final_audit": {
+      "bytes": 20876,
+      "checks_passed": 47,
+      "constant_and_pin_fields_per_member": 14,
+      "failed_checks": 0,
+      "issues": 0,
+      "network_requests": 0,
+      "official_member_symbols_compared": 321,
+      "original_source_ids_compared": 340,
+      "path": "work/psc-liver-external-programs/ecm-scout/final-independent-audit.json",
+      "per_member_constant_and_pin_comparisons": 4494,
+      "producer_imported_or_executed": false,
+      "scope": "Independent raw-source/CSV/provenance/semantic audit only; did not certify or rerun full repository tests. Snapshot config/report may precede appended validation receipts.",
+      "sha256": "ea4b9afb90d976f6650e04e15e994d155c8f205deb92642c7e4955cbd4f2e29a",
+      "status": "PASS"
+    },
+    "offline_membership_replay": {
+      "bytes": 125834,
+      "ignored_audit_pins_checked": 7,
+      "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202",
+      "source_pins_checked": 3,
+      "status": "byte_identical"
+    },
+    "repository_suite": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "errors": 7,
+      "exit_code": 1,
+      "failures": 0,
+      "historical_inputs_or_r_runtime_not_repaired": true,
+      "log_path": "work/psc-liver-external-programs/repository-tests.log",
+      "new_task_tests_passed": 27,
+      "tests_run": 664,
+      "unrelated_error_labels": [
+        "setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+        "setUpClass (test_ets2_sources.TestETS2Sources)",
+        "setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+        "setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+        "test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+        "test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+        "test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+      ],
+      "unrelated_missing_paths": [
+        "data/raw/ets2-benchmark/ets2-primary-article.xml",
+        "data/raw/ets2-benchmark/ets2-public-release.zip",
+        "work/ets2-independent-search/GSE84161-family-soft.txt",
+        "work/gse84161-normalization/runtime/bin/Rscript"
+      ]
+    },
+    "synthetic_tests": {
+      "count": 27,
+      "errors": 0,
+      "failures": 0,
+      "log_path": "work/psc-liver-external-programs/unit-tests.log"
+    }
+  }
+}

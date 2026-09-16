@@ -1,0 +1,2292 @@
+{
+  "RNA_axis_comparison": {
+    "RNA_feature_universe_rows_if_identical": 36601,
+    "all_eight_ordered_RNA_axes_identical": true,
+    "assembly_performed": false,
+    "assembly_status": "not performed; qualification only",
+    "comparisons": {
+      "sample01": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample02": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample03": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample04": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample05": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample06": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample07": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      },
+      "sample08": {
+        "IDs_only_in_this_sample": 0,
+        "canonical_ordered_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+        "ordered_ID_name_type_axis_equal_to_reference": true,
+        "reference_IDs_absent_from_this_sample": 0,
+        "row_count": 36601,
+        "same_ID_set_as_reference": true,
+        "shared_IDs_with_name_or_type_difference": 0
+      }
+    },
+    "full_original_ID_name_type_order_checked": true,
+    "no_intersection_union_renaming_collapsing_or_imputation": true,
+    "reference_sample_selected_by_filename_order_only": "sample01"
+  },
+  "additional_metadata_body_bytes": 0,
+  "additional_metadata_budget_bytes": 1000000,
+  "all_complete_feature_axes_ordered_identical": true,
+  "all_eight_archive_bytes": 325315169,
+  "analysis_method_frozen_or_authorized": false,
+  "antibody_target_annotation": {
+    "RNA_to_protein_translation_effect_tested": false,
+    "all_source_names_use_ADT_prefix": true,
+    "all_target_names_equal_their_source_IDs": true,
+    "antibody_reagent_identity_specificity_independently_reconciled": false,
+    "distinct_original_ID_name_type_triples": 38,
+    "explicit_BACH2_named_Antibody_Capture_feature_present": false,
+    "explicit_BACH2_target_rows": [],
+    "interpretation": "No deposited Antibody Capture ID or name explicitly labels BACH2; RNA BACH2 is not an ADT measurement",
+    "tag_units_are_absolute_protein_molecules": false,
+    "targets_as_published": [
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CCR4",
+        "source_feature_name": "ADT_CCR4",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CCR5",
+        "source_feature_name": "ADT_CCR5",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CCR6",
+        "source_feature_name": "ADT_CCR6",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CCR7",
+        "source_feature_name": "ADT_CCR7",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD11a",
+        "source_feature_name": "ADT_CD11a",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD122",
+        "source_feature_name": "ADT_CD122",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD127",
+        "source_feature_name": "ADT_CD127",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD161",
+        "source_feature_name": "ADT_CD161",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD223",
+        "source_feature_name": "ADT_CD223",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD25",
+        "source_feature_name": "ADT_CD25",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD27",
+        "source_feature_name": "ADT_CD27",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD279",
+        "source_feature_name": "ADT_CD279",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD28",
+        "source_feature_name": "ADT_CD28",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD31",
+        "source_feature_name": "ADT_CD31",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD366",
+        "source_feature_name": "ADT_CD366",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD39",
+        "source_feature_name": "ADT_CD39",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD44",
+        "source_feature_name": "ADT_CD44",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD45RA",
+        "source_feature_name": "ADT_CD45RA",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD45RO",
+        "source_feature_name": "ADT_CD45RO",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD49d",
+        "source_feature_name": "ADT_CD49d",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD57",
+        "source_feature_name": "ADT_CD57",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD62L",
+        "source_feature_name": "ADT_CD62L",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD69",
+        "source_feature_name": "ADT_CD69",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD73",
+        "source_feature_name": "ADT_CD73",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CD95",
+        "source_feature_name": "ADT_CD95",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CTLA-4",
+        "source_feature_name": "ADT_CTLA-4",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CXCR3",
+        "source_feature_name": "ADT_CXCR3",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CXCR4",
+        "source_feature_name": "ADT_CXCR4",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_CXCR5",
+        "source_feature_name": "ADT_CXCR5",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_GARP",
+        "source_feature_name": "ADT_GARP",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_GITR",
+        "source_feature_name": "ADT_GITR",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_HLA-DR",
+        "source_feature_name": "ADT_HLA-DR",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_ICOS",
+        "source_feature_name": "ADT_ICOS",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_KLRG1",
+        "source_feature_name": "ADT_KLRG1",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_TCR_Va24-Ja18",
+        "source_feature_name": "ADT_TCR_Va24-Ja18",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_TCR_Va72",
+        "source_feature_name": "ADT_TCR_Va72",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_TCRgd",
+        "source_feature_name": "ADT_TCRgd",
+        "source_feature_type": "Antibody Capture"
+      },
+      {
+        "explicit_BACH2_token_in_source_ID_or_name": false,
+        "present_in_samples": [
+          "sample01",
+          "sample02",
+          "sample03",
+          "sample04",
+          "sample05",
+          "sample06",
+          "sample07",
+          "sample08"
+        ],
+        "source_feature_id": "ADT_TIGIT",
+        "source_feature_name": "ADT_TIGIT",
+        "source_feature_type": "Antibody Capture"
+      }
+    ]
+  },
+  "assembly_performed": false,
+  "bare_source_barcode_strings_repeated_across_samples": 2006,
+  "closed_eight_deliverables_sha256_preserved": {
+    "data/derived/psc-bach2-count-qualification.json": "2d779efa722d71e3caee3caa79334be3b7251841d2292be4ffaef5fbdf2e7676",
+    "data/derived/psc-bach2-input-qualification.json": "a5cd64ecb179021da52d8631fb64c8f9d7cb38049ef85d316083a7e10c7e35c2",
+    "reports/psc-bach2-count-qualification.md": "d1fec8f695f9de3acb2d685c0d20704db867d163dd28678d731f9e790bec2a00",
+    "reports/psc-bach2-input-qualification.md": "25a1e06e5aed7fa84eac65a802e52a4af267e83fb39c8ee5cd75819f0c9eb963",
+    "scripts/qualify_psc_bach2_counts.py": "6baef106dcc2701f6c25474432ca0e307104754ae542a72d57240785c8ff84e9",
+    "scripts/qualify_psc_bach2_inputs.py": "435960457502dac99cdf3dea155e68dceb19b1d7c647a26bc6d72a73c34ba74d",
+    "tests/test_psc_bach2_counts.py": "5ea0ef8a397a98f3de14d56ee9af1033053fdd7a2cce21722fb9d73cf686c9a0",
+    "tests/test_psc_bach2_inputs.py": "76ac6de93ee1d7bd1ac841670eb42e923021f965e610c7e1322d53b61619e94e"
+  },
+  "expression_effects_normalization_scores_models_or_state_gene_selection": false,
+  "fixed_retained_cells": 55460,
+  "fixed_retained_metadata": {
+    "RNA_SCT_margin_columns_present": [],
+    "bare_barcode_strings_repeated_across_samples": 1769,
+    "join_rule": "Published SDRF filtered-archive basename to sample; remove only exact sample_name + '_' from that sample's retained barcode; retain sample in every cell key",
+    "no_clinical_join_or_state_selection": true,
+    "rows": 55460,
+    "samples": 8,
+    "source_metadata_columns_as_published": [
+      "sample_name",
+      "sex",
+      "condition",
+      "seurat_clusters",
+      "paper_clusters",
+      "paper_clusters_short",
+      "UMAP_1",
+      "UMAP_2",
+      "barcode"
+    ],
+    "unique_sample_barcode_pairs": 55460
+  },
+  "new_archive_body_bytes": 298421791,
+  "parser_reused_without_edits": {
+    "path": "scripts/qualify_psc_bach2_counts.py",
+    "sha256": "6baef106dcc2701f6c25474432ca0e307104754ae542a72d57240785c8ff84e9"
+  },
+  "private_outputs": "Full axes, per-cell type-specific margins and explicit sample/donor/genotype joins stay under ignored work/",
+  "qualified_complete_released_RNA_feature_interface_for_fixed_retained_cells": true,
+  "ready_for_expression_analysis": false,
+  "retained_cells_matched": 55460,
+  "retained_cells_missing": 0,
+  "reused_sample05_archive_bytes": 26893378,
+  "sample_count": 8,
+  "samples": {
+    "sample01": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample01_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample01_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample01_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 48295,
+            "source_path": "sample01_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample01_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 50176,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample01_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample01_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 385024,
+            "pax_headers": {},
+            "size_bytes": 54058655,
+            "source_path": "sample01_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "cbede10441fecfc1013077088829ddb9916140d9f8489c371c98efb3492837a6",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "7005c830d3beb32b60c7107a4d38f915bf01804188740d17d5dc66efb794fa21",
+          "uncompressed_bytes": 54446080
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 9327,
+        "retained_cells_matched": 9327,
+        "retained_cells_missing": 0,
+        "source_cells": 9876,
+        "source_cells_outside_fixed_retained_metadata": 549
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 17182,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 9876,
+          "features": 36639,
+          "stored_entries_declared": 13894154
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 19457,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "12123",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 196376,
+          "Gene Expression": 13697778
+        },
+        "stored_entries_observed": 13894154,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "12973603",
+          "Gene Expression": "36459004"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 48295,
+          "compressed_sha256": "1e191436cc291d3c612601c6bbe41978891983be296171ae9e187370f3281e9f",
+          "decoded_bytes": 187644,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample01/members/barcodes.txt",
+          "decoded_sha256": "bd6733b7bf4547bf4ca9e9c06483dc5f9fbc01d7fce432b2d69d6fb2ed2d975a",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample01_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "4582c5a92859b7dd07cdd89629dc2ae4784d54b159574855265742b2afd7b3aa",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample01/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample01_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 54058655,
+          "compressed_sha256": "53c2277aa2cb19476d55c0928382da1432bfdc25c83cfea108743a578ebb3ed9",
+          "decoded_bytes": 175715417,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample01/members/matrix.txt",
+          "decoded_sha256": "326bac83f2a69260ca1d4eb4ffccdb86402149c042415d4ef7aba3b036d40a9f",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample01_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 54449959,
+        "completed_at_utc": "2026-09-16T03:05:40.654083+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample01_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "cbede10441fecfc1013077088829ddb9916140d9f8489c371c98efb3492837a6",
+        "started_at_utc": "2026-09-16T03:01:20.259283+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample01_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample01_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample01_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample01",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "12973603",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "11914297",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "36459004",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "33015632",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample02": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample02_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample02_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample02_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 37806,
+            "source_path": "sample02_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample02_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 39424,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample02_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample02_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 374272,
+            "pax_headers": {},
+            "size_bytes": 44160799,
+            "source_path": "sample02_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "b47a0d5322ff6d560e385d5b205b4081b9c88dc56bcf3a7e702863d9a41c64e8",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "42a01b52ac791c7e3bc2e335ab7d949267b68c747ad8b82a1f4e236dd8755509",
+          "uncompressed_bytes": 44544000
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 7034,
+        "retained_cells_matched": 7034,
+        "retained_cells_missing": 0,
+        "source_cells": 7596,
+        "source_cells_outside_fixed_retained_metadata": 562
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 17152,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 7596,
+          "features": 36639,
+          "stored_entries_declared": 11387725
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 19487,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "11597",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 169515,
+          "Gene Expression": 11218210
+        },
+        "stored_entries_observed": 11387725,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "11039871",
+          "Gene Expression": "33130311"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 37806,
+          "compressed_sha256": "b122b0283fd49d7e6c755c9be5bf09bec14319e7252561902e34e1f55223dac3",
+          "decoded_bytes": 144324,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample02/members/barcodes.txt",
+          "decoded_sha256": "f735bc36cb4f4be3282a0adb3767d2deed9ca9041be81e51119a58395ecd8295",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample02_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "ba4e8cdf0f6810f555c2754b9a5bbf5c3a3d554cf6101d3ba3cb9d417a32ff8d",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample02/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample02_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 44160799,
+          "compressed_sha256": "9a721f11601907bc35ef2d33c11d7aeb3f4989ede0b16f0291b6bedca50d69a1",
+          "decoded_bytes": 143707136,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample02/members/matrix.txt",
+          "decoded_sha256": "a6070351ca05ba082eac63ce56547b0eae22882342338a0830a8fd3f23c2af9b",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample02_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 44540169,
+        "completed_at_utc": "2026-09-16T03:05:10.744016+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample02_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "b47a0d5322ff6d560e385d5b205b4081b9c88dc56bcf3a7e702863d9a41c64e8",
+        "started_at_utc": "2026-09-16T03:01:20.260140+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample02_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample02_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample02_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample02",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "11039871",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "9681689",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "33130311",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "28719265",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample03": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample03_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample03_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample03_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 40673,
+            "source_path": "sample03_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample03_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 42496,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample03_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample03_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 377344,
+            "pax_headers": {},
+            "size_bytes": 43043270,
+            "source_path": "sample03_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "f0a957fadccf7998a8c366e537483d23bceba1b095b5cbf90e3920402dcf2091",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "a1fa918ac468cdc459116eb685dce4193e97198dab467bcaf11d64c4820de99e",
+          "uncompressed_bytes": 43427840
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 7771,
+        "retained_cells_matched": 7771,
+        "retained_cells_missing": 0,
+        "source_cells": 8240,
+        "source_cells_outside_fixed_retained_metadata": 469
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 17417,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 8240,
+          "features": 36639,
+          "stored_entries_declared": 11021775
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 19222,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "26578",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 200806,
+          "Gene Expression": 10820969
+        },
+        "stored_entries_observed": 11021775,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "12989872",
+          "Gene Expression": "31891058"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 40673,
+          "compressed_sha256": "e9b9e4f1610c1b0d85771fa591568bab5487da6a8a42cf5b770c69717b105171",
+          "decoded_bytes": 156560,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample03/members/barcodes.txt",
+          "decoded_sha256": "d4d733987896b74cb994d9738b529f6473a9948c6c35f4c0d462d4a007a05068",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample03_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "4e95b0c0d80bdde6aa51b726a326cec9f87187fcb3fbee0741433e12a286de46",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample03/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample03_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 43043270,
+          "compressed_sha256": "59d78052c288090ba08c6c34cc99981785d3da3999ef2df447a2845fe896803e",
+          "decoded_bytes": 139246264,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample03/members/matrix.txt",
+          "decoded_sha256": "db05c7eeb82cef75953d414e0e0db8adf30e518b8807bf116f895e145f1cd218",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample03_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 43425341,
+        "completed_at_utc": "2026-09-16T03:04:40.370565+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample03_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "f0a957fadccf7998a8c366e537483d23bceba1b095b5cbf90e3920402dcf2091",
+        "started_at_utc": "2026-09-16T03:01:20.260446+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample03_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample03_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample03_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample03",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "12989872",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "11901852",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "31891058",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "28989772",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample04": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample04_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample04_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample04_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 34331,
+            "source_path": "sample04_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample04_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 36352,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample04_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample04_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 371200,
+            "pax_headers": {},
+            "size_bytes": 36345183,
+            "source_path": "sample04_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "0a7bc817823e121b929a1716abb1f32b132c909b19b0b159a17f2484393f7d52",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "31e56950963733bc99c5edbaff66e14d5847ac129a8af88abd84177968e2270e",
+          "uncompressed_bytes": 36720640
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 6477,
+        "retained_cells_matched": 6477,
+        "retained_cells_missing": 0,
+        "source_cells": 6864,
+        "source_cells_outside_fixed_retained_metadata": 387
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 17507,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 6864,
+          "features": 36639,
+          "stored_entries_declared": 9339765
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 19132,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "6215",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 176344,
+          "Gene Expression": 9163421
+        },
+        "stored_entries_observed": 9339765,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "15242975",
+          "Gene Expression": "26099659"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 34331,
+          "compressed_sha256": "72e0a0c906f4c3a01533f42f5e40cca359a5f74b5b47c5c6947bd74a600064ed",
+          "decoded_bytes": 130416,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample04/members/barcodes.txt",
+          "decoded_sha256": "1c758f4331881e93e502f27660ef7a97a7460351f88e6a488511eb1b11cad500",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample04_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "a40b8714620092c6e99a8ae1a0d3fe2e94ec5b03a68a82feb58fb26748d25c10",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample04/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample04_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 36345183,
+          "compressed_sha256": "ff0677c7678f2a3cb169d73a406e7860c1e16a5e1c01de360d5816c780a56d79",
+          "decoded_bytes": 117742106,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample04/members/matrix.txt",
+          "decoded_sha256": "4fababbcfdc3a44fadcef7fd40569e844657bde149ab5371dc83b13fc96d16ff",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample04_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 36719700,
+        "completed_at_utc": "2026-09-16T03:07:08.617292+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample04_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "0a7bc817823e121b929a1716abb1f32b132c909b19b0b159a17f2484393f7d52",
+        "started_at_utc": "2026-09-16T03:04:40.370848+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample04_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample04_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample04_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample04",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "15242975",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "13933682",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "26099659",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "23802060",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample05": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample05_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample05_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 24126,
+            "source_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 26112,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 360960,
+            "pax_headers": {},
+            "size_bytes": 26530656,
+            "source_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "5c57cc1c8eb48ce0208062b92fcd056b39e0f90e8eb6cb712ccd0d76f95dda29",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "96de2de1d7600902db0bb92c70c76a762335108dc9c44168b37d61f04f5f895b",
+          "uncompressed_bytes": 26900480
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 4278,
+        "retained_cells_matched": 4278,
+        "retained_cells_missing": 0,
+        "source_cells": 4703,
+        "source_cells_outside_fixed_retained_metadata": 425
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 18255,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 4703,
+          "features": 36639,
+          "stored_entries_declared": 6835238
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 18384,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "21236",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 120304,
+          "Gene Expression": 6714934
+        },
+        "stored_entries_observed": 6835238,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "13473321",
+          "Gene Expression": "20228805"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 24126,
+          "compressed_sha256": "10be353bd3a91d5d3f3b7e529cb61d6adf6a6958364fcb8cfcfa199695951123",
+          "decoded_bytes": 89357,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample05/members/barcodes.txt",
+          "decoded_sha256": "e525aa11efa85b8b1db589cd784fb3d9d015649cea166c01e8e1c1ad121849ad",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample05_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "6a5c7c67b3c8e1b348e51f783c7316f7ee54d763b0a2096b5c9784b02be4ceb8",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample05/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample05_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 26530656,
+          "compressed_sha256": "988c9ae4d7d5ba8e4c675217c2193ff5def27344550ecaba2a574a5f3fda0b90",
+          "decoded_bytes": 85682856,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample05/members/matrix.txt",
+          "decoded_sha256": "650f7bdd9e726fd2a2bc4ee0bba2ce99812a520764c8b9b7475577ca8fdd1084",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample05_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 26893378,
+        "completed_at_utc": "2026-09-16T02:03:20.451411+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample05_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "5c57cc1c8eb48ce0208062b92fcd056b39e0f90e8eb6cb712ccd0d76f95dda29",
+        "started_at_utc": "2026-09-16T02:00:40.224546+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample05_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample05_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": true,
+      "source_path": "data/raw/psc-bach2-qualification/counts/sample05_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample05",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "13473321",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "11678062",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "20228805",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "17778061",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample06": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample06_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample06_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample06_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 32772,
+            "source_path": "sample06_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample06_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 34816,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample06_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample06_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 369664,
+            "pax_headers": {},
+            "size_bytes": 36301476,
+            "source_path": "sample06_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "e251f2df1148f9ae06c831360295782b681bece649395d2b2bbfe2aaf4b8e826",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "31c718eec6d14f4a116e7e723ce4f3e05b854096bfe747e62e7cc6d7b647b88f",
+          "uncompressed_bytes": 36679680
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 6090,
+        "retained_cells_matched": 6090,
+        "retained_cells_missing": 0,
+        "source_cells": 6519,
+        "source_cells_outside_fixed_retained_metadata": 429
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 17557,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 6519,
+          "features": 36639,
+          "stored_entries_declared": 9324250
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 19082,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "28813",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 190107,
+          "Gene Expression": 9134143
+        },
+        "stored_entries_observed": 9324250,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "14768553",
+          "Gene Expression": "27313338"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 32772,
+          "compressed_sha256": "1842eb5f29166e85cd751aa42e0256ef465af8a84e6d22b84b44899e2d7452f4",
+          "decoded_bytes": 123861,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample06/members/barcodes.txt",
+          "decoded_sha256": "94fdf902a8bb6259941067cb19990ed517b158d4fe3f22b164d3c31c19fa8eb1",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample06_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "4c3b370baec9d9337bd165cdba5f36c04844f9769ce3576e9bd98528271476f6",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample06/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample06_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 36301476,
+          "compressed_sha256": "525e49edea06ddc918fcc434dfc67ea384cf52473afae83e4e45602eec7e180b",
+          "decoded_bytes": 117498981,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample06/members/matrix.txt",
+          "decoded_sha256": "6dc52cb57eebe0ecb93bea33b1ed70eb8ba6b7cc09b6e634047440e2fc03ee85",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample06_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 36674386,
+        "completed_at_utc": "2026-09-16T03:08:20.807097+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample06_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "e251f2df1148f9ae06c831360295782b681bece649395d2b2bbfe2aaf4b8e826",
+        "started_at_utc": "2026-09-16T03:05:10.744471+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample06_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample06_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample06_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample06",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "14768553",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "13313901",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "27313338",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "24592731",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample07": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample07_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample07_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample07_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 26952,
+            "source_path": "sample07_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample07_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 28672,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample07_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample07_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 363520,
+            "pax_headers": {},
+            "size_bytes": 29263334,
+            "source_path": "sample07_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "631ef4435687e966ce3fe743691bd35d601928460c096c1e42ff0701cdf9c9a9",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "6917d681aded080ab2c9b61baf42f59aad6a78a11ffacfbf49f2625f48fd66bb",
+          "uncompressed_bytes": 29634560
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 4933,
+        "retained_cells_matched": 4933,
+        "retained_cells_missing": 0,
+        "source_cells": 5299,
+        "source_cells_outside_fixed_retained_metadata": 366
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 18468,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 5299,
+          "features": 36639,
+          "stored_entries_declared": 7519753
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 18171,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "10092",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 125771,
+          "Gene Expression": 7393982
+        },
+        "stored_entries_observed": 7519753,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "9019588",
+          "Gene Expression": "21373310"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 26952,
+          "compressed_sha256": "4f5963500b321ff4f9dc60413a85bcf8f3eb5e8d8a5fd912429d114bc2a2eed2",
+          "decoded_bytes": 100681,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample07/members/barcodes.txt",
+          "decoded_sha256": "b112f1e81d2ec48a968406d6e9ac3298ae07322dd94d8e84ce4173e59647265e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample07_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "90f8e46abd4dc0057838dd3f1d85602ae29edd132c2cc0ef1560212114bcab41",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample07/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample07_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 29263334,
+          "compressed_sha256": "10055eba4721b7e764ac02658d8a89d4db954cd8d29a68256c9dd70904eaf0c2",
+          "decoded_bytes": 94426189,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample07/members/matrix.txt",
+          "decoded_sha256": "d9e6d1bff13cffd6d4fa4e5398b6411711ef56e862894342ad5b2a3c359c0eef",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample07_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 29629283,
+        "completed_at_utc": "2026-09-16T03:08:16.246660+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample07_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "631ef4435687e966ce3fe743691bd35d601928460c096c1e42ff0701cdf9c9a9",
+        "started_at_utc": "2026-09-16T03:05:40.654495+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample07_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample07_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample07_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample07",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "9019588",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "8257288",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "21373310",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "19554395",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    },
+    "sample08": {
+      "archive_integrity": {
+        "members": [
+          {
+            "canonical_path": "sample08_filtered_feature_bc_matrix",
+            "offset_data": 512,
+            "pax_headers": {},
+            "size_bytes": 0,
+            "source_path": "sample08_filtered_feature_bc_matrix",
+            "type": "directory"
+          },
+          {
+            "canonical_path": "sample08_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "offset_data": 1024,
+            "pax_headers": {},
+            "size_bytes": 49752,
+            "source_path": "sample08_filtered_feature_bc_matrix/barcodes.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample08_filtered_feature_bc_matrix/features.tsv.gz",
+            "offset_data": 51712,
+            "pax_headers": {},
+            "size_bytes": 333835,
+            "source_path": "sample08_filtered_feature_bc_matrix/features.tsv.gz",
+            "type": "regular_file"
+          },
+          {
+            "canonical_path": "sample08_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "offset_data": 386560,
+            "pax_headers": {},
+            "size_bytes": 52590319,
+            "source_path": "sample08_filtered_feature_bc_matrix/matrix.mtx.gz",
+            "type": "regular_file"
+          }
+        ],
+        "outer_gzip": {
+          "archive_sha256": "1808db1c3333642526eedd0b880c98cd4df4adcdd5d62866f17dae6d56666e03",
+          "gzip_CRC_ISIZE_and_EOF_passed": true,
+          "tar_sha256": "4d18e6432da03aecebb7544680d0075b1849374e5b09663559e74a75c842530a",
+          "uncompressed_bytes": 52981760
+        },
+        "source_member_paths_never_used_as_output_paths": true,
+        "tar_headers_paths_types_and_zero_trailer_passed": true
+      },
+      "cell_membership": {
+        "fixed_retained_cells": 9550,
+        "retained_cells_matched": 9550,
+        "retained_cells_missing": 0,
+        "source_cells": 10218,
+        "source_cells_outside_fixed_retained_metadata": 668
+      },
+      "feature_axes_by_type": {
+        "Antibody Capture": {
+          "canonical_ordered_ID_name_type_axis_sha256": "400701469a14f23714fc87e8ce8320e1045c39f20b5f27917a83db36e6f39738",
+          "rows": 38
+        },
+        "Gene Expression": {
+          "canonical_ordered_ID_name_type_axis_sha256": "aef32a0841aec54ce17a661c064501697b2b7885bb53dff8a930eef74230ae2d",
+          "rows": 36601
+        }
+      },
+      "feature_axis": {
+        "column_convention": [
+          "feature ID",
+          "feature name",
+          "feature type"
+        ],
+        "columns": 3,
+        "duplicate_feature_name_rows": 10,
+        "ensembl_human_gene_shaped_IDs": 36601,
+        "ensembl_human_gene_shaped_versioned_IDs": 0,
+        "feature_types_as_published": {
+          "Antibody Capture": 38,
+          "Gene Expression": 36601
+        },
+        "full_deposited_axis_read": true,
+        "independent_gene_identifier_reconciliation": false,
+        "original_pre_gene_filter_universe_proven": false,
+        "rows": 36639,
+        "unique_feature_ids": 36639,
+        "unique_feature_names": 36629
+      },
+      "matrix": {
+        "all_zero_feature_rows": 16489,
+        "comment_lines_as_published": [
+          "%metadata_json: {\"software_version\": \"cellranger-6.1.1\", \"format_version\": 2}"
+        ],
+        "dimensions": {
+          "barcodes": 10218,
+          "features": 36639,
+          "stored_entries_declared": 13490059
+        },
+        "duplicate_coordinates": 0,
+        "exact_numeric_before_float": true,
+        "explicit_zero_entries": 0,
+        "export_metadata_as_published": {
+          "format_version": 2,
+          "software_version": "cellranger-6.1.1"
+        },
+        "features_with_any_positive_entry": 20150,
+        "finite_nonnegative_values": true,
+        "fractional_entries": 0,
+        "header_as_published": "%%MatrixMarket matrix coordinate integer general",
+        "maximum_stored_value_exact": "23615",
+        "minimum_stored_value_exact": "1",
+        "numeric_compatibility_is_not_original_UMI_provenance": true,
+        "stored_entries_by_feature_type": {
+          "Antibody Capture": 252740,
+          "Gene Expression": 13237319
+        },
+        "stored_entries_observed": 13490059,
+        "strict_column_major_order": true,
+        "sum_exact_by_feature_type": {
+          "Antibody Capture": "21161574",
+          "Gene Expression": "36447008"
+        },
+        "zero_total_barcodes_by_feature_type": {
+          "Antibody Capture": 0,
+          "Gene Expression": 0
+        }
+      },
+      "nested_member_integrity": {
+        "barcodes": {
+          "compressed_bytes": 49752,
+          "compressed_sha256": "dda5626237da84c7738e27462c62afa176cf80a7c29ab43e9c5928bc953e0e4b",
+          "decoded_bytes": 194142,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample08/members/barcodes.txt",
+          "decoded_sha256": "a35edb706851b84305e01235cebe1bec3a20c199ffbaecc4c303e9df5e8f97c9",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample08_filtered_feature_bc_matrix/barcodes.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "features": {
+          "compressed_bytes": 333835,
+          "compressed_sha256": "59d8e01bff20a977a66677c289a9486b5b56d84b10be2c116e3ca9390903bbd7",
+          "decoded_bytes": 1480573,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample08/members/features.txt",
+          "decoded_sha256": "fb11f5aa4ca7f366ab3ff0ceb22579a6d9bfd386ce66babc7519c280853b3e1e",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample08_filtered_feature_bc_matrix/features.tsv.gz",
+          "source_payload_matches_tar": true
+        },
+        "matrix": {
+          "compressed_bytes": 52590319,
+          "compressed_sha256": "e9faad59a0a75c1672ebe4e94732d8b32a6c9dca58a297335f83eb7213487597",
+          "decoded_bytes": 171028327,
+          "decoded_path": "work/psc-bach2-cohort-qualification/sample08/members/matrix.txt",
+          "decoded_sha256": "07444dea418db5981b8e7faf360aa1036e359939ca2d2a9d7196a81ce7a69782",
+          "nested_gzip_CRC_ISIZE_and_EOF_passed": true,
+          "source_path": "sample08_filtered_feature_bc_matrix/matrix.mtx.gz",
+          "source_payload_matches_tar": true
+        }
+      },
+      "original_UMI_count_likelihood_gate_certified": false,
+      "released_RNA_source_count_format_supported": true,
+      "source": {
+        "body_bytes": 52982953,
+        "completed_at_utc": "2026-09-16T03:10:38.649845+00:00",
+        "response_url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/013/E-MTAB-14013/Files/sample08_filtered_feature_bc_matrix.tar.gz",
+        "sha256": "1808db1c3333642526eedd0b880c98cd4df4adcdd5d62866f17dae6d56666e03",
+        "started_at_utc": "2026-09-16T03:07:08.617645+00:00",
+        "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/sample08_filtered_feature_bc_matrix.tar.gz"
+      },
+      "source_archive": "sample08_filtered_feature_bc_matrix.tar.gz",
+      "source_body_reused_from_closed_first_archive_phase": false,
+      "source_path": "data/raw/psc-bach2-qualification/cohort/sample08_filtered_feature_bc_matrix.tar.gz",
+      "source_sample": "sample08",
+      "technical_totals_by_feature_type": {
+        "Antibody Capture": {
+          "all_source_cells_total_units_exact": "21161574",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "18975210",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        },
+        "Gene Expression": {
+          "all_source_cells_total_units_exact": "36447008",
+          "all_source_cells_zero_total_columns": 0,
+          "fixed_retained_cells_total_units_exact": "32769083",
+          "fixed_retained_cells_zero_total_columns": 0,
+          "unit_label": "released source count-format units; not an original-UMI or absolute-protein certificate"
+        }
+      }
+    }
+  },
+  "scope": "Complete released filtered-cohort RNA-feature source-count-format and retained-cell qualification; no expression analysis",
+  "source_cells": 59315,
+  "source_cells_outside_fixed_retained_metadata": 3855,
+  "source_genotype_donor_counts_as_published": {
+    "SNP": 4,
+    "noSNP": 4
+  },
+  "source_pins": {
+    "E-MTAB-14013.sdrf.txt": {
+      "bytes": 3989,
+      "path": "data/raw/psc-bach2-qualification/01-E-MTAB-14013.sdrf.txt.body",
+      "retrieved_at_utc": "2026-09-16T01:18:04.075192+00:00",
+      "sha256": "58273fa29690bdcaff0060161519ff6bbbee9e2af0df4bef03ef91a94184b10d",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/E-MTAB-14013.sdrf.txt"
+    },
+    "bach2-e-mtab-14013-metadata": {
+      "bytes": 17193,
+      "path": "data/raw/psc-frontier-review/genetics-scout/09-bach2-e-mtab-14013-metadata.body",
+      "retrieved_at_utc": "2026-09-15T23:45:02.061730+00:00",
+      "sha256": "76bc9181bff079f9e3150b3c6cda84441ab25d40ed8c96d7e668abf9ce4b9294",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/E-MTAB-14013"
+    },
+    "scrna_meta.tsv": {
+      "bytes": 5914294,
+      "path": "data/raw/psc-bach2-qualification/05-scrna_meta.tsv.body",
+      "retrieved_at_utc": "2026-09-16T01:18:21.339743+00:00",
+      "sha256": "0ba598b3edd30dc7f2ba76f0e7779725e60cce50daa01a0e2e04faebcec7c26c",
+      "url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-14013/scrna_meta.tsv"
+    }
+  },
+  "source_quantity_limits": {
+    "Methods_IDF_reference_as_published": "GRCh38 human reference genome (release 93)",
+    "Methods_IDF_software_as_published": "Cellranger 3.0.2",
+    "actual_reference_bundle_or_export_command_recovered": false,
+    "complete_deposited_RNA_axis_is_not_a_reconstructed_prefilter_reference_universe": true,
+    "historical_RNA_SCT_margin_comparison_available": false,
+    "no_additional_search_for_unavailable_history": true,
+    "original_UMI_count_likelihood_gate_certified": false,
+    "repeated_schema_is_not_historical_export_provenance": true,
+    "source_format": "Direct Cell Ranger exporter metadata plus original Gene Expression type and exact sparse source values"
+  },
+  "technical_totals_by_feature_type": {
+    "Antibody Capture": {
+      "all_source_cells_total_units_exact": "110669357",
+      "fixed_retained_cells_total_units_exact": "99655981"
+    },
+    "Gene Expression": {
+      "all_source_cells_total_units_exact": "232942493",
+      "fixed_retained_cells_total_units_exact": "209220999"
+    }
+  },
+  "unique_accession_local_donors": 8,
+  "variant_inference_or_clinical_join": false
+}

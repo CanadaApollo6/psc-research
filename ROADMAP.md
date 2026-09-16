@@ -1,8 +1,8 @@
 # PSC research roadmap
 
-Updated September 16, 2026 after the [paired organoid IL-17A analysis](reports/psc-organoid-il17.md).
+Updated September16,2026 after the verified [MacroMap context analysis](reports/macromap-program-context.md) and completed [BACH2 filtered-cohort qualification](reports/psc-bach2-cohort-qualification.md).
 
-**Next compute priority: fixed-program MacroMap stimulus context, followed by the qualified pediatric liver disease-control panel.** These branches are unconditional on the organoid result. The goal is discriminating evidence, not another classifier/model sweep or changed thresholds until a desired result appears.
+**Next compute priority: independently reviewed and separately frozen pediatric liver program context.** MacroMap is complete: primary held-out log-loss gain 0.130921 (7.88% relative reduction; fixed-OOF conditional 95% interval0.124191–0.136547). This is a fixed-ridge comparison, not proof of unique ETS2 information or PSC specificity. The intended external epithelial IL17 signature is held; a narrower ETS2/comparator+ECM panel is a different question. The goal is discriminating evidence, not another classifier sweep or changed thresholds until a desired result appears.
 
 The organoid analysis found eight NB-BH interaction candidates, six BY candidates and zero full-family Welch sensitivity discoveries. All eight directions survive paired-change donor omissions, not NB refits. Only eight donors were studied. These are model-dependent ex-vivo associations, not established PSC mechanisms. The [397-check numerical verification](reports/psc-organoid-independent-verification.json) and [byte-identical replay](reports/psc-organoid-replay-verification.json) do not establish biological replication or small-n calibration.
 
@@ -12,11 +12,11 @@ The [blood result](reports/psc-blood-replication.md) remains unchanged: 93 BH co
 
 | Priority | Question or branch | Next substantive action | Limits and prerequisites |
 |---|---|---|---|
-| **1** | ETS2 program stimulus context | Execute the [frozen MacroMap protocol](docs/macromap-program-context-protocol.md), then independently verify and replay the fixed endpoint and full response panel. | Healthy-derived macrophages, not PSC diagnosis or a direct test of ETS2 dependence. No real scores yet. |
-| **2** | Pediatric liver disease-control programs | Reconcile GSE303271 gene identities for externally fixed programs, then freeze PSC–AIH and distinct ASC sensitivities. | 17 PSC / 17 ASC / 30 AIH; whole biopsy, no healthy controls or exact sample-linked clinical/stage adjustment. |
+| **Completed** | ETS2 program stimulus context | Preserve the [result](reports/macromap-program-context.md), complete response panel, sensitivities, independent checks and replay. | Conditional uncertainty; fixed-ridge correlated-feature caveat;40 false independent solver flags with 160 numerical passes. Not PSC or causal validation. |
+| **1; pre-effect review** | Pediatric liver disease-control programs | Freeze ten source-fixed ETS2/comparator+ECM endpoints, PSC–AIH primary and two ASC comparisons; one30-hypothesis Core family, Strict identity sensitivity only. |17 PSC /17 ASC /30 AIH; whole biopsy, no healthy controls or qualified sample-linked clinical/stage adjustment. External epithelial IL17-response transfer remains HOLD. |
 | **Hold** | Adult liver disease controls | Require corrected source expression or separately authorized raw-array reconstruction before modeling GSE159676. | Six PSC patients with two biopsies each, not 12 independent patients. Mixed-scale values and control/PBC/sarcoidosis label conflicts remain. |
 | **Park** | NoPSC nuclear/spatial atlas | Reopen only for a qualified original-count/full-feature/barcode/donor export. | Modalities and possibly earlier biobank cohorts overlap; browser labels alone are not a usable count matrix. |
-| **Bounded qualification** | BACH2/miR4464 genotype-associated CD4 state | Establish exact E-MTAB-14013 donor/genotype/count/annotation joins before any analysis. | Eight source PSC donors; not isogenic causality, independent replication or RNA-level proof of a translation mechanism. |
+| **Payload qualification complete** | BACH2/miR4464 source genotype-associated state | Decide whether one bounded donor-level released-RNA question adds useful evidence, then separately freeze it if justified. No effects yet. | Eight male PSC source donors, four/four labels; CD3 source, clinical imbalance and missing clinical key. No named BACH2 ADT target, original-UMI certificate or deposited four later naïve-activation subclusters. |
 | External-data priority | PRKD2 shared genetic signal | Use qualified actual model/covariance or complete-component inputs when available. | Expression associations and metadata do not supply the [remaining inputs](data/derived/ibdverse-model-audit/remaining-required-inputs.csv). |
 | Molecular/laboratory question | UBASH3A complete product | Retain the specific missing RNA/protein observations. | Coverage-limited absence and structure predictions cannot establish a complete product or its absence. |
 
@@ -28,9 +28,9 @@ The merged integer export proved SCT-consistent and was not used as raw RNA. All
 
 Culture treatment does not randomize disease, age, procurement, history or culture selection. The eight candidates are not an authorized organoid-derived transfer program. A new transfer question would need an explicit discovery/transfer plan and a dataset capable of testing the corresponding quantity. The externally fixed liver panel proceeds regardless of this result.
 
-## Next milestone: fixed ETS2 context calibration
+## Completed fixed ETS2 context comparison
 
-[MacroMap source qualification](reports/research-path-review.md) is complete. The frozen methods retain complete original-source program memberships, 18 strict non-PIC paired contrasts and a fixed nine-class whole-run held-out comparison. The original ETS2 ZIP is absent; the accepted complete pinned membership-export route is distinct from an atlas-mapped subset. Prediction uses 185 both-time lines (114 SmartSeq2 / 71 NEB), training-only matching/scaling and no model tuning. Conditional fixed-prediction run bootstrap does not estimate full refit uncertainty. Source preparation and synthetic review are not effects.
+[MacroMap source qualification](reports/research-path-review.md) is complete. The frozen methods retain complete original-source program memberships, 18 strict non-PIC paired contrasts and a fixed nine-class whole-run held-out comparison. The original ETS2 ZIP is absent; the accepted complete pinned membership-export route is distinct from an atlas-mapped subset. Prediction uses 185 both-time lines (114 SmartSeq2 / 71 NEB), training-only matching/scaling and no model tuning. The primary gain is0.130921; the nonoverlap gain 0.147878 and 189-line identity sensitivity gain 0.131721 remain prespecified sensitivities. All primary protocol/time gains are positive. Conditional fixed-prediction run bootstrap does not estimate full refit uncertainty. Complete response panels preserve negative directions and unavailable PIC, with no pooled response CIs. Positive background-adjusted change does not necessarily mean target-gene induction. The [post-fit diagnostic](reports/macromap-independent-optimizer-diagnostics.json) retains 40 false independent optimizer flags despite160unchanged numerical passes. All 266 non-start numerical artifacts replay exactly.
 
 The [GSE255234 qualification](reports/ets2-study-qualification.md) resolves H5 as 5 μM heme for 6 h, alongside H10 and LPS, with four paired donors. Its historical full-universe CPM gate remains unpassed. Do not download 73.7 GB of FASTQs merely to bypass that gate. A new released-universe estimand would require its own plan, not a retrospective pass. GSE84161 anonymous donor pairing and actual array-dose provenance also remain separate unresolved inputs.
 
@@ -85,7 +85,7 @@ PFKFB3/BCL2L11 remain parked after the [coverage follow-up](reports/variant-cove
 ## Execution order and decision rules
 
 1. Keep the completed blood result, its negative comparisons and all earlier frozen science unchanged. The result constrains a research decision; it is not a clinical recommendation.
-2. Run the organoid interaction only after its own source and method freeze. A weak result is valid; do not change populations, programs or thresholds to manufacture significance.
-3. Keep MacroMap as an informative reserve rather than repeating generic model scans or four-donor provenance audits indefinitely.
+2. Preserve the completed organoid freeze and both its NB candidates and null corrected Welch sensitivity. Do not change populations, programs or thresholds to manufacture significance.
+3. Keep the completed MacroMap comparison within its fixed-model context limits. Do not turn its gain into a generic model sweep or repeat unchanged provenance audits indefinitely.
 4. Use public data and local compute first. Researcher contact, service enrollment, private-data access and laboratory arrangements require separate authorization.
 5. Preserve sample/donor dependence, source values and all unavailable or contradictory results. Retain source URLs, retrieval dates, build/annotation details and transformations. Validate numerics and replay, but do not equate check volume with biological independence.

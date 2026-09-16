@@ -1,0 +1,138 @@
+{
+  "actual_public_and_replay_files_hashed": 34,
+  "all_160_independent_numeric_passes_retained": true,
+  "comparisons": [
+    {
+      "byte_identical": true,
+      "bytes": 249,
+      "path": "data/derived/macromap-program-context/cohort-design.csv.gz",
+      "sha256": "a13f95e153bc3afb32be3d2916ef0a077e91cccfa94d110ee3aac06fd2ab95d2"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 4702,
+      "path": "data/derived/macromap-program-context/independent-optimizer-qc.csv.gz",
+      "sha256": "94d0208ece6e2d1477541a08611327f32395d94318647a0e028e075e67b74579"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 699,
+      "path": "data/derived/macromap-program-context/leave-run-summary.csv.gz",
+      "sha256": "82e51ba4bf49a299dc283df430a786f5aba9f910a1f6b0a1fe500822e9d54aba"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 453,
+      "path": "data/derived/macromap-program-context/mapping.csv.gz",
+      "sha256": "09b32f961c3ce87c91e888ca7f524da921df6d28c917c86c171709bcd5c40241"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 2509,
+      "path": "data/derived/macromap-program-context/matching-status.csv.gz",
+      "sha256": "50673ce530d576c48d1d7ec1726a5cc7b45799b79269e4f72d5b24769a4234f7"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 3453,
+      "path": "data/derived/macromap-program-context/model-fits.csv.gz",
+      "sha256": "5071ceb09cb3d7fede5875bb8381e7dd0ee9e072e2fd2d0da8e2d04daeffe7d4"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 2085,
+      "path": "data/derived/macromap-program-context/model-folds.csv.gz",
+      "sha256": "c47c5ffc918f106f857fb15b0363ef76c5bd35557b695bfef53bf2194e53d4ab"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 677,
+      "path": "data/derived/macromap-program-context/paired-design.csv.gz",
+      "sha256": "1cb042efcfb96ce0bcb6a25d1fd928c18a37d1e2450fd3a18aa4a785bca6b089"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 1362,
+      "path": "data/derived/macromap-program-context/predictions.csv.gz",
+      "sha256": "3cf94850d9ca9063b7b3342a494fda4b26f7de8835c913230de4e46c53393dbf"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 29688,
+      "path": "data/derived/macromap-program-context/reporting-manifest.json",
+      "sha256": "04e6edbb48c00084d1d63f363c780d6d19605327e2692931268b047fe583f4f4"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 342359,
+      "path": "data/derived/macromap-program-context/responses.csv.gz",
+      "sha256": "752f24570a5a853625c3d0925543e66f41157b257153d20df76c3d98435a21dd"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 801,
+      "path": "data/derived/macromap-program-context/scale-status.csv.gz",
+      "sha256": "1d9a7ac56eaa04a81ee77085b2eb49de49dc9ca68636635c221aeea5a3e72aea"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 2799,
+      "path": "data/derived/macromap-program-context/verification-summary.json",
+      "sha256": "f074901019d620f2fe0600016a3e98b2cf4311dab8397d8f4c1e052fd735179f"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 141615,
+      "path": "reports/figures/macromap-program-context-prediction.png",
+      "sha256": "2509ca0d1f9787565acfaea52b511f86724a8773366923f491ae823261e635a0"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 27998,
+      "path": "reports/figures/macromap-program-context-prediction.svg",
+      "sha256": "422ebfa1e02cbba647e10dcb5ba67fde538596e20e5706a327b2ed2628f2ef28"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 245701,
+      "path": "reports/figures/macromap-program-context-responses.png",
+      "sha256": "655f603cd214accbd3a9300b604dea3fa0d1296ddebe2de51f85e9ed609521ff"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 64596,
+      "path": "reports/figures/macromap-program-context-responses.svg",
+      "sha256": "b89aacd3d2e05181a0a7fd07a787e8b17349079c93f4fb4126ad14075c564160"
+    }
+  ],
+  "data_files": 13,
+  "figures": 4,
+  "pooled_response_interval_cells_all_empty": true,
+  "post_fit_reporting_only": true,
+  "private_replay_root": "work/macromap-reporting/presentation-replay-v1",
+  "public_constant_feature_models": 0,
+  "public_independent_optimizer_true_false": {
+    "false": 40,
+    "true": 120
+  },
+  "reporter_sha256": "4767c70a63c932d1d8d7c393ed01047d3a831ce369cae055b2a47e92f44c2033",
+  "root_visual_inspection": "Both PNG figures directly inspected; labels/conditional interval caveats/cohort distinctions/PIC unavailable cells readable; no clipping or numeric changes required.",
+  "row_counts": {
+    "cohort-design": 4,
+    "independent-optimizer-qc": 160,
+    "leave-run-summary": 12,
+    "mapping": 9,
+    "matching-status": 360,
+    "model-fits": 160,
+    "model-folds": 80,
+    "paired-design": 80,
+    "predictions": 20,
+    "responses": 3024,
+    "scale-status": 80
+  },
+  "schema_version": 1,
+  "scientific_analysis_rerun": false,
+  "source_completion_sha256": "e85445627230c7bdae025df48c80e01c34952da0c476237bfe099f351cee1408",
+  "source_plan_sha256": "7a26c93bde72a7f4ffeb4256da6f06d50e2df1b3a8f69b6da73a9f19bd6127df",
+  "status": "all_17_reporting_artifacts_byte_identical"
+}

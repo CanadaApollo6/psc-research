@@ -1,0 +1,251 @@
+{
+  "aggregate_reporting": {
+    "actual_reporting_files_hashed": 34,
+    "byte_identical_data_files": 13,
+    "byte_identical_figures": 4,
+    "individual_outputs_published": false,
+    "manifest": "data/derived/macromap-program-context/reporting-manifest.json",
+    "manifest_sha256": "04e6edbb48c00084d1d63f363c780d6d19605327e2692931268b047fe583f4f4",
+    "owned_implementation_pins": {
+      "reports/macromap-reporting-design.md": "eae13ad79a14c8acc268170ad0c79a0e1c916c0504cecd9d0187d636db4b5ad7",
+      "scripts/report_macromap_program_context.py": "4767c70a63c932d1d8d7c393ed01047d3a831ce369cae055b2a47e92f44c2033",
+      "tests/test_report_macromap_program_context.py": "8f5af04780ec10555cbf3aa4106a81e42d6fd8e99ad833b9df95aa6742cdf383"
+    },
+    "pngs_visually_inspected": true,
+    "pooled_response_CIs": false,
+    "presentation_replay_receipt": "reports/macromap-presentation-replay-verification.json",
+    "runtime": {
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.3",
+      "pillow": "12.3.0",
+      "python": "3.12.14",
+      "zlib": "1.3.2"
+    },
+    "static_review_scope": "hash-specific bounded source-projection/privacy review, including approved optimizer extension; not a universal malformed-schema/hostile-filesystem guarantee",
+    "tables": {
+      "cohort-design": 4,
+      "independent-optimizer-qc": 160,
+      "leave-run-summary": 12,
+      "mapping": 9,
+      "matching-status": 360,
+      "model-fits": 160,
+      "model-folds": 80,
+      "paired-design": 80,
+      "predictions": 20,
+      "responses": 3024,
+      "scale-status": 80
+    }
+  },
+  "analysis_id": "macromap-fixed-program-context-v1",
+  "closed_source_milestones": {
+    "BACH2": {
+      "ADT_features": 38,
+      "RNA_features": 36601,
+      "closed_eight_prior_files_unchanged": true,
+      "completed_source_receipt": "data/raw/psc-bach2-qualification/cohort/completion-receipt.json",
+      "explicit_BACH2_ADT_targets": 0,
+      "expression_analysis_authorized": false,
+      "fixed_retained_cells_matched": 55460,
+      "missing_retained_cells": 0,
+      "new_archive_bytes": 298421791,
+      "new_metadata_body_bytes": 0,
+      "original_UMI_or_likelihood_certificate": false,
+      "versioned_artifacts": {
+        "data/derived/psc-bach2-cohort-qualification.json": {
+          "bytes": 90891,
+          "sha256": "8c68ecfa528517758c8add2f33960bd94d48f7bd401e17ac638eda4881a6b7c1"
+        },
+        "reports/psc-bach2-cohort-qualification.md": {
+          "bytes": 15370,
+          "sha256": "8a05f24ebd6eb3a529ee680d4d71213c8d9bc006049c7f71a96fbe3a7692551e"
+        },
+        "scripts/qualify_psc_bach2_cohort.py": {
+          "bytes": 29621,
+          "sha256": "d6e3262695b2f34390a8131bf6c2b6350a53dd55ee96e079201371be3b90980e"
+        },
+        "tests/test_psc_bach2_cohort.py": {
+          "bytes": 19038,
+          "sha256": "d01c80562cf80b18c6007bd359d5f20147a256417c0c93965e48d600bb6c1f88"
+        }
+      }
+    },
+    "ECM": {
+      "IL17_epithelial_response": "HOLD; no substitution",
+      "completed_source_receipt": "work/psc-liver-external-programs/completion-receipt.json",
+      "conservative_budget_charge_bytes": 1150648,
+      "exact_initial_wire_counts_available": false,
+      "new_retained_body_bytes": 330514,
+      "official_symbols": 321,
+      "original_source_Ensembl_IDs": 340,
+      "source_only_root_replay_passed": true,
+      "versioned_artifacts": [
+        {
+          "bytes": 11445,
+          "path": "reports/psc-liver-external-program-qualification.md",
+          "sha256": "d4ff27868a978f6f6aa2e5764cb178bf81ae4a7172af946970851b2024dc0ba3"
+        },
+        {
+          "bytes": 18358,
+          "path": "config/psc-liver-external-program-sources.json",
+          "sha256": "2428cf428187581d992dc2b507305b259465db6259aec19b8b658614c0773305"
+        },
+        {
+          "bytes": 125834,
+          "path": "data/derived/psc-liver-external-program-membership.csv",
+          "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202"
+        },
+        {
+          "bytes": 13514,
+          "path": "scripts/qualify_psc_liver_external_programs.py",
+          "sha256": "6557e4a039a348aae95b9f8911d89e0f8cf2d47c29ec51a3c3342f6a03b9ae4d"
+        },
+        {
+          "bytes": 9910,
+          "path": "tests/test_qualify_psc_liver_external_programs.py",
+          "sha256": "d4291393c30b9ae88805558b9a1981e86ff731d118482024c94f032799046bb4"
+        }
+      ]
+    }
+  },
+  "independent_numerical_verification": {
+    "all_other_folds": "identity,pairedX,scaler,fit,loss checks; not complete source-to-score replay",
+    "endpoint_scope_variants": 4,
+    "fit_cells": 80,
+    "matching_scope": "fold0 only; fixed source-pair subset, all9programs",
+    "models": 160,
+    "normalization_max_absolute_error": 1.7763568394002505e-15,
+    "raw_normalization_genes": 58243,
+    "raw_normalization_samples": 8,
+    "receipt": "reports/macromap-independent-verification.json",
+    "response_CI_numerical_replay_scope": "CIL6h only,54protocol/program/quantity cells per scope",
+    "response_points_statuses_per_scope": 1512,
+    "sha256": "3cfaf66e53481883f04916935e7c1945fe664caf32b5cf29f962fb192d665e96",
+    "source_score_contexts": 8,
+    "status": "independently_verified_with_declared_source_subset"
+  },
+  "interpretation_boundaries": [
+    "Positive fixed-ridge predictive gain does not establish unique conditional ETS2 information, activity, dependence, PSC specificity or clinical benefit.",
+    "Fixed-OOF intervals condition on learned scoring/models; no full-procedure retraining uncertainty.",
+    "Responses use a different available-pair population from both-time prediction; positive background-adjusted scores need not mean target-gene induction.",
+    "Correlated added features can change effective ridge regularization; that explanation was not measured or established.",
+    "Liver is still pre-effect and requires final independent acceptance/root freeze; held epithelial IL17 transfer is not answered by ECM.",
+    "BACH2 cohort interface qualifies, but no expression/translation/causal analysis is authorized."
+  ],
+  "numerical_replay": {
+    "actual_listed_files_hashed": 534,
+    "all_endpoints_identical": true,
+    "biological_replication": false,
+    "byte_identical_corresponding_non_start_artifacts": 266,
+    "expected_differences_only": "mechanical replay plan hash, execution timestamps and start-receipt manifest hash",
+    "receipt": "reports/macromap-replay-verification.json"
+  },
+  "optimizer_transparency": {
+    "receipt": "reports/macromap-independent-optimizer-diagnostics.json",
+    "root_actual_npz_pins_checked": 80,
+    "scope": "same frozen independent-helper reruns, not saved original SciPy result objects; no returned reason/status code; no primary refit or criterion change",
+    "sha256": "586168f8e9c8cf6e246aba7e235445297e22cf0d57f7536d2207bfa9028b1232",
+    "summary": {
+      "all_saved_constant_flags_verified": true,
+      "constant_training_feature_name_counts": {},
+      "fit_cells": 80,
+      "frozen_numeric_criteria_pass": 160,
+      "max_coefficient_absolute_error": 1.4228528661952566e-06,
+      "max_gradient_inf": 4.066594978638404e-09,
+      "models": 160,
+      "models_with_constant_training_features": 0,
+      "optimizer_success_false": 40,
+      "optimizer_success_true": 120
+    },
+    "wrapper_sha256": "79335a37283af9ad31fb87e4be00c06c1a16b14082e23036bb851a9d2b41d96c"
+  },
+  "preservation_and_privacy": {
+    "MacroMap_individual_sample_line_identifier_hits": 0,
+    "aggregate_only_schema_projection_inspected": true,
+    "credential_pattern_hits": 0,
+    "generated_SVG_whitespace_only_exclusion": "Generated SVG files retain original/replay bytes; only these files are excluded from whitespace lint.",
+    "initial_changed_paths_only": [
+      ".gitignore",
+      "README.md",
+      "ROADMAP.md",
+      "docs/evidence-log.md"
+    ],
+    "initial_scientific_files_byte_unchanged": 1306,
+    "local_document_links_checked": 295,
+    "missing_local_document_links": 0,
+    "personal_motivation_pattern_hits": 0
+  },
+  "primary": {
+    "baseline_loss": 1.66070311695383,
+    "completed_at_utc": "2026-09-16T02:33:52.980092+00:00",
+    "conditional_95_percent_interval": [
+      0.1241913240101583,
+      0.13654722180194798
+    ],
+    "execution_complete_sha256": "e85445627230c7bdae025df48c80e01c34952da0c476237bfe099f351cee1408",
+    "extended_loss": 1.5297820567251543,
+    "gain": 0.13092106022867567,
+    "prediction_lines": 185,
+    "protocol_lines": {
+      "Mod_SmartSeq2": 114,
+      "NEB": 71
+    },
+    "relative_loss_reduction_percent": 7.883471698952406,
+    "response_line_ranges_by_protocol": {
+      "Mod_SmartSeq2": [
+        98,
+        117
+      ],
+      "NEB": [
+        64,
+        77
+      ]
+    },
+    "response_population": "all available strict same-time pairs, not restricted to both-time predictive lines",
+    "started_at_utc": "2026-09-16T02:29:55.644763+00:00"
+  },
+  "recorded_at_utc": "2026-09-16T04:39:08.481703+00:00",
+  "schema_version": 1,
+  "scientific_freeze": {
+    "all_ten_code_protocol_design_pins_unchanged": {
+      "docs/macromap-program-context-protocol.md": true,
+      "reports/macromap-independent-review.md": true,
+      "reports/macromap-program-design.md": true,
+      "requirements-psc-blood.lock": true,
+      "scripts/analyze_macromap_program_context.py": true,
+      "scripts/run_macromap_program_context.py": true,
+      "scripts/verify_macromap_program_context.py": true,
+      "tests/test_macromap_program_context.py": true,
+      "tests/test_run_macromap_program_context.py": true,
+      "tests/test_verify_macromap_program_context.py": true
+    },
+    "frozen_at_utc": "2026-09-16T02:22:59.550114+00:00",
+    "path": "config/macromap-program-context-execution-freeze.json",
+    "pre_effect_commit": "88c7464",
+    "sha256": "7a26c93bde72a7f4ffeb4256da6f06d50e2df1b3a8f69b6da73a9f19bd6127df"
+  },
+  "status": "completed_verified_and_replayed_ready_for_publication_checkpoint",
+  "tests": {
+    "optimizer_capture": 13,
+    "pre_effect_macro_targeted": 71,
+    "reporter": 25,
+    "root_full_repository_snapshot": {
+      "errors": 7,
+      "exact_same_historical_error_headers": [
+        "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+        "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+        "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+        "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+        "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+        "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+        "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+      ],
+      "failures": 0,
+      "log": "work/macromap-reporting/root-full-repo-tests.log",
+      "log_sha256": "f35bf5dd5acd36dddd1ac752ecd01bd87f3a48bdf2ed99dc0b94ffb85a8c4971",
+      "reported_tests": 890,
+      "scope_note": "Snapshot includes other prospective branches. A passing unit test is not authorization for their real analyses."
+    },
+    "source_BACH2_all_phases": 92,
+    "source_ECM": 27
+  }
+}

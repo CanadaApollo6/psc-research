@@ -6,7 +6,13 @@ Original project code and documentation are licensed under the [MIT License](LIC
 
 ## Current result and next decision — September 16, 2026
 
-**Completed: donor-level PSC organoid IL-17A reanalysis.** Eight genes pass the fixed NB interaction BH correction; six also pass BY. None passes the full-family donor-change Welch sensitivity. Directions persist in all donor-omission summaries, but these are **model-dependent candidate interactions**, not confirmed mechanisms or treatments. The study has only four PSC and four procedure-control donors.
+**New completed analysis: MacroMap stimulus context.** Adding the fixed ETS2 gRNA1-down score lowers held-out nine-class log loss from **1.660703 to 1.529782**: gain **0.130921**, a **7.88% relative loss reduction**, with fixed-OOF conditional 95% interval **0.124191–0.136547**. This supports one fixed model comparison in healthy-derived macrophages. It does not establish unique ETS2 information, PSC specificity or causality. The stronger nonoverlap sensitivity does not replace the primary result.
+
+- [Complete result](reports/macromap-program-context.md), [prediction figure](reports/figures/macromap-program-context-prediction.png), [full response figure](reports/figures/macromap-program-context-responses.png), [reproduction guide](docs/macromap-program-context-reproduction.md) and [independent interpretation review](reports/macromap-results-review.md)
+- [Independent numerical verification](reports/macromap-independent-verification.json) and [266-artifact identical numerical replay](reports/macromap-replay-verification.json)
+- [Post-fit optimizer transparency](reports/macromap-independent-optimizer-diagnostics.json):40/160 independent rerun success flags are false, while all 160 unchanged numerical criteria pass. False flags are not dropped or relabeled successful.
+
+**Completed PSC disease analysis: donor-level organoid IL-17A reanalysis.** Eight genes pass the fixed NB interaction BH correction; six also pass BY. None passes the full-family donor-change Welch sensitivity. Directions persist in all donor-omission summaries, but these are **model-dependent candidate interactions**, not confirmed mechanisms or treatments. The study has only four PSC and four procedure-control donors.
 
 - [Organoid findings and limits](reports/psc-organoid-il17.md), [figure](reports/figures/psc-organoid-il17.png), and [complete gene results](data/derived/psc-organoid-il17/organoid-primary.csv.gz)
 - [Frozen protocol](docs/psc-organoid-il17-protocol.md), [source qualification](reports/psc-organoid-input-qualification.md), and [reproduction guide](docs/psc-organoid-reproduction.md)
@@ -14,14 +20,14 @@ Original project code and documentation are licensed under the [MIT License](LIC
 
 **Previous blood result is unchanged:** 93 of 11,074 shared genes meet the fixed cross-cohort BH conjunction, none meets BY or stronger disease-control support, and none of seven fixed benchmarks passes. This is not an established PSC-specific signature. See the [blood report](reports/psc-blood-replication.md) and [reproduction guide](docs/psc-blood-reproduction.md).
 
-**Next: separately frozen MacroMap stimulus-context analysis, then an externally fixed pediatric liver disease-control panel.** These questions were queued regardless of the organoid outcome. Source/method preparation is not an executed result.
+**Next: independently review and freeze a narrower pediatric liver disease-control panel.** The original ETS2/comparator question was queued regardless of organoid outcome. The external epithelial IL17-response signature could not be qualified and remains held. The separate ten-program ETS2/comparator+ECM panel is not a substitute answer to that blocked transfer question. No liver expression analysis has run.
 
 | Branch | Current decision |
 |---|---|
-| **PSC disease data** | Blood and organoid analyses complete. GSE303271 counts qualify with limits; gene/program identity preparation is active. Keep 17 PSC, 17 ASC and 30 AIH separate. |
-| **ETS2 context** | The [MacroMap protocol](docs/macromap-program-context-protocol.md) is frozen and its executable runner validated; real analysis is next. Healthy-derived context is not PSC validation or proof of ETS2 dependence. |
+| **PSC disease data** | Blood and organoid analyses complete. [Liver identifiers](reports/psc-liver-program-inputs.md) and [external ECM source](reports/psc-liver-external-program-qualification.md) qualify; method review remains pre-effect. Keep 17 PSC,17 ASC and 30 AIH separate. Epithelial IL17 transfer is held. |
+| **ETS2 context** | [MacroMap](reports/macromap-program-context.md) is computed, independently checked and replayed. Its fixed-ridge gain does not establish unique conditional information, ETS2 dependence or PSC validation. |
 | **Adult liver / new atlas** | GSE159676 is held: six PSC patients sampled twice, mixed-scale values and label conflicts. NoPSC atlas is parked pending a qualified full-count/donor export. See [liver qualification](reports/psc-liver-input-qualification.md). |
-| **BACH2 genotype** | Bounded donor/genotype/count-interface qualification is active; no expression effects or translation validation yet. |
+| **BACH2 genotype** | [All eight filtered archives qualify](reports/psc-bach2-cohort-qualification.md): identical 36,601-row RNA axes and all 55,460 fixed retained cells join. No BACH2 antibody target is deposited among 38 named ADT features. No expression effects, count-likelihood certificate or translation validation. A finite follow-up is under prospective review. |
 | **Model / external evidence** | [Current capability audit](reports/model-capabilities-and-psc-use.md) distinguishes public AFDB retrieval from new inference access. PRKD2 covariance/model and UBASH3A complete-product gaps remain. |
 
 The [active agenda](docs/psc-analysis-agenda.md), [roadmap](ROADMAP.md) and [bounded frontier review](reports/psc-analysis-frontier-review.md) define the next work and stopping rules. GSE255234's historical full-universe CPM gate is not silently relaxed. Earlier scientific results remain below. No researcher contact, service enrollment, paid compute or clinical recommendation occurred.
