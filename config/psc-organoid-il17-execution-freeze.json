@@ -1,0 +1,305 @@
+{
+  "analysis": "GSE239283_primary_donor_paired_NB_log2_response_interaction",
+  "execution_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "frozen_at_utc": "2026-09-16T00:41:14.393412+00:00",
+  "organoid": {
+    "cell_selection": {
+      "bytes": 888116,
+      "path": "work/psc-organoid-inputs/raw-rna-cell-source-joins.tsv.gz",
+      "sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6"
+    },
+    "code_artifacts": [
+      {
+        "path": "scripts/analyze_psc_organoid_il17.py",
+        "sha256": "4da3c90c9d785aa52e8e91efd34755d0c6e137eee3bef55e7c48f9a3e89c5d3f"
+      },
+      {
+        "path": "tests/test_psc_organoid_il17.py",
+        "sha256": "f2aac630c01df804176043a208133330fa53ad115ccd0529e65b54a1cb117c57"
+      },
+      {
+        "path": "scripts/qualify_psc_organoid_inputs.py",
+        "sha256": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e"
+      },
+      {
+        "path": "tests/test_psc_organoid_inputs.py",
+        "sha256": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+      },
+      {
+        "path": "reports/psc-organoid-method-design.md",
+        "sha256": "7d7c3ce797bcc3bcd28ecc64c17492b057ae18415de147dcb00b22efbd8af752"
+      },
+      {
+        "path": "reports/psc-organoid-input-qualification.md",
+        "sha256": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5"
+      },
+      {
+        "path": "docs/psc-organoid-il17-protocol.md",
+        "sha256": "08810339c47c022d41421ff7f0c8fd700dfde0272d9b7d2bded16cd0172819da"
+      },
+      {
+        "path": "requirements-psc-blood.lock",
+        "sha256": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0"
+      },
+      {
+        "path": "scripts/verify_psc_organoid_il17.py",
+        "sha256": "aa64f26a1b10e3fafd9584bfd32f2b3589e635aaba744bfc767067bab3563854"
+      },
+      {
+        "path": "tests/test_verify_psc_organoid_il17.py",
+        "sha256": "168beed21fd5425a2bdec46e6eabfad62c9abefb725aec198b0b0e061af4ff32"
+      },
+      {
+        "path": "reports/psc-organoid-independent-review.md",
+        "sha256": "14a4597653d66c5f0c7be6547496711a928329ae425792f29c7ea142bd38d8ae"
+      }
+    ],
+    "count_quantity": "raw_RNA_counts",
+    "count_quantity_qualification": {
+      "path": "data/derived/psc-organoid-input-qualification.json",
+      "sha256": "1658188a59a83adcfb059161dbd0daed78fc8938d8335dce8a7fcb0bc9198e99"
+    },
+    "counts": {
+      "bytes": 770152,
+      "path": "work/psc-organoid-inputs/raw-rna-pseudobulk.tsv.gz",
+      "separator": "\t",
+      "sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+    },
+    "donor_disease": {
+      "PSC_4": "PSC",
+      "PSC_6": "PSC",
+      "PSC_8": "PSC",
+      "PSC_9": "PSC",
+      "nonPSC_2": "nonPSC",
+      "nonPSC_3": "nonPSC",
+      "nonPSC_4": "nonPSC",
+      "nonPSC_5": "nonPSC"
+    },
+    "expected_cell_count": 46343,
+    "expected_feature_count": 36601,
+    "expected_library_count": 16,
+    "feature_namespace": "unversioned_Ensembl_gene_ID_as_original_GEO_processed_export",
+    "feature_universe_description": "All 36601 identical unique Ensembl feature rows of the sixteen original Cell Ranger processed RNA exports, summed only across the exact 46343 published retained cells. Complete released raw universe, not reconstructed historical filtered RNA or merged SCT.",
+    "features": {
+      "bytes": 1479227,
+      "path": "work/psc-organoid-inputs/raw-rna-features.tsv",
+      "separator": "\t",
+      "sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+    },
+    "filter": {
+      "min_count": 10,
+      "min_libraries": 4
+    },
+    "libraries": {
+      "bytes": 2565,
+      "path": "work/psc-organoid-inputs/raw-rna-libraries.tsv",
+      "separator": "\t",
+      "sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+    },
+    "model": {
+      "alpha": 0.05,
+      "cooks_filter": false,
+      "count_boundary_rule": "group_response_needs_both_arms_positive_interaction_needs_all4_arms_positive",
+      "dependence_sensitivity": "BY_same_family",
+      "design": "Intercept+donor+treatment_IL17+disease_PSC:treatment_IL17",
+      "dispersion_fallback": "builtin_mean_if_parametric_fails",
+      "fit_type": "parametric",
+      "independent_filter": false,
+      "lfc_shrinkage": false,
+      "multiplicity": "BH_all_fixed_eligible_features_NA_as_1_correction_only",
+      "primary_contrast": "PSC_response_minus_nonPSC_response",
+      "refit_cooks": false,
+      "size_factors_fit_type": "ratio",
+      "zero_total_donor_pairs": "flag_only_no_new_feature_filter"
+    },
+    "n_cpus": 4,
+    "population": "all_published_retained_organoid_cells",
+    "raw_count_gate_passed": true,
+    "raw_universe_decision": {
+      "accepted_before_gene_effects": true,
+      "checks": {
+        "all_original_numeric_checks_passed": true,
+        "all_original_processed_members_verified": true,
+        "all_released_cells_joined_once": true,
+        "complete_original_unique_Ensembl_axis": true,
+        "different_chunk_replay_passed": true,
+        "eight_complete_source_donor_pairs": true,
+        "independent_full_pseudobulk_verification_passed": true,
+        "merged_SCT_is_not_the_raw_count_input": true
+      },
+      "counts_above_historical_RNA_metadata": 70263,
+      "decision": "eligible_original_full_count_universe",
+      "effects_authorized_by_this_qualification": false,
+      "historical_RNA_margin_match_required_for_this_new_scope": false,
+      "historical_discrepancy_cause_established": false,
+      "historical_feature_filter_guessed": false,
+      "input_artifact_hashes": [
+        {
+          "bytes": 770152,
+          "path": "work/psc-organoid-inputs/raw-rna-pseudobulk.tsv.gz",
+          "sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+        },
+        {
+          "bytes": 1479227,
+          "path": "work/psc-organoid-inputs/raw-rna-features.tsv",
+          "sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+        },
+        {
+          "bytes": 2565,
+          "path": "work/psc-organoid-inputs/raw-rna-libraries.tsv",
+          "sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+        },
+        {
+          "bytes": 888116,
+          "path": "work/psc-organoid-inputs/raw-rna-cell-source-joins.tsv.gz",
+          "sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6"
+        }
+      ],
+      "merged_SCT_raw_count_model_eligible": false,
+      "not_claimed": "Exact historical RNA-matrix/filter reconstruction",
+      "positive_entries_above_historical_RNA_metadata": 68460,
+      "quantity_provenance": "GEO per-GSM processed count-matrix/feature/barcode exports; GEO says Cell Ranger 5.0.0 performed demultiplexing, barcode processing and gene counting; Gene Expression feature types, integer sparse checks and original-cell joins verified",
+      "root_final_analysis_freeze_still_required": true,
+      "root_scope_authorization_message_id": "agentmsg_fd99b14b-415e-4065-8759-5a3e6cc709e9",
+      "scope": "Complete original Cell Ranger processed RNA feature universe for exactly the published retained cells; new explicit released-raw-universe estimand",
+      "source_manifest_sha256": "2965b69fdfb1595ef20e73775d5d77b856e813ab418803f670d7a9ee351e9c68",
+      "symbol_collapse_performed": false
+    },
+    "ready_for_inference": true,
+    "sensitivity": {
+      "allocation": "all_70_4v4_labels_absolute_mean_change_difference_descriptive_only",
+      "allocation_tie_atol": 1e-12,
+      "allocation_tie_rtol": 1e-12,
+      "leaveout": "one_donor_out_effect_and_sign_only_fixed_features",
+      "library_size": "all_unfiltered_released_features",
+      "test": "Welch_t_with_Satterthwaite_df",
+      "transformation": "log2(CPM+1)",
+      "unit": "one_IL17_minus_CNT_change_per_donor"
+    },
+    "series": "GSE239283",
+    "software": {
+      "anndata": "0.13.3.post0",
+      "formulaic": "1.2.2",
+      "joblib": "1.6.0",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pydeseq2": "0.5.4",
+      "python": "3.12.14",
+      "scipy": "1.18.1"
+    },
+    "source_artifacts": [
+      {
+        "bytes": 4265,
+        "path": "data/raw/psc-organoid-il17/GSE239283-series.txt",
+        "retrieved_at_utc": "2026-09-15T22:27:26.392999+00:00",
+        "sha256": "9d4272909db6033ceac85315ebfaa68bcd4db96b4e5047bf521eb474a7f8cfc2",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239283&targ=self&form=text&view=full"
+      },
+      {
+        "bytes": 4473,
+        "path": "data/raw/psc-organoid-il17/GSE239283-family.soft.gz",
+        "retrieved_at_utc": "2026-09-15T22:27:52.211315+00:00",
+        "sha256": "c403f41250c2320bc70f258037081004ece5c3770064252fc3b1390b9c9f1d40",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/soft/GSE239283_family.soft.gz"
+      },
+      {
+        "bytes": 2239262,
+        "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_metadata.tsv.gz",
+        "retrieved_at_utc": "2026-09-15T22:35:28.035108+00:00",
+        "sha256": "319739ce31587080c69f3892304281b701daf1bae7089b6974b1182312bf0ace",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_metadata.tsv.gz"
+      },
+      {
+        "bytes": 135583,
+        "path": "data/raw/psc-organoid-il17/PMC11150034.xml",
+        "retrieved_at_utc": "2026-09-15T22:30:14.166042+00:00",
+        "sha256": "6903bd9b6f603375d934c1208aa11a6d834f675da9d9a05a8270fa1219f228d6",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11150034/fullTextXML"
+      },
+      {
+        "bytes": 1280,
+        "path": "data/raw/psc-organoid-il17/GSE239283-suppl-listing.html",
+        "retrieved_at_utc": "2026-09-15T22:29:45.627177+00:00",
+        "sha256": "6459f4f0c2ac100dbf17b0ec46758806767841e882f3d4808f502237d6a51fa2",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/"
+      },
+      {
+        "bytes": 135599,
+        "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_genes.tsv.gz",
+        "retrieved_at_utc": "2026-09-15T23:41:11.787906+00:00",
+        "sha256": "b3f1b4c141d90c7d6445484fc312db7c2c4efc39f5f712ca3cc40ca10ae53f96",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_genes.tsv.gz"
+      },
+      {
+        "bytes": 219359,
+        "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_barcodes.tsv.gz",
+        "retrieved_at_utc": "2026-09-15T23:41:12.020989+00:00",
+        "sha256": "5691998ebcd984ff169bab1340dfeadb9de2de66d0a1d6ec772f8c220afc5ce9",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 142381971,
+        "path": "data/raw/psc-organoid-il17/GSE239283_extrahepatic_organoids_matrix.mtx.gz",
+        "retrieved_at_utc": "2026-09-15T23:41:14.328392+00:00",
+        "sha256": "48ff435b1e6ac6374932fe8a38953b925b6f6c1fbd9875296b772ef983b38b9c",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_matrix.mtx.gz"
+      },
+      {
+        "bytes": 3674,
+        "path": "data/raw/psc-organoid-il17/filelist.txt",
+        "retrieved_at_utc": "2026-09-15T23:50:00.564168+00:00",
+        "sha256": "0ba40aef7dc8c3ffba10a493da2febaeb73281083f447feb0ec44ea5e6166efb",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/filelist.txt"
+      },
+      {
+        "bytes": 3961515,
+        "path": "data/raw/psc-organoid-il17/A900-methods.docx",
+        "retrieved_at_utc": "2026-09-15T23:41:39.298338+00:00",
+        "sha256": "b839464e46e3e74ce8bd03168c11b6736271e0df0ff6bb3e0bcde0e6ae39d69a",
+        "url": "https://links.lww.com/HC9/A900"
+      },
+      {
+        "bytes": 730408960,
+        "path": "data/raw/psc-organoid-il17/GSE239283_RAW.tar",
+        "retrieved_at_utc": "2026-09-15T23:50:55.565035+00:00",
+        "sha256": "eaac0234ea17cc610464385b81453a7322c610f410a8456482514e0b3288551b",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_RAW.tar"
+      }
+    ]
+  },
+  "prospective_limits": {
+    "NB_primary_estimand": "modeled_log2_ratio_of_ratios",
+    "Welch_sensitivity_estimand": "equal_donor_difference_of_log2_CPM_plus_1_changes",
+    "additional_program_or_transfer_endpoint_authorized": false,
+    "individual_clinical_covariates_qualified": false,
+    "interpretation": "ex_vivo_association_with_disease_related_response_not_PSC_causation_or_clinical_efficacy",
+    "new_real_effects_already_computed": false,
+    "published_responses_previously_known": true
+  },
+  "status": "frozen",
+  "verification": {
+    "conditional_NB_selection": "At most16 eligible features with counts>=10 in everylibrary; ascendingSHA256 of PSC-organoid-conditional-NB-v1: plus exactsourceID; no substitution",
+    "independent_script": "scripts/verify_psc_organoid_il17.py",
+    "raw_source_checks": {
+      "byte_identical_replayed_tables": 9,
+      "independent_comparisons": 2806150,
+      "independent_mismatches": 0,
+      "independent_pseudobulk_values": 585616,
+      "repository_error_reason": "Unavailable pre-existing ETS2/GSE84161 input caches and separate Rscript runtime; not organoid test failures.",
+      "repository_errors": 7,
+      "repository_tests_run": 402,
+      "synthetic_tests": 46
+    },
+    "scope": "All contrasts/covariance and donor sensitivities reconstructed; small conditional coefficient optimization panel; no independent dispersion-pipeline refit",
+    "tests_before_effects": {
+      "independent_verifier": 24,
+      "source_and_analysis": 84
+    }
+  }
+}

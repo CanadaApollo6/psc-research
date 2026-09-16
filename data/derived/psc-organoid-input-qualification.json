@@ -1,0 +1,1962 @@
+{
+  "acquisition": {
+    "acquisition_limit_bytes": 1000000000,
+    "all_source_bytes": 879495941,
+    "authorization": {
+      "expanded_limit_bytes": 1000000000,
+      "initial_limit_bytes": 200000000,
+      "message_id": "agentmsg_4d716f46-058b-4e85-a240-59c4dc1c5868",
+      "reason": "Merged matrix has SCT rather than raw RNA assay margins; root authorized original processed exports after inventory/format qualification.",
+      "scope": "16 original processed RNA count matrix/feature/barcode exports or series TAR; no FASTQ/raw-read processing"
+    },
+    "new_download_bytes": 873149563,
+    "raw_reads_acquired": false
+  },
+  "analysis_performed": {
+    "all_feature_library_sums": true,
+    "effect_contrasts": false,
+    "full_sparse_QC": true,
+    "gene_wise_group_or_treatment_tests": false,
+    "model_fitting": false,
+    "program_scores": false,
+    "target_expression_inspection": false
+  },
+  "conditions": [
+    {
+      "cells": 18081,
+      "disease": "PSC",
+      "donors": 4,
+      "libraries": 4,
+      "total_released_counts": 36019039,
+      "treatment": "CNT"
+    },
+    {
+      "cells": 12579,
+      "disease": "PSC",
+      "donors": 4,
+      "libraries": 4,
+      "total_released_counts": 23393576,
+      "treatment": "IL17"
+    },
+    {
+      "cells": 4889,
+      "disease": "nonPSC",
+      "donors": 4,
+      "libraries": 4,
+      "total_released_counts": 9339195,
+      "treatment": "CNT"
+    },
+    {
+      "cells": 10794,
+      "disease": "nonPSC",
+      "donors": 4,
+      "libraries": 4,
+      "total_released_counts": 21008390,
+      "treatment": "IL17"
+    }
+  ],
+  "count_availability": {
+    "cell_exclusions_applied": 0,
+    "count_thresholds_applied": false,
+    "donor_exclusions_applied": 0,
+    "features_by_number_of_positive_libraries": {
+      "0": 1208,
+      "1": 1255,
+      "10": 415,
+      "11": 395,
+      "12": 440,
+      "13": 452,
+      "14": 540,
+      "15": 924,
+      "16": 11380,
+      "2": 810,
+      "3": 673,
+      "4": 596,
+      "5": 582,
+      "6": 549,
+      "7": 467,
+      "8": 436,
+      "9": 440
+    },
+    "features_with_positive_total": 20354,
+    "features_with_zero_total": 1208,
+    "gene_exclusions_applied": 0
+  },
+  "eligibility_decision": {
+    "accepted_before_gene_effects": true,
+    "checks": {
+      "all_original_numeric_checks_passed": true,
+      "all_original_processed_members_verified": true,
+      "all_released_cells_joined_once": true,
+      "complete_original_unique_Ensembl_axis": true,
+      "different_chunk_replay_passed": true,
+      "eight_complete_source_donor_pairs": true,
+      "independent_full_pseudobulk_verification_passed": true,
+      "merged_SCT_is_not_the_raw_count_input": true
+    },
+    "counts_above_historical_RNA_metadata": 70263,
+    "decision": "eligible_original_full_count_universe",
+    "effects_authorized_by_this_qualification": false,
+    "historical_RNA_margin_match_required_for_this_new_scope": false,
+    "historical_discrepancy_cause_established": false,
+    "historical_feature_filter_guessed": false,
+    "input_artifact_hashes": [
+      {
+        "bytes": 770152,
+        "path": "work/psc-organoid-inputs/raw-rna-pseudobulk.tsv.gz",
+        "sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+      },
+      {
+        "bytes": 1479227,
+        "path": "work/psc-organoid-inputs/raw-rna-features.tsv",
+        "sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+      },
+      {
+        "bytes": 2565,
+        "path": "work/psc-organoid-inputs/raw-rna-libraries.tsv",
+        "sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+      },
+      {
+        "bytes": 888116,
+        "path": "work/psc-organoid-inputs/raw-rna-cell-source-joins.tsv.gz",
+        "sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6"
+      }
+    ],
+    "merged_SCT_raw_count_model_eligible": false,
+    "not_claimed": "Exact historical RNA-matrix/filter reconstruction",
+    "positive_entries_above_historical_RNA_metadata": 68460,
+    "quantity_provenance": "GEO per-GSM processed count-matrix/feature/barcode exports; GEO says Cell Ranger 5.0.0 performed demultiplexing, barcode processing and gene counting; Gene Expression feature types, integer sparse checks and original-cell joins verified",
+    "root_final_analysis_freeze_still_required": true,
+    "root_scope_authorization_message_id": "agentmsg_fd99b14b-415e-4065-8759-5a3e6cc709e9",
+    "scope": "Complete original Cell Ranger processed RNA feature universe for exactly the published retained cells; new explicit released-raw-universe estimand",
+    "source_manifest_sha256": "2965b69fdfb1595ef20e73775d5d77b856e813ab418803f670d7a9ee351e9c68",
+    "symbol_collapse_performed": false
+  },
+  "feature_axis": {
+    "all_released_features_preserved": true,
+    "both_columns_identical_rows": 21562,
+    "first_column_Ensembl_gene_ID_rows": 0,
+    "first_column_unique": true,
+    "gene_annotation_release": null,
+    "gene_annotation_release_status": "not declared in inspected GEO fields",
+    "namespace": "source gene-symbol-style labels in both columns; not stable Ensembl IDs",
+    "new_feature_exclusions": 0,
+    "rows": 21562,
+    "second_column_unique": true,
+    "source_fields_per_row": 2,
+    "symbol_alias_resolution_performed": false
+  },
+  "global_QC": {
+    "cell_count_summary": {
+      "maximum": 3571.0,
+      "median": 1971.0,
+      "minimum": 1277.0,
+      "q25": 1851.0,
+      "q75": 2066.0
+    },
+    "cell_feature_summary": {
+      "maximum": 2228.0,
+      "median": 1015.0,
+      "minimum": 310.0,
+      "q25": 855.0,
+      "q75": 1159.0
+    }
+  },
+  "joins": {
+    "barcodes": 46343,
+    "complete_donor_treatment_pairs": 8,
+    "donors": 8,
+    "donors_per_disease": {
+      "PSC": 4,
+      "nonPSC": 4
+    },
+    "exact_GSM_library_title_set_match": true,
+    "exact_barcode_set_match": true,
+    "identity_mapping": {
+      "Treatment": {
+        "CNT": "vehicle",
+        "IL17": "IL-17A"
+      },
+      "condition": {
+        "Non.PSC": "nonPSC",
+        "PSC": "PSC"
+      },
+      "donor_id": "unchanged original Sample",
+      "library_id": "unchanged orig.ident = exact GSM title"
+    },
+    "libraries": 16,
+    "libraries_per_donor": 2,
+    "metadata_order_matches_barcode_axis": true,
+    "metadata_rows": 46343,
+    "original_identity_columns": [
+      "",
+      "orig.ident",
+      "Sample",
+      "Treatment",
+      "condition",
+      "conditionTreatment"
+    ],
+    "source_metadata_columns": [
+      "",
+      "orig.ident",
+      "nCount_RNA",
+      "nFeature_RNA",
+      "condition",
+      "percent.mt",
+      "S.Score",
+      "G2M.Score",
+      "Phase",
+      "nCount_SCT",
+      "nFeature_SCT",
+      "seurat_clusters",
+      "SCT_snn_res.0.2",
+      "Treatment",
+      "conditionTreatment",
+      "cluster.condition",
+      "cluster.treatment",
+      "cluster.condition.treatment",
+      "Sample"
+    ],
+    "source_value_corrections": []
+  },
+  "libraries": [
+    {
+      "cell_released_count_summary": {
+        "maximum": 2889.0,
+        "median": 1994.0,
+        "minimum": 1298.0,
+        "q25": 1887.0,
+        "q75": 2108.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 2125.0,
+        "median": 1170.0,
+        "minimum": 483.0,
+        "q25": 1043.0,
+        "q75": 1315.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_4",
+      "features_positive_in_library": 18577,
+      "library_id": "PSC_4_CNT",
+      "n_cells": 5737,
+      "source_Sample": "PSC_4",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662591",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_CNT",
+      "source_nCount_RNA_total": 88699303,
+      "source_nCount_SCT_total": 11577337,
+      "source_title": "PSC_4_CNT",
+      "total_released_counts": 11577337,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 3571.0,
+        "median": 2042.5,
+        "minimum": 1294.0,
+        "q25": 1940.0,
+        "q75": 2146.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 2125.0,
+        "median": 1186.0,
+        "minimum": 478.0,
+        "q25": 1057.0,
+        "q75": 1304.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_4",
+      "features_positive_in_library": 14670,
+      "library_id": "PSC_4_IL17",
+      "n_cells": 1886,
+      "source_Sample": "PSC_4",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662592",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_IL17",
+      "source_nCount_RNA_total": 67945621,
+      "source_nCount_SCT_total": 3839549,
+      "source_title": "PSC_4_IL17",
+      "total_released_counts": 3839549,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2736.0,
+        "median": 2002.0,
+        "minimum": 1310.0,
+        "q25": 1935.0,
+        "q75": 2060.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1934.0,
+        "median": 996.5,
+        "minimum": 358.0,
+        "q25": 890.0,
+        "q75": 1109.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_6",
+      "features_positive_in_library": 16862,
+      "library_id": "PSC_6_CNT",
+      "n_cells": 4076,
+      "source_Sample": "PSC_6",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662593",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_CNT",
+      "source_nCount_RNA_total": 75714393,
+      "source_nCount_SCT_total": 8133117,
+      "source_title": "PSC_6_CNT",
+      "total_released_counts": 8133117,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2833.0,
+        "median": 1966.0,
+        "minimum": 1301.0,
+        "q25": 1902.0,
+        "q75": 2038.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1835.0,
+        "median": 1005.0,
+        "minimum": 411.0,
+        "q25": 903.0,
+        "q75": 1109.5
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_6",
+      "features_positive_in_library": 15081,
+      "library_id": "PSC_6_IL17",
+      "n_cells": 2115,
+      "source_Sample": "PSC_6",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662594",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_IL17",
+      "source_nCount_RNA_total": 62853882,
+      "source_nCount_SCT_total": 4155496,
+      "source_title": "PSC_6_IL17",
+      "total_released_counts": 4155496,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 3365.0,
+        "median": 2044.0,
+        "minimum": 1325.0,
+        "q25": 1921.0,
+        "q75": 2107.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 2025.0,
+        "median": 1088.0,
+        "minimum": 310.0,
+        "q25": 897.0,
+        "q75": 1197.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_8",
+      "features_positive_in_library": 15677,
+      "library_id": "PSC_8_CNT",
+      "n_cells": 3409,
+      "source_Sample": "PSC_8",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662595",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_CNT",
+      "source_nCount_RNA_total": 80223886,
+      "source_nCount_SCT_total": 6695002,
+      "source_title": "PSC_8_CNT",
+      "total_released_counts": 6695002,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2925.0,
+        "median": 1757.0,
+        "minimum": 1344.0,
+        "q25": 1484.0,
+        "q75": 1997.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1890.0,
+        "median": 837.0,
+        "minimum": 358.0,
+        "q25": 537.0,
+        "q75": 1062.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_8",
+      "features_positive_in_library": 16858,
+      "library_id": "PSC_8_IL17",
+      "n_cells": 7051,
+      "source_Sample": "PSC_8",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662596",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_IL17",
+      "source_nCount_RNA_total": 86153743,
+      "source_nCount_SCT_total": 12411267,
+      "source_title": "PSC_8_IL17",
+      "total_released_counts": 12411267,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2612.0,
+        "median": 1975.0,
+        "minimum": 1309.0,
+        "q25": 1909.0,
+        "q75": 2043.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1729.0,
+        "median": 949.0,
+        "minimum": 372.0,
+        "q25": 832.0,
+        "q75": 1081.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_9",
+      "features_positive_in_library": 16766,
+      "library_id": "PSC_9_CNT",
+      "n_cells": 4859,
+      "source_Sample": "PSC_9",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662597",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_CNT",
+      "source_nCount_RNA_total": 95813883,
+      "source_nCount_SCT_total": 9613583,
+      "source_title": "PSC_9_CNT",
+      "total_released_counts": 9613583,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2588.0,
+        "median": 1954.0,
+        "minimum": 1304.0,
+        "q25": 1877.0,
+        "q75": 2045.5
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1826.0,
+        "median": 917.0,
+        "minimum": 377.0,
+        "q25": 796.0,
+        "q75": 1036.0
+      },
+      "disease": "PSC",
+      "donor_id": "PSC_9",
+      "features_positive_in_library": 13658,
+      "library_id": "PSC_9_IL17",
+      "n_cells": 1527,
+      "source_Sample": "PSC_9",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662598",
+      "source_condition": "PSC",
+      "source_conditionTreatment": "PSC_IL17",
+      "source_nCount_RNA_total": 56099470,
+      "source_nCount_SCT_total": 2987264,
+      "source_title": "PSC_9_IL17",
+      "total_released_counts": 2987264,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2641.0,
+        "median": 1949.0,
+        "minimum": 1330.0,
+        "q25": 1820.5,
+        "q75": 2064.5
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1962.0,
+        "median": 1021.0,
+        "minimum": 505.0,
+        "q25": 862.0,
+        "q75": 1177.5
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_2",
+      "features_positive_in_library": 14235,
+      "library_id": "nonPSC_2_CNT",
+      "n_cells": 1055,
+      "source_Sample": "nonPSC_2",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662599",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_CNT",
+      "source_nCount_RNA_total": 60245367,
+      "source_nCount_SCT_total": 2035525,
+      "source_title": "nonPSC_2_CNT",
+      "total_released_counts": 2035525,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2743.0,
+        "median": 2027.0,
+        "minimum": 1312.0,
+        "q25": 1953.0,
+        "q75": 2105.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 2092.0,
+        "median": 1020.0,
+        "minimum": 354.0,
+        "q25": 912.0,
+        "q75": 1148.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_2",
+      "features_positive_in_library": 15236,
+      "library_id": "nonPSC_2_IL17",
+      "n_cells": 1965,
+      "source_Sample": "nonPSC_2",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662600",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_IL17",
+      "source_nCount_RNA_total": 73464942,
+      "source_nCount_SCT_total": 3990758,
+      "source_title": "nonPSC_2_IL17",
+      "total_released_counts": 3990758,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2932.0,
+        "median": 2007.5,
+        "minimum": 1423.0,
+        "q25": 1863.25,
+        "q75": 2155.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1761.0,
+        "median": 1096.0,
+        "minimum": 423.0,
+        "q25": 965.75,
+        "q75": 1249.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_3",
+      "features_positive_in_library": 12884,
+      "library_id": "nonPSC_3_CNT",
+      "n_cells": 464,
+      "source_Sample": "nonPSC_3",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662601",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_CNT",
+      "source_nCount_RNA_total": 40430479,
+      "source_nCount_SCT_total": 937236,
+      "source_title": "nonPSC_3_CNT",
+      "total_released_counts": 937236,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 3103.0,
+        "median": 2059.0,
+        "minimum": 1277.0,
+        "q25": 1986.0,
+        "q75": 2136.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1862.0,
+        "median": 1075.0,
+        "minimum": 487.0,
+        "q25": 975.75,
+        "q75": 1180.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_3",
+      "features_positive_in_library": 14728,
+      "library_id": "nonPSC_3_IL17",
+      "n_cells": 1524,
+      "source_Sample": "nonPSC_3",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662602",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_IL17",
+      "source_nCount_RNA_total": 70332983,
+      "source_nCount_SCT_total": 3145909,
+      "source_title": "nonPSC_3_IL17",
+      "total_released_counts": 3145909,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2605.0,
+        "median": 1812.0,
+        "minimum": 1360.0,
+        "q25": 1530.0,
+        "q75": 1996.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1866.0,
+        "median": 861.0,
+        "minimum": 428.0,
+        "q25": 609.0,
+        "q75": 1049.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_4",
+      "features_positive_in_library": 14797,
+      "library_id": "nonPSC_4_CNT",
+      "n_cells": 1745,
+      "source_Sample": "nonPSC_4",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662603",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_CNT",
+      "source_nCount_RNA_total": 59524175,
+      "source_nCount_SCT_total": 3130732,
+      "source_title": "nonPSC_4_CNT",
+      "total_released_counts": 3130732,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 3354.0,
+        "median": 1830.0,
+        "minimum": 1309.0,
+        "q25": 1464.5,
+        "q75": 1991.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 2228.0,
+        "median": 827.0,
+        "minimum": 348.0,
+        "q25": 536.5,
+        "q75": 1024.5
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_4",
+      "features_positive_in_library": 15469,
+      "library_id": "nonPSC_4_IL17",
+      "n_cells": 2323,
+      "source_Sample": "nonPSC_4",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662604",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_IL17",
+      "source_nCount_RNA_total": 60924167,
+      "source_nCount_SCT_total": 4109313,
+      "source_title": "nonPSC_4_IL17",
+      "total_released_counts": 4109313,
+      "treatment": "IL17"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2766.0,
+        "median": 1989.0,
+        "minimum": 1305.0,
+        "q25": 1919.0,
+        "q75": 2067.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1877.0,
+        "median": 949.0,
+        "minimum": 382.0,
+        "q25": 848.0,
+        "q75": 1051.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_5",
+      "features_positive_in_library": 14330,
+      "library_id": "nonPSC_5_CNT",
+      "n_cells": 1625,
+      "source_Sample": "nonPSC_5",
+      "source_Treatment": "CNT",
+      "source_accession": "GSM7662605",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_CNT",
+      "source_nCount_RNA_total": 63843831,
+      "source_nCount_SCT_total": 3235702,
+      "source_title": "nonPSC_5_CNT",
+      "total_released_counts": 3235702,
+      "treatment": "CNT"
+    },
+    {
+      "cell_released_count_summary": {
+        "maximum": 2658.0,
+        "median": 1940.0,
+        "minimum": 1317.0,
+        "q25": 1845.0,
+        "q75": 2037.0
+      },
+      "cell_released_feature_summary": {
+        "maximum": 1792.0,
+        "median": 1071.0,
+        "minimum": 426.0,
+        "q25": 945.0,
+        "q75": 1196.0
+      },
+      "disease": "nonPSC",
+      "donor_id": "nonPSC_5",
+      "features_positive_in_library": 17522,
+      "library_id": "nonPSC_5_IL17",
+      "n_cells": 4982,
+      "source_Sample": "nonPSC_5",
+      "source_Treatment": "IL17",
+      "source_accession": "GSM7662606",
+      "source_condition": "Non.PSC",
+      "source_conditionTreatment": "Non.PSC_IL17",
+      "source_nCount_RNA_total": 86202844,
+      "source_nCount_SCT_total": 9762410,
+      "source_title": "nonPSC_5_IL17",
+      "total_released_counts": 9762410,
+      "treatment": "IL17"
+    }
+  ],
+  "matrix": {
+    "all_cells_and_features_retained": true,
+    "banner": "%%MatrixMarket matrix coordinate integer general",
+    "cell_sum_conservation": true,
+    "cells": 46343,
+    "coordinate_index_base": 1,
+    "coordinate_ledger_bytes": 124905971,
+    "declared_entries": 46282529,
+    "duplicate_coordinates": 0,
+    "explicit_zero_entries": 0,
+    "features": 21562,
+    "full_released_matrix_sum": 89760200,
+    "gzip_crc_and_eof_verified": true,
+    "library_sum_conservation": true,
+    "maximum_stored_value": 1064,
+    "minimum_stored_value": 1,
+    "negative_entries": 0,
+    "nonfinite_entries": 0,
+    "noninteger_entries": 0,
+    "observed_entries": 46282529,
+    "out_of_bounds_coordinates": 0,
+    "positive_entries": 46282529,
+    "strictly_column_major": true,
+    "zero_total_cells": 0,
+    "zero_total_features": 1208
+  },
+  "methods_qualification": {
+    "allele_convention": "not applicable; no variant analysis",
+    "article": {
+      "doi": "10.1097/HC9.0000000000000454",
+      "pmcid": "PMC11150034"
+    },
+    "clinical_covariates": {
+      "donors_with_independently_mapped_age_sex_source_site_cirrhosis": 0,
+      "larger_clinical_table_PSC_rows": 10,
+      "larger_clinical_table_nonPSC_rows": 7,
+      "numeric_suffix_to_table_row_mapping_used": false,
+      "scope": "GEO metadata, article Methods/Table 1, and directly linked supplemental Methods; no claim about all uninspected material",
+      "sequenced_donor_keys": 8,
+      "status": "no independently established sequencing-label to clinical-row crosswalk",
+      "unassigned_fields": [
+        "age",
+        "sex",
+        "IBD",
+        "cirrhosis",
+        "procedure indication",
+        "anatomical sampling site",
+        "bile versus brush"
+      ]
+    },
+    "control_group": "Non-PSC clinically indicated ERC procedure controls, not healthy volunteers",
+    "exact_reference_bundle": null,
+    "gene_annotation_release": null,
+    "genome_assembly_source_declaration": "hg38",
+    "historical_feature_prefilters": null,
+    "intervention": {
+      "control_description": "vehicle",
+      "control_source_treatment": "CNT",
+      "dose_ng_per_mL": 100,
+      "duration_hours": 24,
+      "molecule": "human recombinant IL-17A",
+      "source_treatment": "IL17",
+      "vehicle_composition": null
+    },
+    "limitations": [
+      "Eight donors, not sixteen independent donor pairs; each donor contributes one CNT and one IL17 library",
+      "Number of culture wells/clones pooled within a source library is not established",
+      "Treatment-assignment or sequencing-batch randomization is not established in bounded sources",
+      "No invented age/sex/site/cirrhosis covariates or exclusions",
+      "Disease-versus-control differences remain observational despite the ex vivo treatment intervention"
+    ],
+    "merged_export_assay_slot_command": null,
+    "original_count_export_command": null,
+    "passage": 3,
+    "pipeline_source_declarations": {
+      "Cell_Ranger": "5.0.0",
+      "Harmony": "v0.1.1",
+      "SCTransform": "v2 (literal source wording)",
+      "Seurat": "v4",
+      "executed_commands_or_container": null
+    },
+    "sampling": {
+      "article_declares_one_bile_derived_organoid_in_scRNA_or_NanoString_set": true,
+      "bile_donor_key": null,
+      "source_context": "Extrahepatic bile duct organoids from brush and/or bile samples",
+      "source_tension": "Text says all controls were brush-derived, while larger Table 1 non-PSC patient 6 says Common bile duct, Bile: cystic duct; neither is assigned to a sequencing key"
+    },
+    "source_cell_filter": {
+      "exclude_if_mitochondrial_percent_greater_than": 40,
+      "exclude_if_nCounts_less_than": 200,
+      "historical_filter_reconstruction_performed": false,
+      "other_filters": null,
+      "quantity_is_nCounts_not_nFeatures": true
+    },
+    "source_methods_supplement": {
+      "archive_member": "word/document.xml",
+      "file": "A900-methods.docx",
+      "sha256": "b839464e46e3e74ce8bd03168c11b6736271e0df0ff6bb3e0bcde0e6ae39d69a",
+      "url": "https://links.lww.com/HC9/A900",
+      "verified_method_fragments": [
+        "Cell Ranger 5.0.0",
+        "filtering cells with less than 200 nCounts or greater than 40% mitochondrial reads",
+        "All samples were then normalized by SCTransform (v2) and integrated using Harmony (v0.1.1)",
+        "Code for all analyses is available upon request."
+      ],
+      "xpath": "/w:document/w:body/w:p[16]"
+    },
+    "study_code": "Available upon request in inspected sources; not requested"
+  },
+  "original_RNA": {
+    "Ensembl_gene_ID_rows": 36601,
+    "acquisition": "Complete original per-GSM processed 10x exports from GEO series TAR; no raw reads",
+    "all_feature_axes_exactly_identical": true,
+    "all_member_gzip_crc_and_eof_verified": true,
+    "annotation_release": null,
+    "archive_member_ledger": {
+      "file": "data/raw/psc-organoid-il17/original-archive-members.json",
+      "sha256": "55eda7aeb3353216dbd075dab341ee644fbb36d441e144dbf0e19d262e2c6f9d"
+    },
+    "barcode_join": {
+      "all_released_cells_found_once": true,
+      "rule": "Remove one verified library-specific terminal _integer merge suffix; retain both original strings",
+      "source_library_not_inferred_from_barcode": true,
+      "status": "exact within source library"
+    },
+    "compressed_members_checked": 48,
+    "conditions": [
+      {
+        "cells": 18081,
+        "disease": "PSC",
+        "donors": 4,
+        "libraries": 4,
+        "total_released_counts": 340469106,
+        "treatment": "CNT"
+      },
+      {
+        "cells": 12579,
+        "disease": "PSC",
+        "donors": 4,
+        "libraries": 4,
+        "total_released_counts": 273070588,
+        "treatment": "IL17"
+      },
+      {
+        "cells": 4889,
+        "disease": "nonPSC",
+        "donors": 4,
+        "libraries": 4,
+        "total_released_counts": 224061346,
+        "treatment": "CNT"
+      },
+      {
+        "cells": 10794,
+        "disease": "nonPSC",
+        "donors": 4,
+        "libraries": 4,
+        "total_released_counts": 290942192,
+        "treatment": "IL17"
+      }
+    ],
+    "duplicate_source_gene_label_groups": 10,
+    "feature_namespace": "Original Ensembl gene IDs; separate unmodified gene-symbol labels and Gene Expression type",
+    "feature_rows_with_duplicated_source_gene_labels": 20,
+    "features_by_number_of_positive_libraries": {
+      "0": 7641,
+      "1": 1902,
+      "10": 448,
+      "11": 468,
+      "12": 531,
+      "13": 574,
+      "14": 680,
+      "15": 978,
+      "16": 18340,
+      "2": 1071,
+      "3": 809,
+      "4": 682,
+      "5": 573,
+      "6": 513,
+      "7": 485,
+      "8": 474,
+      "9": 432
+    },
+    "full_feature_count": 36601,
+    "full_original_cells": 48164,
+    "full_original_count_total": 1136828454,
+    "full_original_stored_entries": 195537244,
+    "full_sparse_QC": {
+      "duplicate_coordinates": 0,
+      "explicit_zero_entries": 0,
+      "negative_entries": 0,
+      "nonfinite_entries": 0,
+      "noninteger_entries": 0,
+      "out_of_bounds_coordinates": 0,
+      "zero_total_cells": 0
+    },
+    "genome_build_source_declaration": "hg38",
+    "historical_RNA_metadata_exactly_reproduced": false,
+    "libraries": [
+      {
+        "cell_raw_count_summary": {
+          "maximum": 79100.0,
+          "median": 13564.0,
+          "minimum": 502.0,
+          "q25": 8392.0,
+          "q75": 21110.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 8049.0,
+          "median": 3975.0,
+          "minimum": 396.0,
+          "q25": 2935.0,
+          "q75": 5024.0
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_4",
+        "features_positive_in_library": 23759,
+        "library_id": "PSC_4_CNT",
+        "n_cells": 5737,
+        "source_Sample": "PSC_4",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662591",
+        "source_cells_not_in_released_subset": 85,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_CNT",
+        "source_full_library_total": 88931800,
+        "source_nCount_RNA_total": 88699303,
+        "source_original_cells": 5822,
+        "source_title": "PSC_4_CNT",
+        "source_unselected_cells_total": 228369,
+        "technical_merge_suffix": "_9",
+        "total_released_counts": 88703431,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 166676.0,
+          "median": 30664.5,
+          "minimum": 519.0,
+          "q25": 19276.75,
+          "q75": 51468.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10329.0,
+          "median": 5973.5,
+          "minimum": 403.0,
+          "q25": 4735.0,
+          "q75": 7397.0
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_4",
+        "features_positive_in_library": 23345,
+        "library_id": "PSC_4_IL17",
+        "n_cells": 1886,
+        "source_Sample": "PSC_4",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662592",
+        "source_cells_not_in_released_subset": 134,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_IL17",
+        "source_full_library_total": 68836732,
+        "source_nCount_RNA_total": 67945621,
+        "source_original_cells": 2020,
+        "source_title": "PSC_4_IL17",
+        "source_unselected_cells_total": 886734,
+        "technical_merge_suffix": "_13",
+        "total_released_counts": 67949998,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 128229.0,
+          "median": 15144.5,
+          "minimum": 506.0,
+          "q25": 10438.75,
+          "q75": 22655.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10055.0,
+          "median": 3959.0,
+          "minimum": 306.0,
+          "q25": 3147.75,
+          "q75": 5111.25
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_6",
+        "features_positive_in_library": 23683,
+        "library_id": "PSC_6_CNT",
+        "n_cells": 4076,
+        "source_Sample": "PSC_6",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662593",
+        "source_cells_not_in_released_subset": 44,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_CNT",
+        "source_full_library_total": 75922568,
+        "source_nCount_RNA_total": 75714393,
+        "source_original_cells": 4120,
+        "source_title": "PSC_6_CNT",
+        "source_unselected_cells_total": 203850,
+        "technical_merge_suffix": "_10",
+        "total_released_counts": 75718718,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 154793.0,
+          "median": 25747.0,
+          "minimum": 507.0,
+          "q25": 17900.5,
+          "q75": 36537.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10359.0,
+          "median": 5297.0,
+          "minimum": 315.0,
+          "q25": 4333.5,
+          "q75": 6407.5
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_6",
+        "features_positive_in_library": 23047,
+        "library_id": "PSC_6_IL17",
+        "n_cells": 2115,
+        "source_Sample": "PSC_6",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662594",
+        "source_cells_not_in_released_subset": 112,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_IL17",
+        "source_full_library_total": 63410954,
+        "source_nCount_RNA_total": 62853882,
+        "source_original_cells": 2227,
+        "source_title": "PSC_6_IL17",
+        "source_unselected_cells_total": 552730,
+        "technical_merge_suffix": "_14",
+        "total_released_counts": 62858224,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 174707.0,
+          "median": 19284.0,
+          "minimum": 500.0,
+          "q25": 4521.0,
+          "q75": 32094.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10451.0,
+          "median": 4559.0,
+          "minimum": 244.0,
+          "q25": 1768.0,
+          "q75": 5827.0
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_8",
+        "features_positive_in_library": 23321,
+        "library_id": "PSC_8_CNT",
+        "n_cells": 3409,
+        "source_Sample": "PSC_8",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662595",
+        "source_cells_not_in_released_subset": 16,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_CNT",
+        "source_full_library_total": 80283426,
+        "source_nCount_RNA_total": 80223886,
+        "source_original_cells": 3425,
+        "source_title": "PSC_8_CNT",
+        "source_unselected_cells_total": 54709,
+        "technical_merge_suffix": "_12",
+        "total_released_counts": 80228717,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 274707.0,
+          "median": 1804.0,
+          "minimum": 500.0,
+          "q25": 728.0,
+          "q75": 18057.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 11332.0,
+          "median": 978.0,
+          "minimum": 303.0,
+          "q25": 493.0,
+          "q75": 4402.5
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_8",
+        "features_positive_in_library": 23422,
+        "library_id": "PSC_8_IL17",
+        "n_cells": 7051,
+        "source_Sample": "PSC_8",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662596",
+        "source_cells_not_in_released_subset": 27,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_IL17",
+        "source_full_library_total": 86296302,
+        "source_nCount_RNA_total": 86153743,
+        "source_original_cells": 7078,
+        "source_title": "PSC_8_IL17",
+        "source_unselected_cells_total": 137893,
+        "technical_merge_suffix": "_16",
+        "total_released_counts": 86158409,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 97225.0,
+          "median": 16442.0,
+          "minimum": 500.0,
+          "q25": 11719.0,
+          "q75": 24085.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 8669.0,
+          "median": 3873.0,
+          "minimum": 314.0,
+          "q25": 3143.0,
+          "q75": 4895.5
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_9",
+        "features_positive_in_library": 23722,
+        "library_id": "PSC_9_CNT",
+        "n_cells": 4859,
+        "source_Sample": "PSC_9",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662597",
+        "source_cells_not_in_released_subset": 50,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_CNT",
+        "source_full_library_total": 96095311,
+        "source_nCount_RNA_total": 95813883,
+        "source_original_cells": 4909,
+        "source_title": "PSC_9_CNT",
+        "source_unselected_cells_total": 277071,
+        "technical_merge_suffix": "_11",
+        "total_released_counts": 95818240,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 188937.0,
+          "median": 33401.0,
+          "minimum": 504.0,
+          "q25": 23068.5,
+          "q75": 45821.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10916.0,
+          "median": 5656.0,
+          "minimum": 286.0,
+          "q25": 4687.5,
+          "q75": 6634.5
+        },
+        "disease": "PSC",
+        "donor_id": "PSC_9",
+        "features_positive_in_library": 22701,
+        "library_id": "PSC_9_IL17",
+        "n_cells": 1527,
+        "source_Sample": "PSC_9",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662598",
+        "source_cells_not_in_released_subset": 58,
+        "source_condition": "PSC",
+        "source_conditionTreatment": "PSC_IL17",
+        "source_full_library_total": 56399566,
+        "source_nCount_RNA_total": 56099470,
+        "source_original_cells": 1585,
+        "source_title": "PSC_9_IL17",
+        "source_unselected_cells_total": 295609,
+        "technical_merge_suffix": "_15",
+        "total_released_counts": 56103957,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 221364.0,
+          "median": 44843.0,
+          "minimum": 592.0,
+          "q25": 19759.5,
+          "q75": 89698.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10855.0,
+          "median": 6727.0,
+          "minimum": 461.0,
+          "q25": 4488.0,
+          "q75": 8673.0
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_2",
+        "features_positive_in_library": 22738,
+        "library_id": "nonPSC_2_CNT",
+        "n_cells": 1055,
+        "source_Sample": "nonPSC_2",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662599",
+        "source_cells_not_in_released_subset": 309,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_CNT",
+        "source_full_library_total": 61808352,
+        "source_nCount_RNA_total": 60245367,
+        "source_original_cells": 1364,
+        "source_title": "nonPSC_2_CNT",
+        "source_unselected_cells_total": 1558685,
+        "technical_merge_suffix": "_1",
+        "total_released_counts": 60249667,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 188927.0,
+          "median": 28416.0,
+          "minimum": 528.0,
+          "q25": 16995.0,
+          "q75": 49376.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10935.0,
+          "median": 5231.0,
+          "minimum": 220.0,
+          "q25": 3979.0,
+          "q75": 6686.0
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_2",
+        "features_positive_in_library": 22209,
+        "library_id": "nonPSC_2_IL17",
+        "n_cells": 1965,
+        "source_Sample": "nonPSC_2",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662600",
+        "source_cells_not_in_released_subset": 252,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_IL17",
+        "source_full_library_total": 74160880,
+        "source_nCount_RNA_total": 73464942,
+        "source_original_cells": 2217,
+        "source_title": "nonPSC_2_IL17",
+        "source_unselected_cells_total": 691672,
+        "technical_merge_suffix": "_5",
+        "total_released_counts": 73469208,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 343282.0,
+          "median": 67149.0,
+          "minimum": 819.0,
+          "q25": 46013.75,
+          "q75": 111480.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 11953.0,
+          "median": 7862.0,
+          "minimum": 494.0,
+          "q25": 6667.0,
+          "q75": 9353.25
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_3",
+        "features_positive_in_library": 21758,
+        "library_id": "nonPSC_3_CNT",
+        "n_cells": 464,
+        "source_Sample": "nonPSC_3",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662601",
+        "source_cells_not_in_released_subset": 57,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_CNT",
+        "source_full_library_total": 40769161,
+        "source_nCount_RNA_total": 40430479,
+        "source_original_cells": 521,
+        "source_title": "nonPSC_3_CNT",
+        "source_unselected_cells_total": 334166,
+        "technical_merge_suffix": "_2",
+        "total_released_counts": 40434995,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 218339.0,
+          "median": 36113.0,
+          "minimum": 512.0,
+          "q25": 21952.75,
+          "q75": 63147.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10652.0,
+          "median": 6066.0,
+          "minimum": 413.0,
+          "q25": 4759.5,
+          "q75": 7544.5
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_3",
+        "features_positive_in_library": 22477,
+        "library_id": "nonPSC_3_IL17",
+        "n_cells": 1524,
+        "source_Sample": "nonPSC_3",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662602",
+        "source_cells_not_in_released_subset": 199,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_IL17",
+        "source_full_library_total": 71241554,
+        "source_nCount_RNA_total": 70332983,
+        "source_original_cells": 1723,
+        "source_title": "nonPSC_3_IL17",
+        "source_unselected_cells_total": 904326,
+        "technical_merge_suffix": "_6",
+        "total_released_counts": 70337228,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 366823.0,
+          "median": 4049.0,
+          "minimum": 574.0,
+          "q25": 966.0,
+          "q75": 49650.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 11862.0,
+          "median": 1743.0,
+          "minimum": 379.0,
+          "q25": 611.0,
+          "q75": 6794.0
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_4",
+        "features_positive_in_library": 22774,
+        "library_id": "nonPSC_4_CNT",
+        "n_cells": 1745,
+        "source_Sample": "nonPSC_4",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662603",
+        "source_cells_not_in_released_subset": 98,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_CNT",
+        "source_full_library_total": 60253837,
+        "source_nCount_RNA_total": 59524175,
+        "source_original_cells": 1843,
+        "source_title": "nonPSC_4_CNT",
+        "source_unselected_cells_total": 725152,
+        "technical_merge_suffix": "_3",
+        "total_released_counts": 59528685,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 230401.0,
+          "median": 13463.0,
+          "minimum": 500.0,
+          "q25": 681.5,
+          "q75": 39125.5
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 11310.0,
+          "median": 3510.0,
+          "minimum": 311.0,
+          "q25": 490.0,
+          "q75": 6325.0
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_4",
+        "features_positive_in_library": 23386,
+        "library_id": "nonPSC_4_IL17",
+        "n_cells": 2323,
+        "source_Sample": "nonPSC_4",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662604",
+        "source_cells_not_in_released_subset": 97,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_IL17",
+        "source_full_library_total": 61426542,
+        "source_nCount_RNA_total": 60924167,
+        "source_original_cells": 2420,
+        "source_title": "nonPSC_4_IL17",
+        "source_unselected_cells_total": 497834,
+        "technical_merge_suffix": "_7",
+        "total_released_counts": 60928708,
+        "treatment": "IL17"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 291883.0,
+          "median": 29404.0,
+          "minimum": 500.0,
+          "q25": 16798.0,
+          "q75": 51710.0
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 10919.0,
+          "median": 5188.0,
+          "minimum": 257.0,
+          "q25": 3868.0,
+          "q75": 6870.0
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_5",
+        "features_positive_in_library": 21858,
+        "library_id": "nonPSC_5_CNT",
+        "n_cells": 1625,
+        "source_Sample": "nonPSC_5",
+        "source_Treatment": "CNT",
+        "source_accession": "GSM7662605",
+        "source_cells_not_in_released_subset": 237,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_CNT",
+        "source_full_library_total": 64638631,
+        "source_nCount_RNA_total": 63843831,
+        "source_original_cells": 1862,
+        "source_title": "nonPSC_5_CNT",
+        "source_unselected_cells_total": 790632,
+        "technical_merge_suffix": "_4",
+        "total_released_counts": 63847999,
+        "treatment": "CNT"
+      },
+      {
+        "cell_raw_count_summary": {
+          "maximum": 75444.0,
+          "median": 15250.5,
+          "minimum": 502.0,
+          "q25": 8506.5,
+          "q75": 25028.25
+        },
+        "cell_raw_feature_summary": {
+          "maximum": 7793.0,
+          "median": 4008.0,
+          "minimum": 280.0,
+          "q25": 2753.25,
+          "q75": 5197.75
+        },
+        "disease": "nonPSC",
+        "donor_id": "nonPSC_5",
+        "features_positive_in_library": 23109,
+        "library_id": "nonPSC_5_IL17",
+        "n_cells": 4982,
+        "source_Sample": "nonPSC_5",
+        "source_Treatment": "IL17",
+        "source_accession": "GSM7662606",
+        "source_cells_not_in_released_subset": 46,
+        "source_condition": "Non.PSC",
+        "source_conditionTreatment": "Non.PSC_IL17",
+        "source_full_library_total": 86352838,
+        "source_nCount_RNA_total": 86202844,
+        "source_original_cells": 5028,
+        "source_title": "nonPSC_5_IL17",
+        "source_unselected_cells_total": 145790,
+        "technical_merge_suffix": "_8",
+        "total_released_counts": 86207048,
+        "treatment": "IL17"
+      }
+    ],
+    "libraries_checked": 16,
+    "original_cells_not_in_released_metadata": 1821,
+    "positive_total_features_in_retained_cells": 28960,
+    "quantity_validation": {
+      "interpretation": {
+        "SCT_margins_match": false,
+        "caution": "Matching cell sums and nonzero-feature counts identify an assay-consistent quantity, not the exact historical export command. Integer values alone do not prove unnormalized RNA counts.",
+        "margin_only_assessment": true,
+        "raw_RNA_margins_match": false,
+        "raw_count_inference_eligible": false,
+        "status": "assay_quantity_unresolved"
+      },
+      "nCount_RNA": {
+        "all_cells_equal": false,
+        "differing_cells": 25803,
+        "matching_cells": 20540,
+        "matrix_sum": 1128543232,
+        "maximum_matrix_minus_metadata": 132,
+        "minimum_matrix_minus_metadata": 0,
+        "source_sum": 1128472969
+      },
+      "nCount_SCT": {
+        "all_cells_equal": false,
+        "differing_cells": 46278,
+        "matching_cells": 65,
+        "matrix_sum": 1128543232,
+        "maximum_matrix_minus_metadata": 365084,
+        "minimum_matrix_minus_metadata": -913,
+        "source_sum": 89760200
+      },
+      "nFeature_RNA": {
+        "all_cells_equal": false,
+        "differing_cells": 25803,
+        "matching_cells": 20540,
+        "matrix_sum": 194208649,
+        "maximum_matrix_minus_metadata": 64,
+        "minimum_matrix_minus_metadata": 0,
+        "source_sum": 194140189
+      },
+      "nFeature_SCT": {
+        "all_cells_equal": false,
+        "differing_cells": 45304,
+        "matching_cells": 1039,
+        "matrix_sum": 194208649,
+        "maximum_matrix_minus_metadata": 10995,
+        "minimum_matrix_minus_metadata": -160,
+        "source_sum": 46282529
+      }
+    },
+    "raw_RNA_count_input_qualified": true,
+    "retained_cells": 46343,
+    "retained_count_total": 1128543232,
+    "retained_feature_count": 36601,
+    "retained_positive_entries": 194208649,
+    "selected_cell_global_count_summary": {
+      "maximum": 366823.0,
+      "median": 17496.0,
+      "minimum": 500.0,
+      "q25": 7645.0,
+      "q75": 30995.0
+    },
+    "selected_cell_global_feature_summary": {
+      "maximum": 11953.0,
+      "median": 4269.0,
+      "minimum": 220.0,
+      "q25": 2572.0,
+      "q75": 5739.0
+    },
+    "selection": "All and only released merged-metadata cells; complete original feature axis; no newly chosen cell/gene/donor exclusions",
+    "source_count_input_verified": true,
+    "unique_feature_IDs": 36601,
+    "unique_source_gene_labels": 36591,
+    "work_artifacts": [
+      {
+        "bytes": 770152,
+        "file": "raw-rna-pseudobulk.tsv.gz",
+        "git_policy": "ignored work only",
+        "sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+      },
+      {
+        "bytes": 1479227,
+        "file": "raw-rna-features.tsv",
+        "git_policy": "ignored work only",
+        "sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+      },
+      {
+        "bytes": 2565,
+        "file": "raw-rna-libraries.tsv",
+        "git_policy": "ignored work only",
+        "sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+      },
+      {
+        "bytes": 888116,
+        "file": "raw-rna-cell-source-joins.tsv.gz",
+        "git_policy": "ignored work only",
+        "sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6"
+      },
+      {
+        "bytes": 44253,
+        "file": "raw-rna-library-audits.json",
+        "git_policy": "ignored work only",
+        "sha256": "6483d713f3033cd2f171a13b28f4227d783cda7a76b487f3fdcda1264be68099"
+      }
+    ],
+    "zero_total_features_in_retained_cells": 7641
+  },
+  "qualification_status": "original_full_RNA_universe_qualified_root_final_freeze_pending",
+  "quantity_validation": {
+    "interpretation": {
+      "SCT_margins_match": true,
+      "caution": "Matching cell sums and nonzero-feature counts identify an assay-consistent quantity, not the exact historical export command. Integer values alone do not prove unnormalized RNA counts.",
+      "margin_only_assessment": true,
+      "raw_RNA_margins_match": false,
+      "raw_count_inference_eligible": false,
+      "status": "SCT_assay_margins_match_not_raw_RNA"
+    },
+    "nCount_RNA": {
+      "all_cells_equal": false,
+      "differing_cells": 46270,
+      "matching_cells": 73,
+      "matrix_sum": 89760200,
+      "maximum_matrix_minus_metadata": 913,
+      "minimum_matrix_minus_metadata": -365071,
+      "source_sum": 1128472969
+    },
+    "nCount_SCT": {
+      "all_cells_equal": true,
+      "differing_cells": 0,
+      "matching_cells": 46343,
+      "matrix_sum": 89760200,
+      "maximum_matrix_minus_metadata": 0,
+      "minimum_matrix_minus_metadata": 0,
+      "source_sum": 89760200
+    },
+    "nFeature_RNA": {
+      "all_cells_equal": false,
+      "differing_cells": 45214,
+      "matching_cells": 1129,
+      "matrix_sum": 46282529,
+      "maximum_matrix_minus_metadata": 160,
+      "minimum_matrix_minus_metadata": -10962,
+      "source_sum": 194140189
+    },
+    "nFeature_SCT": {
+      "all_cells_equal": true,
+      "differing_cells": 0,
+      "matching_cells": 46343,
+      "matrix_sum": 46282529,
+      "maximum_matrix_minus_metadata": 0,
+      "minimum_matrix_minus_metadata": 0,
+      "source_sum": 46282529
+    }
+  },
+  "raw_RNA_count_input_qualified": true,
+  "ready_for_raw_count_inference": false,
+  "remaining_provenance_limits": [
+    "Historical nCount_RNA/nFeature_RNA feature universe not reproduced; complete original feature axis retained without guessing a filter",
+    "Exact reference/annotation release and executed export commands unavailable in inspected sources",
+    "Exact age/sex/source-site/cirrhosis crosswalk for the eight sequenced donors not independently established",
+    "Source library captures a donor-treatment culture; independent clone/well pooling and randomization are not fully specified",
+    "Root prospective analysis freeze required before any gene effects"
+  ],
+  "root_freeze_required": true,
+  "schema_version": 1,
+  "software": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "script": "scripts/qualify_psc_organoid_inputs.py",
+    "script_sha256": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e",
+    "tests": "tests/test_psc_organoid_inputs.py",
+    "tests_sha256": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+  },
+  "source_manifest": {
+    "path": "data/raw/psc-organoid-il17/source-manifest.json",
+    "sha256": "2965b69fdfb1595ef20e73775d5d77b856e813ab418803f670d7a9ee351e9c68"
+  },
+  "sources": [
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 4265,
+      "copied_from": "data/raw/public-data-discovery-options/GSE239283-series.txt",
+      "file": "GSE239283-series.txt",
+      "retrieved_at_utc": "2026-09-15T22:27:26.392999+00:00",
+      "sha256": "9d4272909db6033ceac85315ebfaa68bcd4db96b4e5047bf521eb474a7f8cfc2",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239283&targ=self&form=text&view=full"
+    },
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 4473,
+      "copied_from": "data/raw/public-data-discovery-options/GSE239283-family.soft.gz",
+      "file": "GSE239283-family.soft.gz",
+      "retrieved_at_utc": "2026-09-15T22:27:52.211315+00:00",
+      "sha256": "c403f41250c2320bc70f258037081004ece5c3770064252fc3b1390b9c9f1d40",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/soft/GSE239283_family.soft.gz"
+    },
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 2239262,
+      "copied_from": "data/raw/public-data-discovery-options/GSE239283-organoid-metadata.tsv.gz",
+      "file": "GSE239283_extrahepatic_organoids_metadata.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T22:35:28.035108+00:00",
+      "sha256": "319739ce31587080c69f3892304281b701daf1bae7089b6974b1182312bf0ace",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_metadata.tsv.gz"
+    },
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 135583,
+      "copied_from": "data/raw/public-data-discovery-options/PMC11150034.xml",
+      "file": "PMC11150034.xml",
+      "retrieved_at_utc": "2026-09-15T22:30:14.166042+00:00",
+      "sha256": "6903bd9b6f603375d934c1208aa11a6d834f675da9d9a05a8270fa1219f228d6",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11150034/fullTextXML"
+    },
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 1280,
+      "copied_from": "data/raw/public-data-discovery-options/GSE239283-suppl-listing.html",
+      "file": "GSE239283-suppl-listing.html",
+      "retrieved_at_utc": "2026-09-15T22:29:45.627177+00:00",
+      "sha256": "6459f4f0c2ac100dbf17b0ec46758806767841e882f3d4808f502237d6a51fa2",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/"
+    },
+    {
+      "acquisition": "complete_GET",
+      "bytes": 135599,
+      "file": "GSE239283_extrahepatic_organoids_genes.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:11.787906+00:00",
+      "sha256": "b3f1b4c141d90c7d6445484fc312db7c2c4efc39f5f712ca3cc40ca10ae53f96",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_genes.tsv.gz"
+    },
+    {
+      "acquisition": "complete_GET",
+      "bytes": 219359,
+      "file": "GSE239283_extrahepatic_organoids_barcodes.tsv.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:12.020989+00:00",
+      "sha256": "5691998ebcd984ff169bab1340dfeadb9de2de66d0a1d6ec772f8c220afc5ce9",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_barcodes.tsv.gz"
+    },
+    {
+      "acquisition": "complete_GET",
+      "bytes": 142381971,
+      "file": "GSE239283_extrahepatic_organoids_matrix.mtx.gz",
+      "retrieved_at_utc": "2026-09-15T23:41:14.328392+00:00",
+      "sha256": "48ff435b1e6ac6374932fe8a38953b925b6f6c1fbd9875296b772ef983b38b9c",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_extrahepatic_organoids_matrix.mtx.gz"
+    },
+    {
+      "acquisition": "complete_GET",
+      "bytes": 3674,
+      "file": "filelist.txt",
+      "retrieved_at_utc": "2026-09-15T23:50:00.564168+00:00",
+      "sha256": "0ba40aef7dc8c3ffba10a493da2febaeb73281083f447feb0ec44ea5e6166efb",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/filelist.txt"
+    },
+    {
+      "acquisition": "verified_cache_copy",
+      "bytes": 3961515,
+      "copied_from": "work/psc-organoid-inputs/methods/A900-methods.docx",
+      "file": "A900-methods.docx",
+      "request_url": "https://links.lww.com/HC9/A900",
+      "retrieved_at_utc": "2026-09-15T23:41:39.298338+00:00",
+      "sha256": "b839464e46e3e74ce8bd03168c11b6736271e0df0ff6bb3e0bcde0e6ae39d69a",
+      "url": "https://links.lww.com/HC9/A900"
+    },
+    {
+      "acquisition": "complete_GET",
+      "bytes": 730408960,
+      "file": "GSE239283_RAW.tar",
+      "retrieved_at_utc": "2026-09-15T23:50:55.565035+00:00",
+      "sha256": "eaac0234ea17cc610464385b81453a7322c610f410a8456482514e0b3288551b",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239283/suppl/GSE239283_RAW.tar"
+    }
+  ],
+  "stage": "source qualification only",
+  "study": "GSE239283",
+  "validation": {
+    "independent_verification": {
+      "algorithm": {
+        "barcode_join": "Independent GEO and CSV parsing; reconstruct full original barcode plus its one source-library technical merge suffix, then exact-match released metadata",
+        "gzip_EOF": "Explicit remainder read after mmread and complete CSV iteration for metadata/axes",
+        "matrix_reader": "scipy.io.mmread",
+        "parent_implementation_imported": false,
+        "per_cell_detected_features": "difference of canonical CSC column pointers; every stored count verified positive",
+        "per_cell_total": "CSC column sum with int64",
+        "pseudobulk": "integer sparse matrix @ independently reconstructed retained-cell indicator",
+        "storage": "one library at a time, converted to CSC",
+        "thread_limit": 1
+      },
+      "comparison_counts": {
+        "feature_axis_fields": 1756848,
+        "library_numeric_summary_fields": 128,
+        "matrix_audit_fields": 128,
+        "pseudobulk_count_values": 585616,
+        "retained_cell_join_identity_fields": 278058,
+        "retained_cell_original_matrix_positive_features": 46343,
+        "retained_cell_original_matrix_totals": 46343,
+        "retained_cell_source_RNA_literal_fields": 92686
+      },
+      "comparison_mismatches": {
+        "feature_axis_fields": 0,
+        "library_numeric_summary_fields": 0,
+        "matrix_audit_fields": 0,
+        "pseudobulk_count_values": 0,
+        "retained_cell_join_identity_fields": 0,
+        "retained_cell_original_matrix_positive_features": 0,
+        "retained_cell_original_matrix_totals": 0,
+        "retained_cell_source_RNA_literal_fields": 0
+      },
+      "current_compared_artifact_pins_verified": true,
+      "pseudobulk_count_values": 585616,
+      "receipt": "work/psc-organoid-inputs/methods/independent-verification.json",
+      "receipt_sha256": "bbcf98bd28d600e87415f734c35b2702cf81c2cc4c270bc42816ba6e3728e5f3",
+      "status": "passed",
+      "successful_full_independent_passes": 3,
+      "threadpools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.34.106.0"
+        },
+        {
+          "filepath": "/home/riels/Projects/Personal/psc-research/.venv/lib/python3.12/site-packages/scipy/io/_fast_matrix_market/_fmm_core.cpython-312-x86_64-linux-gnu.so",
+          "internal_api": "scipy_mmio",
+          "num_threads": 1,
+          "prefix": "_fmm_core",
+          "user_api": "scipy",
+          "version": "dev"
+        }
+      ],
+      "total_comparisons": 2806150,
+      "total_mismatches": 0
+    },
+    "no_environment_changes": true,
+    "offline_replay": {
+      "artifact_comparison": [
+        {
+          "file": "features.tsv",
+          "identical": true,
+          "primary_sha256": "0a26cebf255cf41c0b812431fe209d7cd30e0eadd2b1e7ab8b47c1702d284c48",
+          "replay_sha256": "0a26cebf255cf41c0b812431fe209d7cd30e0eadd2b1e7ab8b47c1702d284c48"
+        },
+        {
+          "file": "released-matrix-library-sums.tsv.gz",
+          "identical": true,
+          "primary_sha256": "f7d884394fa8d534a69089d9990349f1bf452f4445273eae09a34d2315b4223b",
+          "replay_sha256": "f7d884394fa8d534a69089d9990349f1bf452f4445273eae09a34d2315b4223b"
+        },
+        {
+          "file": "libraries.tsv",
+          "identical": true,
+          "primary_sha256": "d4697a3957e86a01674f80edee279682c5cb6ecbae367dd56b2d8ee2416986e1",
+          "replay_sha256": "d4697a3957e86a01674f80edee279682c5cb6ecbae367dd56b2d8ee2416986e1"
+        },
+        {
+          "file": "cell-source-joins.tsv.gz",
+          "identical": true,
+          "primary_sha256": "4f8341d71ec4009daa0475bcfe658e7e43e400eb0363716919fcfe09890bd3ae",
+          "replay_sha256": "4f8341d71ec4009daa0475bcfe658e7e43e400eb0363716919fcfe09890bd3ae"
+        },
+        {
+          "file": "original-GSM-fields.json",
+          "identical": true,
+          "primary_sha256": "6fe13b35f9d829af746bff659267587db8e0cb2a23343ccd1832f4ef323ad938",
+          "replay_sha256": "6fe13b35f9d829af746bff659267587db8e0cb2a23343ccd1832f4ef323ad938"
+        },
+        {
+          "file": "raw-rna-pseudobulk.tsv.gz",
+          "identical": true,
+          "primary_sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb",
+          "replay_sha256": "2c4fe6fb5728ee18e6c0542285f62f2c49efbed518f5822d34ca245c657da4bb"
+        },
+        {
+          "file": "raw-rna-features.tsv",
+          "identical": true,
+          "primary_sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010",
+          "replay_sha256": "b6b1148b3f91de1f9078e49e876485e814b72a963ab45816e3a6673a05b8f010"
+        },
+        {
+          "file": "raw-rna-libraries.tsv",
+          "identical": true,
+          "primary_sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0",
+          "replay_sha256": "d3f0fddf8a269c89ee2af7a54c8a895539b34051cda28d2a0c7ac1b8e54630c0"
+        },
+        {
+          "file": "raw-rna-cell-source-joins.tsv.gz",
+          "identical": true,
+          "primary_sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6",
+          "replay_sha256": "fefbca46d20c435e055055130e8e4813d621bd5102f4a00b5387a06c9c935ed6"
+        },
+        {
+          "file": "raw-rna-library-audits.json",
+          "identical": false,
+          "primary_sha256": "3164941cc6596039f8a58349467f35a40b02b1617c272a699a9e19219ad581a8",
+          "replay_sha256": "6483d713f3033cd2f171a13b28f4227d783cda7a76b487f3fdcda1264be68099"
+        }
+      ],
+      "audit_metadata_change": "Only add margin_only_assessment=true to each library interpretation; no numerical or identity changes. Initial snapshot preserved ignored.",
+      "byte_identical_data_tables": 9,
+      "count_and_numeric_QC_mismatches": 0,
+      "first_chunk_lines": 131072,
+      "replay_chunk_lines": 32771,
+      "status": "passed",
+      "summary_numerical_change": false,
+      "total_data_and_audit_artifacts": 10
+    },
+    "repository_tests": {
+      "command": ".venv/bin/python -m unittest discover -s tests -v",
+      "error_test_names": [
+        "setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+        "setUpClass (test_ets2_sources.TestETS2Sources)",
+        "setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+        "setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+        "test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+        "test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+        "test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+      ],
+      "errors": 7,
+      "log": "work/psc-organoid-inputs/repository-tests.log",
+      "log_sha256": "367465a53a69d3eb61566fb63a8bdb1d752940c776f18c4c2001597fe438f2c4",
+      "missing_dependency_messages": [
+        "FileNotFoundError: [Errno 2] No such file or directory: '/home/riels/Projects/Personal/psc-research/data/raw/ets2-benchmark/ets2-primary-article.xml'",
+        "FileNotFoundError: [Errno 2] No such file or directory: '/home/riels/Projects/Personal/psc-research/data/raw/ets2-benchmark/ets2-public-release.zip'",
+        "FileNotFoundError: [Errno 2] No such file or directory: '/home/riels/Projects/Personal/psc-research/work/ets2-independent-search/GSE84161-family-soft.txt'",
+        "FileNotFoundError: [Errno 2] No such file or directory: '/home/riels/Projects/Personal/psc-research/work/gse84161-normalization/runtime/bin/Rscript'"
+      ],
+      "status": "blocked_by_preexisting_unavailable_inputs",
+      "tests_run": 402
+    },
+    "review_hardening": {
+      "GSM_record_accession_field_conflicts_rejected": true,
+      "conflicting_diagnosis_treatment_passage_fields_rejected": true,
+      "duplicate_GSM_accessions_rejected": true,
+      "duplicate_archive_inventory_entries_rejected": true,
+      "global_cross_library_count_total_uses_Python_integers": true,
+      "note": "Generic hardening did not alter any computed study count, cell identity, or feature row."
+    },
+    "source_numeric_parser_note": "An original nCount_RNA literal 1e+05 is parsed as exact Decimal integer 100000; source string is unchanged. No rounding or correction.",
+    "synthetic_tests": {
+      "command": ".venv/bin/python -m unittest tests.test_psc_organoid_inputs -v",
+      "errors": 0,
+      "log": "work/psc-organoid-inputs/synthetic-tests.log",
+      "log_sha256": "93c6ca09f3224cc22293f21d4529dd00c38b03ad6a2f0c6d43536c98e8c00d78",
+      "status": "passed",
+      "tests_run": 46
+    }
+  },
+  "work_artifacts": [
+    {
+      "bytes": 493561,
+      "file": "features.tsv",
+      "git_policy": "ignored work only",
+      "sha256": "0a26cebf255cf41c0b812431fe209d7cd30e0eadd2b1e7ab8b47c1702d284c48"
+    },
+    {
+      "bytes": 441212,
+      "file": "released-matrix-library-sums.tsv.gz",
+      "git_policy": "ignored work only",
+      "sha256": "f7d884394fa8d534a69089d9990349f1bf452f4445273eae09a34d2315b4223b"
+    },
+    {
+      "bytes": 2122,
+      "file": "libraries.tsv",
+      "git_policy": "ignored work only",
+      "sha256": "d4697a3957e86a01674f80edee279682c5cb6ecbae367dd56b2d8ee2416986e1"
+    },
+    {
+      "bytes": 2371647,
+      "file": "cell-source-joins.tsv.gz",
+      "git_policy": "ignored work only",
+      "sha256": "4f8341d71ec4009daa0475bcfe658e7e43e400eb0363716919fcfe09890bd3ae"
+    },
+    {
+      "bytes": 73883,
+      "file": "original-GSM-fields.json",
+      "git_policy": "ignored work only",
+      "sha256": "6fe13b35f9d829af746bff659267587db8e0cb2a23343ccd1832f4ef323ad938"
+    }
+  ]
+}
