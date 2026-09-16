@@ -19,7 +19,7 @@ Original project code and documentation are licensed under the [MIT License](LIC
 | Branch | Current decision |
 |---|---|
 | **PSC disease data** | Blood and organoid analyses complete. GSE303271 counts qualify with limits; gene/program identity preparation is active. Keep 17 PSC, 17 ASC and 30 AIH separate. |
-| **ETS2 context** | MacroMap methods are under independent review; an executable runner and separate freeze precede real scores. Healthy-derived context is not PSC validation or proof of ETS2 dependence. |
+| **ETS2 context** | The [MacroMap protocol](docs/macromap-program-context-protocol.md) is frozen and its executable runner validated; real analysis is next. Healthy-derived context is not PSC validation or proof of ETS2 dependence. |
 | **Adult liver / new atlas** | GSE159676 is held: six PSC patients sampled twice, mixed-scale values and label conflicts. NoPSC atlas is parked pending a qualified full-count/donor export. See [liver qualification](reports/psc-liver-input-qualification.md). |
 | **BACH2 genotype** | Bounded donor/genotype/count-interface qualification is active; no expression effects or translation validation yet. |
 | **Model / external evidence** | [Current capability audit](reports/model-capabilities-and-psc-use.md) distinguishes public AFDB retrieval from new inference access. PRKD2 covariance/model and UBASH3A complete-product gaps remain. |

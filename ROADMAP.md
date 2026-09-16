@@ -12,7 +12,7 @@ The [blood result](reports/psc-blood-replication.md) remains unchanged: 93 BH co
 
 | Priority | Question or branch | Next substantive action | Limits and prerequisites |
 |---|---|---|---|
-| **1** | ETS2 program stimulus context | Finish independent review/executable runner, freeze MacroMap mapping, training-only matching/scaling, whole-run holdouts and one incremental-loss endpoint; then execute. | Healthy-derived macrophages, not PSC diagnosis or a direct test of ETS2 dependence. No real scores yet. |
+| **1** | ETS2 program stimulus context | Execute the [frozen MacroMap protocol](docs/macromap-program-context-protocol.md), then independently verify and replay the fixed endpoint and full response panel. | Healthy-derived macrophages, not PSC diagnosis or a direct test of ETS2 dependence. No real scores yet. |
 | **2** | Pediatric liver disease-control programs | Reconcile GSE303271 gene identities for externally fixed programs, then freeze PSC–AIH and distinct ASC sensitivities. | 17 PSC / 17 ASC / 30 AIH; whole biopsy, no healthy controls or exact sample-linked clinical/stage adjustment. |
 | **Hold** | Adult liver disease controls | Require corrected source expression or separately authorized raw-array reconstruction before modeling GSE159676. | Six PSC patients with two biopsies each, not 12 independent patients. Mixed-scale values and control/PBC/sarcoidosis label conflicts remain. |
 | **Park** | NoPSC nuclear/spatial atlas | Reopen only for a qualified original-count/full-feature/barcode/donor export. | Modalities and possibly earlier biobank cohorts overlap; browser labels alone are not a usable count matrix. |
@@ -30,7 +30,7 @@ Culture treatment does not randomize disease, age, procurement, history or cultu
 
 ## Next milestone: fixed ETS2 context calibration
 
-[MacroMap source qualification](reports/research-path-review.md) is complete. The methods under review retain complete original-source program memberships, 18 strict non-PIC paired contrasts and a fixed nine-class whole-run held-out comparison. The original ETS2 ZIP is absent; the accepted complete pinned membership-export route is distinct from an atlas-mapped subset. Prediction uses 185 both-time lines (114 SmartSeq2 / 71 NEB), training-only matching/scaling and no model tuning. Conditional fixed-prediction run bootstrap does not estimate full refit uncertainty. Source preparation and synthetic review are not effects.
+[MacroMap source qualification](reports/research-path-review.md) is complete. The frozen methods retain complete original-source program memberships, 18 strict non-PIC paired contrasts and a fixed nine-class whole-run held-out comparison. The original ETS2 ZIP is absent; the accepted complete pinned membership-export route is distinct from an atlas-mapped subset. Prediction uses 185 both-time lines (114 SmartSeq2 / 71 NEB), training-only matching/scaling and no model tuning. Conditional fixed-prediction run bootstrap does not estimate full refit uncertainty. Source preparation and synthetic review are not effects.
 
 The [GSE255234 qualification](reports/ets2-study-qualification.md) resolves H5 as 5 μM heme for 6 h, alongside H10 and LPS, with four paired donors. Its historical full-universe CPM gate remains unpassed. Do not download 73.7 GB of FASTQs merely to bypass that gate. A new released-universe estimand would require its own plan, not a retrospective pass. GSE84161 anonymous donor pairing and actual array-dose provenance also remain separate unresolved inputs.
 

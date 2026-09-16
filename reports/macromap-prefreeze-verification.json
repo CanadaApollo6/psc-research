@@ -1,0 +1,106 @@
+{
+  "code_protocol_lock_preservation": [
+    {
+      "path": "scripts/analyze_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/run_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/verify_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_run_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_verify_macromap_program_context.py",
+      "unchanged": true
+    },
+    {
+      "path": "reports/macromap-program-design.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/macromap-independent-review.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/macromap-program-context-protocol.md",
+      "unchanged": true
+    },
+    {
+      "path": "requirements-psc-blood.lock",
+      "unchanged": true
+    }
+  ],
+  "data_boundary": "Execution artifacts remain ignored. Aggregate publication requires a later results review.",
+  "frozen_at_utc": "2026-09-16T02:22:59.550114+00:00",
+  "full_repository_snapshot": {
+    "command": ".venv/bin/python -m unittest discover -s tests -v",
+    "error_count": 7,
+    "error_headers": [
+      "ERROR: setUpClass (test_ets2_inhibitor_reconstruction.TestETS2InhibitorReconstruction)",
+      "ERROR: setUpClass (test_ets2_sources.TestETS2Sources)",
+      "ERROR: setUpClass (test_gse84161_mapping.TestGSE84161Mapping)",
+      "ERROR: setUpClass (test_gse84161_metadata.TestGSE84161Metadata)",
+      "ERROR: test_check_only_preserves_all_thirty_metadata_ordered_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_check_only_preserves_all_thirty_metadata_ordered_inputs)",
+      "ERROR: test_execute_requires_frozen_input_gate (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_execute_requires_frozen_input_gate)",
+      "ERROR: test_summary_csv_and_entrez_medians_on_synthetic_inputs (test_gse84161_normalization.TestGSE84161NormalizationGuard.test_summary_csv_and_entrez_medians_on_synthetic_inputs)"
+    ],
+    "exit_code": 1,
+    "log_sha256": "56e892ca9ae6fb7f5a369a75869cae70210914b2b52b85147ef4bfbc41310359",
+    "new_macromap_errors": 0,
+    "reported_tests": 637,
+    "same_as_initial_baseline": true,
+    "scope": "Dated working-tree snapshot includes parallel branches, not only this checkpoint."
+  },
+  "independent_guard_assertions": 100,
+  "limits": [
+    "Conditional fixed-OOF uncertainty, not full-procedure refitting uncertainty.",
+    "Bounded raw-to-score audit; all model cells and aggregate predictive endpoints are checked.",
+    "No pooled response CIs and no response-P discovery screen.",
+    "Healthy-derived stimulus-context analysis, not PSC diagnosis, mechanism or clinical outcome."
+  ],
+  "plan_sha256": "7a26c93bde72a7f4ffeb4256da6f06d50e2df1b3a8f69b6da73a9f19bd6127df",
+  "prepared_summary_sha256": "eae76811c5b46388965f4f2c27624e650748b9d7adc216f75bff05b389e1f507",
+  "real_normalization_matching_scores_models_started": false,
+  "recorded_at_utc": "2026-09-16T02:28:49.955856+00:00",
+  "schema_version": 1,
+  "source_only_replay": {
+    "features.csv": true,
+    "fold-gates.json": true,
+    "mapping-inventory.csv": true,
+    "pair-registry.csv": true,
+    "paired-design-aggregate.csv": true,
+    "predictive-pairs.csv": true,
+    "program-mapping.csv": true,
+    "run-folds.csv": true,
+    "sample-map.csv": true,
+    "source-only-readiness.json": true
+  },
+  "status": "frozen_pre_effect_validation_complete",
+  "targeted_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -p \"test*macromap_program_context.py\" -v",
+    "exit_code": 0,
+    "log_sha256": "e25ea451454d2fdce5949a580d2b9fe57e57af8dcb091f0c6845a2b6a2f2f0d9",
+    "tests": 71
+  },
+  "validation_only": {
+    "command": ".venv/bin/python scripts/run_macromap_program_context.py --plan config/macromap-program-context-execution-freeze.json --expected-plan-sha256 7a26c93bde72a7f4ffeb4256da6f06d50e2df1b3a8f69b6da73a9f19bd6127df",
+    "exit_code": 0,
+    "output": {
+      "prepared_summary_sha256": "eae76811c5b46388965f4f2c27624e650748b9d7adc216f75bff05b389e1f507",
+      "real_expression_read": false,
+      "samples": 4698,
+      "stage": "execution_plan_validated_no_expression_read"
+    }
+  }
+}

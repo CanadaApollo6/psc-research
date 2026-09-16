@@ -1,0 +1,288 @@
+{
+  "allowed_mechanical_replay_difference": [
+    "output_directory"
+  ],
+  "analysis_id": "macromap-fixed-program-context-v1",
+  "code_and_protocol_artifacts": [
+    {
+      "bytes": 95724,
+      "path": "scripts/analyze_macromap_program_context.py",
+      "sha256": "cabd1d9c12a6cd0f7f86a74dedf40526fff897b644208da41368abcf571647ef"
+    },
+    {
+      "bytes": 1797,
+      "path": "scripts/run_macromap_program_context.py",
+      "sha256": "dc3f976ee05ee681e98b3cdd6edf1b15e9030d9cd25f47455739486f2adf8a3c"
+    },
+    {
+      "bytes": 64884,
+      "path": "scripts/verify_macromap_program_context.py",
+      "sha256": "31b69fca6bcbe39e9204d3816203b39c5cb96762ef2e56ec9562dede77c71a7a"
+    },
+    {
+      "bytes": 35866,
+      "path": "tests/test_macromap_program_context.py",
+      "sha256": "13e284cedbe32ea231155cdd91cef4ea7c623d183cc6dfc5bd6eec55071d3844"
+    },
+    {
+      "bytes": 15063,
+      "path": "tests/test_run_macromap_program_context.py",
+      "sha256": "048456a3c78b38d043bb4283ee86a634c05c7ddb1963dccd5321ed7e514aca12"
+    },
+    {
+      "bytes": 28170,
+      "path": "tests/test_verify_macromap_program_context.py",
+      "sha256": "80c2492231cb8585a6f0bd431abcd4cb5b8518532427d7a83a45643bd49cb895"
+    },
+    {
+      "bytes": 40161,
+      "path": "reports/macromap-program-design.md",
+      "sha256": "457448c30289ad967e17c47e81f4c4b1af25e3ef9d99b2ad5990d6f2ac84af1d"
+    },
+    {
+      "bytes": 13763,
+      "path": "reports/macromap-independent-review.md",
+      "sha256": "be8b6c5bf773032bb35c999b96baa54f2ef180561d8f5f45b914f01feaedbbc8"
+    },
+    {
+      "bytes": 8962,
+      "path": "docs/macromap-program-context-protocol.md",
+      "sha256": "e15e4df6650f673c621346abc00ef132a445dc7efeb3592ad7ca2ec7b875855e"
+    },
+    {
+      "bytes": 1042,
+      "path": "requirements-psc-blood.lock",
+      "sha256": "3dcc68881cea70bf1c2df974505692d682cc00e30860693ddd133bdc1e1bd4a0"
+    }
+  ],
+  "earlier_milestones_unchanged": [
+    "48c1c2f",
+    "52013ec",
+    "cfe7fef"
+  ],
+  "execute_real_expression": true,
+  "frozen_at_utc": "2026-09-16T02:22:59.550114+00:00",
+  "method_contract": {
+    "audit_schema": "macromap-private-audit-v1",
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 2026091601,
+    "comparators": [
+      "inflammation",
+      "interferon_gamma",
+      "oxidative_stress",
+      "apoptotic_signaling"
+    ],
+    "contract_version": 1,
+    "fold_seed": 20260916,
+    "folds": 5,
+    "gradient_tolerance": 1e-06,
+    "identity_scopes": [
+      "mapped_primary",
+      "all_source_lines_sensitivity"
+    ],
+    "independent_source_check": {
+      "canonical_pair_key": "compact JSON [protocol,run,line,integer_time,stimulus]",
+      "canonical_sample_key": "original sample_id string",
+      "folds": [
+        0
+      ],
+      "full_universe_samples": 8,
+      "heldout_pairs_per_context": 4,
+      "ordering": "sha256(macromap-independent-v1:+canonicalkey)",
+      "programs": [
+        "ets2_g1_dn",
+        "ets2_g1_up",
+        "ets2_g2_dn",
+        "chr21_dn",
+        "inflammation",
+        "interferon_gamma",
+        "oxidative_stress",
+        "apoptotic_signaling",
+        "ets2_g1_dn_without_comparators"
+      ],
+      "protocols": [
+        "Mod_SmartSeq2",
+        "NEB"
+      ],
+      "times": [
+        6,
+        24
+      ],
+      "training_pairs_per_context": 4
+    },
+    "matching_bins": 20,
+    "matching_replicates": 1000,
+    "matching_seed": 20260912,
+    "minimum_training_class_lines": 3,
+    "minimum_training_class_runs": 3,
+    "missing_fit_rule": "all_expected_predictions_required_no_fallback",
+    "normalization_gene_chunk": 256,
+    "pooled_response_mean_interval": false,
+    "pooled_response_median_interval": false,
+    "prediction_uncertainty": "conditional_fixed_OOF_run_bootstrap",
+    "predictive_variants": [
+      "ets2_g1_dn",
+      "ets2_g1_dn_without_comparators"
+    ],
+    "programs": [
+      "ets2_g1_dn",
+      "ets2_g1_up",
+      "ets2_g2_dn",
+      "chr21_dn",
+      "inflammation",
+      "interferon_gamma",
+      "oxidative_stress",
+      "apoptotic_signaling",
+      "ets2_g1_dn_without_comparators"
+    ],
+    "protocol_weights": "fixed_metadata_prediction_line_shares",
+    "protocols": [
+      "Mod_SmartSeq2",
+      "NEB"
+    ],
+    "quantity": "log2(released_58243_feature_CPM+1)",
+    "reference": "equal_line_weight_training_run_matched_controls_only",
+    "response_p_values": false,
+    "ridge_lambda": 0.1,
+    "ridge_maxiter": 2000,
+    "scaling": "equal_line_weight_training_fold_paired_changes_only",
+    "scoring_gene_chunk": 256,
+    "stimuli": [
+      "CIL",
+      "IFNB",
+      "IFNG",
+      "IL4",
+      "LIL10",
+      "MBP",
+      "P3C",
+      "R848",
+      "sLPS"
+    ],
+    "time_weights": [
+      0.5,
+      0.5
+    ],
+    "times": [
+      6,
+      24
+    ]
+  },
+  "output_directory": "work/macromap-design/primary-execution-v1",
+  "pre_effect_validation": {
+    "exact_token_audit_path": "work/macromap-design/exact-count-token-audit.json",
+    "exact_token_audit_sha256": "fbff024ca19d374c6f01876f05add74ebb95f625cb53960f56e30425ce66a3d2",
+    "independent_guard_assertions": 100,
+    "native_exit_code": 0,
+    "native_tests": 71,
+    "real_effects_inspected": false,
+    "source_design_replay_files": 10
+  },
+  "preparation_artifacts": {
+    "features.csv": "2a1bdcbc52ccd0012913b2c0b49a6ca7350c744a53fae699cebbe149ad00e7d3",
+    "fold-gates.json": "e7b07a1168345ec965da3cf08f3e9156e82a8e61a35601ad26e1b32459560e34",
+    "mapping-inventory.csv": "2c8591c32409cb150faa7bb6269e901595c8a7070e75fdabeb961265c68b6b3e",
+    "pair-registry.csv": "42bf7b5b5c180a1ed31d76235f0d4019359933ce3cc2ecb137aba923298c292a",
+    "paired-design-aggregate.csv": "b69c2fe865931d72adc695ba0f7b2f55168766ad3d6d07b09036edbbf12d8fe1",
+    "predictive-pairs.csv": "0c78c1051f02a28d52c9e5e3aafe82fc8fd8ad410607a92191b4e352d086a5f2",
+    "program-mapping.csv": "b206f810daa9d8f058154a19adee26ba6d1dc43c15e6df7e5d19de1b8e20193a",
+    "run-folds.csv": "bbd5355efd7d1faad42ba536aa355ce75af77c911effd8624716b8a8ce4e3bdb",
+    "sample-map.csv": "b97280ec5dda0b9657b8beb108ed046dedf21b9521506ef7785d69d8a019ea1c"
+  },
+  "prepared_directory": "work/macromap-design/preparation-runner-v3",
+  "prepared_summary_sha256": "eae76811c5b46388965f4f2c27624e650748b9d7adc216f75bff05b389e1f507",
+  "publication_scope": "Aggregate outputs only; all line/source joins, expression, models and replay caches remain ignored.",
+  "root_authorized_quantity": "Complete original released 58243-feature count universe, not an asserted historical full counted universe.",
+  "runner_script_sha256": "dc3f976ee05ee681e98b3cdd6edf1b15e9030d9cd25f47455739486f2adf8a3c",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "script_sha256": "cabd1d9c12a6cd0f7f86a74dedf40526fff897b644208da41368abcf571647ef",
+  "source_artifacts": {
+    "config/ets2-benchmark-sources.json": {
+      "bytes": 1422,
+      "sha256": "60ca96b13c02931ac14156f76df0caa0632ffadb53386759e8e425018628796a"
+    },
+    "config/ets2-program-plan.json": {
+      "bytes": 10598,
+      "sha256": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9"
+    },
+    "config/ets2-validation-amended-rules.json": {
+      "bytes": 11396,
+      "sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b"
+    },
+    "data/derived/ets2-program-membership.csv": {
+      "bytes": 1669240,
+      "sha256": "b6e468f000802e6f1ec6baa53722e8a7d3e0f98d6df4aa2bb49ef886efc199a3"
+    },
+    "data/derived/ets2-source-gene-sets.csv": {
+      "bytes": 965247,
+      "sha256": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524"
+    },
+    "data/raw/macromap-qualification/MacroMap_raw_expression.header.txt": {
+      "bytes": 109238,
+      "sha256": "59e360723555df694ff50115dfb796465fbfc30347c7fc833fde83126e0408f0"
+    },
+    "data/raw/macromap-qualification/MacroMap_raw_expression.txt.gz": {
+      "bytes": 174122135,
+      "sha256": "eb9dd32b6f25ae9912e47dcc5e1f5170a98af919a42d48a4bca3a680fc5353d9"
+    },
+    "data/raw/macromap-qualification/gene-universe-audit.json": {
+      "bytes": 2327,
+      "sha256": "4aa0ca7f632f9ddfce9a50492a96efc5d4f81eddfdae63bb116cb2294f448f86"
+    },
+    "data/raw/macromap-qualification/matrix-download-receipt.json": {
+      "bytes": 863,
+      "sha256": "82bd72138271f83c922988bf69d25362efdf4e48b568e799ba818eac7a487ba1"
+    },
+    "data/raw/macromap-qualification/matrix-structural-audit.json": {
+      "bytes": 1155,
+      "sha256": "a4e8d73e7cd8628e6218246b7199d2c2bf4a380789770bae0deec239f0bed515"
+    },
+    "data/raw/macromap-qualification/raw-gene-universe.tsv": {
+      "bytes": 2652422,
+      "sha256": "da50bdcaa04f0c6122aa77282673733fefa0f578e19ca802278607238ac1b35c"
+    },
+    "data/raw/macromap-qualification/worker-methods/expression-header-sample-map.csv": {
+      "bytes": 736731,
+      "sha256": "0fa1b2cf5c0cd61c2bfb03bec722aafacd1fa7f7df2f1c3fd303dee86f37165b"
+    },
+    "data/raw/macromap-qualification/worker-methods/github_gencode_v27_annotation.body": {
+      "bytes": 3079419,
+      "sha256": "db11e855d959656bc3a25de65460ae12368ca13b1ae1a5493973f6ea433bdf41"
+    },
+    "data/raw/macromap-qualification/worker-methods/publication_eqtl_fulltext_xml.body": {
+      "bytes": 137743,
+      "sha256": "d3f69f885db807ff964f9158c7b7f581bea649225d6c76a37e4d3ef34f38cb8f"
+    },
+    "data/raw/macromap-qualification/worker-methods/publication_eqtl_supp11_lines.body": {
+      "bytes": 526439,
+      "sha256": "97805429aaf777d8d13f625375a0dee124f130a2499fd6237bec279295bd89d8"
+    },
+    "data/raw/macromap-qualification/worker-methods/sample-metadata.csv": {
+      "bytes": 798498,
+      "sha256": "b6f20190d43c7918f0dc31f19a26fec8020058c744fac66444991fabc1845987"
+    },
+    "data/raw/macromap-qualification/worker-methods/source-ledger.json": {
+      "bytes": 33437,
+      "sha256": "7e6a7c818e938ad889515710b1d417dba19598d896447ab47c7b1ed584ecfd79"
+    },
+    "reports/ets2-program-audit.json": {
+      "bytes": 37753,
+      "sha256": "c2589587f3f217d44623c52db9787d8c8d71834fbf1f070799235d42a993d69a"
+    },
+    "scripts/analyze_ets2_program.py": {
+      "bytes": 87516,
+      "sha256": "7e7c73fab9f4bef31f535f4a3fb8bfbff2d9642b473542533a42aa15c2be6092"
+    }
+  },
+  "status": "frozen",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  }
+}
