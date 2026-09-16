@@ -1,0 +1,150 @@
+{
+  "allowed_real_operations_after_checkpoint": [
+    "One native primary into the exact fresh primary destination",
+    "Independent full source/native-output audit under separate explicit root real-audit acknowledgment and actual completion hash",
+    "Mechanical replay with the identical plan; only fresh output-directory argument changes",
+    "Authenticated complete-output comparison and aggregate-only reporting; no additional scientific choices"
+  ],
+  "analysis_id": "GSE303271-fixed-programs",
+  "approved_at_utc": "2026-09-16T06:28:11.183618+00:00",
+  "approver_role": "root",
+  "checkpoint_required_before_first_real_command": true,
+  "compiled_programs_canonical_sha256": "17a291f47fbb0ec0e815ac2f592ba4d0f657f3f5e3cbe4689dae5ecc44c90698",
+  "native_plan": {
+    "path": "config/psc-liver-program-freeze.json",
+    "sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d"
+  },
+  "pre_effect_evidence": {
+    "actual_protected_payload_open_attempts_in_root_method_source_and_adapter_checks": 0,
+    "adapter_additional_independent_probes": 15,
+    "frozen_author_and_adapter_source_only_compatibility": "pass",
+    "native_adapter_root_tests": 74,
+    "no_real_values_at_freeze": true,
+    "primary_method_root_tests": 170
+  },
+  "primary_output": "work/psc-liver-program-plan/runs/primary-v1",
+  "private_source_metadata_code_runtime_ledger": {
+    "expected_expression_payload_count": 2,
+    "path": "work/psc-liver-program-root-freeze-v1/private-seal-ledger.json",
+    "sealed_file_count": 73,
+    "sha256": "006ecb2e66020aea9cd6bdb80d0224e415cda43865a68cd6f24aa2b0e66a9eeb"
+  },
+  "public_code_protocol_and_configuration_seals": [
+    {
+      "bytes": 853,
+      "path": ".gitignore",
+      "sha256": "dc509753817813b5b66e04adb35767ea56f1a3ae7a305c4985a3d977121ed81e"
+    },
+    {
+      "bytes": 9247,
+      "path": "config/psc-liver-program-freeze.json",
+      "sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d"
+    },
+    {
+      "bytes": 21860,
+      "path": "config/psc-liver-program-verification-contract.json",
+      "sha256": "af87402ee46bee56751f8acbc54bdf932d92db0924b434bf588666868bb53785"
+    },
+    {
+      "bytes": 15387,
+      "path": "docs/psc-liver-program-protocol.md",
+      "sha256": "a36faad8bffee1e5f4f0789c8ce77827e1378477751c7e9e29ecd6bb1d3dcf90"
+    },
+    {
+      "bytes": 9803,
+      "path": "reports/psc-liver-program-execution-verification-design.md",
+      "sha256": "4c2550b6e92ef5b0e02db26ff90d9c29b6c646eb10034ef771ad743f25d03eef"
+    },
+    {
+      "bytes": 13021,
+      "path": "reports/psc-liver-program-independent-review.md",
+      "sha256": "69f500bb954ea5ff3377683b5dae04b1bd110e783cfb0cc93dc3526fc8b29d6c"
+    },
+    {
+      "bytes": 21040,
+      "path": "reports/psc-liver-program-method-design.md",
+      "sha256": "d703d80a0b17a4d4b05d0202fb5d955bb908ab756d5172055c17ec47598295a8"
+    },
+    {
+      "bytes": 4988,
+      "path": "reports/psc-liver-program-prefreeze-verification.json",
+      "sha256": "f7c78ba9d16bab80e886144aca7f0ba63109bc85f2d0cdd3721aab952a774db1"
+    },
+    {
+      "bytes": 70837,
+      "path": "scripts/analyze_psc_liver_programs.py",
+      "sha256": "f7d5e49d2309c2e21a2ea20d0a7d1b8bda8643e140b0c781db3edafd34fd5ec7"
+    },
+    {
+      "bytes": 42088,
+      "path": "scripts/verify_psc_liver_program_execution.py",
+      "sha256": "34115ac11cf8fb9932f80846afb89d8cfcd04f2543476f1872a765aeeb5c55e1"
+    },
+    {
+      "bytes": 33581,
+      "path": "scripts/verify_psc_liver_programs.py",
+      "sha256": "82403f2cb63ae1eeb7e4f4a1232b21ae6772515d0e1b3ead1ca7397737a62391"
+    },
+    {
+      "bytes": 55396,
+      "path": "tests/test_psc_liver_programs.py",
+      "sha256": "0a0fa5f0c3f454514d22057d63c970a809a548f5a8ef9cdf9106dc1fa8c086a5"
+    },
+    {
+      "bytes": 29205,
+      "path": "tests/test_verify_psc_liver_program_execution.py",
+      "sha256": "3bd9b6f0d387857a96828181e989f9769d0e5347337b0c5616e507078b38bc55"
+    },
+    {
+      "bytes": 26903,
+      "path": "tests/test_verify_psc_liver_programs.py",
+      "sha256": "64fbcfd02c3a7d179d98fdc8f13b37d2160a274db02c7f3ca7cfc871ea5b0edc"
+    }
+  ],
+  "real_audit_acknowledgment": "ROOT_AUTHORIZES_COMPLETE_GSE303271_NATIVE_OUTPUT_AUDIT",
+  "replay_output": "work/psc-liver-program-plan/runs/replay-v1",
+  "runtime": {
+    "environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONHASHSEED": "0"
+    },
+    "executable_sha256": "8f9781a98200d9ecda7e00464e4c64b1327abae788ae8e6979d5c859311410c7",
+    "packages": {
+      "numpy": {
+        "RECORD_sha256": "fe9e8ac7d26074b2c676acf97182490f2448593121adf2b0506f2f285834242d",
+        "verified_installed_file_inventory_sha256": "03859328d3e805c595f2adbd9f9425fda7b3c656e319242cd15579764bb2bdf8",
+        "verified_installed_files": 929,
+        "version": "2.5.3"
+      },
+      "scipy": {
+        "RECORD_sha256": "cda958e21648ffe0b8528473532ef59f89db82bf1fa7d4a9a47161785046e979",
+        "verified_installed_file_inventory_sha256": "3c4f7570ee933daed9399b9214b3a4d52055c2c7456701b8a58c65e9e7e3f3d5",
+        "verified_installed_files": 1433,
+        "version": "1.18.1"
+      }
+    },
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "python": "3.12.14",
+    "python_cache_tag": "cpython-312",
+    "python_full": "3.12.14 (main, Aug 14 2026, 15:34:45) [Clang 22.1.3 ]",
+    "schema_version": 1,
+    "source_expression_inputs_opened": false,
+    "status": "native_runtime_distribution_bytes_verified"
+  },
+  "safety_and_interpretation": [
+    "Fresh ignored outputs only; no reuse/aliases/symlinks/source overwrite.",
+    "Rehash the entire outer seal before and after operations; real payload byte verification occurs only under this fixed execution permission.",
+    "Do not change scientific choices, source members, thresholds, code or pins after effects. Failed input/numerical gates are reported, not rescued.",
+    "The native completion field root_freeze_written=false means the native writer did not create this external root freeze; it does not mean no root freeze exists.",
+    "Only validated aggregate projections may be published. All unit/source joins, counts, scores, totals, bootstrap arrays and individual omissions stay private.",
+    "Computational verification is not biological replication, proof of TF/fibrosis activity, causal identification or clinical evidence.",
+    "Close the fixed liver branch after verification/replay/reporting regardless of result."
+  ],
+  "schema_version": 1,
+  "scientific_scope": "One fixed10-program unsigned/as-source panel, Core30hypotheses/Strict30sensitivity rows; focal ETS2gRNA1-down PSC-minus-AIH. Held epithelial IL17 response not answered.",
+  "status": "prospectively_frozen_before_real_expression"
+}

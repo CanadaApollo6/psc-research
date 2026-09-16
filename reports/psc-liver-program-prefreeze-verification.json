@@ -1,0 +1,107 @@
+{
+  "actual_expression_execution_or_real_run_verification_in_this_receipt": false,
+  "agreement_criteria": {
+    "absolute_tolerance_other_finite_floats": 1e-12,
+    "additional_invariants": [
+      "available probabilities in (0,1]",
+      "finite-positive variance and standard error strictly positive",
+      "missing correction P and private q placeholders exactly1",
+      "outside-contrast saved native statistics exact baseline copies; delta exactly0",
+      "no negative unsigned scores or reversed intervals"
+    ],
+    "counts_library_totals_axes_statuses_inventory_RNG": "exact",
+    "real_values_accessed": false,
+    "reason": "Independent child probes found global absolute tolerance could hide domain-invalid tiny numbers. Frozen math is unchanged.",
+    "relative_only_fields": [
+      "p_raw",
+      "p_for_correction",
+      "q_bh",
+      "q_by",
+      "variance_a",
+      "variance_b",
+      "standard_error",
+      "degrees_of_freedom",
+      "p_vector_for_correction",
+      "q_bh_numeric_including_placeholders",
+      "q_by_numeric_including_placeholders"
+    ],
+    "relative_tolerance": 1e-10,
+    "stage": "pre_effect_criteria_clarification"
+  },
+  "compiled_programs_canonical_sha256": "17a291f47fbb0ec0e815ac2f592ba4d0f657f3f5e3cbe4689dae5ecc44c90698",
+  "does_not_fulfill_held_epithelial_IL17_transfer": true,
+  "limits": [
+    "Source/synthetic method acceptance is not execution permission or biological evidence.",
+    "Root must separately seal the native plan, sources, runtime, code, protocol and auditor before real values.",
+    "Shared NumPy RNG and SciPy distributions are not independent statistical-library implementations.",
+    "Source-patient independence is an explicit article-supported assumption, not a verified person/visit crosswalk.",
+    "Whole-biopsy composition/clinical/batch confounding and held IL17 response remain unresolved.",
+    "No whole-repository clean-test claim; seven historical fixture/environment errors remain recorded elsewhere."
+  ],
+  "native_output_adapter": {
+    "adapter_sha256": "34115ac11cf8fb9932f80846afb89d8cfcd04f2543476f1872a765aeeb5c55e1",
+    "additional_independent_probes": 15,
+    "artificial_check_scope": {
+      "bootstrap_differences_compared": 600000,
+      "bootstrap_interval_status_rows_checked": 60,
+      "core_correction_vector_length": 30,
+      "endpoint_rows_checked": 60,
+      "full_library_totals_compared": 64,
+      "native_logcpm_matrix_comparison": "not_available_not_claimed",
+      "private_omissions_checked": 3840,
+      "public_omission_summaries_checked": 60,
+      "raw_source_cells_and_cache_values_compared": 2630144,
+      "score_values_compared": 1280,
+      "score_vectors_checked": 20,
+      "shared_rng_indices_compared": 640000,
+      "source_columns_checked": 64,
+      "source_rows_checked": 41096,
+      "structured_scalar_checks": 748681,
+      "unavailable_core_p_values_checked": 3,
+      "unavailable_score_vectors_checked": 0
+    },
+    "complete_artificial_fixture_dimensions": [
+      41096,
+      64
+    ],
+    "independent_test_replay": 74,
+    "metadata_only_default_passed": true,
+    "native_logCPM_matrix_comparison": "not_saved_not_claimed",
+    "pre_effect_acceptance_sha256": "c4c109e9d983cd951bdbd3848bad00f5dff253a9a2d3458a8230b965af186572",
+    "root_native_tests_passed": 74,
+    "root_pre_effect_acceptance_sha256": "508949b5a0504a83b16f95a8e17dc1dc359085b07abd8926bdcac655f7186e16",
+    "root_real_protected_payload_open_attempts": 0,
+    "synthetic_aggregate_receipt_replay_byte_identical": true,
+    "tests_sha256": "3bd9b6f0d387857a96828181e989f9769d0e5347337b0c5616e507078b38bc55",
+    "verification_contract_sha256": "af87402ee46bee56751f8acbc54bdf932d92db0924b434bf588666868bb53785"
+  },
+  "primary_method": {
+    "accepted_review_sha256": "a3b12cf8735a99cdf82440a6ea52fa96b62a1c7d9b046d96a2ea7e41f7927055",
+    "author_tests": 109,
+    "independent_tests": 61,
+    "real_raw_or_count_cache_open_attempts": 0,
+    "root_method_acceptance_sha256": "63e512bc48ac145835af8e1ae9e8214d3ac1db65517a0aaa4f55a185377a1b78",
+    "root_native_tests_passed": 170,
+    "source_only_replay_corresponding_files_byte_identical": 3
+  },
+  "privacy": {
+    "all_actual_source_units_counts_scores_totals_omissions_and_bootstrap_arrays_private": true,
+    "public_configuration_and_this_receipt_contain_no_individual_scientific_values": true,
+    "real_unit_identity_tokens_checked_against_public_contract": true
+  },
+  "question": "Fixed10unsigned/as-source programs x3contrasts in64sourcepatient-samples; focal ETS2gRNA1-down PSC-minus-AIH; complete30Corehypotheses",
+  "recorded_at_utc": "2026-09-16T06:26:46.183945+00:00",
+  "schema_version": 1,
+  "source_counts": {
+    "AIH": 30,
+    "ASC": 17,
+    "Core_hypotheses": 30,
+    "PSC": 17,
+    "endpoint_status_rows": 60,
+    "programs": 10,
+    "released_rows": 41096,
+    "source_patient_samples": 64,
+    "tiers": 2
+  },
+  "status": "accepted_pre_effect_method_source_and_native_audit_design"
+}

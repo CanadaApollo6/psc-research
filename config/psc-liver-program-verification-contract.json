@@ -1,0 +1,611 @@
+{
+  "accepted_review_pin": {
+    "bytes": 15157,
+    "path": "work/psc-liver-program-independent-review/accepted-review.json",
+    "sha256": "a3b12cf8735a99cdf82440a6ea52fa96b62a1c7d9b046d96a2ea7e41f7927055"
+  },
+  "cache_pin": {
+    "bytes": 21041280,
+    "path": "work/psc-liver-qualification/GSE303271-submitted-float64.npy",
+    "sha256": "4a19908237dfaeb2f6c713fd6c7f60743d9b31b556a643c9c0dfcab7159003d7"
+  },
+  "compiled_sha256": "17a291f47fbb0ec0e815ac2f592ba4d0f657f3f5e3cbe4689dae5ecc44c90698",
+  "contrasts": [
+    [
+      "PSC_minus_AIH",
+      "PSC",
+      "AIH"
+    ],
+    [
+      "PSC_minus_ASC",
+      "PSC",
+      "ASC"
+    ],
+    [
+      "ASC_minus_AIH",
+      "ASC",
+      "AIH"
+    ]
+  ],
+  "external_audit_sha256": "b0d444b9ff4399a5e8088d3464c1f577d2d6736e070298e887358f71d0fa7fd6",
+  "feature_audit_path": "work/psc-liver-program-inputs/feature-identifier-audit.json",
+  "fixed_plan_fields": {
+    "analysis_id": "GSE303271-fixed-programs",
+    "contrast_order": [
+      [
+        "PSC_minus_AIH",
+        "PSC",
+        "AIH"
+      ],
+      [
+        "PSC_minus_ASC",
+        "PSC",
+        "ASC"
+      ],
+      [
+        "ASC_minus_AIH",
+        "ASC",
+        "AIH"
+      ]
+    ],
+    "dataset": {
+      "accession": "GSE303271",
+      "groups": {
+        "AIH": 30,
+        "ASC": 17,
+        "PSC": 17
+      },
+      "matrix_pin": {
+        "bytes": 21041280,
+        "path": "work/psc-liver-qualification/GSE303271-submitted-float64.npy",
+        "sha256": "4a19908237dfaeb2f6c713fd6c7f60743d9b31b556a643c9c0dfcab7159003d7"
+      },
+      "raw_matrix_pin": {
+        "path": "data/raw/psc-liver-qualification/GSE303271_raw_counts.txt.gz",
+        "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046"
+      },
+      "shape": [
+        41096,
+        64
+      ]
+    },
+    "decisions": {
+      "bootstrap": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "external_target_exclusion": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "normalization": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "omissions": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "panel": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "score_orientation": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "source_patient_sample_independence": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      },
+      "zero_variance": {
+        "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+        "status": "approved"
+      }
+    },
+    "does_not_fulfill_held_IL17_response_transfer": true,
+    "external_candidates": [
+      {
+        "name": "epithelial_il17a_alone_response",
+        "not_an_empty_endpoint": true,
+        "original_source_members": null,
+        "status": "HOLD_no_qualified_source"
+      }
+    ],
+    "identity": {
+      "primary": "exact_symbol_ensembl_bijection",
+      "sensitivity": "plus_reciprocal_entrez"
+    },
+    "implementation_pins": [
+      {
+        "path": "scripts/analyze_psc_liver_programs.py",
+        "sha256": "f7d5e49d2309c2e21a2ea20d0a7d1b8bda8643e140b0c781db3edafd34fd5ec7"
+      },
+      {
+        "path": "tests/test_psc_liver_programs.py",
+        "sha256": "0a0fa5f0c3f454514d22057d63c970a809a548f5a8ef9cdf9106dc1fa8c086a5"
+      }
+    ],
+    "method": {
+      "bootstrap": {
+        "bit_generator": "PCG64",
+        "group_order": [
+          "PSC",
+          "ASC",
+          "AIH"
+        ],
+        "joint_across_endpoints_tiers_contrasts": true,
+        "p_values": false,
+        "quantile_method": "linear",
+        "replicates": 10000,
+        "retain_constant_draws": true,
+        "seed": 2026091602,
+        "within_group_order": "original_source_column_order"
+      },
+      "companion_inversion": false,
+      "confidence": 0.95,
+      "coverage": {
+        "fraction_denominator": 5,
+        "fraction_numerator": 4,
+        "minimum_mapped_total": 10,
+        "nonoverlap_parent_gate": true
+      },
+      "cpm_scale": 1000000,
+      "expression_filter": false,
+      "external_target_exclusion": "none_unless_separate_root_amendment",
+      "learned_weights": false,
+      "multiplicity": {
+        "family": "approved_panel_x_three_contrasts",
+        "methods": [
+          "BH",
+          "BY"
+        ],
+        "missing_p_for_correction": 1,
+        "strict_q_values": false,
+        "tier": "exact_symbol_ensembl_bijection",
+        "unavailable_raw_and_q": null
+      },
+      "nonfinite_input_policy": "fail_run",
+      "normalization": "all_released_rows_CPM_then_log2_plus_1",
+      "numeric_inference_failure_policy": "retain_finite_effect_p_ci_df_unavailable",
+      "omissions": {
+        "all_source_units": true,
+        "outside_contrast_unchanged_rows": "private_only",
+        "p_values_are_diagnostics_only": true,
+        "public_stability_units": "in_contrast_only",
+        "recompute_scores": false,
+        "recompute_welch": true,
+        "sign_reversal": "strict_opposite_nonzero_signs"
+      },
+      "pseudocount": 1,
+      "score_orientation": "positive_equal_member_all_ten_programs",
+      "variance_standardization": false,
+      "zero_variance_policy": "welch_if_one_positive"
+    },
+    "panel": [
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 927,
+        "program_id": "ets2_g1_dn",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 668,
+        "program_id": "ets2_g1_up",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 875,
+        "program_id": "ets2_g2_dn",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 141,
+        "program_id": "chr21_dn",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 815,
+        "program_id": "inflammation",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 139,
+        "program_id": "interferon_gamma",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 436,
+        "program_id": "oxidative_stress",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 588,
+        "program_id": "apoptotic_signaling",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "kind": "accepted_legacy",
+        "original_source_members": 927,
+        "program_id": "ets2_g1_dn_without_comparators",
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "accepted_identifier_preparation",
+        "status": "qualified"
+      },
+      {
+        "direction_literals": {
+          "all": "UNSIGNED"
+        },
+        "kind": "external_symbol_csv",
+        "membership_pin": {
+          "bytes": 125834,
+          "path": "data/derived/psc-liver-external-program-membership.csv",
+          "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202"
+        },
+        "original_component_members": {
+          "all": 321
+        },
+        "program_id": "reactome_ecm_organization",
+        "schema_handoff_pin": {
+          "path": "work/psc-liver-external-programs/method-schema-handoff.json",
+          "sha256": "69d7653d5829837eed563cef2c5d22eca1394c03b62a2942909f18fef50e3652"
+        },
+        "score_kind": "unsigned_equal_gene",
+        "source_approval_reference": "agentmsg_8bf94a77-6693-40fa-b017-395f3ce33d56",
+        "source_identifier_namespace": "MSigDB_geneSymbols",
+        "source_manifest_pin": {
+          "path": "config/psc-liver-external-program-sources.json",
+          "sha256": "2428cf428187581d992dc2b507305b259465db6259aec19b8b658614c0773305"
+        },
+        "source_version": "MSigDB2026.1.Hs / Reactome95, M610 / R-HSA-1474244",
+        "status": "qualified",
+        "target_gene_exclusions": []
+      }
+    ],
+    "panel_approved": true,
+    "research_question": "narrower_unsigned_ETS2_comparator_ECM_tissue_context",
+    "root_method_decision_reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+    "root_panel_decision_reference": "agentmsg_8bf94a77-6693-40fa-b017-395f3ce33d56",
+    "schema_version": 1,
+    "software": {
+      "numpy": "2.5.3",
+      "python": "3.12.14",
+      "scipy": "1.18.1"
+    },
+    "unit": {
+      "assumption_approved": true,
+      "independence_status": "article_claim_only_crosswalk_unavailable",
+      "kind": "source_patient_sample",
+      "known_repeat_status": "no_known_repeats_crosswalk_unavailable"
+    }
+  },
+  "groups": {
+    "AIH": 30,
+    "ASC": 17,
+    "PSC": 17
+  },
+  "immutable_pins": {
+    "reports/psc-liver-program-independent-review.md": {
+      "bytes": 13021,
+      "sha256": "69f500bb954ea5ff3377683b5dae04b1bd110e783cfb0cc93dc3526fc8b29d6c"
+    },
+    "reports/psc-liver-program-method-design.md": {
+      "bytes": 21040,
+      "sha256": "d703d80a0b17a4d4b05d0202fb5d955bb908ab756d5172055c17ec47598295a8"
+    },
+    "scripts/analyze_psc_liver_programs.py": {
+      "bytes": 70837,
+      "sha256": "f7d5e49d2309c2e21a2ea20d0a7d1b8bda8643e140b0c781db3edafd34fd5ec7"
+    },
+    "scripts/verify_psc_liver_programs.py": {
+      "bytes": 33581,
+      "sha256": "82403f2cb63ae1eeb7e4f4a1232b21ae6772515d0e1b3ead1ca7397737a62391"
+    },
+    "tests/test_psc_liver_programs.py": {
+      "bytes": 55396,
+      "sha256": "0a0fa5f0c3f454514d22057d63c970a809a548f5a8ef9cdf9106dc1fa8c086a5"
+    },
+    "tests/test_verify_psc_liver_program_execution.py": {
+      "bytes": 29205,
+      "sha256": "3bd9b6f0d387857a96828181e989f9769d0e5347337b0c5616e507078b38bc55"
+    },
+    "tests/test_verify_psc_liver_programs.py": {
+      "bytes": 26903,
+      "sha256": "64fbcfd02c3a7d179d98fdc8f13b37d2160a274db02c7f3ca7cfc871ea5b0edc"
+    },
+    "work/psc-liver-program-independent-review/accepted-review.json": {
+      "bytes": 15157,
+      "sha256": "a3b12cf8735a99cdf82440a6ea52fa96b62a1c7d9b046d96a2ea7e41f7927055"
+    },
+    "work/psc-liver-program-plan/completion-receipt.json": {
+      "bytes": 11398,
+      "sha256": "f0193d643d0614fc585ac96732c2c15f5f483d1995f7411cffc0484a229281ed"
+    }
+  },
+  "method": {
+    "bootstrap": {
+      "bit_generator": "PCG64",
+      "group_order": [
+        "PSC",
+        "ASC",
+        "AIH"
+      ],
+      "joint_across_endpoints_tiers_contrasts": true,
+      "p_values": false,
+      "quantile_method": "linear",
+      "replicates": 10000,
+      "retain_constant_draws": true,
+      "seed": 2026091602,
+      "within_group_order": "original_source_column_order"
+    },
+    "companion_inversion": false,
+    "confidence": 0.95,
+    "coverage": {
+      "fraction_denominator": 5,
+      "fraction_numerator": 4,
+      "minimum_mapped_total": 10,
+      "nonoverlap_parent_gate": true
+    },
+    "cpm_scale": 1000000,
+    "expression_filter": false,
+    "external_target_exclusion": "none_unless_separate_root_amendment",
+    "learned_weights": false,
+    "multiplicity": {
+      "family": "approved_panel_x_three_contrasts",
+      "methods": [
+        "BH",
+        "BY"
+      ],
+      "missing_p_for_correction": 1,
+      "strict_q_values": false,
+      "tier": "exact_symbol_ensembl_bijection",
+      "unavailable_raw_and_q": null
+    },
+    "nonfinite_input_policy": "fail_run",
+    "normalization": "all_released_rows_CPM_then_log2_plus_1",
+    "numeric_inference_failure_policy": "retain_finite_effect_p_ci_df_unavailable",
+    "omissions": {
+      "all_source_units": true,
+      "outside_contrast_unchanged_rows": "private_only",
+      "p_values_are_diagnostics_only": true,
+      "public_stability_units": "in_contrast_only",
+      "recompute_scores": false,
+      "recompute_welch": true,
+      "sign_reversal": "strict_opposite_nonzero_signs"
+    },
+    "pseudocount": 1,
+    "score_orientation": "positive_equal_member_all_ten_programs",
+    "variance_standardization": false,
+    "zero_variance_policy": "welch_if_one_positive"
+  },
+  "plan_paths": [
+    "config/psc-liver-program-plan.json",
+    "config/psc-liver-program-freeze.json",
+    "work/psc-liver-program-plan/proposed-plan.json"
+  ],
+  "raw_pin": {
+    "bytes": 3021812,
+    "path": "data/raw/psc-liver-qualification/GSE303271_raw_counts.txt.gz",
+    "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046"
+  },
+  "required_plan_fields": [
+    "analysis_id",
+    "contrast_order",
+    "dataset",
+    "decisions",
+    "does_not_fulfill_held_IL17_response_transfer",
+    "expected_compiled_programs_sha256",
+    "external_candidates",
+    "identity",
+    "implementation_pins",
+    "independent_review",
+    "method",
+    "panel",
+    "panel_approved",
+    "research_question",
+    "root_authorization",
+    "root_method_decision_reference",
+    "root_panel_decision_reference",
+    "schema_version",
+    "software",
+    "state",
+    "unit"
+  ],
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "schema_version": 1,
+  "shape": [
+    41096,
+    64
+  ],
+  "source_metadata_pins": {
+    ".gitignore": {
+      "bytes": 853,
+      "path": ".gitignore",
+      "sha256": "dc509753817813b5b66e04adb35767ea56f1a3ae7a305c4985a3d977121ed81e"
+    },
+    "config/ets2-program-plan.json": {
+      "bytes": 10598,
+      "path": "config/ets2-program-plan.json",
+      "sha256": "234560f51bc68af2b9f3258af222894e68c9e992c89ba7d2eae396673fb8c9c9"
+    },
+    "config/ets2-validation-amended-rules.json": {
+      "bytes": 11396,
+      "path": "config/ets2-validation-amended-rules.json",
+      "sha256": "cbbaa6e626dad9f494367cf1a8c45c0db270f4c330f9bcd61a72280fe1b8ef6b"
+    },
+    "config/gse84161-gene-map-sources.json": {
+      "bytes": 7879,
+      "path": "config/gse84161-gene-map-sources.json",
+      "sha256": "e1518e126fcd8a61e262ad68afe09e43025c66f2c21d49b26820128ad23c7154"
+    },
+    "config/psc-liver-external-program-sources.json": {
+      "bytes": 18358,
+      "path": "config/psc-liver-external-program-sources.json",
+      "sha256": "2428cf428187581d992dc2b507305b259465db6259aec19b8b658614c0773305"
+    },
+    "data/derived/ets2-program-membership.csv": {
+      "bytes": 1669240,
+      "path": "data/derived/ets2-program-membership.csv",
+      "sha256": "b6e468f000802e6f1ec6baa53722e8a7d3e0f98d6df4aa2bb49ef886efc199a3"
+    },
+    "data/derived/ets2-source-gene-sets.csv": {
+      "bytes": 965247,
+      "path": "data/derived/ets2-source-gene-sets.csv",
+      "sha256": "d700811a139cb0dc012f5af8fe22ced452b4d1f76fe5dabb3afebf7ea61e2524"
+    },
+    "data/derived/gse84161-gene-map.csv.gz": {
+      "bytes": 1328327,
+      "path": "data/derived/gse84161-gene-map.csv.gz",
+      "sha256": "9db59e5c3ccf1c7f70cbc98aa59e08c0b1168e15ce16ee91c8158e3816cf1aab"
+    },
+    "data/derived/psc-liver-external-program-membership.csv": {
+      "bytes": 125834,
+      "path": "data/derived/psc-liver-external-program-membership.csv",
+      "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202"
+    },
+    "data/derived/psc-liver-input-qualification.json": {
+      "bytes": 78519,
+      "path": "data/derived/psc-liver-input-qualification.json",
+      "sha256": "3c10ec1199725c19a3de37a0e532a66dac15b9e106fc11c9973a209760bfa4de"
+    },
+    "data/derived/psc-liver-program-inputs.json": {
+      "bytes": 51522,
+      "path": "data/derived/psc-liver-program-inputs.json",
+      "sha256": "14afd9c313138b39f039876a4b2b67e7e1cefe599340b2ea2e190f4e6914e30a"
+    },
+    "data/derived/psc-organoid-input-qualification.json": {
+      "bytes": 68219,
+      "path": "data/derived/psc-organoid-input-qualification.json",
+      "sha256": "1658188a59a83adcfb059161dbd0daed78fc8938d8335dce8a7fcb0bc9198e99"
+    },
+    "data/raw/psc-liver-external-programs/ecm-scout/01-msigdb-ecm.html": {
+      "bytes": 197895,
+      "path": "data/raw/psc-liver-external-programs/ecm-scout/01-msigdb-ecm.html",
+      "sha256": "0bce8c070ad8e24961cd22fabd57da8cf26161f7ece5d3da49715812ac1895a6"
+    },
+    "data/raw/psc-liver-external-programs/ecm-scout/02-msigdb-ecm.json": {
+      "bytes": 3006,
+      "path": "data/raw/psc-liver-external-programs/ecm-scout/02-msigdb-ecm.json",
+      "sha256": "2046e084f1c36c74cf107c8448d19bb4f47bb2bf37b45b2388fd3d1b837b6540"
+    },
+    "reports/ets2-program-audit.json": {
+      "bytes": 37753,
+      "path": "reports/ets2-program-audit.json",
+      "sha256": "c2589587f3f217d44623c52db9787d8c8d71834fbf1f070799235d42a993d69a"
+    },
+    "reports/gse84161-mapping-audit.json": {
+      "bytes": 35244,
+      "path": "reports/gse84161-mapping-audit.json",
+      "sha256": "dcd792e85681d49fddbac46a02f29c4a9fe617ae4f7657ad77607ac267b8c83c"
+    },
+    "reports/gse84161-normalization-verification.json": {
+      "bytes": 15132,
+      "path": "reports/gse84161-normalization-verification.json",
+      "sha256": "d84273d454da66a9e4c47c517eacd601503e474c3805d2b33d5e3275368edd88"
+    },
+    "reports/psc-liver-input-qualification.md": {
+      "bytes": 14118,
+      "path": "reports/psc-liver-input-qualification.md",
+      "sha256": "179b55b4b62f73467476d7fcb39d47da80dee46c5b3c2da056803f4aa677c3b3"
+    },
+    "reports/psc-liver-program-inputs.md": {
+      "bytes": 15258,
+      "path": "reports/psc-liver-program-inputs.md",
+      "sha256": "7e77ce6439da2df34fc673e7d96519623c0b6fb5fda9e515ef02f5d253c07035"
+    },
+    "reports/psc-organoid-input-qualification.md": {
+      "bytes": 8948,
+      "path": "reports/psc-organoid-input-qualification.md",
+      "sha256": "169814232eda0a03673d993f231aba6851b3f1d0a48f3f2a76f72f7a431733c5"
+    },
+    "scripts/prepare_psc_liver_program_inputs.py": {
+      "bytes": 59189,
+      "path": "scripts/prepare_psc_liver_program_inputs.py",
+      "sha256": "bb7165a4e3138919b92cc06009c3212bf79097c42690e12ff273bbbc97f2b866"
+    },
+    "scripts/qualify_psc_liver_inputs.py": {
+      "bytes": 68464,
+      "path": "scripts/qualify_psc_liver_inputs.py",
+      "sha256": "2e870af8031489d3bb49adf6533fb04f16cb671cf43db7be816154b4c3f88137"
+    },
+    "scripts/qualify_psc_organoid_inputs.py": {
+      "bytes": 81533,
+      "path": "scripts/qualify_psc_organoid_inputs.py",
+      "sha256": "1f1bda0c8c3596e78f72c48858f52ec75acb593c9a834dcdf651ca571451489e"
+    },
+    "tests/test_psc_liver_inputs.py": {
+      "bytes": 15414,
+      "path": "tests/test_psc_liver_inputs.py",
+      "sha256": "24059bd1eb0487b48ee2c9d2af64f77b5cdda7965ad7aa0d5fe17b8e0ef8851e"
+    },
+    "tests/test_psc_liver_program_inputs.py": {
+      "bytes": 19068,
+      "path": "tests/test_psc_liver_program_inputs.py",
+      "sha256": "13cc0064212e7096be0ccb2cfe0f307f82375602c46da57361125bd2e1764f25"
+    },
+    "tests/test_psc_organoid_inputs.py": {
+      "bytes": 19976,
+      "path": "tests/test_psc_organoid_inputs.py",
+      "sha256": "49161257b8049aace73e20bebd7a4a6fb6fc42ebe463bc00cb3b2557ab146b3c"
+    },
+    "work/psc-liver-external-programs/method-schema-handoff.json": {
+      "bytes": 2620,
+      "path": "work/psc-liver-external-programs/method-schema-handoff.json",
+      "sha256": "69d7653d5829837eed563cef2c5d22eca1394c03b62a2942909f18fef50e3652"
+    },
+    "work/psc-liver-program-inputs/feature-identifier-audit.json": {
+      "bytes": 21875165,
+      "path": "work/psc-liver-program-inputs/feature-identifier-audit.json",
+      "sha256": "e469b26496ca7bee552bce9a23d20c5a9a9e2301a22a3bcb6732102efe13d556"
+    },
+    "work/psc-liver-program-inputs/program-coverage.json": {
+      "bytes": 16315,
+      "path": "work/psc-liver-program-inputs/program-coverage.json",
+      "sha256": "091b80c2fb6d9ad3f677232147a642fc9f9aa9b3ed95ea9a33e1e5251382f4e8"
+    },
+    "work/psc-liver-program-inputs/qualified-program-feature-indices.csv": {
+      "bytes": 682694,
+      "path": "work/psc-liver-program-inputs/qualified-program-feature-indices.csv",
+      "sha256": "19d80e6bcca82ebd4d782fde8986fc3aa4699aa3bddd548e0b5c8b9e0ad9de60"
+    },
+    "work/psc-liver-qualification/GSE303271-features-as-submitted.tsv": {
+      "bytes": 554657,
+      "path": "work/psc-liver-qualification/GSE303271-features-as-submitted.tsv",
+      "sha256": "19b297c4c860c1b3fd956fba7c0351159aa17c1d866d51426a91908a7fd623ab"
+    },
+    "work/psc-liver-qualification/GSE303271-sample-source-join.json": {
+      "bytes": 61623,
+      "path": "work/psc-liver-qualification/GSE303271-sample-source-join.json",
+      "sha256": "30427a566b9e857a5f98dfb389eace558bb1a6c088d6da4f8bfaf423f85463f0"
+    }
+  },
+  "synthetic_fixture": false,
+  "unit_source_path": "work/psc-liver-qualification/GSE303271-sample-source-join.json"
+}

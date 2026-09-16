@@ -1,0 +1,290 @@
+{
+  "analysis_id": "GSE303271-fixed-programs",
+  "contrast_order": [
+    [
+      "PSC_minus_AIH",
+      "PSC",
+      "AIH"
+    ],
+    [
+      "PSC_minus_ASC",
+      "PSC",
+      "ASC"
+    ],
+    [
+      "ASC_minus_AIH",
+      "ASC",
+      "AIH"
+    ]
+  ],
+  "dataset": {
+    "accession": "GSE303271",
+    "groups": {
+      "AIH": 30,
+      "ASC": 17,
+      "PSC": 17
+    },
+    "matrix_pin": {
+      "bytes": 21041280,
+      "path": "work/psc-liver-qualification/GSE303271-submitted-float64.npy",
+      "sha256": "4a19908237dfaeb2f6c713fd6c7f60743d9b31b556a643c9c0dfcab7159003d7"
+    },
+    "raw_matrix_pin": {
+      "path": "data/raw/psc-liver-qualification/GSE303271_raw_counts.txt.gz",
+      "sha256": "966be15cf8cd893d0da3ec62d73ee0a56a34932a9d1c990c3d0d58b903a24046"
+    },
+    "shape": [
+      41096,
+      64
+    ]
+  },
+  "decisions": {
+    "bootstrap": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "external_target_exclusion": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "normalization": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "omissions": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "panel": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "score_orientation": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "source_patient_sample_independence": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    },
+    "zero_variance": {
+      "reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+      "status": "approved"
+    }
+  },
+  "does_not_fulfill_held_IL17_response_transfer": true,
+  "expected_compiled_programs_sha256": "17a291f47fbb0ec0e815ac2f592ba4d0f657f3f5e3cbe4689dae5ecc44c90698",
+  "external_candidates": [
+    {
+      "name": "epithelial_il17a_alone_response",
+      "not_an_empty_endpoint": true,
+      "original_source_members": null,
+      "status": "HOLD_no_qualified_source"
+    }
+  ],
+  "identity": {
+    "primary": "exact_symbol_ensembl_bijection",
+    "sensitivity": "plus_reciprocal_entrez"
+  },
+  "implementation_pins": [
+    {
+      "path": "scripts/analyze_psc_liver_programs.py",
+      "sha256": "f7d5e49d2309c2e21a2ea20d0a7d1b8bda8643e140b0c781db3edafd34fd5ec7"
+    },
+    {
+      "path": "tests/test_psc_liver_programs.py",
+      "sha256": "0a0fa5f0c3f454514d22057d63c970a809a548f5a8ef9cdf9106dc1fa8c086a5"
+    }
+  ],
+  "independent_review": {
+    "artifact_pin": {
+      "bytes": 15157,
+      "path": "work/psc-liver-program-independent-review/accepted-review.json",
+      "sha256": "a3b12cf8735a99cdf82440a6ea52fa96b62a1c7d9b046d96a2ea7e41f7927055"
+    },
+    "reference": "reports/psc-liver-program-independent-review.md",
+    "status": "accepted_synthetic_and_guard_review"
+  },
+  "method": {
+    "bootstrap": {
+      "bit_generator": "PCG64",
+      "group_order": [
+        "PSC",
+        "ASC",
+        "AIH"
+      ],
+      "joint_across_endpoints_tiers_contrasts": true,
+      "p_values": false,
+      "quantile_method": "linear",
+      "replicates": 10000,
+      "retain_constant_draws": true,
+      "seed": 2026091602,
+      "within_group_order": "original_source_column_order"
+    },
+    "companion_inversion": false,
+    "confidence": 0.95,
+    "coverage": {
+      "fraction_denominator": 5,
+      "fraction_numerator": 4,
+      "minimum_mapped_total": 10,
+      "nonoverlap_parent_gate": true
+    },
+    "cpm_scale": 1000000,
+    "expression_filter": false,
+    "external_target_exclusion": "none_unless_separate_root_amendment",
+    "learned_weights": false,
+    "multiplicity": {
+      "family": "approved_panel_x_three_contrasts",
+      "methods": [
+        "BH",
+        "BY"
+      ],
+      "missing_p_for_correction": 1,
+      "strict_q_values": false,
+      "tier": "exact_symbol_ensembl_bijection",
+      "unavailable_raw_and_q": null
+    },
+    "nonfinite_input_policy": "fail_run",
+    "normalization": "all_released_rows_CPM_then_log2_plus_1",
+    "numeric_inference_failure_policy": "retain_finite_effect_p_ci_df_unavailable",
+    "omissions": {
+      "all_source_units": true,
+      "outside_contrast_unchanged_rows": "private_only",
+      "p_values_are_diagnostics_only": true,
+      "public_stability_units": "in_contrast_only",
+      "recompute_scores": false,
+      "recompute_welch": true,
+      "sign_reversal": "strict_opposite_nonzero_signs"
+    },
+    "pseudocount": 1,
+    "score_orientation": "positive_equal_member_all_ten_programs",
+    "variance_standardization": false,
+    "zero_variance_policy": "welch_if_one_positive"
+  },
+  "panel": [
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 927,
+      "program_id": "ets2_g1_dn",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 668,
+      "program_id": "ets2_g1_up",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 875,
+      "program_id": "ets2_g2_dn",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 141,
+      "program_id": "chr21_dn",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 815,
+      "program_id": "inflammation",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 139,
+      "program_id": "interferon_gamma",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 436,
+      "program_id": "oxidative_stress",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 588,
+      "program_id": "apoptotic_signaling",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "kind": "accepted_legacy",
+      "original_source_members": 927,
+      "program_id": "ets2_g1_dn_without_comparators",
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "accepted_identifier_preparation",
+      "status": "qualified"
+    },
+    {
+      "direction_literals": {
+        "all": "UNSIGNED"
+      },
+      "kind": "external_symbol_csv",
+      "membership_pin": {
+        "bytes": 125834,
+        "path": "data/derived/psc-liver-external-program-membership.csv",
+        "sha256": "8cf6573a97d01cc8e83558634bf62b6d48d9be015e67f50d15868071c18b7202"
+      },
+      "original_component_members": {
+        "all": 321
+      },
+      "program_id": "reactome_ecm_organization",
+      "schema_handoff_pin": {
+        "path": "work/psc-liver-external-programs/method-schema-handoff.json",
+        "sha256": "69d7653d5829837eed563cef2c5d22eca1394c03b62a2942909f18fef50e3652"
+      },
+      "score_kind": "unsigned_equal_gene",
+      "source_approval_reference": "agentmsg_8bf94a77-6693-40fa-b017-395f3ce33d56",
+      "source_identifier_namespace": "MSigDB_geneSymbols",
+      "source_manifest_pin": {
+        "path": "config/psc-liver-external-program-sources.json",
+        "sha256": "2428cf428187581d992dc2b507305b259465db6259aec19b8b658614c0773305"
+      },
+      "source_version": "MSigDB2026.1.Hs / Reactome95, M610 / R-HSA-1474244",
+      "status": "qualified",
+      "target_gene_exclusions": []
+    }
+  ],
+  "panel_approved": true,
+  "research_question": "narrower_unsigned_ETS2_comparator_ECM_tissue_context",
+  "root_authorization": {
+    "approved_at": "2026-09-16T06:28:11.183618+00:00",
+    "approver_role": "root",
+    "real_execution_authorized": true,
+    "reference": "config/psc-liver-program-execution-seal.json"
+  },
+  "root_method_decision_reference": "agentmsg_d84e9242-be6a-4f66-9ebb-cb9d839f0ca6",
+  "root_panel_decision_reference": "agentmsg_8bf94a77-6693-40fa-b017-395f3ce33d56",
+  "schema_version": 1,
+  "software": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "state": "frozen",
+  "unit": {
+    "assumption_approved": true,
+    "independence_status": "article_claim_only_crosswalk_unavailable",
+    "kind": "source_patient_sample",
+    "known_repeat_status": "no_known_repeats_crosswalk_unavailable"
+  }
+}
