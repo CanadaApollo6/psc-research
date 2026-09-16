@@ -1,0 +1,202 @@
+{
+  "checkpoint_commit": "c1ce7f25934c3797eed4660cfed414749c8b46bf",
+  "compiled_programs_canonical_sha256": "17a291f47fbb0ec0e815ac2f592ba4d0f657f3f5e3cbe4689dae5ecc44c90698",
+  "dataset": {
+    "accession": "GSE303271",
+    "group_sizes": {
+      "AIH": 30,
+      "ASC": 17,
+      "PSC": 17
+    },
+    "healthy_group": false,
+    "independence_status": "article_claim_only_crosswalk_unavailable",
+    "released_rows": 41096,
+    "source_patient_samples": 64
+  },
+  "independent_verification": {
+    "agreement": {
+      "absolute_tolerance": 1e-12,
+      "counts_axes_statuses_inventory_indices": "exact",
+      "relative_only_fields": [
+        "degrees_of_freedom",
+        "p_for_correction",
+        "p_raw",
+        "p_vector_for_correction",
+        "q_bh",
+        "q_bh_numeric_including_placeholders",
+        "q_by",
+        "q_by_numeric_including_placeholders",
+        "standard_error",
+        "variance_a",
+        "variance_b"
+      ],
+      "relative_tolerance": 1e-10
+    },
+    "checks": {
+      "bootstrap_differences_compared": 600000,
+      "bootstrap_interval_status_rows_checked": 60,
+      "core_correction_vector_length": 30,
+      "endpoint_rows_checked": 60,
+      "full_library_totals_compared": 64,
+      "native_logcpm_matrix_comparison": "not_available_not_claimed",
+      "private_omissions_checked": 3840,
+      "public_omission_summaries_checked": 60,
+      "raw_source_cells_and_cache_values_compared": 2630144,
+      "score_values_compared": 1280,
+      "score_vectors_checked": 20,
+      "shared_rng_indices_compared": 640000,
+      "source_columns_checked": 64,
+      "source_rows_checked": 41096,
+      "structured_scalar_checks": 748519,
+      "unavailable_core_p_values_checked": 0,
+      "unavailable_score_vectors_checked": 0
+    },
+    "performed_by_reporter": false,
+    "runtime": {
+      "numpy": "2.5.3",
+      "python": "3.12.14",
+      "scipy": "1.18.1"
+    },
+    "status": "pass_complete_native_output_verification"
+  },
+  "inference": {
+    "Core_corrections": [
+      "BH",
+      "BY"
+    ],
+    "Core_family": 30,
+    "Strict_role": "identity_sensitivity_only_no_discovery_q",
+    "Strict_rows": 30,
+    "intervals": "pointwise_95_percent_not_multiplicity_adjusted",
+    "observed_P_replaced": false,
+    "omission_denominators": {
+      "ASC_minus_AIH": 47,
+      "PSC_minus_AIH": 47,
+      "PSC_minus_ASC": 34
+    },
+    "omission_ranges_are_not_confidence_intervals": true,
+    "unavailable_fields": "null_JSON_empty_CSV_never_zero_filled"
+  },
+  "inputs": {
+    "aggregate": {
+      "bytes": 161191,
+      "path": "work/psc-liver-program-plan/runs/primary-v1/aggregate-public-summary.json",
+      "sha256": "350ee5d1e447b1cab4621595611de99f7a787af40102187ca0377257c9a598d0"
+    },
+    "handoff": {
+      "bytes": 2027,
+      "path": "work/psc-liver-program-root-freeze-v1/root-reporting-handoff.json",
+      "sha256": "d148b76e4e19fc74174fb5c2693cf9caad35ab21483ae224ac251a1364b0397a"
+    },
+    "independent_verification": {
+      "bytes": 3712,
+      "path": "work/psc-liver-program-independent-review/execution-adapter/runs/primary-v1/audit-receipt.json",
+      "sha256": "9a5827803aa44a9124e59bb491d9b9f6d021b1c5fdd79d82cfbed73c1b856004"
+    },
+    "mechanical_replay": {
+      "bytes": 5071,
+      "path": "work/psc-liver-program-root-freeze-v1/root-mechanical-replay-verification.json",
+      "sha256": "00c4e01b10c01f0345933b08bf0a178ba6d94aee8581ac4242f8406c6e6b79e8"
+    },
+    "outer_seal": {
+      "bytes": 6859,
+      "path": "config/psc-liver-program-execution-seal.json",
+      "sha256": "59eb70cb6a539d84799300332c1ece54bf5384e9655d26884dacf06b62df7c53"
+    },
+    "plan": {
+      "bytes": 9247,
+      "path": "config/psc-liver-program-freeze.json",
+      "sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d"
+    },
+    "protocol": {
+      "bytes": 15387,
+      "path": "docs/psc-liver-program-protocol.md",
+      "sha256": "a36faad8bffee1e5f4f0789c8ce77827e1378477751c7e9e29ecd6bb1d3dcf90"
+    },
+    "verification_design": {
+      "bytes": 9803,
+      "path": "reports/psc-liver-program-execution-verification-design.md",
+      "sha256": "4c2550b6e92ef5b0e02db26ff90d9c29b6c646eb10034ef771ad743f25d03eef"
+    }
+  },
+  "limitations": [
+    "Whole-biopsy observational abundance; composition and clinical/technical confounding remain.",
+    "Paper-asserted source-patient independence; no independent person/visit crosswalk.",
+    "No healthy group; no equivalence, generic-inflammation or PSC-cause proof.",
+    "Positive equal-member unsigned means; gRNA1-up not inverted.",
+    "Effects are mean log2(1+CPM) composite differences, not raw fold changes or TF activation.",
+    "ECM: 321 official symbols, Core301/Strict299; unsigned organization, not fibrosis response.",
+    "No cell-intrinsic regulation, induction, clinical recommendation or independent MacroMap confirmation.",
+    "Held epithelial IL17 response-transfer excluded; GSE159676 HOLD and NoPSC PARK."
+  ],
+  "native_completion_sha256": "b3b4e5d35dc48c2fa52604dadc0f45dd6c10f2c7a45567e924935140d49ce524",
+  "native_mechanical_replay": {
+    "actual_hashes_checked": 24,
+    "biological_replication": false,
+    "completion_included": true,
+    "files_byte_identical": 12,
+    "performed_by_reporter": false
+  },
+  "new_statistics": false,
+  "order": {
+    "contrasts": [
+      "PSC_minus_AIH",
+      "PSC_minus_ASC",
+      "ASC_minus_AIH"
+    ],
+    "group_summary_groups": [
+      "PSC",
+      "ASC",
+      "AIH"
+    ],
+    "programs": [
+      "ets2_g1_dn",
+      "ets2_g1_up",
+      "ets2_g2_dn",
+      "chr21_dn",
+      "inflammation",
+      "interferon_gamma",
+      "oxidative_stress",
+      "apoptotic_signaling",
+      "ets2_g1_dn_without_comparators",
+      "reactome_ecm_organization"
+    ],
+    "tiers": [
+      "exact_symbol_ensembl_bijection",
+      "plus_reciprocal_entrez"
+    ]
+  },
+  "outer_seal_preservation": {
+    "reporter_only_rehashed_listed_inputs": true,
+    "reporter_rehashed_all_73": false,
+    "root_handoff_attests_unchanged": 73
+  },
+  "privacy": {
+    "bounded_to_source_aggregate_sha256": "350ee5d1e447b1cab4621595611de99f7a787af40102187ca0377257c9a598d0",
+    "recursive_snapshot_schema_validated_before_projection": true,
+    "reporter_opened_source_unit_identifiers": false,
+    "root_handoff_source_identity_token_hits": 0,
+    "universal_privacy_guarantee": false
+  },
+  "reporting_artifacts": {
+    "design": {
+      "bytes": 11671,
+      "path": "reports/psc-liver-program-reporting-design.md",
+      "sha256": "31a2a187728384f0c637f7fca64b987978eab5c63b4d3c94611c8791f6e6569c"
+    },
+    "reporter": {
+      "bytes": 54839,
+      "path": "scripts/report_psc_liver_programs.py",
+      "sha256": "2c502da9107deacab445df7f2e81d0496e0e479c4875e8bf4509df11bc892fba"
+    },
+    "tests": {
+      "bytes": 26459,
+      "path": "tests/test_report_psc_liver_programs.py",
+      "sha256": "72942df8c321db4ad6217e6268104dcc953f1dd034c892bbcf01b5a3f1f9ea99"
+    }
+  },
+  "root_freeze_written_false_means": "native_writer_did_not_create_external_root_freeze",
+  "schema_version": 1,
+  "scientific_rerun": false,
+  "status": "authenticated_aggregate_projection_only"
+}

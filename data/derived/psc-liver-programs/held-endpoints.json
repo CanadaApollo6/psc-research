@@ -1,0 +1,26 @@
+{
+  "held_endpoint": {
+    "name": "epithelial_il17a_alone_response",
+    "not_an_empty_endpoint": true,
+    "original_source_members": null,
+    "status": "HOLD_no_qualified_source"
+  },
+  "held_endpoint_has_no_score_or_test": true,
+  "not_zero_or_empty_endpoint": true,
+  "other_sources": [
+    {
+      "name": "GSE159676",
+      "status": "expression_HOLD"
+    },
+    {
+      "name": "NoPSC_atlas",
+      "status": "PARK"
+    }
+  ],
+  "schema_version": 1,
+  "source_protocol": {
+    "bytes": 15387,
+    "path": "docs/psc-liver-program-protocol.md",
+    "sha256": "a36faad8bffee1e5f4f0789c8ce77827e1378477751c7e9e29ecd6bb1d3dcf90"
+  }
+}

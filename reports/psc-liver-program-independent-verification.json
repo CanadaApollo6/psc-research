@@ -1,0 +1,66 @@
+{
+  "adapter_sha256": "34115ac11cf8fb9932f80846afb89d8cfcd04f2543476f1872a765aeeb5c55e1",
+  "agreement": {
+    "absolute_tolerance": 1e-12,
+    "counts_axes_statuses_inventory_indices": "exact",
+    "relative_only_fields": [
+      "degrees_of_freedom",
+      "p_for_correction",
+      "p_raw",
+      "p_vector_for_correction",
+      "q_bh",
+      "q_bh_numeric_including_placeholders",
+      "q_by",
+      "q_by_numeric_including_placeholders",
+      "standard_error",
+      "variance_a",
+      "variance_b"
+    ],
+    "relative_tolerance": 1e-10
+  },
+  "checks": {
+    "bootstrap_differences_compared": 600000,
+    "bootstrap_interval_status_rows_checked": 60,
+    "core_correction_vector_length": 30,
+    "endpoint_rows_checked": 60,
+    "full_library_totals_compared": 64,
+    "native_logcpm_matrix_comparison": "not_available_not_claimed",
+    "private_omissions_checked": 3840,
+    "public_omission_summaries_checked": 60,
+    "raw_source_cells_and_cache_values_compared": 2630144,
+    "score_values_compared": 1280,
+    "score_vectors_checked": 20,
+    "shared_rng_indices_compared": 640000,
+    "source_columns_checked": 64,
+    "source_rows_checked": 41096,
+    "structured_scalar_checks": 748519,
+    "unavailable_core_p_values_checked": 0,
+    "unavailable_score_vectors_checked": 0
+  },
+  "clinical_or_causal_inference_added": false,
+  "frozen_independent_math_sha256": "82403f2cb63ae1eeb7e4f4a1232b21ae6772515d0e1b3ead1ca7397737a62391",
+  "independent_private_receipt_sha256": "9a5827803aa44a9124e59bb491d9b9f6d021b1c5fdd79d82cfbed73c1b856004",
+  "method_validation_before_values": {
+    "author_and_independent_method_tests": 170,
+    "separate_native_output_adapter_root_tests": 74,
+    "source_only_actual_expression_payload_open_attempts": 0
+  },
+  "native_completion_sha256": "b3b4e5d35dc48c2fa52604dadc0f45dd6c10f2c7a45567e924935140d49ce524",
+  "outer_execution_seal_sha256": "59eb70cb6a539d84799300332c1ece54bf5384e9655d26884dacf06b62df7c53",
+  "plan_sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d",
+  "postrun_unchanged_original_raw_and_cache_payload_pins": 2,
+  "postrun_unchanged_outer_metadata_seals": 73,
+  "prefreeze_commit": "c1ce7f25934c3797eed4660cfed414749c8b46bf",
+  "production_contract_sha256": "af87402ee46bee56751f8acbc54bdf932d92db0924b434bf588666868bb53785",
+  "real_data_audited": true,
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "schema_version": 1,
+  "scope": "Complete source-to-native-output audit of frozen GSE303271 program analysis; computational verification, not biological replication",
+  "shared_libraries": "Independent parsing/calculation pipeline shares installed NumPy RNG and SciPy distribution functions; does not reimplement those libraries",
+  "source_values_or_unit_identifiers_exported": false,
+  "status": "pass_complete_native_output_verification"
+}

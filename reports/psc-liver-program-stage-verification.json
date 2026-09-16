@@ -1,0 +1,178 @@
+{
+  "actual_PNG_root_visually_inspected": true,
+  "actual_source_unit_identity_hits_in_new_and_navigation_text": 0,
+  "all60_endpoints_all60_groups_all60_bootstrap_all60_omission_all20_mapping_rows_published": true,
+  "allowed_original_navigation_changes": [
+    ".gitignore",
+    "README.md",
+    "ROADMAP.md",
+    "docs/evidence-log.md"
+  ],
+  "historical_repository_suite_status": {
+    "failures": 0,
+    "latest_worker_snapshot_tests": 1145,
+    "root_full_suite_clean_claim": false,
+    "same_preexisting_ETS2_GSE84161_cache_Rscript_errors": 7
+  },
+  "independent_native_audit_status": "pass_complete_native_output_verification",
+  "local_link_failures": 0,
+  "local_links_checked": 328,
+  "milestone_payload_pins": [
+    {
+      "bytes": 38370,
+      "path": "README.md",
+      "sha256": "a93d6f6063e60d5846ec7b3382d0b046d0664144b6c2ce8d0a36903258d56a4f"
+    },
+    {
+      "bytes": 17479,
+      "path": "ROADMAP.md",
+      "sha256": "e9067211357598358adb1c438bb51c546d2526d9d6b7db2ba9c233b0bf6270b3"
+    },
+    {
+      "bytes": 121123,
+      "path": "docs/evidence-log.md",
+      "sha256": "af3310471973c8471bbf137fe8ebbe6f0178c4e041f5adca68c099b5ab1a7827"
+    },
+    {
+      "bytes": 7649,
+      "path": "docs/psc-analysis-agenda.md",
+      "sha256": "8de8a01018fba2b867451682a95a6ecdbea849a4700e72966266562ca294ebd6"
+    },
+    {
+      "bytes": 22107,
+      "path": "reports/psc-remaining-frontier-appraisal.md",
+      "sha256": "58f7bcac50f9b17586a3079b9cbfce8cfc4dea5731f2bad49c681c41a2414b71"
+    },
+    {
+      "bytes": 14464,
+      "path": "reports/psc-liver-programs.md",
+      "sha256": "821c34a700865355e00107157cf0663bfd86102f1d64bb47a085ffecf78e50e9"
+    },
+    {
+      "bytes": 21427,
+      "path": "docs/psc-liver-program-reproduction.md",
+      "sha256": "b88808bb83fcfa80f521eb4f37fcf49f5fcaf26f33f4f15705297f7274690198"
+    },
+    {
+      "bytes": 2886,
+      "path": "reports/psc-liver-program-independent-verification.json",
+      "sha256": "ec03d0b390d1ac5398570e4aa201370a6037a6fd3a77dfbe25c8d4fe3d42bfbc"
+    },
+    {
+      "bytes": 5071,
+      "path": "reports/psc-liver-program-replay-verification.json",
+      "sha256": "00c4e01b10c01f0345933b08bf0a178ba6d94aee8581ac4242f8406c6e6b79e8"
+    },
+    {
+      "bytes": 3709,
+      "path": "reports/psc-liver-program-presentation-replay-verification.json",
+      "sha256": "2375fad9d44e3df91356ea467c7431998b66b941400a6bb7e8a38b75776c8b29"
+    },
+    {
+      "bytes": 12891,
+      "path": "reports/psc-liver-program-results-review.md",
+      "sha256": "1596a482b97e20cfd368206176b1c6be855a812388f3d73d8ca87abf43893d79"
+    },
+    {
+      "bytes": 11671,
+      "path": "reports/psc-liver-program-reporting-design.md",
+      "sha256": "31a2a187728384f0c637f7fca64b987978eab5c63b4d3c94611c8791f6e6569c"
+    },
+    {
+      "bytes": 54839,
+      "path": "scripts/report_psc_liver_programs.py",
+      "sha256": "2c502da9107deacab445df7f2e81d0496e0e479c4875e8bf4509df11bc892fba"
+    },
+    {
+      "bytes": 26459,
+      "path": "tests/test_report_psc_liver_programs.py",
+      "sha256": "72942df8c321db4ad6217e6268104dcc953f1dd034c892bbcf01b5a3f1f9ea99"
+    },
+    {
+      "bytes": 13872,
+      "path": "data/derived/psc-liver-programs/bootstrap-intervals.csv",
+      "sha256": "cf5bea69739dbcb3e2e15dc51bfcd381c08365d0a87db274bd5d888c788483f9"
+    },
+    {
+      "bytes": 36208,
+      "path": "data/derived/psc-liver-programs/endpoints.csv",
+      "sha256": "9bb09b6eb26b3487576c03a6b4ea0e1078ec051bbbe6d76e348887c88e0d35d2"
+    },
+    {
+      "bytes": 8882,
+      "path": "data/derived/psc-liver-programs/group-summaries.csv",
+      "sha256": "d6cf88fd6b86ca153dd0f6b1ebfc3e6ad81871a831f798313cece809034d720c"
+    },
+    {
+      "bytes": 639,
+      "path": "data/derived/psc-liver-programs/held-endpoints.json",
+      "sha256": "710d59eb64c60ba507be07792297b9c0728c9b74bfabc4a75701f473d2f08ddf"
+    },
+    {
+      "bytes": 3231,
+      "path": "data/derived/psc-liver-programs/mapping-summary.csv",
+      "sha256": "d301284949dfc92479182ff5b97cde6ede77916fc3b12fcecb3d8a0a95f0698a"
+    },
+    {
+      "bytes": 13122,
+      "path": "data/derived/psc-liver-programs/omission-stability.csv",
+      "sha256": "59aabda414b60516637f0b80c2408d6f44192263f903f75c8dc83565fab0902d"
+    },
+    {
+      "bytes": 5510,
+      "path": "data/derived/psc-liver-programs/report-manifest.json",
+      "sha256": "f02cb5180f99335746254d5ba18f717ea5fc8949b39e716966d28e823a45d6a4"
+    },
+    {
+      "bytes": 7163,
+      "path": "data/derived/psc-liver-programs/verification-provenance.json",
+      "sha256": "d28ad996c2283e4ceeae29fbca80b7442128b5fb3b3a2b9ab6d3f8a4d6bd5dbb"
+    },
+    {
+      "bytes": 235884,
+      "path": "reports/figures/psc-liver-programs.png",
+      "sha256": "ff61a64833d1337a71708fcb9e3084b1c869fe2c7e339d96215c2bcb0fe45bce"
+    },
+    {
+      "bytes": 188540,
+      "path": "reports/figures/psc-liver-programs.svg",
+      "sha256": "4afb6c0cc3fb76b91bd273a9c6ede8b030588806deeabbdbae05514ca8f4995c"
+    },
+    {
+      "bytes": 2323,
+      "path": "data/derived/psc-liver-programs/completion-receipt.json",
+      "sha256": "ef924593491e9c5b5b578e177a68f24de8f6af74c39206fe41594e60fed01211"
+    }
+  ],
+  "native_replay_actual_hashes_checked": 24,
+  "native_replay_byte_identical_artifacts": 12,
+  "native_scientific_frozen_artifacts_unchanged": true,
+  "original_missing": [],
+  "original_scientific_files_checked": 1310,
+  "plan_sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d",
+  "prefreeze_commit": "c1ce7f25934c3797eed4660cfed414749c8b46bf",
+  "presentation_replay_actual_hashes_checked": 22,
+  "presentation_replay_byte_identical_artifacts": 11,
+  "primary_completion_sha256": "b3b4e5d35dc48c2fa52604dadc0f45dd6c10f2c7a45567e924935140d49ce524",
+  "published_presentation_actual_hashes_checked": 11,
+  "remaining_phase_work": "BACH2 full aggregate reporting and final computational-frontier closure; no new science or parked reserve reopening",
+  "root_aggregate_interpretation": "0nominal/0BH/0BYCore; all60Welch/bootstrapCIsinclude0; not equivalence or clinical/mechanistic absence",
+  "root_direct_native_to_endpoint_exported_scalar_checks": 2160,
+  "root_reporter_tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 30
+  },
+  "schema_version": 1,
+  "status": "COMPLETED_FROZEN_SCIENCE_AND_AGGREGATE_PUBLICATION_READY_FOR_RESULTS_MILESTONE",
+  "unchanged_liver_outer_seals": 73,
+  "unchanged_parallel_BACH2_outer_seals": 102,
+  "whitespace_check": {
+    "SVG_XML_parses": true,
+    "SVG_coordinate_trailing_space_lines": 2053,
+    "SVG_sha256": "4afb6c0cc3fb76b91bd273a9c6ede8b030588806deeabbdbae05514ca8f4995c",
+    "non_generated_SVG_staged_text": "pass",
+    "preserved_generated_SVG": "reports/figures/psc-liver-programs.svg",
+    "reason": "Authentic deterministic Matplotlib path-coordinate whitespace; preserve approved/replayed artifact bytes rather than hand-edit generated output."
+  }
+}

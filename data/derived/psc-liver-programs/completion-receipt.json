@@ -1,0 +1,62 @@
+{
+  "completion_not_self_listed": true,
+  "inventory": [
+    {
+      "bytes": 13872,
+      "path": "data/derived/psc-liver-programs/bootstrap-intervals.csv",
+      "sha256": "cf5bea69739dbcb3e2e15dc51bfcd381c08365d0a87db274bd5d888c788483f9"
+    },
+    {
+      "bytes": 36208,
+      "path": "data/derived/psc-liver-programs/endpoints.csv",
+      "sha256": "9bb09b6eb26b3487576c03a6b4ea0e1078ec051bbbe6d76e348887c88e0d35d2"
+    },
+    {
+      "bytes": 8882,
+      "path": "data/derived/psc-liver-programs/group-summaries.csv",
+      "sha256": "d6cf88fd6b86ca153dd0f6b1ebfc3e6ad81871a831f798313cece809034d720c"
+    },
+    {
+      "bytes": 639,
+      "path": "data/derived/psc-liver-programs/held-endpoints.json",
+      "sha256": "710d59eb64c60ba507be07792297b9c0728c9b74bfabc4a75701f473d2f08ddf"
+    },
+    {
+      "bytes": 3231,
+      "path": "data/derived/psc-liver-programs/mapping-summary.csv",
+      "sha256": "d301284949dfc92479182ff5b97cde6ede77916fc3b12fcecb3d8a0a95f0698a"
+    },
+    {
+      "bytes": 13122,
+      "path": "data/derived/psc-liver-programs/omission-stability.csv",
+      "sha256": "59aabda414b60516637f0b80c2408d6f44192263f903f75c8dc83565fab0902d"
+    },
+    {
+      "bytes": 5510,
+      "path": "data/derived/psc-liver-programs/report-manifest.json",
+      "sha256": "f02cb5180f99335746254d5ba18f717ea5fc8949b39e716966d28e823a45d6a4"
+    },
+    {
+      "bytes": 7163,
+      "path": "data/derived/psc-liver-programs/verification-provenance.json",
+      "sha256": "d28ad996c2283e4ceeae29fbca80b7442128b5fb3b3a2b9ab6d3f8a4d6bd5dbb"
+    },
+    {
+      "bytes": 235884,
+      "path": "reports/figures/psc-liver-programs.png",
+      "sha256": "ff61a64833d1337a71708fcb9e3084b1c869fe2c7e339d96215c2bcb0fe45bce"
+    },
+    {
+      "bytes": 188540,
+      "path": "reports/figures/psc-liver-programs.svg",
+      "sha256": "4afb6c0cc3fb76b91bd273a9c6ede8b030588806deeabbdbae05514ca8f4995c"
+    }
+  ],
+  "manifest_sha256": "f02cb5180f99335746254d5ba18f717ea5fc8949b39e716966d28e823a45d6a4",
+  "payload_file_count": 10,
+  "reporter_sha256": "2c502da9107deacab445df7f2e81d0496e0e479c4875e8bf4509df11bc892fba",
+  "schema_version": 1,
+  "source_aggregate_sha256": "350ee5d1e447b1cab4621595611de99f7a787af40102187ca0377257c9a598d0",
+  "status": "complete_validated_aggregate_report",
+  "whole_bundle_file_count": 11
+}

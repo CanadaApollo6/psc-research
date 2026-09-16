@@ -1,0 +1,153 @@
+{
+  "inputs": {
+    "aggregate": {
+      "bytes": 161191,
+      "path": "work/psc-liver-program-plan/runs/primary-v1/aggregate-public-summary.json",
+      "sha256": "350ee5d1e447b1cab4621595611de99f7a787af40102187ca0377257c9a598d0"
+    },
+    "handoff": {
+      "bytes": 2027,
+      "path": "work/psc-liver-program-root-freeze-v1/root-reporting-handoff.json",
+      "sha256": "d148b76e4e19fc74174fb5c2693cf9caad35ab21483ae224ac251a1364b0397a"
+    },
+    "independent_verification": {
+      "bytes": 3712,
+      "path": "work/psc-liver-program-independent-review/execution-adapter/runs/primary-v1/audit-receipt.json",
+      "sha256": "9a5827803aa44a9124e59bb491d9b9f6d021b1c5fdd79d82cfbed73c1b856004"
+    },
+    "mechanical_replay": {
+      "bytes": 5071,
+      "path": "work/psc-liver-program-root-freeze-v1/root-mechanical-replay-verification.json",
+      "sha256": "00c4e01b10c01f0345933b08bf0a178ba6d94aee8581ac4242f8406c6e6b79e8"
+    },
+    "outer_seal": {
+      "bytes": 6859,
+      "path": "config/psc-liver-program-execution-seal.json",
+      "sha256": "59eb70cb6a539d84799300332c1ece54bf5384e9655d26884dacf06b62df7c53"
+    },
+    "plan": {
+      "bytes": 9247,
+      "path": "config/psc-liver-program-freeze.json",
+      "sha256": "5e110cfabca0951846d5101063cada8761f021122796649d195174dc6f75315d"
+    },
+    "protocol": {
+      "bytes": 15387,
+      "path": "docs/psc-liver-program-protocol.md",
+      "sha256": "a36faad8bffee1e5f4f0789c8ce77827e1378477751c7e9e29ecd6bb1d3dcf90"
+    },
+    "verification_design": {
+      "bytes": 9803,
+      "path": "reports/psc-liver-program-execution-verification-design.md",
+      "sha256": "4c2550b6e92ef5b0e02db26ff90d9c29b6c646eb10034ef771ad743f25d03eef"
+    }
+  },
+  "native_verification_is_not_reporting_reexecution": true,
+  "null_policy": "JSON_null_CSV_empty; no zero-fill or observed_P_substitution",
+  "paths_are_logical_public_destinations": true,
+  "payloads": [
+    {
+      "bytes": 13872,
+      "path": "data/derived/psc-liver-programs/bootstrap-intervals.csv",
+      "sha256": "cf5bea69739dbcb3e2e15dc51bfcd381c08365d0a87db274bd5d888c788483f9"
+    },
+    {
+      "bytes": 36208,
+      "path": "data/derived/psc-liver-programs/endpoints.csv",
+      "sha256": "9bb09b6eb26b3487576c03a6b4ea0e1078ec051bbbe6d76e348887c88e0d35d2"
+    },
+    {
+      "bytes": 8882,
+      "path": "data/derived/psc-liver-programs/group-summaries.csv",
+      "sha256": "d6cf88fd6b86ca153dd0f6b1ebfc3e6ad81871a831f798313cece809034d720c"
+    },
+    {
+      "bytes": 639,
+      "path": "data/derived/psc-liver-programs/held-endpoints.json",
+      "sha256": "710d59eb64c60ba507be07792297b9c0728c9b74bfabc4a75701f473d2f08ddf"
+    },
+    {
+      "bytes": 3231,
+      "path": "data/derived/psc-liver-programs/mapping-summary.csv",
+      "sha256": "d301284949dfc92479182ff5b97cde6ede77916fc3b12fcecb3d8a0a95f0698a"
+    },
+    {
+      "bytes": 13122,
+      "path": "data/derived/psc-liver-programs/omission-stability.csv",
+      "sha256": "59aabda414b60516637f0b80c2408d6f44192263f903f75c8dc83565fab0902d"
+    },
+    {
+      "bytes": 7163,
+      "path": "data/derived/psc-liver-programs/verification-provenance.json",
+      "sha256": "d28ad996c2283e4ceeae29fbca80b7442128b5fb3b3a2b9ab6d3f8a4d6bd5dbb"
+    },
+    {
+      "bytes": 235884,
+      "path": "reports/figures/psc-liver-programs.png",
+      "sha256": "ff61a64833d1337a71708fcb9e3084b1c869fe2c7e339d96215c2bcb0fe45bce"
+    },
+    {
+      "bytes": 188540,
+      "path": "reports/figures/psc-liver-programs.svg",
+      "sha256": "4afb6c0cc3fb76b91bd273a9c6ede8b030588806deeabbdbae05514ca8f4995c"
+    }
+  ],
+  "privacy_scope": "one_hash_authenticated_recursively_validated_aggregate_not_universal_guarantee",
+  "reporting_artifacts": {
+    "design": {
+      "bytes": 11671,
+      "path": "reports/psc-liver-program-reporting-design.md",
+      "sha256": "31a2a187728384f0c637f7fca64b987978eab5c63b4d3c94611c8791f6e6569c"
+    },
+    "reporter": {
+      "bytes": 54839,
+      "path": "scripts/report_psc_liver_programs.py",
+      "sha256": "2c502da9107deacab445df7f2e81d0496e0e479c4875e8bf4509df11bc892fba"
+    },
+    "tests": {
+      "bytes": 26459,
+      "path": "tests/test_report_psc_liver_programs.py",
+      "sha256": "72942df8c321db4ad6217e6268104dcc953f1dd034c892bbcf01b5a3f1f9ea99"
+    }
+  },
+  "row_counts": {
+    "bootstrap-intervals.csv": 60,
+    "endpoints.csv": 60,
+    "group-summaries.csv": 60,
+    "mapping-summary.csv": 20,
+    "omission-stability.csv": 60
+  },
+  "runtime": {
+    "backend": "Agg",
+    "byteorder": "little",
+    "dpi": 160,
+    "figure_inches": [
+      17,
+      9
+    ],
+    "font_family": "DejaVu Sans",
+    "fonts": {
+      "DejaVuSans-Bold.ttf": {
+        "bytes": 704128,
+        "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      },
+      "DejaVuSans.ttf": {
+        "bytes": 756072,
+        "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      }
+    },
+    "freetype": "2.14.3",
+    "matplotlib": "3.11.2",
+    "metadata_dates": "omitted",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0",
+    "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+    "python": "3.12.14",
+    "python_full": "3.12.14 (main, Aug 14 2026, 15:34:45) [Clang 22.1.3 ]",
+    "python_implementation": "CPython",
+    "statistical_recomputation": false,
+    "svg_hashsalt": "psc-liver-program-report-v1",
+    "table_float_serialization": "Python round-trip str; no rounding"
+  },
+  "schema_version": 1,
+  "status": "complete_bounded_aggregate_report"
+}
